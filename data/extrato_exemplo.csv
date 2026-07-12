@@ -1,0 +1,209 @@
+data,descricao,valor
+2026-01-02,Uber *Trip,-31.49
+2026-01-02,99 App Corrida,-17.41
+2026-01-04,Bar do Ze,-90.54
+2026-01-05,Salario Empresa XYZ Ltda,7500.00
+2026-01-05,Aluguel Imobiliaria Santos,-1800.00
+2026-01-06,iFood *Restaurante,-74.32
+2026-01-07,Unimed Plano de Saude,-420.00
+2026-01-08,Vivo Internet Fibra,-120.00
+2026-01-08,iFood *Restaurante,-31.09
+2026-01-08,Uber *Trip,-13.51
+2026-01-09,Uber *Trip,-12.83
+2026-01-09,Bar do Ze,-86.49
+2026-01-10,Condominio Edificio Aurora,-650.00
+2026-01-10,Magazine Luiza,-93.34
+2026-01-12,Enel Energia Eletrica,-180.00
+2026-01-12,Sabesp Agua,-95.00
+2026-01-12,Uber *Trip,-23.85
+2026-01-12,Posto Shell Combustivel,-117.65
+2026-01-13,Posto Shell Combustivel,-107.38
+2026-01-13,Drogasil Farmacia,-105.98
+2026-01-13,Drogasil Farmacia,-32.16
+2026-01-15,Netflix Assinatura,-55.00
+2026-01-15,Spotify Premium,-22.00
+2026-01-15,Padaria Sao Jorge,-19.33
+2026-01-18,Uber *Trip,-34.33
+2026-01-18,Padaria Sao Jorge,-24.25
+2026-01-20,Alura Cursos Mensalidade,-85.00
+2026-01-20,Shopee Compra,-123.69
+2026-01-23,Drogasil Farmacia,-90.18
+2026-01-23,Posto Shell Combustivel,-188.15
+2026-01-23,Drogasil Farmacia,-85.37
+2026-01-24,Drogasil Farmacia,-38.44
+2026-01-24,Shopee Compra,-47.38
+2026-01-25,Supermercado Pao de Acucar,-131.68
+2026-01-27,Amazon Marketplace,-197.76
+2026-01-28,99 App Corrida,-17.79
+2026-01-28,Shopee Compra,-118.96
+2026-01-28,Amazon Marketplace,-394.53
+2026-02-02,iFood *Restaurante,-39.89
+2026-02-03,Posto Shell Combustivel,-158.20
+2026-02-03,Supermercado Pao de Acucar,-202.29
+2026-02-04,iFood *Restaurante,-69.22
+2026-02-05,Salario Empresa XYZ Ltda,7500.00
+2026-02-05,Aluguel Imobiliaria Santos,-1800.00
+2026-02-05,Cinema Ingresso,-37.14
+2026-02-05,iFood *Restaurante,-80.97
+2026-02-06,Uber *Trip,-21.69
+2026-02-07,Unimed Plano de Saude,-420.00
+2026-02-08,Vivo Internet Fibra,-120.00
+2026-02-08,Shopee Compra,-130.11
+2026-02-08,99 App Corrida,-21.18
+2026-02-10,Condominio Edificio Aurora,-650.00
+2026-02-11,Amazon Marketplace,-314.38
+2026-02-12,Enel Energia Eletrica,-180.00
+2026-02-12,Sabesp Agua,-95.00
+2026-02-13,Magazine Luiza,-378.02
+2026-02-14,Amazon Marketplace,-306.40
+2026-02-15,Netflix Assinatura,-55.00
+2026-02-15,Spotify Premium,-22.00
+2026-02-15,Magazine Luiza,-377.74
+2026-02-18,Drogasil Farmacia,-93.22
+2026-02-18,Padaria Sao Jorge,-14.79
+2026-02-19,Drogasil Farmacia,-110.88
+2026-02-20,Alura Cursos Mensalidade,-85.00
+2026-02-21,Bar do Ze,-74.61
+2026-02-21,Cinema Ingresso,-49.78
+2026-02-22,Shopee Compra,-45.60
+2026-02-24,Cinema Ingresso,-30.16
+2026-02-25,Shopee Compra,-71.89
+2026-02-25,Shopee Compra,-161.57
+2026-03-01,Drogasil Farmacia,-21.72
+2026-03-03,99 App Corrida,-36.51
+2026-03-03,Bar do Ze,-93.46
+2026-03-03,Shopee Compra,-29.42
+2026-03-03,iFood *Restaurante,-80.88
+2026-03-04,Supermercado Pao de Acucar,-201.84
+2026-03-04,Posto Shell Combustivel,-173.06
+2026-03-05,Salario Empresa XYZ Ltda,7500.00
+2026-03-05,Aluguel Imobiliaria Santos,-1800.00
+2026-03-05,Padaria Sao Jorge,-24.44
+2026-03-05,Padaria Sao Jorge,-28.68
+2026-03-05,Cinema Ingresso,-40.71
+2026-03-07,Unimed Plano de Saude,-420.00
+2026-03-07,99 App Corrida,-21.85
+2026-03-07,Cinema Ingresso,-70.37
+2026-03-08,Vivo Internet Fibra,-120.00
+2026-03-08,Amazon Marketplace,-118.60
+2026-03-08,Padaria Sao Jorge,-20.19
+2026-03-10,Condominio Edificio Aurora,-650.00
+2026-03-12,Enel Energia Eletrica,-180.00
+2026-03-12,Sabesp Agua,-95.00
+2026-03-13,Drogasil Farmacia,-89.86
+2026-03-15,Netflix Assinatura,-55.00
+2026-03-15,Spotify Premium,-22.00
+2026-03-15,Shopee Compra,-123.98
+2026-03-18,Posto Shell Combustivel,-219.63
+2026-03-18,Shopee Compra,-96.05
+2026-03-19,99 App Corrida,-25.51
+2026-03-19,Bar do Ze,-142.91
+2026-03-20,Alura Cursos Mensalidade,-85.00
+2026-03-20,Padaria Sao Jorge,-32.80
+2026-03-21,Shopee Compra,-67.75
+2026-03-22,Padaria Sao Jorge,-14.43
+2026-03-23,Padaria Sao Jorge,-28.39
+2026-03-23,Drogasil Farmacia,-15.76
+2026-03-25,Amazon Marketplace,-389.60
+2026-03-26,99 App Corrida,-23.23
+2026-03-27,Posto Shell Combustivel,-239.38
+2026-03-28,Supermercado Pao de Acucar,-143.61
+2026-04-01,iFood *Restaurante,-35.70
+2026-04-02,Drogasil Farmacia,-46.15
+2026-04-03,Padaria Sao Jorge,-30.57
+2026-04-05,Salario Empresa XYZ Ltda,7500.00
+2026-04-05,Aluguel Imobiliaria Santos,-1800.00
+2026-04-05,Shopee Compra,-134.95
+2026-04-07,Unimed Plano de Saude,-420.00
+2026-04-07,Uber *Trip,-20.21
+2026-04-08,Vivo Internet Fibra,-120.00
+2026-04-08,Supermercado Pao de Acucar,-146.85
+2026-04-10,Condominio Edificio Aurora,-650.00
+2026-04-12,Enel Energia Eletrica,-180.00
+2026-04-12,Sabesp Agua,-95.00
+2026-04-12,Uber *Trip,-33.75
+2026-04-13,Shopee Compra,-35.75
+2026-04-13,Cinema Ingresso,-40.69
+2026-04-14,Padaria Sao Jorge,-20.11
+2026-04-15,Netflix Assinatura,-55.00
+2026-04-15,Spotify Premium,-22.00
+2026-04-16,Drogasil Farmacia,-32.46
+2026-04-18,Bar do Ze,-149.50
+2026-04-20,Alura Cursos Mensalidade,-85.00
+2026-04-21,Bar do Ze,-45.96
+2026-04-21,Padaria Sao Jorge,-10.64
+2026-04-23,Cinema Ingresso,-44.26
+2026-04-26,Magazine Luiza,-195.86
+2026-04-28,Magazine Luiza,-276.11
+2026-04-28,Bar do Ze,-77.32
+2026-04-28,Uber *Trip,-26.62
+2026-05-02,Drogasil Farmacia,-75.79
+2026-05-03,Uber *Trip,-40.09
+2026-05-03,99 App Corrida,-37.89
+2026-05-03,Supermercado Pao de Acucar,-303.98
+2026-05-04,Amazon Marketplace,-72.71
+2026-05-05,Salario Empresa XYZ Ltda,7500.00
+2026-05-05,Aluguel Imobiliaria Santos,-1800.00
+2026-05-05,Uber *Trip,-42.98
+2026-05-06,Drogasil Farmacia,-53.80
+2026-05-07,Unimed Plano de Saude,-420.00
+2026-05-08,Vivo Internet Fibra,-120.00
+2026-05-09,Padaria Sao Jorge,-13.76
+2026-05-09,Bar do Ze,-100.85
+2026-05-10,Condominio Edificio Aurora,-650.00
+2026-05-10,Supermercado Pao de Acucar,-241.21
+2026-05-11,99 App Corrida,-25.83
+2026-05-12,Enel Energia Eletrica,-180.00
+2026-05-12,Sabesp Agua,-95.00
+2026-05-13,Posto Shell Combustivel,-130.58
+2026-05-15,Netflix Assinatura,-55.00
+2026-05-15,Spotify Premium,-22.00
+2026-05-17,Padaria Sao Jorge,-12.25
+2026-05-19,Posto Shell Combustivel,-99.72
+2026-05-19,Drogasil Farmacia,-57.40
+2026-05-20,Alura Cursos Mensalidade,-85.00
+2026-05-20,Uber *Trip,-12.31
+2026-05-22,99 App Corrida,-12.30
+2026-05-22,Shopee Compra,-104.63
+2026-05-22,Padaria Sao Jorge,-16.08
+2026-05-23,Amazon Marketplace,-105.58
+2026-05-23,Cinema Ingresso,-71.69
+2026-05-23,Amazon Marketplace,-253.79
+2026-05-24,Bar do Ze,-99.64
+2026-05-25,Cinema Ingresso,-45.81
+2026-05-26,Amazon Marketplace,-256.32
+2026-05-28,Cinema Ingresso,-55.14
+2026-05-28,99 App Corrida,-11.90
+2026-06-01,Bar do Ze,-87.05
+2026-06-01,Supermercado Pao de Acucar,-291.54
+2026-06-04,Shopee Compra,-59.92
+2026-06-04,Supermercado Pao de Acucar,-268.97
+2026-06-05,Salario Empresa XYZ Ltda,7500.00
+2026-06-05,Aluguel Imobiliaria Santos,-1800.00
+2026-06-05,Posto Shell Combustivel,-189.03
+2026-06-07,Unimed Plano de Saude,-420.00
+2026-06-07,iFood *Restaurante,-83.43
+2026-06-08,Vivo Internet Fibra,-120.00
+2026-06-08,Supermercado Pao de Acucar,-302.18
+2026-06-09,Amazon Marketplace,-217.00
+2026-06-09,Supermercado Pao de Acucar,-232.91
+2026-06-09,Bar do Ze,-129.18
+2026-06-10,Condominio Edificio Aurora,-650.00
+2026-06-10,Magazine Luiza,-120.10
+2026-06-11,Amazon Marketplace,-46.31
+2026-06-11,Supermercado Pao de Acucar,-256.78
+2026-06-12,Enel Energia Eletrica,-180.00
+2026-06-12,Sabesp Agua,-95.00
+2026-06-14,iFood *Restaurante,-31.00
+2026-06-15,Netflix Assinatura,-55.00
+2026-06-15,Spotify Premium,-22.00
+2026-06-18,Supermercado Pao de Acucar,-257.90
+2026-06-20,Alura Cursos Mensalidade,-85.00
+2026-06-23,Uber *Trip,-14.48
+2026-06-24,Magazine Luiza,-585.61
+2026-06-26,Posto Shell Combustivel,-242.83
+2026-06-26,Supermercado Pao de Acucar,-314.29
+2026-06-27,Supermercado Pao de Acucar,-210.94
+2026-06-28,Drogasil Farmacia,-87.19
+2026-06-28,Posto Shell Combustivel,-222.62
+2026-06-28,Magazine Luiza,-491.23

@@ -1,0 +1,425 @@
+<title>OrçaFácil — Painel Financeiro</title>
+<style>
+  :root {
+    --surface-0: #f4f4f1;
+    --surface-1: #fcfcfb;
+    --surface-2: #f0efec;
+    --border: #e2e1dc;
+    --text-primary: #14140f;
+    --text-secondary: #55534c;
+    --text-muted: #8a887f;
+    --accent: #2a78d6;
+    --receita: #1baf7a;
+    --despesa: #e34948;
+    --good: #0ca30c;
+    --critical: #d03b3b;
+    --grid: #ebeae5;
+    --shadow: 0 1px 2px rgba(20,20,15,.04), 0 4px 16px rgba(20,20,15,.05);
+    --radius: 14px;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-0: #131312;
+      --surface-1: #1e1e1c;
+      --surface-2: #252523;
+      --border: #33332f;
+      --text-primary: #f5f4ee;
+      --text-secondary: #b8b6ac;
+      --text-muted: #7d7b72;
+      --accent: #3987e5;
+      --receita: #22c48a;
+      --despesa: #e66767;
+      --good: #2fbf2f;
+      --critical: #e05555;
+      --grid: #2b2b28;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --surface-0: #131312; --surface-1: #1e1e1c; --surface-2: #252523;
+    --border: #33332f; --text-primary: #f5f4ee; --text-secondary: #b8b6ac;
+    --text-muted: #7d7b72; --accent: #3987e5; --receita: #22c48a;
+    --despesa: #e66767; --good: #2fbf2f; --critical: #e05555; --grid: #2b2b28;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.35);
+  }
+  :root[data-theme="light"] {
+    --surface-0: #f4f4f1; --surface-1: #fcfcfb; --surface-2: #f0efec;
+    --border: #e2e1dc; --text-primary: #14140f; --text-secondary: #55534c;
+    --text-muted: #8a887f; --accent: #2a78d6; --receita: #1baf7a;
+    --despesa: #e34948; --good: #0ca30c; --critical: #d03b3b; --grid: #ebeae5;
+    --shadow: 0 1px 2px rgba(20,20,15,.04), 0 4px 16px rgba(20,20,15,.05);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface-0); color: var(--text-primary);
+    font-family: var(--sans); line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px 64px; }
+  .num { font-variant-numeric: tabular-nums; }
+
+  header.page { display: flex; flex-wrap: wrap; align-items: flex-end;
+    justify-content: space-between; gap: 16px; margin-bottom: 32px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo { width: 40px; height: 40px; border-radius: 11px; flex: none;
+    background: linear-gradient(135deg, var(--accent), var(--receita));
+    display: grid; place-items: center; color: #fff; font-weight: 700;
+    font-size: 20px; letter-spacing: -.5px; }
+  h1 { margin: 0; font-size: 24px; letter-spacing: -.4px; font-weight: 680; }
+  .subtitle { margin: 2px 0 0; color: var(--text-secondary); font-size: 13.5px; }
+  .theme-toggle { border: 1px solid var(--border); background: var(--surface-1);
+    color: var(--text-secondary); border-radius: 999px; padding: 8px 14px;
+    font: inherit; font-size: 13px; cursor: pointer; display: inline-flex;
+    align-items: center; gap: 7px; box-shadow: var(--shadow); }
+  .theme-toggle:hover { color: var(--text-primary); border-color: var(--text-muted); }
+  .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+    margin-bottom: 28px; }
+  @media (max-width: 720px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  .kpi { background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px 18px 16px; box-shadow: var(--shadow);
+    position: relative; overflow: hidden; }
+  .kpi::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0;
+    width: 4px; background: var(--kpi-accent, var(--accent)); }
+  .kpi .label { font-size: 11.5px; text-transform: uppercase; letter-spacing: .6px;
+    color: var(--text-muted); font-weight: 600; }
+  .kpi .value { font-size: 25px; font-weight: 680; margin-top: 8px;
+    letter-spacing: -.5px; }
+  .kpi .meta { font-size: 12.5px; color: var(--text-secondary); margin-top: 4px; }
+
+  .card { background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 24px;
+    margin-bottom: 24px; }
+  .card h2 { margin: 0 0 2px; font-size: 16px; font-weight: 660; letter-spacing: -.2px; }
+  .card .hint { margin: 0 0 18px; color: var(--text-muted); font-size: 12.5px; }
+  .card-head { display: flex; align-items: flex-start; justify-content: space-between;
+    gap: 12px; }
+
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; margin: 0 0 4px; }
+  .legend span { display: inline-flex; align-items: center; gap: 7px;
+    font-size: 12.5px; color: var(--text-secondary); }
+  .swatch { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+  .swatch.line { height: 3px; border-radius: 2px; width: 16px; }
+
+  .grid2 { display: grid; grid-template-columns: 1.15fr .85fr; gap: 24px; }
+  @media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; } }
+
+  /* Category ranking bars */
+  .cat { display: grid; grid-template-columns: 96px 1fr auto; align-items: center;
+    gap: 12px; padding: 7px 0; }
+  .cat + .cat { border-top: 1px solid var(--grid); }
+  .cat .name { font-size: 13px; color: var(--text-secondary); }
+  .cat .track { background: var(--surface-2); border-radius: 5px; height: 22px;
+    overflow: hidden; position: relative; }
+  .cat .fill { height: 100%; background: var(--accent); border-radius: 5px;
+    transition: width .9s cubic-bezier(.2,.7,.2,1); min-width: 3px; }
+  .cat .amt { font-size: 13px; font-weight: 600; text-align: right; min-width: 118px; }
+  .cat .amt small { color: var(--text-muted); font-weight: 500; margin-left: 6px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-size: 11px; text-transform: uppercase;
+    letter-spacing: .5px; color: var(--text-muted); font-weight: 600;
+    padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  td { padding: 9px 8px; border-bottom: 1px solid var(--grid); color: var(--text-secondary); }
+  td.r { text-align: right; color: var(--text-primary); font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .chip { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px;
+    background: var(--surface-2); color: var(--text-secondary); border: 1px solid var(--border); }
+
+  .insights { list-style: none; margin: 0; padding: 0; display: flex;
+    flex-direction: column; gap: 12px; }
+  .insights li { display: flex; gap: 11px; font-size: 13.5px; line-height: 1.45;
+    color: var(--text-secondary); background: var(--surface-2);
+    border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .insights .ic { font-size: 17px; line-height: 1.2; flex: none; }
+
+  svg { display: block; width: 100%; height: auto; }
+  .axis-label { fill: var(--text-muted); font-size: 11px; font-family: var(--sans); }
+  .val-label { fill: var(--text-secondary); font-size: 10.5px; font-family: var(--sans);
+    font-variant-numeric: tabular-nums; }
+  .zero-line { stroke: var(--text-muted); stroke-width: 1; stroke-dasharray: 3 3; opacity: .6; }
+
+  .tooltip { position: fixed; pointer-events: none; z-index: 20; opacity: 0;
+    transition: opacity .12s; background: var(--text-primary); color: var(--surface-1);
+    padding: 9px 11px; border-radius: 9px; font-size: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.25);
+    max-width: 220px; }
+  .tooltip .tt-t { font-weight: 700; margin-bottom: 4px; }
+  .tooltip .tt-row { display: flex; justify-content: space-between; gap: 14px;
+    font-variant-numeric: tabular-nums; }
+  .tooltip .tt-row .k { opacity: .75; }
+
+  .bar-rect { transition: opacity .12s; cursor: pointer; }
+  .bar-rect:hover { opacity: .82; }
+
+  footer.page { color: var(--text-muted); font-size: 12px; text-align: center;
+    margin-top: 36px; }
+  footer.page code { background: var(--surface-2); padding: 2px 6px; border-radius: 5px; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="page">
+    <div class="brand">
+      <div class="logo">O</div>
+      <div>
+        <h1>OrçaFácil</h1>
+        <p class="subtitle" id="periodo">Painel financeiro pessoal</p>
+      </div>
+    </div>
+    <button class="theme-toggle" id="themeBtn" aria-label="Alternar tema">
+      <span id="themeIcon">🌙</span><span id="themeLabel">Tema escuro</span>
+    </button>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="Indicadores do período"></section>
+
+  <section class="card">
+    <div class="card-head">
+      <div>
+        <h2>Evolução mensal</h2>
+        <p class="hint">Receitas, despesas e saldo mês a mês — todos em reais (R$).</p>
+      </div>
+      <div class="legend" aria-hidden="true">
+        <span><i class="swatch" style="background:var(--receita)"></i>Receitas</span>
+        <span><i class="swatch" style="background:var(--despesa)"></i>Despesas</span>
+        <span><i class="swatch line" style="background:var(--accent)"></i>Saldo</span>
+      </div>
+    </div>
+    <div id="chartMensal"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>Gastos por categoria</h2>
+      <p class="hint">Ranking de despesas do período. Valores diretos ao lado de cada barra.</p>
+      <div id="ranking"></div>
+    </section>
+
+    <section class="card">
+      <h2>Insights</h2>
+      <p class="hint">Observações geradas automaticamente a partir dos seus dados.</p>
+      <ul class="insights" id="insights"></ul>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Maiores despesas</h2>
+    <p class="hint">As cinco transações de maior valor no período.</p>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th>Data</th><th>Descrição</th><th>Categoria</th><th style="text-align:right">Valor</th></tr></thead>
+        <tbody id="maiores"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="page">
+    Gerado pelo <strong>OrçaFácil</strong> · dados de exemplo · CLI: <code>python -m orcafacil.cli analisar extrato.csv</code>
+  </footer>
+</div>
+
+<div class="tooltip" id="tooltip" role="status" aria-live="polite"></div>
+
+<script>
+const DADOS = {
+  "periodo": ["2026-01-02", "2026-06-28"],
+  "total_receitas": 45000.00, "total_despesas": 36816.21,
+  "saldo": 8183.79, "taxa_poupanca": 18.19,
+  "por_categoria": [
+    {"categoria":"Moradia","total":16350.00,"quantidade":24,"percentual":44.41},
+    {"categoria":"Compras","total":6542.64,"quantidade":35,"percentual":17.77},
+    {"categoria":"Alimentação","total":5521.69,"quantidade":51,"percentual":15.0},
+    {"categoria":"Saúde","total":3556.36,"quantidade":22,"percentual":9.66},
+    {"categoria":"Transporte","total":2667.77,"quantidade":36,"percentual":7.25},
+    {"categoria":"Lazer","total":947.75,"quantidade":22,"percentual":2.57},
+    {"categoria":"Serviços","total":720.00,"quantidade":6,"percentual":1.96},
+    {"categoria":"Educação","total":510.00,"quantidade":6,"percentual":1.39}
+  ],
+  "por_mes": [
+    {"ano_mes":"2026-01","receitas":7500,"despesas":5776.88,"saldo":1723.12},
+    {"ano_mes":"2026-02","receitas":7500,"despesas":6216.73,"saldo":1283.27},
+    {"ano_mes":"2026-03","receitas":7500,"despesas":6041.62,"saldo":1458.38},
+    {"ano_mes":"2026-04","receitas":7500,"despesas":4830.46,"saldo":2669.54},
+    {"ano_mes":"2026-05","receitas":7500,"despesas":5781.03,"saldo":1718.97},
+    {"ano_mes":"2026-06","receitas":7500,"despesas":8169.49,"saldo":-669.49}
+  ],
+  "maiores_despesas": [
+    {"data":"2026-01-05","descricao":"Aluguel Imobiliaria Santos","valor":1800,"categoria":"Moradia"},
+    {"data":"2026-02-05","descricao":"Aluguel Imobiliaria Santos","valor":1800,"categoria":"Moradia"},
+    {"data":"2026-03-05","descricao":"Aluguel Imobiliaria Santos","valor":1800,"categoria":"Moradia"},
+    {"data":"2026-04-05","descricao":"Aluguel Imobiliaria Santos","valor":1800,"categoria":"Moradia"},
+    {"data":"2026-05-05","descricao":"Aluguel Imobiliaria Santos","valor":1800,"categoria":"Moradia"}
+  ],
+  "insights": [
+    "✅ Ótimo! Você poupou 18% da sua renda no período.",
+    "📌 Moradia concentra 44% dos seus gastos — vale investigar se há espaço para reduzir.",
+    "📈 Seus gastos subiram 41% em relação ao mês anterior."
+  ]
+};
+
+const brl = new Intl.NumberFormat('pt-BR', {style:'currency', currency:'BRL'});
+const brl0 = new Intl.NumberFormat('pt-BR', {style:'currency', currency:'BRL', maximumFractionDigits:0});
+const meses = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+const rotMes = am => { const [a,m]=am.split('-'); return meses[+m-1]+'/'+a.slice(2); };
+const rotData = d => { const [a,m,dia]=d.split('-'); return dia+'/'+m; };
+
+// --- Período ---
+const [pi, pf] = DADOS.periodo;
+document.getElementById('periodo').textContent =
+  `Período: ${rotData(pi)}/${pi.slice(2,4)} a ${rotData(pf)}/${pf.slice(2,4)} · 6 meses`;
+
+// --- KPIs ---
+const poupPos = DADOS.saldo >= 0;
+const kpis = [
+  {label:'Receitas', value: brl.format(DADOS.total_receitas), meta:'Total no período', accent:'var(--receita)'},
+  {label:'Despesas', value: brl.format(DADOS.total_despesas), meta:'Total no período', accent:'var(--despesa)'},
+  {label:'Saldo', value: brl.format(DADOS.saldo), meta: poupPos?'Sobrou no período':'Déficit no período',
+    accent: poupPos?'var(--good)':'var(--critical)', vcolor: poupPos?'var(--good)':'var(--critical)'},
+  {label:'Taxa de poupança', value: DADOS.taxa_poupanca.toFixed(1)+'%', meta:'da renda foi poupada', accent:'var(--accent)'}
+];
+document.getElementById('kpis').innerHTML = kpis.map(k => `
+  <div class="kpi" style="--kpi-accent:${k.accent}">
+    <div class="label">${k.label}</div>
+    <div class="value num" ${k.vcolor?`style="color:${k.vcolor}"`:''}>${k.value}</div>
+    <div class="meta">${k.meta}</div>
+  </div>`).join('');
+
+// --- Tooltip helper ---
+const tip = document.getElementById('tooltip');
+function showTip(html, evt) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = evt.clientX + pad, y = evt.clientY + pad;
+  if (x + w > innerWidth) x = evt.clientX - w - pad;
+  if (y + h > innerHeight) y = evt.clientY - h - pad;
+  tip.style.left = x+'px'; tip.style.top = y+'px';
+}
+function hideTip(){ tip.style.opacity = 0; }
+
+// --- Monthly grouped bars + saldo line ---
+function renderMensal() {
+  const d = DADOS.por_mes;
+  const W = 730, H = 300, mL = 64, mR = 14, mT = 16, mB = 34;
+  const iw = W - mL - mR, ih = H - mT - mB;
+  const maxV = Math.max(...d.map(m => Math.max(m.receitas, m.despesas)));
+  const minV = Math.min(0, ...d.map(m => m.saldo));
+  const top = Math.ceil(maxV/1000)*1000;
+  const bot = Math.floor(minV/1000)*1000;
+  const y = v => mT + ih - ((v - bot)/(top - bot))*ih;
+  const bandW = iw / d.length;
+  const barW = Math.min(30, bandW*0.30);
+  const gap = 4;
+
+  let g = '';
+  // gridlines
+  const steps = 5;
+  for (let i=0;i<=steps;i++){
+    const val = bot + (top-bot)*i/steps;
+    const yy = y(val);
+    g += `<line x1="${mL}" x2="${W-mR}" y1="${yy}" y2="${yy}" stroke="var(--grid)" stroke-width="1"/>`;
+    g += `<text class="val-label" x="${mL-8}" y="${yy+3}" text-anchor="end">${brl0.format(val)}</text>`;
+  }
+  if (bot < 0) g += `<line class="zero-line" x1="${mL}" x2="${W-mR}" y1="${y(0)}" y2="${y(0)}"/>`;
+
+  // bars
+  d.forEach((m,i) => {
+    const cx = mL + bandW*i + bandW/2;
+    const xR = cx - barW - gap/2, xD = cx + gap/2;
+    const y0 = y(0);
+    const drawBar = (x, val, color, nome) => {
+      const yy = y(val), hh = Math.abs(y0 - yy);
+      const yTop = val>=0 ? yy : y0;
+      g += `<rect class="bar-rect" x="${x}" y="${yTop}" width="${barW}" height="${Math.max(hh,1)}" rx="4" fill="${color}"
+        data-t="${rotMes(m.ano_mes)}" data-nome="${nome}" data-val="${val}"/>`;
+    };
+    drawBar(xR, m.receitas, 'var(--receita)', 'Receitas');
+    drawBar(xD, m.despesas, 'var(--despesa)', 'Despesas');
+    g += `<text class="axis-label" x="${cx}" y="${H-14}" text-anchor="middle">${rotMes(m.ano_mes)}</text>`;
+  });
+
+  // saldo line
+  const pts = d.map((m,i) => [mL + bandW*i + bandW/2, y(m.saldo)]);
+  const path = pts.map((p,i)=>(i?'L':'M')+p[0]+' '+p[1]).join(' ');
+  g += `<path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2.5"
+    stroke-linejoin="round" stroke-linecap="round"/>`;
+  pts.forEach((p,i) => {
+    g += `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="var(--surface-1)" stroke="var(--accent)" stroke-width="2.5"
+      class="bar-rect" data-t="${rotMes(d[i].ano_mes)}" data-nome="Saldo" data-val="${d[i].saldo}"/>`;
+  });
+
+  const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico de receitas, despesas e saldo por mês">${g}</svg>`;
+  const el = document.getElementById('chartMensal');
+  el.innerHTML = svg;
+
+  el.querySelectorAll('[data-nome]').forEach(node => {
+    const move = e => {
+      const m = DADOS.por_mes.find(x => rotMes(x.ano_mes) === node.dataset.t);
+      showTip(`<div class="tt-t">${node.dataset.t}</div>
+        <div class="tt-row"><span class="k">Receitas</span><span>${brl.format(m.receitas)}</span></div>
+        <div class="tt-row"><span class="k">Despesas</span><span>${brl.format(m.despesas)}</span></div>
+        <div class="tt-row"><span class="k">Saldo</span><span>${brl.format(m.saldo)}</span></div>`, e);
+    };
+    node.addEventListener('mousemove', move);
+    node.addEventListener('mouseleave', hideTip);
+  });
+}
+
+// --- Category ranking ---
+function renderRanking() {
+  const cats = DADOS.por_categoria;
+  const max = Math.max(...cats.map(c => c.total));
+  document.getElementById('ranking').innerHTML = cats.map(c => `
+    <div class="cat">
+      <div class="name">${c.categoria}</div>
+      <div class="track" title="${c.categoria}: ${brl.format(c.total)} (${c.percentual.toFixed(1)}%)">
+        <div class="fill" style="width:${(c.total/max*100).toFixed(1)}%"></div>
+      </div>
+      <div class="amt num">${brl.format(c.total)}<small>${c.percentual.toFixed(1)}%</small></div>
+    </div>`).join('');
+}
+
+// --- Insights ---
+document.getElementById('insights').innerHTML = DADOS.insights.map(t => {
+  const ic = t.slice(0, 2).trim();
+  const txt = t.replace(/^[^\s]+\s/, '');
+  return `<li><span class="ic">${ic}</span><span>${txt}</span></li>`;
+}).join('');
+
+// --- Maiores despesas ---
+document.getElementById('maiores').innerHTML = DADOS.maiores_despesas.map(t => `
+  <tr>
+    <td class="num">${rotData(t.data)}</td>
+    <td>${t.descricao}</td>
+    <td><span class="chip">${t.categoria}</span></td>
+    <td class="r num">${brl.format(t.valor)}</td>
+  </tr>`).join('');
+
+// --- Theme toggle ---
+const root = document.documentElement;
+const btn = document.getElementById('themeBtn');
+function currentDark() {
+  const attr = root.getAttribute('data-theme');
+  if (attr) return attr === 'dark';
+  return matchMedia('(prefers-color-scheme: dark)').matches;
+}
+function syncBtn() {
+  const dark = currentDark();
+  document.getElementById('themeIcon').textContent = dark ? '☀️' : '🌙';
+  document.getElementById('themeLabel').textContent = dark ? 'Tema claro' : 'Tema escuro';
+}
+btn.addEventListener('click', () => {
+  root.setAttribute('data-theme', currentDark() ? 'light' : 'dark');
+  syncBtn();
+});
+
+renderMensal();
+renderRanking();
+syncBtn();
+</script>
