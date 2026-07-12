@@ -1,0 +1,586 @@
+<title>ENXAME — Campo de Fluxo Generativo</title>
+<style>
+  :root{
+    --bg:#07080f;
+    --bg-2:#0b0d18;
+    --panel:rgba(17,20,33,0.72);
+    --panel-solid:#111421;
+    --stroke:rgba(150,160,200,0.14);
+    --stroke-2:rgba(150,160,200,0.28);
+    --ink:#d6dae8;
+    --muted:#767c98;
+    --muted-2:#565c78;
+    --accent:#ff7a3c;
+    --accent-soft:rgba(255,122,60,0.16);
+    --teal:#4dd6c4;
+    --mono:ui-monospace,"SF Mono",SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 800px at 78% -10%, #14172a 0%, rgba(20,23,42,0) 60%),
+      radial-gradient(900px 700px at 0% 110%, #16110f 0%, rgba(22,17,15,0) 55%),
+      var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    overflow:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  #stage{position:fixed;inset:0;display:block;width:100%;height:100%}
+  canvas{position:fixed;inset:0;display:block;touch-action:none}
+
+  /* ---------- Header ---------- */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:5;
+    display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;
+    padding:22px 26px;
+    pointer-events:none;
+    background:linear-gradient(180deg, rgba(7,8,15,0.72), rgba(7,8,15,0));
+  }
+  .brand{
+    font-family:var(--mono);
+    font-weight:600;
+    font-size:clamp(20px,3.4vw,30px);
+    letter-spacing:.42em;
+    padding-left:.42em;
+    margin:0;
+    color:var(--ink);
+    text-shadow:0 0 24px rgba(255,122,60,.28);
+  }
+  .brand b{color:var(--accent);font-weight:600}
+  .thesis{
+    margin:0;
+    max-width:46ch;
+    color:var(--muted);
+    font-size:clamp(12px,1.5vw,13.5px);
+    line-height:1.5;
+  }
+  .thesis em{color:var(--teal);font-style:normal}
+
+  /* ---------- Control panel ---------- */
+  .panel{
+    position:fixed;z-index:6;
+    top:50%;right:22px;transform:translateY(-50%);
+    width:300px;max-width:calc(100vw - 44px);
+    max-height:calc(100vh - 44px);overflow:auto;
+    padding:18px;
+    background:var(--panel);
+    border:1px solid var(--stroke);
+    border-radius:16px;
+    backdrop-filter:blur(18px) saturate(1.3);
+    -webkit-backdrop-filter:blur(18px) saturate(1.3);
+    box-shadow:0 24px 60px -18px rgba(0,0,0,.7), inset 0 1px 0 rgba(255,255,255,.05);
+  }
+  .panel::-webkit-scrollbar{width:8px}
+  .panel::-webkit-scrollbar-thumb{background:var(--stroke-2);border-radius:8px}
+  .panel h2{
+    font-family:var(--mono);
+    font-size:10.5px;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--muted-2);margin:2px 0 14px;font-weight:600;
+    display:flex;align-items:center;gap:8px;
+  }
+  .panel h2::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+  .field{margin-bottom:15px}
+  .field .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px}
+  .field label{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);
+  }
+  .field .val{
+    font-family:var(--mono);font-size:11px;color:var(--ink);
+    font-variant-numeric:tabular-nums;
+  }
+  input[type=range]{
+    -webkit-appearance:none;appearance:none;width:100%;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--accent) var(--fill,50%),var(--stroke-2) var(--fill,50%));
+    outline:none;cursor:pointer;
+  }
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none;appearance:none;width:15px;height:15px;border-radius:50%;
+    background:#fff;border:2px solid var(--accent);
+    box-shadow:0 0 0 4px var(--accent-soft);transition:transform .12s ease;
+  }
+  input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.18)}
+  input[type=range]::-moz-range-thumb{
+    width:15px;height:15px;border-radius:50%;background:#fff;border:2px solid var(--accent);
+    box-shadow:0 0 0 4px var(--accent-soft);cursor:pointer;
+  }
+  input:focus-visible{outline:2px solid var(--teal);outline-offset:6px}
+
+  .seg{display:grid;gap:6px}
+  .seg.cols-3{grid-template-columns:repeat(3,1fr)}
+  .seg button{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+    padding:8px 6px;border-radius:9px;cursor:pointer;
+    background:rgba(255,255,255,.03);color:var(--muted);
+    border:1px solid var(--stroke);transition:all .14s ease;
+    text-transform:uppercase;
+  }
+  .seg button:hover{color:var(--ink);border-color:var(--stroke-2);background:rgba(255,255,255,.06)}
+  .seg button[aria-pressed=true]{
+    color:#0a0b12;background:var(--accent);border-color:var(--accent);
+    box-shadow:0 4px 16px -4px var(--accent);font-weight:600;
+  }
+  .swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+  .swatch{
+    height:30px;border-radius:9px;cursor:pointer;position:relative;
+    border:1px solid var(--stroke);overflow:hidden;padding:0;
+    transition:transform .12s ease;
+  }
+  .swatch:hover{transform:translateY(-2px)}
+  .swatch[aria-pressed=true]{border-color:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.35)}
+  .divider{height:1px;background:var(--stroke);margin:16px -18px;border:0}
+
+  .actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .actions button{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    padding:11px 8px;border-radius:10px;cursor:pointer;color:var(--ink);
+    background:rgba(255,255,255,.04);border:1px solid var(--stroke-2);
+    transition:all .14s ease;display:flex;align-items:center;justify-content:center;gap:6px;
+  }
+  .actions button:hover{background:rgba(255,255,255,.09);transform:translateY(-1px)}
+  .actions button:active{transform:translateY(0)}
+  .actions .primary{grid-column:1 / -1;background:var(--accent-soft);border-color:var(--accent);color:#ffd0b8}
+  .actions .primary:hover{background:rgba(255,122,60,.26)}
+  .actions button:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+
+  /* ---------- Footer / HUD ---------- */
+  footer{
+    position:fixed;left:0;bottom:0;z-index:5;
+    display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+    padding:16px 26px;pointer-events:none;
+    font-family:var(--mono);font-size:11px;color:var(--muted);
+  }
+  footer .stat{display:flex;align-items:center;gap:7px;font-variant-numeric:tabular-nums}
+  footer .stat b{color:var(--ink);font-weight:600}
+  footer .dot{width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px var(--teal)}
+  footer .keys{color:var(--muted-2);letter-spacing:.02em}
+  footer .keys kbd{
+    font-family:var(--mono);color:var(--ink);background:rgba(255,255,255,.05);
+    border:1px solid var(--stroke);border-radius:5px;padding:1px 5px;font-size:10px;
+  }
+
+  .toast{
+    position:fixed;left:50%;bottom:74px;transform:translateX(-50%) translateY(12px);
+    z-index:9;font-family:var(--mono);font-size:12px;letter-spacing:.04em;
+    padding:10px 18px;border-radius:999px;color:#0a0b12;background:var(--teal);
+    opacity:0;pointer-events:none;transition:opacity .3s ease, transform .3s ease;
+    box-shadow:0 12px 32px -8px rgba(0,0,0,.6);
+  }
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  @media (max-width:720px){
+    header{padding:16px 18px}
+    .thesis{display:none}
+    .panel{
+      top:auto;bottom:0;right:0;left:0;transform:none;width:100%;
+      max-width:100%;border-radius:18px 18px 0 0;max-height:56vh;
+    }
+    footer{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    input[type=range]::-webkit-slider-thumb{transition:none}
+    .actions button,.swatch,.seg button{transition:none}
+  }
+</style>
+
+<canvas id="c" aria-label="Simulação de campo de fluxo generativo"></canvas>
+
+<header>
+  <h1 class="brand"><b>&#10022;</b>&nbsp;ENXAME</h1>
+  <p class="thesis">Um campo de fluxo vivo, gerado por ruído de Perlin em três dimensões. Milhares de agentes, uma única regra — e do encontro entre eles nasce a forma. <em>Mova o cursor pelo tecido.</em></p>
+</header>
+
+<aside class="panel" aria-label="Controles">
+  <h2>Instrumento</h2>
+
+  <div class="field">
+    <div class="row"><label for="count">Agentes</label><span class="val" id="count-v">2600</span></div>
+    <input type="range" id="count" min="400" max="6000" step="100" value="2600">
+  </div>
+  <div class="field">
+    <div class="row"><label for="scale">Escala do campo</label><span class="val" id="scale-v">1.40</span></div>
+    <input type="range" id="scale" min="0.3" max="4" step="0.05" value="1.4">
+  </div>
+  <div class="field">
+    <div class="row"><label for="speed">Velocidade</label><span class="val" id="speed-v">1.00</span></div>
+    <input type="range" id="speed" min="0.1" max="3" step="0.05" value="1">
+  </div>
+  <div class="field">
+    <div class="row"><label for="trail">Persistência</label><span class="val" id="trail-v">0.86</span></div>
+    <input type="range" id="trail" min="0" max="0.97" step="0.01" value="0.86">
+  </div>
+
+  <hr class="divider">
+
+  <div class="field">
+    <div class="row"><label>Cursor</label></div>
+    <div class="seg cols-3" id="mode" role="group" aria-label="Modo do cursor">
+      <button data-mode="attract" aria-pressed="true">Atrai</button>
+      <button data-mode="repel" aria-pressed="false">Repele</button>
+      <button data-mode="vortex" aria-pressed="false">Vórtice</button>
+    </div>
+  </div>
+
+  <div class="field">
+    <div class="row"><label>Paleta</label></div>
+    <div class="swatches" id="palettes" role="group" aria-label="Paleta de cores"></div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="actions">
+    <button class="primary" id="btn-play" aria-pressed="true">&#9208;&nbsp; Pausar</button>
+    <button id="btn-seed">&#8635;&nbsp; Semente</button>
+    <button id="btn-clear">&#10005;&nbsp; Limpar</button>
+    <button id="btn-save">&#8681;&nbsp; PNG</button>
+  </div>
+</aside>
+
+<footer>
+  <span class="stat"><span class="dot"></span><b id="fps">60</b>&nbsp;fps</span>
+  <span class="stat"><b id="live">2600</b>&nbsp;agentes</span>
+  <span class="keys">
+    <kbd>espaço</kbd> pausa &nbsp; <kbd>R</kbd> semente &nbsp; <kbd>C</kbd> limpa &nbsp; <kbd>S</kbd> salva &nbsp; <kbd>M</kbd> modo &nbsp; <kbd>1</kbd>–<kbd>5</kbd> paleta
+  </span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+  "use strict";
+
+  // ---------------------------------------------------------------------------
+  // Perlin 3D noise — improved noise (Ken Perlin, 2002), implemented from scratch
+  // ---------------------------------------------------------------------------
+  function makeNoise(seed){
+    const p = new Uint8Array(512);
+    const perm = new Uint8Array(256);
+    for(let i=0;i<256;i++) perm[i]=i;
+    // seeded Fisher–Yates using a small xorshift PRNG
+    let s = (seed>>>0) || 1;
+    const rand = () => { s^=s<<13; s^=s>>>17; s^=s<<5; return (s>>>0)/4294967296; };
+    for(let i=255;i>0;i--){ const j=(rand()*(i+1))|0; const t=perm[i]; perm[i]=perm[j]; perm[j]=t; }
+    for(let i=0;i<512;i++) p[i]=perm[i&255];
+
+    const fade = t => t*t*t*(t*(t*6-15)+10);
+    const lerp = (t,a,b) => a+t*(b-a);
+    function grad(hash,x,y,z){
+      const h=hash&15;
+      const u=h<8?x:y;
+      const v=h<4?y:(h===12||h===14?x:z);
+      return ((h&1)===0?u:-u)+((h&2)===0?v:-v);
+    }
+    return function(x,y,z){
+      const X=Math.floor(x)&255, Y=Math.floor(y)&255, Z=Math.floor(z)&255;
+      x-=Math.floor(x); y-=Math.floor(y); z-=Math.floor(z);
+      const u=fade(x), v=fade(y), w=fade(z);
+      const A=p[X]+Y, AA=p[A]+Z, AB=p[A+1]+Z;
+      const B=p[X+1]+Y, BA=p[B]+Z, BB=p[B+1]+Z;
+      return lerp(w,
+        lerp(v, lerp(u, grad(p[AA],x,y,z),   grad(p[BA],x-1,y,z)),
+                lerp(u, grad(p[AB],x,y-1,z),  grad(p[BB],x-1,y-1,z))),
+        lerp(v, lerp(u, grad(p[AA+1],x,y,z-1),grad(p[BA+1],x-1,y,z-1)),
+                lerp(u, grad(p[AB+1],x,y-1,z-1),grad(p[BB+1],x-1,y-1,z-1))));
+    };
+  }
+
+  // ---------------------------------------------------------------------------
+  // Palettes — each a curated set of stops interpolated across flow direction
+  // ---------------------------------------------------------------------------
+  const PALETTES = [
+    { name:"Braseiro",   bg:"#0a0512", stops:["#3a0ca3","#b5179e","#ff6b6b","#ffd166"] },
+    { name:"Aurora",     bg:"#02121a", stops:["#0b525b","#14a098","#4dd6c4","#c9f7e2"] },
+    { name:"Fósforo",    bg:"#02120b", stops:["#0f5132","#2dd4bf","#a7f3d0","#f0fff4"] },
+    { name:"Magma",      bg:"#0a0402", stops:["#6a040f","#dc2f02","#f48c06","#ffd60a"] },
+    { name:"Ultravioleta",bg:"#0a021a", stops:["#3c096c","#7b2cbf","#c77dff","#e0aaff"] },
+  ];
+
+  function hexToRgb(h){ const n=parseInt(h.slice(1),16); return [n>>16&255,n>>8&255,n&255]; }
+  function buildRamp(stops, n){
+    const rgb = stops.map(hexToRgb);
+    const ramp = new Array(n);
+    for(let i=0;i<n;i++){
+      const t=i/(n-1), f=t*(rgb.length-1), k=Math.min(rgb.length-2, f|0), q=f-k;
+      const a=rgb[k], b=rgb[k+1];
+      const r=Math.round(a[0]+(b[0]-a[0])*q);
+      const g=Math.round(a[1]+(b[1]-a[1])*q);
+      const bl=Math.round(a[2]+(b[2]-a[2])*q);
+      ramp[i]=`rgb(${r},${g},${bl})`;
+    }
+    return ramp;
+  }
+
+  // ---------------------------------------------------------------------------
+  // State
+  // ---------------------------------------------------------------------------
+  const canvas = document.getElementById("c");
+  const ctx = canvas.getContext("2d", { alpha:false });
+  const prefersReduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  const BUCKETS = 28;
+  const state = {
+    count:2600, scale:1.4, speed:1, trail:0.86,
+    mode:"attract", palette:0, seed:1337,
+    running:!prefersReduced,
+    z:0, W:0, H:0, dpr:1,
+  };
+  let noise = makeNoise(state.seed);
+  let ramp = buildRamp(PALETTES[0].stops, BUCKETS);
+  let particles = null;
+  const pointer = { x:-9999, y:-9999, active:false };
+
+  function initParticles(){
+    const n = state.count;
+    particles = new Float32Array(n*4); // x, y, vx, vy
+    for(let i=0;i<n;i++){
+      particles[i*4]   = Math.random()*state.W;
+      particles[i*4+1] = Math.random()*state.H;
+      particles[i*4+2] = 0;
+      particles[i*4+3] = 0;
+    }
+  }
+
+  function resize(){
+    const dpr = Math.min(window.devicePixelRatio||1, 2);
+    state.dpr = dpr;
+    state.W = window.innerWidth;
+    state.H = window.innerHeight;
+    canvas.width = Math.floor(state.W*dpr);
+    canvas.height = Math.floor(state.H*dpr);
+    canvas.style.width = state.W+"px";
+    canvas.style.height = state.H+"px";
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    paintBg();
+    if(!particles || particles.length!==state.count*4) initParticles();
+  }
+
+  function paintBg(){
+    ctx.fillStyle = PALETTES[state.palette].bg;
+    ctx.fillRect(0,0,state.W,state.H);
+  }
+
+  // ---------------------------------------------------------------------------
+  // Simulation step + render
+  // ---------------------------------------------------------------------------
+  const paths = new Array(BUCKETS);
+  const TAU = Math.PI*2;
+  let last = performance.now(), fpsAcc = 0, fpsFrames = 0, fpsShown = 60;
+
+  function frame(now){
+    requestAnimationFrame(frame);
+    const dt = now - last; last = now;
+
+    if(state.running){
+      step();
+      render();
+      state.z += 0.0016 * state.speed;
+    }
+
+    // fps meter (rolling)
+    fpsAcc += dt; fpsFrames++;
+    if(fpsAcc >= 500){
+      fpsShown = Math.round(1000/(fpsAcc/fpsFrames));
+      document.getElementById("fps").textContent = fpsShown;
+      fpsAcc = 0; fpsFrames = 0;
+    }
+  }
+
+  function step(){
+    // no per-step work needed beyond render's integration; kept for clarity
+  }
+
+  function render(){
+    const {W,H,scale,speed,trail,mode,z} = state;
+    const P = particles, n = state.count;
+
+    // fade previous frame → trails
+    const fadeAlpha = 0.30 * (1 - trail) + 0.006;
+    const bg = hexToRgb(PALETTES[state.palette].bg);
+    ctx.globalCompositeOperation = "source-over";
+    ctx.fillStyle = `rgba(${bg[0]},${bg[1]},${bg[2]},${fadeAlpha})`;
+    ctx.fillRect(0,0,W,H);
+
+    for(let b=0;b<BUCKETS;b++) paths[b] = new Path2D();
+
+    const ns = 0.0011 * scale;          // spatial frequency of the field
+    const maxSpeed = 2.2 * speed;
+    const flowForce = 0.42;
+    const pr = 150, pr2 = pr*pr;        // pointer radius
+    const pStrength = mode==="attract" ? 0.9 : mode==="repel" ? -1.1 : 0.0;
+
+    for(let i=0;i<n;i++){
+      const ix=i*4;
+      let x=P[ix], y=P[ix+1], vx=P[ix+2], vy=P[ix+3];
+
+      // flow field angle from 3D noise (z = time)
+      const a = noise(x*ns, y*ns, z) * TAU * 2.2;
+      vx += Math.cos(a) * flowForce;
+      vy += Math.sin(a) * flowForce;
+
+      // pointer interaction
+      if(pointer.active){
+        const dx = pointer.x - x, dy = pointer.y - y;
+        const d2 = dx*dx + dy*dy;
+        if(d2 < pr2 && d2 > 0.001){
+          const d = Math.sqrt(d2), f = (1 - d/pr);
+          if(mode==="vortex"){
+            vx += (-dy/d) * f * 2.4;
+            vy += ( dx/d) * f * 2.4;
+          } else {
+            vx += (dx/d) * f * pStrength * 2.6;
+            vy += (dy/d) * f * pStrength * 2.6;
+          }
+        }
+      }
+
+      // damping + speed clamp
+      vx *= 0.90; vy *= 0.90;
+      const sp = Math.hypot(vx,vy);
+      if(sp > maxSpeed){ vx = vx/sp*maxSpeed; vy = vy/sp*maxSpeed; }
+
+      const nx = x+vx, ny = y+vy;
+
+      // color bucket from direction of travel
+      let ang = Math.atan2(vy,vx); if(ang<0) ang+=TAU;
+      let bkt = (ang/TAU*BUCKETS)|0; if(bkt>=BUCKETS) bkt=BUCKETS-1;
+
+      // wrap at edges (avoid drawing the wrap segment)
+      let wrapped=false;
+      let wx=nx, wy=ny;
+      if(nx<-2){wx=W+1;wrapped=true;} else if(nx>W+2){wx=-1;wrapped=true;}
+      if(ny<-2){wy=H+1;wrapped=true;} else if(ny>H+2){wy=-1;wrapped=true;}
+
+      if(!wrapped){
+        const pth=paths[bkt];
+        pth.moveTo(x,y); pth.lineTo(nx,ny);
+      }
+
+      P[ix]=wx; P[ix+1]=wy; P[ix+2]=vx; P[ix+3]=vy;
+    }
+
+    // additive, glowing strokes — batched per color bucket
+    ctx.globalCompositeOperation = "lighter";
+    ctx.lineWidth = 1.15;
+    ctx.lineCap = "round";
+    for(let b=0;b<BUCKETS;b++){
+      ctx.strokeStyle = ramp[b];
+      ctx.stroke(paths[b]);
+    }
+    ctx.globalCompositeOperation = "source-over";
+  }
+
+  // ---------------------------------------------------------------------------
+  // UI wiring
+  // ---------------------------------------------------------------------------
+  function fillSlider(el){
+    const min=+el.min, max=+el.max, v=+el.value;
+    el.style.setProperty("--fill", ((v-min)/(max-min)*100)+"%");
+  }
+  function bindSlider(id, key, fmt, after){
+    const el=document.getElementById(id), out=document.getElementById(id+"-v");
+    const upd=()=>{ state[key]=+el.value; out.textContent=fmt(+el.value); fillSlider(el); if(after) after(); };
+    el.addEventListener("input", upd); upd();
+  }
+  bindSlider("count","count", v=>v|0, ()=>{ initParticles(); document.getElementById("live").textContent=state.count; });
+  bindSlider("scale","scale", v=>v.toFixed(2));
+  bindSlider("speed","speed", v=>v.toFixed(2));
+  bindSlider("trail","trail", v=>v.toFixed(2));
+
+  // mode
+  const modeGroup=document.getElementById("mode");
+  modeGroup.addEventListener("click", e=>{
+    const b=e.target.closest("button"); if(!b) return;
+    state.mode=b.dataset.mode;
+    [...modeGroup.children].forEach(x=>x.setAttribute("aria-pressed", x===b));
+  });
+
+  // palettes
+  const palWrap=document.getElementById("palettes");
+  PALETTES.forEach((pal,i)=>{
+    const b=document.createElement("button");
+    b.className="swatch"; b.title=pal.name;
+    b.setAttribute("aria-pressed", i===0); b.setAttribute("aria-label", pal.name);
+    b.style.background=`linear-gradient(135deg, ${pal.stops.join(", ")})`;
+    b.addEventListener("click", ()=>setPalette(i));
+    palWrap.appendChild(b);
+  });
+  function setPalette(i){
+    state.palette=i;
+    ramp=buildRamp(PALETTES[i].stops, BUCKETS);
+    [...palWrap.children].forEach((x,k)=>x.setAttribute("aria-pressed", k===i));
+    paintBg();
+  }
+
+  // actions
+  const playBtn=document.getElementById("btn-play");
+  function setRunning(r){
+    state.running=r;
+    playBtn.setAttribute("aria-pressed", r);
+    playBtn.innerHTML = r ? "&#9208;&nbsp; Pausar" : "&#9205;&nbsp; Rodar";
+  }
+  playBtn.addEventListener("click", ()=>setRunning(!state.running));
+  document.getElementById("btn-seed").addEventListener("click", newSeed);
+  document.getElementById("btn-clear").addEventListener("click", ()=>{ paintBg(); toast("Tela limpa"); });
+  document.getElementById("btn-save").addEventListener("click", savePNG);
+
+  function newSeed(){
+    state.seed=(Math.random()*1e9)|0;
+    noise=makeNoise(state.seed);
+    toast("Nova semente · "+state.seed.toString(36));
+  }
+  function savePNG(){
+    const a=document.createElement("a");
+    a.download="enxame-"+Date.now()+".png";
+    a.href=canvas.toDataURL("image/png");
+    a.click();
+    toast("Imagem salva");
+  }
+
+  // pointer
+  function setPointer(e){
+    const t = e.touches ? e.touches[0] : e;
+    pointer.x=t.clientX; pointer.y=t.clientY; pointer.active=true;
+  }
+  window.addEventListener("pointermove", setPointer);
+  window.addEventListener("pointerdown", e=>{ setPointer(e); });
+  window.addEventListener("pointerleave", ()=>pointer.active=false);
+  window.addEventListener("pointerup", ()=>{ /* keep last pos, drop influence */ pointer.active=false; });
+
+  // keyboard
+  window.addEventListener("keydown", e=>{
+    if(e.target.tagName==="INPUT") return;
+    const k=e.key.toLowerCase();
+    if(k===" "){ e.preventDefault(); setRunning(!state.running); }
+    else if(k==="r") newSeed();
+    else if(k==="c"){ paintBg(); toast("Tela limpa"); }
+    else if(k==="s") savePNG();
+    else if(k==="m"){
+      const order=["attract","repel","vortex"];
+      const next=order[(order.indexOf(state.mode)+1)%3];
+      modeGroup.querySelector(`[data-mode="${next}"]`).click();
+      toast("Cursor · "+next);
+    }
+    else if(k>="1"&&k<="5"){ const i=+k-1; if(i<PALETTES.length){ setPalette(i); toast(PALETTES[i].name); } }
+  });
+
+  // toast
+  let toastT=null; const toastEl=document.getElementById("toast");
+  function toast(msg){
+    toastEl.textContent=msg; toastEl.classList.add("show");
+    clearTimeout(toastT); toastT=setTimeout(()=>toastEl.classList.remove("show"),1400);
+  }
+
+  // ---------------------------------------------------------------------------
+  // Boot
+  // ---------------------------------------------------------------------------
+  window.addEventListener("resize", resize);
+  resize();
+  if(prefersReduced){ setRunning(false); toast("Movimento reduzido — toque em Rodar"); }
+  requestAnimationFrame(frame);
+})();
+</script>

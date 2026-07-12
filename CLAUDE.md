@@ -24,12 +24,18 @@ establishes otherwise.
 
 ```
 .
-├── README.md      # Short project description (Portuguese)
-└── CLAUDE.md      # This file — guidance for AI assistants
+├── README.md          # Short project description (Portuguese)
+├── CLAUDE.md          # This file — guidance for AI assistants
+└── demos/             # Self-contained showcase pages (no build, no dependencies)
+    └── enxame.html    # Interactive generative flow field (hand-written Perlin 3D noise)
 ```
 
-When you add the first real subsystem, replace this tree with an accurate one
-and add a short note on what each top-level directory is responsible for.
+`demos/` holds standalone, single-file HTML pages that run by opening them in a
+browser — no build step, no external requests. Keep anything added here fully
+self-contained so it stays portable.
+
+When you add the first real subsystem, expand this tree accordingly and add a
+short note on what each top-level directory is responsible for.
 
 ## Getting started (for a new stack)
 
