@@ -16,12 +16,15 @@ def client(_tmp_data_dir):
     from fastapi.testclient import TestClient
 
     from app import models
-    from app.database import engine
+    from app.database import SessionLocal, engine
     from app.main import app
+    from app.seed import seed_se_vazio
 
     # Cada teste comeca com um banco limpo, mas reaproveita a mesma engine/arquivo.
     models.Base.metadata.drop_all(bind=engine)
     models.Base.metadata.create_all(bind=engine)
+    with SessionLocal() as sessao:
+        seed_se_vazio(sessao)
 
     yield TestClient(app)
 
@@ -120,3 +123,118 @@ def test_excel_gerado_para_orcamento_com_itens(client):
     assert resp.status_code == 200
     assert resp.headers["content-type"].startswith("application/vnd.openxmlformats")
     assert len(resp.content) > 1000
+
+
+def test_pdf_gerado_para_orcamento_com_itens(client):
+    orcamento = client.post("/api/orcamentos", json={"numero_proposta": "260203"}).json()
+    categoria = client.post(f"/api/orcamentos/{orcamento['id']}/categorias", json={
+        "ordem": 0, "titulo": "COBERTURA", "itens": [],
+    }).json()
+    client.post(
+        f"/api/orcamentos/{orcamento['id']}/categorias/{categoria['id']}/itens",
+        json={"ordem": 0, "descricao": "Manta", "quantidade": 2, "unidade": "m²",
+              "status_cobranca": "normal", "preco_unitario": 10},
+    )
+
+    resp = client.get(f"/api/orcamentos/{orcamento['id']}/pdf")
+    assert resp.status_code == 200
+    assert resp.headers["content-type"] == "application/pdf"
+    assert resp.content.startswith(b"%PDF")
+
+
+def test_percentual_material_por_item_sobrepoe_padrao_do_orcamento(client):
+    orcamento = client.post("/api/orcamentos", json={
+        "numero_proposta": "260204", "percentual_material": 60, "percentual_servico": 40,
+    }).json()
+    categoria = client.post(f"/api/orcamentos/{orcamento['id']}/categorias", json={
+        "ordem": 0, "titulo": "MAO DE OBRA", "itens": [],
+    }).json()
+
+    # item sem override -> usa o padrao do orcamento (60% material)
+    client.post(
+        f"/api/orcamentos/{orcamento['id']}/categorias/{categoria['id']}/itens",
+        json={"ordem": 0, "descricao": "Item com padrao", "quantidade": 1, "unidade": "m²",
+              "status_cobranca": "normal", "preco_unitario": 100},
+    )
+    # item 100% mao de obra -> override para 0% material
+    client.post(
+        f"/api/orcamentos/{orcamento['id']}/categorias/{categoria['id']}/itens",
+        json={"ordem": 1, "descricao": "Lixamento completo da superfície", "quantidade": 1, "unidade": "m²",
+              "status_cobranca": "normal", "preco_unitario": 100, "percentual_material": 0},
+    )
+
+    totais = client.get(f"/api/orcamentos/{orcamento['id']}/totais").json()
+    assert totais["total_geral"] == 200.0
+    # 100*60% (padrao) + 100*0% (override) = 60
+    assert totais["total_material"] == 60.0
+    assert totais["total_servico"] == 140.0
+
+
+def test_duplicar_orcamento_cria_copia_independente_como_rascunho(client):
+    original = client.post("/api/orcamentos", json={"numero_proposta": "260205", "cliente_nome": "Cliente X"}).json()
+    categoria = client.post(f"/api/orcamentos/{original['id']}/categorias", json={
+        "ordem": 0, "titulo": "SUBSOLO", "itens": [],
+    }).json()
+    client.post(
+        f"/api/orcamentos/{original['id']}/categorias/{categoria['id']}/itens",
+        json={"ordem": 0, "descricao": "Item", "quantidade": 1, "unidade": "m²",
+              "status_cobranca": "normal", "preco_unitario": 50},
+    )
+    client.post(f"/api/orcamentos/{original['id']}/aprovar")
+
+    resp = client.post(f"/api/orcamentos/{original['id']}/duplicar")
+    assert resp.status_code == 201
+    copia = resp.json()
+    assert copia["id"] != original["id"]
+    assert copia["status"] == "rascunho"
+    assert copia["numero_revisao"] == 1
+    assert copia["orcamento_origem_id"] is None
+    assert len(copia["categorias"]) == 1
+    assert len(copia["categorias"][0]["itens"]) == 1
+
+    # a copia pode ser editada mesmo que o original esteja aprovado
+    resp = client.put(f"/api/orcamentos/{copia['id']}", json={"numero_proposta": "editado"})
+    assert resp.status_code == 200
+
+
+def test_nova_revisao_incrementa_numero_e_liga_ao_original(client):
+    original = client.post("/api/orcamentos", json={"numero_proposta": "260206 Rev 01"}).json()
+    categoria = client.post(f"/api/orcamentos/{original['id']}/categorias", json={
+        "ordem": 0, "titulo": "SUBSOLO", "itens": [],
+    }).json()
+    client.post(
+        f"/api/orcamentos/{original['id']}/categorias/{categoria['id']}/itens",
+        json={"ordem": 0, "descricao": "Item", "quantidade": 1, "unidade": "m²",
+              "status_cobranca": "normal", "preco_unitario": 50},
+    )
+    client.post(f"/api/orcamentos/{original['id']}/aprovar")
+
+    resp = client.post(f"/api/orcamentos/{original['id']}/nova-revisao")
+    assert resp.status_code == 201
+    revisao = resp.json()
+    assert revisao["numero_revisao"] == 2
+    assert revisao["orcamento_origem_id"] == original["id"]
+    assert revisao["numero_proposta"] == "260206 Rev 02"
+    assert revisao["status"] == "rascunho"
+
+
+def test_catalogo_de_servicos_e_populado_e_pesquisavel(client):
+    resp = client.get("/api/catalogo/servicos", params={"q": "manta asfáltica"})
+    assert resp.status_code == 200
+    resultados = resp.json()
+    assert len(resultados) > 0
+    assert any("manta" in r["descricao"].lower() for r in resultados)
+
+
+def test_templates_de_categoria_sao_populados_e_aplicaveis(client):
+    templates = client.get("/api/catalogo/templates").json()
+    assert len(templates) > 0
+    template = templates[0]
+    assert len(template["itens"]) > 0
+
+    orcamento = client.post("/api/orcamentos", json={"numero_proposta": "260207"}).json()
+    resp = client.post(f"/api/orcamentos/{orcamento['id']}/categorias/from-template/{template['id']}")
+    assert resp.status_code == 201
+    categoria = resp.json()
+    assert categoria["titulo"] == template["nome"]
+    assert len(categoria["itens"]) == len(template["itens"])

@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from .. import crud, models, schemas
 from ..database import get_db
 from ..excel_generator import gerar_excel
+from ..pdf_generator import gerar_pdf
 
 router = APIRouter(prefix="/api/orcamentos", tags=["orcamentos"])
 
@@ -89,6 +90,45 @@ def baixar_excel(orcamento_id: int, db: Session = Depends(get_db)):
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         headers={"Content-Disposition": f'attachment; filename="{nome_arquivo}"'},
     )
+
+
+@router.get("/{orcamento_id}/pdf")
+def baixar_pdf(orcamento_id: int, db: Session = Depends(get_db)):
+    orcamento = _obter_ou_404(db, orcamento_id)
+    if not orcamento.categorias:
+        raise HTTPException(status_code=409, detail="Orçamento não possui categorias/itens.")
+    totais_calculados = crud.calcular_totais(orcamento)
+    buffer = gerar_pdf(orcamento, totais_calculados)
+    identificador = orcamento.numero_proposta or str(orcamento.id)
+    nome_arquivo = f"Proposta_{identificador.replace(' ', '_')}.pdf"
+    return StreamingResponse(
+        buffer,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{nome_arquivo}"'},
+    )
+
+
+@router.post("/{orcamento_id}/duplicar", response_model=schemas.OrcamentoRead, status_code=201)
+def duplicar(orcamento_id: int, db: Session = Depends(get_db)):
+    orcamento = _obter_ou_404(db, orcamento_id)
+    return crud.duplicar_orcamento(db, orcamento)
+
+
+@router.post("/{orcamento_id}/nova-revisao", response_model=schemas.OrcamentoRead, status_code=201)
+def criar_nova_revisao(orcamento_id: int, db: Session = Depends(get_db)):
+    orcamento = _obter_ou_404(db, orcamento_id)
+    return crud.nova_revisao(db, orcamento)
+
+
+@router.post("/{orcamento_id}/categorias/from-template/{template_id}", response_model=schemas.OrcamentoCategoriaRead, status_code=201)
+def criar_categoria_a_partir_de_template(orcamento_id: int, template_id: int, db: Session = Depends(get_db)):
+    orcamento = _obter_ou_404(db, orcamento_id)
+    if orcamento.status == models.STATUS_APROVADO:
+        raise HTTPException(status_code=409, detail="Orçamento aprovado não pode ser editado.")
+    template = crud.obter_template(db, template_id)
+    if template is None:
+        raise HTTPException(status_code=404, detail="Template não encontrado.")
+    return crud.aplicar_template(db, orcamento, template)
 
 
 # ---------- Categorias ----------

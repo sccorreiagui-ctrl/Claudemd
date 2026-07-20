@@ -3,7 +3,16 @@ const API = "/api";
 const state = {
   orcamentos: [],
   atual: null,
+  templates: null,
 };
+
+function debounce(fn, ms) {
+  let t;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), ms);
+  };
+}
 
 // ---------- utilitarios ----------
 
@@ -80,6 +89,7 @@ function renderSidebar() {
       <div class="titulo">${orc.numero_proposta || "(sem número)"} </div>
       <div class="subtitulo">${orc.cliente_nome || "—"}</div>
       <span class="badge ${orc.status}">${orc.status === "aprovado" ? "Aprovado" : "Rascunho"}</span>
+      ${orc.numero_revisao > 1 ? `<span class="badge revisao">Rev ${orc.numero_revisao}</span>` : ""}
     `;
     li.addEventListener("click", () => selecionar(orc.id));
     ul.appendChild(li);
@@ -104,7 +114,11 @@ function renderConteudo() {
 
     <div class="acoes-topo">
       <span class="status-pill ${orc.status}">${orc.status === "aprovado" ? "Aprovado" : "Rascunho"}</span>
+      ${orc.numero_revisao > 1 ? `<span class="status-pill revisao">Revisão ${orc.numero_revisao}${orc.orcamento_origem_id ? ` de #${orc.orcamento_origem_id}` : ""}</span>` : ""}
       <button class="btn" id="btn-excel">Baixar Excel</button>
+      <button class="btn" id="btn-pdf">Baixar PDF</button>
+      <button class="btn" id="btn-duplicar">Duplicar</button>
+      ${bloqueado ? `<button class="btn btn-primary" id="btn-nova-revisao">Nova revisão</button>` : ""}
       ${!bloqueado ? `<button class="btn btn-primary" id="btn-aprovar">Aprovar orçamento</button>` : ""}
       ${!bloqueado ? `<button class="btn btn-danger" id="btn-excluir-orcamento">Excluir orçamento</button>` : ""}
     </div>
@@ -158,7 +172,12 @@ function renderConteudo() {
     <fieldset ${bloqueado ? "disabled" : ""}>
       <legend>Categorias e itens</legend>
       <div id="categorias">${orc.categorias.map((c) => renderCategoria(c, bloqueado)).join("")}</div>
-      ${!bloqueado ? '<button class="btn" id="btn-add-categoria">+ Adicionar categoria</button>' : ""}
+      ${!bloqueado ? `
+        <div class="acoes-categoria">
+          <button class="btn" id="btn-add-categoria">+ Adicionar categoria</button>
+          <select id="select-template" class="select-template"><option value="">Ou usar um modelo…</option></select>
+        </div>
+      ` : ""}
     </fieldset>
 
     <div class="totais">
@@ -174,6 +193,12 @@ function renderConteudo() {
   document.getElementById("btn-excel").addEventListener("click", () => {
     window.open(`${API}/orcamentos/${orc.id}/excel`, "_blank");
   });
+  document.getElementById("btn-pdf").addEventListener("click", () => {
+    window.open(`${API}/orcamentos/${orc.id}/pdf`, "_blank");
+  });
+  document.getElementById("btn-duplicar").addEventListener("click", duplicarOrcamento);
+  const btnNovaRevisao = document.getElementById("btn-nova-revisao");
+  if (btnNovaRevisao) btnNovaRevisao.addEventListener("click", criarNovaRevisao);
   const btnAprovar = document.getElementById("btn-aprovar");
   if (btnAprovar) btnAprovar.addEventListener("click", aprovarOrcamento);
   const btnExcluirOrc = document.getElementById("btn-excluir-orcamento");
@@ -182,14 +207,18 @@ function renderConteudo() {
 
 function calcularTotaisLocal(orc) {
   let geral = 0;
+  let material = 0;
+  const percPadrao = Number(orc.percentual_material) || 0;
   for (const cat of orc.categorias) {
     for (const item of cat.itens) {
-      if (item.preco_total) geral += Number(item.preco_total);
+      if (!item.preco_total) continue;
+      const valor = Number(item.preco_total);
+      geral += valor;
+      const perc = item.percentual_material !== null && item.percentual_material !== undefined ? Number(item.percentual_material) : percPadrao;
+      material += (valor * perc) / 100;
     }
   }
-  const material = geral * (Number(orc.percentual_material) || 0) / 100;
-  const servico = geral * (Number(orc.percentual_servico) || 0) / 100;
-  return { geral, material, servico };
+  return { geral, material, servico: geral - material };
 }
 
 function subtotalCategoria(categoria) {
@@ -214,6 +243,7 @@ function renderCategoria(categoria, bloqueado) {
             <th>Cobrança</th>
             <th class="col-preco">Preço unit.</th>
             <th class="col-total">Total</th>
+            <th class="col-perc">% Mat.</th>
             ${!bloqueado ? '<th class="col-acoes"></th>' : ""}
           </tr>
         </thead>
@@ -233,8 +263,9 @@ function renderItem(catId, item, bloqueado) {
   const isNormal = item.status_cobranca === "normal";
   return `
     <tr data-cat="${catId}" data-item="${item.id}">
-      <td>
+      <td class="col-descricao">
         <textarea data-field="descricao" ${bloqueado ? "disabled" : ""}>${escapeHtml(item.descricao)}</textarea>
+        <div class="sugestoes-catalogo" hidden></div>
         ${item.preco_sugerido_diferente ? '<span class="alerta-preco">⚠ Preço diferente do último usado para este item.</span>' : ""}
       </td>
       <td class="col-qtd"><input type="number" step="0.001" data-field="quantidade" value="${item.quantidade ?? ""}" ${bloqueado ? "disabled" : ""} /></td>
@@ -248,6 +279,7 @@ function renderItem(catId, item, bloqueado) {
       </td>
       <td class="col-preco"><input type="number" step="0.01" data-field="preco_unitario" value="${isNormal && item.preco_unitario !== null ? item.preco_unitario : ""}" ${bloqueado || !isNormal ? "disabled" : ""} /></td>
       <td class="col-total">${isNormal ? fmtMoeda(Number(item.preco_total) || 0) : (item.status_cobranca === "incluso" ? "INCLUSO" : "por conta da contratante")}</td>
+      <td class="col-perc"><input type="number" step="0.01" min="0" max="100" data-field="percentual_material" value="${item.percentual_material ?? ""}" placeholder="—" title="Deixe em branco para usar o % do orçamento" ${bloqueado ? "disabled" : ""} /></td>
       ${!bloqueado ? `<td class="col-acoes"><button class="link-excluir" data-acao="excluir-item" title="Excluir item">✕</button></td>` : ""}
     </tr>
   `;
@@ -302,6 +334,9 @@ function ligarEventosCategorias(bloqueado) {
   const btnAdd = document.getElementById("btn-add-categoria");
   if (btnAdd) btnAdd.addEventListener("click", adicionarCategoria);
 
+  const selectTemplate = document.getElementById("select-template");
+  if (selectTemplate) popularSelectTemplates(selectTemplate);
+
   document.querySelectorAll(".categoria").forEach((catEl) => {
     const catId = Number(catEl.dataset.cat);
 
@@ -320,13 +355,67 @@ function ligarEventosCategorias(bloqueado) {
       if (!bloqueado) {
         tr.querySelector('[data-acao="excluir-item"]')?.addEventListener("click", () => excluirItem(catId, itemId));
         tr.querySelector('[data-field="status_cobranca"]').addEventListener("change", () => salvarItem(catId, itemId, tr));
-        tr.querySelectorAll('[data-field="quantidade"], [data-field="unidade"], [data-field="preco_unitario"]').forEach((el) => {
+        tr.querySelectorAll('[data-field="quantidade"], [data-field="unidade"], [data-field="preco_unitario"], [data-field="percentual_material"]').forEach((el) => {
           el.addEventListener("blur", () => salvarItem(catId, itemId, tr));
         });
-        tr.querySelector('[data-field="descricao"]').addEventListener("blur", () => tratarBlurDescricao(catId, itemId, tr));
+        const descArea = tr.querySelector('[data-field="descricao"]');
+        descArea.addEventListener("blur", (e) => {
+          // da tempo do clique num item de sugestao (mousedown) disparar antes do blur fechar a lista
+          setTimeout(() => tratarBlurDescricao(catId, itemId, tr), 150);
+        });
+        descArea.addEventListener("input", debounce(() => mostrarSugestoesCatalogo(tr, descArea), 250));
       }
     });
   });
+}
+
+async function popularSelectTemplates(selectEl) {
+  try {
+    if (!state.templates) state.templates = await api("/catalogo/templates");
+    for (const tpl of state.templates) {
+      const opt = document.createElement("option");
+      opt.value = tpl.id;
+      opt.textContent = `${tpl.nome} (${tpl.itens.length} itens)`;
+      selectEl.appendChild(opt);
+    }
+    selectEl.addEventListener("change", async () => {
+      const templateId = selectEl.value;
+      if (!templateId) return;
+      const orc = state.atual;
+      try {
+        await api(`/orcamentos/${orc.id}/categorias/from-template/${templateId}`, { method: "POST" });
+        await recarregarAtual();
+        showToast("Categoria criada a partir do modelo. Ajuste as quantidades e preços.");
+      } catch (e) {
+        showToast(`Erro ao aplicar modelo: ${e.message}`, true);
+      }
+    });
+  } catch (e) { /* catalogo de templates indisponivel, segue sem bloquear */ }
+}
+
+async function mostrarSugestoesCatalogo(tr, descArea) {
+  const termo = descArea.value.trim();
+  const caixa = tr.querySelector(".sugestoes-catalogo");
+  if (termo.length < 2) { caixa.hidden = true; caixa.innerHTML = ""; return; }
+  try {
+    const resultados = await api(`/catalogo/servicos?q=${encodeURIComponent(termo)}`);
+    if (resultados.length === 0) { caixa.hidden = true; caixa.innerHTML = ""; return; }
+    caixa.innerHTML = resultados
+      .map((r) => `<div class="sugestao-item" data-descricao="${escapeAttr(r.descricao)}" data-unidade="${escapeAttr(r.unidade_padrao)}">${escapeHtml(r.descricao)}</div>`)
+      .join("");
+    caixa.hidden = false;
+    caixa.querySelectorAll(".sugestao-item").forEach((el) => {
+      el.addEventListener("mousedown", (ev) => {
+        ev.preventDefault();
+        descArea.value = el.dataset.descricao;
+        const unidadeInput = tr.querySelector('[data-field="unidade"]');
+        if (!unidadeInput.value && el.dataset.unidade) unidadeInput.value = el.dataset.unidade;
+        caixa.hidden = true;
+        caixa.innerHTML = "";
+        descArea.blur();
+      });
+    });
+  } catch (e) { /* catalogo indisponivel, segue sem bloquear */ }
 }
 
 async function adicionarCategoria() {
@@ -401,6 +490,7 @@ async function adicionarItem(catId) {
 function coletarPayloadItem(tr) {
   const status = tr.querySelector('[data-field="status_cobranca"]').value;
   const precoRaw = tr.querySelector('[data-field="preco_unitario"]').value;
+  const percRaw = tr.querySelector('[data-field="percentual_material"]').value;
   return {
     ordem: 0,
     descricao: tr.querySelector('[data-field="descricao"]').value,
@@ -408,6 +498,7 @@ function coletarPayloadItem(tr) {
     unidade: tr.querySelector('[data-field="unidade"]').value,
     status_cobranca: status,
     preco_unitario: status === "normal" && precoRaw !== "" ? parseFloat(precoRaw) : null,
+    percentual_material: percRaw !== "" ? parseFloat(percRaw) : null,
   };
 }
 
@@ -492,6 +583,31 @@ async function aprovarOrcamento() {
     showToast("Orçamento aprovado. Preços atualizados na memória do sistema.");
   } catch (e) {
     showToast(`Erro ao aprovar: ${e.message}`, true);
+  }
+}
+
+async function duplicarOrcamento() {
+  const orc = state.atual;
+  try {
+    const copia = await api(`/orcamentos/${orc.id}/duplicar`, { method: "POST" });
+    await carregarLista();
+    await selecionar(copia.id);
+    showToast("Orçamento duplicado como novo rascunho.");
+  } catch (e) {
+    showToast(`Erro ao duplicar: ${e.message}`, true);
+  }
+}
+
+async function criarNovaRevisao() {
+  const orc = state.atual;
+  if (!confirm("Criar uma nova revisão editável a partir deste orçamento aprovado?")) return;
+  try {
+    const revisao = await api(`/orcamentos/${orc.id}/nova-revisao`, { method: "POST" });
+    await carregarLista();
+    await selecionar(revisao.id);
+    showToast(`Revisão ${revisao.numero_revisao} criada como rascunho.`);
+  } catch (e) {
+    showToast(`Erro ao criar revisão: ${e.message}`, true);
   }
 }
 

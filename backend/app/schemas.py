@@ -38,6 +38,7 @@ class OrcamentoItemBase(BaseModel):
     unidade: str = ""
     status_cobranca: StatusCobranca = "normal"
     preco_unitario: float | None = None
+    percentual_material: float | None = None
 
 
 class OrcamentoItemCreate(OrcamentoItemBase):
@@ -115,6 +116,8 @@ class OrcamentoListItem(BaseModel):
     status: StatusOrcamento
     criado_em: datetime
     aprovado_em: datetime | None = None
+    numero_revisao: int = 1
+    orcamento_origem_id: int | None = None
 
 
 class OrcamentoRead(OrcamentoBase):
@@ -125,6 +128,8 @@ class OrcamentoRead(OrcamentoBase):
     data_proposta: datetime
     criado_em: datetime
     aprovado_em: datetime | None = None
+    numero_revisao: int = 1
+    orcamento_origem_id: int | None = None
     categorias: list[OrcamentoCategoriaRead] = Field(default_factory=list)
 
 
@@ -133,3 +138,35 @@ class OrcamentoTotais(BaseModel):
     total_material: float
     total_servico: float
     subtotais_categoria: dict[int, float]
+
+
+# ---------- Catalogo de servicos ----------
+
+
+class ServicoCatalogoRead(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    descricao: str
+    unidade_padrao: str
+
+
+# ---------- Templates de categoria ----------
+
+
+class CategoriaTemplateItemRead(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    ordem: int
+    descricao: str
+    unidade: str
+
+
+class CategoriaTemplateRead(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    nome: str
+    ordem: int
+    itens: list[CategoriaTemplateItemRead] = Field(default_factory=list)

@@ -67,6 +67,7 @@ body {
 }
 .badge.rascunho { background: #fff3cd; color: #7a5b00; }
 .badge.aprovado { background: #d7f0dd; color: var(--verde); }
+.badge.revisao { background: #e3ecf7; color: var(--azul); margin-left: 4px; }
 
 .conteudo {
   flex: 1;
@@ -192,13 +193,54 @@ table.itens input, table.itens select {
 .col-qtd, .col-un { width: 70px; }
 .col-preco { width: 100px; }
 .col-total { width: 100px; text-align: right; white-space: nowrap; }
+.col-perc { width: 64px; }
 .col-acoes { width: 34px; }
+.col-descricao { position: relative; }
 
 .alerta-preco {
   display: block;
   color: #a05a00;
   font-size: 11px;
   margin-top: 3px;
+}
+
+.sugestoes-catalogo {
+  position: absolute;
+  z-index: 20;
+  left: 6px;
+  right: 6px;
+  top: 100%;
+  background: white;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.sugestao-item {
+  padding: 7px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f1f3;
+}
+.sugestao-item:last-child { border-bottom: none; }
+.sugestao-item:hover { background: var(--azul-claro); }
+
+.acoes-categoria {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.select-template {
+  padding: 8px 10px;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--cinza);
+  background: white;
 }
 
 .rodape-categoria {
@@ -253,6 +295,7 @@ table.itens input, table.itens select {
 }
 .status-pill.rascunho { background: #fff3cd; color: #7a5b00; }
 .status-pill.aprovado { background: #d7f0dd; color: var(--verde); }
+.status-pill.revisao { background: #e3ecf7; color: var(--azul); font-weight: 600; }
 
 .aviso-aprovado {
   background: #d7f0dd;

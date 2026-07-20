@@ -51,6 +51,10 @@ class Orcamento(Base):
     criado_por: Mapped[str] = mapped_column(String(100), default="")
     criado_em: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     aprovado_em: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    numero_revisao: Mapped[int] = mapped_column(Integer, default=1)
+    orcamento_origem_id: Mapped[int | None] = mapped_column(
+        ForeignKey("orcamentos.id", ondelete="SET NULL"), nullable=True
+    )
 
     categorias: Mapped[list["OrcamentoCategoria"]] = relationship(
         back_populates="orcamento",
@@ -88,5 +92,45 @@ class OrcamentoItem(Base):
     preco_unitario: Mapped[float | None] = mapped_column(Numeric(12, 2), nullable=True)
     preco_total: Mapped[float | None] = mapped_column(Numeric(12, 2), nullable=True)
     preco_sugerido_diferente: Mapped[bool] = mapped_column(Boolean, default=False)
+    percentual_material: Mapped[float | None] = mapped_column(Numeric(5, 2), nullable=True)
 
     categoria: Mapped["OrcamentoCategoria"] = relationship(back_populates="itens")
+
+
+class ServicoCatalogo(Base):
+    """Catalogo de descricoes de servico reutilizaveis (autocomplete ao criar itens)."""
+
+    __tablename__ = "servico_catalogo"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    descricao: Mapped[str] = mapped_column(Text, nullable=False, unique=True, index=True)
+    unidade_padrao: Mapped[str] = mapped_column(String(20), default="")
+    criado_em: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+
+class CategoriaTemplate(Base):
+    """Modelo de categoria com itens tipicos, para acelerar a montagem do orcamento."""
+
+    __tablename__ = "categoria_templates"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    nome: Mapped[str] = mapped_column(String(200), nullable=False)
+    ordem: Mapped[int] = mapped_column(Integer, default=0)
+
+    itens: Mapped[list["CategoriaTemplateItem"]] = relationship(
+        back_populates="template",
+        cascade="all, delete-orphan",
+        order_by="CategoriaTemplateItem.ordem",
+    )
+
+
+class CategoriaTemplateItem(Base):
+    __tablename__ = "categoria_template_itens"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    template_id: Mapped[int] = mapped_column(ForeignKey("categoria_templates.id", ondelete="CASCADE"))
+    ordem: Mapped[int] = mapped_column(Integer, default=0)
+    descricao: Mapped[str] = mapped_column(Text, default="")
+    unidade: Mapped[str] = mapped_column(String(20), default="")
+
+    template: Mapped["CategoriaTemplate"] = relationship(back_populates="itens")

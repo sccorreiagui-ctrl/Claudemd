@@ -6,14 +6,29 @@ Repositório para Claude code. Geração de projetos de alto nível!
 
 Aplicação web para montar orçamentos por formulário (sem editar planilhas), sugerir o
 último preço usado por item, calcular totais/split material-serviço e gerar a planilha
-Excel final no padrão visual da empresa — só depois de uma aprovação humana.
+Excel (e PDF) final no padrão visual da empresa — só depois de uma aprovação humana.
 
 Ver a especificação completa na descrição da tarefa que originou este projeto.
+
+### Funcionalidades
+
+- Formulário de orçamento (cliente, obra, condições) com categorias e itens dinâmicos.
+- Sugestão automática do último preço usado por item, com alerta ignorável em caso de divergência.
+- Catálogo de serviços com autocomplete ao digitar a descrição de um item (evita redigitar
+  os textos técnicos longos e melhora a precisão da sugestão de preço).
+- Templates de categoria (Banheiro, Subsolo/Cisterna, Cobertura, Reservatório etc.) para
+  montar categorias inteiras com um clique.
+- Percentual material/serviço configurável por orçamento **e**, quando necessário, por item
+  individual (ex.: um item 100% mão de obra).
+- Duplicar orçamento (cópia independente) e criar nova revisão (cópia ligada ao orçamento
+  aprovado de origem, com numeração "Rev NN" automática).
+- Aprovação humana obrigatória: bloqueia edição e grava os preços usados na memória do sistema.
+- Geração de Excel (openpyxl) e PDF (reportlab) no padrão visual da empresa.
 
 ### Stack
 
 - **Backend:** Python + FastAPI + SQLAlchemy + SQLite
-- **Geração de Excel:** openpyxl
+- **Geração de Excel:** openpyxl · **Geração de PDF:** reportlab
 - **Frontend:** HTML + JS puro (sem build step), servido como arquivos estáticos pelo próprio FastAPI
 
 ### Estrutura
@@ -21,16 +36,22 @@ Ver a especificação completa na descrição da tarefa que originou este projet
 ```
 backend/
   app/
-    main.py              # app FastAPI, cria as tabelas e serve o frontend
+    main.py              # app FastAPI, cria as tabelas, roda o seed inicial e serve o frontend
     database.py           # engine/sessão SQLite
-    models.py             # tabelas: orcamentos, orcamento_categorias, orcamento_itens, itens_preco
+    models.py             # tabelas: orcamentos, orcamento_categorias, orcamento_itens,
+                           # itens_preco, servico_catalogo, categoria_templates(_itens)
     schemas.py             # schemas Pydantic (request/response)
-    crud.py                # regras de negócio (cálculo de totais, sugestão de preço, aprovação)
-    numero_por_extenso.py  # valor em reais por extenso (usado no Excel)
+    crud.py                # regras de negócio (totais, sugestão de preço, aprovação,
+                           # duplicar/nova revisão, catálogo, templates)
+    seed.py                 # popula catálogo de serviços e templates com dados reais das propostas
+    numero_por_extenso.py  # valor em reais por extenso (usado no Excel/PDF)
     excel_generator.py     # monta o .xlsx final a partir do orçamento
+    pdf_generator.py       # monta o .pdf final a partir do orçamento (mesmo layout do Excel)
     routers/
-      orcamentos.py         # CRUD de orçamento/categoria/item, aprovar, baixar excel
+      orcamentos.py         # CRUD de orçamento/categoria/item, aprovar, duplicar, nova
+                             # revisão, baixar excel/pdf, categoria a partir de template
       itens_preco.py         # consulta de sugestão de preço
+      catalogo.py             # autocomplete de serviços e listagem de templates de categoria
   tests/test_api.py        # testes de API (pytest)
   requirements.txt
   requirements-dev.txt      # requirements.txt + pytest/httpx
@@ -72,10 +93,14 @@ python -m pytest tests/ -v
 2. Adicionar categorias e itens. Ao sair do campo de descrição, o sistema busca o
    último preço usado para aquele item e preenche automaticamente; se o preço for
    alterado manualmente, um alerta (não bloqueante) é exibido.
-3. Totais (geral, material, serviço) são recalculados automaticamente.
-4. Baixar Excel para revisão.
+3. Totais (geral, material, serviço) são recalculados automaticamente — considerando o
+   percentual de material do orçamento, ou o override definido em um item específico.
+4. Baixar Excel ou PDF para revisão.
 5. Aprovar — bloqueia edição e grava os preços unitários usados na memória do sistema
    (tabela `itens_preco`), para alimentar as sugestões dos próximos orçamentos.
+6. A partir de um orçamento aprovado, é possível criar uma **nova revisão** (cópia
+   editável ligada ao original, com "Rev NN" incrementado automaticamente) ou apenas
+   **duplicar** qualquer orçamento como um novo rascunho independente.
 
 ### Pendência conhecida
 
