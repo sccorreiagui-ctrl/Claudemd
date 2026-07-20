@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Automação de Orçamentos — Rigel Engenharia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Rigel Engenharia — Automação de Orçamentos</h1>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <button id="btn-novo" class="btn btn-primary btn-block">+ Novo Orçamento</button>
+      <ul id="lista-orcamentos" class="lista-orcamentos"></ul>
+    </aside>
+
+    <main id="conteudo" class="conteudo">
+      <p class="vazio">Selecione um orçamento na lista ao lado ou crie um novo.</p>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

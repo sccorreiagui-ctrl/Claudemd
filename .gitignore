@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Banco de dados local (gerado em runtime)
+backend/data/
+*.db
+
+# Editor / OS
+.DS_Store
+.vscode/
