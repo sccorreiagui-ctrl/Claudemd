@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bússola — Controle Financeiro Pessoal</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%2314b881%22/><path d=%22M12 5l2.5 5.2L20 12l-5.5 1.8L12 19l-2.5-5.2L4 12l5.5-1.8z%22 fill=%22%230b0d10%22/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 3l2.7 6.3L21 12l-6.3 2.7L12 21l-2.7-6.3L3 12l6.3-2.7z" fill="currentColor"/></svg>
+      </span>
+      <span class="brand-name">Bússola</span>
+    </div>
+
+    <div class="month-nav">
+      <button class="icon-btn" id="prevMonth" aria-label="Mês anterior">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="month-label" id="monthLabel">—</div>
+      <button class="icon-btn" id="nextMonth" aria-label="Próximo mês">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <button class="theme-toggle icon-btn" id="themeToggle" aria-label="Alternar tema">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path id="themeIcon" d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="12" cy="12" r="4.2" fill="currentColor"/></svg>
+    </button>
+  </header>
+
+  <main class="content" id="content">
+
+    <div class="alert-stack" id="alertStack"></div>
+
+    <section class="dashboard" id="dashboard">
+      <div class="dash-grid">
+        <div class="stat-card card">
+          <span class="stat-label">Recebido no mês</span>
+          <span class="stat-value" data-count="income">R$ 0,00</span>
+        </div>
+        <div class="stat-card card">
+          <span class="stat-label">Total planejado</span>
+          <span class="stat-value" data-count="planned">R$ 0,00</span>
+        </div>
+        <div class="stat-card card">
+          <span class="stat-label">Já gasto</span>
+          <span class="stat-value" data-count="spent">R$ 0,00</span>
+        </div>
+        <div class="stat-card card" id="freeCard">
+          <span class="stat-label">Saldo livre (não alocado)</span>
+          <span class="stat-value" data-count="free">R$ 0,00</span>
+        </div>
+      </div>
+
+      <div class="dash-visuals">
+        <div class="ring-card card">
+          <div class="ring-wrap">
+            <svg class="ring-svg" viewBox="0 0 140 140" width="140" height="140">
+              <circle class="ring-track" cx="70" cy="70" r="60"></circle>
+              <circle class="ring-progress" id="ringProgress" cx="70" cy="70" r="60"></circle>
+            </svg>
+            <div class="ring-center">
+              <span class="ring-pct" id="ringPct">0%</span>
+              <span class="ring-caption">do planejado usado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-card card">
+          <h3>Gasto por categoria</h3>
+          <div class="bar-chart" id="barChart"></div>
+        </div>
+
+        <div class="chart-card card">
+          <h3>Distribuição dos gastos</h3>
+          <div class="pie-wrap">
+            <svg viewBox="0 0 120 120" width="120" height="120" id="pieSvg"></svg>
+            <div class="pie-legend" id="pieLegend"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="income-section card">
+      <div class="section-head">
+        <h2>Renda mensal</h2>
+        <button class="btn btn-ghost" id="addIncomeBtn">+ Fonte de renda</button>
+      </div>
+      <div class="income-list" id="incomeList"></div>
+    </section>
+
+    <section class="categories-section">
+      <div class="section-head">
+        <h2>Categorias</h2>
+        <button class="btn btn-primary" id="addCategoryBtn">+ Nova categoria</button>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+  </main>
+</div>
+
+<!-- Modal: Income -->
+<div class="modal-overlay" id="incomeModal">
+  <div class="modal card">
+    <h3 id="incomeModalTitle">Nova fonte de renda</h3>
+    <form id="incomeForm">
+      <label>Nome<input type="text" id="incomeName" required placeholder="Ex: Salário"></label>
+      <label>Valor (R$)<input type="text" inputmode="decimal" id="incomeValue" required placeholder="0,00"></label>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" data-close="incomeModal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Modal: Category -->
+<div class="modal-overlay" id="categoryModal">
+  <div class="modal card">
+    <h3 id="categoryModalTitle">Nova categoria</h3>
+    <form id="categoryForm">
+      <label>Nome<input type="text" id="categoryName" required placeholder="Ex: Alimentação"></label>
+      <label>Valor planejado (R$)<input type="text" inputmode="decimal" id="categoryPlanned" required placeholder="0,00"></label>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" data-close="categoryModal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Modal: Expense -->
+<div class="modal-overlay" id="expenseModal">
+  <div class="modal card">
+    <h3 id="expenseModalTitle">Novo gasto</h3>
+    <form id="expenseForm">
+      <label>Data<input type="date" id="expenseDate" required></label>
+      <label>Descrição<input type="text" id="expenseDesc" required placeholder="Ex: Supermercado"></label>
+      <label>Valor (R$)<input type="text" inputmode="decimal" id="expenseValue" required placeholder="0,00"></label>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" data-close="expenseModal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Modal: Category detail -->
+<div class="modal-overlay" id="detailModal">
+  <div class="modal modal-wide card">
+    <div class="detail-header">
+      <div>
+        <h3 id="detailCategoryName">Categoria</h3>
+        <div class="detail-sub" id="detailCategorySub"></div>
+      </div>
+      <div class="detail-actions">
+        <button class="btn btn-ghost" id="editCategoryBtn">Editar</button>
+        <button class="btn btn-ghost btn-danger" id="deleteCategoryBtn">Excluir categoria</button>
+      </div>
+    </div>
+    <div class="detail-progress">
+      <div class="progress-track"><div class="progress-fill" id="detailProgressFill"></div></div>
+    </div>
+    <div class="section-head" style="margin-top:1.5rem">
+      <h4>Lançamentos</h4>
+      <button class="btn btn-primary btn-sm" id="addExpenseBtn">+ Gasto</button>
+    </div>
+    <div class="expense-list" id="expenseList"></div>
+  </div>
+</div>
+
+<div class="confirm-overlay" id="confirmOverlay">
+  <div class="modal confirm-modal card">
+    <p id="confirmMessage">Tem certeza?</p>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" id="confirmCancel">Cancelar</button>
+      <button class="btn btn-danger-solid" id="confirmOk">Excluir</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
