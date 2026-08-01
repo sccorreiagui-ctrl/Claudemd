@@ -153,8 +153,10 @@ body {
   font-weight: 500;
   animation: slideIn 0.25s ease both;
 }
-:root[data-theme="light"] .alert-banner,
-@media (prefers-color-scheme: light) { .alert-banner { color: #a4262c; } }
+:root[data-theme="light"] .alert-banner { color: #a4262c; }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .alert-banner { color: #a4262c; }
+}
 .alert-banner svg { flex-shrink: 0; }
 
 @keyframes slideIn {
