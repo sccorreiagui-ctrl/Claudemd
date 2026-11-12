@@ -1,0 +1,168 @@
+/* Manual Estratégico de Matemática – ENEM 2026 · sistema visual
+   navy=títulos · azul=explicação · verde=fórmula/resultado · laranja=erro · roxo=memorização */
+:root{
+  --navy:#14284B; --navy2:#223F73;
+  --blue:#2B6CB0; --lblue:#E8F1FB; --mblue:#B7D2EF;
+  --green:#0F7B4F; --lgreen:#E3F4EA; --mgreen:#9AD3B5;
+  --orange:#C85A08; --lorange:#FFF0E0; --morange:#F2B27A;
+  --purple:#6A3FB5; --lpurple:#F1EAFB; --mpurple:#C7B0EE;
+  --ink:#1B2430; --muted:#5B6678; --paper:#FCFBF7; --line:#D5DEEA;
+}
+@page{ size:A4; margin:0 }
+*{ box-sizing:border-box }
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact }
+body{ margin:0; font-family:'Inter','DejaVu Sans',sans-serif; font-size:8.7pt; line-height:1.34; color:var(--ink); background:#fff;
+      font-feature-settings:'tnum' 0,'cv11' 1; }
+b,strong{ font-weight:700 }
+p{ margin:0 0 1.2mm }
+.katex{ font-size:1.04em }
+.katex-display{ margin:0 !important }
+a{ color:inherit; text-decoration:none }
+
+/* ---------- página ---------- */
+.page{ width:210mm; height:297mm; position:relative; overflow:hidden; page-break-after:always; break-after:page;
+       background:var(--paper); display:flex; flex-direction:column }
+.ph{ display:flex; justify-content:space-between; align-items:flex-end; margin:7mm 12mm 0; padding-bottom:1.4mm;
+     border-bottom:1.4px solid var(--navy); font-size:6.6pt; letter-spacing:.07em; color:var(--muted); font-weight:600; height:9mm }
+.phc{ color:var(--navy); font-weight:800 }
+.body{ flex:1; min-height:0; display:flex; flex-direction:column; gap:2mm; padding:2.4mm 12mm 0; overflow:hidden; justify-content:space-between }
+.pf{ height:10mm; margin:0 12mm; display:flex; justify-content:space-between; align-items:center;
+     font-size:6.6pt; color:var(--muted); border-top:.6px solid var(--line) }
+.pfn{ background:var(--navy); color:#fff; font-weight:800; font-size:8pt; min-width:6.5mm; height:5.2mm; line-height:5.2mm; text-align:center; border-radius:3mm }
+
+/* ---------- faixa de capítulo ---------- */
+.chband{ display:flex; align-items:center; gap:3mm; background:linear-gradient(90deg,var(--navy),var(--navy2)); color:#fff;
+         border-radius:2mm; padding:1.2mm 4mm }
+.cbn{ font-size:6.8pt; font-weight:800; letter-spacing:.14em; color:#9CC3EA; white-space:nowrap }
+.cbt{ font-size:11pt; font-weight:800; letter-spacing:.01em }
+.cbs{ margin-left:auto; font-size:7pt; color:#cfe0f5; text-align:right; max-width:60mm; line-height:1.2 }
+
+/* ---------- cartões de tópico ---------- */
+.card{ background:#fff; border:1px solid var(--line); border-radius:2.2mm; overflow:hidden; display:flex; flex-direction:column }
+.card.grow{ flex:1 }
+.th{ display:flex; align-items:center; gap:2.4mm; background:var(--navy); color:#fff; padding:.9mm 3mm }
+.tn{ background:#fff; color:var(--navy); font-weight:800; font-size:7.6pt; border-radius:1.2mm; padding:0 1.6mm; min-width:6mm; text-align:center; line-height:4.2mm; height:4.2mm; white-space:nowrap }
+.tn.plus{ background:var(--mblue) }
+.tt{ font-weight:800; font-size:9.6pt; letter-spacing:.01em }
+.pr{ margin-left:auto; font-size:5.8pt; font-weight:800; letter-spacing:.09em; padding:.5mm 2mm; border-radius:2mm; white-space:nowrap }
+.pA{ background:#fff; color:var(--navy) }
+.pB{ background:var(--mblue); color:var(--navy) }
+.pC{ background:transparent; color:#cfe0f5; border:1px solid #6E8BB8 }
+.cb{ padding:1.7mm 3mm 1.9mm; display:flex; flex-direction:column; gap:1.4mm; flex:1; min-height:0 }
+
+/* ---------- caixas semânticas ---------- */
+.lab{ display:inline-block; font-size:5.9pt; font-weight:800; letter-spacing:.12em; margin-right:1.6mm; padding:.2mm 1.5mm; border-radius:1mm;
+      vertical-align:1px; background:var(--blue); color:#fff; white-space:nowrap }
+.lab.lg{ background:var(--green); margin:0 0 .8mm 0; display:block; width:max-content }
+.box{ border-radius:1.6mm; padding:1mm 2.3mm; font-size:8.1pt; line-height:1.34 }
+.when{ background:var(--lblue); border-left:3px solid var(--blue) }
+.err{ background:var(--lorange); border-left:3px solid var(--orange) }
+.err .lab{ background:var(--orange) }
+.mem{ background:var(--lpurple); border-left:3px solid var(--purple) }
+.mem .lab{ background:var(--purple) }
+.nt{ background:var(--lblue); border-left:3px solid var(--mblue) }
+.nt .lab{ background:var(--navy2) }
+.rec{ background:#fff; border:1.2px dashed var(--purple); border-left:3px solid var(--purple) }
+.rec .lab{ background:var(--purple); display:block; width:max-content; margin-bottom:.8mm }
+.qrow{ display:flex; gap:2mm; align-items:baseline; padding:.25mm 0; border-top:.5px dotted var(--mpurple) }
+.qrow:first-of-type{ border-top:0 }
+.qrow .q{ flex:1.2; font-weight:600 }
+.qrow .a{ flex:1; color:var(--purple); font-weight:600 }
+
+/* ---------- fórmulas ---------- */
+.formula{ background:var(--lgreen); border-left:3px solid var(--green); border-radius:1.6mm; padding:1.2mm 2.6mm; }
+.frow{ display:flex; align-items:center; gap:3mm; padding:.2mm 0 }
+.ftex{ flex:0 0 auto; font-size:10.6pt }
+.fnote{ flex:1; font-size:7.8pt; color:#1d4a37; line-height:1.28 }
+.irow{ padding:.35mm 0; font-size:9pt }
+.formula.inl{ padding:1mm 2.6mm }
+.vars{ font-size:7.7pt; color:var(--muted); line-height:1.3 }
+.vars b{ color:var(--ink) }
+
+/* ---------- figuras ---------- */
+.figbox{ display:flex; flex-direction:column; align-items:center; justify-content:center }
+.figbox svg, svg.fig{ max-width:100%; height:auto; display:block }
+.cap{ font-size:7.2pt; color:var(--muted); text-align:center; margin-top:.6mm; line-height:1.25 }
+svg text{ font-family:'Inter','DejaVu Sans',sans-serif }
+svg .mi{ font-family:'KaTeX_Math','Times New Roman',serif; font-style:italic }
+svg text.halo{ paint-order:stroke; stroke:#fff; stroke-width:3.2px; stroke-linejoin:round }
+.card svg text.halo{ stroke:#fff }
+
+/* ---------- layout ---------- */
+.cols{ display:grid; gap:3mm }
+.stack{ display:flex; flex-direction:column }
+
+/* ---------- exemplos ---------- */
+.example{ background:#fff; border:1.4px solid var(--navy2); border-radius:2.2mm; overflow:hidden; font-size:8.1pt }
+.exh{ display:flex; align-items:center; gap:2.5mm; background:var(--navy2); color:#fff; padding:.9mm 3mm }
+.exn{ font-size:6.2pt; font-weight:800; letter-spacing:.14em; color:#9CC3EA; white-space:nowrap }
+.ext{ font-weight:800; font-size:8.8pt }
+.exrow{ display:grid; grid-template-columns:19mm 1fr; gap:2mm; padding:.8mm 3mm; border-top:.6px solid var(--line); align-items:start }
+.exl{ font-size:5.8pt; font-weight:800; letter-spacing:.1em; color:var(--blue); padding-top:.5mm; white-space:nowrap }
+.exrow.id{ background:var(--lblue) }
+.exrow.sc{ background:var(--lpurple) }
+.exrow.sc .exl{ color:var(--purple) }
+.exans{ display:grid; grid-template-columns:19mm 1fr; gap:2mm; padding:1.1mm 3mm; background:var(--lgreen); border-top:1.4px solid var(--green); font-weight:700 }
+.exans .exl{ color:var(--green) }
+.exrow .katex-display{ margin:.4mm 0 !important; text-align:left }
+.example .katex-display>.katex{ text-align:left }
+.miniex{ display:grid; grid-template-columns:15mm 1fr; gap:2mm; background:#fff; border:1px solid var(--mgreen); border-left:3px solid var(--green); border-radius:1.6mm; padding:1mm 2.4mm; font-size:8pt }
+.mxl{ font-size:5.9pt; font-weight:800; letter-spacing:.12em; color:var(--green); padding-top:.6mm }
+.mxs{ color:var(--muted) }
+.mxa{ font-weight:800; color:var(--green) }
+
+/* ---------- tabelas ---------- */
+table.tb{ border-collapse:collapse; width:100%; font-size:7.9pt }
+.tb th{ background:var(--navy2); color:#fff; font-weight:700; padding:.9mm 1.6mm; text-align:left; font-size:7.3pt; letter-spacing:.03em }
+.tb td{ padding:.8mm 1.6mm; border-bottom:.6px solid var(--line); vertical-align:middle }
+.tb tbody tr:nth-child(even) td{ background:#F4F8FD }
+.tb.c td,.tb.c th{ text-align:center }
+.tb .katex{ font-size:1em }
+
+/* ---------- utilitários ---------- */
+.small{ font-size:7.6pt; color:var(--muted) }
+.g{ color:var(--green) } .o{ color:var(--orange) } .p{ color:var(--purple) } .bl{ color:var(--blue) } .n{ color:var(--navy) }
+.tc{ text-align:center }
+.mt1{ margin-top:1mm } .mb1{ margin-bottom:1mm }
+ul.tight{ margin:0; padding-left:4mm } ul.tight li{ margin:.3mm 0 }
+.chip{ display:inline-block; padding:0 1.6mm; border-radius:1.2mm; font-weight:700; font-size:7.4pt }
+.chip.g{ background:var(--lgreen); color:var(--green) } .chip.o{ background:var(--lorange); color:var(--orange) }
+.chip.p{ background:var(--lpurple); color:var(--purple) } .chip.b{ background:var(--lblue); color:var(--blue) }
+.sep{ height:0; border-top:.6px dashed var(--mblue); margin:.4mm 0 }
+.body>*{ flex-shrink:0 }
+.body>.grow{ flex:1 1 auto }
+
+/* ---------- formulário ---------- */
+.fcols{ column-count:2; column-gap:3.6mm; flex:1; min-height:0 }
+.fg{ break-inside:avoid; margin-bottom:2.2mm; border:1px solid var(--line); border-radius:1.6mm; overflow:hidden; background:#fff }
+.fgh{ background:var(--navy2); color:#fff; font-weight:800; font-size:7.4pt; padding:.55mm 2.2mm; letter-spacing:.07em }
+.fgr{ display:grid; grid-template-columns:23mm 1fr; gap:1.4mm; padding:.6mm 2.2mm; border-top:.5px solid var(--line); align-items:center; font-size:7.6pt }
+.fgr:nth-child(odd){ background:#F6F9FD }
+.fgr .n{ color:var(--muted); font-weight:700; font-size:6.9pt; line-height:1.2 }
+.fgr .f{ font-size:8.7pt; line-height:1.32 }
+.sepd{ color:var(--mblue); font-weight:400; margin:0 .3mm }
+.fgr .f .katex{ font-size:1em }
+.fgr .f i{ color:var(--green); font-style:normal; font-weight:600; font-size:7pt }
+.fg.green .fgh{ background:var(--green) }
+.fg.purple .fgh{ background:var(--purple) }
+
+/* ---------- capa ---------- */
+.cover .body{ padding-top:0 }
+.cvban{ margin:0 -12mm; background:linear-gradient(120deg,#0E1F3F 0%,#1B3568 55%,#2B5BA3 100%); color:#fff; padding:8mm 12mm 7mm; position:relative; overflow:hidden }
+.cvban .k{ font-size:7.2pt; font-weight:800; letter-spacing:.22em; color:#9CC3EA }
+.cvban h1{ margin:1.6mm 0 1mm; font-size:25pt; line-height:1.05; font-weight:900; letter-spacing:-.01em }
+.cvban h1 span{ color:#8FD0AE }
+.cvban .sub{ font-size:9.2pt; color:#D5E4F7; max-width:112mm; line-height:1.35 }
+.cvban svg{ position:absolute; right:6mm; top:3mm }
+.cvgrid{ display:grid; grid-template-columns:1fr 1fr; gap:3mm }
+.cvbox{ background:#fff; border:1px solid var(--line); border-radius:2.2mm; padding:2mm 3mm; font-size:7.9pt }
+.cvbox h3{ margin:0 0 1.2mm; font-size:8.4pt; color:var(--navy); letter-spacing:.04em; font-weight:800 }
+.cvbox .lg{ display:grid; grid-template-columns:auto 1fr; gap:.6mm 2mm; align-items:center }
+.sw{ display:inline-block; width:4mm; height:3mm; border-radius:.8mm }
+.cvmap{ display:grid; grid-template-columns:1fr 1fr; gap:0 4mm; background:#fff; border:1px solid var(--line); border-radius:2.2mm; padding:1.6mm 3mm 2mm }
+.cvr{ display:grid; grid-template-columns:6.5mm 1fr 5.2mm 9.5mm; gap:1.2mm; align-items:center; font-size:7.5pt; padding:.45mm 0; border-bottom:.5px dotted var(--line) }
+.cvr .no{ font-weight:800; color:var(--navy); text-align:right }
+.cvr .pg{ color:var(--blue); font-weight:700; text-align:right; font-size:7.1pt }
+.cvr .ch{ display:inline-block; text-align:center; font-weight:800; font-size:6.3pt; border-radius:1mm; line-height:3.6mm; height:3.6mm }
+.cvr .ch.A{ background:var(--navy); color:#fff } .cvr .ch.B{ background:var(--mblue); color:var(--navy) } .cvr .ch.C{ background:#fff; color:var(--muted); border:1px solid var(--mpurple) }
+.cvh{ grid-column:1/-1; font-weight:800; font-size:7pt; letter-spacing:.1em; color:var(--blue); padding:.8mm 0 .2mm; border-bottom:1px solid var(--mblue) }
