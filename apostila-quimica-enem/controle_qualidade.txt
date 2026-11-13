@@ -1,0 +1,137 @@
+# Verificações automáticas executadas na geração do PDF (RDKit, balanceamento, cálculos)
+
+OK cadeia Normal × ramificada: CCCCC C5H12 | CC(C)CC C5H12
+OK cadeia Saturada × insaturada: CCCC C4H10 | C=CCC C4H8
+OK cadeia Homogênea × heterogênea: CCCCC C5H12 | CCOCC C4H10O
+OK cadeia Alifática × aromática: C1CCCCC1 C6H12 | c1ccccc1 C6H6
+OK hidrocarboneto propano CCC: C3H8
+OK hidrocarboneto propeno C=CC: C3H6
+OK hidrocarboneto propino C#CC: C3H4
+OK hidrocarboneto ciclo-hexano C1CCCCC1: C6H12
+OK hidrocarboneto benzeno c1ccccc1: C6H6
+OK hidrocarboneto buta-1,3-dieno C=CC=C: C4H6
+OK isomeria plana: C4H10O (butan-1-ol/butan-2-ol) e C2H6O (etanol/éter dimetílico) com fórmulas iguais
+OK grupo [CX4][OX2H:1] em CCO: 1 ocorrência(s) | C2H6O
+OK grupo [c][OX2H:1] em Oc1ccccc1: 1 ocorrência(s) | C6H6O
+OK grupo [CX3]=[CX3][OX2H:1] em C=CO: 1 ocorrência(s) | C2H4O
+OK grupo [#6][OX2:1][#6] em CCOCC: 1 ocorrência(s) | C4H10O
+OK grupo [CX3H1:1]=[O:2] em CC=O: 1 ocorrência(s) | C2H4O
+OK grupo [#6][CX3:1]([#6])=[O:2] em CC(C)=O: 1 ocorrência(s) | C3H6O
+OK grupo [CX3:1](=[O:2])[OX2H1:3] em CC(=O)O: 1 ocorrência(s) | C2H4O2
+OK grupo [#6][CX3:1](=[O:2])[OX2:3][#6] em CC(=O)OCC: 1 ocorrência(s) | C4H8O2
+OK grupo [NX3;!$(N-C=O):1] em CCN: 1 ocorrência(s) | C2H7N
+OK grupo [NX3:1][CX3:2]=[O:3] em CC(N)=O: 1 ocorrência(s) | C2H5NO
+OK grupo [CX4][Cl:1] em CCCl: 1 ocorrência(s) | C2H5Cl
+OK grupo [SX2H:1] em CCS: 1 ocorrência(s) | C2H6S
+OK grupo [CX4][OX2H:1] em CCO: 1 ocorrência(s) | C2H6O
+OK grupo [c][OX2H:1] em Oc1ccccc1: 1 ocorrência(s) | C6H6O
+OK grupo [CX3H1:1]=[O:2] em CCC=O: 1 ocorrência(s) | C3H6O
+OK grupo [#6][CX3:1]([#6])=[O:2] em CC(C)=O: 1 ocorrência(s) | C3H6O
+OK grupo [#6][OX2:1][#6] em CCOCC: 1 ocorrência(s) | C4H10O
+OK grupo [#6][CX3:1](=[O:2])[OX2:3][#6] em CC(=O)OCC: 1 ocorrência(s) | C4H8O2
+OK grupo [NX3;!$(N-C=O):1] em CCN: 1 ocorrência(s) | C2H7N
+OK grupo [NX3:1][CX3:2]=[O:3] em CC(N)=O: 1 ocorrência(s) | C2H5NO
+OK grupo [CX3:1](=[O:2])[OX2H1:3] em CC(=O)O: 1 ocorrência(s) | C2H4O2
+OK grupo [#6][CX3:1](=[O:2])[OX2:3][#6] em CC(=O)OC: 1 ocorrência(s) | C3H6O2
+OK exercício CC(=O)Oc1ccccc1C(=O)O: 1 éster; 2 ácido carboxílico
+OK exercício COc1cc(C=O)ccc1O: 1 éter; 2 aldeído; 3 fenol
+OK exercício CNC[C@H](O)c1ccc(O)c(O)c1: 1 amina; 2 álcool; 3 fenol; 4 fenol
+OK exercício CC(=O)Nc1ccc(O)cc1: 1 amida; 2 fenol
+OK exercício NCC(=O)O: 1 amina; 2 ácido carboxílico
+OK exercício CCCC(=O)OCC(OC(=O)CCC)COC(=O)CCC: 1 éster; 2 éster; 3 éster
+OK grupo [CX4][OX2H:1] em CCO: 1 ocorrência(s) | C2H6O
+OK grupo [CX3:1](=[O:2])[OX2H1:3] em CC(=O)O: 1 ocorrência(s) | C2H4O2
+OK grupo [#6][CX3:1]([#6])=[O:2] em CC(C)=O: 1 ocorrência(s) | C3H6O
+OK grupo [CX4][OX2H:1] em OCC(O)CO: 3 ocorrência(s) | C3H8O3
+OK equação balanceada: esterificação: CH3COOH + C2H5OH → CH3COOC2H5 + H2O  ({'C': 4, 'H': 10, 'O': 3})
+OK equação balanceada: saponificação do triacetato (modelo): C9H14O6 + 3 NaOH → C3H8O3 + 3 CH3COONa  ({'C': 9, 'H': 17, 'Na': 3, 'O': 9})
+OK equação balanceada: transesterificação (modelo): triacetina + 3 CH3OH → glicerol + 3 acetato de metila  ({'C': 12, 'H': 26, 'O': 9})
+OK equação balanceada: combustão do metano  ({'C': 1, 'H': 4, 'O': 4})
+OK equação balanceada: combustão do etanol  ({'C': 2, 'H': 6, 'O': 7})
+OK equação balanceada: combustão do octano  ({'C': 16, 'H': 36, 'O': 50})
+OK equação balanceada: combustão incompleta do metano → CO  ({'C': 2, 'H': 8, 'O': 6})
+OK equação balanceada: fermentação da glicose  ({'C': 6, 'H': 12, 'O': 6})
+OK equação balanceada: hidrogenação do eteno  ({'C': 2, 'H': 6})
+OK equação balanceada: adição de Br2 ao eteno  ({'Br': 2, 'C': 2, 'H': 4})
+OK equação balanceada: substituição: CH4 + Cl2 → CH3Cl + HCl  ({'C': 1, 'Cl': 2, 'H': 4})
+OK equação balanceada: oxidação etanol → etanal (– 2H)  ({'C': 2, 'H': 6, 'O': 1})
+OK adição: unidade repetida do polietileno (–CH2–CH2–) tem a mesma composição do monômero C2H4
+OK equação balanceada: peptídica: glicina + alanina → dipeptídeo + H2O  ({'C': 5, 'H': 12, 'N': 2, 'O': 4})
+OK monômero de adição C=C: C2H4 (contém C=C)
+OK monômero de adição C=CC: C3H6 (contém C=C)
+OK monômero de adição C=CCl: C2H3Cl (contém C=C)
+OK monômero de adição C=Cc1ccccc1: C8H8 (contém C=C)
+OK monômero de adição FC(F)=C(F)F: C2F4 (contém C=C)
+OK cálculo: soro 0,9% → C (g/L) = 9 (texto: 9)
+OK cálculo: soro: M = C/MM(NaCl=58,5) = 0.1538 (texto: 0.154)
+OK cálculo: NaOH 250 mL 0,20 mol/L: n = 0.05 (texto: 0.05)
+OK cálculo: massa NaOH (MM 40) = 2 (texto: 2.0)
+OK cálculo: massa com 80% de pureza = 2.5 (texto: 2.5)
+OK cálculo: ppm Pb: 0,30 mg em 2,0 L = 0.15 (texto: 0.15)
+OK cálculo: diluição 100 mL HCl 2 mol/L → 500 mL = 0.4 (texto: 0.4)
+OK cálculo: V1 para 250 mL a 0,2 mol/L partindo de 5 mol/L = 10 (texto: 10)
+OK cálculo: mistura sem reação (200 mL 0,5 + 300 mL 1,0) = 0.8 (texto: 0.8)
+OK cálculo: mistura com reação: sobra OH- = 0.04 (texto: 0.04)
+OK cálculo: [OH-] final = 0.08 (texto: 0.08)
+OK cálculo: pOH = 1.097 (texto: 1.1)
+OK cálculo: pH = 12.9 (texto: 12.9)
+OK cálculo: dose paracetamol: 150 mg em 200 mg/mL = 0.75 (texto: 0.75)
+OK equação balanceada: coagulação: Al2(SO4)3 + 3 Ca(OH)2 → 2 Al(OH)3 + 3 CaSO4
+OK equação balanceada: cloração: Cl2 + H2O → HClO + HCl
+OK equação balanceada: biogás: C6H12O6 → 3 CH4 + 3 CO2
+OK equação balanceada: SO2 → SO3
+OK equação balanceada: SO3 + H2O → H2SO4
+OK equação balanceada: N2 + O2 → 2 NO (motor)
+OK equação balanceada: 3 NO2 + H2O → 2 HNO3 + NO
+OK equação balanceada: chuva normal: CO2 + H2O → H2CO3
+OK equação balanceada: mármore × chuva ácida: CaCO3 + H2SO4 → CaSO4 + CO2 + H2O
+OK equação balanceada: precipitação de metal: Pb(NO3)2 + Na2S → PbS + 2 NaNO3
+OK equação balanceada: combustão do etanol
+OK cálculo: etanol: 23 kg → mol = 500 (texto: 500)
+OK cálculo: CO2 formado (mol) = 1000 (texto: 1000)
+OK cálculo: CO2 (kg) = 44 (texto: 44)
+OK cálculo: CO2 volume CNTP (m³) = 22.4 (texto: 22.4)
+OK equação balanceada: Haber: N2 + 3 H2 → 2 NH3
+OK cálculo: N2 28 g → mol = 1 (texto: 1)
+OK cálculo: H2 10 g → mol = 5 (texto: 5)
+OK cálculo: NH3 teórica (g) = 34 (texto: 34)
+OK cálculo: rendimento = 50 (texto: 50)
+OK equação balanceada: calcinação: CaCO3 → CaO + CO2
+OK cálculo: calcário puro (kg) = 400 (texto: 400)
+OK cálculo: n CaCO3 (mol) = 4000 (texto: 4000)
+OK cálculo: CaO teórico (kg) = 224 (texto: 224)
+OK cálculo: CaO real 90% (kg) = 201.6 (texto: 201.6)
+OK cálculo: S no carvão (t) = 20 (texto: 20)
+OK cálculo: SO2 (t) = 40 (texto: 40)
+OK cálculo: CaCO3 p/ SO2 (t) = 62.5 (texto: 62.5)
+OK cálculo: ENEM 2024 bauxita evitada (t) = 1.948e+06 (texto: 1900000.0)
+OK equação balanceada: balanceamento exemplo: C3H8 + 5 O2 → 3 CO2 + 4 H2O
+OK cálculo: pH [H+]=1e-3 = 3 (texto: 3)
+OK cálculo: pH com log2=0,30: 2e-3 = 2.699 (texto: 2.7)
+OK cálculo: pOH 1e-4 → pH = 10 (texto: 10)
+OK cálculo: [H+] pH 5 = 1e-05 (texto: 1e-05)
+OK cálculo: HCl 0,01 mol/L = 2 (texto: 2)
+OK cálculo: razão [H+] pH3/pH6 = 1000 (texto: 1000)
+OK equação balanceada: Haber
+OK equação balanceada: neutralização HCl + NaOH → NaCl + H2O
+OK equação balanceada: ácido carbônico: CO2 + H2O → H2CO3
+OK equação balanceada: amônia em água
+OK cálculo: NOx Mn em KMnO4 = 7 (texto: 7)
+OK cálculo: ΔE° Daniell = 1.1 (texto: 1.1)
+OK cálculo: Faraday: Q = i·t = 1930 (texto: 1930)
+OK cálculo: n(e-) = 0.02 (texto: 0.02)
+OK cálculo: n(Cu) = 0.01 (texto: 0.01)
+OK cálculo: m(Cu) = 0.635 (texto: 0.635)
+OK equação balanceada: Daniell: Zn + CuSO4 → ZnSO4 + Cu
+OK equação balanceada: ferrugem (global): 4 Fe + 3 O2 → 2 Fe2O3
+OK equação balanceada: cloro-álcali: 2 NaCl + 2 H2O → H2 + Cl2 + 2 NaOH
+OK cálculo: Hess: C + ½O2 → CO = -111 (texto: -111)
+OK cálculo: energia de ligação H2 + Cl2 → 2HCl = -183 (texto: -183)
+OK cálculo: kJ/g H₂ = 141.8 (texto: 141.765873015873)
+OK cálculo: kJ/g CH₄ = 55.5 (texto: 55.50498753117207)
+OK cálculo: kJ/g C₈H₁₈ (octano) = 47.89 (texto: 47.894598616825704)
+OK cálculo: kJ/g C₂H₅OH (etanol) = 29.67 (texto: 29.672237898849577)
+OK cálculo: kJ/g C₆H₁₂O₆ (glicose) = 15.56 (texto: 15.558392539964476)
+OK cálculo: Q3: etanol 4,6 kg → mol = 100 (texto: 100)
+OK cálculo: Q3: CO2 (kg) = 8.8 (texto: 8.8)
+OK cálculo: Q4: ΔE Zn/Ag = 1.56 (texto: 1.56)
