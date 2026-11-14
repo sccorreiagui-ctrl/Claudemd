@@ -1,0 +1,54 @@
+<!--
+key: estq2
+block: D
+title: Estequiometria II: limitante, pureza, rendimento
+-->
+<div class="h2">Na vida real: reagente limitante, pureza e rendimento <span class="sub">três correções para a mesma conta</span></div>
+<p>Reagentes raramente estão na <b>proporção exata</b> da equação, quase nunca são <b>100% puros</b> e a reação nem sempre é <b>100% eficiente</b>. Cada fator tem sua correção, e todas se aplicam <b>no mol</b>.</p>
+<div class="fig">{{fig:d_limitante}}
+<div class="figcap">Diagrama de partículas de \ce{2H2 + O2 -> 2H2O}: com 6 \ce{H2} e 2 \ce{O2}, o \ce{O2} termina primeiro e <b>determina</b> quanta água se forma.</div></div>
+
+<div class="chain">
+  <div class="nd"><b>1 · Mol</b>Converta a quantidade de <b>cada</b> reagente para mol.</div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>2 · Divida</b>Divida o mol de cada um pelo seu <b>coeficiente</b>.</div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>3 · Compare</b>O <b>menor quociente</b> é o <b>limitante</b>; o outro está em excesso.</div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>4 · Calcule</b>Produtos e consumo partem <b>só do limitante</b>. Excesso = inicial − consumido.</div>
+</div>
+
+<div class="g3">
+  <div class="fcard"><div class="ft"><span>Pureza</span><span>%</span></div><div class="fm">$\text{pureza}=\dfrac{m_{\text{pura}}}{m_{\text{amostra}}}\times100\%$</div><div class="fd">Só a massa <b>pura</b> reage. Use no <b>início</b>: m<sub>pura</sub> = pureza · m<sub>amostra</sub>. Minério, calcário, reagentes comerciais.</div></div>
+  <div class="fcard"><div class="ft"><span>Rendimento</span><span>%</span></div><div class="fm">$\eta=\dfrac{m_{\text{real}}}{m_{\text{teórica}}}\times100\%$</div><div class="fd">O valor <b>teórico</b> vem da estequiometria (100%). Aplique <b>no fim</b>: real = η · teórico. Etapas em série: η<sub>total</sub> = η<sub>1</sub> · η<sub>2</sub>.</div></div>
+  <div class="fcard"><div class="ft"><span>Excesso</span><span>mol</span></div><div class="fm">$n_{\text{excesso}}=n_{\text{inicial}}-n_{\text{consumido}}$</div><div class="fd">O consumido vem do <b>limitante</b> × proporção. Em combustões, o excesso de \ce{O2} garante a combustão <b>completa</b>.</div></div>
+</div>
+
+<div class="worked"><div class="lab">Exemplo 1 · reagente limitante</div>
+<div class="stmt">Misturam-se 40 g de \ce{H2} e 40 g de \ce{O2}: \ce{2H2 + O2 -> 2H2O}. (H = 1; O = 16) Qual o limitante, a massa de água formada e a massa de reagente que sobra?</div>
+<div class="steps">
+  <div class="step"><span class="n">1</span><div class="t">n(H<sub>2</sub>) = 40 / 2 = <b>20 mol</b>; n(O<sub>2</sub>) = 40 / 32 = <b>1,25 mol</b>. Divida pelos coeficientes: H<sub>2</sub>: 20/2 = 10 · O<sub>2</sub>: 1,25/1 = 1,25 ⇒ <b>O<sub>2</sub> é o limitante</b>.</div></div>
+  <div class="step"><span class="n">2</span><div class="t">n(H<sub>2</sub>O) = 2 · 1,25 = 2,5 mol ⇒ <span class="ans">45 g de água</span>. Consumo de H<sub>2</sub> = 2,5 mol ⇒ sobram 20 − 2,5 = 17,5 mol = <span class="ans">35 g de H<sub>2</sub></span>.</div></div>
+</div></div>
+
+<div class="worked"><div class="lab">Exemplo 2 · pureza e rendimento · dificuldade média-alta</div>
+<div class="stmt">250 g de calcário com 80% de \ce{CaCO3} são calcinados: \ce{CaCO3 -> CaO + CO2}. O rendimento é de 90%. Qual a massa de \ce{CaO} e o volume de \ce{CO2} (CNTP) obtidos? (Ca = 40; C = 12; O = 16)</div>
+<div class="chain" style="margin:2px 0 5px">
+  <div class="nd"><b>① pureza</b>m(CaCO<sub>3</sub>) = 0,80 · 250 = <b>200 g</b> = <b>2,00 mol</b></div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>② estequiometria 1 : 1 : 1</b>teórico: 2,00 mol de CaO e de CO<sub>2</sub> (112 g e 44,8 L)</div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>③ rendimento</b>real = 0,90 · teórico<br><b>100,8 g de CaO</b> · <b>40,3 L de CO<sub>2</sub></b></div>
+</div></div>
+
+<div class="h2">Do enunciado à ação <span class="sub">palavras-chave de questões de estequiometria</span></div>
+<table class="t tight">
+<tr><th style="width:36%">Se o enunciado diz…</th><th>Faça…</th></tr>
+<tr><td class="k">“quantidades dos dois reagentes”</td><td>Descubra o <b>limitante</b> (mol ÷ coeficiente) e parta dele.</td></tr>
+<tr><td class="k">“amostra com X% de pureza”</td><td>Multiplique a massa da amostra por X% <b>antes</b> de converter em mol.</td></tr>
+<tr><td class="k">“rendimento de Y%”</td><td>Calcule o <b>teórico</b> e multiplique por Y% <b>no fim</b>.</td></tr>
+<tr><td class="k">“gás nas CNTP / a 25 °C / a 27 °C e 2 atm”</td><td>CNTP: 22,4 L/mol; outras condições: $PV=nRT$ (p. {{pg:gases}}).</td></tr>
+<tr><td class="k">“solução 0,5 mol/L”, “volume de solução”</td><td>n = 𝓜 · V (em litros) · ou V = n / 𝓜.</td></tr>
+<tr><td class="k">“etapas” (processo industrial)</td><td>Encadeie as razões em mol: \ce{S -> SO2 -> SO3 -> H2SO4} dá <b>1 mol S → 1 mol H<sub>2</sub>SO<sub>4</sub></b> (32 g → 98 g).</td></tr>
+</table>
+
+<div class="g2">
+  <div class="box red sm"><div class="lab">{{icon:alert}} Onde se erra</div>Comparar <b>massas</b> em vez de mol para achar o limitante; aplicar o rendimento <b>antes</b> do limitante; esquecer a pureza; tratar a massa da <b>amostra</b> como se fosse pura.</div>
+  <div class="quiz" style="margin-top:6px"><div class="lab">Teste rápido</div><p class="q"><b class="n">{{q:minerio}}</b>Uma tonelada de minério com 80% de \ce{Fe2O3} é reduzida a ferro (\ce{Fe2O3 + 3CO -> 2Fe + 3CO2}) com rendimento de 90%. A massa de Fe obtida é, aproximadamente: (Fe = 56; O = 16)</p>
+  <div class="alts"><span><b>A</b>504 kg</span><span><b>B</b>560 kg</span><span><b>C</b>630 kg</span><span><b>D</b>800 kg</span></div></div>
+</div>

@@ -1,0 +1,54 @@
+<!--
+key: diluicao
+block: D
+title: Diluição, mistura e titulação
+-->
+<div class="h2">Diluição e mistura <span class="sub">o que se conserva é o número de mols de soluto</span></div>
+<div class="g2">
+  <div class="col">
+    <div class="fig">{{fig:d_diluicao}}</div>
+    <div class="box blue sm"><div class="lab">{{icon:water}} Diluição</div>Adicionar solvente <b>não muda n</b>: \ce{C1V1 = C2V2} (vale com 𝓜 ou C). Diluir <b>sempre reduz</b> a concentração; o volume final é V<sub>2</sub> = V<sub>1</sub> + V<sub>água</sub> (aprox.). Fator de diluição = V<sub>2</sub>/V<sub>1</sub>.</div>
+  </div>
+  <div class="col">
+    <div class="fig">{{fig:d_mistura}}</div>
+    <div class="box blue sm"><div class="lab">{{icon:water}} Mistura sem reação (mesmo soluto)</div>Somam-se os <b>mols</b> e os <b>volumes</b>: C<sub>f</sub> fica <b>entre</b> C<sub>1</sub> e C<sub>2</sub> (média ponderada pelos volumes). Misturas de solutos que reagem: ver titulação.</div>
+  </div>
+</div>
+
+<div class="h2">Titulação ácido-base <span class="sub">determinar a concentração desconhecida por neutralização</span></div>
+<div class="g3" style="grid-template-columns:150px 262px 1fr">
+  <div class="fig plain">{{fig:d_bureta}}</div>
+  <div class="fig plain">{{fig:d_curva_titulacao}}</div>
+  <div class="col">
+    <div class="box orange sm"><div class="lab">{{icon:react}} Equivalência</div>Quando n(H<sup>+</sup>) = n(OH<sup>−</sup>):<br>$\mathcal{M}_A V_A\,y_A=\mathcal{M}_B V_B\,y_B$<br><span class="tiny">y = nº de H<sup>+</sup> ionizáveis (HCl: 1; \ce{H2SO4}: 2) ou de OH<sup>−</sup> (NaOH: 1; \ce{Ca(OH)2}: 2).</span></div>
+    <div class="box slate sm"><div class="lab">{{icon:info}} Indicador</div>Muda de cor perto do ponto de equivalência (<b>ponto final</b>). Ácido forte × base forte: pH 7 no equivalente. Ácido <b>fraco</b> × base forte: equivalente em pH &gt; 7 (sal de caráter básico).</div>
+  </div>
+</div>
+
+<div class="worked"><div class="lab">Exemplo resolvido · dificuldade média-alta</div>
+<div class="stmt">200 mL de HCl 0,30 mol/L são misturados a 300 mL de HCl 0,80 mol/L. Retiram-se 20,0 mL da mistura e completa-se com água até 100 mL. Que volume de NaOH 0,040 mol/L neutraliza 10,0 mL da solução diluída?</div>
+<div class="chain" style="margin:2px 0 5px">
+  <div class="nd"><b>① Mistura</b>n total = 0,300 mol<br>V = 0,500 L → <b>0,60 mol/L</b></div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>② Diluição</b>20 mL → 100 mL (× 1/5)<br><b>0,12 mol/L</b></div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>③ Titulação</b>n(H<sup>+</sup>) = 1,2·10<sup>−3</sup> mol<br><b>V(NaOH) = 30 mL</b></div>
+</div>
+<div class="steps">
+  <div class="step"><span class="n">1</span><div class="t"><b>Mistura (mesmo soluto, sem reação):</b> n = 0,30 · 0,200 + 0,80 · 0,300 = 0,060 + 0,240 = <b>0,300 mol</b>; V = 0,200 + 0,300 = 0,500 L ⇒ 𝓜 = 0,300 / 0,500 = <b>0,60 mol/L</b>.</div></div>
+  <div class="step"><span class="n">2</span><div class="t"><b>Diluição:</b> 𝓜<sub>1</sub>V<sub>1</sub> = 𝓜<sub>2</sub>V<sub>2</sub> ⇒ 0,60 · 20,0 = 𝓜<sub>2</sub> · 100 ⇒ <b>𝓜<sub>2</sub> = 0,12 mol/L</b>.</div></div>
+  <div class="step"><span class="n">3</span><div class="t"><b>Titulação</b> (\ce{HCl + NaOH -> NaCl + H2O}, 1 : 1): n(H<sup>+</sup>) = 0,12 · 0,0100 = 1,2 · 10<sup>−3</sup> mol = n(OH<sup>−</sup>) ⇒ V = n / 𝓜 = 1,2 · 10<sup>−3</sup> / 0,040 = 0,030 L = <span class="ans">30 mL de NaOH</span></div></div>
+</div></div>
+
+<div class="g2">
+  <div class="box red sm"><div class="lab">{{icon:alert}} Onde se erra</div><b>(1)</b> usar o volume do <b>solvente</b> em vez do da <b>solução</b>; <b>(2)</b> esquecer o fator <b>y</b> (H<sub>2</sub>SO<sub>4</sub> libera 2 H<sup>+</sup>); <b>(3)</b> misturar mL com L; <b>(4)</b> tratar V<sub>f</sub> como V<sub>1</sub> + V<sub>2</sub> exato: é aproximação (volumes quase aditivos em soluções diluídas).</div>
+  <div class="box orange sm"><div class="lab">{{icon:react}} Mistura COM reação (excesso)</div>50 mL de HCl 0,20 + 30 mL de NaOH 0,20 mol/L: n(H<sup>+</sup>) = 0,010 · n(OH<sup>−</sup>) = 0,006. Sobram <b>0,004 mol de H<sup>+</sup></b> em 80 mL ⇒ 0,050 mol/L ⇒ pH ≈ 1,3.</div>
+</div>
+
+<div class="box purple sm inl"><div class="lab">{{icon:calc}} Concentração de íons</div>Sal dissolvido <b>dissocia</b>: em \ce{CaCl2} 0,10 mol/L, [\ce{Ca^2+}] = 0,10 e [\ce{Cl-}] = <b>0,20 mol/L</b>. Misturando volumes iguais dessa solução com \ce{NaCl} 0,10 mol/L (sem reação): [\ce{Cl-}] = (0,20 + 0,10) / 2 = <b>0,15 mol/L</b>. Some mols do <b>mesmo íon</b>, divida pelo volume total.</div>
+
+<div class="quiz"><div class="lab">Teste rápido</div>
+<div class="g2" style="gap:14px">
+<div><p class="q"><b class="n">{{q:diluicao}}</b>Que volume de água deve ser adicionado a 100 mL de solução 0,50 mol/L de glicose para obter solução 0,20 mol/L?</p>
+<div class="alts"><span><b>A</b>100 mL</span><span><b>B</b>150 mL</span><span><b>C</b>250 mL</span><span><b>D</b>400 mL</span></div></div>
+<div><p class="q"><b class="n">{{q:titula_h2so4}}</b>25,0 mL de \ce{H2SO4} são neutralizados por 40,0 mL de NaOH 0,25 mol/L. A concentração do ácido é:</p>
+<div class="alts"><span><b>A</b>0,10 mol/L</span><span><b>B</b>0,20 mol/L</span><span><b>C</b>0,40 mol/L</span><span><b>D</b>0,50 mol/L</span></div></div>
+</div></div>

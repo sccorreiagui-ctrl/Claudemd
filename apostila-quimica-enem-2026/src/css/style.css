@@ -208,6 +208,7 @@ table.t.mid td{vertical-align:middle}
 .chain .ar2 svg{width:11px;height:11px}
 
 /* ---------- química inline ---------- */
+.ce{white-space:nowrap}
 .ce .f{white-space:nowrap}
 .ce .st{font-size:.86em}
 svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
@@ -268,3 +269,4 @@ svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
 .rxrow .rs svg{margin:0 auto}
 .eqbox{border:1px solid var(--orange-m);border-radius:8px;background:var(--orange-l);padding:4px 8px;font-size:12px;line-height:1.5}
 .eqbox .ce{font-size:12.4px}
+.h2 .sub svg,.h3 svg,.small svg,p svg.ic{width:11px;height:11px;vertical-align:-1px}

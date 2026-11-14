@@ -1,0 +1,54 @@
+<!--
+key: estq1
+block: D
+title: Estequiometria I: mol e proporção
+-->
+<div class="h2">Estequiometria: toda conta passa pelo mol <span class="sub">aparece junto com gases, soluções e pureza</span></div>
+<div class="fig">{{fig:d_ponte_mol}}
+<div class="figcap">V<sub>m</sub> = volume molar: <b>22,4 L/mol</b> nas CNTP (0 °C, 1 atm); ≈ <b>24,5 L/mol</b> a 25 °C e 1 atm. Fora disso, use $PV=nRT$ (p. {{pg:gases}}). <b>Os coeficientes só convertem mol em mol</b> (ou volume em volume, para gases na mesma T e P).</div></div>
+
+<div class="g2">
+  <div class="box orange sm"><div class="lab">{{icon:react}} Balanceamento: ordem MACHO</div><b>M</b>etais → <b>A</b>metais → <b>C</b>arbono → <b>H</b>idrogênio → <b>O</b>xigênio. Deixe por último o elemento que aparece em mais substâncias (O e H). Ex.: \ce{C2H5OH + 3O2 -> 2CO2 + 3H2O}. Redox: p. {{pg:inorg}}.</div>
+  <div class="box slate sm"><div class="lab">{{icon:info}} Leis ponderais</div><b>Lavoisier:</b> em sistema fechado, a massa total <b>se conserva</b>. <b>Proust:</b> a proporção em massa entre reagentes e produtos é <b>constante</b> (consequência dos coeficientes).</div>
+</div>
+
+<div class="h3">Mesma reação, quatro “linguagens” · \ce{N2 + 3H2 -> 2NH3}</div>
+<table class="t c tight">
+<tr><th></th><th>\ce{N2}</th><th>+ 3 \ce{H2}</th><th>→ 2 \ce{NH3}</th><th>Conservou?</th></tr>
+<tr><td class="k">Quantidade de matéria</td><td>1 mol</td><td>3 mol</td><td>2 mol</td><td><span class="warn">não</span> (4 → 2)</td></tr>
+<tr><td class="k">Massa (M: 28, 2, 17)</td><td>28 g</td><td>6 g</td><td>34 g</td><td><span class="polar">sim</span> (34 = 34)</td></tr>
+<tr><td class="k">Volume nas CNTP</td><td>22,4 L</td><td>67,2 L</td><td>44,8 L</td><td><span class="warn">não</span> (89,6 → 44,8)</td></tr>
+<tr><td class="k">Moléculas</td><td>6,02·10<sup>23</sup></td><td>1,81·10<sup>24</sup></td><td>1,20·10<sup>24</sup></td><td><span class="warn">não</span></td></tr>
+</table>
+
+<div class="g3">
+  <div class="box slate sm"><div class="lab">{{icon:info}} Massas atômicas usuais (u)</div>H 1 · C 12 · N 14 · O 16 · F 19 · Na 23 · Mg 24 · Al 27 · P 31 · S 32 · Cl 35,5 · K 39 · Ca 40 · Fe 56 · Cu 63,5 · Zn 65 · Ag 108<br><span class="tiny">M(Ca(OH)<sub>2</sub>) = 40 + 2·(16 + 1) = 74 g/mol</span></div>
+  <div class="box blue sm"><div class="lab">{{icon:water}} 1 mol = 6,02·10<sup>23</sup> entidades</div>1 mol de \ce{H2O}: <b>18 g</b>, 6,02·10<sup>23</sup> moléculas, 1,8·10<sup>24</sup> átomos (3 por molécula). Massa molar (g/mol) = massa atômica somada, em g.</div>
+  <div class="box purple sm"><div class="lab">{{icon:func}} Composição centesimal</div>% do elemento = (massa do elemento em 1 mol ÷ M) · 100. \ce{CO2}: %C = 12/44 = <b>27,3%</b>; %O = 32/44 = 72,7%.</div>
+</div>
+
+<div class="worked"><div class="lab">Exemplo resolvido · massa e volume</div>
+<div class="stmt">Qual a massa de \ce{CO2} e o volume de \ce{O2} (CNTP) envolvidos na combustão completa de 92 g de etanol (M = 46 g/mol)? \ce{C2H5OH + 3O2 -> 2CO2 + 3H2O}</div>
+<div class="chain" style="margin:2px 0 5px">
+  <div class="nd"><b>① massa → mol</b>n = 92 / 46 = <b>2,0 mol</b> de etanol</div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>② proporção</b>1 etanol : 3 O<sub>2</sub> : 2 CO<sub>2</sub><br>n(O<sub>2</sub>) = 6,0 · n(CO<sub>2</sub>) = 4,0 mol</div><div class="ar2">{{icon:react}}</div>
+  <div class="nd"><b>③ mol → pedido</b>m(CO<sub>2</sub>) = 4,0 · 44 = <b>176 g</b><br>V(O<sub>2</sub>) = 6,0 · 22,4 = <b>134,4 L</b></div>
+</div>
+<div class="steps"><div class="step"><span class="n">!</span><div class="t"><b>Checagem:</b> massa de reagentes = 92 + 6,0·32 = 284 g; massa de produtos = 176 + 3·2·18 = 284 g ✓ (Lavoisier).</div></div></div>
+</div>
+
+<div class="worked"><div class="lab">Exemplo resolvido · massa, solução e gás juntos</div>
+<div class="stmt">2,7 g de alumínio reagem com solução de HCl 0,50 mol/L: \ce{2Al + 6HCl -> 2AlCl3 + 3H2}. Qual o volume mínimo de solução ácida e o volume de \ce{H2} nas CNTP? (Al = 27)</div>
+<div class="steps">
+  <div class="step"><span class="n">1</span><div class="t"><b>Massa → mol:</b> n(Al) = 2,7 / 27 = <b>0,10 mol</b>. <b>Proporção</b> 2 Al : 6 HCl : 3 H<sub>2</sub> ⇒ n(HCl) = 0,10 · 3 = <b>0,30 mol</b>; n(H<sub>2</sub>) = 0,10 · 3/2 = <b>0,15 mol</b>.</div></div>
+  <div class="step"><span class="n">2</span><div class="t"><b>Solução:</b> V = n / 𝓜 = 0,30 / 0,50 = <b>0,60 L</b> (600 mL). <b>Gás:</b> V(H<sub>2</sub>) = 0,15 · 22,4 = <span class="ans">3,36 L</span></div></div>
+</div></div>
+
+<div class="g2">
+  <div class="box green sm"><div class="lab">{{icon:leaf}} Estequiometria e CO<sub>2</sub></div>Cada carbono queimado completamente vira 1 \ce{CO2}: <b>12 g de C → 44 g de CO<sub>2</sub></b> (razão ≈ 3,67). Octano: 114 g → 352 g de \ce{CO2} (≈ 3,1 kg por kg); etanol: 46 g → 88 g (≈ 1,9 kg por kg).</div>
+  <div class="box red sm"><div class="lab">{{icon:alert}} Leitura crítica</div>Por <b>energia liberada</b>, etanol e octano emitem quase o mesmo \ce{CO2} (≈ 64 g por MJ, usando ΔH de combustão de ≈ 1367 e 5470 kJ/mol). A vantagem do etanol está no <b>ciclo do carbono</b> (a cana reabsorve o \ce{CO2}), não na estequiometria da queima.</div>
+</div>
+
+<div class="quiz"><div class="lab">Teste rápido</div>
+<p class="q"><b class="n">{{q:h2o2}}</b>A água oxigenada se decompõe: \ce{2H2O2 -> 2H2O + O2}. Nas CNTP, 68 g de \ce{H2O2} (M = 34 g/mol) produzem que volume de \ce{O2}?</p>
+<div class="alts"><span><b>A</b>11,2 L</span><span><b>B</b>22,4 L</span><span><b>C</b>44,8 L</span><span><b>D</b>67,2 L</span></div></div>
