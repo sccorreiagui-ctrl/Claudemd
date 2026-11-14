@@ -1,0 +1,36 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: Bird (2003), modelo PB2002 (limites de placas); Natural Earth (costas); USGS (Círculo de Fogo); IBGE, Atlas Geográfico Escolar. ◆ = complemento independente (não consta no inventário das videoaulas).') %}
+{{ title('A1', 'Terra por dentro e movimento das placas') }}
+<p class="lead"><b>Fenômeno:</b> a litosfera está partida em placas que se deslocam poucos centímetros por ano. <b>Causa:</b> o calor interno gera correntes de convecção no manto. <b>Consequência:</b> terremotos, vulcões e cordilheiras concentrados nas <b>bordas</b> das placas.</p>
+
+{{ figure('camadas_terra', '', '') }}
+
+<div class="g2" style="margin-top:1mm">
+  <div>
+    <h2 class="first">Como funciona o mecanismo</h2>
+    <ul class="sq sm">
+      <li><b>Fonte de energia:</b> calor residual da formação da Terra + decaimento radioativo de elementos no interior.</li>
+      <li><b>Convecção:</b> o material quente do manto fica menos denso e sobe; ao esfriar perto da litosfera, torna-se mais denso e desce. Essas correntes e o “puxão” da placa que afunda movem as placas sobre a astenosfera.</li>
+      <li><b>Onde:</b> nas bordas. O <b>Círculo de Fogo do Pacífico</b> concentra cerca de 90% dos terremotos e ≈ 75% dos vulcões ativos do planeta.</li>
+      <li><b>Prova da deriva continental</b> (Wegener, 1912): encaixe das costas da África e da América do Sul, <b>fósseis idênticos</b> nos dois lados do Atlântico e cadeias e rochas contínuas. O Atlântico Sul se abre desde o Cretáceo.</li>
+    </ul>
+  </div>
+  <div>
+    {{ figure('conveccao', '', '') }}
+  </div>
+</div>
+
+{{ figure('map_placas', '<span class="t">Mapa 1.</span> Limites reais por tipo (Bird, 2003; modelo PB2002, segmentos suavizados). Fundo: Natural Earth (domínio público).', 'bd') }}
+
+{{ chain([('Calor interno','vermelho'),('Convecção no manto sólido','laranja'),('Movimento das placas','terra'),('Choque, afastamento ou deslizamento','cinza'),('Terremotos, vulcões e relevo jovem','vermelho')], '', '') }}
+
+<div class="g2">
+  {% call box('erro') %}
+    <b>Interior da Terra ≠ “oceano de magma”.</b> Só o núcleo externo é líquido; o manto é rocha <b>sólida</b> que flui devagar. O magma se forma <b>localmente</b> (dorsais, subducção, pontos quentes).
+  {% endcall %}
+  {% call box('enem') %}
+    Setas decidem o tipo de limite: <i>afastam</i> → divergente; <i>se chocam</i> → convergente; <i>deslizam</i> → transformante. <b>Dobramentos modernos</b> só em bordas convergentes.
+  {% endcall %}
+</div>
+<div class="legend mu xs" style="margin-top:.5mm"><span><b>Conexões:</b> Física (densidade, transferência de calor) · Química (decaimento radioativo) · Biologia (fósseis como evidência da Pangeia).</span></div>
+{% endcall %}

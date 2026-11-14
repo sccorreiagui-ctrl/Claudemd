@@ -1,0 +1,44 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-azul', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: NOAA/CPC e INPE (El Niño e La Niña); INPE, A. Nobre (rios voadores); Natural Earth. ◆ El Niño e La Niña = complemento independente (não consta no inventário das videoaulas).') %}
+{{ title('A6', 'El Niño, La Niña e rios voadores') }}
+<p class="lead">Fenômenos oceânicos e a floresta influenciam a chuva em escala continental. Em todos os casos, vale o raciocínio <b>causa → circulação atmosférica → chuva</b>: o ENEM cobra a <b>tendência</b>, não a regra exata.</p>
+
+<h2 class="first">El Niño × La Niña <span class="cmp-tag">complemento ◆</span></h2>
+<div class="g2">
+  <div>{{ figure('pacifico_normal', '', '') }}</div>
+  <div>{{ figure('pacifico_elnino', '', '') }}</div>
+</div>
+<table class="cmp">
+  <tr><th></th><th>El Niño</th><th>La Niña</th></tr>
+  <tr><td>Oceano Pacífico equatorial</td><td>Águas <b>mais quentes</b> que o normal no centro-leste; alísios <b>fracos</b>; menos ressurgência</td><td>Águas <b>mais frias</b> no centro-leste; alísios <b>fortes</b>; mais ressurgência</td></tr>
+  <tr><td>Brasil (tendência)</td><td><b>Seca e calor</b> no Norte e Nordeste (norte do NE e leste da Amazônia); <b>mais chuva</b> no Sul</td><td>Tendência oposta: <b>mais chuva</b> no Norte/Nordeste; <b>estiagem</b> no Sul</td></tr>
+  <tr><td>Ressalva</td><td colspan="2">Efeitos variam com a intensidade e com outros fatores (Atlântico, ZCIT). Ex.: El Niño forte em 2015–16; em 2023, seca severa na Amazônia com El Niño e Atlântico Norte aquecido.</td></tr>
+</table>
+
+<div class="g2" style="margin-top:1mm">
+  <div>
+    <h2 class="first">Rios voadores <small>(Amazônia → Centro-Sul)</small></h2>
+    {{ figure('map_rios_voadores', '<span class="t">Mapa 2.</span> Esquema ilustrativo do fluxo médio de vapor (não é medição).', 'bd') }}
+  </div>
+  <div>
+    <h2 class="first">Como funciona</h2>
+    <ul class="sq sm">
+      <li>A floresta <b>evapotranspira</b> enormes volumes de vapor d’água.</li>
+      <li>Os <b>ventos alísios</b> levam a umidade do Atlântico para o interior e a empurram para oeste.</li>
+      <li>Ao encontrar os <b>Andes</b>, o fluxo é desviado para o <b>Centro-Oeste, Sudeste, Sul</b> e Bacia do Prata, onde alimenta as chuvas de verão e a agricultura.</li>
+    </ul>
+    {{ chain([('Desmatamento','verde'),('Menos evapotranspiração','verde'),('Menos umidade exportada','azul'),('Risco de seca regional','vermelho')], 'Encadeamento', 'Hipótese com forte apoio científico; intensidade e escala ainda em estudo.', 'sm') }}
+    {% call box('erro') %}<span class="xs">A <b>seca de 2014–15 no Sudeste</b> se associa a um <b>bloqueio atmosférico</b> persistente (alta pressão que desviou frentes frias). O desmatamento amazônico é <b>um dos fatores investigados</b>, não a causa única.</span>{% endcall %}
+  </div>
+</div>
+
+<h2>ENEM na prática <small>questão original, no estilo do exame</small></h2>
+<div class="q"><div class="qh">Questão · El Niño e chuvas no Brasil</div>
+  Reportagens informam que, em anos de El Niño intenso, o norte do Nordeste e o leste da Amazônia tendem a registrar chuvas abaixo da média, enquanto o Sul tende a registrar chuvas acima da média. Essa tendência ocorre porque, durante o El Niño,
+  <ol class="two"><li>o aquecimento anormal do Pacífico equatorial enfraquece os alísios e desloca a convecção, redistribuindo as chuvas sobre a América do Sul.</li>
+  <li>o resfriamento do Atlântico Sul intensifica as frentes frias no Nordeste.</li>
+  <li>o desmatamento da Amazônia impede totalmente o transporte de umidade.</li>
+  <li>os Andes passam a bloquear as massas de ar do Sudeste.</li>
+  <li>a massa polar atlântica deixa de atuar no Sul do país.</li></ol></div>
+<div class="gab"><p><b class="l">A</b>Gabarito comentado: o El Niño enfraquece os alísios e desloca a convecção do Pacífico; o efeito sobre o Brasil é uma <b>tendência</b> (seca no N/NE, chuva no Sul). B, C, D e E citam mecanismos inexistentes ou causa única (C exagera: o desmatamento reduz, mas não “impede totalmente”).</p></div>
+{% endcall %}

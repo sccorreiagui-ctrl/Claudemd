@@ -1,0 +1,45 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-azul', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: INMET; Mendonça e Danni-Oliveira, Climatologia (2007); IBGE, Atlas Geográfico Escolar. Mapa esquemático: áreas-fonte e trajetórias médias, sobre base Natural Earth.') %}
+{{ title('A5', 'Clima: massas de ar e tipos de chuva') }}
+<p class="lead"><b>Tempo</b> é o estado momentâneo da atmosfera; <b>clima</b> é o padrão observado por, no mínimo, ≈ 30 anos. No Brasil, as <b>massas de ar</b> e o <b>relevo</b> explicam a distribuição das chuvas e, por consequência, da vegetação.</p>
+
+<div class="g" style="display:grid;grid-template-columns:124mm 1fr;gap:4mm">
+  <div>{{ figure('map_massas_ar', '', 'bd') }}</div>
+  <div>
+    <h2 class="first">As cinco massas</h2>
+    <table class="cmp c1" style="font-size:6.5pt">
+      <tr><th>Massa</th><th>Origem e caráter</th></tr>
+      <tr><td><b style="color:#2E7D32">mEc</b></td><td>Amazônia. <b>Quente e úmida</b> (evapotranspiração da floresta); no verão avança para o Centro-Oeste e o Sudeste.</td></tr>
+      <tr><td><b style="color:#00838F">mEa</b></td><td>Atlântico equatorial. Quente e úmida; litoral norte e nordeste.</td></tr>
+      <tr><td><b style="color:#1E88E5">mTa</b></td><td>Atlântico tropical. Quente e úmida; ventos do mar sobre o litoral leste e sudeste (chuva de relevo nas serras).</td></tr>
+      <tr><td><b style="color:#EF6C00">mTc</b></td><td>Chaco. <b>Quente e seca</b>, mais atuante no verão, no interior centro-sul.</td></tr>
+      <tr><td><b style="color:#5E35B1">mPa</b></td><td>Sul do continente/Atlântico Sul. <b>Fria e úmida</b>; frentes frias, geadas no Sul e <b>friagem</b> no oeste amazônico (inverno).</td></tr>
+    </table>
+    {% call box('erro') %}<span class="xs"><b>A mEc é úmida</b> mesmo sendo “continental”; massas de origem continental nem sempre são secas.</span>{% endcall %}
+  </div>
+</div>
+
+<div class="g3" style="margin-top:1mm">
+  <div>{{ figure('chuva_convectiva', '', '') }}</div>
+  <div>{{ figure('chuva_frontal', '', '') }}</div>
+  <div>
+    <h2 class="first">Elementos × fatores</h2>
+    <p class="xs"><b>Elementos</b> (o que se mede): temperatura, umidade, pressão, ventos, precipitação.<br><b>Fatores</b> (o que os modifica): latitude, altitude, maritimidade e continentalidade, massas de ar, correntes marítimas, relevo e vegetação.</p>
+    {{ chain([('Massas de ar','azul'),('Tipos de chuva','azul'),('Clima regional','laranja'),('Vegetação','verde')], 'Encadeamento', 'Tendência: o relevo e a continentalidade modificam o padrão.', 'sm') }}
+  </div>
+</div>
+
+<div class="g" style="display:grid;grid-template-columns:124mm 1fr;gap:4mm">
+  <div>{{ figure('chuva_orografica', '', '') }}</div>
+  <div>
+    <table class="cmp c1" style="font-size:6.6pt">
+      <tr><th></th><th>Barlavento</th><th>Sotavento</th></tr>
+      <tr><td>Ar</td><td>sobe, esfria, condensa</td><td>desce e se aquece</td></tr>
+      <tr><td>Chuva</td><td><b>abundante</b></td><td><b>escassa</b></td></tr>
+      <tr><td>Clima</td><td>úmido</td><td>mais seco</td></tr>
+    </table>
+    {% call box('enem') %}<span class="xs">Mapa ou corte com <b>serra junto ao mar</b>: o lado voltado ao mar (barlavento) é o <b>úmido</b>. Ex.: Serra do Mar (chuvas) e interior seco atrás do Planalto da Borborema.</span>{% endcall %}
+    {% call box('erro') %}<span class="xs"><b>Chuva de relevo</b> não ocorre em áreas planas; <b>frontal</b> envolve duas massas de temperaturas diferentes; <b>convectiva</b> vem do aquecimento do solo.</span>{% endcall %}
+  </div>
+</div>
+{% endcall %}

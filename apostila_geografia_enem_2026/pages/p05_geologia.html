@@ -1,0 +1,28 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: IBGE, Atlas Geográfico Escolar; Serviço Geológico do Brasil (CPRM/SGB); ANP. Percentuais de escudos × bacias são valores aproximados usuais em obras didáticas.') %}
+{{ title('A3', 'Estrutura geológica do Brasil e ciclo das rochas') }}
+<p class="lead">A idade e a origem das rochas explicam <b>onde estão os recursos</b>. O Brasil está no centro de uma placa: predominam <b>escudos cristalinos</b> (≈ 36% do território) e <b>bacias sedimentares</b> (≈ 64%).</p>
+
+{{ figure('estrutura_geologica', '', '') }}
+
+<table class="cmp">
+  <tr><th></th><th>Escudos cristalinos (crátons)</th><th>Bacias sedimentares</th><th>Dobramentos modernos</th></tr>
+  <tr><td>Idade</td><td>Pré-Cambriano (mais de 540 milhões de anos)</td><td>Paleozoico ao Cenozoico</td><td>Cenozoico (jovens)</td></tr>
+  <tr><td>Rochas</td><td>Magmáticas intrusivas e metamórficas (granito, gnaisse)</td><td>Sedimentares (arenito, calcário, folhelho)</td><td>Dobradas e metamorfizadas</td></tr>
+  <tr><td>Relevo</td><td>Desgastado por erosão longa: serras e planaltos antigos</td><td>Mais baixo: planícies, depressões e chapadas</td><td>Cordilheiras altas e íngremes</td></tr>
+  <tr><td>Recursos</td><td><b>Minerais metálicos:</b> ferro (Quadrilátero Ferrífero-MG, Carajás-PA), manganês, ouro, bauxita</td><td><b>Petróleo, gás, carvão</b>, calcário, <b>aquíferos</b> (Guarani, Alter do Chão)</td><td>Metais (ex.: cobre andino)</td></tr>
+  <tr><td>No Brasil</td><td>Escudo das Guianas e Escudo Brasileiro (Brasil Central e Atlântico)</td><td>Amazonas, Parnaíba, São Francisco, Paraná; bacias marinhas (Campos e Santos: pré-sal)</td><td><b>Ausentes</b></td></tr>
+</table>
+
+{{ figure('ciclo_rochas', '', '') }}
+
+<div class="g3">
+  <div>{% call box('def', 'Magmáticas') %}<span class="xs"><b>Intrusivas</b>: resfriam devagar no interior (cristais visíveis), como o <b>granito</b>. <b>Extrusivas</b>: resfriam rápido na superfície (cristais microscópicos), como o <b>basalto</b>, que origina a <b>terra roxa</b>.</span>{% endcall %}</div>
+  <div>{% call box('def', 'Sedimentares e metamórficas') %}<span class="xs"><b>Sedimentares</b>: sedimentos compactados em camadas; guardam <b>fósseis</b> e combustíveis. <b>Metamórficas</b>: calor e pressão sem fundir: calcário → <b>mármore</b>; granito → <b>gnaisse</b>; arenito → <b>quartzito</b>.</span>{% endcall %}</div>
+  <div>{% call box('enem') %}<b>Recurso → estrutura:</b> minério de ferro = escudo cristalino; petróleo e carvão = bacia sedimentar; fósseis só em sedimentares.{% endcall %}</div>
+</div>
+<div class="g2">
+  {% call box('erro') %}Dizer que existe <b>petróleo em escudos cristalinos</b> ou que o Brasil tem <b>relevo jovem</b> / dobramentos modernos. Nosso relevo é <b>antigo e desgastado</b>; as altitudes médias são modestas (maior pico: Pico da Neblina, ≈ 2.995 m).{% endcall %}
+  {% call box('conex') %}<b>História:</b> o ciclo do ouro (séc. XVIII) em Minas Gerais exploraria o escudo cristalino. <b>Economia:</b> hoje, ferro e petróleo sustentam as exportações de commodities (China como grande parceiro).{% endcall %}
+</div>
+{% endcall %}

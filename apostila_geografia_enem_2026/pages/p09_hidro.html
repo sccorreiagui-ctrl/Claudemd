@@ -1,0 +1,45 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-azul', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: ANA; Natural Earth (rios, 1:10 mi); EPE e ONS (usinas); Rebouças et al. (Águas doces no Brasil). ◆ Lei das Águas, água virtual e dinâmica costeira = complemento independente.') %}
+{{ title('A7', 'Hidrografia, recursos hídricos e litoral') }}
+<p class="lead">O Brasil concentra cerca de 12% da água doce superficial do planeta, mas a distribuição é <b>desigual</b>: ≈ 80% está na Amazônia, onde vive a minoria da população. O resultado é <b>estresse hídrico</b> no Sudeste urbano e no semiárido.</p>
+
+<div class="g" style="display:grid;grid-template-columns:124mm 1fr;gap:4mm">
+  <div>{{ figure('map_hidrografia', '<span class="t">Mapa 3.</span> Rios (Natural Earth) e usinas (posições aproximadas).', 'bd') }}</div>
+  <div>
+    <h2 class="first">Principais bacias</h2>
+    <ul class="sq xs">
+      <li><b>Amazônica:</b> maior do mundo; rios de planície <b>navegáveis</b> e afluentes de planalto com <b>potencial hidrelétrico</b> (Belo Monte, Santo Antônio, Jirau).</li>
+      <li><b>Tocantins-Araguaia:</b> Tucuruí (PA).</li>
+      <li><b>São Francisco:</b> “rio da integração nacional”; nasce na Serra da Canastra (MG) e cruza o <b>semiárido</b> como rio <b>perene</b>: irrigação, usinas (Sobradinho, Paulo Afonso) e <b>PISF</b>.</li>
+      <li><b>Paraná:</b> centro econômico; maior aproveitamento hidrelétrico (<b>Itaipu</b>, binacional, ≈ 14 GW).</li>
+      <li><b>Paraguai:</b> Pantanal; <b>Uruguai</b>: Sul.</li>
+    </ul>
+    <h3>Conceitos</h3>
+    <p class="xs"><b>Perene</b> × <b>intermitente</b>; foz em <b>estuário</b> (funil) × <b>delta</b> (braços); drenagem <b>exorreica</b> (mar), <b>endorreica</b> (interior) e <b>arreica</b> (some por evaporação/infiltração).</p>
+  </div>
+</div>
+
+<div class="g3">
+  <div>
+    <h2 class="first">Aquíferos</h2>
+    <p class="xs"><b>Guarani:</b> ≈ 1,1 milhão de km² (Brasil, Argentina, Paraguai e Uruguai; ≈ 2/3 no Brasil); arenito poroso sob derrames de basalto, na bacia sedimentar do Paraná. <b>Alter do Chão / SAGA</b> (Amazônia): estimativas preliminares indicam volume muito grande, possivelmente maior; números variam por estudo.</p>
+  </div>
+  <div>
+    <h2 class="first">Gestão <span class="cmp-tag">◆</span></h2>
+    <p class="xs"><b>Lei das Águas (9.433/1997):</b> a água é bem público, limitado e de valor econômico; gestão <b>por bacia</b>, com <b>Comitês de Bacia</b>; em escassez, prioridade ao <b>consumo humano e à dessedentação animal</b>. Instrumentos: planos, outorga, cobrança, enquadramento.</p>
+  </div>
+  <div>
+    <h2 class="first">Água virtual <span class="cmp-tag">◆</span></h2>
+    <p class="xs">Água usada na produção de bens: ao <b>exportar soja, carne e açúcar</b>, o país exporta água embutida. Útil para discutir segurança hídrica e agronegócio.</p>
+  </div>
+</div>
+{{ chain([('Urbanização e impermeabilização','roxo'),('Poluição e desmatamento de nascentes','vermelho'),('Menos água disponível e de pior qualidade','azul'),('Estresse hídrico','vermelho')], 'Encadeamento', 'Tendência: varia com chuva, manejo e infraestrutura.') }}
+
+<h2>Dinâmica costeira <span class="cmp-tag">complemento ◆</span> <small>ambientes de transição entre continente e mar</small></h2>
+<div class="g3">
+  <div>{{ figure('costa_mangue', '', '') }}</div>
+  <div>{{ figure('costa_restinga', '', '') }}</div>
+  <div>{{ figure('costa_falesia', '', '') }}</div>
+</div>
+{% call box('enem') %}<b>Manguezal</b> = foz de rios, água salobra, solo lodoso, berçário da fauna, área de preservação; ameaçado por aterros e carcinicultura. <b>Restingas e dunas</b>: frágeis, ocupação imobiliária. <b>Erosão costeira</b> cresce com ocupação e elevação do nível do mar.{% endcall %}
+{% endcall %}

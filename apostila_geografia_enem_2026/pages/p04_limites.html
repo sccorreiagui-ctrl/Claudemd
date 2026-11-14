@@ -1,0 +1,40 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: USGS; Bird (2003); IBGE, Atlas Geográfico Escolar; Teixeira et al., Decifrando a Terra (2009). Esquemas fora de escala (relevo e espessuras exagerados).') %}
+{{ title('A2', 'Limites de placas: o que cada movimento produz') }}
+<p class="lead">Na <b>borda</b> a energia se libera. O <b>tipo de movimento</b> (afastar, chocar ou deslizar) define o <b>relevo</b>, o <b>vulcanismo</b> e o <b>risco sísmico</b> de cada região.</p>
+
+<div class="g" style="display:grid;grid-template-columns:124mm 1fr;gap:4mm">
+  <div>{{ figure('lim_andes', '', '') }}</div>
+  <div>
+    <h2 class="first">Convergentes</h2>
+    <ul class="sq xs" style="margin-bottom:1mm">
+      <li><b>Oceânica × continental</b> (Andes): a placa oceânica, <b>mais fina e densa</b>, afunda (<b>subducção</b>), funde-se e alimenta <b>vulcões</b>; a continental se dobra e se eleva.</li>
+      <li><b>Continental × continental</b> (Himalaia): nenhuma afunda; esmagamento e soerguimento, <b>sem vulcanismo relevante</b>.</li>
+      <li><b>Oceânica × oceânica</b>: <b>fossas</b> e arcos de ilhas vulcânicas.</li>
+    </ul>
+    {% call box('def') %}<span class="xs"><b>Dobramentos modernos:</b> cordilheiras jovens (Cenozoico) formadas na compressão das bordas convergentes. <b>Orogênese</b> = formação de montanhas; <b>epirogênese</b> = soerguimento ou rebaixamento <i>lento e vertical</i> de grandes áreas.</span>{% endcall %}
+  </div>
+</div>
+
+<div class="g2" style="margin-top:.5mm">
+  <div>{{ figure('lim_divergente', '', '') }}</div>
+  <div>{{ figure('lim_transformante', '', '') }}</div>
+  <div>{{ figure('lim_cc', '', '') }}</div>
+  <div>{{ figure('lim_oo', '', '') }}</div>
+</div>
+
+<table class="cmp" style="margin-top:.5mm">
+  <tr><th></th><th class="cA">Divergente</th><th>Convergente</th><th style="background:#8A6508">Transformante</th></tr>
+  <tr><td>Movimento</td><td>Afastamento</td><td>Aproximação e choque</td><td>Deslizamento lateral</td></tr>
+  <tr><td>Crosta</td><td>É <b>criada</b> (magma esfria)</td><td>É <b>consumida</b> (subducção) ou espessada</td><td>Nem criada nem destruída</td></tr>
+  <tr><td>Feições</td><td>Dorsais oceânicas, riftes</td><td>Cordilheiras, fossas, arcos vulcânicos</td><td>Falhas, vales alinhados</td></tr>
+  <tr><td>Riscos</td><td>Vulcanismo efusivo; sismos rasos</td><td><b>Terremotos fortes e vulcões explosivos</b> (subducção)</td><td>Terremotos fortes, <b>sem vulcões</b></td></tr>
+  <tr><td>Exemplos</td><td>Dorsal Mesoatlântica; Vale do Rift</td><td>Andes; Himalaia; Japão</td><td>San Andreas (EUA); Falha Anatólia (Turquia)</td></tr>
+</table>
+
+<div class="g2">
+  {% call box('enem') %}Mapa de placas com setas, ou corte transversal: identifique o <b>tipo de limite</b> e deduza feições e riscos. Cordilheira jovem + fossa + vulcões = <b>subducção</b>. Falha com terremotos e sem vulcões = <b>transformante</b>.{% endcall %}
+  {% call box('erro') %}<b>O Brasil não tem vulcões ativos nem dobramentos modernos:</b> está no <b>interior</b> da Placa Sul-Americana (intraplaca), com tremores raros e fracos. Também: a Dorsal Mesoatlântica <b>não</b> é dobramento moderno (é estrutura divergente).{% endcall %}
+</div>
+<div class="xs mu"><b>Isostasia:</b> equilíbrio gravitacional dos blocos litosféricos “flutuando” na astenosfera (ex.: a crosta sobe lentamente após o degelo). Conexão: Física (densidade, empuxo).</div>
+{% endcall %}

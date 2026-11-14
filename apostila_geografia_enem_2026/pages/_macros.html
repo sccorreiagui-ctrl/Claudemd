@@ -1,0 +1,24 @@
+{% macro page(cls='m-cinza', mod='', src='') %}
+{% set n = next_page() %}
+<section class="page {{ cls }}" id="p{{ '%02d' % n }}">
+  <div class="ph"><span class="mod"><i></i>{{ mod }}</span><span class="brand">Apostila Visual de Geografia · ENEM 2026</span></div>
+  <div class="pb">{{ caller() }}</div>
+  <div class="pf"><span class="src">{{ src }}</span><span class="pn">{{ n }}</span></div>
+</section>
+{% endmacro %}
+
+{% macro box(kind='def', title='') %}
+<div class="box {{ kind }}"><div class="bt">{{ title or {'def':'Definição','enem':'ENEM na prática','erro':'Erro comum','conex':'Conexão','nota':'Nota','mec':'Mecanismo'}[kind] }}</div>{{ caller() }}</div>
+{% endmacro %}
+
+{% macro figure(name, cap='', cls='') %}
+<div class="fig {{ cls }}">{{ fig(name) }}{% if cap %}<div class="cap">{{ cap }}</div>{% endif %}</div>
+{% endmacro %}
+
+{% macro chain(items, title='', cav='', cls='') %}
+{% if title %}<div class="chain-t">{{ title }}</div>{% endif %}
+<div class="chain {{ cls }}">{% for it in items %}<div class="c {{ it[1] }}">{{ it[0] }}</div>{% if not loop.last %}<div class="a">→</div>{% endif %}{% endfor %}</div>
+{% if cav %}<div class="cav">{{ cav }}</div>{% endif %}
+{% endmacro %}
+
+{% macro title(num, text) %}<h1 class="pt"><span class="num">{{ num }}</span>{{ text }}</h1>{% endmacro %}

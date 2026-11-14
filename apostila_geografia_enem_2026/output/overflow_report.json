@@ -1,0 +1,75 @@
+{
+ "messages": [],
+ "pages": [
+  {
+   "page": 1,
+   "id": "p01",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 5.4
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "id": "p02",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 7.8
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "id": "p03",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 5.8
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "id": "p04",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "id": "p05",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 0.4
+    }
+   ]
+  },
+  {
+   "page": 6,
+   "id": "p06",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": -0.4
+    }
+   ]
+  },
+  {
+   "page": 7,
+   "id": "p07",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 1.6
+    }
+   ]
+  }
+ ]
+}

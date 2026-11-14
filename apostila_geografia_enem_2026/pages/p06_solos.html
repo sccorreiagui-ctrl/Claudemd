@@ -1,0 +1,34 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo A · Geografia Física, relevo e clima', 'Fontes: EMBRAPA, Sistema Brasileiro de Classificação de Solos (SiBCS); IBGE, Atlas Geográfico Escolar; Teixeira et al. (2009). Perfis esquemáticos, sem escala.') %}
+{{ title('A4', 'Intemperismo, erosão e formação dos solos') }}
+<p class="lead">As rochas são <b>desagregadas no lugar</b> (intemperismo), os fragmentos são <b>transportados</b> (erosão) e <b>depositados</b> (sedimentação). Da alteração da rocha, com ajuda de clima e organismos, nasce o <b>solo</b>.</p>
+
+{{ figure('intemperismo_erosao', '', '') }}
+
+<table class="cmp c1">
+  <tr><th>Intemperismo (no lugar)</th><th>Erosão (transporta)</th><th>Sedimentação (deposita)</th></tr>
+  <tr><td><b>Físico</b>: variação de temperatura, alívio de pressão, congelamento (clima seco/frio). <b>Químico</b>: água, CO₂ e oxigênio (hidrólise, oxidação, dissolução do calcário), forte no clima <b>quente e úmido</b>. <b>Biológico</b>: raízes, liquens, microrganismos.</td><td>Água da chuva e dos rios (a mais importante no Brasil), vento e gelo removem partículas; o <b>uso do solo</b> pode acelerar muito o processo.</td><td>Em bacias, planícies e fundos de vale: forma camadas que, litificadas, viram <b>rochas sedimentares</b>.</td></tr>
+</table>
+
+<div class="g2">
+  <div>
+    {{ figure('perfil_solo', '', '') }}
+  </div>
+  <div>
+    <h2 class="first">Lixiviação × laterização <span class="cmp-tag">diferenciar</span></h2>
+    <ul class="sq sm">
+      <li><b>Lixiviação:</b> a água da chuva <b>lava e carrega</b> nutrientes solúveis do horizonte A; o solo fica ácido e pobre. Muito intensa nos trópicos úmidos.</li>
+      <li><b>Laterização:</b> acúmulo de <b>óxidos de ferro e alumínio</b> na superfície; forma crosta dura (<i>canga</i>) que dificulta o cultivo.</li>
+      <li><b>Arenização:</b> afloramento de areias por perda da cobertura vegetal em clima <b>úmido</b> (RS). <b>Desertificação:</b> degradação em regiões <b>áridas, semiáridas e subúmidas secas</b>.</li>
+    </ul>
+    {{ chain([('Desmatamento','verde'),('Solo exposto','terra'),('Mais escoamento','azul'),('Erosão','vermelho'),('Assoreamento','azul')], 'Encadeamento', 'Tendência: depende de declive, chuva e manejo; não é regra universal.', 'sm') }}
+    {% call box('erro') %}<b>Não generalizar:</b> nem todo solo amazônico é arenoso (predominam <b>Latossolos e Argissolos</b>, profundos, ácidos e pobres) e nem todo latossolo é fértil. A fertilidade depende da <b>rocha-mãe</b>, do clima e do <b>manejo</b>.{% endcall %}
+  </div>
+</div>
+
+{{ figure('solos_comparados', '', '') }}
+<div class="g2">
+  {% call box('enem') %}Solos de <b>basalto</b> (terra roxa) atraíram cafeicultura e adensaram o povoamento; <b>massapê</b> sustentou a cana colonial; no <b>semiárido</b> o solo raso e a escassez de água limitam a agricultura.{% endcall %}
+  {% call box('conex') %}<b>Química:</b> hidrólise, oxidação, acidez do solo (Al³⁺, H⁺) e <b>calagem</b>. <b>Biologia:</b> decompositores formam o húmus.{% endcall %}
+</div>
+{% endcall %}

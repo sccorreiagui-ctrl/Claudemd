@@ -1,0 +1,43 @@
+{
+ "fonte": "IBGE, Censos Demográficos – SIDRA tabela 202 (1970–2010, var. 93) e IBGE/Censo 2022 (tabelas 4709/4714; 87,4%)",
+ "obtido_via": "apisidra.ibge.gov.br (consulta em nov/2026)",
+ "series": {
+  "1970": {
+   "total": 93134846,
+   "urbana": 52097260,
+   "rural": 41037586,
+   "pct_urbana": 55.9
+  },
+  "1980": {
+   "total": 119011052,
+   "urbana": 80437327,
+   "rural": 38573725,
+   "pct_urbana": 67.6
+  },
+  "1991": {
+   "total": 146825475,
+   "urbana": 110990990,
+   "rural": 35834485,
+   "pct_urbana": 75.6
+  },
+  "2000": {
+   "total": 169799170,
+   "urbana": 137953959,
+   "rural": 31845211,
+   "pct_urbana": 81.2
+  },
+  "2010": {
+   "total": 190755799,
+   "urbana": 160925804,
+   "rural": 29829995,
+   "pct_urbana": 84.4
+  },
+  "2022": {
+   "total": null,
+   "urbana": 177500000,
+   "rural": 25600000,
+   "pct_urbana": 87.4,
+   "nota": "IBGE, Censo 2022 (população urbana ≈ 177,5 mi; rural ≈ 25,6 mi; taxa de urbanização 87,4%)"
+  }
+ }
+}

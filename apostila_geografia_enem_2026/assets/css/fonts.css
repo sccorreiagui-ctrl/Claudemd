@@ -1,0 +1,18 @@
+@font-face { font-family: 'Inter'; font-weight: 400; font-style: normal; font-display: block;
+  src: url('../assets/fonts/Inter-Regular.woff2') format('woff2'), url('../assets/fonts/Inter-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 500; font-style: normal; font-display: block;
+  src: url('../assets/fonts/Inter-Medium.woff2') format('woff2'), url('../assets/fonts/Inter-Medium.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 600; font-style: normal; font-display: block;
+  src: url('../assets/fonts/Inter-SemiBold.woff2') format('woff2'), url('../assets/fonts/Inter-SemiBold.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 700; font-style: normal; font-display: block;
+  src: url('../assets/fonts/Inter-Bold.woff2') format('woff2'), url('../assets/fonts/Inter-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 800; font-style: normal; font-display: block;
+  src: url('../assets/fonts/Inter-ExtraBold.woff2') format('woff2'), url('../assets/fonts/Inter-ExtraBold.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 400; font-style: italic; font-display: block;
+  src: url('../assets/fonts/Inter-Italic.woff2') format('woff2'), url('../assets/fonts/Inter-Italic.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 700; font-style: italic; font-display: block;
+  src: url('../assets/fonts/Inter-BoldItalic.woff2') format('woff2'), url('../assets/fonts/Inter-BoldItalic.ttf') format('truetype'); }
+@font-face { font-family: 'Inter Display'; font-weight: 700; font-style: normal; font-display: block;
+  src: url('../assets/fonts/InterDisplay-Bold.woff2') format('woff2'), url('../assets/fonts/InterDisplay-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Inter Display'; font-weight: 800; font-style: normal; font-display: block;
+  src: url('../assets/fonts/InterDisplay-ExtraBold.woff2') format('woff2'), url('../assets/fonts/InterDisplay-ExtraBold.ttf') format('truetype'); }

@@ -1,0 +1,11 @@
+geopandas>=1.0
+matplotlib>=3.8
+shapely>=2.0
+pyproj>=3.6
+pyogrio>=0.7
+numpy
+scipy
+pillow
+jinja2
+fonttools
+brotli
