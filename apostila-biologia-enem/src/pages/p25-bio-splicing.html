@@ -1,0 +1,40 @@
+<section class="page m-gen" data-origin="v">
+<!--HF-->
+<div class="pb">
+ <div class="ttl"><span class="tag">E2 · Biotecnologia</span><div class="tt"><h1>Splicing, cDNA, PCR e RT-PCR</h1><div class="sub">Por que usar mRNA maduro — e como não confundir as três técnicas</div></div></div>
+ <div class="chain">Gene eucarionte (éxons + íntrons) <i>→</i> pré-mRNA <i>→</i> splicing <i>→</i> mRNA maduro <i>→</i> transcrição reversa <i>→</i> cDNA <i>→</i> plasmídio bacteriano</div>
+
+ <div class="fig"><div class="ft">Remoção de íntrons: do gene ao mRNA maduro</div>
+  {{svg:splicing}}
+  <div class="cap"><b>Éxons</b> são trechos que ficam no mRNA maduro (codificam e outras regiões); <b>íntrons</b> são removidos no núcleo. Um mesmo gene pode gerar proteínas diferentes por <i>splicing</i> alternativo. Bactérias não fazem splicing.</div></div>
+
+ <div class="fig"><div class="ft">Obtenção de cDNA por transcrição reversa</div>
+  {{svg:cdna}}</div>
+
+ <div class="g2">
+  <div class="bx" style="padding:2.2mm 2mm 1.6mm"><span class="lb" style="background:var(--ro-d)">DNA genômico × cDNA</span>
+  <table class="tb" style="font-size:7pt;margin-top:1mm"><thead><tr><th class="ro"></th><th class="ro">DNA genômico</th><th class="ro">cDNA</th></tr></thead><tbody>
+   <tr><td>Origem</td><td>DNA do núcleo da célula</td><td>copiado de um mRNA maduro</td></tr>
+   <tr><td>Íntrons</td><td>presentes</td><td><b>ausentes</b></td></tr>
+   <tr><td>Regiões reguladoras</td><td>presentes (promotores etc.)</td><td>em geral ausentes</td></tr>
+   <tr><td>Em bactéria</td><td>íntrons não são removidos: proteína errada ou inexistente</td><td>produz a proteína correta (com promotor bacteriano)</td></tr>
+  </tbody></table></div>
+  <div class="bx" style="padding:2.2mm 2mm 1.6mm"><span class="lb" style="background:var(--ro-d)">PCR × transcrição reversa × RT-PCR</span>
+  <table class="tb" style="font-size:7pt;margin-top:1mm"><thead><tr><th class="ro"></th><th class="ro">PCR</th><th class="ro">Transc. reversa</th><th class="ro">RT-PCR</th></tr></thead><tbody>
+   <tr><td>Molde</td><td>DNA</td><td>RNA</td><td>RNA</td></tr>
+   <tr><td>Enzima</td><td>DNA pol. termoestável (Taq)</td><td>transcriptase reversa</td><td>as duas, em sequência</td></tr>
+   <tr><td>Produto</td><td>muitas cópias do trecho</td><td>cDNA (poucas cópias)</td><td>muitas cópias do cDNA</td></tr>
+   <tr><td>Usos</td><td>forense, diagnóstico</td><td>clonar genes, estudar mRNA</td><td>detectar RNA viral (HIV, SARS-CoV-2), expressão gênica</td></tr>
+  </tbody></table></div>
+ </div>
+
+ <div class="fig"><div class="ft">PCR: amplificar um trecho de DNA em ciclos térmicos</div>
+  {{svg:pcr}}
+  <div class="cap">Ingredientes: DNA-molde, dois <i>primers</i>, nucleotídeos, DNA polimerase termoestável (da bactéria <i>Thermus aquaticus</i>) e tampão. A variante <b>qPCR/RT-qPCR</b> mede a quantidade durante os ciclos.</div></div>
+
+ <div class="g2">
+  <div class="bx en"><span class="lb">ENEM na prática</span><div class="q sm">Por que inserir o DNA genômico humano da insulina em <i>E. coli</i> não gera insulina funcional, e como se contorna isso?
+   <span class="ans">A bactéria <b>não remove íntrons</b> (não tem splicing). Usa-se o <b>mRNA maduro</b> (já sem íntrons) → <b>cDNA</b> pela transcriptase reversa → inserção no plasmídio.</span></div></div>
+  <div class="bx er"><span class="lb">Erro comum</span><p class="sm">“RT-PCR é só PCR.” O <b>RT</b> (transcrição reversa) vem antes e converte RNA em cDNA; depois vem a PCR. Para clonar o gene da insulina usa-se transcrição reversa (cDNA), não necessariamente PCR.</p></div>
+ </div>
+</div></section>
