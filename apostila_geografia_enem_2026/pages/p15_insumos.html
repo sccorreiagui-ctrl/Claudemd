@@ -1,0 +1,54 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo C · Geografia Agrária', 'Fontes: Embrapa; ANA; Lei nº 14.785/2023 (agrotóxicos); IBGE, Censo Agropecuário 2017 (despesa com agrotóxicos: R$ 31,8 bilhões). Esquemas didáticos.') %}
+{{ title('C3', 'Química e biologia do campo: insumos, pragas e águas') }}
+<p class="lead">Fertilizantes e agrotóxicos elevam a produção, mas deslocam seus efeitos para <b>solo, ar e água</b>. Entender o <b>caminho do insumo</b> (do campo ao rio e ao aquífero) é a chave para as questões ambientais da prova.</p>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Fertilizantes NPK</h2>
+    <table class="cmp c1" style="font-size:6.7pt">
+      <tr><th>Elemento</th><th>Função na planta</th><th>Excesso</th></tr>
+      <tr><td><b>N</b> nitrogênio</td><td>Proteínas, clorofila, crescimento</td><td>Nitrato em águas; eutrofização</td></tr>
+      <tr><td><b>P</b> fósforo</td><td>Raízes, energia (ATP)</td><td>Principal gatilho da eutrofização</td></tr>
+      <tr><td><b>K</b> potássio</td><td>Regula água; resistência</td><td>Salinização local</td></tr>
+    </table>
+    <p class="xs mu">O Brasil depende da <b>importação</b> da maior parte dos fertilizantes: vulnerável a crises externas (ex.: guerra Rússia–Ucrânia, 2022).</p>
+  </div>
+  <div>
+    <h2 class="first">Agrotóxicos e resistência <span class="cmp-tag">Biologia</span></h2>
+    {{ chain([('Pragas com variabilidade genética','verde'),('Aplicação do veneno','vermelho'),('Sobrevivem as resistentes','laranja'),('Reprodução e herança','verde'),('População resistente','vermelho')], '', 'O agrotóxico seleciona características que já existiam; não “cria” a resistência.', 'sm') }}
+    <p class="xs">Resultado: <b>superpragas</b>, doses maiores, produtos novos e mais caros. Despesa com agrotóxicos no Censo 2017: <b>R$ 31,8 bilhões</b>.</p>
+  </div>
+</div>
+
+{{ figure('eutrofizacao', '', '') }}
+
+<div class="g3">
+  <div>
+    <h2 class="first">Aquíferos e lençol</h2>
+    <p class="xs">Nitrato e agrotóxicos solúveis <b>infiltram</b> com a água e chegam ao lençol freático e a aquíferos (recargas). Poços rasos são os mais vulneráveis; a descontaminação é lenta e cara.</p>
+  </div>
+  <div>
+    <h2 class="first">Salinização</h2>
+    <p class="xs">Em clima <b>semiárido</b>, a irrigação sem drenagem faz a água evaporar e deixar <b>sais</b> na superfície: o solo fica estéril. Ocorre em perímetros irrigados (ex.: Vale do São Francisco). A solução envolve drenagem e manejo da água.</p>
+  </div>
+  <div>
+    <h2 class="first">Queimadas</h2>
+    <p class="xs">A <b>coivara</b> tradicional (pequena, rotativa) é diferente das queimadas <b>predatórias</b> em grande escala: destroem microbiota e fauna, emitem <b>CO₂</b> e fuligem (a fumaça da Amazônia pode atingir o Sudeste) e agravam o efeito estufa.</p>
+  </div>
+</div>
+
+{{ chain([('Fertilizante (N, P)','terra'),('Escoamento até o rio','azul'),('Algas se multiplicam','verde'),('Menos O₂ dissolvido','vermelho'),('Peixes morrem','vermelho')], 'Encadeamento: eutrofização', 'Também causada por esgoto doméstico. Tendência: depende de chuva, relevo e manejo.') }}
+<div class="g2">
+  {% call box('enem') %}<span class="xs">Mortandade de peixes após as chuvas em área de lavoura, ou água verde em reservatório → <b>eutrofização</b> (N e P). Saída: <b>mata ciliar</b>, curvas de nível, uso racional de adubos e saneamento.</span>{% endcall %}
+  {% call box('conex') %}<span class="xs"><b>Química:</b> NPK, solubilidade, nitrato e fósforo; DBO. <b>Biologia:</b> seleção natural sob pressão (agrotóxico), ciclo do nitrogênio e decompositores.</span>{% endcall %}
+</div>
+<div class="q"><div class="qh">Questão · Eutrofização</div>
+  Após o período chuvoso, moradores de uma cidade observaram água esverdeada e peixes mortos em um reservatório cercado por lavouras e por bairros sem rede de esgoto. O fenômeno descrito deve-se, principalmente,
+  <ol class="two"><li>à acidificação do solo pela calagem excessiva.</li><li>ao excesso de nutrientes (nitrogênio e fósforo), que estimula algas e reduz o oxigênio dissolvido.</li><li>à salinização provocada pela irrigação em clima úmido.</li><li>ao assoreamento, que eleva a luminosidade da água.</li><li>à lixiviação de rochas do escudo cristalino.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: adubos e esgoto levam N e P ao reservatório; as algas proliferam e, ao morrerem, sua decomposição consome O₂ (eutrofização). A calagem corrige acidez; a salinização ocorre em clima seco com irrigação sem drenagem.</p></div>
+<div class="q"><div class="qh">Questão · Seleção e agrotóxicos</div>
+  Em uma lavoura, o uso contínuo do mesmo inseticida tornou-se cada vez menos eficaz ao longo das safras, exigindo doses maiores. Do ponto de vista evolutivo, isso ocorre porque o inseticida
+  <ol class="two"><li>induziu mutações específicas que tornaram os insetos resistentes.</li><li>selecionou indivíduos que já tinham variantes de resistência, os quais deixaram mais descendentes.</li><li>enfraqueceu a reprodução de todos os insetos da população.</li><li>transformou o solo em ambiente favorável às pragas.</li><li>eliminou apenas os predadores naturais das pragas.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: a variabilidade genética já existia; o agrotóxico atua como <b>fator de seleção</b> e os resistentes se multiplicam. A alternativa A confunde “seleção” com “indução de mutações”.</p></div>
+{% endcall %}

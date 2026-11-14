@@ -1,0 +1,23 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo C · Geografia Agrária', 'Fontes: IBGE, Censo Agropecuário 2017 (resultados definitivos); Lei nº 11.326/2006; Delgado, G., Do capital financeiro na agricultura à economia do agronegócio (2012). Cenas ilustrativas; valores do Censo em cada barra.') %}
+{{ title('C1', 'Quem produz, como e para quem: sistemas agrícolas') }}
+<p class="lead"><b>Fenômeno:</b> convivem no campo brasileiro modelos distintos de produção. <b>Mecanismo:</b> o que os diferencia é a combinação de <b>área, capital, trabalho e destino da produção</b>. <b>No ENEM:</b> comparar modelos sem estereótipos e ligar cada um a suas consequências sociais e ambientais.</p>
+
+{{ figure('agro_familiar_empresarial', '', '') }}
+{{ figure('agro_censo', '', '') }}
+
+<div class="g2">
+  {% call box('def', 'Agricultura familiar (definição legal)') %}<span class="xs">Lei 11.326/2006: propriedade de <b>até 4 módulos fiscais</b>, <b>mão de obra predominantemente familiar</b>, renda <b>predominantemente</b> da atividade e gestão pela família. O Censo 2017 usou esse critério.</span>{% endcall %}
+  {% call box('erro', 'Evite generalizações') %}<span class="xs">Há agricultores familiares muito tecnificados e exportadores, e empresas rurais diversificadas. As diferenças são <b>tendências</b>. A agricultura familiar é decisiva para <b>alimentos específicos</b> (ex.: mandioca, feijão e leite têm forte participação familiar); não existe um “70%” geral comprovado.</span>{% endcall %}
+</div>
+
+{{ figure('agro_intensiva_extensiva', '', '') }}
+
+<table class="cmp c1">
+  <tr><th>Conceito</th><th>Ideia central</th><th>Exemplo / ressalva</th></tr>
+  <tr><td><b>Plantation</b></td><td>Sistema colonial: latifúndio, monocultura de exportação, mão de obra escrava (depois assalariada)</td><td>Cana e café no Brasil; algodão no sul dos EUA</td></tr>
+  <tr><td><b>Monocultura × policultura</b></td><td>Uma cultura dominante (escala, risco) × várias (diversidade, alimentos básicos)</td><td>Soja e cana × roças familiares</td></tr>
+  <tr><td><b>Latifúndio × minifúndio</b></td><td>Grande propriedade, às vezes ociosa × propriedade muito pequena, insuficiente para a família</td><td>Estrutura fundiária concentrada (ver C6)</td></tr>
+</table>
+{% call box('enem') %}Compare <b>quatro variáveis</b> (área, capital, trabalho, destino) e identifique o modelo. Cuidado com alternativas que atribuem <b>“toda” a produção de alimentos</b> a um só modelo, ou que afirmam que o agronegócio <b>não</b> usa mão de obra familiar/contratada.{% endcall %}
+{% endcall %}

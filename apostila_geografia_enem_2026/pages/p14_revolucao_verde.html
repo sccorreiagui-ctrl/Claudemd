@@ -1,0 +1,40 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo C · Geografia Agrária', 'Fontes: Embrapa; Delgado (2012); Silva, J. G., A modernização dolorosa (1982); Lei de Biossegurança (11.105/2005). ◆ A distinção entre fases (Revolução Verde × transgenia × precisão) é complemento independente.') %}
+{{ title('C2', 'Revolução Verde e modernização do campo') }}
+<p class="lead">Um <b>pacote tecnológico</b> difundido após a Segunda Guerra aumentou a produtividade, mas elevou custos, concentrou terra e criou problemas ambientais. No Brasil, a modernização foi <b>seletiva</b>: tecnificou o campo sem mudar a <b>estrutura fundiária</b>.</p>
+
+{{ figure('revolucao_verde', '', '') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Fases (não confundir) <span class="cmp-tag">◆</span></h2>
+    <table class="cmp c1" style="font-size:6.7pt">
+      <tr><th style="width:21mm">Período</th><th>O que muda</th></tr>
+      <tr><td><b>1940–70</b></td><td><b>Revolução Verde:</b> sementes de alto rendimento, fertilizantes, agrotóxicos, irrigação, mecanização (México, Índia, Filipinas; Borlaug).</td></tr>
+      <tr><td><b>1960–80, Brasil</b></td><td>Crédito rural subsidiado (1965) e <b>Embrapa</b> (1973): “modernização conservadora”; soja adaptada ao clima tropical.</td></tr>
+      <tr><td><b>1996 →</b></td><td><b>Biotecnologia:</b> transgênicos (no Brasil, liberação e Lei de Biossegurança em 2005) — <b>posterior</b> ao pacote original.</td></tr>
+      <tr><td><b>1990 →</b></td><td><b>Agricultura de precisão</b>: GPS, sensores, drones.</td></tr>
+    </table>
+  </div>
+  <div>
+    <h2 class="first">Efeitos socioespaciais</h2>
+    {{ chain([('Mecanização','laranja'),('Menos trabalho por hectare','laranja'),('Êxodo rural','roxo'),('Crescimento urbano','roxo'),('Problemas urbanos','vermelho')], '', 'Tendência histórica, não regra universal: depende da região, da cultura e da estrutura fundiária.', 'sm') }}
+    <ul class="sq xs">
+      <li><b>Endividamento</b> dos pequenos (crédito, insumos caros) → venda de terras → <b>concentração fundiária</b>.</li>
+      <li><b>Dependência</b> de sementes, fertilizantes (maior parte importada) e máquinas.</li>
+      <li><b>Uniformização genética</b> e monocultura: mais vulnerabilidade a pragas.</li>
+    </ul>
+  </div>
+</div>
+
+{{ figure('agro_precisao', '', '') }}
+
+<div class="g2">
+  {% call box('enem') %}<span class="xs">Textos e charges sobre “pacote tecnológico”, “agronegócio” ou “êxodo rural” pedem a <b>relação causa → efeito</b>: tecnologia poupadora de trabalho → desemprego rural → migração para cidades. Mapas de MATOPIBA e Cerrado completam o raciocínio (C5).</span>{% endcall %}
+  {% call box('erro') %}<span class="xs"><b>Transgenia não é Revolução Verde:</b> são fases diferentes. Também: a Revolução Verde <b>aumentou a produção</b>, mas <b>não eliminou a fome</b> (problema de acesso e renda, não só de oferta).</span>{% endcall %}
+</div>
+<div class="q"><div class="qh">Questão · Revolução Verde no Brasil</div>
+  A Revolução Verde difundiu, a partir da década de 1960, um pacote tecnológico (sementes selecionadas, fertilizantes, agrotóxicos e mecanização). No Brasil, uma consequência socioespacial associada a esse processo foi
+  <ol class="two"><li>o fortalecimento da agricultura de subsistência, pela redução dos custos de produção.</li><li>a redução da concentração fundiária, pela difusão do crédito entre pequenos agricultores.</li><li>a intensificação do êxodo rural e do crescimento urbano, pela menor demanda por trabalho e pela valorização da terra.</li><li>o fim da dependência de insumos importados, pelo avanço da indústria nacional de fertilizantes.</li><li>a queda geral da produtividade, pelo esgotamento imediato dos solos.</li></ol></div>
+<div class="gab"><p><b class="l">C</b>Gabarito comentado: tecnologia poupadora de trabalho e crédito concentrado em grandes produtores elevaram a <b>concentração fundiária</b> e o <b>êxodo rural</b> (A e B afirmam o oposto; D é falsa: o país importa a maior parte dos fertilizantes; E contraria o aumento de produtividade).</p></div>
+{% endcall %}

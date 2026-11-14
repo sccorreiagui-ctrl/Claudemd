@@ -1,0 +1,31 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-verde', 'Módulo B · Domínios morfoclimáticos e biomas', 'Fontes: Ab’Saber (1970; 2003); IBGE/MMA, Mapa de Biomas do Brasil (1:5.000.000); INMET, Normais Climatológicas 1991–2020; Natural Earth. Áreas dos biomas: IBGE (2019): 49% / 24% / 13% / 10% / 2% / 2%.') %}
+{{ title('B1', 'Domínios morfoclimáticos × biomas do IBGE') }}
+<p class="lead">Ab’Saber reuniu <b>relevo, clima, solos, vegetação e hidrografia</b> em seis <b>domínios morfoclimáticos</b>, separados por <b>faixas de transição</b>. O IBGE classifica <b>biomas</b> (vegetação e ecossistemas). As duas classificações se parecem, mas <b>não são iguais</b>.</p>
+
+<div class="g2">
+  <div>{{ figure('map_dominios', '<span class="t">Mapa 4.</span> Domínios de Ab’Saber (aproximação sobre biomas reais do IBGE; Araucárias, Cocais e Agreste são esquemáticos).', 'bd') }}</div>
+  <div>{{ figure('map_biomas', '<span class="t">Mapa 5.</span> Biomas continentais oficiais (IBGE/MMA, 1:5.000.000), com % da área do país.', 'bd') }}</div>
+</div>
+
+{{ chain([('Massas de ar','azul'),('Tipos de chuva e estações','azul'),('Clima regional','laranja'),('Solo e água disponível','terra'),('Vegetação do domínio','verde')], 'Encadeamento: como clima, solo, água e vegetação se relacionam', 'Tendência geral; o relevo e a rocha-mãe modificam o resultado em cada área.') }}
+
+<h2>Cada domínio tem seu clima: climogramas reais <small>INMET, 1991–2020 · mesma escala nos gráficos</small></h2>
+<div class="g2">
+  <div>{{ figure('clim_manaus', '', '') }}</div>
+  <div>{{ figure('clim_brasilia', '', '') }}</div>
+</div>
+<div class="cap" style="margin-top:-.6mm">Barras azuis = precipitação mensal (mm, eixo esquerdo); linha vermelha = temperatura média compensada (°C, eixo direito). Fonte: INMET, Normais Climatológicas 1991–2020. Manaus: domínio amazônico · Brasília: Cerrados. Os outros dois padrões (Caatingas e Pradarias) estão na página B3.</div>
+
+<h2>Domínio × bioma: resumo das diferenças</h2>
+<table class="cmp c1">
+  <tr><th></th><th>Domínios morfoclimáticos (Ab’Saber)</th><th>Biomas (IBGE)</th></tr>
+  <tr><td>Critério</td><td>Integra relevo (morfoestrutura), clima, solos, vegetação e hidrografia</td><td>Vegetação e ecossistemas, com clima, solo e fauna; foco ecológico</td></tr>
+  <tr><td>Unidades</td><td>6 domínios + faixas de transição: Amazônico, Cerrados, Caatingas, Mares de Morros, Araucárias, Pradarias</td><td>6 biomas continentais: Amazônia, Cerrado, Caatinga, Mata Atlântica, Pampa, Pantanal</td></tr>
+  <tr><td>Uso</td><td>Proposta acadêmica clássica (1960–70), muito cobrada no ENEM</td><td>Base oficial de estatísticas e monitoramento (IBGE/MMA)</td></tr>
+</table>
+<div class="g2">
+  {% call box('enem') %}<span class="xs"><b>Como ler um climograma:</b> chuva alta o ano todo e temperatura quase constante → <b>equatorial</b> (Manaus); verão chuvoso e inverno seco → <b>tropical típico</b> (Brasília); poucas barras (≈ 400 mm/ano) → <b>semiárido</b>; chuva distribuída e <b>grande amplitude térmica</b> → <b>subtropical</b>.</span>{% endcall %}
+  {% call box('erro') %}<span class="xs"><b>Domínio ≠ bioma:</b> o domínio reúne <i>relevo + clima + solo + vegetação + hidrografia</i>; o bioma enfatiza a vegetação. Araucárias e Mares de Morros pertencem ao bioma <b>Mata Atlântica</b>.</span>{% endcall %}
+</div>
+{% endcall %}

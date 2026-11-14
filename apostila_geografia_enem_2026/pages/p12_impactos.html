@@ -1,0 +1,40 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-verde', 'Módulo B · Domínios morfoclimáticos e biomas', 'Fontes: Ab’Saber (2003); IBGE; MMA (Convenção da ONU de combate à desertificação, UNCCD); WWF; Odum, Fundamentos de Ecologia. ◆ Biomas mundiais = complemento independente.') %}
+{{ title('B3', 'Impactos, distinções-chave e biomas do mundo') }}
+<p class="lead">Quatro processos de degradação do solo são trocados com frequência no ENEM. A regra é identificar o <b>clima</b> e o <b>mecanismo</b>: quem remove (água/vento), quem acumula (óxidos), onde ocorre (úmido ou seco).</p>
+
+<table class="cmp">
+  <tr><th>Processo</th><th>O que é</th><th>Onde / clima</th><th>Causa principal</th><th>Exemplo</th></tr>
+  <tr><td>Lixiviação</td><td>A água da chuva <b>lava</b> o solo e leva nutrientes solúveis para baixo ou para o rio</td><td>Áreas <b>chuvosas</b> (Amazônia, Mares de Morros)</td><td>Chuva intensa + solo sem cobertura</td><td>Solos ácidos e pobres; perda de fertilidade após desmatar</td></tr>
+  <tr><td>Laterização</td><td><b>Acúmulo</b> superficial de óxidos de ferro e alumínio; forma crosta (canga)</td><td>Clima <b>quente e úmido</b> alternando umidade e seca</td><td>Intemperismo tropical intenso, agravado pela remoção da vegetação</td><td>Crostas lateríticas no Brasil Central; bauxita</td></tr>
+  <tr><td>Arenização</td><td><b>Afloramento de areias</b> e perda da cobertura vegetal, em clima úmido</td><td>Sudoeste do <b>RS</b> (Pampa)</td><td>Pisoteio, monocultura, areias frágeis e chuva forte</td><td>Alegrete, Quaraí, São Francisco de Assis (RS)</td></tr>
+  <tr><td>Desertificação</td><td><b>Degradação da terra</b> em regiões áridas, semiáridas e subúmidas secas, com perda de produtividade</td><td><b>Semiárido</b> nordestino</td><td>Desmatamento, pastoreio e irrigação inadequados + seca</td><td>Núcleos: Gilbués-PI, Irauçuba-CE, Seridó (RN/PB), Cabrobó-PE</td></tr>
+</table>
+<div class="g2">
+  {% call box('erro') %}<span class="xs"><b>Arenização ≠ desertificação:</b> a primeira ocorre em clima <b>úmido</b> (Pampa); a segunda, em regiões <b>secas</b>. Ambas são degradação, mas <b>não</b> têm a mesma causa climática. Já <b>lixiviação</b> remove nutrientes e <b>laterização</b> acumula óxidos.</span>{% endcall %}
+  {% call box('enem') %}<span class="xs">Texto sobre “areais no Rio Grande do Sul” → <b>arenização</b>; sobre “núcleos no sertão do Piauí/Pernambuco” → <b>desertificação</b>; “solo lavado, ácido e pobre” → <b>lixiviação</b>; “crosta avermelhada dura” → <b>laterização</b>.</span>{% endcall %}
+</div>
+
+<h2>Biomas do mundo <span class="cmp-tag">complemento ◆</span> <small>quadro rápido para questões globais</small></h2>
+<table class="cmp c1" style="font-size:6.6pt">
+  <tr><th>Bioma</th><th>Clima</th><th>Vegetação</th><th>Onde</th></tr>
+  <tr><td><b>Tundra</b></td><td>Polar; <b>permafrost</b>, verão curtíssimo</td><td>Musgos, liquens e gramíneas; sem árvores</td><td>Norte do Canadá, Rússia, Groenlândia</td></tr>
+  <tr><td><b>Taiga</b> (floresta boreal)</td><td>Subártico: invernos longos e muito frios</td><td>Coníferas (pinheiros, abetos)</td><td>Canadá, Rússia, Escandinávia</td></tr>
+  <tr><td><b>Floresta temperada</b></td><td>Temperado, 4 estações</td><td>Caducifólias (carvalho, faia)</td><td>Europa Ocidental, leste dos EUA, leste da Ásia</td></tr>
+  <tr><td><b>Estepes e pradarias</b></td><td>Temperado continental, chuvas moderadas</td><td>Gramíneas</td><td>Estepes da Eurásia, Grandes Planícies (EUA), Pampa</td></tr>
+  <tr><td><b>Vegetação mediterrânea</b></td><td>Verão seco, inverno úmido</td><td>Arbustos esclerófilos</td><td>Mediterrâneo, Califórnia, Chile central</td></tr>
+  <tr><td><b>Savana</b></td><td>Tropical com estação seca</td><td>Gramíneas e árvores esparsas</td><td>África, Austrália, Cerrado (Brasil)</td></tr>
+  <tr><td><b>Deserto</b></td><td>Árido (&lt; 250 mm/ano); grande amplitude térmica diária</td><td>Xerófitas, cactos</td><td>Saara, Atacama, Gobi, Arábia</td></tr>
+  <tr><td><b>Floresta tropical</b></td><td>Equatorial, quente e úmido</td><td>Densa, latifoliada, perene</td><td>Amazônia, Congo, Sudeste Asiático</td></tr>
+</table>
+<div class="g2">
+  <div>{{ figure('clim_petrolina', '', '') }}</div>
+  <div>{{ figure('clim_portoalegre', '', '') }}</div>
+</div>
+<div class="cap" style="margin-top:-.6mm">Petrolina (PE): Caatingas, semiárido · Porto Alegre (RS): Pradarias e Araucárias, subtropical. Mesma escala dos gráficos da página B1. Fonte: INMET, Normais 1991–2020.</div>
+{% call box('enem') %}<span class="xs"><b>Eixo de revisão:</b> temperatura + precipitação ⇒ vegetação. O ENEM cobra a <b>relação clima–vegetação–solo–ocupação humana</b> e os impactos (desmatamento, erosão, arenização, desertificação), não a decoração de nomes.</span>{% endcall %}
+<div class="q"><div class="qh">Questão · Degradação do solo</div>
+  Em municípios do sudoeste do Rio Grande do Sul, a retirada da cobertura vegetal de campos naturais, associada ao pisoteio do gado e à chuva intensa, expõe areias e forma manchas sem vegetação. Em núcleos do sertão nordestino, processo semelhante ocorre sob clima seco. Esses fenômenos são denominados, respectivamente,
+  <ol class="two"><li>lixiviação e laterização.</li><li>arenização e desertificação.</li><li>laterização e arenização.</li><li>desertificação e lixiviação.</li><li>erosão eólica e salinização.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: no RS, <b>arenização</b> (clima úmido, areias frágeis); no semiárido, <b>desertificação</b>. Lixiviação remove nutrientes e laterização acumula óxidos: não descrevem “manchas de areia”.</p></div>
+{% endcall %}

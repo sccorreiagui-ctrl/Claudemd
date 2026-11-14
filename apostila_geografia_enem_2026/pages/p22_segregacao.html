@@ -1,0 +1,53 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-roxo', 'Módulo D · Urbanização e demografia', 'Fontes: IBGE, Censo 2022: Favelas e Comunidades Urbanas (16.390.815 pessoas; 12.348 áreas; 656 municípios); Estatuto da Cidade (Lei 10.257/2001); CF/1988, art. 182; Lei 12.587/2012 (mobilidade urbana).') %}
+{{ title('D3', 'Segregação, favelização e mobilidade urbana') }}
+<p class="lead">Na cidade capitalista o <b>preço do solo</b> separa os grupos sociais. A moradia barata fica longe, em áreas de risco ou sem serviços; o resultado é <b>segregação socioespacial</b> e longos deslocamentos diários.</p>
+
+{{ figure('segregacao', '', '') }}
+
+<div class="g4" style="margin:1mm 0">
+  <div class="stat"><b>16,4 mi</b><span>pessoas em favelas e comunidades urbanas (8,1% da população; Censo 2022)</span></div>
+  <div class="stat"><b>12.348</b><span>favelas e comunidades urbanas em 656 municípios</span></div>
+  <div class="stat"><b>&gt; 20 mil</b><span>habitantes: município deve ter plano diretor (CF/1988)</span></div>
+  <div class="stat"><b>2001</b><span>Estatuto da Cidade: função social da cidade e da propriedade urbana</span></div>
+</div>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Causas e consequências</h2>
+    {{ chain([('Terra urbana cara','laranja'),('Falta de moradia acessível','roxo'),('Ocupação de várzeas e encostas','roxo'),('Risco e carência de serviços','vermelho')], '', 'Tendência; cada cidade tem história própria.', 'sm') }}
+    <ul class="sq sm">
+      <li><b>Segregação:</b> condomínios fechados e áreas valorizadas × periferias e favelas.</li>
+      <li><b>Favelização:</b> expansão de moradias autoconstruídas sem regularização; muitas têm <b>densidade alta e saneamento precário</b>.</li>
+      <li><b>Gentrificação</b> <span class="cmp-tag">◆</span>: valorização de uma área que expulsa moradores pobres.</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="first">Mobilidade urbana</h2>
+    <ul class="sq sm">
+      <li><b>Migração pendular:</b> deslocamento diário entre casa e trabalho/estudo em outro município; é típica das regiões metropolitanas (cidades-dormitório).</li>
+      <li><b>Problemas:</b> congestionamentos, tempo de viagem, poluição, custo; domínio do transporte individual e rodoviário.</li>
+      <li><b>Políticas:</b> metrô, trem, BRT, ciclovias, bilhete único, priorização do coletivo (<b>Lei 12.587/2012</b>) e <b>cidades compactas</b>.</li>
+    </ul>
+  </div>
+</div>
+
+<table class="cmp">
+  <tr><th>Problema urbano</th><th>Causa principal</th><th>Solução frequentemente cobrada</th></tr>
+  <tr><td>Favelização e áreas de risco</td><td>Terra cara, falta de política habitacional</td><td>Habitação de interesse social, regularização fundiária, urbanização de favelas</td></tr>
+  <tr><td>Congestionamento e poluição</td><td>Prioridade ao carro; cidade espraiada</td><td>Transporte coletivo de massa, ciclovias, integração tarifária</td></tr>
+  <tr><td>Enchentes</td><td>Impermeabilização, ocupação de várzeas</td><td>Parques lineares, pavimento permeável, drenagem, preservação de nascentes</td></tr>
+  <tr><td>Segregação socioespacial</td><td>Mercado de terras; falta de planejamento</td><td>Plano diretor, IPTU progressivo, zonas especiais de interesse social</td></tr>
+</table>
+
+<div class="q"><div class="qh">Questão · Enchentes urbanas</div>
+  Em uma metrópole, o aumento de pavimentação, a retificação de rios e a ocupação de várzeas coincidiram com enchentes mais frequentes. A relação entre esses fatores e o fenômeno é que a impermeabilização
+  <ol class="two"><li>aumenta a infiltração e reduz o escoamento superficial.</li><li>reduz a infiltração e eleva o escoamento superficial, sobrecarregando a drenagem.</li><li>eleva a evapotranspiração e reduz a umidade do ar.</li><li>diminui o volume de chuva sobre a cidade.</li><li>amplia a recarga de aquíferos sob as ruas.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: solo coberto por asfalto infiltra menos; a água escoa de uma vez, sobrecarrega galerias e rios retificados. A e E afirmam o contrário; C e D não decorrem da pavimentação.</p></div>
+{% call box('enem') %}<span class="sm">Perguntas sobre <b>soluções</b> costumam premiar medidas que <b>atuam na causa</b>: moradia, transporte coletivo, planejamento e permeabilidade; evite alternativas que só “removem” o problema (ex.: remoção sem reassentamento).</span>{% endcall %}
+<h2>Saneamento e resíduos <span class="cmp-tag">complemento ◆</span></h2>
+<div class="g2">
+  <div class="sm"><b>Saneamento básico:</b> água tratada, coleta e tratamento de esgoto, drenagem e resíduos. O <b>Marco Legal (Lei 14.026/2020)</b> fixa a meta de <b>universalizar</b> o acesso até <b>2033</b> (99% com água potável e 90% com coleta e tratamento de esgoto). Esgoto sem tratamento polui rios e causa doenças de veiculação hídrica e eutrofização.</div>
+  <div class="sm"><b>Resíduos sólidos (PNRS, Lei 12.305/2010):</b> prevê o fim dos <b>lixões</b>, aterros sanitários para rejeitos, <b>coleta seletiva</b>, <b>logística reversa</b> e responsabilidade compartilhada. Ordem de prioridade: <b>não gerar → reduzir → reutilizar → reciclar → tratar → disposição final adequada</b>.</div>
+</div>
+{% endcall %}

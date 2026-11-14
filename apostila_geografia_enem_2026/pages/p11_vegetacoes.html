@@ -1,0 +1,33 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-verde', 'Módulo B · Domínios morfoclimáticos e biomas', 'Fontes: Ab’Saber (2003); IBGE (2012), Manual Técnico da Vegetação Brasileira; EMBRAPA; SOS Mata Atlântica/INPE (Atlas, 12,4%); MMA (núcleos de desertificação). Desenhos esquemáticos, sem escala.') %}
+{{ title('B2', 'Vegetação, solo e água em cada domínio') }}
+<p class="lead">Cada vegetação “responde” ao clima, ao solo e à disponibilidade de água. Procure sempre a <b>adaptação</b>: ela é a pista que o ENEM usa para identificar o domínio.</p>
+
+<div class="g3">
+  <div>{{ figure('veg_amazonia', '', '') }}</div>
+  <div>{{ figure('veg_cerrado', '', '') }}</div>
+  <div>{{ figure('veg_caatinga', '', '') }}</div>
+  <div>{{ figure('veg_mataatl', '', '') }}</div>
+  <div>{{ figure('veg_araucaria', '', '') }}</div>
+  <div>{{ figure('veg_pampa', '', '') }}</div>
+</div>
+
+<table class="cmp" style="font-size:6.4pt">
+  <tr><th style="width:15mm">Domínio</th><th style="width:34mm">Clima e relevo</th><th style="width:38mm">Solos</th><th>Hidrografia e vegetação</th><th style="width:38mm">Principais impactos</th></tr>
+  <tr><td>Amazônico<br><span class="mu">Norte</span></td><td>Equatorial, quente e úmido o ano todo. Planície e terras baixas (bacia sedimentar).</td><td>Latossolos e Argissolos ácidos e pobres; várzeas mais férteis; terra preta.</td><td>Bacia Amazônica. Floresta ombrófila densa (terra firme, <b>várzea</b>, <b>igapó</b>).</td><td><b>Desmatamento</b> (pecuária, soja, madeira), garimpo, queimadas.</td></tr>
+  <tr><td>Cerrados<br><span class="mu">Centro-Oeste</span></td><td>Tropical típico: verão chuvoso, inverno seco. Planaltos e chapadas.</td><td>Latossolos antigos, profundos, ácidos (Al e Fe); exigem <b>calagem</b>.</td><td>“Berço das águas”. Savana: árvores tortuosas, raízes fundas.</td><td>Agronegócio (soja, milho, algodão), pecuária, perda de vegetação e de recarga hídrica.</td></tr>
+  <tr><td>Caatingas<br><span class="mu">Nordeste</span></td><td>Semiárido: chuva baixa e irregular, alta evaporação. Depressão sertaneja.</td><td>Rasos e pedregosos (Neossolos); risco de <b>salinização</b>.</td><td>Rios <b>intermitentes</b> (exceção: São Francisco). Vegetação xerófila, caducifólia.</td><td>Lenha, pastagem, <b>desertificação</b> (Gilbués-PI, Seridó, Irauçuba, Cabrobó).</td></tr>
+  <tr><td>Mares de Morros<br><span class="mu">Litoral e Sudeste</span></td><td>Tropical úmido e litorâneo; chuva de relevo. Serras e morros arredondados.</td><td>Profundos e variados (massapê no Nordeste).</td><td>Rios de planalto e litorâneos. <b>Mata Atlântica</b>, grande biodiversidade.</td><td>Urbanização, cana, café: restam <b>≈ 12,4%</b>; deslizamentos em encostas.</td></tr>
+  <tr><td>Araucárias<br><span class="mu">Sul</span></td><td>Subtropical, 4 estações, geadas. Planalto basáltico.</td><td>Derivados de basalto (terra roxa), férteis.</td><td>Bacias do Paraná e do Uruguai (hidrelétricas). <b>Araucária</b> (copa em candelabro).</td><td>Madeira, papel e celulose, pinus, soja; espécie ameaçada.</td></tr>
+  <tr><td>Pradarias<br><span class="mu">Sul do RS</span></td><td>Subtropical úmido, chuva bem distribuída. <b>Coxilhas</b>.</td><td>Variados; frágeis (areias) sob pisoteio.</td><td>Campos naturais (gramíneas); lagoas e rios de planície.</td><td>Pecuária extensiva, soja, arroz, silvicultura; <b>arenização</b>.</td></tr>
+  <tr><td>Faixas de transição</td><td colspan="4"><b>Pantanal</b> (maior planície de inundação contínua do mundo; ecótono): incêndios e agrotóxicos do planalto. <b>Mata dos Cocais</b> (MA e PI): babaçu e carnaúba; extrativismo (quebradeiras de coco). <b>Agreste</b>: transição entre Zona da Mata e Sertão; brejos de altitude.</td></tr>
+</table>
+<div class="g2">
+  {% call box('enem') %}<span class="xs">A pista decisiva costuma estar na <b>adaptação</b>: espinhos e perda de folhas → Caatinga; casca grossa, raízes profundas e fogo → Cerrado; epífitas e estratos → floresta úmida; copa em candelabro e geada → Araucárias.</span>{% endcall %}
+  {% call box('conex') %}<span class="xs"><b>Biologia:</b> adaptações evolutivas (xerofitismo, CAM nos cactos) e ciclagem de nutrientes. <b>Química:</b> solo ácido (Al³⁺) e calagem no Cerrado.</span>{% endcall %}
+</div>
+<div class="q"><div class="qh">Questão · Adaptações da vegetação</div>
+  Em certa região, predominam arbustos espinhosos e árvores que perdem as folhas na estação seca, além de cactos que armazenam água no caule. Parte dos rios da região desaparece durante meses do ano. Essas características correspondem ao domínio
+  <ol class="two"><li>Amazônico, pela umidade constante.</li><li>dos Cerrados, pelas queimadas anuais.</li><li>das Caatingas, adaptadas ao clima semiárido.</li><li>das Araucárias, adaptadas ao frio intenso.</li><li>das Pradarias, adaptadas à chuva bem distribuída.</li></ol></div>
+<div class="gab"><p><b class="l">C</b>Gabarito comentado: espinhos, caducifolia, cactos suculentos e rios intermitentes são marcas do <b>semiárido (Caatingas)</b>. As demais alternativas associam adaptações a climas que não as exigem.</p></div>
+{% endcall %}

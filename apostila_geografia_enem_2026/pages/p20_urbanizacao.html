@@ -1,0 +1,31 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-roxo', 'Módulo D · Urbanização e demografia', 'Fontes: IBGE, Censos Demográficos 1970–2022 (SIDRA t.202; urbanização 2022: 87,4%); IBGE, REGIC 2018 (15 metrópoles); Santos, M., A urbanização brasileira (1993). Esquemas ilustrativos.') %}
+{{ title('D1', 'Urbanização brasileira, metropolização e rede urbana') }}
+<p class="lead"><b>Fenômeno:</b> em 1970, 56% dos brasileiros viviam em cidades; em 2022, 87%. <b>Causas:</b> industrialização e mecanização do campo (fatores de <b>repulsão</b> rural e de <b>atração</b> urbana). <b>Consequências:</b> metropolização, desigualdade socioespacial e problemas urbanos, porque a cidade cresceu mais rápido que a infraestrutura.</p>
+
+{{ figure('urbanizacao_grafico', '', '') }}
+
+{{ chain([('Mecanização agrícola','laranja'),('Menor demanda de trabalho rural','laranja'),('Êxodo rural','roxo'),('Urbanização acelerada','roxo'),('Metropolização e problemas urbanos','vermelho')], 'Encadeamento (mecanismo)', 'Tendência histórica 1950–1980; hoje o crescimento urbano é mais lento e as cidades médias ganham peso.') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Conceitos-chave</h2>
+    <ul class="sq sm">
+      <li><b>Urbanização:</b> aumento da proporção de população urbana (≠ crescimento das cidades).</li>
+      <li><b>Metropolização:</b> concentração de pessoas, empresas e gestão em um <b>polo</b> e na região ao redor, com vínculos diários.</li>
+      <li><b>Conurbação:</b> junção física de áreas urbanas de municípios vizinhos.</li>
+      <li><b>Macrocefalia urbana:</b> uma cidade desproporcional às demais da rede.</li>
+      <li><b>Cidades médias:</b> polos regionais que atraem migrantes, hoje crescem mais que as metrópoles em ritmo.</li>
+    </ul>
+    <h3>Hierarquia urbana (REGIC, IBGE 2018)</h3>
+    <p class="sm">Cinco níveis: <b>metrópoles</b> (15), <b>capitais regionais</b>, <b>centros sub-regionais</b>, <b>centros de zona</b> e <b>centros locais</b>. <b>São Paulo</b> é a única “grande metrópole nacional” (arranjo de ≈ 21,5 milhões de habitantes); <b>Rio de Janeiro</b> e <b>Brasília</b> são “metrópoles nacionais”.</p>
+  </div>
+  <div>{{ figure('rede_urbana', '', '') }}</div>
+</div>
+
+{{ figure('metropolizacao', '', '') }}
+<div class="g2">
+  {% call box('enem') %}<span class="sm">Gráficos com <b>taxa de urbanização crescente</b> e <b>população rural estável ou em queda</b> pedem relacionar a modernização do campo e a industrialização ao êxodo rural. Mapas de <b>rede urbana</b>: quanto maior a cidade, maior a área de influência.</span>{% endcall %}
+  {% call box('erro') %}<span class="sm"><b>Urbanização ≠ metropolização ≠ conurbação.</b> Também: a taxa de urbanização do Brasil (87%) é alta, mas <b>não significa</b> infraestrutura adequada em todas as cidades.</span>{% endcall %}
+</div>
+{% endcall %}

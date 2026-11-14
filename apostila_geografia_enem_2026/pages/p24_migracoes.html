@@ -1,0 +1,51 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-roxo', 'Módulo D · Urbanização e demografia', 'Fontes: ONU/DESA (International Migrant Stock 2024); ACNUR (Tendências Globais 2024); Lei 9.474/1997; IBGE. Mapa esquemático (direção e sentido gerais dos fluxos).') %}
+{{ title('D5', 'Migrações: internas, internacionais e refúgio') }}
+<p class="lead">Migrar é mudar de lugar de residência (<b>emigrar</b> = sair; <b>imigrar</b> = entrar). Os fluxos seguem <b>fatores de repulsão</b> (desemprego, conflito, seca) e de <b>atração</b> (emprego, renda, segurança).</p>
+
+<div class="g2">
+  <div>{{ figure('map_migracoes', '<span class="t">Mapa 7.</span> Fluxos internos esquemáticos; base real (Natural Earth).', 'bd') }}</div>
+  <div>
+    <h2 class="first">Tipos de migração</h2>
+    <table class="cmp c1" style="font-size:6.7pt">
+      <tr><th>Tipo</th><th>Característica</th></tr>
+      <tr><td><b>Êxodo rural</b></td><td>Campo → cidade, definitivo; ligado à mecanização e à concentração de terras</td></tr>
+      <tr><td><b>Pendular</b></td><td>Diária, casa ↔ trabalho/estudo; não muda de residência</td></tr>
+      <tr><td><b>Sazonal</b></td><td>Por épocas do ano (safra, corte de cana); <b>transumância</b> = deslocamento do rebanho</td></tr>
+      <tr><td><b>De retorno</b></td><td>Volta à região de origem (ex.: nordestinos, a partir dos anos 1990)</td></tr>
+      <tr><td><b>Intra e inter-regional</b></td><td>Dentro/entre regiões (ex.: Nordeste → Sudeste)</td></tr>
+    </table>
+    {{ chain([('Seca e falta de emprego no NE','laranja'),('Migração para SP e RJ (1950–80)','roxo'),('Desconcentração industrial','laranja'),('Retorno e cidades médias no NE','roxo')], '', 'Tendência histórica; fluxos mudam com a economia.', 'sm') }}
+  </div>
+</div>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Migrações internacionais</h2>
+    <p class="sm">Cerca de <b>304 milhões</b> de pessoas viviam fora do país de nascimento em 2024 (≈ 3,7% da população mundial; ONU/DESA). Os fluxos principais vão do Sul para o Norte (trabalho e renda), mas também entre países do Sul.</p>
+    <ul class="sq sm">
+      <li><b>Brasil:</b> país de emigração e, hoje, também de <b>imigração</b> (haitianos após o terremoto de 2010; venezuelanos, com a <b>Operação Acolhida</b>, desde 2018).</li>
+      <li><b>Fuga de cérebros:</b> perda de profissionais qualificados em países em desenvolvimento.</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="first">Refugiados e apátridas</h2>
+    <ul class="sq sm">
+      <li><b>Refugiado:</b> quem deixa o país por <b>fundado temor de perseguição</b> (raça, religião, nacionalidade, grupo social ou opinião política) ou por conflito/violações graves; protegido pela <b>Convenção de 1951</b>. No Brasil, a <b>Lei 9.474/1997</b>. Deve ser acolhido e <b>não devolvido</b> (<i>non-refoulement</i>).</li>
+      <li><b>Migrante econômico</b> × refugiado: a motivação e a proteção legal diferem.</li>
+      <li><b>Apátrida:</b> pessoa sem nacionalidade reconhecida por nenhum Estado (Convenção de 1954); falta de documentos e de direitos.</li>
+      <li>Mais de <b>120 milhões</b> de pessoas deslocadas à força no mundo (ACNUR, 2024).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="q"><div class="qh">Questão · Migração interna</div>
+  Entre as décadas de 1950 e 1980, milhões de nordestinos migraram para o Sudeste. Esse fluxo associa-se, principalmente,
+  <ol class="two"><li>à industrialização do Sudeste e à precariedade rural, combinadas a secas periódicas no sertão.</li><li>à política de reforma agrária, que assentou famílias em São Paulo.</li><li>ao fim do ciclo da soja no Centro-Oeste.</li><li>à ausência de rodovias entre as regiões.</li><li>ao crescimento da agricultura familiar no Sudeste.</li></ol></div>
+<div class="gab"><p><b class="l">A</b>Gabarito comentado: a oferta de empregos industriais e urbanos no Sudeste (atração) e a pobreza rural/secas no sertão (repulsão) explicam o fluxo. Reforma agrária ampla não ocorreu; a soja do Centro-Oeste é posterior.</p></div>
+
+<div class="q"><div class="qh">Questão · Refúgio</div>
+  Uma pessoa deixa seu país por temer perseguição política e busca proteção em outro Estado. Segundo as normas internacionais, ela pode ser reconhecida como
+  <ol class="two"><li>migrante pendular.</li><li>refugiada, tendo direito a não ser devolvida ao local de perseguição.</li><li>apátrida, por ter saído do país.</li><li>migrante sazonal, por buscar emprego temporário.</li><li>emigrante de retorno.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: o temor fundado de perseguição caracteriza o <b>refúgio</b>; o princípio de <i>non-refoulement</i> impede a devolução. Apatridia é ausência de nacionalidade, não ato de sair do país.</p></div>
+{% endcall %}

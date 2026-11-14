@@ -75,7 +75,7 @@ def pacifico(name, el_nino):
 
 def climograma(name, st, data):
     T, P = data["T"], data["P"]
-    W, H = HALF, 176
+    W, H = HALF, 146
     f = Fig(W, H, name, f"Climograma de {st}")
     f.rect(0, 0, W, H, fill="#FFFFFF")
     f.text(4, 1, st, 8.4, 800, "#0D47A1")
@@ -106,13 +106,6 @@ def climograma(name, st, data):
     f.poly(pts, stroke="#D32F2F", sw=1.8, close=False)
     for (x, y) in pts:
         f.circle(x, y, 2.2, fill="#D32F2F", stroke="#FFFFFF", sw=0.7)
-    # legenda
-    f.rect(x0, 152, 9, 7, fill="#42A5F5", stroke="#1565C0", sw=0.5)
-    f.text(x0 + 13, 150, "precipitação mensal (mm)", 6.0, 600, INK)
-    f.line(x0 + 128, 156, x0 + 140, 156, "#D32F2F", 1.8)
-    f.circle(x0 + 134, 156, 2.2, fill="#D32F2F")
-    f.text(x0 + 144, 150, "temperatura média (°C)", 6.0, 600, INK)
-    f.text(x0, 164, "Fonte: INMET, Normais Climatológicas 1991–2020", 5.5, 400, MUTED, italic=True)
     save_svg(name, f.render())
 
 

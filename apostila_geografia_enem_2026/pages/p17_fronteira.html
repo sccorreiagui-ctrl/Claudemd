@@ -1,0 +1,48 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo C · Geografia Agrária', 'Fontes: IBGE/MMA (biomas, 1:5.000.000); Embrapa Territorial (delimitação do MATOPIBA, 337 municípios); INPE (PRODES, arco do desmatamento); Decreto 8.447/2015. MATOPIBA e arco: aproximações cartográficas.') %}
+{{ title('C5', 'Fronteira agrícola: Cerrado, MATOPIBA e Amazônia') }}
+<p class="lead"><b>Fronteira agrícola</b> é a faixa onde a produção avança sobre áreas de vegetação nativa ou de ocupação menos intensa. O avanço seguiu o <b>Centro-Sul → Centro-Oeste → MATOPIBA → Amazônia</b>, impulsionado por tecnologia, crédito, infraestrutura e terras baratas.</p>
+
+<div class="g" style="display:grid;grid-template-columns:124mm 1fr;gap:4mm">
+  <div>{{ figure('map_fronteira', '<span class="t">Mapa 6.</span> Base real (IBGE/MMA); MATOPIBA e arco do desmatamento são aproximações; setas esquemáticas.', 'bd') }}</div>
+  <div>
+    <h2 class="first">Três momentos</h2>
+    <ul class="sq sm">
+      <li><b>1970–80, Cerrado:</b> solos ácidos <b>corrigidos com calagem</b>, soja adaptada ao clima tropical pela <b>Embrapa</b>, relevo plano de chapadas, crédito e estradas.</li>
+      <li><b>1990 → hoje, MATOPIBA</b> (MA, TO, PI e BA): terras baratas e planas, chuva de verão, empresas e produtores do Sul; soja, milho e algodão. Cerca de 73 milhões de ha e 337 municípios (Embrapa).</li>
+      <li><b>Amazônia (arco do desmatamento):</b> pecuária extensiva, grilagem, madeira, garimpo e soja em áreas já abertas.</li>
+    </ul>
+    {{ chain([('Calagem + soja tropical','terra'),('Expansão no Cerrado','laranja'),('MATOPIBA','laranja'),('Pressão sobre Amazônia','vermelho')], '', 'Sequência histórica; os momentos se sobrepõem.', 'sm') }}
+  </div>
+</div>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Desmatamento e pecuária</h2>
+    {{ chain([('Estrada e grilagem','vermelho'),('Retirada da madeira','verde'),('Pastagem extensiva','terra'),('Soja ocupa áreas abertas','laranja')], '', 'Efeito indireto: a soja “empurra” o gado para novas áreas. Tendência, não regra.', 'sm') }}
+    <ul class="sq sm">
+      <li>O gado em <b>grandes áreas</b> serve de “prova de uso” e de reserva de valor; a pastagem degrada com o tempo.</li>
+      <li>O arco acompanha a <b>borda sul e leste</b> da Amazônia (PA, MT, RO, AC).</li>
+      <li>Consequências: perda de biodiversidade, <b>carbono</b>, menos <b>rios voadores</b> e conflitos com povos tradicionais.</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="first">Impactos no Cerrado</h2>
+    <ul class="sq sm">
+      <li><b>Água:</b> berço das águas de grandes bacias; a perda de vegetação reduz a recarga de aquíferos e a vazão de rios.</li>
+      <li><b>Biodiversidade:</b> bioma muito rico e ameaçado; menos protegido que a Amazônia.</li>
+      <li><b>Social:</b> terras de comunidades tradicionais e posseiros pressionadas; alta concentração fundiária.</li>
+      <li><b>Economia:</b> maior produtor/exportador de soja e carne para China e UE; sensível a <b>barreiras ambientais</b> (acordo UE–Mercosul).</li>
+    </ul>
+  </div>
+</div>
+<div class="g2">
+  {% call box('enem') %}<span class="sm">Mapas com setas Sul → Centro-Oeste → Norte pedem o <b>vínculo entre tecnologia (calagem, soja da Embrapa), infraestrutura e ocupação</b>. Textos sobre “agronegócio e floresta” cobram desmatamento, grilagem e conflitos.</span>{% endcall %}
+  {% call box('erro') %}<span class="sm"><b>Cerrado ≠ Amazônia:</b> savana de clima sazonal e solos ácidos × floresta equatorial. A expansão da soja no Cerrado <b>precisou de calagem</b>; a pecuária é o principal vetor do desmatamento amazônico.</span>{% endcall %}
+</div>
+{{ chain([('Cerrado e MATOPIBA','laranja'),('Rodovias (e algumas ferrovias)','cinza'),('Portos: Santos, Paranaguá e Arco Norte','cinza'),('Exportação (China, UE)','laranja')], 'Logística da soja', 'O alto custo do transporte e a dependência das rodovias compõem o “Custo Brasil” (ver página E6).') }}
+<div class="q"><div class="qh">Questão · Cerrado e calagem</div>
+  A ocupação agrícola do Cerrado, intensificada a partir dos anos 1970, foi viabilizada por técnicas que corrigiram limitações naturais dos solos, como a calagem. Essa técnica consiste em
+  <ol class="two"><li>adicionar calcário para reduzir a acidez e a toxicidade do alumínio.</li><li>irrigar intensamente para elevar a salinidade e reter nutrientes.</li><li>aplicar herbicidas para eliminar pragas de raiz.</li><li>revolver o solo para ampliar a erosão e a drenagem.</li><li>queimar a vegetação para depositar cinzas e ácidos.</li></ol></div>
+<div class="gab"><p><b class="l">A</b>Gabarito comentado: o Cerrado tem solos ácidos e ricos em Al e Fe; o calcário (CaCO₃) neutraliza H⁺ e Al³⁺, eleva o pH e libera nutrientes, o que permitiu o cultivo de soja e milho em escala.</p></div>
+{% endcall %}

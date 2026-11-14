@@ -1,0 +1,41 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-roxo', 'Módulo D · Urbanização e demografia', 'Fontes: IBGE, Censos Demográficos 1980 e 2022 (SIDRA t. 200 e 9514; somas conferidas com os totais oficiais); IBGE, Notícias (índice de envelhecimento 55,2; idade mediana 35 anos); TFT 2022 = 1,55.') %}
+{{ title('D4', 'Demografia: populoso × povoado, transição e envelhecimento') }}
+<p class="lead">Do <b>fenômeno</b> (queda da fecundidade e da mortalidade) à <b>consequência</b> (envelhecimento): a pirâmide etária “conta” essa história. Os dados abaixo são <b>oficiais do IBGE</b>.</p>
+
+<div class="g2">
+  <div>{{ figure('piramide_1980', '', '') }}</div>
+  <div>{{ figure('piramide_2022', '', '') }}</div>
+</div>
+<div class="cap" style="margin-top:-1mm"><span class="t">Pirâmides etárias do Brasil, 1980 × 2022.</span> Base larga e topo estreito (1980) → base menor e meio mais largo (2022). Fonte: IBGE, Censos Demográficos (SIDRA 200 e 9514).</div>
+
+<div class="g2">
+  <div>{{ figure('transicao_demografica', '', '') }}</div>
+  <div>
+    {{ figure('populoso_povoado', '', '') }}
+    {% call box('erro', 'Populoso × povoado') %}<span class="sm"><b>POPULOSO</b> = grande <b>população absoluta</b> (Brasil: ≈ 203 milhões, 2022). <b>POVOADO</b> = grande <b>densidade demográfica</b> (hab/km²). O Brasil é populoso e <b>pouco povoado</b> (≈ 24 hab/km²).</span>{% endcall %}
+  </div>
+</div>
+
+{{ chain([('Urbanização e mulher no mercado','roxo'),('Contraceptivos e custo de vida','roxo'),('Fecundidade ↓ (1,55)','roxo'),('Base da pirâmide estreita','roxo'),('Envelhecimento','vermelho'),('Pressão sobre previdência e saúde','vermelho')], 'Encadeamento: transição demográfica', 'Tendência de longo prazo; o ritmo varia por região, renda e escolaridade.') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Bônus demográfico</h2>
+    <p class="sm">Período em que a <b>razão de dependência</b> é baixa: há mais pessoas em idade ativa (15–64) do que crianças e idosos. No Brasil ela caiu de <b>73</b> (1980) para <b>44</b> (2022) dependentes por 100 pessoas ativas. Se houver <b>emprego, educação e produtividade</b>, o bônus aumenta a renda e a poupança; mas ele é <b>transitório</b>: com o envelhecimento, a razão de dependência volta a subir.</p>
+  </div>
+  <div>
+    <h2 class="first">Envelhecimento (Censo 2022)</h2>
+    <ul class="sq sm">
+      <li><b>65 anos ou mais:</b> 10,9% (4,0% em 1980; 7,4% em 2010).</li>
+      <li><b>Índice de envelhecimento:</b> 55,2 idosos (65+) para cada 100 crianças (0–14) (30,7 em 2010).</li>
+      <li><b>Idade mediana:</b> 29 → 35 anos (2010–2022).</li>
+      <li>Demandas: previdência, saúde, cuidados e adaptação das cidades.</li>
+    </ul>
+  </div>
+</div>
+<div class="g2">
+  {% call box('enem') %}<span class="sm"><b>Como ler uma pirâmide:</b> (1) base larga = alta natalidade; (2) topo estreito = baixa expectativa de vida; (3) base estreita + topo alargado = envelhecimento. <b>Atenção ao eixo</b>: pirâmides em % ou números absolutos.</span>{% endcall %}
+  {% call box('conex') %}<span class="sm"><b>Sociologia:</b> papel da mulher e fecundidade. <b>Economia:</b> previdência e mercado de trabalho. <b>Matemática:</b> razão, proporção e leitura de gráficos.</span>{% endcall %}
+</div>
+{% endcall %}

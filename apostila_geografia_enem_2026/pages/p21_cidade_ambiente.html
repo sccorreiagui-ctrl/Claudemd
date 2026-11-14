@@ -1,0 +1,47 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-roxo', 'Módulo D · Urbanização e demografia', 'Fontes: FISRWG (1998), Stream Corridor Restoration (valores de referência); Mendonça e Danni-Oliveira, Climatologia; Cemaden e CPRM (áreas de risco); Lei 12.608/2012. Esquemas ilustrativos.') %}
+{{ title('D2', 'Questões ambientais urbanas: enchentes, calor e ar') }}
+<p class="lead">A cidade <b>altera</b> o ciclo da água, o balanço de calor e a circulação do ar. Os mesmos mecanismos explicam enchentes, ilhas de calor e inversão térmica: <b>superfícies, relevo e ocupação</b>.</p>
+
+{{ figure('impermeabilizacao', '', '') }}
+{{ chain([('Asfalto e concreto','cinza'),('Infiltração cai','azul'),('Escoamento superficial aumenta','azul'),('Galerias e rios sobrecarregados','azul'),('Enchente / alagamento','vermelho')], 'Encadeamento: impermeabilização e enchentes', 'Agravantes: lixo nos bueiros, rios retificados, ocupação de várzeas, assoreamento. Tendência, não regra.') }}
+
+<div class="g2">
+  <div>{{ figure('inversao_termica', '', '') }}</div>
+  <div>
+    <h2 class="first">Inversão térmica</h2>
+    <p class="sm"><b>O que é:</b> normalmente o ar esfria com a altitude e o ar quente sobe. Na inversão, uma camada de ar <b>quente</b> fica sobre o ar <b>frio</b> e o “tampa”. <b>Por que importa:</b> poluentes (carros, indústrias) ficam retidos perto do chão, com mais doenças respiratórias. <b>Quando:</b> inverno, noites frias e secas, em cidades em <b>vales</b> ou com muita emissão (ex.: São Paulo, Santiago).</p>
+    <div class="legend"><span class="k azul">fenômeno natural</span><span class="k vermelho">agravado pela poluição</span></div>
+  </div>
+</div>
+
+<div class="g2">
+  <div>{{ figure('ilha_calor', '', '') }}</div>
+  <div>
+    <h2 class="first">Ilha de calor × inversão térmica</h2>
+    <table class="cmp c1" style="font-size:6.7pt">
+      <tr><th></th><th>Ilha de calor</th><th>Inversão térmica</th></tr>
+      <tr><td>Natureza</td><td>Efeito do <b>uso do solo</b> urbano</td><td>Fenômeno <b>meteorológico</b></td></tr>
+      <tr><td>Efeito</td><td>Centro mais quente que o entorno rural</td><td>Poluição retida perto do solo</td></tr>
+      <tr><td>Causa</td><td>Asfalto e concreto (baixo albedo), pouca vegetação, calor antrópico</td><td>Camada de ar quente sobre ar frio</td></tr>
+      <tr><td>Solução</td><td>Arborização, telhados verdes, materiais claros</td><td>Reduzir emissões; transporte limpo</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Áreas de risco e deslizamentos</h2>
+    {{ chain([('Ocupação de encostas íngremes','roxo'),('Retirada da vegetação e cortes','verde'),('Chuva intensa','azul'),('Deslizamento','vermelho')], '', 'Tendência: o risco cresce com declive, chuva e ausência de drenagem.', 'sm') }}
+    <p class="sm">Estão ligadas à falta de moradia acessível (ver D3). <b>Prevenção:</b> mapeamento de risco (Cemaden/CPRM), drenagem, contenção, remoção planejada e <b>Defesa Civil</b> (Lei 12.608/2012).</p>
+  </div>
+  <div>
+    {% call box('enem') %}<span class="sm"><b>Enchente no centro e seca de rios:</b> asfaltamento + retificação de rios. <b>“Fumaça sobre a cidade no inverno”:</b> inversão. <b>Termômetros mais altos no centro que no campo:</b> ilha de calor. Soluções sustentáveis: <b>pavimento permeável, parques lineares e telhado verde</b>.</span>{% endcall %}
+    {% call box('erro') %}<span class="sm">A taxa de infiltração <b>cai de ≈ 50% para ≈ 15%</b> (valores de referência), não “zera”. <b>Enchente</b> (transbordamento do rio) ≠ <b>alagamento</b> (acúmulo de água por falta de drenagem).</span>{% endcall %}
+  </div>
+</div>
+<div class="q"><div class="qh">Questão · Clima urbano</div>
+  Em uma metrópole, a temperatura medida no centro verticalizado é consistentemente mais alta que na zona rural vizinha, e a diferença diminui perto de um grande parque. Esse padrão deve-se, principalmente,
+  <ol class="two"><li>à inversão térmica, que retém poluentes junto ao solo.</li><li>à ilha de calor: superfícies escuras e impermeáveis absorvem calor, e a vegetação ameniza a temperatura.</li><li>à maior altitude do centro urbano.</li><li>à ação direta das massas polares.</li><li>à evaporação intensa dos rios retificados.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: o contraste centro–periferia é o <b>efeito de ilha de calor</b> (asfalto, concreto, baixo albedo, pouca vegetação); o parque funciona como “ilha de frescor”. A inversão térmica concerne à estrutura vertical da atmosfera, não ao contraste horizontal.</p></div>
+{% endcall %}

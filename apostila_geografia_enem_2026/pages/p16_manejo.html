@@ -1,0 +1,31 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo C · Geografia Agrária', 'Fontes: Embrapa; Teixeira et al., Decifrando a Terra (2009); ONU/FAO (conservação do solo). ILPF e plantio direto = complementos independentes.') %}
+{{ title('C4', 'Solos agrícolas: calagem e manejo conservacionista') }}
+<p class="lead">Manejar bem o solo significa <b>corrigir</b> o que lhe falta (calagem, adubação) e <b>proteger</b> o que tem (cobertura, curvas de nível, rotação). Cada técnica responde a um problema específico: o ENEM cobra essa ligação.</p>
+
+{{ figure('manejo_solo', '', '') }}
+{{ figure('rotacao_culturas', '', '') }}
+
+<div class="g2">
+  {% call box('def', 'Calagem (química do solo)') %}<span class="xs">Solos tropicais do Cerrado são <b>ácidos</b> (muito Al³⁺ e H⁺, tóxicos). Aplica-se <b>calcário</b>: CaCO₃ + 2 H⁺ → Ca²⁺ + CO₂ + H₂O. Efeitos: <b>pH sobe</b>, o alumínio tóxico diminui, aumentam Ca e Mg e os fertilizantes rendem mais. Foi decisiva para a expansão agrícola no Cerrado.</span>{% endcall %}
+  {% call box('erro') %}<span class="xs"><b>Calagem ≠ adubação:</b> a calagem <i>corrige a acidez</i> e libera nutrientes já presentes; a adubação <i>adiciona</i> nutrientes (N, P, K). <b>Terraceamento</b> e <b>curvas de nível</b> combatem a <b>erosão</b>, não a acidez.</span>{% endcall %}
+</div>
+
+<table class="cmp">
+  <tr><th>Técnica</th><th>Como funciona</th><th>Problema que resolve</th></tr>
+  <tr><td>Rotação de culturas</td><td>Alterna espécies na mesma área (incluindo leguminosas)</td><td>Esgotamento de nutrientes, pragas e doenças; menos adubo N</td></tr>
+  <tr><td>Pousio</td><td>Deixa a terra “descansar” por um período</td><td>Recupera microbiota, matéria orgânica e fertilidade</td></tr>
+  <tr><td>Curvas de nível / terraceamento</td><td>Plantio em contorno ou degraus na encosta</td><td>Erosão pluvial e perda do horizonte A</td></tr>
+  <tr><td>Plantio direto <span class="cmp-tag">◆</span></td><td>Semeia sem revolver o solo, sobre palhada</td><td>Erosão, perda de umidade e de matéria orgânica</td></tr>
+  <tr><td>Matas ciliares e cobertura vegetal</td><td>Vegetação nas margens e entre cultivos</td><td>Assoreamento, contaminação de rios, eutrofização</td></tr>
+  <tr><td>ILPF (lavoura–pecuária–floresta) <span class="cmp-tag">◆</span></td><td>Integra cultivo, pasto e árvores na mesma área</td><td>Pastagens degradadas; emissões de carbono</td></tr>
+</table>
+<div class="g2">
+  {% call box('enem') %}<span class="xs"><b>Relacione técnica e problema:</b> erosão em encosta → curvas de nível/terraços; solo ácido → calagem; esgotamento por monocultura → rotação/pousio; escoamento de adubo → mata ciliar. Fotos de <b>degraus em encostas</b> (Andes, Sudeste Asiático) = terraceamento.</span>{% endcall %}
+  {% call box('conex') %}<span class="xs"><b>Biologia:</b> bactérias <i>Rhizobium</i> fixam N₂ em leguminosas (ciclo do nitrogênio). <b>Química:</b> neutralização ácido–base. <b>História:</b> os Incas dominaram o terraceamento nos Andes.</span>{% endcall %}
+</div>
+<div class="q"><div class="qh">Questão · Técnicas de conservação</div>
+  Em encostas íngremes, agricultores constroem patamares horizontais em degraus para plantar, técnica usada desde os Incas, nos Andes. O principal objetivo dessa prática é
+  <ol class="two"><li>corrigir a acidez do solo com calcário.</li><li>reduzir a velocidade do escoamento e a erosão da camada fértil.</li><li>aumentar a salinidade para reter nutrientes.</li><li>substituir a rotação de culturas.</li><li>ampliar o uso de agrotóxicos.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: o terraceamento “quebra” a declividade, retém a água e favorece a infiltração, reduzindo a erosão pluvial. A) descreve a calagem; as demais não se relacionam à técnica.</p></div>
+{% endcall %}

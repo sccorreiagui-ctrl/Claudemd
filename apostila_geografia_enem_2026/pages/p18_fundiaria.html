@@ -1,0 +1,55 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-terra', 'Módulo C · Geografia Agrária', 'Fontes: IBGE, Censo Agropecuário 2017; Constituição Federal de 1988 (arts. 184–191); Lei nº 601/1850; Lei nº 4.504/1964 (Estatuto da Terra); CPT, Conflitos no Campo Brasil; Stédile, J. P. (org.), A questão agrária no Brasil.') %}
+{{ title('C6', 'Estrutura fundiária, conflitos e reforma agrária') }}
+<p class="lead">A terra no Brasil nasceu <b>concentrada</b> e assim permaneceu. Para evitar confusões, a página separa <span class="k navy">dado</span>, <span class="k terra">mecanismo</span>, <span class="k roxo">interpretação acadêmica</span> e <span class="k vermelho">debate político</span>.</p>
+
+{{ chain([('Sesmarias (1530–1822)','terra'),('Lei de Terras (1850)','vermelho'),('Estatuto da Terra (1964)','laranja'),('MST (1984)','roxo'),('CF/1988: função social','verde'),('Eldorado dos Carajás (1996)','vermelho')], 'Linha do tempo', '') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Como a concentração se formou <span class="k terra">mecanismo</span></h2>
+    <ul class="sq sm">
+      <li><b>Sesmarias:</b> a Coroa doava grandes faixas a poucos fidalgos para produzir para exportação.</li>
+      <li><b>Lei de Terras (1850):</b> só se obtinha terra pública por <b>compra em dinheiro</b>. Ex-escravizados e imigrantes pobres ficaram sem acesso; o latifúndio se consolidou.</li>
+      <li><b>Grilagem:</b> apropriação de terra pública com documentos falsos. <b>Posse</b> × <b>propriedade</b> × <b>especulação</b>.</li>
+    </ul>
+  </div>
+  <div>
+    <div class="legend" style="margin-bottom:.8mm"><span class="k navy">dado</span></div>
+    {{ figure('agro_concentracao', '', '') }}
+  </div>
+</div>
+
+{{ figure('especulacao_fundiaria', '', '') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Função social e reforma agrária <span class="k vermelho">debate político</span></h2>
+    <ul class="sq sm">
+      <li><b>Função social (CF/1988):</b> uso adequado, preservação ambiental, respeito às leis trabalhistas e bem-estar de trabalhadores e proprietários.</li>
+      <li><b>Reforma agrária</b> é a <b>redistribuição</b> de terras com desapropriação, por interesse social, de imóveis que não cumprem a função social, com indenização; envolve assentamentos, crédito e assistência técnica.</li>
+      <li><b>Argumentos a favor:</b> mais renda no campo, alimento e <b>mercado interno</b>, menos migração para as periferias. <b>Objeções:</b> custo fiscal, sustentabilidade dos assentamentos e direito de propriedade. A bancada ruralista e os movimentos sociais divergem.</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="first">Experiências no mundo <span class="k roxo">interpretação</span></h2>
+    <p class="sm">A reforma agrária <b>não é exclusividade de um regime</b>: foi adotada em países capitalistas e socialistas.</p>
+    <ul class="sq sm">
+      <li>Roma Antiga (leis agrárias); França revolucionária (1789).</li>
+      <li>EUA: <i>Homestead Act</i> (1862), lotes no Oeste.</li>
+      <li>Japão, Coreia do Sul e Taiwan, após 1945.</li>
+      <li>URSS, China e Cuba (transformações socialistas).</li>
+    </ul>
+    <h3>Conflitos no campo</h3>
+    <p class="sm">Opõem <b>grileiros e fazendeiros</b> a <b>posseiros, indígenas, quilombolas e sem-terra</b> (MST, CPT). Há uso de jagunços e milícias; casos marcantes: <b>Eldorado dos Carajás (PA, 1996)</b> e o assassinato de <b>Chico Mendes</b> (AC, 1988).</p>
+  </div>
+</div>
+<div class="g2">
+  {% call box('enem') %}<span class="sm"><b>Lei de Terras</b> = terra como <b>mercadoria</b>, acesso só por compra; efeito: <b>exclusão</b> e concentração. <b>Especulação</b>: terra ociosa que se valoriza com obra pública. Gráficos de <b>área × estabelecimentos</b> mostram desigualdade.</span>{% endcall %}
+  {% call box('erro') %}<span class="sm"><b>Posse ≠ propriedade ≠ grilagem.</b> Latifúndio nem sempre é improdutivo, e <b>reforma agrária</b> não é “invasão”: é política pública prevista na Constituição (ocupações são ação de movimentos, situadas no debate político).</span>{% endcall %}
+</div>
+<div class="q"><div class="qh">Questão · Especulação fundiária</div>
+  Um proprietário adquire grande área isolada e a mantém sem uso. Anos depois, estrada, energia elétrica e escolas, financiadas pelo poder público, chegam à região e o preço da terra se multiplica. Esse processo ilustra
+  <ol class="two"><li>a função social da propriedade, pois a terra se valorizou.</li><li>a especulação fundiária: a valorização decorre de investimento público, não da produção do proprietário.</li><li>a reforma agrária, pela redistribuição da terra.</li><li>a agricultura de subsistência, pelo uso intensivo do solo.</li><li>a arenização, pela perda de cobertura vegetal.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: terra ociosa que se valoriza por obras públicas é o mecanismo clássico da <b>especulação fundiária</b>; a função social exige uso adequado, não apenas valorização.</p></div>
+{% endcall %}

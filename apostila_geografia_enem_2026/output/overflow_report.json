@@ -70,6 +70,156 @@
      "v": 1.6
     }
    ]
+  },
+  {
+   "page": 8,
+   "id": "p08",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 0.7
+    }
+   ]
+  },
+  {
+   "page": 9,
+   "id": "p09",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 1.5
+    }
+   ]
+  },
+  {
+   "page": 10,
+   "id": "p10",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 8.4
+    }
+   ]
+  },
+  {
+   "page": 11,
+   "id": "p11",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 13.4
+    }
+   ]
+  },
+  {
+   "page": 12,
+   "id": "p12",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 15.1
+    }
+   ]
+  },
+  {
+   "page": 13,
+   "id": "p13",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 15.6
+    }
+   ]
+  },
+  {
+   "page": 14,
+   "id": "p14",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 28.1
+    }
+   ]
+  },
+  {
+   "page": 15,
+   "id": "p15",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 0.5
+    }
+   ]
+  },
+  {
+   "page": 16,
+   "id": "p16",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 27.2
+    }
+   ]
+  },
+  {
+   "page": 17,
+   "id": "p17",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 9.8
+    }
+   ]
+  },
+  {
+   "page": 18,
+   "id": "p18",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 12.3
+    }
+   ]
+  },
+  {
+   "page": 19,
+   "id": "p19",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 15.8
+    }
+   ]
+  },
+  {
+   "page": 20,
+   "id": "p20",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 32.9
+    }
+   ]
+  },
+  {
+   "page": 21,
+   "id": "p21",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 32.3
+    }
+   ]
+  },
+  {
+   "page": 22,
+   "id": "p22",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 26.4
+    }
+   ]
   }
  ]
 }
