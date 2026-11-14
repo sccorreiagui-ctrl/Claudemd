@@ -1,0 +1,88 @@
+<section class="page m-met" data-origin="m">
+<!--HF-->
+<div class="pb">
+ <div class="ttl"><span class="tag">C2 · Metabolismo</span><div class="tt"><h1>Respiração celular e fermentação</h1><div class="sub">Da glicose ao ATP: onde ocorre, o que entra, o que sai</div></div></div>
+ <div class="chain">Glicose <i>→</i> glicólise <i>→</i> acetil-CoA <i>→</i> ciclo de Krebs <i>→</i> cadeia respiratória <i>→</i> ATP (+ CO<sub>2</sub> e H<sub>2</sub>O) &nbsp;|&nbsp; sem O<sub>2</sub>: fermentação</div>
+
+ <div class="fig"><div class="ft">Mapa das etapas da respiração aeróbica</div>
+ <svg viewBox="0 0 690 262">
+  <rect x="0" y="10" width="206" height="226" rx="10" class="l-az"/><text x="10" y="26" class="t9 xb tx-az">CITOSOL (hialoplasma)</text>
+  <rect x="222" y="10" width="468" height="226" rx="46" class="l-la s-la sw2"/><rect x="236" y="26" width="440" height="198" rx="38" class="nf s-la sw1 dsh"/><text x="456" y="24" class="t9 c xb tx-la">MITOCÔNDRIA</text>
+  <!-- 1 -->
+  <rect x="12" y="44" width="182" height="120" rx="8" class="f-w s-az sw12"/>
+  <text x="22" y="60" class="t10 xb tx-az">1 · GLICÓLISE</text>
+  <text x="22" y="76" class="t9">glicose (C₆) → 2 piruvato (C₃)</text><text x="22" y="90" class="t9">gasta 2 ATP, produz 4 ATP:</text><text x="22" y="102" class="t9 b tx-la">saldo = +2 ATP</text><text x="22" y="116" class="t9">2 NAD⁺ → 2 NADH</text><text x="22" y="132" class="t8 g">não precisa de O₂ (anaeróbia)</text><text x="22" y="144" class="t8 g">fosforilações iniciais “ativam” a glicose</text><text x="22" y="156" class="t8 g">(a enzima é que reduz a Ea)</text>
+  <!-- 2 -->
+  <rect x="244" y="44" width="112" height="120" rx="8" class="f-w s-la sw12"/>
+  <text x="252" y="60" class="t9 xb tx-la">2 · ACETIL-CoA</text><text x="252" y="73" class="t8 g">matriz</text>
+  <text x="252" y="90" class="t9">piruvato (C₃)</text><text x="252" y="102" class="t9">→ acetil-CoA (C₂)</text><text x="252" y="116" class="t9 b">+ CO₂</text><text x="252" y="128" class="t9">+ NADH</text><text x="252" y="148" class="t8 g">(2 vezes por glicose)</text>
+  <!-- 3 -->
+  <rect x="366" y="44" width="150" height="120" rx="8" class="f-w s-la sw12"/>
+  <text x="374" y="60" class="t9 xb tx-la">3 · CICLO DE KREBS</text><text x="374" y="73" class="t8 g">matriz</text>
+  <text x="374" y="90" class="t9">acetil (C₂) + oxalacetato (C₄)</text><text x="374" y="102" class="t9">→ citrato (C₆) → … → C₄</text><text x="374" y="118" class="t9 b">por glicose: 4 CO₂,</text><text x="374" y="130" class="t9 b">6 NADH, 2 FADH₂,</text><text x="374" y="142" class="t9 b">2 ATP (ou GTP)</text>
+  <circle cx="518" cy="104" r="0"/>
+  <!-- 4 -->
+  <rect x="526" y="44" width="152" height="150" rx="8" class="f-w s-la sw12"/>
+  <text x="534" y="60" class="t9 xb tx-la">4 · CADEIA RESPIRATÓRIA</text><text x="534" y="73" class="t8 g">cristas (membrana interna)</text>
+  <text x="534" y="90" class="t9">NADH e FADH₂ doam e⁻</text><text x="534" y="102" class="t9">bombeiam H⁺ → gradiente</text><text x="534" y="114" class="t9">ATP sintase: ADP → ATP</text><text x="534" y="128" class="t9 b">O₂ + e⁻ + H⁺ → H₂O</text><text x="534" y="146" class="t9 b tx-la">≈ 26–28 ATP</text><text x="534" y="160" class="t8 g">sem O₂ a cadeia para e</text><text x="534" y="171" class="t8 g">falta NAD⁺ para a glicólise</text>
+  <!-- setas -->
+  <g class="nf s-la sw3 rc"><path d="M196 104 H240" marker-end="url(#ar-la)"/><path d="M358 104 H362" marker-end="url(#ar-la)"/><path d="M518 104 H522" marker-end="url(#ar-la)"/></g>
+  <text x="214" y="96" class="t8 c b tx-az">piruvato</text>
+  <g class="nf s-ro sw2 dsh"><path d="M104 164 C104 214 520 214 600 196" marker-end="url(#ar-la)" class="s-la"/><path d="M300 164 C300 204 420 206 560 198" class="s-la" marker-end="url(#ar-la)"/><path d="M440 164 C440 190 520 196 570 198" class="s-la" marker-end="url(#ar-la)"/></g>
+  <text x="330" y="228" class="t8 c b tx-la">NADH e FADH₂ levam elétrons à cadeia</text>
+  <!-- CO2 e O2 -->
+  <g class="nf s-vm sw2"><path d="M300 44 V8" marker-end="url(#ar-vm)"/><path d="M440 44 V8" marker-end="url(#ar-vm)"/></g><text x="306" y="8" class="t8 b tx-vm">CO₂</text><text x="446" y="8" class="t8 b tx-vm">CO₂</text>
+  <path d="M600 4 V42" class="nf s-az sw2" marker-end="url(#ar-az)"/><text x="606" y="12" class="t8 b tx-az">O₂</text><path d="M650 196 V240" class="nf s-az sw2" marker-end="url(#ar-az)"/><text x="640" y="250" class="t8 b tx-az">H₂O</text>
+  <text x="0" y="256" class="t10 b tx-la">C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + ≈ 30–32 ATP por glicose (livros antigos: 36–38)</text>
+ </svg>
+ <div class="cap">A energia que estava nas ligações da glicose (formada na fotossíntese) é transferida por etapas a coenzimas (NAD⁺, FAD) e, ao final, ao ATP. O CO<sub>2</sub> sai nas etapas 2 e 3; a água é formada na etapa 4.</div></div>
+
+ <div class="fig"><div class="ft">Fermentações: reoxidar o NADH sem oxigênio</div>
+ <svg viewBox="0 0 690 134">
+  <g>
+   <text x="0" y="12" class="t10 xb tx-la">LÁTICA</text>
+   <rect x="0" y="22" width="76" height="30" rx="6" class="l-sl s-sl sw12"/><text x="38" y="41" class="t9 c b">glicose</text>
+   <rect x="100" y="22" width="86" height="30" rx="6" class="l-az s-az sw12"/><text x="143" y="41" class="t9 c b">2 piruvato</text>
+   <rect x="214" y="22" width="110" height="30" rx="6" class="l-la s-la sw12"/><text x="269" y="41" class="t9 c b">2 lactato</text>
+   <g class="nf s-k sw15"><path d="M78 37 H98" marker-end="url(#ar-k)"/><path d="M188 37 H212" marker-end="url(#ar-k)"/></g>
+   <text x="88" y="66" class="t8 c b tx-la">glicólise: +2 ATP</text><text x="200" y="66" class="t8 c g">+ NADH</text>
+   <path d="M269 54 C269 90 143 90 143 56" class="nf s-ve sw2 dsh" marker-end="url(#ar-ve)"/><text x="206" y="94" class="t8 c b tx-ve">NAD⁺ regenerado → glicólise continua</text>
+   <text x="0" y="112" class="t8 g">sem liberação de CO₂ · saldo: 2 ATP por glicose</text><text x="0" y="126" class="t8 b">Quem faz: fibras musculares (esforço intenso), Lactobacillus (iogurte)</text>
+  </g>
+  <g transform="translate(350 0)">
+   <text x="0" y="12" class="t10 xb tx-ve">ALCOÓLICA</text>
+   <rect x="0" y="22" width="60" height="30" rx="6" class="l-sl s-sl sw12"/><text x="30" y="41" class="t9 c b">glicose</text>
+   <rect x="76" y="22" width="76" height="30" rx="6" class="l-az s-az sw12"/><text x="114" y="41" class="t9 c b">2 piruvato</text>
+   <rect x="170" y="22" width="86" height="30" rx="6" class="l-la s-la sw12"/><text x="213" y="41" class="t9 c b">2 acetaldeído</text>
+   <rect x="274" y="22" width="66" height="30" rx="6" class="l-ve s-ve sw12"/><text x="307" y="41" class="t9 c b">2 etanol</text>
+   <g class="nf s-k sw15"><path d="M62 37 H74" marker-end="url(#ar-k)"/><path d="M154 37 H168" marker-end="url(#ar-k)"/><path d="M258 37 H272" marker-end="url(#ar-k)"/></g>
+   <path d="M213 22 V4" class="nf s-vm sw2" style="display:none"/><text x="213" y="66" class="t8 c b tx-vm">+ 2 CO₂ ↑</text><text x="307" y="66" class="t8 c g">+ NADH</text>
+   <path d="M307 54 C307 90 114 90 114 56" class="nf s-ve sw2 dsh" marker-end="url(#ar-ve)"/><text x="206" y="94" class="t8 c b tx-ve">NAD⁺ regenerado</text>
+   <text x="0" y="112" class="t8 g">saldo: 2 ATP · CO₂ expande a massa; o etanol evapora no forno</text><text x="0" y="126" class="t8 b">Quem faz: leveduras (pão, cerveja, vinho, etanol combustível)</text>
+  </g>
+ </svg>
+ <div class="cap">Em ambas, o piruvato (ou derivado) recebe os elétrons do NADH, regenerando NAD<sup>+</sup>: sem isso, a glicólise pararia. A fermentação extrai muito menos energia que a respiração.</div></div>
+
+ <div class="bx" style="padding:2.2mm 2mm 1.6mm"><span class="lb" style="background:var(--la-d)">Contabilidade de energia por glicose</span>
+ <table class="tb" style="font-size:7.2pt;margin-top:1mm"><thead><tr><th class="la">Etapa</th><th class="la">ATP direto</th><th class="la">NADH</th><th class="la">FADH₂</th><th class="la">CO₂</th></tr></thead><tbody>
+  <tr><td>Glicólise</td><td>+2 (líquido)</td><td>2</td><td>0</td><td>0</td></tr>
+  <tr><td>Piruvato → acetil-CoA</td><td>0</td><td>2</td><td>0</td><td>2</td></tr>
+  <tr><td>Ciclo de Krebs</td><td>+2</td><td>6</td><td>2</td><td>4</td></tr>
+  <tr><td>Total</td><td><b>4</b></td><td><b>10</b></td><td><b>2</b></td><td><b>6</b></td></tr>
+ </tbody></table>
+ <p class="sm" style="margin:1mm 0 0">Cada NADH rende ≈ 2,5 ATP e cada FADH<sub>2</sub> ≈ 1,5 ATP na cadeia: 10 × 2,5 + 2 × 1,5 = 28; 28 + 4 = <b>≈ 32 ATP</b> (≈ 30 se contado o custo de transporte). Os 36–38 de livros antigos usavam rendimentos maiores.</p></div>
+
+ <div class="g2">
+  <div class="bx" style="padding:2.2mm 2mm 1.6mm"><span class="lb" style="background:var(--la-d)">Respiração × fermentação</span>
+  <table class="tb" style="font-size:7pt;margin-top:1mm"><thead><tr><th class="la"></th><th class="la">Aeróbica</th><th class="la">Fermentação</th></tr></thead><tbody>
+   <tr><td>Aceptor final de e⁻</td><td>O₂</td><td>composto orgânico</td></tr>
+   <tr><td>Onde</td><td>citosol + mitocôndria</td><td>só citosol</td></tr>
+   <tr><td>ATP por glicose</td><td>≈ 30–32</td><td>2</td></tr>
+   <tr><td>Produtos</td><td>CO₂ + H₂O</td><td>lactato ou etanol + CO₂</td></tr>
+  </tbody></table></div>
+  <div class="col">
+   <div class="bx en"><span class="lb">ENEM na prática</span><div class="q xs">Por que a massa de pão cresce e, depois de assada, não tem gosto de álcool?<span class="ans">Leveduras fermentam o açúcar: o <b>CO₂</b> forma bolhas que expandem a massa; o <b>etanol</b> evapora com o calor do forno.</span></div></div>
+   <div class="bx er"><span class="lb">Erro comum</span><p class="xs">“A dor muscular tardia é ácido lático acumulado.” O lactato é removido em cerca de uma hora; a dor tardia vem de microlesões. Fibras sem O₂ suficiente usam fermentação lática, mas ela não é “o veneno”.</p></div>
+  </div>
+ </div>
+</div></section>

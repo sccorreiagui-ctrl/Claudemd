@@ -1,0 +1,61 @@
+<section class="page m-eco" data-origin="m">
+<!--HF-->
+<div class="pb">
+ <div class="ttl"><span class="tag">A5 · Ecologia</span><div class="tt"><h1>Eutrofização e poluição térmica</h1><div class="sub">Quando o excesso de nutrientes (ou de calor) derruba o oxigênio dissolvido</div></div></div>
+
+ <div class="fig"><div class="ft">Processo completo da eutrofização artificial (cultural)</div>
+  {{svg:lagos}}
+  <div class="cap">O<sub>2</sub> dissolvido (barra azul) cai porque a decomposição aeróbia da grande massa de matéria orgânica consome mais O<sub>2</sub> do que a fotossíntese repõe — sobretudo no fundo e à noite.</div></div>
+
+ <style>
+  .steps{display:flex;gap:1.6mm;align-items:stretch}
+  .st{flex:1;position:relative;background:#fff;border:.4pt solid var(--line);border-top:1.4mm solid var(--c,var(--ve));border-radius:1.8mm;padding:1.6mm 1.8mm;font-size:7.3pt;line-height:1.28}
+  .st b.n{display:inline-block;background:var(--c,var(--ve));color:#fff;border-radius:50%;width:4.2mm;height:4.2mm;line-height:4.2mm;text-align:center;font-size:6.8pt;margin-right:1mm}
+  .st:not(:last-child)::after{content:"▶";position:absolute;right:-2.4mm;top:50%;transform:translateY(-50%);font-size:6pt;color:var(--sl);z-index:2;background:#fff;line-height:1}
+ </style>
+ <div class="steps">
+  <div class="st" style="--c:var(--la)"><b class="n">1</b><b>Excesso de nutrientes</b> (N e P): esgoto doméstico, fertilizantes, efluentes.</div>
+  <div class="st" style="--c:var(--ve)"><b class="n">2</b><b>Proliferação</b> de algas e cianobactérias (fotossíntese) na superfície.</div>
+  <div class="st" style="--c:var(--mr)"><b class="n">3</b>Menos luz no fundo; plantas e algas morrem: <b>↑ matéria orgânica</b>.</div>
+  <div class="st" style="--c:var(--vm)"><b class="n">4</b><b>Decomposição aeróbia</b>: bactérias consomem O<sub>2</sub>.</div>
+  <div class="st" style="--c:var(--az)"><b class="n">5</b><b>↓ O<sub>2</sub> dissolvido</b> (hipóxia/anoxia).</div>
+  <div class="st" style="--c:var(--vm-d)"><b class="n">6</b><b>Risco de mortandade</b> de peixes e outros aeróbios; gases (H<sub>2</sub>S, CH<sub>4</sub>) no fundo.</div>
+ </div>
+
+ <div class="fig"><div class="ft">Estado trófico de um corpo d’água</div>
+  <div style="display:flex;gap:1.4mm;font-size:7.3pt;line-height:1.25">
+   <div style="flex:1;background:#d8ecfb;border-radius:1.6mm;padding:1.4mm 2mm"><b>Oligotrófico</b><br>águas claras, poucos nutrientes, O<sub>2</sub> alto, baixa produtividade</div>
+   <div style="flex:1;background:#d6efe3;border-radius:1.6mm;padding:1.4mm 2mm"><b>Mesotrófico</b><br>produtividade e nutrientes intermediários</div>
+   <div style="flex:1;background:#bfe3c2;border-radius:1.6mm;padding:1.4mm 2mm"><b>Eutrófico</b><br>muitos nutrientes, florações de algas, transparência baixa</div>
+   <div style="flex:1;background:#8fcf9a;border-radius:1.6mm;padding:1.4mm 2mm"><b>Hipereutrófico</b><br>florações densas, anoxia frequente, risco de mortandade</div>
+  </div>
+  <div class="cap">Eutrofização <b>natural</b> é lenta (séculos); a <b>cultural</b> (esgoto, fertilizantes) acelera o processo em anos ou décadas.</div></div>
+
+ <div class="g2">
+  <div class="fig"><div class="ft">Poluição térmica: calor também “tira” o oxigênio</div>
+  <svg viewBox="0 0 335 226">
+   <line x1="40" y1="14" x2="40" y2="170" class="nf s-k sw12" marker-end="url(#ar-k)"/><line x1="40" y1="170" x2="326" y2="170" class="nf s-k sw12" marker-end="url(#ar-k)"/>
+   <text x="2" y="8" class="t8 g">O₂ dissolvido (mg/L)</text><text x="326" y="196" class="t8 g e">temperatura da água (°C)</text>
+   <g class="t8 g"><text x="40" y="182" class="c">0</text><text x="110" y="182" class="c">10</text><text x="180" y="182" class="c">20</text><text x="250" y="182" class="c">30</text><text x="320" y="182" class="c">40</text><text x="34" y="36" class="e">14</text><text x="34" y="100" class="e">8</text><text x="34" y="150" class="e">3</text></g>
+   <path d="M40 33 C75 48 95 58 110 64 C145 74 165 80 180 85 C215 93 235 96 250 99 C285 105 305 108 320 110" class="nf s-az sw3 rc"/>
+   <text x="112" y="56" class="t9 b tx-az">solubilidade do O₂ (cai com a T)</text>
+   <path d="M40 150 C120 142 200 110 320 34" class="nf s-la sw2 dsh rc"/>
+   <text x="196" y="52" class="t9 b tx-la" style="display:none"></text><text x="238" y="130" class="t8 b tx-la">demanda de O₂ dos</text><text x="238" y="140" class="t8 b tx-la">peixes (esquemático)</text>
+   <line x1="180" y1="86" x2="180" y2="170" class="nf s-g sw1 dt"/><line x1="285" y1="107" x2="285" y2="170" class="nf s-g sw1 dt"/>
+   <text x="150" y="210" class="t8 c b">ambiente ≈ 20 °C</text><text x="150" y="220" class="t8 c g">≈ 9 mg/L</text>
+   <text x="268" y="210" class="t8 c b tx-vm">efluente ≈ 35 °C</text><text x="268" y="220" class="t8 c g">≈ 7 mg/L</text>
+  </svg>
+  <div class="cap">Valores aproximados para água doce ao nível do mar. Em ectotérmicos, aquecer eleva o metabolismo: <b>oferta ↓ e demanda ↑</b> de O<sub>2</sub>.</div></div>
+  <div class="col">
+   <div class="bx cn"><span class="lb">Poluição térmica</span><p>Água de resfriamento (usinas, indústrias) lançada mais quente → ↓ solubilidade dos gases; ↑ metabolismo de peixes e microrganismos; perda de espécies sensíveis; favorece cianobactérias.</p></div>
+   <div class="bx pq"><span class="lb">Por que acontece?</span><p class="sm">N e P são nutrientes <b>limitantes</b>: ao ficarem abundantes, liberam o crescimento de produtores. O que mata não é a alga em si, e sim o saldo de O<sub>2</sub> (e, às vezes, toxinas de cianobactérias).</p></div>
+   <div class="bx cx"><span class="lb">Prevenção</span><p class="sm">Tratamento de esgoto com remoção de N e P, mata ciliar, uso racional de fertilizantes, detergentes sem fosfato, zonas úmidas construídas. Em geral o fósforo limita águas doces; o nitrogênio, costas marinhas (varia).</p></div>
+  </div>
+ </div>
+
+ <div class="g2">
+  <div class="bx en"><span class="lb">ENEM na prática</span><div class="q sm">Após o lançamento contínuo de esgoto em um lago, houve um pico de algas e, semanas depois, mortandade de peixes. Por que a mortandade <b>não coincidiu</b> com o pico de algas?
+   <span class="ans">As algas, vivas, fazem fotossíntese e liberam O<sub>2</sub>. A queda do oxigênio vem <b>depois</b>, quando elas morrem e a decomposição aeróbia (consumo de O<sub>2</sub>) é intensa: há defasagem entre a causa (nutrientes) e o efeito (anoxia).</span></div></div>
+  <div class="bx er"><span class="lb">Erro comum</span><p>“Algas produzem O<sub>2</sub>, então a eutrofização aumenta o oxigênio.” Só <b>durante o dia, na superfície</b>. No balanço (respiração noturna + decomposição + luz bloqueada no fundo) o O<sub>2</sub> <b>cai</b>.</p><p class="sm">Cuidado com “sempre”: nem todo excesso de nutrientes causa mortandade; depende de clima, profundidade e renovação da água.</p></div>
+ </div>
+</div></section>
