@@ -15,7 +15,7 @@ def dots(pts,cls,r=3.2,txt=None):
     o=''
     for (x,y) in pts:
         o+=f'<circle cx="{x}" cy="{y}" r="{r}" class="{cls}"/>'
-        if txt: o+=f'<text x="{x}" y="{y+2.6}" class="t6 c b w">{txt}</text>'
+        if txt: o+=f'<text x="{x}" y="{y+2.6}" class="t7 c b w">{txt}</text>'
     return o
 def sq(pts,cls,s=6):
     return ''.join(f'<rect x="{x-s/2}" y="{y-s/2}" width="{s}" height="{s}" rx="1.2" class="{cls}"/>' for x,y in pts)
@@ -33,7 +33,7 @@ out=''
 b=band(6,PW-6,flat)
 b+=dots([(18,40),(34,58),(52,44),(70,60),(88,40),(104,56),(120,44),(44,72),(96,74)],'f-la',3.4)+dots([(30,128),(100,142)],'f-la',3.4)
 b+='<path d="M64 62 V132" class="nf s-la sw2 dsh" marker-end="url(#ar-la)"/>'
-b+='<text x="8" y="36" class="t7 g">fora: + conc.</text><text x="8" y="154" class="t7 g">dentro: − conc.</text>'
+b+='<text x="8" y="36" class="t8 g">fora: + conc.</text><text x="8" y="154" class="t8 g">dentro: − conc.</text>'
 out+=panel(0,'Difusão simples','sem proteína',b,'a favor do gradiente','O₂, CO₂, lipossolúveis','sem gasto de ATP')
 # 2 facilitada
 gaps=[(40,68)]
@@ -41,7 +41,7 @@ b=band(6,PW-6,flat,gaps)
 b+='<path d="M40 76 H52 V108 H40 Q36 108 36 104 V80 Q36 76 40 76Z" fill="#dfe5ef" stroke="#475a73" stroke-width="1.4"/><path d="M78 76 H66 V108 H78 Q82 108 82 104 V80 Q82 76 78 76Z" fill="#dfe5ef" stroke="#475a73" stroke-width="1.4"/><rect x="52" y="76" width="14" height="32" class="l-az"/>'
 b+=sq([(16,42),(36,56),(52,40),(78,50),(100,42),(116,60),(24,70),(92,68),(60,60)],'f-ve',6)+sq([(34,134),(96,140)],'f-ve',6)
 b+='<path d="M59 66 V132" class="nf s-ve sw2 dsh" marker-end="url(#ar-ve)"/>'
-b+='<text x="100" y="104" class="t7 b" style="fill:#2c3b50">canal</text>'
+b+='<text x="100" y="104" class="t8 b" style="fill:#2c3b50">canal</text>'
 out+=panel(1,'Difusão facilitada','canal ou carreadora',b,'a favor do gradiente','glicose, íons (hidrofílicos)','sem gasto de ATP')
 # 3 osmose
 b=band(6,PW-6,flat,[(52,66)])
@@ -49,28 +49,28 @@ b+='<path d="M52 78 H64 V106 H52 Q48 106 48 102 V82 Q48 78 52 78Z" fill="#dfe5ef
 b+=dots([(16,44),(34,60),(100,48),(118,64),(78,40),(22,72),(112,36)],'f-az',2.6)+sq([(54,50),(90,66)],'f-la',5)
 b+=dots([(16,124),(34,140),(100,128),(118,144),(78,122),(22,152),(112,150)],'f-az',2.6)+sq([(24,112),(44,128),(62,118),(80,140),(98,112),(108,136),(54,148),(84,152),(14,138),(122,122)],'f-la',5)
 b+='<path d="M58 66 V126" class="nf s-az sw3" marker-end="url(#ar-az)"/>'
-b+='<text x="8" y="36" class="t7 b tx-az">hipotônico</text><text x="8" y="152" class="t7 b tx-la" style="display:none"></text>'
-b+='<text x="PWX" y="118" class="t7 b tx-la" style="display:none"></text>'
+b+='<text x="8" y="36" class="t8 b tx-az">hipotônico</text><text x="8" y="152" class="t8 b tx-la" style="display:none"></text>'
+b+='<text x="PWX" y="118" class="t8 b tx-la" style="display:none"></text>'
 out+=panel(2,'Osmose','só a água (solvente)',b.replace('PWX','0'),'do menos para o mais soluto','(hipo → hipertônico)','solutos não atravessam')
 # 4 transporte ativo
 b=band(6,PW-6,flat,[(46,86)])
 b+='<path d="M46 74 H86 Q92 74 92 80 V104 Q92 110 86 110 H46 Q40 110 40 104 V80 Q40 74 46 74Z" fill="#dfe5ef" stroke="#475a73" stroke-width="1.4"/>'
-b+='<path d="M52 74 Q66 94 80 74" fill="#c3d0e6" stroke="#475a73" stroke-width="1"/><text x="66" y="102" class="t7 c b" style="fill:#2c3b50">bomba</text>'
+b+='<path d="M52 74 Q66 94 80 74" fill="#c3d0e6" stroke="#475a73" stroke-width="1"/><text x="66" y="102" class="t8 c b" style="fill:#2c3b50">bomba</text>'
 b+=dots([(14,42),(30,56),(104,40),(120,58),(18,70),(116,72)],'f-ro',5,'Na')+dots([(100,134),(118,146)],'f-rs',5,'K')
 b+=dots([(20,130),(36,144),(14,148)],'f-ro',5,'Na')+dots([(34,150)],'f-rs',5,'K')
-b+='<circle cx="106" cy="118" r="10" class="f-la"/><text x="106" y="121" class="t6 c b w">ATP</text>'
+b+='<circle cx="106" cy="118" r="10" class="f-la"/><text x="106" y="121" class="t7 c b w">ATP</text>'
 b+='<path d="M52 128 V92" class="nf s-ro sw2" marker-end="url(#ar-ro)"/><path d="M80 64 V128" class="nf s-rs sw2" marker-end="url(#ar-rs)"/>'
-b+='<text x="48" y="142" class="t6 b tx-ro">3 Na⁺ ↑</text><text x="84" y="60" class="t6 b tx-rs">2 K⁺ ↓</text>'
+b+='<text x="48" y="142" class="t7 b tx-ro">3 Na⁺ ↑</text><text x="84" y="60" class="t7 b tx-rs">2 K⁺ ↓</text>'
 out+=panel(3,'Transporte ativo','bomba Na⁺/K⁺ (ATPase)',b,'contra o gradiente','gasta ATP','mantém potencial de membrana')
 # 5 endo/exocitose
 def ypocket(x):
     return 92+22*math.exp(-((x-34)/12)**2)
 b=band(6,PW-6,ypocket,[])
 b+='<circle cx="34" cy="92" r="6" class="f-vm" style="display:none"/><circle cx="34" cy="74" r="7" class="f-vm"/><path d="M34 52 V66" class="nf s-vm sw2" marker-end="url(#ar-vm)"/>'
-b+='<circle cx="34" cy="144" r="13" fill="#fff" stroke="#1f78c8" stroke-width="3"/><circle cx="34" cy="144" r="6" class="f-vm"/><text x="34" y="164" class="t7 c b tx-az" style="display:none"></text>'
+b+='<circle cx="34" cy="144" r="13" fill="#fff" stroke="#1f78c8" stroke-width="3"/><circle cx="34" cy="144" r="6" class="f-vm"/><text x="34" y="164" class="t8 c b tx-az" style="display:none"></text>'
 b+='<circle cx="100" cy="132" r="13" fill="#fff" stroke="#1f78c8" stroke-width="3"/><g class="f-rs"><circle cx="97" cy="130" r="2.6"/><circle cx="104" cy="134" r="2.6"/><circle cx="99" cy="137" r="2.2"/></g>'
 b+='<g class="f-rs"><circle cx="100" cy="68" r="2.4"/><circle cx="110" cy="62" r="2.4"/><circle cx="106" cy="76" r="2.4"/></g><path d="M100 108 V84" class="nf s-rs sw15" marker-end="url(#ar-rs)"/>'
-b+='<text x="34" y="38" class="t7 c b tx-vm">endocitose</text><text x="100" y="44" class="t7 c b tx-rs">exocitose</text>'
+b+='<text x="34" y="38" class="t8 c b tx-vm">endocitose</text><text x="100" y="44" class="t8 c b tx-rs">exocitose</text>'
 out+=panel(4,'Endo/exocitose','vesículas (fagocitose, pinocitose)',b,'partículas e macromoléculas','ex.: macrófago; secreção de insulina','gasta ATP')
 Wt=5*PW+4*PG
 open('src/svg/transporte.svg','w').write(f'<svg viewBox="0 0 {Wt} {PH}">{out}</svg>')
@@ -145,7 +145,7 @@ for i in range(3):
         out+=f'<rect x="{cx-w/2}" y="{cy-h/2}" width="{w}" height="{h}" rx="6" fill="#d8ecfb" stroke="#13663a" stroke-width="5"/>'
         out+=f'<rect x="{cx-w/2+16}" y="{cy-h/2+14}" width="{w-32}" height="{h-28}" rx="10" fill="#e8f5ec" stroke="#1f78c8" stroke-width="1.6"/><rect x="{cx-w/2+30}" y="{cy-h/2+26}" width="{w-60}" height="{h-52}" rx="6" class="l-az s-az sw1"/>'
         out+=f'<text x="{cx}" y="{cy+h/2+18}" class="t9 c b tx-vm">plasmólise (membrana se solta)</text>'
-    out+=f'<text x="{cx}" y="{cy-h/2-8}" class="t7 c g" style="display:none"></text>'
+    out+=f'<text x="{cx}" y="{cy-h/2-8}" class="t8 c g" style="display:none"></text>'
 # legenda
 out+='<g transform="translate(0 366)"><rect x="0" y="0" width="12" height="12" rx="2" class="l-az s-az sw1"/><text x="18" y="10" class="t8">meio aquoso / vacúolo</text><rect x="130" y="3" width="5" height="5" rx="1" class="f-la"/><text x="142" y="10" class="t8">soluto</text><line x1="190" y1="6" x2="214" y2="6" class="nf s-az sw2" marker-end="url(#ar-az)"/><text x="220" y="10" class="t8">fluxo de água</text><rect x="320" y="0" width="14" height="12" rx="2" fill="#e8f5ec" stroke="#13663a" stroke-width="3"/><text x="342" y="10" class="t8">parede de celulose (célula vegetal)</text></g>'
 out+='<text x="8" y="219" class="t9 xb tx-sl" style="display:none"></text>'
