@@ -161,19 +161,33 @@ def parse_page(path):
 QNUM = {}
 
 
+ANS = {}
+
+
 def assign_questions(metas):
-    """Numera {{q:chave}} na ordem das páginas/aparição."""
+    """Numera {{q:chave}} na ordem das páginas/aparição e lê o gabarito (data-ok="1") das alternativas."""
     k = 0
     for m in metas:
-        for mm in re.finditer(r"\{\{q:(\w+)\}\}", m["raw"]):
-            if mm.group(1) not in QNUM:
-                k += 1
-                QNUM[mm.group(1)] = k
+        raw = m["raw"]
+        for mm in re.finditer(r"\{\{q:(\w+)\}\}", raw):
+            key = mm.group(1)
+            if key in QNUM:
+                continue
+            k += 1
+            QNUM[key] = k
+            a = raw.find('<div class="alts', mm.end())
+            b = raw.find("</div>", a) if a >= 0 else -1
+            ok = re.findall(r'<span data-ok="1"><b>([A-E])</b>', raw[a:b]) if a >= 0 else []
+            if len(ok) != 1:
+                print(f"AVISO: questão '{key}' sem exatamente 1 alternativa marcada (data-ok): {ok}")
+            else:
+                ANS[key] = ok[0]
 
 
 def apply_macros(text, pages_idx):
     text = re.sub(r"\{\{q:(\w+)\}\}", lambda m: str(QNUM[m.group(1)]), text)
     text = re.sub(r"\{\{qn:(\w+)\}\}", lambda m: str(QNUM.get(m.group(1), "?")), text)
+    text = re.sub(r"\{\{ans:(\w+)\}\}", lambda m: ANS.get(m.group(1), "?"), text)
     # ícones
     text = re.sub(r"\{\{icon:(\w+)\}\}", lambda m: ICONS[m.group(1)], text)
     # número de página

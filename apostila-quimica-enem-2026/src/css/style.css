@@ -228,6 +228,29 @@ svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
 .tag-prio{display:inline-block;font:700 7.6px var(--head);letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:1px 7px;color:#fff}
 .tag-prio.max{background:var(--red)}.tag-prio.alta{background:var(--orange)}.tag-prio.int{background:var(--amber)}.tag-prio.comp{background:var(--slate-m)}
 
+
+/* temas locais (cartões coloridos dentro de páginas de outro bloco) */
+.th-slate{--bc:var(--slate);--bcd:var(--slate);--bcl:var(--slate-l);--bcm:var(--slate-m)}
+.th-blue{--bc:var(--blue);--bcd:var(--blue-d);--bcl:var(--blue-l);--bcm:var(--blue-m)}
+.th-amber{--bc:var(--amber);--bcd:var(--amber-d);--bcl:var(--amber-l);--bcm:var(--amber-m)}
+.th-purple{--bc:var(--purple);--bcd:var(--purple-d);--bcl:var(--purple-l);--bcm:var(--purple-m)}
+.th-green{--bc:var(--green);--bcd:var(--green-d);--bcl:var(--green-l);--bcm:var(--green-m)}
+.th-orange{--bc:var(--orange);--bcd:var(--orange-d);--bcl:var(--orange-l);--bcm:var(--orange-m)}
+.th-red{--bc:var(--red);--bcd:var(--red-d);--bcl:var(--red-l);--bcm:var(--red-m)}
+
+
+/* gabarito comentado e confusões comuns */
+.gab{column-count:2;column-gap:14px;font-size:10.7px;line-height:1.27}
+.gab .gi{break-inside:avoid;display:flex;gap:5px;align-items:flex-start;margin:0 0 3px}
+.gab .gn{flex:none;min-width:19px;height:14px;border-radius:99px;background:var(--bc);color:#fff;font:700 8px var(--head);display:flex;align-items:center;justify-content:center;margin-top:1px}
+.gab .gl{flex:none;color:var(--red-d);font:800 10.4px var(--head);width:10px}
+.gab .gt{flex:1;min-width:0}
+.cfs{display:grid;grid-template-columns:1fr 1fr;gap:3px 14px;font-size:10.9px;line-height:1.27;align-items:start}
+.cfs div{border-left:3px solid var(--red-m);padding:1px 0 1px 6px;background:#fff}
+.cfs b{color:var(--red-d)}
+.refs{font-size:10.2px;line-height:1.3;color:var(--slate)}
+.refs b{color:var(--ink)}
+
 .mathd{text-align:center;margin:1px 0}
 
 .box.inl .lab{display:inline-flex;vertical-align:baseline;margin:0 6px 0 0;position:relative;top:1px}
