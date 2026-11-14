@@ -12,11 +12,11 @@ GD = C["green_d"]
 
 @fig("e_estufa")
 def _estufa():
-    W, H = 440, 176
+    W, H = 440, 181
     s = SVG(W, H, title="Efeito estufa")
     # atmosfera
     s.rect(4, 50, W - 8, 52, fill="#E6F0FD", stroke=C["blue_m"], sw=1.2, rx=6)
-    s.text(12, 63, "atmosfera: CO_2, CH_4, N_2O, H_2O", 9.6, "start", 800, C["blue_d"])
+    s.text(236, 63, "atmosfera: CO_2, CH_4, N_2O, H_2O", 9.6, "start", 800, C["blue_d"])
     # superfície
     s.rect(4, 144, W - 8, 26, fill=C["green_m"], stroke=C["green"], sw=1.2, rx=6)
     s.text(W / 2, 161, "superfície da Terra (absorve luz e emite infravermelho)", 10, "middle", 800, GD)
@@ -34,7 +34,8 @@ def _estufa():
     for x in (210, 262, 314):
         s.path(f"M{x} 142 q6 -10 0 -20 t0 -20", stroke=C["red"], sw=2.2)
         s.head(x, 102, -math.pi / 2, C["red"], 7)
-    s.text(238, 136, "radiação infravermelha (calor)", 9.6, "middle", 800, C["red_d"], halo="#FFFFFF")
+    s.path("M16 178 q4 -5 0 -10 t0 -2", stroke=C["red"], sw=2.2)
+    s.text(26, 177, "seta ondulada vermelha = radiação infravermelha (calor) emitida pela superfície", 9.6, "start", 800, C["red_d"])
     # IV retido: setas de volta
     for (x, y0, y1, xo) in ((200, 80, 134, 176), (286, 80, 134, 306), (356, 78, 134, 380)):
         s.arrow(x, y0, xo, y1, C["orange"], 2.2, 7)

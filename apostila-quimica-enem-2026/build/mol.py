@@ -51,6 +51,39 @@ def formula_of(smiles):
     return rdMolDescriptors.CalcMolFormula(m)
 
 
+
+def _free_badge(m, coords, gx, gy, dx, dy, bond, r=8.2):
+    """Posição do marcador numerado: tenta a direção radial e, se colidir com rótulos de átomos
+    (O, N, H explícito, OH…) ou ligações, gira o ângulo e aumenta a distância."""
+    def seg_dist(px, py, ax, ay, bx, by):
+        vx, vy = bx - ax, by - ay
+        L2 = vx * vx + vy * vy or 1.0
+        t = max(0.0, min(1.0, ((px - ax) * vx + (py - ay) * vy) / L2))
+        return math.hypot(px - (ax + t * vx), py - (ay + t * vy))
+
+    def ok(px, py):
+        for a in m.GetAtoms():
+            if a.GetSymbol() == "C" and a.GetFormalCharge() == 0:
+                continue
+            ax, ay = coords[a.GetIdx()]
+            hw = 8 + (14 if a.GetTotalNumHs() > 0 else 0)
+            if abs(px - ax) < hw + r and abs(py - ay) < 9 + r + (11 if a.GetTotalNumHs() > 0 else 0):
+                return False
+        for b in m.GetBonds():
+            (xa, ya), (xb, yb) = coords[b.GetBeginAtomIdx()], coords[b.GetEndAtomIdx()]
+            if seg_dist(px, py, xa, ya, xb, yb) < r + 1.5:
+                return False
+        return True
+
+    base = math.atan2(dy, dx)
+    for dist in (1.05, 1.3, 1.6):
+        for off in (0, 30, -30, 60, -60, 90, -90, 120, -120, 150, -150, 180):
+            a = base + math.radians(off)
+            px, py = gx + math.cos(a) * bond * dist, gy + math.sin(a) * bond * dist
+            if ok(px, py):
+                return px, py
+    return gx + dx * bond * 1.05, gy + dy * bond * 1.05
+
 def mol(smiles, bond=30, hl=None, hl_color=None, labels=None, formula=None, margin=9, font=0.62, lw=1.8,
         mark=None, rotate=0, hl_alpha=0.26, hl_w=None, seed_coords=None, add_h=False, flip_x=False,
         atom_marks=None, ghost_color=None, horizontal=False):
@@ -184,7 +217,7 @@ def mol(smiles, bond=30, hl=None, hl_color=None, labels=None, formula=None, marg
                 dx, dy = gx - cx_m, gy - cy_m
                 L = math.hypot(dx, dy) or 1.0
                 dx, dy = (dx / L, dy / L) if L > 1e-6 else (0.0, -1.0)
-                px, py = gx + dx * (bond * 1.05), gy + dy * (bond * 1.05)
+                px, py = _free_badge(m, coords, gx, gy, dx, dy, bond)
                 shapes.append(f'<circle cx="{n(px)}" cy="{n(py)}" r="8.2" fill="{C["purple_d"]}"/>'
                               f'<text x="{n(px)}" y="{n(py + 3.6)}" font-size="10.5" font-weight="700" fill="#fff" '
                               f'text-anchor="middle" font-family="{FONT_STACK}">{esc(lab)}</text>')

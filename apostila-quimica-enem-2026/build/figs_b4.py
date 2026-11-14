@@ -67,7 +67,7 @@ def _pin_axis(title, lo, hi, step, pins, W=695, H=108, unit="pK_a", note_left="m
     def X(v):
         return x0 + (v - lo) / (hi - lo) * (x1 - x0)
 
-    by = 50
+    by = 58
     g = s.lingrad([(0, C["purple"]), (0.5, "#CDB9F8"), (1, "#F6F1FE")])
     s.rect(x0, by, x1 - x0, 12, fill=g, stroke=C["purple_m"], sw=1, rx=6)
     v = lo
@@ -78,8 +78,9 @@ def _pin_axis(title, lo, hi, step, pins, W=695, H=108, unit="pK_a", note_left="m
     s.text(x0, 12, note_left, 9.8, "start", 800, C["purple_d"])
     s.text(x1, 12, note_right, 9.8, "end", 800, C["muted"])
     s.text((x0 + x1) / 2, 12, unit + " →", 10, "middle", 800, INK)
-    for k, (v, lab, col) in enumerate(pins):
-        lvl = k % levels
+    for k, pin in enumerate(pins):
+        v, lab, col = pin[:3]
+        lvl = pin[3] if len(pin) > 3 else k % levels
         top = lvl % 2 == 0
         cy = by - 18 - (lvl // 2) * 20 if top else by + 12 + 36 + (lvl // 2) * 20 - 14
         cy = (by - 19 - 17 * (lvl // 2)) if top else (by + 40 + 17 * (lvl // 2))
@@ -94,17 +95,16 @@ def _pin_axis(title, lo, hi, step, pins, W=695, H=108, unit="pK_a", note_left="m
 
 @fig("b_acidez_escala")
 def _acidez():
-    pins = [(0.65, "Cl₃C–COOH 0,65", C["purple"]), (1.29, "Cl₂CH–COOH 1,29", C["purple"]), (2.86, "ClCH₂–COOH 2,86", C["purple"]),
-            (3.75, "HCOOH 3,75", C["purple"]), (4.76, "CH₃COOH 4,76", C["purple"]), (9.95, "fenol 10", C["red"]),
-            (15.5, "metanol 15,5", C["slate_m"]), (15.9, "etanol 15,9", C["slate_m"])]
-    pins = [(v, l.replace("₃", "_3").replace("₂", "_2"), c) for v, l, c in pins]
-    # evitar colisão no extremo direito: usar 4 níveis
-    return _pin_axis("Escala de acidez (pKa)", 0, 18, 2, [(v, l, c) for v, l, c in pins], H=110, levels=4)
+    pins = [(0.65, "Cl₃C–COOH 0,65", C["purple"], 0), (1.29, "Cl₂CH–COOH 1,29", C["purple"], 1), (2.86, "ClCH₂–COOH 2,86", C["purple"], 2),
+            (3.75, "HCOOH 3,75", C["purple"], 0), (4.76, "CH₃COOH 4,76", C["purple"], 1), (9.95, "fenol 10", C["red"], 0),
+            (15.5, "metanol 15,5", C["slate_m"], 0), (15.9, "etanol 15,9", C["slate_m"], 1)]
+    pins = [(v, l.replace("₃", "_3").replace("₂", "_2"), c, k) for v, l, c, k in pins]
+    return _pin_axis("Escala de acidez (pKa)", 0, 18, 2, pins, H=112, levels=3)
 
 
 @fig("b_basicidade_escala")
 def _basicidade():
-    pins = [(3.27, "dimetilamina 3,3", C["purple"]), (3.36, "metilamina 3,4", C["purple"]), (4.19, "trimetilamina 4,2", C["purple"]),
-            (4.75, "NH_3 4,75", C["slate_m"]), (9.37, "anilina 9,4", C["red"])]
-    return _pin_axis("Escala de basicidade (pKb)", 2, 11, 1, pins, H=110, unit="pK_b", note_left="mais básico",
-                     note_right="menos básico", levels=4)
+    pins = [(3.27, "dimetilamina 3,3", C["purple"], 0), (3.36, "metilamina 3,4", C["purple"], 1), (4.19, "trimetilamina 4,2", C["purple"], 2),
+            (4.75, "NH_3 4,75", C["slate_m"], 0), (9.37, "anilina 9,4", C["red"], 0)]
+    return _pin_axis("Escala de basicidade (pKb)", 2, 11, 1, pins, H=112, unit="pK_b", note_left="mais básico",
+                     note_right="menos básico", levels=3)

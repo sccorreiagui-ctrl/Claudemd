@@ -186,7 +186,7 @@ def _ch3cl():
 # ----------------------------------------------------------------------------- ícones de geometrias
 @fig("a_geometrias")
 def _geoms():
-    Wd, Ht = 695, 112
+    Wd, Ht = 695, 120
     s = SVG(Wd, Ht, title="Geometrias moleculares básicas")
     cw = Wd / 5
     items = [
@@ -196,7 +196,7 @@ def _geoms():
         ("Piramidal", "≈107° (1 par livre)", "NH_3, PH_3"),
         ("Tetraédrica", "109,5°", "CH_4, CCl_4, CH_3Cl"),
     ]
-    cy = 38
+    cy = 43
     for i, (nm, ang, ex) in enumerate(items):
         cx = cw * i + cw / 2
         if i == 0:
@@ -208,7 +208,7 @@ def _geoms():
             _sph(s, *b, "C", 11, "A")
         elif i == 1:
             b = (cx, cy)
-            pts = [pol(cx, cy, 33, a) for a in (-90, 30, 150)]
+            pts = [pol(cx, cy, 31, a) for a in (-90, 30, 150)]
             for p in pts:
                 s.line(*b, *p, BOND, 3)
             for p in pts:
@@ -226,7 +226,7 @@ def _geoms():
             _sph(s, *b, "C", 11, "A")
         elif i == 3:
             b = (cx, cy - 10)
-            p1, p2, p3 = (cx - 34, cy + 20), (cx + 34, cy + 20), (cx, cy + 30)
+            p1, p2, p3 = (cx - 34, cy + 18), (cx + 34, cy + 18), (cx, cy + 26)
             s.line(*b, *p1, BOND, 3)
             s.line(*b, *p2, BOND, 3)
             wedge(s, b[0], b[1], p3[0], p3[1], BOND, 8)
@@ -236,7 +236,7 @@ def _geoms():
             _sph(s, *b, "C", 11, "A")
         else:
             b = (cx, cy + 2)
-            pa, pb, pc, pd = (cx, cy - 28), (cx - 31, cy + 26), (cx + 33, cy + 28), (cx + 31, cy - 18)
+            pa, pb, pc, pd = (cx, cy - 27), (cx - 31, cy + 23), (cx + 33, cy + 25), (cx + 31, cy - 18)
             s.line(*b, *pa, BOND, 3)
             s.line(*b, *pb, BOND, 3)
             wedge(s, b[0], b[1], pc[0], pc[1], BOND, 8)
@@ -244,7 +244,7 @@ def _geoms():
             for p in (pd, pa, pb, pc):
                 _sph(s, *p, "H", 9, "X")
             _sph(s, *b, "C", 11, "A")
-        s.text(cx, 82, nm, 11.5, "middle", 700, C["ink"])
-        s.text(cx, 95, ang, 10, "middle", 600, C["blue_d"])
-        s.text(cx, 107, ex, 10, "middle", 400, C["muted"])
+        s.text(cx, 90, nm, 11.5, "middle", 700, C["ink"])
+        s.text(cx, 103, ang, 10, "middle", 600, C["blue_d"])
+        s.text(cx, 115, ex, 10, "middle", 400, C["muted"])
     return s

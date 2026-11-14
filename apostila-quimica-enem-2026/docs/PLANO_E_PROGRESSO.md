@@ -29,5 +29,8 @@ Limitação: polaridade/forças intermoleculares/solubilidade NÃO aparecem no t
 London em todas as moléculas · cis/trans polaridade depende dos ligantes · 2^n é máximo (meso) · catalisador não desloca equilíbrio · centrifugação separa heterogêneas · biodegradabilidade de detergente não por regra única · eletronegatividade (Cl>N por Pauling; H≈P) · metais pesados não vão só para gordura (Hg→proteínas, Pb→ossos; DDT→lipídios) · oxiácidos: H ionizáveis · fila de descarga ("D+" = demais cátions) · basicidade de aminas (exceções) · acidez (metanol≈água) · coligativas: soluto não volátil, solução diluída, i ideal · fusão "sem resíduos" é simplificação · carvão ativado só em tratamento avançado · chuva normal pH≈5,6 · criolita baixa o P.F. na produção de Al.
 
 ## Progresso
-(ver lista de tarefas da sessão; atualizar abaixo)
-- [x] Pipeline técnico validado (página de teste)
+- [x] Pipeline técnico (CSS, build, KaTeX/RDKit/Chromium, SVG)
+- [x] Blocos A–G, capa e guia (p. 1–37) · revisão final (p. 38–40)
+- [x] Auditoria científica e visual das 40 páginas (ver docs/RELATORIO_VALIDACAO.md)
+- [x] Gabarito embutido nas alternativas (data-ok) e redistribuído (9 por letra)
+- Itens abertos para um revisor humano: valores numéricos, 36 testes, densidade tipográfica.

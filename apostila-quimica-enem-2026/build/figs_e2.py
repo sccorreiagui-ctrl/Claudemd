@@ -131,8 +131,8 @@ def _cromato():
     s.rect(cx - 36, 8, 72, 138, fill="#FFFFFF", stroke=C["slate_m"], sw=1.6, rx=2)
     s.line(cx - 36, 30, cx + 36, 30, C["slate"], 1.2, dash="3 2")
     s.line(cx - 36, 118, cx + 36, 118, C["slate"], 1.2, dash="3 2")
-    s.text(cx + 42, 33, "frente do solvente", 9.4, "start", 700, C["blue_d"])
-    s.text(cx + 42, 121, "linha de aplicação", 9.4, "start", 700, C["slate"])
+    s.text(cx + 82, 33, "frente do solvente", 9.4, "start", 700, C["blue_d"])
+    s.text(cx + 82, 121, "linha de aplicação", 9.4, "start", 700, C["slate"])
     lanes = [cx - 24, cx, cx + 24]
     # amostra A (corante puro, magenta), mistura, corante B (azul)
     def spot(x, y, col, rx=7, ry=5):

@@ -97,7 +97,7 @@ def _estados():
     s.arrow(595, 142, 100, 142, C["blue"], 2, 8, dash="6 3")
     s.text(347, 124, "sublimação", 10.4, "middle", 800, C["red_d"], halo="#fff")
     s.text(347, 156, "ressublimação (deposição)", 10.4, "middle", 800, C["blue_d"], halo="#fff")
-    s.text(W - 4, 12, "vermelho: absorve calor · azul: libera calor", 9.4, "end", 700, C["muted"])
+    s.text(4, 160, "vermelho: absorve calor · azul: libera calor", 9.4, "start", 700, C["muted"])
     return s
 
 

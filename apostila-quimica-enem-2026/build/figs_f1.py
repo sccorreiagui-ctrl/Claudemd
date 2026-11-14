@@ -72,8 +72,7 @@ def _energia():
     s.text(ax.X(2.05), ax.Y((R + m1) / 2) - 2, "E_a", 11, "end", 800, OD)
     s.text(ax.X(2.05), ax.Y((R + m1) / 2) + 10, "sem catalisador", 9, "end", 700, OD)
     s.arrow(ax.X(3.35), ax.Y(R), ax.X(3.35), ax.Y(m2) + 2, C["green"], 2, 7)
-    s.text(ax.X(3.5), ax.Y((R + m2) / 2) + 2, "E_a'", 11, "start", 800, C["green_d"])
-    s.text(ax.X(3.5), ax.Y((R + m2) / 2) + 13, "com catalisador", 9, "start", 700, C["green_d"])
+    s.text(ax.X(3.35) - 5, ax.Y((R + m2) / 2) + 4, "E_a'", 11, "end", 800, C["green_d"], halo="#fff")
     s.text(ax.X(4.7), ax.Y(m1) - 7, "complexo ativado", 10, "middle", 800, OD, halo="#fff")
     # legenda
     s.line(48, 225, 70, 225, C["orange"], 3.4)
@@ -99,7 +98,7 @@ def _enzima():
     ax.polyline(ax.curve_fn(lambda T: 0.012 * T + 0.05, 0, 70), C["slate_m"], 2.2, dash="5 3")
     s.text(ax.X(38), ax.Y(1.08), "ótimo ≈ 37 °C", 10, "middle", 800, C["green_d"], halo="#fff")
     s.text(ax.X(60), ax.Y(0.2) - 4, "desnaturação", 10, "middle", 800, C["red_d"])
-    s.text(ax.X(12), ax.Y(0.8), "catalisador", 9.4, "start", 700, C["slate"])
-    s.text(ax.X(12), ax.Y(0.8) + 10, "inorgânico", 9.4, "start", 700, C["slate"])
+    s.text(ax.X(53), ax.Y(1.04), "catalisador", 9.4, "start", 700, C["slate"])
+    s.text(ax.X(53), ax.Y(1.04) + 10, "inorgânico", 9.4, "start", 700, C["slate"])
     s.text(W / 2, 176, "enzima: curva em sino (T e pH ótimos); catalisador comum: só aumenta com T", 9.4, "middle", 700, C["muted"])
     return s

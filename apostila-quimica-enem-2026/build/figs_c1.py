@@ -28,7 +28,7 @@ HAL = ["[Br]", "[Cl]"]
 # substituição
 rx("c_rx_sub1", [("text", "CH_3–CH_3", 16), ("op", "+"), ("text", "Br–Br", 16),
                  ("arrow", "luz", "", "r"), ("text", "CH_3–CH_2–Br", 16), ("op", "+"), ("text", "HBr", 16)])
-rx("c_rx_sub2", [("mol", M("c1ccccc1", "C6H6"), 1.1), ("op", "+"), ("mol", M("O[N+](=O)[O-]", "HNO3"), 1.1),
+rx("c_rx_sub2", [("mol", M("c1ccccc1", "C6H6"), 1.1), ("op", "+"), ("text", "HNO_3", 17),
                  ("arrow", "H_2SO_4", "", "r"), ("mol", M("[O-][N+](=O)c1ccccc1", "C6H5NO2", hl=["[N+](=O)[O-]"]), 1.1),
                  ("op", "+"), ("mol", M("O", "H2O"), 1.1)])
 # adição

@@ -55,7 +55,7 @@ def _notacoes():
     s.text(6 + cw * 1.5, 124, "todos os H aparecem (C_3H_8O)", 10.4, "middle", 600, C["muted"])
     # 3
     m3 = _std("CC(C)O", "C3H8O", bond=32, hl=["[OX2H]"],
-              atom_marks={0: ("CH_3", "ghost"), 1: ("CH", "ghost", (22, 12)), 2: ("CH_3", "ghost")})
+              atom_marks={0: ("CH_3", "ghost"), 1: ("CH", "ghost", (-21, -3)), 2: ("CH_3", "ghost")})
     s.raw(m3.at(6 + cw * 2.5, 80, 0.92))
     s.text(6 + cw * 2.5, 124, "cada ponta/vértice = 1 C · H subentendidos", 10.4, "middle", 600, C["muted"])
     return s
