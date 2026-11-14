@@ -1,0 +1,239 @@
+/* ==========================================================================
+   Apostila de Química · ENEM 2026 — design system (A4 vertical, HTML/CSS -> PDF)
+   Cores semânticas:  azul=água/polar · âmbar=apolar/lipofílico · roxo=funções orgânicas
+                      verde=Biologia/ambiente · laranja=reações · vermelho=alertas/erros
+   ========================================================================== */
+
+@font-face{font-family:'Source Sans 3';font-weight:400;font-style:normal;src:url(../../assets/fonts/source-sans-3-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:400;font-style:italic;src:url(../../assets/fonts/source-sans-3-latin-400-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:600;font-style:normal;src:url(../../assets/fonts/source-sans-3-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:600;font-style:italic;src:url(../../assets/fonts/source-sans-3-latin-600-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:700;font-style:normal;src:url(../../assets/fonts/source-sans-3-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:700;font-style:italic;src:url(../../assets/fonts/source-sans-3-latin-700-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:800;font-style:normal;src:url(../../assets/fonts/source-sans-3-latin-800-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Source Sans 3';font-weight:400;font-style:normal;src:url(../../assets/fonts/source-sans-3-greek-400-normal.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}
+@font-face{font-family:'Source Sans 3';font-weight:600;font-style:normal;src:url(../../assets/fonts/source-sans-3-greek-600-normal.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}
+@font-face{font-family:'Source Sans 3';font-weight:700;font-style:normal;src:url(../../assets/fonts/source-sans-3-greek-700-normal.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}
+@font-face{font-family:'Source Sans 3';font-weight:800;font-style:normal;src:url(../../assets/fonts/source-sans-3-greek-700-normal.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}
+@font-face{font-family:'Poppins';font-weight:600;src:url(../../assets/fonts/poppins-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Poppins';font-weight:700;src:url(../../assets/fonts/poppins-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Poppins';font-weight:800;src:url(../../assets/fonts/poppins-latin-800-normal.woff2) format('woff2')}
+
+:root{
+  --ink:#1F2937; --muted:#5B6575; --line:#CBD5E1; --grid:#E5EAF1; --soft:#F4F6FA;
+  --slate:#334155; --slate-l:#EEF2F7; --slate-m:#94A3B8;
+  --blue:#1D6FD8; --blue-d:#0B3F94; --blue-l:#E6F0FD; --blue-m:#9CC3F5;
+  --amber:#D99100; --amber-d:#7A5200; --amber-l:#FFF2CC; --amber-m:#F3CD6B;
+  --purple:#7C3AED; --purple-d:#4C1D95; --purple-l:#F0E9FE; --purple-m:#BFA2F7;
+  --green:#1E9E5A; --green-d:#0E5C33; --green-l:#E4F5EB; --green-m:#8ED3AB;
+  --orange:#EE6A1B; --orange-d:#8F3A06; --orange-l:#FFEBDC; --orange-m:#F7B68A;
+  --red:#D6333B; --red-d:#8A171D; --red-l:#FDE8E9; --red-m:#F2A0A5;
+  --head:'Poppins','Source Sans 3','Inter',sans-serif;
+  --body:'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif;
+}
+/* tema por bloco */
+.blk-A{--bc:var(--blue);--bcd:var(--blue-d);--bcl:var(--blue-l);--bcm:var(--blue-m)}
+.blk-B{--bc:var(--purple);--bcd:var(--purple-d);--bcl:var(--purple-l);--bcm:var(--purple-m)}
+.blk-C{--bc:var(--orange);--bcd:var(--orange-d);--bcl:var(--orange-l);--bcm:var(--orange-m)}
+.blk-D{--bc:var(--slate);--bcd:var(--slate);--bcl:var(--slate-l);--bcm:var(--slate-m)}
+.blk-E{--bc:var(--green);--bcd:var(--green-d);--bcl:var(--green-l);--bcm:var(--green-m)}
+.blk-F{--bc:var(--orange);--bcd:var(--orange-d);--bcl:var(--orange-l);--bcm:var(--orange-m)}
+.blk-G{--bc:var(--slate);--bcd:var(--slate);--bcl:var(--slate-l);--bcm:var(--slate-m)}
+.blk-I{--bc:var(--slate);--bcd:var(--slate);--bcl:var(--slate-l);--bcm:var(--slate-m)}
+.blk-R{--bc:var(--slate);--bcd:var(--slate);--bcl:var(--slate-l);--bcm:var(--slate-m)}
+
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#fff}
+body{font-family:var(--body);color:var(--ink);font-size:12.6px;line-height:1.36;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-variant-ligatures:none}
+p{margin:0 0 4px}
+b,strong{font-weight:700}
+sub,sup{font-size:.72em;line-height:0;position:relative;vertical-align:baseline}
+sub{top:.26em} sup{top:-.44em}
+em,i{font-style:italic}
+
+/* ---------- página ---------- */
+.page{position:relative;width:210mm;height:296.6mm;overflow:hidden;break-after:page;page-break-after:always;background:#fff}
+.page:last-child{break-after:auto;page-break-after:auto}
+.pg-head{position:absolute;left:13mm;right:13mm;top:7mm;height:6.4mm;display:flex;align-items:center;justify-content:space-between;
+  border-bottom:.7px solid var(--line);font:600 8px var(--head);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.pg-head .l{display:flex;align-items:center;gap:6px}
+.pg-head .dot{width:7px;height:7px;border-radius:2px;background:var(--bc)}
+.pg-head .r{color:var(--bcd)}
+.pg-body{position:absolute;left:13mm;right:13mm;top:16.2mm;bottom:12.6mm;display:flex;flex-direction:column;gap:6px}
+.pg-foot{position:absolute;left:13mm;right:13mm;bottom:5mm;height:5.2mm;display:flex;justify-content:space-between;align-items:center;
+  font-size:8.4px;color:var(--muted);letter-spacing:.02em}
+.pg-foot .num{font:700 9.5px var(--head);color:#fff;background:var(--bc);min-width:19px;height:15px;padding:0 5px;border-radius:5px;display:flex;align-items:center;justify-content:center}
+
+/* ---------- títulos ---------- */
+.hero{display:flex;align-items:center;gap:12px;background:var(--bcl);border:1px solid var(--bcm);border-left:7px solid var(--bc);border-radius:9px;padding:8px 12px}
+.hero .letter{font:800 31px var(--head);color:var(--bc);line-height:1;min-width:30px;text-align:center}
+.hero .kick{font:700 8.2px var(--head);letter-spacing:.09em;text-transform:uppercase;color:var(--bcd)}
+.hero h1{font:800 18.5px var(--head);margin:1px 0 2px;color:var(--ink);line-height:1.12}
+.hero p{margin:0;font-size:11.6px;color:var(--slate)}
+.hero .prio{margin-left:auto;text-align:center;font:700 8px var(--head);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--bc);border-radius:7px;padding:5px 8px;line-height:1.25;min-width:74px}
+.h2{font:700 14.2px var(--head);color:var(--ink);margin:2px 0 0;display:flex;align-items:center;gap:7px;line-height:1.15}
+.h2::before{content:"";width:9px;height:9px;border-radius:3px;background:var(--bc);flex:none}
+.h2 .sub{font:600 10.5px var(--body);color:var(--muted);margin-left:auto}
+.h3{font:700 9.4px var(--head);letter-spacing:.07em;text-transform:uppercase;color:var(--bcd);margin:2px 0 1px}
+.lead{font-size:13.2px;line-height:1.38;color:var(--ink)}
+.small{font-size:11.6px;line-height:1.32}
+.tiny{font-size:10.4px;line-height:1.28}
+.muted{color:var(--muted)}
+.c{text-align:center}
+.nowrap{white-space:nowrap}
+ul.l,ol.l{margin:0;padding-left:15px}
+ul.l li,ol.l li{margin:0 0 2px;padding-left:1px}
+ul.l.tight li{margin-bottom:1px}
+ul.chk{list-style:none;margin:0;padding:0}
+ul.chk li{position:relative;padding-left:15px;margin-bottom:2px}
+ul.chk li::before{content:"";position:absolute;left:1px;top:.42em;width:7px;height:7px;border-radius:2px;background:var(--bc)}
+
+/* destaques semânticos no texto */
+.polar{color:var(--blue-d);font-weight:700}
+.apolar{color:var(--amber-d);font-weight:700}
+.fn{color:var(--purple-d);font-weight:700}
+.bio{color:var(--green-d);font-weight:700}
+.rx{color:var(--orange-d);font-weight:700}
+.warn{color:var(--red-d);font-weight:700}
+.hl-b{background:var(--blue-l);border-radius:3px;padding:0 3px}
+.hl-a{background:var(--amber-l);border-radius:3px;padding:0 3px}
+.hl-p{background:var(--purple-l);border-radius:3px;padding:0 3px}
+.hl-g{background:var(--green-l);border-radius:3px;padding:0 3px}
+.hl-o{background:var(--orange-l);border-radius:3px;padding:0 3px}
+.hl-r{background:var(--red-l);border-radius:3px;padding:0 3px}
+
+/* ---------- grades ---------- */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.g21{display:grid;grid-template-columns:2fr 1fr;gap:8px}
+.g12{display:grid;grid-template-columns:1fr 2fr;gap:8px}
+.g32{display:grid;grid-template-columns:3fr 2fr;gap:8px}
+.g23{display:grid;grid-template-columns:2fr 3fr;gap:8px}
+.fx{display:flex;gap:8px}
+.fx.mid{align-items:center}
+.fx.top{align-items:flex-start}
+.col{display:flex;flex-direction:column;gap:6px;min-width:0}
+.grow{flex:1 1 auto}
+.stretch{align-items:stretch}
+
+/* ---------- caixas semânticas ---------- */
+.box{--c:var(--slate);--cl:var(--slate-l);--cm:var(--slate-m);--cd:var(--slate);
+  border:1px solid var(--cm);border-left:4px solid var(--c);background:var(--cl);border-radius:7px;padding:6px 9px 7px;min-width:0}
+.box.blue{--c:var(--blue);--cl:var(--blue-l);--cm:var(--blue-m);--cd:var(--blue-d)}
+.box.amber{--c:var(--amber);--cl:var(--amber-l);--cm:var(--amber-m);--cd:var(--amber-d)}
+.box.purple{--c:var(--purple);--cl:var(--purple-l);--cm:var(--purple-m);--cd:var(--purple-d)}
+.box.green{--c:var(--green);--cl:var(--green-l);--cm:var(--green-m);--cd:var(--green-d)}
+.box.orange{--c:var(--orange);--cl:var(--orange-l);--cm:var(--orange-m);--cd:var(--orange-d)}
+.box.red{--c:var(--red);--cl:var(--red-l);--cm:var(--red-m);--cd:var(--red-d)}
+.box.white{--cl:#fff}
+.box .lab{display:flex;align-items:center;gap:4px;font:700 8.2px var(--head);letter-spacing:.07em;text-transform:uppercase;color:var(--cd);margin:0 0 2px}
+.box .lab svg{width:11px;height:11px;flex:none}
+.box p:last-child{margin-bottom:0}
+.box ul.l{margin-top:1px}
+.box.sm{padding:4px 7px 5px;font-size:11.6px;line-height:1.3}
+.box.xs{padding:3px 6px 4px;font-size:11px;line-height:1.28;border-left-width:3px}
+
+/* "No ENEM" */
+.enem{border:1.4px solid var(--ink);border-radius:8px;padding:6px 9px 7px;background:#fff;position:relative}
+.enem .lab{position:absolute;top:-8px;left:9px;background:var(--ink);color:#fff;font:700 8px var(--head);letter-spacing:.09em;padding:2px 8px;border-radius:99px;text-transform:uppercase}
+.enem{padding-top:9px}
+
+/* teste rápido */
+.quiz{border:1.4px dashed var(--bc);border-radius:8px;padding:8px 10px 6px;background:#fff;position:relative}
+.quiz .lab{position:absolute;top:-8px;left:9px;background:var(--bc);color:#fff;font:700 8px var(--head);letter-spacing:.09em;padding:2px 8px;border-radius:99px;text-transform:uppercase}
+.quiz .q{margin:0 0 4px;font-size:11.9px;line-height:1.3}
+.quiz .q b.n{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:50%;background:var(--bc);color:#fff;font:700 9px var(--head);margin-right:4px;vertical-align:1px}
+.quiz .alts{display:grid;grid-template-columns:1fr 1fr;column-gap:12px;row-gap:1px;margin:1px 0 0 19px;font-size:11.2px;line-height:1.27}
+.quiz .alts.one{grid-template-columns:1fr}
+.quiz .alts span b{color:var(--bcd);margin-right:3px}
+
+/* selo de complemento */
+.compl{display:inline-block;font:700 7px var(--head);letter-spacing:.05em;text-transform:uppercase;padding:1px 5px;border-radius:99px;border:1px solid var(--slate-m);color:var(--slate);background:#fff;vertical-align:middle;margin-left:4px;line-height:1.35}
+
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:3px;font:700 9.4px var(--body);padding:0 6px;border-radius:99px;line-height:15px;height:15px;vertical-align:middle;white-space:nowrap}
+.chip.blue{background:var(--blue-l);color:var(--blue-d);border:1px solid var(--blue-m)}
+.chip.amber{background:var(--amber-l);color:var(--amber-d);border:1px solid var(--amber-m)}
+.chip.purple{background:var(--purple-l);color:var(--purple-d);border:1px solid var(--purple-m)}
+.chip.green{background:var(--green-l);color:var(--green-d);border:1px solid var(--green-m)}
+.chip.orange{background:var(--orange-l);color:var(--orange-d);border:1px solid var(--orange-m)}
+.chip.red{background:var(--red-l);color:var(--red-d);border:1px solid var(--red-m)}
+.chip.slate{background:var(--slate-l);color:var(--slate);border:1px solid var(--slate-m)}
+
+/* ---------- figuras ---------- */
+.fig{border:1px solid var(--grid);border-radius:8px;background:#fff;padding:5px 6px 4px;min-width:0}
+.fig.plain{border:none;padding:0}
+.fig svg{display:block;margin:0 auto}
+.figcap{font-size:10.2px;line-height:1.25;color:var(--muted);margin-top:2px;text-align:center}
+.figcap b{color:var(--ink)}
+.figrow{display:flex;gap:6px;align-items:center;justify-content:center}
+
+/* ---------- tabelas ---------- */
+table.t{width:100%;border-collapse:collapse;font-size:11.2px;line-height:1.26}
+table.t th{background:var(--bcl);color:var(--bcd);font:700 9.4px var(--head);letter-spacing:.04em;text-transform:uppercase;text-align:left;padding:3px 6px;border-bottom:1.4px solid var(--bc)}
+table.t td{padding:3px 6px;border-bottom:.8px solid var(--grid);vertical-align:middle}
+table.t tr:nth-child(even) td{background:#FAFBFD}
+table.t td.k{font-weight:700;color:var(--ink);white-space:nowrap}
+table.t.c td,table.t.c th{text-align:center}
+table.t svg{display:block;margin:0 auto}
+table.t.tight td{padding:2px 5px}
+table.t.mid td{vertical-align:middle}
+
+/* ---------- fórmulas e exemplos ---------- */
+.fcard{border:1px solid var(--bcm);border-radius:8px;overflow:hidden;background:#fff;min-width:0}
+.fcard .ft{background:var(--bcl);padding:3px 8px;font:700 9px var(--head);letter-spacing:.06em;text-transform:uppercase;color:var(--bcd);display:flex;justify-content:space-between;gap:6px}
+.fcard .ft span+span{text-transform:none;letter-spacing:0;font-family:var(--body);font-size:10px;font-weight:600}
+.fcard .fm{padding:5px 8px 1px;text-align:center;font-size:15px}
+.fcard .fd{padding:1px 8px 6px;font-size:10.8px;line-height:1.28;color:var(--slate)}
+.fcard .fd b{color:var(--ink)}
+.katex{font-size:1.06em !important}
+.katex-display{margin:.15em 0 !important}
+
+.worked{border:1.4px solid var(--bc);border-radius:9px;background:#fff;padding:7px 10px 6px;position:relative}
+.worked .lab{position:absolute;top:-8px;left:10px;background:var(--bc);color:#fff;font:700 8px var(--head);letter-spacing:.09em;padding:2px 8px;border-radius:99px;text-transform:uppercase}
+.worked .stmt{font-size:11.9px;line-height:1.3;margin:2px 0 5px}
+.steps{display:flex;flex-direction:column;gap:3px}
+.step{display:flex;gap:7px;align-items:flex-start;font-size:11.6px;line-height:1.3}
+.step .n{flex:none;width:16px;height:16px;border-radius:50%;background:var(--bc);color:#fff;font:700 9px var(--head);display:flex;align-items:center;justify-content:center;margin-top:1px}
+.step .t{flex:1;min-width:0}
+.ans{display:inline-block;background:var(--bcl);border:1px solid var(--bcm);border-radius:5px;padding:0 6px;font-weight:700;color:var(--bcd)}
+
+/* método em cadeia (fluxos curtos em HTML) */
+.chain{display:flex;align-items:stretch;gap:0}
+.chain .nd{flex:1;border:1.2px solid var(--bcm);background:var(--bcl);border-radius:7px;padding:4px 6px;text-align:center;font-size:11px;line-height:1.22;position:relative;min-width:0}
+.chain .nd>b:first-child{display:block;font:700 9.6px var(--head);color:var(--bcd);letter-spacing:.03em;text-transform:uppercase;margin-bottom:1px}
+.chain .ar2{flex:none;width:15px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.chain .ar2 svg{width:11px;height:11px}
+
+/* ---------- química inline ---------- */
+.ce .f{white-space:nowrap}
+.ce .st{font-size:.86em}
+svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
+.arw{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1;margin:0 2px}
+.arw .lab{font-size:.74em;line-height:1.05;margin:0 0 -1px;font-weight:600;white-space:nowrap}
+.arw svg.ar{margin:0}
+.eq{font-size:13px;text-align:center}
+
+/* ---------- utilidades ---------- */
+.mt2{margin-top:2px}.mt4{margin-top:4px}.mt6{margin-top:6px}.mb0{margin-bottom:0}
+.w100{width:100%}
+.rel{position:relative}
+.bd{border:1px solid var(--grid);border-radius:8px}
+.sep{height:1px;background:var(--grid);margin:2px 0}
+.tag-prio{display:inline-block;font:700 7.6px var(--head);letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:1px 7px;color:#fff}
+.tag-prio.max{background:var(--red)}.tag-prio.alta{background:var(--orange)}.tag-prio.int{background:var(--amber)}.tag-prio.comp{background:var(--slate-m)}
+
+.mathd{text-align:center;margin:1px 0}
+
+.box.inl .lab{display:inline-flex;vertical-align:baseline;margin:0 6px 0 0;position:relative;top:1px}
+
+/* cartão de molécula */
+.mcard{border:1px solid var(--grid);border-radius:8px;overflow:hidden;background:#fff;min-width:0}
+.mcard .mh{display:flex;justify-content:space-between;align-items:baseline;padding:4px 9px 0;gap:6px}
+.mcard .mh .fm{font:700 14px var(--head);color:var(--ink)}
+.mcard .mh .nm{font-size:11px;color:var(--muted);font-weight:600}
+.mcard svg{margin:0 auto}
+.mcard .mf{display:flex;justify-content:space-between;align-items:center;padding:1px 8px 6px;font-size:11px;gap:6px;line-height:1.2}
+.mcard .mf b{font-weight:700}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 695 196" width="695" height="196" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"  role="img"><title>Pontos de ebulição de substâncias de massa molar semelhante</title><svg x="39.3" y="30" width="70" height="28" viewBox="415 336 70 28" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 476.0,345.0 L 458.7,355.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 458.7,355.0 L 441.3,345.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 441.3,345.0 L 424.0,355.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 459.5,354.5 L 458.7,355.0 L 457.8,354.5' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 442.2,345.5 L 441.3,345.0 L 440.5,345.5' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+</svg><text x="74.3" y="92" font-size="11.6" text-anchor="middle" font-weight="700" fill="#1F2937">butano</text><text x="74.3" y="105" font-size="10" text-anchor="middle" fill="#5B6575"><tspan>C</tspan><tspan dy="2.4" font-size="7.2">4</tspan><tspan dy="-2.4" font-size="10">H</tspan><tspan dy="2.4" font-size="7.2">10</tspan><tspan dy="-2.4" font-size="10">  ·  M = 58</tspan></text><line x1="33.65" y1="114" x2="33.65" y2="150" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/><rect x="16" y="120" width="17.43" height="15" rx="3" fill="#D99100"/><text x="37.43" y="132" font-size="10.8" text-anchor="start" font-weight="800" fill="#1F2937">−0,5 °C</text><rect x="52.24" y="150" width="44.11" height="16" rx="8" fill="#FFF2CC" stroke="#F3CD6B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><text x="74.3" y="161.26" font-size="9.6" text-anchor="middle" font-weight="700" fill="#7A5200">London</text><svg x="184.6" y="16.09" width="52.6" height="55.81" viewBox="423.7 320.39 52.6 55.81" overflow="visible"><g opacity="0.26"><line x1="450.04" y1="357.19" x2="450.11" y2="337.19" stroke="#7C3AED" stroke-width="15.6" stroke-linecap="round"/><circle cx="450.04" cy="357.19" r="7.8" fill="#7C3AED"/><circle cx="450.11" cy="337.19" r="7.8" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 467.3,367.2 L 450.0,357.2' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 451.4,358.0 L 451.5,343.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 448.6,358.0 L 448.7,343.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 450.0,357.2 L 432.7,367.1' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 450.9,357.7 L 450.0,357.2 L 449.2,357.7' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 446.1 337.2
+Q 446.1 335.1, 447.1 333.9
+Q 448.2 332.8, 450.1 332.8
+Q 452.1 332.8, 453.1 333.9
+Q 454.1 335.1, 454.1 337.2
+Q 454.1 339.3, 453.1 340.6
+Q 452.0 341.8, 450.1 341.8
+Q 448.2 341.8, 447.1 340.6
+Q 446.1 339.4, 446.1 337.2
+M 450.1 340.8
+Q 451.4 340.8, 452.2 339.9
+Q 452.9 339.0, 452.9 337.2
+Q 452.9 335.5, 452.2 334.6
+Q 451.4 333.7, 450.1 333.7
+Q 448.8 333.7, 448.0 334.6
+Q 447.3 335.5, 447.3 337.2
+Q 447.3 339.0, 448.0 339.9
+Q 448.8 340.8, 450.1 340.8
+' fill='#1F2937'/>
+</svg><text x="210.9" y="92" font-size="11.6" text-anchor="middle" font-weight="700" fill="#1F2937">propanona</text><text x="210.9" y="105" font-size="10" text-anchor="middle" fill="#5B6575"><tspan>C</tspan><tspan dy="2.4" font-size="7.2">3</tspan><tspan dy="-2.4" font-size="10">H</tspan><tspan dy="2.4" font-size="7.2">6</tspan><tspan dy="-2.4" font-size="10">O  ·  M = 58</tspan></text><line x1="170.25" y1="114" x2="170.25" y2="150" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/><rect x="152.6" y="120" width="42.4" height="15" rx="3" fill="#1D6FD8"/><text x="199" y="132" font-size="10.8" text-anchor="start" font-weight="800" fill="#1F2937">56,1 °C</text><rect x="175.54" y="150" width="70.71" height="16" rx="8" fill="#E6F0FD" stroke="#9CC3F5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><text x="210.9" y="161.26" font-size="9.6" text-anchor="middle" font-weight="700" fill="#0B3F94">dipolo–dipolo</text><svg x="306.2" y="26.1" width="82.6" height="35.81" viewBox="408.7 333.7 82.6 35.81" overflow="visible"><g opacity="0.26"><circle cx="430.37" cy="352.71" r="7.8" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 482.3,342.7 L 465.0,352.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 465.0,352.7 L 447.7,342.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 447.7,342.7 L 436.1,349.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 465.9,352.2 L 465.0,352.7 L 464.1,352.2' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 448.6,343.2 L 447.7,342.7 L 447.1,343.1' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-3' d='M 417.7 348.4
+L 418.9 348.4
+L 418.9 352.1
+L 423.3 352.1
+L 423.3 348.4
+L 424.5 348.4
+L 424.5 357.1
+L 423.3 357.1
+L 423.3 353.1
+L 418.9 353.1
+L 418.9 357.1
+L 417.7 357.1
+L 417.7 348.4
+' fill='#1F2937'/>
+<path class='atom-3' d='M 426.3 352.7
+Q 426.3 350.6, 427.4 349.4
+Q 428.4 348.3, 430.4 348.3
+Q 432.3 348.3, 433.4 349.4
+Q 434.4 350.6, 434.4 352.7
+Q 434.4 354.9, 433.3 356.1
+Q 432.3 357.3, 430.4 357.3
+Q 428.4 357.3, 427.4 356.1
+Q 426.3 354.9, 426.3 352.7
+M 430.4 356.3
+Q 431.7 356.3, 432.4 355.4
+Q 433.2 354.5, 433.2 352.7
+Q 433.2 351.0, 432.4 350.1
+Q 431.7 349.3, 430.4 349.3
+Q 429.0 349.3, 428.3 350.1
+Q 427.6 351.0, 427.6 352.7
+Q 427.6 354.5, 428.3 355.4
+Q 429.0 356.3, 430.4 356.3
+' fill='#1F2937'/>
+</svg><text x="347.5" y="92" font-size="11.6" text-anchor="middle" font-weight="700" fill="#1F2937">propan-1-ol</text><text x="347.5" y="105" font-size="10" text-anchor="middle" fill="#5B6575"><tspan>C</tspan><tspan dy="2.4" font-size="7.2">3</tspan><tspan dy="-2.4" font-size="10">H</tspan><tspan dy="2.4" font-size="7.2">8</tspan><tspan dy="-2.4" font-size="10">O  ·  M = 60</tspan></text><line x1="306.85" y1="114" x2="306.85" y2="150" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/><rect x="289.2" y="120" width="60.54" height="15" rx="3" fill="#1D6FD8"/><text x="353.74" y="132" font-size="10.8" text-anchor="start" font-weight="800" fill="#1F2937">97,2 °C</text><rect x="304.47" y="150" width="86.06" height="16" rx="8" fill="#E6F0FD" stroke="#9CC3F5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><text x="347.5" y="161.26" font-size="9.6" text-anchor="middle" font-weight="700" fill="#0B3F94">lig. de hidrogênio</text><svg x="457.8" y="26.04" width="52.6" height="35.91" viewBox="423.7 330.39 52.6 35.91" overflow="visible"><g opacity="0.26"><circle cx="450.04" cy="347.19" r="7.8" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 432.7,357.1 L 444.3,350.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 455.7,350.5 L 467.3,357.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 446.0 347.2
+Q 446.0 345.1, 447.0 343.9
+Q 448.1 342.7, 450.0 342.7
+Q 452.0 342.7, 453.0 343.9
+Q 454.1 345.1, 454.1 347.2
+Q 454.1 349.3, 453.0 350.6
+Q 452.0 351.8, 450.0 351.8
+Q 448.1 351.8, 447.0 350.6
+Q 446.0 349.4, 446.0 347.2
+M 450.0 350.8
+Q 451.4 350.8, 452.1 349.9
+Q 452.8 349.0, 452.8 347.2
+Q 452.8 345.5, 452.1 344.6
+Q 451.4 343.7, 450.0 343.7
+Q 448.7 343.7, 448.0 344.6
+Q 447.2 345.5, 447.2 347.2
+Q 447.2 349.0, 448.0 349.9
+Q 448.7 350.8, 450.0 350.8
+' fill='#1F2937'/>
+</svg><text x="484.1" y="92" font-size="11.6" text-anchor="middle" font-weight="700" fill="#1F2937">éter dimetílico</text><text x="484.1" y="105" font-size="10" text-anchor="middle" fill="#5B6575"><tspan>C</tspan><tspan dy="2.4" font-size="7.2">2</tspan><tspan dy="-2.4" font-size="10">H</tspan><tspan dy="2.4" font-size="7.2">6</tspan><tspan dy="-2.4" font-size="10">O  ·  M = 46</tspan></text><line x1="443.45" y1="114" x2="443.45" y2="150" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/><rect x="425.8" y="120" width="6.71" height="15" rx="3" fill="#1D6FD8"/><text x="436.51" y="132" font-size="10.8" text-anchor="start" font-weight="800" fill="#1F2937">−24,8 °C</text><rect x="433.63" y="150" width="100.94" height="16" rx="8" fill="#E6F0FD" stroke="#9CC3F5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><text x="484.1" y="161.26" font-size="9.6" text-anchor="middle" font-weight="700" fill="#0B3F94">dipolo–dipolo (fraca)</text><svg x="588" y="26.1" width="65.4" height="35.81" viewBox="417.3 333.7 65.4 35.81" overflow="visible"><g opacity="0.26"><circle cx="439.03" cy="352.71" r="7.8" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 473.7,352.7 L 456.4,342.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 456.4,342.7 L 444.7,349.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 457.2,343.2 L 456.4,342.7 L 455.8,343.1' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 426.3 348.4
+L 427.5 348.4
+L 427.5 352.1
+L 432.0 352.1
+L 432.0 348.4
+L 433.2 348.4
+L 433.2 357.1
+L 432.0 357.1
+L 432.0 353.1
+L 427.5 353.1
+L 427.5 357.1
+L 426.3 357.1
+L 426.3 348.4
+' fill='#1F2937'/>
+<path class='atom-2' d='M 435.0 352.7
+Q 435.0 350.6, 436.0 349.4
+Q 437.1 348.3, 439.0 348.3
+Q 441.0 348.3, 442.0 349.4
+Q 443.1 350.6, 443.1 352.7
+Q 443.1 354.9, 442.0 356.1
+Q 441.0 357.3, 439.0 357.3
+Q 437.1 357.3, 436.0 356.1
+Q 435.0 354.9, 435.0 352.7
+M 439.0 356.3
+Q 440.4 356.3, 441.1 355.4
+Q 441.8 354.5, 441.8 352.7
+Q 441.8 351.0, 441.1 350.1
+Q 440.4 349.3, 439.0 349.3
+Q 437.7 349.3, 437.0 350.1
+Q 436.2 351.0, 436.2 352.7
+Q 436.2 354.5, 437.0 355.4
+Q 437.7 356.3, 439.0 356.3
+' fill='#1F2937'/>
+</svg><text x="620.7" y="92" font-size="11.6" text-anchor="middle" font-weight="700" fill="#1F2937">etanol</text><text x="620.7" y="105" font-size="10" text-anchor="middle" fill="#5B6575"><tspan>C</tspan><tspan dy="2.4" font-size="7.2">2</tspan><tspan dy="-2.4" font-size="10">H</tspan><tspan dy="2.4" font-size="7.2">6</tspan><tspan dy="-2.4" font-size="10">O  ·  M = 46</tspan></text><line x1="580.05" y1="114" x2="580.05" y2="150" fill="none" stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/><rect x="562.4" y="120" width="52.24" height="15" rx="3" fill="#1D6FD8"/><text x="618.64" y="132" font-size="10.8" text-anchor="start" font-weight="800" fill="#1F2937">78,4 °C</text><rect x="577.67" y="150" width="86.06" height="16" rx="8" fill="#E6F0FD" stroke="#9CC3F5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/><text x="620.7" y="161.26" font-size="9.6" text-anchor="middle" font-weight="700" fill="#0B3F94">lig. de hidrogênio</text><text x="415.8" y="192" font-size="8" text-anchor="start" fill="#1F2937"></text><line x1="415.8" y1="8" x2="415.8" y2="172" fill="none" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round" stroke-linejoin="round"/><text x="210.9" y="190" font-size="10.4" text-anchor="middle" font-weight="700" fill="#0B3F94">massa molar semelhante: a força decide</text><text x="552.4" y="190" font-size="10.4" text-anchor="middle" font-weight="700" fill="#0B3F94">isômeros: o grupo –OH decide</text><text x="552.4" y="180" font-size="8" text-anchor="start" fill="#1F2937"></text></svg>

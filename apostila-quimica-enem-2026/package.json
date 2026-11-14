@@ -1,0 +1,11 @@
+{
+  "name": "apostila-quimica-enem-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apostila de Química para revisão intensiva do ENEM 2026 (HTML/CSS/SVG -> PDF via Chromium)",
+  "dependencies": {
+    "katex": "0.16.11",
+    "@fontsource/source-sans-3": "5.1.0",
+    "@fontsource/poppins": "5.1.0"
+  }
+}
