@@ -1,0 +1,38 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-laranja', 'Módulo E · Geografia econômica e globalização', 'Fontes: Natural Earth (base); localização aproximada das cidades-sede dos polos (exemplos); Emenda Constitucional 83/2014 (Zona Franca de Manaus até 2073); Rowthorn e Ramaswamy (1997) e Rodrik (2016) sobre desindustrialização. ◆ = complemento independente.') %}
+{{ title('E2', 'Indústria no Brasil: onde se instala e por quê') }}
+<p class="lead"><b>Fenômeno:</b> a indústria brasileira nasceu concentrada no Sudeste e hoje se espalha de forma desigual. <b>Causas:</b> os <b>fatores locacionais</b> (mercado, mão de obra, matéria-prima, energia, transporte e incentivos). <b>Consequências:</b> polos regionais, “guerra fiscal” e perda de peso da indústria na economia.</p>
+
+{{ figure('map_industria', '<span class="t">Mapa 8.</span> Polos industriais selecionados (exemplos, não é ranking de produção). Base real: Natural Earth. Os estados do Sudeste aparecem em tom claro.', 'bd') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Fatores locacionais</h2>
+    <ul class="sq xs">
+      <li><b>Mercado consumidor</b> e rede de fornecedores (aglomeração: uma fábrica atrai outras).</li>
+      <li><b>Mão de obra:</b> custo e qualificação; universidades e centros de pesquisa.</li>
+      <li><b>Matéria-prima e energia:</b> siderurgia perto do minério; alumínio perto de energia barata.</li>
+      <li><b>Transporte e portos:</b> custo do frete e acesso à exportação.</li>
+      <li><b>Incentivos fiscais</b> e terrenos: base da “<b>guerra fiscal</b>” entre estados (isenção de ICMS para atrair fábricas).</li>
+    </ul>
+    <h2>Linha do tempo da industrialização</h2>
+    <ul class="sq xs">
+      <li><b>1930–1980:</b> substituição de importações; CSN (1941/46), Petrobras (1953) e <b>Plano de Metas</b> (1956–61), que trouxe a indústria automobilística ao ABC paulista.</li>
+      <li><b>Anos 1990:</b> abertura comercial e privatizações; maior concorrência externa.</li>
+      <li><b>Anos 2000:</b> alta de preços de commodities estimula exportações primárias.</li>
+    </ul>
+  </div>
+  <div>
+    {{ figure('desindustrializacao', '', '') }}
+  </div>
+</div>
+
+<div class="g3">
+  {% call box('def', 'Zona Franca de Manaus') %}<span class="xs">Criada em <b>1967</b>: área de livre comércio com incentivos fiscais (eletroeletrônicos, motocicletas). Benefícios prorrogados até <b>2073</b> (EC 83/2014). Debate: custo fiscal × empregos e <b>menor pressão sobre a floresta</b>.</span>{% endcall %}
+  {% call box('def', 'Tecnopolos ◆') %}<span class="xs">Aglomerações de empresas de alta tecnologia, universidades e centros de pesquisa: Vale do Silício (EUA); no Brasil, Campinas, São José dos Campos, São Carlos e o Porto Digital (Recife).</span>{% endcall %}
+  {% call box('erro') %}<span class="xs"><b>Desindustrialização</b> não é “fechar todas as fábricas”: é a queda do <b>peso relativo</b> da indústria no PIB e no emprego. <b>Reprimarização</b> = aumento do peso de produtos primários nas exportações.</span>{% endcall %}
+</div>
+
+{{ chain([('Câmbio valorizado, juros altos e “Custo Brasil”','vermelho'),('Importados mais baratos que o produto local','laranja'),('Indústria perde mercado','laranja'),('Exportações com mais produtos primários','terra')], 'Encadeamento: reprimarização', 'Múltiplas causas; o peso de cada uma é debatido por economistas. Evite explicações de causa única.') }}
+{% call box('enem') %}Se o texto citar <b>incentivos fiscais, infraestrutura e mão de obra</b>, pense em fatores locacionais e em guerra fiscal. A <b>desconcentração é relativa</b>: o Sudeste, em especial São Paulo, continua sendo o maior polo industrial do país.{% endcall %}
+{% endcall %}

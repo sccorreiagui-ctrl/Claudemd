@@ -1,0 +1,38 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-laranja', 'Módulo E · Geografia econômica e globalização', 'Fontes: EPE, Balanço Energético Nacional 2026 (ano-base 2025); CNT, Boletim Unificado (mar/2022); Energy Institute, Statistical Review of World Energy 2024. Percentuais variam com ano e metodologia. ◆ = complemento independente.') %}
+{{ title('E6', 'Energia e transportes: matrizes e escolhas') }}
+<p class="lead"><b>Fenômeno:</b> a economia depende de energia e de transporte. <b>Causa:</b> escolhas históricas de investimento (hidrelétricas, petróleo, rodovias). <b>Consequências:</b> custos logísticos, emissões e vulnerabilidade a crises. <b>No ENEM:</b> distinguir <b>matriz energética</b> (toda a energia) de <b>matriz elétrica</b> (só eletricidade) e ler gráficos de participação.</p>
+
+{{ figure('matriz_energia', '', '') }}
+
+<div class="g2">
+  <div>{{ figure('matriz_transportes', '', '') }}</div>
+  <div>
+    <h2 class="first">Por que tanta rodovia?</h2>
+    <ul class="sq xs">
+      <li><b>Escolha histórica:</b> a partir dos anos 1950 (Plano de Metas) o país priorizou rodovias e a indústria automobilística.</li>
+      <li><b>Vantagem:</b> flexibilidade “porta a porta” em curtas distâncias.</li>
+      <li><b>Custo:</b> frete maior e mais emissões em longas distâncias que ferrovia e hidrovia; o Brasil tem grandes distâncias entre a produção de grãos e minérios e os portos.</li>
+      <li><b>Alternativas:</b> ferrovias, hidrovias e cabotagem; <b>intermodalidade</b> (mais de um modal no mesmo transporte) reduz custos. O <b>Arco Norte</b> (portos acima de 16°S) desvia parte da soja para o Norte.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="g3">
+  {% call box('def', 'Energia ≠ eletricidade') %}<span class="xs">A <b>matriz energética</b> inclui combustíveis para transporte, calor industrial e eletricidade. Na matriz brasileira, o <b>petróleo</b> pesa muito por causa dos transportes. A <b>matriz elétrica</b> é majoritariamente <b>hidráulica</b>.</span>{% endcall %}
+  {% call box('erro') %}<span class="xs"><b>Renovável ≠ sem impacto.</b> Hidrelétricas alagam áreas e alteram rios; dependem da chuva (<b>crise hídrica de 2021</b>). Eólica e solar ocupam espaço e exigem armazenamento; biomassa pode competir com alimentos e usar terra.</span>{% endcall %}
+  {% call box('nota', 'Mundo ◆') %}<span class="xs">Os combustíveis fósseis ainda respondem por cerca de <b>80%</b> da energia primária mundial (Energy Institute, 2023). O Brasil tem matriz elétrica bem mais renovável que a média mundial.</span>{% endcall %}
+</div>
+
+{{ chain([('Chuvas abaixo da média','azul'),('Reservatórios mais baixos','azul'),('Térmicas são acionadas','laranja'),('Tarifa e emissões sobem','vermelho'),('Investimento em eólica, solar e integração','verde')], 'Encadeamento: dependência da água', 'Tendência; a seca de 2021 também refletiu planejamento, demanda e outros fatores, não só a chuva.') }}
+
+<div class="g2">
+  {% call box('conex') %}<span class="xs"><b>Química:</b> combustão, etanol e biodiesel. <b>Física:</b> conversão de energia (potencial → elétrica) e rendimento. <b>Biologia:</b> biomassa e ciclo do carbono. <b>História:</b> Proálcool (1975) e choques do petróleo (1973, 1979).</span>{% endcall %}
+  {% call box('enem') %}<span class="xs">Em questões de gráfico, confira <b>o que está no eixo</b> (energia total ou só eletricidade), <b>o ano</b> e <b>a unidade</b> (%, Mtep, TWh). Comparar matrizes de anos diferentes exige cautela.</span>{% endcall %}
+</div>
+
+<div class="q"><div class="qh">Questão · Matrizes</div>
+  Um gráfico mostra que a hidráulica responde por mais da metade da oferta de eletricidade de um país, mas o petróleo e seus derivados lideram a oferta total de energia. A diferença entre os dois resultados deve-se, principalmente, ao fato de
+  <ol class="two"><li>a eletricidade ser apenas uma parte do uso final de energia, que inclui combustíveis para transportes e indústria.</li><li>o petróleo ser usado exclusivamente em usinas elétricas.</li><li>a energia hidráulica ser não renovável.</li><li>os gráficos usarem sempre unidades idênticas.</li><li>a matriz elétrica incluir apenas fontes fósseis.</li></ol></div>
+<div class="gab"><p><b class="l">A</b>Gabarito comentado: a <b>matriz elétrica</b> considera só a eletricidade (onde predomina a hidráulica); a <b>matriz energética</b> inclui combustíveis de transporte e calor industrial, dominados pelo petróleo.</p></div>
+{% endcall %}

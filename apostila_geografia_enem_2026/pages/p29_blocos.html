@@ -1,0 +1,35 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-laranja', 'Módulo E · Geografia econômica e globalização', 'Fontes: Comissão Europeia (acordo UE–Mercosul aplicável a título provisório desde 1/5/2026); Reuters Fact Check (24/7/2026) sobre tarifas dos EUA; ASEAN (Timor-Leste, 26/10/2025); OMC; Natural Earth (base). Situação dinâmica: conferir antes de citar. ◆ = complemento independente.') %}
+{{ title('E5', 'Blocos econômicos e comércio internacional') }}
+<p class="lead"><b>Fenômeno:</b> países se agrupam para ampliar o comércio e a influência. <b>Causa:</b> ganhos de escala e competição global. <b>Mecanismo:</b> redução de tarifas e regras comuns, em <b>graus</b> crescentes de integração. <b>Consequência:</b> mais comércio entre os membros, mas perda de autonomia e disputas com quem está fora.</p>
+
+{{ figure('integracao_degraus', '', '') }}
+{{ figure('map_blocos', '<span class="t">Mapa 9.</span> Blocos selecionados, composição em nov/2026. Base real: Natural Earth. Bolívia: Estado Parte do Mercosul desde 2024, em período de adequação às normas do bloco.', 'bd') }}
+
+<div class="g2">
+  <div>
+    <table class="cmp c1" style="font-size:6.4pt">
+      <tr><th>Bloco</th><th>Origem</th><th>Nível / observação</th></tr>
+      <tr><td><b>União Europeia</b></td><td>Roma 1957 → Maastricht 1992/93</td><td>Mercado único; moeda comum (zona do euro); Reino Unido saiu em 2020</td></tr>
+      <tr><td><b>USMCA</b></td><td>NAFTA 1994 → 2020</td><td>Zona de livre comércio (EUA, México, Canadá)</td></tr>
+      <tr><td><b>Mercosul</b></td><td>Assunção 1991</td><td>União aduaneira imperfeita; Venezuela suspensa</td></tr>
+      <tr><td><b>ASEAN</b></td><td>1967</td><td>Associação política e econômica; Timor-Leste, 11º membro (26/10/2025)</td></tr>
+      <tr><td><b>UEE</b></td><td>2015</td><td>União aduaneira (RU, BY, KZ, AM, KG)</td></tr>
+      <tr><td><b>APEC</b></td><td>1989</td><td>Fórum de cooperação (21 economias), sem tarifa comum</td></tr>
+      <tr><td><b>AfCFTA ◆</b></td><td>2019 (comércio desde 2021)</td><td>Livre comércio continental africano, em implementação</td></tr>
+    </table>
+  </div>
+  <div>
+    <h2 class="first">Protecionismo × livre-comércio</h2>
+    <ul class="sq xs">
+      <li><b>Tarifárias:</b> imposto de importação. <b>Não tarifárias:</b> cotas, subsídios, exigências técnicas e sanitárias.</li>
+      <li><b>OMC</b> (1995, sucessora do GATT de 1947): regras e solução de disputas. O Brasil venceu o painel do <b>algodão</b> contra subsídios dos EUA (2004–05).</li>
+      <li>OMC é <b>multilateral</b> (global); Mercosul e UE são <b>regionais</b>.</li>
+    </ul>
+    {% call box('nota', 'Atualidades ◆ (2026)') %}<span class="xs"><b>Mercosul–UE:</b> negociado desde 2000, assinado em jan/2026 e <b>aplicado provisoriamente desde 1/5/2026</b>; a conclusão depende do Parlamento Europeu, que pediu parecer ao Tribunal de Justiça da UE. <b>EUA:</b> sobretaxa de 40% ao Brasil em 2025; em fev/2026 a Suprema Corte derrubou as tarifas globais da lei IEEPA; em jul/2026, novas sobretaxas (25% e 12,5%), com ≈ 2 mil produtos isentos.</span>{% endcall %}
+  </div>
+</div>
+
+{{ chain([('Aumento de barreiras','vermelho'),('Importados ficam mais caros','laranja'),('Proteção parcial a produtores locais','laranja'),('Retaliações e cadeias desorganizadas','vermelho')], 'Encadeamento: protecionismo', 'Tendência; o resultado líquido depende do setor e da dependência de insumos importados.') }}
+{% call box('enem') %}Ordene os níveis: <b>zona de livre comércio → união aduaneira → mercado comum → união econômica e monetária</b>. Pistas: “<i>tarifa externa comum</i>” = união aduaneira; “<i>livre circulação de pessoas</i>” = mercado comum; “<i>moeda única</i>” = união econômica e monetária.{% endcall %}
+{% endcall %}

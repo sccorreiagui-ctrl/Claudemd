@@ -220,6 +220,66 @@
      "v": 26.4
     }
    ]
+  },
+  {
+   "page": 23,
+   "id": "p23",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 0.9
+    }
+   ]
+  },
+  {
+   "page": 24,
+   "id": "p24",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 0.3
+    }
+   ]
+  },
+  {
+   "page": 25,
+   "id": "p25",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 2.5
+    }
+   ]
+  },
+  {
+   "page": 26,
+   "id": "p26",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 4.2
+    }
+   ]
+  },
+  {
+   "page": 27,
+   "id": "p27",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 3.7
+    }
+   ]
+  },
+  {
+   "page": 28,
+   "id": "p28",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 13.4
+    }
+   ]
   }
  ]
 }

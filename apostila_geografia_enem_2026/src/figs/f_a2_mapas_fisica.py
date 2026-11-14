@@ -109,13 +109,15 @@ def sa_base(ax, crs, box_ll, brazil_states=True, land_fc="#EFEBE0", br_fc="#F7F4
     c["geometry"] = c.geometry.simplify(2500)
     c.plot(ax=ax, fc=land_fc, ec=BORDER, lw=border_lw, zorder=1)
     if brazil_states:
-        s = states_br().to_crs(crs)
+        s = states_br()
+        s = s.assign(geometry=s.geometry.intersection(bb))   # recorta à caixa (evita geometria fora do quadro no SVG)
+        s = s[~s.geometry.is_empty].to_crs(crs)
         s["geometry"] = s.geometry.simplify(2500)
         s.plot(ax=ax, fc=br_fc, ec="#C3C9D0", lw=0.25, zorder=2)
     bz = countries("50m")
-    bz = bz[bz["NAME"] == "Brazil"].to_crs(crs)
-    bz["geometry"] = bz.geometry.simplify(2500)
-    bz.boundary.plot(ax=ax, color="#6D7A86", lw=0.6, zorder=3)
+    bz = bz[bz["NAME"] == "Brazil"]
+    bl = gpd.GeoSeries(bz.geometry.boundary.intersection(bb), crs=bz.crs).to_crs(crs).simplify(2500)
+    bl.plot(ax=ax, color="#6D7A86", lw=0.6, zorder=3)
 
 
 def xy(crs, lon, lat):

@@ -1,0 +1,24 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-laranja', 'Módulo E · Geografia econômica e globalização', 'Fontes: Hobsbawm, A era das revoluções; Harvey, A condição pós-moderna (1989); Schwab, A quarta revolução industrial (Fórum Econômico Mundial, 2016). Esquemas ilustrativos; datas aproximadas. ◆ = complemento independente (não consta no inventário).') %}
+{{ title('E1', 'Revoluções industriais e organização do trabalho') }}
+<p class="lead"><b>Fenômeno:</b> a produção industrial muda de escala, de lugar e de organização. <b>Causa:</b> novas fontes de energia e novas técnicas. <b>Mecanismo:</b> cada fase reorganiza o trabalho, a cidade e o consumo. <b>No ENEM:</b> reconhecer o modelo produtivo (taylorismo, fordismo ou toyotismo) pelas pistas do texto e prever as consequências para o trabalhador.</p>
+
+{{ figure('rev_industriais', '<span class="t">Figura E1.</span> Fases da industrialização (datas aproximadas). A 4ª fase é um <b>conceito</b> (K. Schwab, 2016), ainda discutido por historiadores.', '') }}
+{{ figure('taylor_ford_toyota', '', '') }}
+
+{{ chain([('Nova tecnologia ou novo modelo produtivo','laranja'),('Produtividade ↑','laranja'),('Menos postos em tarefas rotineiras','roxo'),('Desemprego estrutural e exigência de requalificação','vermelho'),('Novas ocupações (serviços, tecnologia)','roxo')], 'Encadeamento: automação e trabalho', 'Tendência, não regra: o saldo de empregos depende de políticas, educação e do ritmo de adoção da tecnologia.') }}
+
+<div class="g2">
+  {% call box('def', 'Indústria 4.0 ◆') %}<span class="xs">Integração de <b>sensores, internet das coisas, big data, inteligência artificial, robôs colaborativos e impressão 3D</b> à fábrica. Pode reduzir o peso da mão de obra barata na escolha do local, aumentar a exigência de qualificação e concentrar poder em quem controla dados e plataformas.</span>{% endcall %}
+  {% call box('enem') %}<span class="xs"><b>Pistas do texto:</b> “cronômetro”, “tempos e movimentos” → <b>taylorismo</b>; “esteira”, “produção em massa”, “padronização” → <b>fordismo</b>; “<i>just-in-time</i>”, “estoque mínimo”, “polivalente”, “equipes” → <b>toyotismo</b>.</span>{% endcall %}
+</div>
+<div class="g2">
+  {% call box('erro') %}<span class="xs"><b>Fordismo ≠ só linha de montagem.</b> Ele inclui salários e jornada que criam o <b>consumidor de massa</b>. <b>Toyotismo ≠ fim da hierarquia:</b> flexibiliza contratos e terceiriza, o que pode precarizar o trabalho.</span>{% endcall %}
+  {% call box('conex') %}<span class="xs"><b>História:</b> Revolução Industrial e imperialismo. <b>Sociologia:</b> alienação e divisão do trabalho (Marx). <b>Física:</b> máquina a vapor e eletricidade como fontes de energia.</span>{% endcall %}
+</div>
+
+<div class="q"><div class="qh">Questão · Modelos produtivos</div>
+  Um relato descreve uma fábrica em que as peças só chegam a uma etapa quando a etapa seguinte as solicita, o estoque é mínimo, cada operário opera várias máquinas e as equipes sugerem melhorias contínuas. Esse modelo de organização do trabalho é o
+  <ol class="two"><li>taylorista, por cronometrar cada gesto do operário.</li><li>fordista, por produzir em massa produtos padronizados.</li><li>toyotista, por adotar produção flexível, <i>just-in-time</i> e trabalhador polivalente.</li><li>artesanal, por depender de habilidades individuais.</li><li>manufatureiro, por não usar máquinas.</li></ol></div>
+<div class="gab"><p><b class="l">C</b>Gabarito comentado: peças “puxadas” pela demanda, estoque mínimo e polivalência são marcas do <b>toyotismo</b>. O taylorismo separa pensar e fazer e cronometra tarefas; o fordismo padroniza e produz em massa com estoques.</p></div>
+{% endcall %}

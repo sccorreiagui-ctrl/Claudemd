@@ -1,0 +1,44 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-laranja', 'Módulo E · Geografia econômica e globalização', 'Fontes: IBGE, Contas Nacionais Trimestrais (3/3/2026; participações calculadas dos valores correntes divulgados: agropecuária R$ 775,3 bi, indústria R$ 2,6 tri, serviços R$ 7,6 tri); MDIC (balança comercial 2025, divulgada em 6/1/2026); Leis 13.429/2017 e 13.467/2017; STF (2018). ◆ = complemento independente.') %}
+{{ title('E4', 'Trabalho, setores da economia e comércio exterior') }}
+<p class="lead"><b>Fenômeno:</b> o peso dos serviços cresce e o vínculo de trabalho muda. <b>Causas:</b> automação, abertura econômica, urbanização e novas formas de organizar a produção. <b>Consequências:</b> terceirização, informalidade, desemprego estrutural e trabalho por plataformas. <b>No ENEM:</b> distinguir conceitos parecidos pelo que cada um descreve (<i>contrato</i>, <i>estrutura da economia</i>, <i>causa do desemprego</i>).</p>
+
+<div class="g3">
+  <div class="stat"><b>≈ 7%</b><span>Agropecuária no valor adicionado do PIB, 2025</span></div>
+  <div class="stat"><b>≈ 24%</b><span>Indústria (extrativa, transformação, construção, energia)</span></div>
+  <div class="stat"><b>≈ 69%</b><span>Serviços (comércio, transportes, finanças, administração…)</span></div>
+</div>
+<div class="cap" style="margin-top:.8mm">Participação aproximada no <b>valor adicionado</b> de 2025 (IBGE). O terciário é dominante, mas o primário e o secundário seguem estratégicos (exportações e cadeias).</div>
+
+{{ figure('terc_terc', '', '') }}
+
+<div class="g2">
+  <div>{{ figure('desemprego_tipos', '', '') }}</div>
+  <div>
+    <h2 class="first">Informalidade e precarização</h2>
+    <ul class="sq xs">
+      <li><b>Informal:</b> sem carteira assinada ou sem registro (CNPJ), com menos proteção social.</li>
+      <li><b>Subocupação:</b> trabalha menos horas do que gostaria; <b>desalento:</b> desistiu de procurar emprego.</li>
+      <li><b>Precarização:</b> redução de direitos, instabilidade e baixos salários (comum com terceirização e jornadas flexíveis).</li>
+      <li><b>Uberização ◆:</b> trabalho intermediado por <b>aplicativos</b>, sem vínculo formal; custos (veículo, combustível) recaem sobre o trabalhador e o algoritmo define metas e preços.</li>
+    </ul>
+    {% call box('erro') %}<span class="xs"><b>Terceirizar ≠ terciarizar.</b> A primeira é um <b>arranjo de contratação</b>; a segunda, uma <b>mudança na estrutura</b> da economia. Desemprego estrutural não se resolve só com crescimento do PIB: exige <b>requalificação</b>.</span>{% endcall %}
+  </div>
+</div>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Comércio exterior ◆</h2>
+    <p class="xs"><b>Balança comercial</b> = exportações − importações; <b>superávit</b> quando exporta mais do que importa. Em <b>2025</b>, o Brasil exportou <b>US$ 348,7 bi</b>, importou <b>US$ 280,4 bi</b> e teve saldo de <b>US$ 68,3 bi</b>, menor que o de 2024 (US$ 74,2 bi). A pauta exportadora é dominada por <b>commodities</b> (soja, petróleo bruto, minério de ferro, carne bovina, café, milho), cujos preços são definidos no mercado internacional.</p>
+    {% call box('erro') %}<span class="xs"><b>Superávit comercial não significa, sozinho, economia forte:</b> depende do que se exporta (commodities × bens de maior valor agregado) e da oscilação de preços (<b>termos de troca</b>).</span>{% endcall %}
+  </div>
+  <div>{{ figure('balanca_comercial', '', '') }}</div>
+</div>
+
+{{ chain([('Automação e reorganização das empresas','laranja'),('Fecham ocupações rotineiras','roxo'),('Desemprego estrutural','vermelho'),('Informalidade, bicos e plataformas','roxo'),('Pressão por qualificação e proteção social','cinza')], 'Encadeamento', 'Tendência observada em vários países; a intensidade depende de políticas públicas e do mercado de cada setor.') }}
+
+<div class="q"><div class="qh">Questão · Trabalho e emprego</div>
+  Com a difusão de máquinas de autoatendimento e softwares de gestão, muitas ocupações de caixa e digitador desapareceram mesmo em períodos de crescimento do PIB, enquanto cresceu o trabalho por aplicativos, sem vínculo formal. Esse quadro ilustra, respectivamente,
+  <ol class="two"><li>desemprego conjuntural e terciarização.</li><li>desemprego estrutural e uberização.</li><li>desemprego sazonal e terceirização.</li><li>pleno emprego e informalização.</li><li>êxodo rural e neotaylorismo.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: ocupações eliminadas pela tecnologia mesmo com PIB em alta indicam <b>desemprego estrutural</b>; o trabalho intermediado por plataformas, sem vínculo, é a <b>uberização</b>. O desemprego conjuntural cai com a retomada do crescimento.</p></div>
+{% endcall %}

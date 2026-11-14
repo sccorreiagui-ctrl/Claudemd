@@ -1,0 +1,34 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-laranja', 'Módulo E · Geografia econômica e globalização', 'Fontes: Harvey, A condição pós-moderna (1989); Santos, M., Por uma outra globalização (2000); Shih, S. (curva do sorriso, 1992). Exemplos de países ilustrativos. ◆ = complemento independente.') %}
+{{ title('E3', 'Globalização, divisão internacional do trabalho e cadeias globais') }}
+<p class="lead"><b>Fenômeno:</b> integração crescente de economias, culturas e informações. <b>Causas:</b> avanços em transportes e telecomunicações, abertura econômica e expansão das <b>transnacionais</b>. <b>Mecanismo:</b> a produção é fragmentada em vários países. <b>Consequências:</b> mais comércio e fluxos de capital, desigualdades e vulnerabilidade a crises.</p>
+
+{{ figure('dit_esquema', '', '') }}
+{{ figure('cadeia_global', '<span class="t">Figura E3.</span> Cadeia global (exemplo ilustrativo) e “curva do sorriso” ◆ (S. Shih, 1992).', '') }}
+
+<div class="g2">
+  <div>{{ figure('compressao_espaco_tempo', '', '') }}</div>
+  <div>
+    <h2 class="first">Milton Santos: três globalizações</h2>
+    <ul class="sq xs">
+      <li><b>Fábula:</b> o mundo “como nos fazem vê-lo” (aldeia global).</li>
+      <li><b>Perversidade:</b> o mundo “como ele é” (desigualdade, desemprego).</li>
+      <li><b>Possibilidade:</b> “outra globalização”, mais solidária.</li>
+    </ul>
+    <p class="xs mt1"><b>Meio técnico-científico-informacional (MTCI):</b> espaço onde ciência, técnica e informação se fundem à produção; é <b>seletivo</b>, concentrado em certas regiões.</p>
+    <h2>Contêiner ◆</h2>
+    <p class="xs">Caixa padronizada (anos 1950) que passa de navio a trem e caminhão sem abrir a carga: <b>barateou o frete</b> e viabilizou as cadeias globais.</p>
+  </div>
+</div>
+
+<div class="g3">
+  {% call box('def', 'Transnacional') %}<span class="xs">Empresa com sede em um país e unidades em vários. Decide por <b>custos, mercado, incentivos e mão de obra</b>; pode usar paraísos fiscais e transferir lucros.</span>{% endcall %}
+  {% call box('erro') %}<span class="xs"><b>Globalização ≠ homogeneização total.</b> Há padronização de consumo, mas também <b>resistência e hibridização</b> cultural; e os benefícios são desiguais.</span>{% endcall %}
+  {% call box('enem') %}<span class="xs">“Peças de vários países montadas em outro” → <b>cadeia global</b>. “Profissionais qualificados emigram” → <b>fuga de cérebros</b>. “Encurtar o tempo” → <b>compressão espaço-tempo</b>.</span>{% endcall %}
+</div>
+
+<div class="q"><div class="qh">Questão · Cadeias globais</div>
+  Uma empresa projeta um aparelho em seu país, importa minérios de outro continente, compra componentes na Ásia, monta o produto em um país de salários baixos e o vende no mundo todo. Esse processo evidencia
+  <ol class="two"><li>a autarquia produtiva dos Estados nacionais.</li><li>a fragmentação da produção em cadeias globais, com ganhos desiguais entre os elos.</li><li>o fim da divisão internacional do trabalho.</li><li>a concentração de toda a cadeia em um só território.</li><li>o predomínio do artesanato local.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: a produção é <b>fragmentada</b> entre países conforme custos e competências, com mais valor em P&amp;D e marca. A divisão internacional do trabalho não acaba: reorganiza-se.</p></div>
+{% endcall %}
