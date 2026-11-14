@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343 176" width="343" height="176" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"  role="img"><title>Adrenalina</title><rect x="1" y="1" width="341" height="174" rx="9" fill="#FFFFFF" stroke="#E5EAF1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><svg x="94.06" y="30" width="154.88" height="92" viewBox="334.28 282.11 225.58 134" overflow="visible"><g opacity="0.26"><line x1="356.24" y1="349.47" x2="380.54" y2="335.56" stroke="#7C3AED" stroke-width="21.84" stroke-linecap="round"/><line x1="380.54" y1="335.56" x2="404.74" y2="349.64" stroke="#7C3AED" stroke-width="21.84" stroke-linecap="round"/><circle cx="380.54" cy="335.56" r="10.92" fill="#7C3AED"/><circle cx="356.24" cy="349.47" r="10.92" fill="#7C3AED"/><circle cx="404.74" cy="349.64" r="10.92" fill="#7C3AED"/></g><g opacity="0.26"><line x1="429.04" y1="335.73" x2="429.14" y2="307.73" stroke="#7C3AED" stroke-width="21.84" stroke-linecap="round"/><circle cx="429.04" cy="335.73" r="10.92" fill="#7C3AED"/><circle cx="429.14" cy="307.73" r="10.92" fill="#7C3AED"/></g><g opacity="0.26"><line x1="501.63" y1="377.99" x2="525.83" y2="392.07" stroke="#7C3AED" stroke-width="21.84" stroke-linecap="round"/><circle cx="525.83" cy="392.07" r="10.92" fill="#7C3AED"/><circle cx="501.63" cy="377.99" r="10.92" fill="#7C3AED"/></g><g opacity="0.26"><line x1="501.73" y1="349.99" x2="526.03" y2="336.08" stroke="#7C3AED" stroke-width="21.84" stroke-linecap="round"/><circle cx="526.03" cy="336.08" r="10.92" fill="#7C3AED"/><circle cx="501.73" cy="349.99" r="10.92" fill="#7C3AED"/></g><circle cx="351.28" cy="341.69" r="8.2" fill="#4C1D95"/><text x="351.28" y="345.29" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif">1</text><circle cx="410.31" cy="299.11" r="8.2" fill="#4C1D95"/><text x="410.31" y="302.71" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif">2</text><circle cx="539.54" cy="399.11" r="8.2" fill="#4C1D95"/><text x="539.54" y="402.71" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif">3</text><circle cx="542.86" cy="338.09" r="8.2" fill="#4C1D95"/><text x="542.86" y="341.69" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif">3</text>
+<path class='bond-0 atom-0 atom-1' d='M 356.2,349.5 L 373.4,339.6' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 387.7,339.7 L 404.7,349.6' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 404.7,349.6 L 429.0,335.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 429.0,335.7 L 429.1,316.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-3 atom-5' d='M 429.0,335.7 L 453.2,349.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 453.2,349.8 L 453.1,377.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-6 atom-7' d='M 453.1,377.8 L 477.3,391.9' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-6 atom-7' d='M 457.1,375.6 L 477.3,387.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-7 atom-8' d='M 477.3,391.9 L 501.6,378.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-8 atom-8 atom-9' d='M 501.6,378.0 L 517.7,387.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-9 atom-8 atom-10' d='M 501.6,378.0 L 501.7,350.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-9 atom-8 atom-10' d='M 497.7,375.7 L 497.8,352.2' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 501.7,350.0 L 517.9,340.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-11 atom-10 atom-12' d='M 501.7,350.0 L 477.5,335.9' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-12 atom-12 atom-5' d='M 477.5,335.9 L 453.2,349.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-12 atom-12 atom-5' d='M 477.5,340.4 L 457.1,352.1' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 403.9,349.1 L 404.7,349.6 L 406.0,348.9' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 453.1,376.4 L 453.1,377.8 L 454.3,378.5' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 476.1,391.2 L 477.3,391.9 L 478.5,391.2' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 478.7,336.6 L 477.5,335.9 L 476.3,336.6' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-1' d='M 377.7 329.2
+L 381.9 335.9
+Q 382.3 336.6, 383.0 337.8
+Q 383.6 339.0, 383.7 339.1
+L 383.7 329.2
+L 385.4 329.2
+L 385.4 341.9
+L 383.6 341.9
+L 379.2 334.6
+Q 378.6 333.7, 378.1 332.7
+Q 377.5 331.7, 377.4 331.4
+L 377.4 341.9
+L 375.7 341.9
+L 375.7 329.2
+L 377.7 329.2
+' fill='#1F2937'/>
+<path class='atom-1' d='M 375.6 315.3
+L 377.3 315.3
+L 377.3 320.7
+L 383.8 320.7
+L 383.8 315.3
+L 385.5 315.3
+L 385.5 327.9
+L 383.8 327.9
+L 383.8 322.1
+L 377.3 322.1
+L 377.3 327.9
+L 375.6 327.9
+L 375.6 315.3
+' fill='#1F2937'/>
+<path class='atom-4' d='M 423.3 307.8
+Q 423.3 304.7, 424.8 303.0
+Q 426.3 301.3, 429.1 301.3
+Q 432.0 301.3, 433.5 303.0
+Q 435.0 304.7, 435.0 307.8
+Q 435.0 310.8, 433.4 312.6
+Q 431.9 314.3, 429.1 314.3
+Q 426.3 314.3, 424.8 312.6
+Q 423.3 310.9, 423.3 307.8
+M 429.1 312.9
+Q 431.1 312.9, 432.1 311.6
+Q 433.2 310.3, 433.2 307.8
+Q 433.2 305.3, 432.1 304.0
+Q 431.1 302.7, 429.1 302.7
+Q 427.2 302.7, 426.1 304.0
+Q 425.1 305.3, 425.1 307.8
+Q 425.1 310.3, 426.1 311.6
+Q 427.2 312.9, 429.1 312.9
+' fill='#1F2937'/>
+<path class='atom-4' d='M 436.9 301.5
+L 438.7 301.5
+L 438.7 306.9
+L 445.1 306.9
+L 445.1 301.5
+L 446.9 301.5
+L 446.9 314.1
+L 445.1 314.1
+L 445.1 308.3
+L 438.7 308.3
+L 438.7 314.1
+L 436.9 314.1
+L 436.9 301.5
+' fill='#1F2937'/>
+<path class='atom-9' d='M 520.0 392.1
+Q 520.0 389.1, 521.5 387.4
+Q 523.0 385.7, 525.8 385.7
+Q 528.6 385.7, 530.1 387.4
+Q 531.7 389.1, 531.7 392.1
+Q 531.7 395.2, 530.1 396.9
+Q 528.6 398.7, 525.8 398.7
+Q 523.0 398.7, 521.5 396.9
+Q 520.0 395.2, 520.0 392.1
+M 525.8 397.3
+Q 527.8 397.3, 528.8 396.0
+Q 529.9 394.7, 529.9 392.1
+Q 529.9 389.6, 528.8 388.4
+Q 527.8 387.1, 525.8 387.1
+Q 523.9 387.1, 522.8 388.3
+Q 521.8 389.6, 521.8 392.1
+Q 521.8 394.7, 522.8 396.0
+Q 523.9 397.3, 525.8 397.3
+' fill='#1F2937'/>
+<path class='atom-9' d='M 533.6 385.8
+L 535.3 385.8
+L 535.3 391.2
+L 541.8 391.2
+L 541.8 385.8
+L 543.6 385.8
+L 543.6 398.5
+L 541.8 398.5
+L 541.8 392.6
+L 535.3 392.6
+L 535.3 398.5
+L 533.6 398.5
+L 533.6 385.8
+' fill='#1F2937'/>
+<path class='atom-11' d='M 520.2 336.1
+Q 520.2 333.1, 521.7 331.4
+Q 523.2 329.7, 526.0 329.7
+Q 528.8 329.7, 530.3 331.4
+Q 531.9 333.1, 531.9 336.1
+Q 531.9 339.2, 530.3 341.0
+Q 528.8 342.7, 526.0 342.7
+Q 523.2 342.7, 521.7 341.0
+Q 520.2 339.2, 520.2 336.1
+M 526.0 341.3
+Q 528.0 341.3, 529.0 340.0
+Q 530.1 338.7, 530.1 336.1
+Q 530.1 333.6, 529.0 332.4
+Q 528.0 331.1, 526.0 331.1
+Q 524.1 331.1, 523.0 332.4
+Q 522.0 333.6, 522.0 336.1
+Q 522.0 338.7, 523.0 340.0
+Q 524.1 341.3, 526.0 341.3
+' fill='#1F2937'/>
+<path class='atom-11' d='M 533.8 329.8
+L 535.5 329.8
+L 535.5 335.2
+L 542.0 335.2
+L 542.0 329.8
+L 543.8 329.8
+L 543.8 342.5
+L 542.0 342.5
+L 542.0 336.6
+L 535.5 336.6
+L 535.5 342.5
+L 533.8 342.5
+L 533.8 329.8
+' fill='#1F2937'/>
+</svg><text x="10" y="17" font-size="12" text-anchor="start" font-weight="800" fill="#1F2937">Adrenalina</text><text x="333" y="17" font-size="10.4" text-anchor="end" font-weight="600" fill="#5B6575"><tspan>C</tspan><tspan dy="2.5" font-size="7.49">9</tspan><tspan dy="-2.5" font-size="10.4">H</tspan><tspan dy="2.5" font-size="7.49">13</tspan><tspan dy="-2.5" font-size="10.4">NO</tspan><tspan dy="2.5" font-size="7.49">3</tspan></text><circle cx="18.5" cy="143.5" r="7.2" fill="#4C1D95"/><text x="18.5" y="147" font-size="9.8" text-anchor="middle" font-weight="800" fill="#FFFFFF">1</text><text x="29" y="147" font-size="10.4" text-anchor="start" font-weight="600" fill="#1F2937">amina secundária</text><circle cx="178" cy="143.5" r="7.2" fill="#4C1D95"/><text x="178" y="147" font-size="9.8" text-anchor="middle" font-weight="800" fill="#FFFFFF">2</text><text x="188.5" y="147" font-size="10.4" text-anchor="start" font-weight="600" fill="#1F2937">álcool</text><circle cx="18.5" cy="160.5" r="7.2" fill="#4C1D95"/><text x="18.5" y="164" font-size="9.8" text-anchor="middle" font-weight="800" fill="#FFFFFF">3</text><text x="29" y="164" font-size="10.4" text-anchor="start" font-weight="600" fill="#1F2937">fenol (× 2)</text></svg>

@@ -158,7 +158,22 @@ def parse_page(path):
     return meta, raw
 
 
+QNUM = {}
+
+
+def assign_questions(metas):
+    """Numera {{q:chave}} na ordem das páginas/aparição."""
+    k = 0
+    for m in metas:
+        for mm in re.finditer(r"\{\{q:(\w+)\}\}", m["raw"]):
+            if mm.group(1) not in QNUM:
+                k += 1
+                QNUM[mm.group(1)] = k
+
+
 def apply_macros(text, pages_idx):
+    text = re.sub(r"\{\{q:(\w+)\}\}", lambda m: str(QNUM[m.group(1)]), text)
+    text = re.sub(r"\{\{qn:(\w+)\}\}", lambda m: str(QNUM.get(m.group(1), "?")), text)
     # ícones
     text = re.sub(r"\{\{icon:(\w+)\}\}", lambda m: ICONS[m.group(1)], text)
     # número de página
@@ -187,6 +202,7 @@ def build_html(selected=None):
         meta["raw"] = raw
         metas.append(meta)
     pages_idx = {m.get("key", f"p{m['n']:02d}"): m["n"] for m in metas}
+    assign_questions(metas)
     sections = []
     for meta in metas:
         body = apply_macros(meta["raw"], pages_idx)
@@ -280,6 +296,7 @@ def main():
     html_path, metas = build_html()
     pdf_tmp, audit = render_pdf(html_path)
     out_pdf, npages = finalize_pdf(pdf_tmp, metas)
+    print("Questões:", len(QNUM), dict(list(QNUM.items())[:3]), "...")
     if MISSING_KEYS:
         print("AVISO: chaves {{pg:..}} sem página:", sorted(MISSING_KEYS))
     print(f"PDF: {out_pdf} — {npages} páginas ({len(metas)} fontes)")

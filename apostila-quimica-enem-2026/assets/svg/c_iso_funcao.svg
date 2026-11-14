@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343 98" width="343" height="98" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"  role="img"><svg x="49.53" y="11.98" width="72.45" height="34.03" viewBox="418.5 336.8 63 29.59" overflow="visible"><g opacity="0.26"><circle cx="438.38" cy="352.81" r="8.58" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 476.5,352.8 L 457.4,341.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 457.4,341.8 L 444.9,349.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 458.4,342.4 L 457.4,341.8 L 456.8,342.2' style='fill:none;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 423.5 347.7
+L 424.9 347.7
+L 424.9 352.1
+L 430.2 352.1
+L 430.2 347.7
+L 431.6 347.7
+L 431.6 358.0
+L 430.2 358.0
+L 430.2 353.3
+L 424.9 353.3
+L 424.9 358.0
+L 423.5 358.0
+L 423.5 347.7
+' fill='#1F2937'/>
+<path class='atom-2' d='M 433.7 352.8
+Q 433.7 350.4, 434.9 349.0
+Q 436.1 347.6, 438.4 347.6
+Q 440.7 347.6, 441.9 349.0
+Q 443.1 350.4, 443.1 352.8
+Q 443.1 355.3, 441.9 356.8
+Q 440.6 358.2, 438.4 358.2
+Q 436.1 358.2, 434.9 356.8
+Q 433.7 355.4, 433.7 352.8
+M 438.4 357.0
+Q 440.0 357.0, 440.8 356.0
+Q 441.7 354.9, 441.7 352.8
+Q 441.7 350.8, 440.8 349.8
+Q 440.0 348.8, 438.4 348.8
+Q 436.8 348.8, 436.0 349.8
+Q 435.1 350.8, 435.1 352.8
+Q 435.1 354.9, 436.0 356.0
+Q 436.8 357.0, 438.4 357.0
+' fill='#1F2937'/>
+</svg><text x="85.75" y="67" font-size="10.6" text-anchor="middle" font-weight="800" fill="#1F2937">etanol</text><text x="85.75" y="79" font-size="9.6" text-anchor="middle" fill="#5B6575">álcool</text><text x="85.75" y="91" font-size="9.6" text-anchor="middle" font-weight="700" fill="#4C1D95"><tspan>C</tspan><tspan dy="2.3" font-size="6.91">2</tspan><tspan dy="-2.3" font-size="9.6">H</tspan><tspan dy="2.3" font-size="6.91">6</tspan><tspan dy="-2.3" font-size="9.6">O</tspan></text><text x="171.5" y="34" font-size="15" text-anchor="middle" font-weight="700" fill="#5B6575">×</text><svg x="229.53" y="11.97" width="55.43" height="34.06" viewBox="425.9 333.48 48.2 29.62" overflow="visible"><g opacity="0.26"><circle cx="450.04" cy="347.06" r="8.58" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 430.9,358.0 L 443.5,350.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 456.6,350.9 L 469.1,358.1' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 445.3 347.1
+Q 445.3 344.6, 446.5 343.2
+Q 447.8 341.9, 450.0 341.9
+Q 452.3 341.9, 453.5 343.2
+Q 454.8 344.6, 454.8 347.1
+Q 454.8 349.6, 453.5 351.0
+Q 452.3 352.4, 450.0 352.4
+Q 447.8 352.4, 446.5 351.0
+Q 445.3 349.6, 445.3 347.1
+M 450.0 351.3
+Q 451.6 351.3, 452.4 350.2
+Q 453.3 349.2, 453.3 347.1
+Q 453.3 345.1, 452.4 344.1
+Q 451.6 343.0, 450.0 343.0
+Q 448.5 343.0, 447.6 344.0
+Q 446.8 345.1, 446.8 347.1
+Q 446.8 349.2, 447.6 350.2
+Q 448.5 351.3, 450.0 351.3
+' fill='#1F2937'/>
+</svg><text x="257.25" y="67" font-size="10.6" text-anchor="middle" font-weight="800" fill="#1F2937">éter dimetílico</text><text x="257.25" y="79" font-size="9.6" text-anchor="middle" fill="#5B6575">éter</text><text x="257.25" y="91" font-size="9.6" text-anchor="middle" font-weight="700" fill="#4C1D95"><tspan>C</tspan><tspan dy="2.3" font-size="6.91">2</tspan><tspan dy="-2.3" font-size="9.6">H</tspan><tspan dy="2.3" font-size="6.91">6</tspan><tspan dy="-2.3" font-size="9.6">O</tspan></text></svg>

@@ -52,13 +52,15 @@ def formula_of(smiles):
 
 
 def mol(smiles, bond=30, hl=None, hl_color=None, labels=None, formula=None, margin=9, font=0.62, lw=1.8,
-        mark=None, rotate=0, hl_alpha=0.26, hl_w=None, seed_coords=None, add_h=None, flip_x=False):
+        mark=None, rotate=0, hl_alpha=0.26, hl_w=None, seed_coords=None, add_h=False, flip_x=False,
+        atom_marks=None, ghost_color=None, horizontal=False):
     """Desenha a molécula.
 
     hl     : lista de SMARTS (ou (SMARTS, cor)) a destacar (cor padrão = roxo semântico)
     labels : {índice_do_átomo_fictício: 'R'}; átomos '*' recebem 'R' por padrão
     mark   : lista de (SMARTS, 'rótulo') para marcadores numerados fora da molécula
-    add_h  : lista de índices de átomos que devem mostrar H explícito
+    add_h  : True para mostrar todos os hidrogênios explícitos (fórmula estrutural plana)
+    atom_marks : {índice: 'texto' | ('texto','badge'|'ghost')} marcadores junto a átomos
     """
     m = Chem.MolFromSmiles(smiles)
     if m is None:
@@ -66,10 +68,24 @@ def mol(smiles, bond=30, hl=None, hl_color=None, labels=None, formula=None, marg
     fml = rdMolDescriptors.CalcMolFormula(m)
     if formula is not None and Chem.MolToSmiles(m) and fml != formula:
         raise ValueError(f"Fórmula divergente para {smiles}: esperado {formula}, RDKit calculou {fml}")
+    if add_h:
+        m = Chem.AddHs(m)
     for a in m.GetAtoms():
         if a.GetAtomicNum() == 0:
             a.SetProp("atomLabel", (labels or {}).get(a.GetIdx(), "R"))
+        elif labels and a.GetIdx() in labels:
+            a.SetProp("atomLabel", labels[a.GetIdx()])
     rdDepictor.Compute2DCoords(m)
+    if horizontal:
+        import numpy as _np
+        conf = m.GetConformer()
+        P = _np.array([[conf.GetAtomPosition(i).x, conf.GetAtomPosition(i).y] for i in range(m.GetNumAtoms())])
+        P0 = P - P.mean(axis=0)
+        w_, v_ = _np.linalg.eigh(P0.T @ P0)
+        ang_ = -math.atan2(v_[1, 1], v_[0, 1])
+        for i in range(m.GetNumAtoms()):
+            x_, y_ = P0[i]
+            conf.SetAtomPosition(i, (x_ * math.cos(ang_) - y_ * math.sin(ang_), x_ * math.sin(ang_) + y_ * math.cos(ang_), 0))
     if rotate:
         # gira coordenadas manualmente (graus)
         conf = m.GetConformer()
@@ -154,21 +170,63 @@ def mol(smiles, bond=30, hl=None, hl_color=None, labels=None, formula=None, marg
         cy_m = sum(c[1] for c in coords) / len(coords)
         for smarts, lab in mark:
             patt = Chem.MolFromSmarts(smarts)
-            mt = m.GetSubstructMatches(patt)
-            if not mt:
+            mts = m.GetSubstructMatches(patt)
+            if not mts:
                 raise ValueError(f"Marcador '{smarts}' não encontrado em {smiles}")
-            mt = mt[0]
-            gx = sum(coords[i][0] for i in mt) / len(mt)
-            gy = sum(coords[i][1] for i in mt) / len(mt)
-            dx, dy = gx - cx_m, gy - cy_m
-            L = math.hypot(dx, dy) or 1.0
-            dx, dy = (dx / L, dy / L) if L > 1e-6 else (0.0, -1.0)
-            px, py = gx + dx * (bond * 1.05), gy + dy * (bond * 1.05)
-            shapes.append(f'<circle cx="{n(px)}" cy="{n(py)}" r="8.2" fill="{C["purple_d"]}"/>'
-                          f'<text x="{n(px)}" y="{n(py + 3.6)}" font-size="10.5" font-weight="700" fill="#fff" '
-                          f'text-anchor="middle" font-family="{FONT_STACK}">{esc(lab)}</text>')
-            x0, x1 = min(x0, px - 9), max(x1, px + 9)
-            y0, y1 = min(y0, py - 9), max(y1, py + 9)
+            seen = set()
+            for mt in mts:
+                key = tuple(sorted(mt))
+                if key in seen:
+                    continue
+                seen.add(key)
+                gx = sum(coords[i][0] for i in mt) / len(mt)
+                gy = sum(coords[i][1] for i in mt) / len(mt)
+                dx, dy = gx - cx_m, gy - cy_m
+                L = math.hypot(dx, dy) or 1.0
+                dx, dy = (dx / L, dy / L) if L > 1e-6 else (0.0, -1.0)
+                px, py = gx + dx * (bond * 1.05), gy + dy * (bond * 1.05)
+                shapes.append(f'<circle cx="{n(px)}" cy="{n(py)}" r="8.2" fill="{C["purple_d"]}"/>'
+                              f'<text x="{n(px)}" y="{n(py + 3.6)}" font-size="10.5" font-weight="700" fill="#fff" '
+                              f'text-anchor="middle" font-family="{FONT_STACK}">{esc(lab)}</text>')
+                x0, x1 = min(x0, px - 9), max(x1, px + 9)
+                y0, y1 = min(y0, py - 9), max(y1, py + 9)
+
+    if atom_marks:
+        for idx, val in atom_marks.items():
+            if isinstance(val, tuple):
+                text, kind = val[0], val[1]
+                off = val[2] if len(val) > 2 else None
+            else:
+                text, kind, off = val, "badge", None
+            ax, ay = coords[idx]
+            nb = [coords[b.GetOtherAtomIdx(idx)] for b in m.GetAtomWithIdx(idx).GetBonds()]
+            # direção livre: ângulo que maximiza a menor distância angular às ligações do átomo
+            bang = [math.atan2(by_ - ay, bx_ - ax) for (bx_, by_) in nb]
+            best, bestd = None, -1.0
+            for k in range(72):
+                a_ = -math.pi + 2 * math.pi * k / 72
+                dmin = min((abs((a_ - b_ + math.pi) % (2 * math.pi) - math.pi) for b_ in bang), default=math.pi)
+                if dmin > bestd + 1e-9:
+                    best, bestd = a_, dmin
+            ux, uy = math.cos(best), math.sin(best)
+            dist = bond * 0.66 if kind == "badge" else bond * 0.62
+            px, py = ax + ux * dist, ay + uy * dist
+            if off is not None:
+                px, py = ax + off[0], ay + off[1]
+            if kind == "badge":
+                shapes.append(f'<circle cx="{n(px)}" cy="{n(py)}" r="7.6" fill="{C["purple_d"]}"/>'
+                              f'<text x="{n(px)}" y="{n(py + 3.5)}" font-size="10" font-weight="700" fill="#fff" '
+                              f'text-anchor="middle" font-family="{FONT_STACK}">{esc(text)}</text>')
+                x0, x1 = min(x0, px - 8), max(x1, px + 8)
+                y0, y1 = min(y0, py - 8), max(y1, py + 8)
+            else:
+                from svglib import tspans
+                gc = ghost_color or C["muted"]
+                shapes.append(f'<text x="{n(px)}" y="{n(py + 3.6)}" font-size="9.6" font-weight="600" fill="{gc}" '
+                              f'text-anchor="middle" font-family="{FONT_STACK}">{tspans(text, 9.6)}</text>')
+                w_ = tw(text, 9.6, 600)
+                x0, x1 = min(x0, px - w_ / 2 - 2), max(x1, px + w_ / 2 + 2)
+                y0, y1 = min(y0, py - 9), max(y1, py + 9)
 
     inner = "".join(shapes) + inner
     x0 -= margin
@@ -205,13 +263,14 @@ def scheme(items, gap=14, height=None, pad=4, arrow_len=64, color=None):
             top = it[1] or ""
             bot = it[2] if len(it) > 2 else ""
             w = max(arrow_len, tw(top, 9.6, 600) + 8, tw(bot, 9.6, 600) + 8)
-            measured.append((it, w, 30))
+            measured.append((it, w, 34))
         elif k == "text":
             sz = it[2] if len(it) > 2 else 12
             measured.append((it, tw(it[1], sz, 600), sz + 2))
         elif k == "space":
             measured.append((it, it[1], 1))
-    H = height or maxh + 2 * pad
+    hmin = max([h for _, _, h in measured] + [0])
+    H = height or max(maxh, hmin + 4) + 2 * pad
     W = sum(w for _, w, _ in measured) + gap * (len(measured) - 1) + 2 * pad
     cy = H / 2
     out = []

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 695 138" width="695" height="138" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"  role="img"><title>Fórmula condensada, estrutural plana e de linha</title><rect x="8" y="4" width="223.67" height="130" rx="9" fill="#FFFFFF" stroke="#E5EAF1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><text x="119.83" y="22" font-size="12" text-anchor="middle" font-weight="800" fill="#4C1D95">1 · Condensada</text><text x="119.83" y="35" font-size="10" text-anchor="middle" fill="#5B6575">agrupa os átomos de cada carbono</text><rect x="235.67" y="4" width="223.67" height="130" rx="9" fill="#FFFFFF" stroke="#E5EAF1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><text x="347.5" y="22" font-size="12" text-anchor="middle" font-weight="800" fill="#4C1D95">2 · Estrutural plana</text><text x="347.5" y="35" font-size="10" text-anchor="middle" fill="#5B6575">mostra todos os átomos e ligações</text><rect x="463.33" y="4" width="223.67" height="130" rx="9" fill="#FFFFFF" stroke="#E5EAF1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><text x="575.17" y="22" font-size="12" text-anchor="middle" font-weight="800" fill="#4C1D95">3 · De linha (zigue-zague)</text><text x="575.17" y="35" font-size="10" text-anchor="middle" fill="#5B6575">só o esqueleto; o resto é subentendido</text><text x="119.83" y="76" font-size="17" text-anchor="middle" font-weight="700" fill="#1F2937"><tspan>CH</tspan><tspan dy="4.08" font-size="12.24">3</tspan><tspan dy="-4.08" font-size="17">–CH(OH)–CH</tspan><tspan dy="4.08" font-size="12.24">3</tspan></text><text x="119.83" y="98" font-size="12" text-anchor="middle" font-weight="600" fill="#5B6575"><tspan>ou  CH</tspan><tspan dy="2.88" font-size="8.64">3</tspan><tspan dy="-2.88" font-size="12">CH(OH)CH</tspan><tspan dy="2.88" font-size="8.64">3</tspan></text><text x="119.83" y="124" font-size="10.4" text-anchor="middle" font-weight="600" fill="#5B6575">propan-2-ol (álcool isopropílico)</text><svg x="303.59" y="35.58" width="87.83" height="82.84" viewBox="393.7 296.9 112.6 106.2" overflow="visible"><g opacity="0.26"><circle cx="463.61" cy="332" r="9.36" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 430.8,364.8 L 451.6,352.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 451.6,352.8 L 472.4,364.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 451.6,352.8 L 459.3,339.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-0 atom-4' d='M 430.8,364.8 L 423.0,351.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-0 atom-5' d='M 430.8,364.8 L 412.9,364.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-0 atom-6' d='M 430.8,364.8 L 430.8,381.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-1 atom-7' d='M 451.6,352.8 L 443.8,339.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-2 atom-8' d='M 472.4,364.8 L 464.6,378.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-8 atom-2 atom-9' d='M 472.4,364.8 L 480.2,378.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-9 atom-2 atom-10' d='M 472.4,364.8 L 487.1,356.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-3 atom-11' d='M 459.4,324.7 L 455.8,318.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-3' d='M 458.8 332.0
+Q 458.8 329.5, 460.0 328.1
+Q 461.3 326.7, 463.6 326.7
+Q 465.9 326.7, 467.2 328.1
+Q 468.4 329.5, 468.4 332.0
+Q 468.4 334.6, 467.2 336.0
+Q 465.9 337.5, 463.6 337.5
+Q 461.3 337.5, 460.0 336.0
+Q 458.8 334.6, 458.8 332.0
+M 463.6 336.3
+Q 465.2 336.3, 466.1 335.2
+Q 467.0 334.1, 467.0 332.0
+Q 467.0 330.0, 466.1 328.9
+Q 465.2 327.9, 463.6 327.9
+Q 462.0 327.9, 461.1 328.9
+Q 460.3 329.9, 460.3 332.0
+Q 460.3 334.2, 461.1 335.2
+Q 462.0 336.3, 463.6 336.3
+' fill='#1F2937'/>
+<path class='atom-4' d='M 414.7 338.7
+L 416.1 338.7
+L 416.1 343.2
+L 421.5 343.2
+L 421.5 338.7
+L 422.9 338.7
+L 422.9 349.3
+L 421.5 349.3
+L 421.5 344.4
+L 416.1 344.4
+L 416.1 349.3
+L 414.7 349.3
+L 414.7 338.7
+' fill='#1F2937'/>
+<path class='atom-5' d='M 402.7 359.5
+L 404.1 359.5
+L 404.1 364.0
+L 409.5 364.0
+L 409.5 359.5
+L 410.9 359.5
+L 410.9 370.1
+L 409.5 370.1
+L 409.5 365.2
+L 404.1 365.2
+L 404.1 370.1
+L 402.7 370.1
+L 402.7 359.5
+' fill='#1F2937'/>
+<path class='atom-6' d='M 426.7 383.5
+L 428.1 383.5
+L 428.1 388.0
+L 433.5 388.0
+L 433.5 383.5
+L 434.9 383.5
+L 434.9 394.1
+L 433.5 394.1
+L 433.5 389.2
+L 428.1 389.2
+L 428.1 394.1
+L 426.7 394.1
+L 426.7 383.5
+' fill='#1F2937'/>
+<path class='atom-7' d='M 435.5 326.7
+L 436.9 326.7
+L 436.9 331.2
+L 442.3 331.2
+L 442.3 326.7
+L 443.7 326.7
+L 443.7 337.3
+L 442.3 337.3
+L 442.3 332.4
+L 436.9 332.4
+L 436.9 337.3
+L 435.5 337.3
+L 435.5 326.7
+' fill='#1F2937'/>
+<path class='atom-8' d='M 456.3 380.3
+L 457.7 380.3
+L 457.7 384.8
+L 463.1 384.8
+L 463.1 380.3
+L 464.5 380.3
+L 464.5 390.8
+L 463.1 390.8
+L 463.1 386.0
+L 457.7 386.0
+L 457.7 390.8
+L 456.3 390.8
+L 456.3 380.3
+' fill='#1F2937'/>
+<path class='atom-9' d='M 480.3 380.3
+L 481.7 380.3
+L 481.7 384.8
+L 487.1 384.8
+L 487.1 380.3
+L 488.5 380.3
+L 488.5 390.8
+L 487.1 390.8
+L 487.1 386.0
+L 481.7 386.0
+L 481.7 390.8
+L 480.3 390.8
+L 480.3 380.3
+' fill='#1F2937'/>
+<path class='atom-10' d='M 489.1 347.5
+L 490.5 347.5
+L 490.5 352.0
+L 495.9 352.0
+L 495.9 347.5
+L 497.3 347.5
+L 497.3 358.1
+L 495.9 358.1
+L 495.9 353.2
+L 490.5 353.2
+L 490.5 358.1
+L 489.1 358.1
+L 489.1 347.5
+' fill='#1F2937'/>
+<path class='atom-11' d='M 447.5 305.9
+L 448.9 305.9
+L 448.9 310.4
+L 454.3 310.4
+L 454.3 305.9
+L 455.7 305.9
+L 455.7 316.5
+L 454.3 316.5
+L 454.3 311.6
+L 448.9 311.6
+L 448.9 316.5
+L 447.5 316.5
+L 447.5 305.9
+' fill='#1F2937'/>
+</svg><text x="347.5" y="124" font-size="10.4" text-anchor="middle" font-weight="600" fill="#5B6575"><tspan>todos os H aparecem (C</tspan><tspan dy="2.5" font-size="7.49">3</tspan><tspan dy="-2.5" font-size="10.4">H</tspan><tspan dy="2.5" font-size="7.49">8</tspan><tspan dy="-2.5" font-size="10.4">O)</tspan></text><svg x="516.64" y="35.15" width="117.05" height="89.7" viewBox="386.39 308.02 127.23 97.5" overflow="visible"><g opacity="0.26"><circle cx="450.17" cy="329.5" r="12.48" fill="#7C3AED"/></g><text x="494.89" y="391.12" font-size="9.6" font-weight="600" fill="#5B6575" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"><tspan>CH</tspan><tspan dy="2.3" font-size="6.91">3</tspan></text><text x="472.06" y="377.1" font-size="9.6" font-weight="600" fill="#5B6575" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif">CH</text><text x="405.11" y="390.92" font-size="9.6" font-weight="600" fill="#5B6575" text-anchor="middle" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"><tspan>CH</tspan><tspan dy="2.3" font-size="6.91">3</tspan></text>
+<path class='bond-0 atom-0 atom-1' d='M 477.7,377.6 L 450.1,361.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 450.1,361.5 L 422.3,377.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 450.1,361.5 L 450.1,339.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-3' d='M 443.7 329.5
+Q 443.7 326.2, 445.4 324.3
+Q 447.1 322.4, 450.2 322.4
+Q 453.3 322.4, 455.0 324.3
+Q 456.6 326.2, 456.6 329.5
+Q 456.6 333.0, 454.9 334.9
+Q 453.2 336.8, 450.2 336.8
+Q 447.1 336.8, 445.4 334.9
+Q 443.7 333.0, 443.7 329.5
+M 450.2 335.2
+Q 452.3 335.2, 453.5 333.8
+Q 454.6 332.4, 454.6 329.5
+Q 454.6 326.8, 453.5 325.4
+Q 452.3 324.0, 450.2 324.0
+Q 448.0 324.0, 446.9 325.4
+Q 445.7 326.8, 445.7 329.5
+Q 445.7 332.4, 446.9 333.8
+Q 448.0 335.2, 450.2 335.2
+' fill='#1F2937'/>
+<path class='atom-3' d='M 458.8 322.6
+L 460.7 322.6
+L 460.7 328.5
+L 467.9 328.5
+L 467.9 322.6
+L 469.8 322.6
+L 469.8 336.6
+L 467.9 336.6
+L 467.9 330.1
+L 460.7 330.1
+L 460.7 336.6
+L 458.8 336.6
+L 458.8 322.6
+' fill='#1F2937'/>
+</svg><text x="575.17" y="124" font-size="10.4" text-anchor="middle" font-weight="600" fill="#5B6575">cada ponta/vértice = 1 C · H subentendidos</text></svg>

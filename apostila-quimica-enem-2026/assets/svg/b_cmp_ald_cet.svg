@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222 120" width="222" height="120" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"  role="img"><svg x="21.89" y="17.37" width="67.22" height="45.26" viewBox="413.68 331.23 67.22 45.26" overflow="visible"><g opacity="0.26"><line x1="452.34" y1="360.35" x2="429.82" y2="347.37" stroke="#7C3AED" stroke-width="20.28" stroke-linecap="round"/><circle cx="452.34" cy="360.35" r="10.14" fill="#7C3AED"/><circle cx="429.82" cy="347.37" r="10.14" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 474.9,347.3 L 452.3,360.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 452.3,360.4 L 437.6,351.8' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 452.3,356.1 L 439.4,348.7' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 453.5,359.7 L 452.3,360.4 L 451.6,359.9' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 425.1 345.8
+Q 425.1 342.9, 426.6 341.3
+Q 428.0 339.6, 430.7 339.6
+Q 433.4 339.6, 434.9 341.3
+Q 436.3 342.9, 436.3 345.8
+Q 436.3 348.8, 434.8 350.5
+Q 433.4 352.1, 430.7 352.1
+Q 428.0 352.1, 426.6 350.5
+Q 425.1 348.8, 425.1 345.8
+M 430.7 350.8
+Q 432.6 350.8, 433.6 349.5
+Q 434.6 348.3, 434.6 345.8
+Q 434.6 343.4, 433.6 342.2
+Q 432.6 341.0, 430.7 341.0
+Q 428.9 341.0, 427.9 342.2
+Q 426.9 343.4, 426.9 345.8
+Q 426.9 348.3, 427.9 349.5
+Q 428.9 350.8, 430.7 350.8
+' fill='#1F2937'/>
+</svg><text x="55.5" y="88" font-size="11.6" text-anchor="middle" font-weight="800" fill="#1F2937">Aldeído</text><text x="55.5" y="100" font-size="10.4" text-anchor="middle" font-weight="700" fill="#1F2937">(etanal)</text><text x="55.5" y="113" font-size="9.8" text-anchor="middle" fill="#5B6575">C=O na ponta (com H)</text><svg x="138" y="9.4" width="57" height="61.21" viewBox="421.5 317.39 57 61.21" overflow="visible"><g opacity="0.26"><line x1="450.05" y1="359.53" x2="450.14" y2="333.53" stroke="#7C3AED" stroke-width="20.28" stroke-linecap="round"/><circle cx="450.05" cy="359.53" r="10.14" fill="#7C3AED"/><circle cx="450.14" cy="333.53" r="10.14" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 472.5,372.6 L 450.0,359.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 451.9,360.6 L 451.9,342.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 448.2,360.6 L 448.3,342.0' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 450.0,359.5 L 427.5,372.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 451.2,360.2 L 450.0,359.5 L 448.9,360.2' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 444.6 333.6
+Q 444.6 330.6, 446.0 329.0
+Q 447.4 327.4, 450.1 327.4
+Q 452.8 327.4, 454.3 329.0
+Q 455.7 330.6, 455.7 333.6
+Q 455.7 336.5, 454.3 338.2
+Q 452.8 339.9, 450.1 339.9
+Q 447.5 339.9, 446.0 338.2
+Q 444.6 336.5, 444.6 333.6
+M 450.1 338.5
+Q 452.0 338.5, 453.0 337.3
+Q 454.0 336.0, 454.0 333.6
+Q 454.0 331.2, 453.0 330.0
+Q 452.0 328.8, 450.1 328.8
+Q 448.3 328.8, 447.3 330.0
+Q 446.3 331.2, 446.3 333.6
+Q 446.3 336.0, 447.3 337.3
+Q 448.3 338.5, 450.1 338.5
+' fill='#1F2937'/>
+</svg><text x="166.5" y="88" font-size="11.6" text-anchor="middle" font-weight="800" fill="#1F2937">Cetona</text><text x="166.5" y="100" font-size="10.4" text-anchor="middle" font-weight="700" fill="#1F2937">(propanona)</text><text x="166.5" y="113" font-size="9.8" text-anchor="middle" fill="#5B6575">C=O entre 2 carbonos</text><text x="111" y="46" font-size="20" text-anchor="middle" font-weight="700" fill="#5B6575">×</text></svg>

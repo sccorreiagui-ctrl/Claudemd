@@ -75,7 +75,7 @@ em,i{font-style:italic}
 .h2{font:700 14.2px var(--head);color:var(--ink);margin:2px 0 0;display:flex;align-items:center;gap:7px;line-height:1.15}
 .h2::before{content:"";width:9px;height:9px;border-radius:3px;background:var(--bc);flex:none}
 .h2 .sub{font:600 10.5px var(--body);color:var(--muted);margin-left:auto}
-.h3{font:700 9.4px var(--head);letter-spacing:.07em;text-transform:uppercase;color:var(--bcd);margin:2px 0 1px}
+.h3{font:700 11px var(--head);letter-spacing:.01em;color:var(--bcd);margin:2px 0 1px}
 .lead{font-size:13.2px;line-height:1.38;color:var(--ink)}
 .small{font-size:11.6px;line-height:1.32}
 .tiny{font-size:10.4px;line-height:1.28}
@@ -237,3 +237,34 @@ svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
 .mcard svg{margin:0 auto}
 .mcard .mf{display:flex;justify-content:space-between;align-items:center;padding:1px 8px 6px;font-size:11px;gap:6px;line-height:1.2}
 .mcard .mf b{font-weight:700}
+
+/* linha de função orgânica */
+.frow{display:grid;grid-template-columns:92px 124px 1fr;gap:8px;align-items:center;border:1px solid var(--grid);border-left:4px solid var(--purple);border-radius:8px;padding:3px 8px 3px 6px;background:#fff;min-height:50px}
+.frow .fgen,.frow .fex{text-align:center;min-width:0}
+.frow .fgen svg,.frow .fex svg{margin:0 auto}
+.frow .fgen .gf{font:700 12px var(--head);color:var(--purple-d);line-height:1.15}
+.frow .fgen .gs{font-size:9.6px;color:var(--muted);line-height:1.15}
+.frow .ex-n{font-size:9.8px;color:var(--muted);line-height:1.1;margin-top:-2px}
+.frow .fname{font:700 11.6px var(--head);color:var(--purple-d)}
+.frow .suf{display:inline-block;font:700 8.4px var(--head);background:var(--purple-l);color:var(--purple-d);border:1px solid var(--purple-m);border-radius:99px;padding:0 6px;margin-left:5px;vertical-align:1px;letter-spacing:.03em}
+.frow .txt{font-size:11px;line-height:1.26;min-width:0}
+.frow .dis{font-size:10.4px;line-height:1.22;color:var(--red-d);margin-top:1px}
+.frow .dis b{color:var(--red-d)}
+.fhead{display:grid;grid-template-columns:92px 124px 1fr;gap:8px;padding:0 8px 0 10px;font:700 8.4px var(--head);letter-spacing:.07em;text-transform:uppercase;color:var(--purple-d)}
+.fhead span{text-align:center}.fhead span:last-child{text-align:left}
+.cmp{border:1px solid var(--purple-m);border-radius:9px;background:#fff;overflow:hidden;min-width:0}
+.cmp .ct{background:var(--purple-l);color:var(--purple-d);font:700 9.4px var(--head);letter-spacing:.07em;text-transform:uppercase;padding:3px 9px}
+.cmp .cb{padding:2px 8px 6px;font-size:10.8px;line-height:1.26}
+.cmp .cb table{width:100%;border-collapse:collapse;font-size:10.6px;line-height:1.24}
+.cmp .cb td{padding:2px 4px;border-top:.8px solid var(--grid);vertical-align:top;width:50%}
+.cmp .cb td.l{font-weight:700;color:var(--purple-d);width:1%;white-space:nowrap}
+
+/* linha de tipo de reação */
+.rxrow{display:grid;grid-template-columns:150px 1fr;gap:8px;border:1px solid var(--orange-m);border-left:5px solid var(--orange);border-radius:9px;background:#fff;padding:5px 8px 5px 8px;align-items:center}
+.rxrow .rt{font:800 12.4px var(--head);color:var(--orange-d);margin-bottom:2px;text-transform:uppercase;letter-spacing:.03em}
+.rxrow .rd{font-size:10.8px;line-height:1.26;color:var(--ink)}
+.rxrow .rp{font-size:10.4px;line-height:1.24;color:var(--orange-d);margin-top:3px;font-weight:600}
+.rxrow .rs{display:flex;flex-direction:column;gap:1px;min-width:0}
+.rxrow .rs svg{margin:0 auto}
+.eqbox{border:1px solid var(--orange-m);border-radius:8px;background:var(--orange-l);padding:4px 8px;font-size:12px;line-height:1.5}
+.eqbox .ce{font-size:12.4px}

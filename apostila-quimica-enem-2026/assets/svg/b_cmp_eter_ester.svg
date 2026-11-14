@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222 120" width="222" height="120" font-family="'Source Sans 3','Inter','DejaVu Sans',Arial,sans-serif"  role="img"><svg x="13" y="25.34" width="85" height="29.32" viewBox="399 334.3 102 35.18" overflow="visible"><g opacity="0.26"><circle cx="450" cy="353.34" r="10.14" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 405.0,353.3 L 427.5,340.3' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 427.5,340.3 L 442.3,348.9' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 457.7,348.9 L 472.5,340.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 472.5,340.4 L 495.0,353.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 426.4,341.0 L 427.5,340.3 L 428.2,340.8' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 471.8,340.8 L 472.5,340.4 L 473.7,341.0' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 444.4 353.4
+Q 444.4 350.5, 445.9 348.8
+Q 447.3 347.2, 450.0 347.2
+Q 452.7 347.2, 454.1 348.8
+Q 455.6 350.5, 455.6 353.4
+Q 455.6 356.3, 454.1 358.0
+Q 452.7 359.7, 450.0 359.7
+Q 447.3 359.7, 445.9 358.0
+Q 444.4 356.3, 444.4 353.4
+M 450.0 358.3
+Q 451.9 358.3, 452.8 357.1
+Q 453.9 355.8, 453.9 353.4
+Q 453.9 351.0, 452.8 349.8
+Q 451.9 348.6, 450.0 348.6
+Q 448.1 348.6, 447.1 349.8
+Q 446.1 351.0, 446.1 353.4
+Q 446.1 355.8, 447.1 357.1
+Q 448.1 358.3, 450.0 358.3
+' fill='#1F2937'/>
+</svg><text x="55.5" y="88" font-size="11.6" text-anchor="middle" font-weight="800" fill="#1F2937">Éter</text><text x="55.5" y="100" font-size="10.4" text-anchor="middle" font-weight="700" fill="#1F2937">(etoxietano)</text><text x="55.5" y="113" font-size="9.8" text-anchor="middle" fill="#5B6575">O entre 2 carbonos</text><svg x="124" y="10.28" width="85" height="59.44" viewBox="399 314.24 102 71.33" overflow="visible"><g opacity="0.26"><line x1="472.49" y1="356.38" x2="472.44" y2="330.38" stroke="#7C3AED" stroke-width="20.28" stroke-linecap="round"/><line x1="472.49" y1="356.38" x2="450" y2="369.43" stroke="#7C3AED" stroke-width="20.28" stroke-linecap="round"/><circle cx="472.49" cy="356.38" r="10.14" fill="#7C3AED"/><circle cx="472.44" cy="330.38" r="10.14" fill="#7C3AED"/><circle cx="450" cy="369.43" r="10.14" fill="#7C3AED"/></g>
+<path class='bond-0 atom-0 atom-1' d='M 495.0,369.3 L 472.5,356.4' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 474.3,357.4 L 474.3,338.9' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 470.7,357.4 L 470.6,338.9' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 472.5,356.4 L 457.7,364.9' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 442.3,365.0 L 427.5,356.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 427.5,356.5 L 405.0,369.5' style='fill:none;fill-rule:evenodd;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 473.6,357.0 L 472.5,356.4 L 471.8,356.8' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 428.2,356.9 L 427.5,356.5 L 426.3,357.1' style='fill:none;stroke:#1F2937;stroke-width:1.7px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 466.9 330.4
+Q 466.9 327.5, 468.3 325.9
+Q 469.7 324.2, 472.4 324.2
+Q 475.1 324.2, 476.6 325.9
+Q 478.0 327.5, 478.0 330.4
+Q 478.0 333.4, 476.6 335.0
+Q 475.1 336.7, 472.4 336.7
+Q 469.8 336.7, 468.3 335.0
+Q 466.9 333.4, 466.9 330.4
+M 472.4 335.3
+Q 474.3 335.3, 475.3 334.1
+Q 476.3 332.9, 476.3 330.4
+Q 476.3 328.0, 475.3 326.8
+Q 474.3 325.6, 472.4 325.6
+Q 470.6 325.6, 469.6 326.8
+Q 468.6 328.0, 468.6 330.4
+Q 468.6 332.9, 469.6 334.1
+Q 470.6 335.3, 472.4 335.3
+' fill='#1F2937'/>
+<path class='atom-3' d='M 444.4 369.5
+Q 444.4 366.5, 445.9 364.9
+Q 447.3 363.3, 450.0 363.3
+Q 452.7 363.3, 454.1 364.9
+Q 455.6 366.5, 455.6 369.5
+Q 455.6 372.4, 454.1 374.1
+Q 452.7 375.8, 450.0 375.8
+Q 447.3 375.8, 445.9 374.1
+Q 444.4 372.4, 444.4 369.5
+M 450.0 374.4
+Q 451.9 374.4, 452.8 373.2
+Q 453.9 371.9, 453.9 369.5
+Q 453.9 367.1, 452.8 365.9
+Q 451.9 364.7, 450.0 364.7
+Q 448.1 364.7, 447.1 365.9
+Q 446.1 367.1, 446.1 369.5
+Q 446.1 371.9, 447.1 373.2
+Q 448.1 374.4, 450.0 374.4
+' fill='#1F2937'/>
+</svg><text x="166.5" y="88" font-size="11.6" text-anchor="middle" font-weight="800" fill="#1F2937">Éster</text><text x="166.5" y="100" font-size="10.4" text-anchor="middle" font-weight="700" fill="#1F2937">(etanoato de etila)</text><text x="166.5" y="113" font-size="9.8" text-anchor="middle" fill="#5B6575">O ligado a C=O e a C</text><text x="111" y="46" font-size="20" text-anchor="middle" font-weight="700" fill="#5B6575">×</text></svg>
