@@ -280,6 +280,46 @@
      "v": 13.4
     }
    ]
+  },
+  {
+   "page": 29,
+   "id": "p29",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 1.5
+    }
+   ]
+  },
+  {
+   "page": 30,
+   "id": "p30",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 9.3
+    }
+   ]
+  },
+  {
+   "page": 31,
+   "id": "p31",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 7.6
+    }
+   ]
+  },
+  {
+   "page": 32,
+   "id": "p32",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": -0.1
+    }
+   ]
   }
  ]
 }
