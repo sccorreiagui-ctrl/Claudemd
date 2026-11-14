@@ -1,0 +1,51 @@
+<!--
+key: radio
+block: F
+title: Radioatividade
+-->
+<div class="h2">Radiações e equações nucleares <span class="sub">o núcleo emite; a eletrosfera não participa</span></div>
+<div class="g32">
+  <div class="fig">{{fig:i_radiacoes}}</div>
+  <div class="col">
+    <div class="box orange sm"><div class="lab">{{icon:calc}} Regra de balanço</div>Em toda equação nuclear, a soma dos <b>números de massa (A)</b> e a soma dos <b>números atômicos (Z)</b> são <b>iguais nos dois lados</b>.<br>\ce{^{238}_{92}U -> ^{234}_{90}Th + ^{4}_{2}He}</div>
+    <div class="box purple sm"><div class="lab">{{icon:func}} Beta: de onde vem o elétron?</div>Do <b>núcleo</b>: um nêutron vira próton e um elétron é expulso. Por isso Z <b>aumenta</b> 1 e A não muda.<br>\ce{^{14}_{6}C -> ^{14}_{7}N + ^{0}_{−1}e}</div>
+    <div class="box red sm"><div class="lab">{{icon:alert}} Erros típicos</div>Dizer que a alfa é a mais penetrante (é a <b>menos</b>, mas a mais ionizante); tratar gama como partícula (é onda); confundir <b>irradiar</b> com <b>contaminar</b>: alimento irradiado não fica radioativo.</div>
+  </div>
+</div>
+
+<div class="h2">Meia-vida e aplicações <span class="sub">tempo para restar a metade dos núcleos radioativos</span></div>
+<div class="g2">
+  <div class="fig">{{fig:i_meia_vida}}</div>
+  <div class="col">
+    <table class="t tight">
+      <tr><th>Isótopo</th><th>Meia-vida</th><th>Uso ou episódio</th></tr>
+      <tr><td class="k">\ce{^{14}C}</td><td>≈ 5 730 anos</td><td>datação de fósseis e objetos orgânicos</td></tr>
+      <tr><td class="k">\ce{^{131}I}</td><td>≈ 8 dias</td><td>diagnóstico e tratamento da tireoide</td></tr>
+      <tr><td class="k">\ce{^{99m}Tc}</td><td>≈ 6 horas</td><td>imagem médica (cintilografia)</td></tr>
+      <tr><td class="k">\ce{^{60}Co}</td><td>≈ 5,3 anos</td><td>radioterapia; esterilização por γ</td></tr>
+      <tr><td class="k">\ce{^{137}Cs}</td><td>≈ 30 anos</td><td>acidente de Goiânia (1987)</td></tr>
+      <tr><td class="k">\ce{^{238}U}</td><td>≈ 4,5 bilhões de anos</td><td>combustível de reator (enriquecido em \ce{^{235}U})</td></tr>
+    </table>
+    <div class="box slate sm"><div class="lab">{{icon:info}} Leitura do gráfico</div>Após <b>x</b> meias-vidas resta $m_0/2^x$, com $x=t/t_{1/2}$. A curva <b>nunca zera</b> na teoria; na prática, após ~10 meias-vidas restam ≈ 0,1%. A meia-vida <b>não depende</b> da quantidade nem da temperatura.</div>
+  </div>
+</div>
+
+<div class="h2">Fissão × fusão <span class="sub">energia liberada pela variação de massa do núcleo</span></div>
+<div class="fig plain">{{fig:i_fissao_fusao}}</div>
+<div class="g3">
+  <div class="box orange sm"><div class="lab">{{icon:react}} Fissão</div>\ce{^{235}_{92}U + ^{1}_{0}n -> ^{141}_{56}Ba + ^{92}_{36}Kr + 3 ^{1}_{0}n}<br>Base das usinas (Angra 1 e 2) e da bomba atômica. Gera <b>rejeitos</b> de meia-vida longa.</div>
+  <div class="box purple sm"><div class="lab">{{icon:star}} Fusão</div>\ce{^{2}_{1}H + ^{3}_{1}H -> ^{4}_{2}He + ^{1}_{0}n}<br>Move o Sol e a bomba H. Libera mais energia <b>por massa</b> de combustível e gera menos rejeito de vida longa, mas ainda não há reator comercial.</div>
+  <div class="box green sm"><div class="lab">{{icon:leaf}} Ambiente e política</div>Usina nuclear <b>não emite CO<sub>2</sub></b> na operação, mas exige armazenamento seguro de rejeitos e controle de acidentes (Chernobyl, Fukushima). É tema de <b>matriz energética</b>.</div>
+</div>
+
+<div class="worked"><div class="lab">Exemplo · série radioativa</div>
+<div class="stmt">O \ce{^{238}_{92}U} decai até o \ce{^{206}_{82}Pb} emitindo partículas α e β. Quantas de cada tipo?</div>
+<div class="steps">
+  <div class="step"><span class="n">1</span><div class="t"><b>Só α muda A:</b> ΔA = 206 − 238 = −32; cada α tira 4 ⇒ 32/4 = <b>8 α</b>.</div></div>
+  <div class="step"><span class="n">2</span><div class="t"><b>Carga:</b> 8 α tiram 16 de Z ⇒ 92 − 16 = 76; o Pb tem Z = 82 ⇒ faltam +6 ⇒ <span class="ans">6 β</span> (cada β soma +1).</div></div>
+  <div class="step"><span class="n">3</span><div class="t"><b>Conferência:</b> A: 238 − 8×4 = 206 ✓ · Z: 92 − 8×2 + 6×1 = 82 ✓.</div></div>
+</div></div>
+
+<div class="quiz"><div class="lab">Teste rápido</div>
+<p class="q"><b class="n">{{q:meiavida}}</b>Uma amostra de 200 mg de um radioisótopo com meia-vida de 6 horas é guardada por 1 dia. A massa do radioisótopo que ainda restará é, aproximadamente:</p>
+<div class="alts"><span><b>A</b>25 mg.</span><span><b>B</b>50 mg.</span><span><b>C</b>12,5 mg.</span><span><b>D</b>6,25 mg.</span></div></div>

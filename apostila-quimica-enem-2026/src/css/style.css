@@ -211,6 +211,8 @@ table.t.mid td{vertical-align:middle}
 .ce{white-space:nowrap}
 .ce .f{white-space:nowrap}
 .ce .st{font-size:.86em}
+.nu{display:inline-flex;flex-direction:column;vertical-align:middle;line-height:.92;font-size:.68em;text-align:right;margin-right:.08em;position:relative;top:.02em}
+.nu sup,.nu sub{position:static;vertical-align:baseline;font-size:1em;line-height:.95}
 svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
 .arw{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1;margin:0 2px}
 .arw .lab{font-size:.74em;line-height:1.05;margin:0 0 -1px;font-weight:600;white-space:nowrap}
@@ -270,3 +272,6 @@ svg.ar{vertical-align:middle;margin:0 3px;overflow:visible}
 .eqbox{border:1px solid var(--orange-m);border-radius:8px;background:var(--orange-l);padding:4px 8px;font-size:12px;line-height:1.5}
 .eqbox .ce{font-size:12.4px}
 .h2 .sub svg,.h3 svg,.small svg,p svg.ic{width:11px;height:11px;vertical-align:-1px}
+/* setas de reação sempre em linha (mesmo dentro de tabelas/figuras) */
+svg.ar{display:inline-block !important;margin:0 3px !important;vertical-align:middle}
+.arw svg.ar{margin:0 !important}

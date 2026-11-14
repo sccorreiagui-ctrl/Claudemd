@@ -1,0 +1,40 @@
+<!--
+key: equilibrio
+block: F
+title: Equilíbrio químico e Le Chatelier
+-->
+<div class="h2">Equilíbrio químico: dinâmico, não estático <span class="sub">reações reversíveis em sistema fechado</span></div>
+<div class="fig plain">{{fig:f_equil_graf}}</div>
+<div class="g3">
+  <div class="fcard"><div class="ft"><span>Constante de equilíbrio</span><span>depende só de T</span></div><div class="fm">$K_c=\dfrac{[\text{C}]^c\,[\text{D}]^d}{[\text{A}]^a\,[\text{B}]^b}$</div><div class="fd">Para $a\text{A}+b\text{B}\rightleftharpoons c\text{C}+d\text{D}$. <b>Sólidos e líquidos puros não entram</b> (nem o solvente). Gases: $K_p$ com pressões parciais.</div></div>
+  <div class="box blue sm"><div class="lab">{{icon:water}} Como interpretar K</div><b>K ≫ 1</b>: no equilíbrio há mais produtos. <b>K ≪ 1</b>: mais reagentes. <b>Quociente Q</b> (mesma expressão com concentrações atuais): Q &lt; K → reação <b>direta</b>; Q &gt; K → <b>inversa</b>; Q = K → equilíbrio. K <b>não</b> muda com concentração, pressão ou catalisador.</div>
+  <div class="worked" style="margin-top:8px"><div class="lab">Exemplo · K</div><div class="stmt tiny">\ce{A <=> 2B} em 1 L; inicia com 2,0 mol de A. No equilíbrio, [B] = 1,0 mol/L.</div>
+  <div class="steps"><div class="step"><span class="n">1</span><div class="t">Formou 1,0 mol de B ⇒ consumiu 0,5 mol de A ⇒ [A] = 1,5.</div></div><div class="step"><span class="n">2</span><div class="t">K<sub>c</sub> = [B]² / [A] = 1² / 1,5 ≈ <b>0,67</b>.</div></div></div></div>
+</div>
+
+<div class="h2">Princípio de Le Chatelier <span class="sub">o sistema reage para minimizar a perturbação</span></div>
+<table class="t tight">
+<tr><th style="width:17%">Perturbação</th><th style="width:34%">Desloca para…</th><th style="width:15%">Muda K?</th><th>Observações</th></tr>
+<tr><td class="k">↑ [reagente] ou ↓ [produto]</td><td>a <b>direita</b> (formação de produtos)</td><td><span class="chip slate">não</span></td><td>retirar o produto continuamente (indústria) aumenta o rendimento</td></tr>
+<tr><td class="k">↑ [produto] ou ↓ [reagente]</td><td>a <b>esquerda</b> (formação de reagentes)</td><td><span class="chip slate">não</span></td><td>gás liberado de uma solução “puxa” o equilíbrio</td></tr>
+<tr><td class="k">↑ pressão (gases, V ↓)</td><td>o lado com <b>menos mols de gás</b></td><td><span class="chip slate">não</span></td><td>sem efeito se o nº de mols gasosos é igual; gás inerte a V constante não desloca</td></tr>
+<tr><td class="k">↑ temperatura</td><td>o sentido <b>endotérmico</b> (ΔH &gt; 0)</td><td><span class="chip red">sim</span></td><td>↓ T favorece o sentido exotérmico; a única perturbação que muda K</td></tr>
+<tr><td class="k">catalisador</td><td><b>nenhum</b> deslocamento</td><td><span class="chip slate">não</span></td><td>acelera ida e volta igualmente: só reduz o tempo para atingir o equilíbrio</td></tr>
+</table>
+
+<div class="h3">Como as perturbações aparecem nos gráficos (concentração × tempo)</div>
+<div class="fig plain">{{fig:f_perturb}}</div>
+
+<div class="g2">
+  <div class="col">
+    <div class="fig">{{fig:f_tubos_no2}}</div>
+  </div>
+  <div class="col">
+    <div class="box orange sm"><div class="lab">{{icon:react}} Síntese da amônia (Haber-Bosch)</div>\ce{N2 + 3H2 <=> 2NH3}, ΔH &lt; 0. <b>↑ P</b> favorece NH<sub>3</sub> (4 → 2 mol de gás); <b>↓ T</b> também, mas retarda a reação: a indústria usa ≈ 400–500 °C, 150–300 atm e catalisador de ferro, e <b>remove NH<sub>3</sub></b> liquefazendo-o. É um <b>compromisso entre rendimento e velocidade</b>.</div>
+    <div class="box green sm"><div class="lab">{{icon:leaf}} No cotidiano</div>Refrigerante: \ce{CO2(g) <=> CO2(aq)}; ao abrir, a pressão cai e o gás <b>escapa</b>. Aquecer NO<sub>2</sub>/N<sub>2</sub>O<sub>4</sub> (tubos) escurece: sentido endotérmico.</div>
+  </div>
+</div>
+
+<div class="quiz"><div class="lab">Teste rápido</div>
+<p class="q"><b class="n">{{q:haber}}</b>No equilíbrio \ce{N2(g) + 3H2(g) <=> 2NH3(g)} (ΔH &lt; 0), uma alteração que <b>aumenta o rendimento</b> em amônia é:</p>
+<div class="alts"><span><b>A</b>aumentar a temperatura.</span><span><b>B</b>aumentar a pressão total.</span><span><b>C</b>adicionar um catalisador.</span><span><b>D</b>retirar \ce{N2} do sistema.</span></div></div>

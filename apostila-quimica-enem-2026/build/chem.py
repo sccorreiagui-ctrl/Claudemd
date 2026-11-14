@@ -37,6 +37,7 @@ ARROWS = {"->": _ARROW_R, "<-": _ARROW_L, "<=>": _ARROW_EQ, "<->": _ARROW_BOTH}
 
 _ARROW_RE = re.compile(r"(<=>|<->|->|<-)((?:\[[^\]]*\]){0,2})")
 _STATE_RE = re.compile(r"\((aq|s|l|g)\)")
+_NUC_RE = re.compile(r"<sup>(\d+)</sup><sub>(−?\d+)</sub>")
 
 
 def _esc(s):
@@ -85,7 +86,7 @@ def _format_token(seg):
                 mm = re.match(r"[A-Za-z0-9]+", seg[j:])
                 content = mm.group(0)
                 i = j + len(content)
-            out.append(f"<sub>{_esc(content)}</sub>")
+            out.append(f"<sub>{_esc(content).replace('-', MINUS)}</sub>")
             prev = "S"
             continue
         if c.isdigit():
@@ -121,7 +122,7 @@ def _format_token(seg):
             prev = ""
         out.append(_esc(c))
         i += 1
-    return "".join(out)
+    return _NUC_RE.sub(r'<span class="nu"><sup>\1</sup><sub>\2</sub></span>', "".join(out))
 
 
 def ce(s):

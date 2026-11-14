@@ -1,0 +1,55 @@
+<!--
+key: acidobase
+block: F
+title: Ácidos, bases, pH, tampão e Kps
+-->
+<div class="h2">pH e pOH <span class="sub">a escala logarítmica da acidez a 25 °C</span></div>
+<div class="fig plain">{{fig:f_ph_escala}}</div>
+<div class="g3">
+  <div class="fcard"><div class="ft"><span>pH e pOH</span><span>[ ] em mol/L</span></div><div class="fm">$\text{pH}=-\log[\text{H}^+]$</div><div class="fd">$\text{pOH}=-\log[\text{OH}^-]$ · $\text{pH}+\text{pOH}=14$. Ex.: \ce{HCl} 10<sup>−3</sup> mol/L (forte, ionização total): pH = <b>3</b>.</div></div>
+  <div class="fcard"><div class="ft"><span>Produto iônico da água</span><span>25 °C</span></div><div class="fm">$K_w=[\text{H}^+][\text{OH}^-]=10^{-14}$</div><div class="fd">Em água pura [H<sup>+</sup>] = [OH<sup>−</sup>] = 10<sup>−7</sup> (pH 7). <b>K<sub>w</sub> aumenta com T</b>: a 100 °C a água pura tem pH ≈ 6 e ainda é neutra.</div></div>
+  <div class="fcard"><div class="ft"><span>Ácido fraco</span><span>$K_a$, $\alpha$</span></div><div class="fm">$[\text{H}^+]\approx\sqrt{K_a\,\mathcal{M}}$</div><div class="fd">$\alpha=\sqrt{K_a/\mathcal{M}}$: <b>diluir aumenta α</b> (Ostwald), embora [H<sup>+</sup>] diminua. K<sub>a</sub> maior = ácido mais forte.</div></div>
+</div>
+
+<div class="g2">
+  <table class="t tight">
+  <tr><th colspan="2">Força de ácidos e bases</th></tr>
+  <tr><td class="k">Ácidos fortes</td><td>HCl, HBr, HI, \ce{HNO3}, \ce{H2SO4}, \ce{HClO4}</td></tr>
+  <tr><td class="k">Ácidos fracos</td><td>\ce{CH3COOH}, \ce{H2CO3}, \ce{H2S}, \ce{HCN}, HF (moderado), \ce{H3PO4} (moderado)</td></tr>
+  <tr><td class="k">Atalho (oxiácidos)</td><td>Δ = nº de O − nº de <b>H ionizáveis</b>: 0 fraco · 1 moderado · ≥ 2 forte. Exceção: \ce{H2CO3} é fraco.</td></tr>
+  <tr><td class="k">Bases fortes</td><td>hidróxidos de 1A e de Ca, Sr, Ba (solúveis); \ce{NH3(aq)} é <b>fraca</b>; Mg(OH)<sub>2</sub>, Al(OH)<sub>3</sub>: insolúveis</td></tr>
+  </table>
+  <table class="t tight">
+  <tr><th colspan="2">Hidrólise de sais: “o mais forte manda”</th></tr>
+  <tr><td class="k">ác. forte + base forte</td><td>neutro: \ce{NaCl}, \ce{KNO3}</td></tr>
+  <tr><td class="k">ác. forte + base fraca</td><td><b>ácido</b>: \ce{NH4Cl}; \ce{NH4+ + H2O <=> NH3 + H3O+}</td></tr>
+  <tr><td class="k">ác. fraco + base forte</td><td><b>básico</b>: \ce{CH3COONa}, \ce{NaHCO3}, \ce{Na2CO3}; \ce{CH3COO- + H2O <=> CH3COOH + OH-}</td></tr>
+  <tr><td class="k">ác. fraco + base fraca</td><td>depende do K<sub>a</sub> e do K<sub>b</sub></td></tr>
+  </table>
+</div>
+
+<div class="g2">
+  <div class="col">
+    <div class="worked"><div class="lab">Exemplo · ácido fraco</div>
+    <div class="stmt">Qual o pH e o grau de ionização de uma solução 0,10 mol/L de ácido acético (K<sub>a</sub> = 1,8·10<sup>−5</sup>)?</div>
+    <div class="steps"><div class="step"><span class="n">1</span><div class="t">[H<sup>+</sup>] ≈ √(1,8·10<sup>−5</sup> · 0,10) = √(1,8·10<sup>−6</sup>) ≈ <b>1,3·10<sup>−3</sup> mol/L</b>.</div></div>
+    <div class="step"><span class="n">2</span><div class="t">pH = −log(1,3·10<sup>−3</sup>) = 3 − 0,11 ≈ <span class="ans">2,9</span> · α = 1,3·10<sup>−3</sup> / 0,10 = <b>1,3%</b>.</div></div></div></div>
+    <div class="box purple sm"><div class="lab">{{icon:func}} Kps: sais pouco solúveis</div>$\text{A}_x\text{B}_y(s)\rightleftharpoons x\text{A}^{+}+y\text{B}^{-}$: $K_{ps}=[\text{A}]^x[\text{B}]^y$. Precipita se Q &gt; K<sub>ps</sub>. <b>Íon comum</b> reduz a solubilidade. Ex.: AgCl, K<sub>ps</sub> = 1,8·10<sup>−10</sup> → s = √K<sub>ps</sub> ≈ 1,3·10<sup>−5</sup> mol/L.</div>
+  </div>
+  <div class="col">
+    <div class="fig">{{fig:f_tampao}}<div class="figcap"><b>Tampão</b>: ácido fraco + sal da base conjugada (ou base fraca + sal) neutraliza pequenas adições de H<sup>+</sup> ou OH<sup>−</sup>. Pontos: 100 mL de água × tampão 0,1 mol/L.</div></div>
+  </div>
+</div>
+
+<div class="g2">
+  <div class="box green sm"><div class="lab">{{icon:leaf}} Tampão do sangue (pH 7,35–7,45)</div>\ce{CO2 + H2O <=> H2CO3 <=> H+ + HCO3-}. H<sup>+</sup> em excesso é consumido por \ce{HCO3-}; o \ce{CO2} formado é <b>exalado</b>.</div>
+  <div class="box green sm"><div class="lab">{{icon:leaf}} Dentes e oceanos</div>Hidroxiapatita: \ce{Ca5(PO4)3OH + 4H+ <=> 5Ca^2+ + 3HPO4^2- + H2O}; ácidos <b>desmineralizam</b>; o flúor forma fluorapatita, menos solúvel. Corais: p. {{pg:ambiente}}.</div>
+</div>
+
+<div class="h2">Indicadores ácido-base <span class="sub">a cor muda numa faixa de pH</span></div>
+<div class="fig plain">{{fig:f_indicadores}}</div>
+<div class="box orange sm inl"><div class="lab">{{icon:react}} Escolha</div>Ácido fraco + base forte (equivalência em pH &gt; 7): fenolftaleína. Base fraca + ácido forte (pH &lt; 7): alaranjado de metila. Repolho roxo: indicador caseiro.</div>
+
+<div class="quiz"><div class="lab">Teste rápido</div>
+<p class="q"><b class="n">{{q:ph_hcl}}</b>Uma solução aquosa de HCl 0,001 mol/L (ácido forte, ionização total), a 25 °C, tem pH igual a:</p>
+<div class="alts"><span><b>A</b>1</span><span><b>B</b>2</span><span><b>C</b>3</span><span><b>D</b>11</span></div></div>

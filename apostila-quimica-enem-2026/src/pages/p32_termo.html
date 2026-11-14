@@ -1,0 +1,61 @@
+<!--
+key: termo
+block: F
+title: Termoquímica
+-->
+<div class="h2">Termoquímica: calor das reações <span class="sub">ΔH = H<sub>produtos</sub> − H<sub>reagentes</sub> (a P constante)</span></div>
+<div class="fig plain">{{fig:f_endo_exo}}</div>
+<div class="g4">
+  <div class="box orange xs"><b>Exotérmica</b> (ΔH &lt; 0): combustões, respiração, neutralização, condensação, solidificação.</div>
+  <div class="box blue xs"><b>Endotérmica</b> (ΔH &gt; 0): fotossíntese, decomposição térmica, fusão, vaporização, bolsa de gelo instantânea.</div>
+  <div class="box slate xs"><b>Estado físico importa</b>: \ce{H2O(l)} tem entalpia menor que \ce{H2O(g)}; a combustão com água líquida libera <b>mais</b> calor.</div>
+  <div class="box red xs"><b>Cuidado:</b> ΔH &lt; 0 não significa reação rápida nem espontânea: é só balanço de energia.</div>
+</div>
+
+<div class="h2">Quatro caminhos para calcular ΔH</div>
+<div class="g4">
+  <div class="fcard"><div class="ft"><span>1 · Entalpias de formação</span><span>kJ/mol</span></div><div class="fm" style="font-size:12.5px">$\Delta H=\sum\Delta H_f^{\text{prod}}-\sum\Delta H_f^{\text{reag}}$</div><div class="fd">ΔH<sub>f</sub> da <b>substância simples</b> estável (\ce{O2}, C grafite, \ce{H2}) é <b>zero</b>. Multiplique pelos coeficientes.</div></div>
+  <div class="fcard"><div class="ft"><span>2 · Lei de Hess</span><span>soma de etapas</span></div><div class="fm" style="font-size:12.5px">$\Delta H_{\text{total}}=\sum\Delta H_{\text{etapas}}$</div><div class="fd"><b>Inverter</b> a equação troca o sinal; <b>multiplicar</b> a equação multiplica ΔH; <b>somar</b> e cancelar o que aparece nos dois lados.</div></div>
+  <div class="fcard"><div class="ft"><span>3 · Energia de ligação</span><span>kJ/mol</span></div><div class="fm" style="font-size:12.5px">$\Delta H=\sum E_{\text{quebradas}}-\sum E_{\text{formadas}}$</div><div class="fd">Romper ligação <b>absorve</b> (+); formar <b>libera</b> (−). Fase <b>gasosa</b>; valores médios dão resultado aproximado.</div></div>
+  <div class="fcard"><div class="ft"><span>4 · Calorimetria</span><span>q em cal ou J</span></div><div class="fm" style="font-size:12.5px">$q=m\,c\,\Delta T$</div><div class="fd">Água: c = 1,0 cal/(g·°C) = 4,18 J/(g·°C). 1 kcal (“caloria” do rótulo) = 4,18 kJ. Poder calorífico = calor por grama.</div></div>
+</div>
+
+<div class="g2">
+  <div class="worked"><div class="lab">Exemplo · Lei de Hess</div>
+  <div class="stmt tiny">Calcule ΔH da formação do metano: \ce{C(s) + 2H2(g) -> CH4(g)}, dadas as combustões (kJ/mol, valores arredondados): C: −394 · \ce{H2}: −286 · \ce{CH4}: −890.</div>
+  <div class="steps">
+   <div class="step"><span class="n">1</span><div class="t">\ce{C + O2 -> CO2}  ΔH = −394 (mantém)</div></div>
+   <div class="step"><span class="n">2</span><div class="t">\ce{2H2 + O2 -> 2H2O}  ΔH = 2(−286) = −572 (× 2)</div></div>
+   <div class="step"><span class="n">3</span><div class="t">\ce{CO2 + 2H2O -> CH4 + 2O2}  ΔH = <b>+890</b> (invertida)</div></div>
+   <div class="step"><span class="n">4</span><div class="t">Soma e cancela \ce{O2}, \ce{CO2}, \ce{H2O}: ΔH = −394 − 572 + 890 = <span class="ans">−76 kJ/mol</span></div></div>
+  </div></div>
+  <div class="worked"><div class="lab">Exemplo · energia de ligação</div>
+  <div class="stmt tiny">\ce{CH4 + 2O2 -> CO2 + 2H2O} (gases). Energias (kJ/mol): C–H 413 · O=O 498 · C=O (no \ce{CO2}) 804 · O–H 463.</div>
+  <div class="steps">
+   <div class="step"><span class="n">1</span><div class="t"><b>Quebra (+):</b> 4·413 + 2·498 = 1652 + 996 = <b>2648</b></div></div>
+   <div class="step"><span class="n">2</span><div class="t"><b>Formação (−):</b> 2·804 + 4·463 = 1608 + 1852 = <b>3460</b></div></div>
+   <div class="step"><span class="n">3</span><div class="t">ΔH = 2648 − 3460 = <span class="ans">−812 kJ</span> (exotérmica; ≈ −802 tabelado)</div></div>
+  </div></div>
+</div>
+
+<div class="g2">
+  <div class="worked"><div class="lab">Exemplo · calorimetria</div>
+  <div class="stmt tiny">Que massa de água é aquecida de 20 °C a 70 °C pelo calor da combustão de 1,0 g de etanol (≈ 29,7 kJ)? c = 4,18 J/(g·°C).</div>
+  <div class="steps"><div class="step"><span class="n">1</span><div class="t">q = 29 700 J; ΔT = 50 °C ⇒ m = q / (c · ΔT) = 29 700 / (4,18 · 50) ≈ <span class="ans">142 g</span></div></div></div></div>
+  <div class="box green sm"><div class="lab">{{icon:leaf}} Rótulo de alimentos</div>Valores médios: <b>4 kcal/g</b> (carboidratos e proteínas) e <b>9 kcal/g</b> (lipídios). 100 g com 20 g de carboidrato, 10 g de proteína e 5 g de gordura: 80 + 40 + 45 = <b>165 kcal</b> (≈ 690 kJ).</div>
+</div>
+
+<table class="t tight">
+<tr><th>Combustível</th><th>ΔH de combustão (kJ/mol)</th><th>Poder calorífico (kJ/g)</th><th>Observação</th></tr>
+<tr><td class="k">Hidrogênio, \ce{H2}</td><td>−286</td><td>≈ 142</td><td>maior por massa; só produz \ce{H2O}; difícil de armazenar</td></tr>
+<tr><td class="k">Metano, \ce{CH4} (gás natural)</td><td>−890</td><td>≈ 56</td><td>queima limpa em relação ao carvão e ao óleo</td></tr>
+<tr><td class="k">Octano, \ce{C8H18} (gasolina)</td><td>−5470</td><td>≈ 48</td><td>derivado de petróleo</td></tr>
+<tr><td class="k">Etanol, \ce{C2H5OH}</td><td>−1367</td><td>≈ 30</td><td>já contém O: menos energia por grama; renovável</td></tr>
+<tr><td class="k">Glicose, \ce{C6H12O6}</td><td>−2800</td><td>≈ 15,6</td><td>≈ 3,7 kcal/g, valor do rótulo para carboidratos</td></tr>
+</table>
+
+<div class="g2">
+  <div class="box green sm"><div class="lab">{{icon:leaf}} Respiração × fermentação</div>\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}, ΔH ≈ −2800 kJ/mol: a oxidação <b>completa</b> da glicose rende ≈ 30 ATP; na <b>fermentação</b> (lática ou alcoólica) a oxidação é parcial e o rendimento é de apenas 2 ATP.</div>
+  <div class="quiz" style="margin-top:6px"><div class="lab">Teste rápido</div><p class="q"><b class="n">{{q:hess}}</b>Dadas \ce{A -> B}, ΔH = −30 kJ, e \ce{B -> C}, ΔH = +10 kJ, o ΔH de \ce{A -> C} é:</p>
+  <div class="alts"><span><b>A</b>−40 kJ</span><span><b>B</b>−20 kJ</span><span><b>C</b>+20 kJ</span><span><b>D</b>+40 kJ</span></div></div>
+</div>
