@@ -1,0 +1,61 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-navy', 'Guia de uso', 'Método: FENÔMENO → CAUSAS → MECANISMO → CONSEQUÊNCIAS → REPRESENTAÇÃO → APLICAÇÃO NO ENEM. ◆ = complemento independente (não consta no inventário das videoaulas). Datas e fontes aparecem em cada página.') %}
+{{ title('i', 'Como usar esta apostila') }}
+<p class="lead">Cada tema segue a mesma lógica: <b>o que acontece</b> (fenômeno), <b>por que</b> (causas), <b>como</b> (mecanismo), <b>com que efeito</b> (consequências), <b>como se desenha</b> (mapa ou diagrama) e <b>como cai na prova</b>. Os encadeamentos são <b>tendências</b>, não leis universais.</p>
+
+{{ chain([('Fenômeno','navy'),('Causas','terra'),('Mecanismo','laranja'),('Consequências','vermelho'),('Representação visual','azul'),('Aplicação no ENEM','verde')], 'Método de cada página', '') }}
+
+<div class="g2">
+  <div>
+    <h2 class="first">Caixas e símbolos</h2>
+    {% call box('def', 'Definição') %}<span class="xs">Conceito-chave, com termos exatos.</span>{% endcall %}
+    {% call box('enem') %}<span class="xs">Como a ideia aparece na prova: pistas do texto-base e armadilhas.</span>{% endcall %}
+    {% call box('erro') %}<span class="xs">Confusões frequentes e correções ao material de origem.</span>{% endcall %}
+    {% call box('conex') %}<span class="xs">Pontes com Química, Biologia, Física, História, Sociologia.</span>{% endcall %}
+    <p class="xs mt1"><b>◆</b> conteúdo independente, conferido em fonte. <b>Questões</b> são originais, no estilo ENEM, com gabarito comentado. Mapas: título, escala, orientação, legenda, fonte e data.</p>
+  </div>
+  <div>{{ figure('incidencia_enem', '', '') }}</div>
+</div>
+
+<h2>Mapa da apostila</h2>
+<div class="g4" style="grid-template-columns:repeat(4,1fr)">
+  {% call box('nota', 'A · pp. 3–9') %}<span class="xs"><b style="color:#5D3A1A">Física, relevo e clima:</b> placas, rochas, solos, massas de ar, El Niño, hidrografia, litoral.</span>{% endcall %}
+  {% call box('nota', 'B · pp. 10–12') %}<span class="xs"><b style="color:#1B5E20">Domínios e biomas:</b> Ab’Saber × IBGE, vegetações, impactos.</span>{% endcall %}
+  {% call box('nota', 'C · pp. 13–19') %}<span class="xs"><b style="color:#5D3A1A">Agrária e ambiente:</b> sistemas, Revolução Verde, insumos, fronteira, terra e povos.</span>{% endcall %}
+  {% call box('nota', 'D · pp. 20–24') %}<span class="xs"><b style="color:#4A148C">Urbana e demografia:</b> cidades, clima urbano, segregação, pirâmides, migrações.</span>{% endcall %}
+  {% call box('nota', 'E · pp. 25–30') %}<span class="xs"><b style="color:#B23C00">Economia:</b> indústria, globalização, trabalho, blocos, energia e transportes.</span>{% endcall %}
+  {% call box('nota', 'F · pp. 31–34') %}<span class="xs"><b style="color:#8E1B1B">Geopolítica:</b> ordens mundiais, ONU e blocos, conflitos datados, rotas e Brasil.</span>{% endcall %}
+  {% call box('nota', 'G · pp. 35–37') %}<span class="xs"><b style="color:#37474F">Cartografia:</b> escala, coordenadas, projeções, relevo, anamorfose, SIG.</span>{% endcall %}
+  {% call box('nota', 'Revisão · pp. 38–39') %}<span class="xs"><b>Cadeias e distinções</b> para a véspera; <b>gabaritos, correções e fontes</b>.</span>{% endcall %}
+</div>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Semântica das cores (nunca só a cor: sempre também rótulos)</h2>
+    <div class="legend" style="font-size:6.8pt;gap:1.4mm 4mm">
+      <span><i style="background:#2E7D32"></i>Verde: vegetação e biomas</span>
+      <span><i style="background:#1565C0"></i>Azul: água, chuva, oceanos</span>
+      <span><i style="background:#8D5B2E"></i>Marrom: solos, relevo, agricultura</span>
+      <span><i style="background:#E65100"></i>Laranja: economia, indústria</span>
+      <span><i style="background:#7B3FA0"></i>Roxo: população, urbanização</span>
+      <span><i style="background:#C62828"></i>Vermelho: conflito, risco, alerta</span>
+      <span><i style="background:#546E7A"></i>Cinza: infraestrutura, transportes</span>
+    </div>
+  </div>
+  <div>
+    <h2 class="first">Como estudar (3 passadas)</h2>
+    <ul class="sq xs">
+      <li><b>1ª:</b> leia lead, desenho e caixas “Definição”.</li>
+      <li><b>2ª:</b> refaça os encadeamentos de memória; resolva as questões e leia o gabarito.</li>
+      <li><b>3ª:</b> na véspera, use as páginas de revisão (pp. 38–39).</li>
+    </ul>
+  </div>
+</div>
+<h2>Índice de mapas e cartogramas (dados reais; os esquemáticos estão indicados)</h2>
+<div class="g3 xs">
+  <div><b>Física e ambiente:</b> Mapa 1 placas (p. 3) · massas de ar (p. 7) · Mapa 2 rios voadores (p. 8) · Mapa 3 hidrografia (p. 9) · Mapas 4–5 domínios e biomas (p. 10)</div>
+  <div><b>Campo, cidade e economia:</b> Mapa 6 fronteira agrícola (p. 17) · Mapa 7 migrações (p. 24) · Mapa 8 polos industriais (p. 26) · Mapa 9 blocos econômicos (p. 29)</div>
+  <div><b>Geopolítica e cartografia:</b> Mapa 10 Guerra Fria (p. 31) · Mapas 11–13 Mar da China, Ucrânia, Israel–Palestina (p. 33) · Mapa 14 rotas (p. 34) · Mapas 15–16 fusos e coordenadas (p. 35) · projeções (p. 36) · curvas de nível e cartograma (p. 37)</div>
+</div>
+{% call box('erro', 'Datas e limites') %}<span class="xs">Estatísticas e situações políticas têm <b>ano e fonte</b> (ex.: Censo Agro 2017, Censo 2022, BEN 2026, geopolítica em 14/11/2026). Os dados de incidência por tema (Aprova Total, 2016–2025) vêm do briefing do projeto e <b>não foram reauditados</b>. Os mapas de domínios morfoclimáticos são <b>aproximações</b> a partir dos biomas oficiais (não há vetor oficial acessível); mapas esquemáticos estão sempre indicados.</span>{% endcall %}
+{% endcall %}

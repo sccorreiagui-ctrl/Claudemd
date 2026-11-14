@@ -51,9 +51,15 @@ def fig(name):
 def build_pages():
     env = Environment(loader=FileSystemLoader(str(PAGES)), undefined=StrictUndefined, autoescape=False,
                       trim_blocks=True, lstrip_blocks=True)
-    env.globals.update(next_page=next_page, fig=fig)
-    _page_counter["n"] = 0
     files = sorted(p.name for p in PAGES.glob("p[0-9]*.html"))
+    qindex = []
+    for i, fn in enumerate(files, 1):
+        txt = (PAGES / fn).read_text(encoding="utf-8")
+        qs = re.findall(r'<div class="qh">Questão · ([^<]*)</div>', txt)
+        gs = re.findall(r'<b class="l">([A-E])</b>', txt)
+        qindex += [(i, q, g) for q, g in zip(qs, gs)]
+    env.globals.update(next_page=next_page, fig=fig, qindex=qindex)
+    _page_counter["n"] = 0
     chunks = []
     for f in files:
         chunks.append(env.get_template(f).render())

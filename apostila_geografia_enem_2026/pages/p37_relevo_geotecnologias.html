@@ -1,0 +1,32 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-cinza', 'Módulo G · Cartografia e geotecnologias', 'Fontes: IBGE, Censo Demográfico 2022 (SIDRA t. 4709; consulta em 14/11/2026); Natural Earth (base). Relevo da figura é hipotético (ilustrativo). ◆ = complemento independente (não consta no inventário).') %}
+{{ title('G3', 'Relevo, mapas temáticos e geotecnologias') }}
+<p class="lead"><b>Fenômeno:</b> representar a altitude, os fenômenos e o espaço de modo útil. <b>Mecanismo:</b> <b>curvas de nível</b> ligam pontos de mesma altitude; <b>anamorfose</b> troca a área real por uma variável; <b>GNSS, sensoriamento remoto e SIG</b> coletam e integram dados. <b>No ENEM:</b> ler curvas, perfis e legendas e escolher o tipo de mapa adequado.</p>
+
+{{ figure('curvas_nivel', '<span class="t">Figura G3.</span> Relevo hipotético. <b>Equidistância</b> = diferença de altitude entre curvas consecutivas (10 m).', 'bd') }}
+
+<div class="g2">
+  <div>{{ figure('cartograma_pop', '<span class="t">Figura G4.</span> Cartograma (círculos de Dorling): área ∝ população; posição aproximada. IBGE, 2022.', 'bd') }}</div>
+  <div>
+    <h2 class="first">Leitura de curvas de nível</h2>
+    <ul class="sq xs">
+      <li><b>Curvas fechadas e concêntricas:</b> morro (altitude cresce para dentro) ou depressão (hachuras ou valores decrescentes).</li>
+      <li><b>Ao cruzar um vale</b>, as curvas formam “V” voltados para a <b>nascente</b>; no divisor de águas (espigão), o “V” aponta para a parte baixa.</li>
+      <li><b>Perfil topográfico:</b> corte vertical ao longo de uma linha; cuidado com o <b>exagero vertical</b>.</li>
+    </ul>
+    <h2>Anamorfose e outros mapas temáticos</h2>
+    <ul class="sq xs">
+      <li><b>Anamorfose (cartograma):</b> o tamanho de cada unidade segue uma variável. Aqui, SP, MG, RJ e ES somam ≈ 42% da população (84,8 de 203,1 milhões). Distorce formas; não serve para medir áreas ou distâncias.</li>
+      <li><b>Coroplético:</b> cores por classes; use <b>taxas</b> (hab/km²), não valores absolutos.</li>
+      <li><b>Símbolos proporcionais, isolinhas e fluxos (setas):</b> quantidade pontual, valor contínuo e deslocamentos.</li>
+    </ul>
+  </div>
+</div>
+
+{{ figure('sig_sensoriamento', '', '') }}
+
+<div class="q"><div class="qh">Questão · Curvas de nível</div>
+  Em uma carta topográfica, as curvas de nível aparecem muito próximas em um trecho e bem afastadas em outro. No primeiro trecho, o terreno é
+  <ol class="two"><li>plano, e no segundo, íngreme.</li><li>íngreme, e no segundo, de declive suave.</li><li>necessariamente mais baixo que o segundo.</li><li>coberto por vegetação densa.</li><li>um vale fluvial, e no segundo, um planalto.</li></ol></div>
+<div class="gab"><p><b class="l">B</b>Gabarito comentado: curvas <b>próximas</b> mostram que a altitude varia muito em pouca distância (declive forte); curvas <b>afastadas</b> indicam declive suave. As curvas não informam vegetação nem dizem, sozinhas, qual trecho é mais alto.</p></div>
+{% endcall %}

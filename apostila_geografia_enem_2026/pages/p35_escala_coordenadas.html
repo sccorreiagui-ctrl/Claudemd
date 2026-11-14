@@ -1,0 +1,28 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-cinza', 'Módulo G · Cartografia e geotecnologias', 'Fontes: IBGE (pontos extremos e limites do Brasil); Natural Earth (base); legislação dos fusos horários (Decreto 2.784/1998; Lei 12.876/2013; horário de verão extinto em 2019). Esquemas ilustrativos. ◆ = complemento independente (não consta no inventário).') %}
+{{ title('G1', 'Escala, orientação, coordenadas e fusos horários') }}
+<p class="lead"><b>Fenômeno:</b> todo mapa é uma redução da realidade. <b>Elementos:</b> título, <b>escala</b>, <b>orientação</b>, legenda, fonte e data. <b>Mecanismo:</b> a escala define o nível de detalhe; as <b>coordenadas</b> localizam qualquer ponto; os <b>fusos</b> organizam a hora no planeta. <b>No ENEM:</b> cálculos simples de proporção e leitura de coordenadas.</p>
+
+{{ figure('escala_exemplo', '', '') }}
+
+<div class="g2">
+  <div>
+    {% call box('def', 'Escala: como calcular') %}<span class="xs"><b>Fórmula:</b> E = d ÷ D (mesma unidade). <b>Ex. 1:</b> mapa 1:250.000, 6 cm → D = 6 × 250.000 = 1.500.000 cm = <b>15 km</b>. <b>Ex. 2:</b> 5 cm no mapa = 25 km reais (2.500.000 cm) → E = 5 ÷ 2.500.000 = 1 ÷ 500.000 → <b>1:500.000</b>. <b>Dica:</b> de cm para km, corte <b>cinco zeros</b> (1 km = 100.000 cm).</span>{% endcall %}
+    {% call box('erro') %}<span class="xs"><b>Escala grande ≠ área grande.</b> 1:10.000 é <b>maior</b> que 1:1.000.000: o denominador é menor, há mais detalhes e a área representada é <b>menor</b>.</span>{% endcall %}
+    <h2>Orientação</h2>
+    <p class="xs">Pontos <b>cardeais</b> (N, S, L, O) e <b>colaterais</b> (NE, NO, SE, SO); rosa dos ventos e bússola. A <b>declinação magnética</b> é o ângulo entre o norte magnético e o geográfico e varia no tempo.</p>
+    <h2>Coordenadas geográficas</h2>
+    <p class="xs"><b>Latitude:</b> distância angular ao Equador (0° a 90° N/S). <b>Longitude:</b> distância angular a Greenwich (0° a 180° L/O). O Brasil vai de ≈ 5°16′ N (RR) a 33°45′ S (RS) e de ≈ 34°47′ O (PB) a 73°59′ O (AC): quase todo ao sul do Equador e <b>todo no Hemisfério Ocidental</b>. O Equador cruza AP, PA, AM e RR; o Trópico de Capricórnio, SP, PR e MS.</p>
+  </div>
+  <div>
+    {{ figure('map_fusos_brasil', '<span class="t">Mapa 15.</span> Fusos legais por UF (aproximação). Base real: Natural Earth.', 'bd') }}
+  </div>
+</div>
+
+{{ figure('map_coordenadas', '<span class="t">Mapa 16.</span> Cada fuso = 15° = 1 hora; a leste de Greenwich a hora é <b>adiantada</b> (+), a oeste, <b>atrasada</b> (−). Se são 12h em Brasília (UTC−3): 0h do dia seguinte em Tóquio (UTC+9); 15h em Londres no inverno (UTC+0).', 'bd') }}
+
+<div class="q"><div class="qh">Questão · Escala</div>
+  Em um mapa na escala 1:2.000.000, a distância entre duas cidades mede 4,5 cm. A distância real, em linha reta, entre elas é de
+  <ol class="two"><li>9 km.</li><li>45 km.</li><li>90 km.</li><li>450 km.</li><li>900 km.</li></ol></div>
+<div class="gab"><p><b class="l">C</b>Gabarito comentado: 4,5 cm × 2.000.000 = 9.000.000 cm = <b>90 km</b> (cortam-se cinco zeros para converter cm em km). Erros comuns: cortar seis zeros (9 km) ou usar a escala como se fosse 1:200.000.</p></div>
+{% endcall %}

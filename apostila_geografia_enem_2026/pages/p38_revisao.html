@@ -1,0 +1,70 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-navy', 'Revisão final', 'Todas as cadeias são tendências, não regras universais. Para o detalhe e as fontes, volte à página indicada em cada módulo (A: pp. 3–9 · B: 10–12 · C: 13–19 · D: 20–24 · E: 25–30 · F: 31–34 · G: 35–37).') %}
+{{ title('R1', 'Revisão: cadeias causais e distinções que decidem a questão') }}
+<p class="lead">Use esta página na véspera: as <b>cadeias</b> mostram o raciocínio de cada módulo; a <b>tabela de distinções</b> ajuda a eliminar alternativas parecidas. Em qualquer cadeia, procure o <b>elo</b> que o enunciado descreve e continue a partir dele.</p>
+
+<div class="g2">
+  <div>
+    {{ chain([('Convecção no manto','terra'),('Placas se movem','terra'),('Choque ou afastamento','cinza'),('Vulcões, sismos, cordilheiras','vermelho')], 'A · Tectônica (p. 3–4)', '', 'sm') }}
+    {{ chain([('Ar úmido sobe a encosta','azul'),('Resfria e condensa','azul'),('Chuva no barlavento','azul'),('Sombra de chuva no sotavento','terra')], 'A · Chuva orográfica (p. 7)', '', 'sm') }}
+    {{ chain([('Pacífico equatorial mais quente','azul'),('Circulação atmosférica muda','azul'),('Seca no Norte/NE e chuva no Sul','laranja')], 'A · El Niño (p. 8; tendência)', '', 'sm') }}
+    {{ chain([('Desmatamento','verde'),('Solo exposto','terra'),('Erosão e lixiviação','terra'),('Assoreamento e perda de fertilidade','vermelho')], 'B · Degradação do solo (p. 12)', '', 'sm') }}
+    {{ chain([('Concentração fundiária e mecanização','terra'),('Expulsão do campo','roxo'),('Êxodo rural','roxo'),('Urbanização rápida','roxo')], 'C/D · Campo e cidade (pp. 18, 20)', '', 'sm') }}
+    {{ chain([('Excesso de fertilizante','terra'),('Escoamento até a água','azul'),('Eutrofização','verde'),('Falta de O₂ e mortandade','vermelho')], 'C · Eutrofização (p. 15)', '', 'sm') }}
+  </div>
+  <div>
+    {{ chain([('Impermeabilização e ocupação de várzeas','roxo'),('Mais escoamento superficial','azul'),('Enchentes urbanas','vermelho')], 'D · Cidade e água (pp. 21–22)', '', 'sm') }}
+    {{ chain([('Fecundidade ↓','roxo'),('Base da pirâmide estreita','roxo'),('Envelhecimento','roxo'),('Pressão sobre previdência e saúde','vermelho')], 'D · Demografia (p. 23)', '', 'sm') }}
+    {{ chain([('Fragmentação da produção','laranja'),('Cadeias globais','laranja'),('Ganhos desiguais por elo','vermelho')], 'E · Globalização (p. 27)', '', 'sm') }}
+    {{ chain([('Automação','laranja'),('Ocupações rotineiras fecham','roxo'),('Desemprego estrutural','vermelho'),('Requalificação ou informalidade','roxo')], 'E · Trabalho (p. 28)', '', 'sm') }}
+    {{ chain([('Disputa por rotas e recursos','vermelho'),('Gargalos marítimos','cinza'),('Frete e tensão geopolítica','vermelho')], 'F · Rotas e poder (p. 34)', '', 'sm') }}
+    {{ chain([('Escolha da projeção','cinza'),('Distorção de área ou ângulo','cinza'),('Leitura enganosa sem checar legenda','vermelho')], 'G · Projeções (p. 36)', '', 'sm') }}
+  </div>
+</div>
+
+<h2>Distinções que o ENEM adora (decida pelo critério, não pelo palpite)</h2>
+<div class="g2">
+  <table class="cmp c1" style="font-size:6.6pt">
+    <tr><th>Par</th><th>Critério</th></tr>
+    <tr><td><b>Intemperismo × erosão</b></td><td>Decompõe a rocha no lugar × remove e transporta</td></tr>
+    <tr><td><b>Lixiviação × laterização</b></td><td>Lava nutrientes × concentra óxidos de Fe e Al</td></tr>
+    <tr><td><b>Arenização × desertificação</b></td><td>Areais em solo arenoso (RS) × degradação em áreas secas</td></tr>
+    <tr><td><b>El Niño × La Niña</b></td><td>Pacífico central mais quente × mais frio</td></tr>
+    <tr><td><b>Barlavento × sotavento</b></td><td>Lado que recebe o vento úmido × sombra de chuva</td></tr>
+    <tr><td><b>Domínio × bioma</b></td><td>Relevo + clima + solo + vegetação (Ab’Saber) × conjunto biológico regional (IBGE)</td></tr>
+    <tr><td><b>Populoso × povoado</b></td><td>Muita gente (absoluto) × alta densidade (hab/km²)</td></tr>
+    <tr><td><b>Intensiva × extensiva</b></td><td>Muito capital por área × muita área, pouco capital</td></tr>
+    <tr><td><b>Familiar × empresarial</b></td><td>Trabalho e gestão da família × capital e contratação</td></tr>
+  </table>
+  <table class="cmp c1" style="font-size:6.6pt">
+    <tr><th>Par</th><th>Critério</th></tr>
+    <tr><td><b>Rev. Verde × transgenia</b></td><td>Pacote técnico 1940–70 × organismos geneticamente modificados (1990+)</td></tr>
+    <tr><td><b>Terceirizar × terciarizar</b></td><td>Forma de contratar × estrutura da economia</td></tr>
+    <tr><td><b>Estrutural × conjuntural</b></td><td>Tecnologia e estrutura × ciclo econômico</td></tr>
+    <tr><td><b>Taylor × Ford × Toyota</b></td><td>Cronômetro × esteira e consumo de massa × flexível e <i>just-in-time</i></td></tr>
+    <tr><td><b>Matriz energética × elétrica</b></td><td>Toda a energia × só eletricidade</td></tr>
+    <tr><td><b>Conforme × equivalente</b></td><td>Preserva ângulos (Mercator) × preserva áreas (Gall–Peters)</td></tr>
+    <tr><td><b>Escala grande × pequena</b></td><td>Denominador menor = mais detalhe, menos área</td></tr>
+    <tr><td><b>Assembleia × Conselho</b></td><td>Recomenda (todos votam) × decide e tem veto (5 permanentes)</td></tr>
+    <tr><td><b>Fato × reivindicação × status legal</b></td><td>O que ocorre × o que cada parte afirma × o que é reconhecido</td></tr>
+  </table>
+</div>
+
+<h2>Números que valem decorar (sempre com ano e fonte)</h2>
+<div class="g4">
+  <div class="stat"><b>203,1 mi</b><span>habitantes do Brasil (Censo 2022, IBGE)</span></div>
+  <div class="stat"><b>87,4%</b><span>taxa de urbanização (2022)</span></div>
+  <div class="stat"><b>1,55</b><span>filho por mulher: fecundidade (2022)</span></div>
+  <div class="stat"><b>10,9%</b><span>população com 65 anos ou mais (2022)</span></div>
+  <div class="stat"><b>77% · 23%</b><span>agricultura familiar: estabelecimentos · área (Censo Agro 2017)</span></div>
+  <div class="stat"><b>1,0% · 47,6%</b><span>estabelecimentos ≥ 1.000 ha: nº · área (2017)</span></div>
+  <div class="stat"><b>86,8%</b><span>renováveis na matriz elétrica (BEN 2026, ano-base 2025)</span></div>
+  <div class="stat"><b>49,4%</b><span>renováveis na matriz energética (2025)</span></div>
+  <div class="stat"><b>≈ 65%</b><span>cargas por rodovia (CNT, 2022)</span></div>
+  <div class="stat"><b>≈ 69%</b><span>serviços no valor adicionado (IBGE, 2025)</span></div>
+  <div class="stat"><b>US$ 68,3 bi</b><span>superávit comercial (MDIC, 2025)</span></div>
+  <div class="stat"><b>12,4%</b><span>Mata Atlântica remanescente (SOS/INPE)</span></div>
+</div>
+
+{% call box('enem', 'Seis passos para atacar uma questão') %}<span class="xs"><b>1.</b> Leia o <b>comando</b> (o que se pede). <b>2.</b> Registre <b>data, escala, unidade e fonte</b> do mapa ou gráfico. <b>3.</b> Sublinhe as <b>palavras-chave</b> do texto-base. <b>4.</b> Reconstrua a <b>cadeia causa → efeito</b> e ache o elo pedido. <b>5.</b> Elimine alternativas com <b>absolutos</b> (“sempre”, “todo”, “somente”) e com fatos fora do contexto. <b>6.</b> Confira com a <b>legenda</b> e o <b>tema do módulo</b>.</span>{% endcall %}
+{% endcall %}

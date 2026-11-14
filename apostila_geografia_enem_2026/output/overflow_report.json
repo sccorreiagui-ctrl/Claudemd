@@ -4,12 +4,7 @@
   {
    "page": 1,
    "id": "p01",
-   "issues": [
-    {
-     "t": "free-bottom-mm",
-     "v": 5.4
-    }
-   ]
+   "issues": []
   },
   {
    "page": 2,
@@ -17,7 +12,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 7.8
+     "v": 33.8
     }
    ]
   },
@@ -27,7 +22,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 5.8
+     "v": 5.4
     }
    ]
   },
@@ -37,7 +32,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 0.5
+     "v": 7.8
     }
    ]
   },
@@ -47,7 +42,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 0.4
+     "v": 5.8
     }
    ]
   },
@@ -57,7 +52,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": -0.4
+     "v": 0.5
     }
    ]
   },
@@ -67,7 +62,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 1.6
+     "v": 0.4
     }
    ]
   },
@@ -77,7 +72,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 0.7
+     "v": -0.4
     }
    ]
   },
@@ -87,7 +82,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 1.5
+     "v": 1.6
     }
    ]
   },
@@ -97,7 +92,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 8.4
+     "v": 0.7
     }
    ]
   },
@@ -107,7 +102,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 13.4
+     "v": 1.5
     }
    ]
   },
@@ -117,7 +112,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 15.1
+     "v": 8.4
     }
    ]
   },
@@ -127,7 +122,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 15.6
+     "v": 13.4
     }
    ]
   },
@@ -137,7 +132,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 28.1
+     "v": 15.1
     }
    ]
   },
@@ -147,7 +142,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 0.5
+     "v": 12
     }
    ]
   },
@@ -157,7 +152,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 27.2
+     "v": 28.1
     }
    ]
   },
@@ -167,7 +162,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 9.8
+     "v": 0.5
     }
    ]
   },
@@ -177,7 +172,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 12.3
+     "v": 27.2
     }
    ]
   },
@@ -187,7 +182,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 15.8
+     "v": 9.8
     }
    ]
   },
@@ -197,7 +192,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 32.9
+     "v": 12.3
     }
    ]
   },
@@ -207,7 +202,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 32.3
+     "v": 15.8
     }
    ]
   },
@@ -217,7 +212,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 26.4
+     "v": 29.4
     }
    ]
   },
@@ -227,7 +222,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 0.9
+     "v": 32.3
     }
    ]
   },
@@ -237,7 +232,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 0.3
+     "v": 26.4
     }
    ]
   },
@@ -247,7 +242,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 2.5
+     "v": 4.5
     }
    ]
   },
@@ -257,7 +252,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 4.2
+     "v": 0.3
     }
    ]
   },
@@ -267,7 +262,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 3.7
+     "v": 2.5
     }
    ]
   },
@@ -277,7 +272,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 13.4
+     "v": 4.2
     }
    ]
   },
@@ -287,7 +282,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 1.5
+     "v": 3.7
     }
    ]
   },
@@ -297,7 +292,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 9.3
+     "v": 9.9
     }
    ]
   },
@@ -307,7 +302,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 7.6
+     "v": 2.1
     }
    ]
   },
@@ -317,7 +312,77 @@
    "issues": [
     {
      "t": "free-bottom-mm",
+     "v": 9.3
+    }
+   ]
+  },
+  {
+   "page": 33,
+   "id": "p33",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 7.6
+    }
+   ]
+  },
+  {
+   "page": 34,
+   "id": "p34",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
      "v": -0.1
+    }
+   ]
+  },
+  {
+   "page": 35,
+   "id": "p35",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 4.1
+    }
+   ]
+  },
+  {
+   "page": 36,
+   "id": "p36",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 2.8
+    }
+   ]
+  },
+  {
+   "page": 37,
+   "id": "p37",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 5.2
+    }
+   ]
+  },
+  {
+   "page": 38,
+   "id": "p38",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 10
+    }
+   ]
+  },
+  {
+   "page": 39,
+   "id": "p39",
+   "issues": [
+    {
+     "t": "free-bottom-mm",
+     "v": 40.5
     }
    ]
   }

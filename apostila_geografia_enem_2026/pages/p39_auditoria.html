@@ -1,0 +1,39 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-navy', 'Gabaritos, auditoria e fontes', 'Fontes principais: IBGE (Censos 2017 e 2022, PIB 2025, biomas, SIDRA); EPE (BEN 2026); MDIC (balança 2025); INMET; CNT; ONU/DESA e ACNUR; Natural Earth; Bird (2003); Comissão Europeia; NATO; PCA; IEA; Reuters; ISW. Código-fonte e dados em /apostila_geografia_enem_2026.') %}
+{{ title('R2', 'Gabaritos, correções ao inventário e fontes') }}
+<p class="lead">Última página: o <b>índice de gabaritos</b> (cada questão tem comentário na página de origem), as <b>correções feitas ao material de partida</b> e as <b>limitações</b> do trabalho. Situações políticas e estatísticas valem para a data indicada.</p>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Índice de gabaritos</h2>
+    <table class="cmp c1" style="font-size:7.1pt">
+      <tr><th style="width:8mm">Pág.</th><th>Questão</th><th style="width:9mm">Gab.</th></tr>
+      {% for pg, q, g in qindex %}
+      <tr><td>{{ pg }}</td><td>{{ q }}</td><td class="tc"><b>{{ g }}</b></td></tr>
+      {% endfor %}
+    </table>
+  </div>
+  <div>
+    <h2 class="first">Correções ao inventário de partida</h2>
+    <ul class="sq sm">
+      <li><b>Interior da Terra:</b> o manto é rocha <b>sólida</b> que flui; não há “oceano de magma”.</li>
+      <li><b>Agricultura familiar:</b> usado o Censo Agro 2017 (77% dos estabelecimentos, 23% da área, 23% do valor); “70% dos alimentos” não é dado geral comprovado.</li>
+      <li><b>Populoso × povoado</b> padronizado (população absoluta × densidade).</li>
+      <li><b>Solos amazônicos:</b> predominam Latossolos e Argissolos ácidos e pobres; nem todos são arenosos, e latossolos não são todos férteis.</li>
+      <li><b>Mata Atlântica:</b> ≈ 12,4% de remanescentes (não “3–10%” sem contexto).</li>
+      <li><b>Infiltração em áreas urbanas:</b> ≈ 15% (FISRWG), não “&lt; 10%”.</li>
+      <li><b>Revolução Verde</b> (1940–70) ≠ transgenia (1996+; Brasil 2005) ≠ agricultura de precisão.</li>
+      <li><b>Pragas e agrotóxicos:</b> seleção sobre variação já existente, não “seleção artificial” nem mutação induzida.</li>
+      <li><b>Seca de 2014–15 e outros eventos:</b> causas múltiplas; sem explicação monocausal.</li>
+      <li><b>Energia:</b> dados do BEN 2026 (ano-base 2025), não de edições antigas.</li>
+      <li><b>Projeções:</b> nenhuma preserva tudo; sem atribuição automática de ideologia.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="g2">
+  {% call box('erro', 'Limitações e transparência') %}<span class="sm">(1) O arquivo anexo citado no pedido (“Texto colado”) não estava no ambiente: usou-se o inventário colado na mensagem. (2) As videoaulas <b>não foram assistidas</b>: nada é atribuído ao professor além do inventário. (3) Não há vetor oficial acessível dos domínios de Ab’Saber: o mapa é <b>aproximação</b> a partir dos biomas, com sub-áreas esquemáticas indicadas. (4) Mapas de massas de ar, rios voadores, migrações, MATOPIBA, arco do desmatamento e rotas são <b>esquemáticos</b>. (5) Percentuais de modais (CNT, 2022) e de escudos/bacias são aproximações didáticas. (6) O Marco Temporal e os conflitos são <b>dinâmicos</b>.</span>{% endcall %}
+  {% call box('nota', 'Datas de referência') %}<span class="sm">Censo Agro 2017 · Censo Demográfico 2022 · BEN 2026 (ano-base 2025) · PIB 2025 (IBGE, 3/3/2026) · balança comercial 2025 (MDIC, 6/1/2026) · REGIC 2018 · Mercosul–UE (aplicação provisória desde 1/5/2026) · tarifas dos EUA (jul/2026) · composição de blocos e do BRICS (nov/2026) · geopolítica (14/11/2026). Dados mudam: confira a fonte antes de citar em redação.</span>{% endcall %}
+</div>
+{% call box('def', 'Arquivos editáveis (pasta apostila_geografia_enem_2026)') %}<span class="sm"><b>pages/</b> páginas em HTML (Jinja2) · <b>assets/css/</b> estilos · <b>src/figs/</b> código dos mapas e diagramas (Python) · <b>assets/figures/</b> SVG com texto real · <b>tools/export_pdf.js</b> exportação (Chromium) · <b>data/processed/</b> séries conferidas · <b>output/</b> PDF e relatório de validação. Reconstrução: <i>python src/build.py</i> e <i>node tools/export_pdf.js</i>.</span>{% endcall %}
+{% endcall %}

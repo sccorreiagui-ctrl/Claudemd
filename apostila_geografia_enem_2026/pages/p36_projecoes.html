@@ -1,0 +1,37 @@
+{% from '_macros.html' import page, box, figure, chain, title with context %}
+{% call page('m-cinza', 'Módulo G · Cartografia e geotecnologias', 'Fontes: Snyder, Map Projections: A Working Manual (USGS); Šavrič, Patterson e Jenny, Equal Earth (2018); IBGE (SIRGAS 2000, UTM); Natural Earth (base). Áreas: Groenlândia ≈ 2,17 e África ≈ 30,4 milhões de km². ◆ = complemento independente.') %}
+{{ title('G2', 'Projeções cartográficas: o que cada uma preserva e distorce') }}
+<p class="lead"><b>Fenômeno:</b> a Terra é aproximadamente uma esfera achatada; o papel é plano. <b>Causa:</b> não existe projeção plana sem distorção (Teorema Egregium, de Gauss). <b>Mecanismo:</b> cada projeção escolhe o que <b>preservar</b> (ângulos, áreas ou distâncias) e o que sacrificar. <b>Consequência:</b> a escolha depende do objetivo do mapa.</p>
+
+{{ figure('map_projecoes', '<span class="t">Figura G2.</span> Projeções com círculos de Tissot (iguais no globo): quanto mais deformado o círculo, maior a distorção local. Escala variável; base: Natural Earth.', 'bd') }}
+
+<table class="cmp c1" style="font-size:6.6pt">
+  <tr><th></th><th>Mercator (1569)</th><th>Gall–Peters (Gall, 1855; Peters, 1973)</th></tr>
+  <tr><td><b>Tipo</b></td><td>Cilíndrica, <b>conforme</b></td><td>Cilíndrica, <b>equivalente</b></td></tr>
+  <tr><td><b>Preserva</b></td><td>Ângulos e formas locais; linhas de rumo constante são retas</td><td>Proporção entre as áreas</td></tr>
+  <tr><td><b>Distorce</b></td><td>Áreas: crescem com a latitude (a Groenlândia parece do tamanho da África, que é ≈ 14 vezes maior)</td><td>Formas: alongadas nas baixas latitudes e achatadas nas altas</td></tr>
+  <tr><td><b>Usos</b></td><td>Cartas náuticas; mapas na web (variante Web Mercator)</td><td>Mapas temáticos que comparam extensões</td></tr>
+  <tr><td><b>Cuidado</b></td><td>Foi criada para a <b>navegação</b>; o problema é usá-la para comparar tamanhos</td><td>Divulgada como mais “justa” ao Sul global, mas já existiam projeções equivalentes; também distorce</td></tr>
+</table>
+
+<div class="g2">
+  <div>
+    <h2 class="first">Como classificar</h2>
+    <ul class="sq xs">
+      <li><b>Pela superfície:</b> cilíndrica (cilindro), cônica (cone) e azimutal ou plana (plano tangente).</li>
+      <li><b>Pela propriedade:</b> <b>conforme</b> (ângulos), <b>equivalente</b> (áreas), <b>equidistante</b> (distâncias a partir de pontos ou linhas) e de <b>compromisso</b> (afilática).</li>
+      <li><b>UTM:</b> cilíndrica transversa conforme, em fusos de 6°; base das cartas topográficas. O Brasil usa o datum <b>SIRGAS 2000</b>.</li>
+      <li><b>Equal Earth ◆</b> (2018): equivalente de compromisso, usada nos mapas-múndi desta apostila.</li>
+    </ul>
+  </div>
+  <div>
+    {% call box('erro') %}<span class="xs"><b>Nenhuma projeção plana preserva tudo.</b> “O Mercator mente” e “o Peters é o correto” são simplificações: cada uma serve a um uso. Atribuir <b>intenção ideológica</b> a uma projeção exige evidência; o que se pode afirmar é que a <b>escolha</b> e o uso (centro do mapa, comparação de áreas) influenciam a percepção.</span>{% endcall %}
+    {% call box('enem') %}<span class="xs"><b>Pistas:</b> “comparar áreas” → equivalente; “navegação” e “ângulos” → conforme (Mercator); “distâncias a partir de um ponto” → azimutal equidistante; “país extenso no sentido leste–oeste em média latitude” → cônica.</span>{% endcall %}
+  </div>
+</div>
+
+<div class="q"><div class="qh">Questão · Projeções</div>
+  Uma organização pretende produzir um mapa-múndi que permita comparar corretamente a extensão territorial de países situados em diferentes latitudes. Entre as alternativas, a projeção mais adequada é
+  <ol class="two"><li>a de Mercator, por preservar os ângulos e as formas locais.</li><li>a azimutal equidistante, por mostrar a distância correta entre quaisquer dois pontos.</li><li>a UTM, por abranger todo o planeta em um único fuso.</li><li>uma projeção equivalente, por preservar a proporção entre as áreas.</li><li>qualquer uma, pois todas preservam áreas e ângulos simultaneamente.</li></ol></div>
+<div class="gab"><p><b class="l">D</b>Gabarito comentado: para comparar áreas usa-se uma projeção <b>equivalente</b>. A Mercator é conforme e distorce áreas em altas latitudes; a azimutal só preserva distâncias a partir do ponto central; a UTM é dividida em fusos de 6°; e <b>nenhuma</b> projeção plana preserva ângulos, áreas e distâncias ao mesmo tempo.</p></div>
+{% endcall %}
