@@ -188,7 +188,7 @@ def mapa_blocos():
     note(-100, 49, "USMCA\nEUA · México · Canadá", color="#B34A1F")
     note(-53, -12.5, "Mercosul\nAR · BR · PY · UY · BO", color="#1F6E43")
     note(88, 61, "União Econômica Eurasiática\nRU · BY · KZ · AM · KG", color="#6D4C41", size=4.9)
-    leader(11, 49, -2.0e6, 2.3e6); note(11, 49, "União Europeia\n(27 países)", dx=-2.9e6, dy=2.9e6, color="#1F5FAE")
+    leader(11, 49, -1.5e6, 1.3e6); note(11, 49, "União Europeia\n(27 países)", dx=-2.4e6, dy=1.8e6, color="#1F5FAE")
     leader(121, 12.5, 2.3e6, 0.4e6); note(121, 12.5, "ASEAN\n(10 + Timor-Leste)", dx=4.1e6, dy=0.5e6, color="#5E2D80")
     note(20, 4, "África: União Africana (55 membros)\nZLC Continental (AfCFTA): em vigor desde 2019,\nimplementação gradual", color="#37474F", weight=700, size=4.6)
     legend_box(ax, [(b[0], "patch", b[2]) if not b[3] else (b[0], "hatch", b[2], b[3], "#EADFD8") for b in BLOCS] +

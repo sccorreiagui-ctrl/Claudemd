@@ -54,8 +54,8 @@
 ## Progresso
 - [x] Dados geoespaciais baixados e inspecionados
 - [x] Estatísticas principais verificadas
-- [ ] Biblioteca SVG + CSS + build
-- [ ] Mapas
-- [ ] Páginas
-- [ ] Auditoria visual
-- [ ] Relatório/README/commit/push
+- [x] Biblioteca SVG + CSS + build
+- [x] Mapas
+- [x] Páginas (39)
+- [x] Auditoria visual
+- [x] Relatório/README/commit/push

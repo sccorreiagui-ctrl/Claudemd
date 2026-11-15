@@ -132,7 +132,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 15.1
+     "v": 11.9
     }
    ]
   },
@@ -202,7 +202,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 15.8
+     "v": 0.8
     }
    ]
   },
@@ -222,7 +222,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 32.3
+     "v": 0
     }
    ]
   },
@@ -382,7 +382,7 @@
    "issues": [
     {
      "t": "free-bottom-mm",
-     "v": 40.5
+     "v": 35.4
     }
    ]
   }

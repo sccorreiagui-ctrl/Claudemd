@@ -370,11 +370,10 @@ def balanca():
     f = Fig(HALF, H, "balanca_comercial", "Balança comercial do Brasil")
     W = HALF
     f.text(0, 0, "Balança comercial do Brasil (US$ bilhões)", 7.8, 800, OR_D)
-    f.text(0, 12, "MDIC, divulgação de 6/1/2026 (valores correntes)", 6.0, 500, MUTED)
+    f.text(0, 12, "MDIC, 6/1/2026 · à esquerda: 2025 (valores correntes)", 6.0, 500, MUTED)
     y1 = 124
-    sc = 0.30
+    sc = 0.24
     # painel 1: 2025
-    f.text(0, 24, "2025", 6.6, 800, INK)
     xs = [(6, "Exportações", 348.676, "#E65100"), (66, "Importações", 280.382, "#546E7A"), (126, "Saldo (superávit)", 68.293, "#1565C0")]
     for x, nm, v, c in xs:
         h = v * sc

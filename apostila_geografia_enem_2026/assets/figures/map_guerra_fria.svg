@@ -30761,7 +30761,7 @@ M 276.3 33.2
 L 276.4 33.1 
 L 276.4 33.2 
 z
-" clip-path="url(#p8df48acb68)" style="fill: url(#hd1429e3727)"/>
+" clip-path="url(#p8df48acb68)" style="fill: url(#hefe974adb6)"/>
    </g>
    <g id="line2d_4">
     <path d="M 282.4 36.4 
@@ -30951,7 +30951,7 @@ L 11.76 215.4
 L 11.76 211.9 
 L 4.41 211.9 
 z
-" style="fill: url(#h00c5431e69); stroke: #b71c1c; stroke-width: 0.4; stroke-linejoin: miter"/>
+" style="fill: url(#h189e2efa70); stroke: #b71c1c; stroke-width: 0.4; stroke-linejoin: miter"/>
     </g>
     <g id="text_18">
      <text style="font-size: 4.9px; font-family: 'Inter'; text-anchor: start" x="14.21" y="215.3641" transform="rotate(-0 14.21 215.3641)">Alemanha: dividida em RFA (OTAN) e RDA (Pacto)</text>
@@ -30965,7 +30965,7 @@ z
   </clipPath>
  </defs>
  <defs>
-  <pattern id="hd1429e3727" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="hefe974adb6" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="none"/>
    <path d="M -36 36 
 L 36 -36 
@@ -31017,9 +31017,9 @@ M 33 105
 L 105 33 
 M 36 108 
 L 108 36 
-" style="fill: #b71c1c; stroke: #b71c1c; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #b71c1c; stroke: #b71c1c; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h00c5431e69" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h189e2efa70" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#1f5fae"/>
    <path d="M -36 36 
 L 36 -36 
@@ -31071,7 +31071,7 @@ M 33 105
 L 105 33 
 M 36 108 
 L 108 36 
-" style="fill: #b71c1c; stroke: #b71c1c; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #b71c1c; stroke: #b71c1c; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
  </defs>
 </svg>

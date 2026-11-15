@@ -3738,6 +3738,7 @@ L 165.0 77.6
 L 165.4 78.2 
 L 164.7 79.9 
 L 162.8 81.4 
+L 161.8 81.8 
 L 161.2 81.9 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
     <path d="M 172.4 75.8 
@@ -3760,6 +3761,24 @@ L 169.4 74.5
 L 169.3 75.2 
 L 168.4 74.8 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
+    <path d="M 221.0 145.8 
+L 221.0 145.5 
+L 221.6 145.1 
+L 221.7 144.6 
+L 221.9 144.9 
+L 222.0 145.2 
+L 221.2 145.7 
+L 221.0 145.8 
+" clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
+    <path d="M 184.7 197.9 
+L 185.5 197.1 
+L 185.7 197.6 
+L 185.6 198.0 
+L 185.5 198.2 
+L 185.4 198.1 
+L 184.9 198.1 
+L 184.7 197.9 
+" clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
     <path d="M 169.5 65.3 
 L 169.6 64.8 
 L 170.0 64.7 
@@ -3769,21 +3788,13 @@ L 170.0 66.0
 L 169.7 65.9 
 L 169.5 65.3 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
-    <path d="M 221.0 145.8 
-L 221.0 145.5 
-L 221.6 145.1 
-L 221.7 144.6 
-L 221.9 144.9 
-L 222.0 145.2 
-L 221.0 145.8 
-" clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
-    <path d="M 184.7 197.9 
-L 185.5 197.1 
-L 185.7 197.6 
-L 185.5 198.2 
-L 185.4 198.1 
-L 184.9 198.1 
-L 184.7 197.9 
+    <path d="M 219.7 147.3 
+L 219.9 147.1 
+L 220.3 147.1 
+L 220.2 147.5 
+L 220.0 147.8 
+L 219.8 147.7 
+L 219.7 147.3 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
     <path d="M 170.2 72.7 
 L 170.4 72.4 
@@ -3809,13 +3820,6 @@ L 168.2 75.7
 L 166.7 76.6 
 L 166.2 76.1 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
-    <path d="M 219.7 147.3 
-L 219.9 147.1 
-L 220.3 147.1 
-L 220.0 147.8 
-L 219.8 147.7 
-L 219.7 147.3 
-" clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
     <path d="M 196.5 83.8 
 L 196.8 83.3 
 L 197.2 83.4 
@@ -3823,17 +3827,18 @@ L 197.3 83.6
 L 196.8 83.9 
 L 196.5 83.8 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
+    <path d="M 189.9 194.6 
+L 190.5 194.2 
+L 190.9 194.6 
+L 191.1 194.7 
+L 190.1 194.8 
+L 189.9 194.6 
+" clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
     <path d="M 198.0 92.2 
 L 198.2 90.9 
 L 198.7 90.7 
 L 198.5 91.7 
 L 198.0 92.2 
-" clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
-    <path d="M 189.9 194.6 
-L 190.5 194.2 
-L 191.1 194.7 
-L 190.1 194.8 
-L 189.9 194.6 
 " clip-path="url(#p3c224310da)" style="fill: none; stroke: #6d7a86; stroke-width: 0.6"/>
     <path d="M 169.7 209.2 
 L 170.3 208.6 

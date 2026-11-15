@@ -109,9 +109,9 @@ def transicao():
 
 
 def populoso_povoado():
-    f = Fig(HALF, 150, "populoso_povoado", "Populoso e povoado")
+    f = Fig(HALF, 154, "populoso_povoado", "Populoso e povoado")
     W = HALF
-    f.rect(0, 0, W, 150, fill="#FFFFFF")
+    f.rect(0, 0, W, 154, fill="#FFFFFF")
     f.text(W / 2, 0, "POPULOSO × POVOADO", 8.0, 800, "#4A148C", "middle")
     rnd = random.Random(8)
     def box(x, y, w, h, n, label, sub, col_):
@@ -123,7 +123,7 @@ def populoso_povoado():
     box(8, 22, 150, 70, 26, "POPULOSO", "muita gente (população absoluta)\nex.: Brasil: ≈ 203 milhões", "#4A148C")
     box(190, 22, 150, 70, 26, "POPULOSO", "e também…", "#4A148C") if False else None
     box(190, 26, 66, 40, 26, "POVOADO", "muita gente por km²\n(densidade alta)", "#C2185B")
-    f.para(8, 124, W - 16, "Densidade demográfica = população ÷ área (hab/km²). Brasil: ≈ 23,9 hab/km² (Censo 2022): **populoso**, mas **pouco povoado**.", 6.2, 600, INK, "middle", lh=1.2)
+    f.para(8, 128, W - 16, "Densidade demográfica = população ÷ área (hab/km²). Brasil: ≈ 23,9 hab/km² (Censo 2022): **populoso**, mas **pouco povoado**.", 6.2, 600, INK, "middle", lh=1.2)
     save_svg("populoso_povoado", f.render())
 
 
@@ -223,88 +223,76 @@ def impermeabilizacao():
 
 
 def inversao_termica():
-    f = Fig(FULL, 184, "inversao_termica", "Inversão térmica")
-    W = FULL
-    hw = (W - 12) / 2
-    for i, (t, c) in enumerate([("CONDIÇÃO NORMAL: o ar quente sobe e dispersa a poluição", "#1565C0"), ("INVERSÃO TÉRMICA: camada de ar quente “tampa” o ar frio", "#C62828")]):
-        x0 = i * (hw + 12)
-        f.rect(x0, 0, hw, 20, fill=c, rx=4)
-        f.text(x0 + hw / 2, 10, t, 6.2, 800, "#FFFFFF", "middle", valign="mid")
-        f.rect(x0, 22, hw, 108, fill="#EAF4FC" if i == 0 else "#FDEDEC")
-        # cidade
-        for k, (bx, bh) in enumerate([(30, 30), (52, 44), (76, 24), (96, 36), (122, 48), (150, 28), (174, 38), (200, 26)]):
-            f.rect(x0 + bx, 126 - bh, 16, bh, fill="#78909C", stroke="#546E7A", sw=0.6)
-        f.rect(x0, 126, hw, 6, fill="#546E7A")
-    # normal: setas subindo, poluentes dispersos
-    for x in (50, 92, 140, 190):
-        f.arrow(x, 100, x, 38, "#E53935", 1.8, 6)
-    for (x, y) in [(60, 50), (110, 40), (150, 48), (190, 36), (230, 56)]:
-        f.circle(x, y, 2.4, fill="#6D4C41", opacity=0.55)
-    f.text(10, 28, "ar frio ↑ altitude", 5.8, 700, "#0D47A1", italic=True)
-    # inversão: camada quente, poluentes presos
-    x1 = hw + 12
-    f.rect(x1, 46, hw, 14, fill="#EF9A9A", opacity=0.85)
-    f.text(x1 + hw / 2, 53, "camada de ar QUENTE (menos denso)", 6.0, 800, "#B71C1C", "middle", valign="mid")
-    f.rect(x1, 60, hw, 70, fill="#E1F5FE", opacity=0.55)
-    for (x, y) in [(40, 78), (60, 90), (88, 72), (110, 96), (140, 84), (170, 76), (196, 94), (228, 88), (250, 100), (120, 106), (70, 108)]:
-        f.circle(x1 + x, y, 2.6, fill="#3E2723", opacity=0.75)
-    f.text(x1 + hw / 2, 66, "ar FRIO e denso preso junto ao solo: poluentes acumulam", 6.0, 800, "#3E2723", "middle")
-    f.path(f"M{x1+10},100 q10,-8 20,0", stroke="#546E7A", sw=1.0)
-    # perfis de temperatura
-    f.text(0, 136, "Temperatura × altitude", 6.3, 800, "#37474F")
-    def perfil(x0, normal):
-        f.line(x0 + 4, 146, x0 + 4, 172, "#37474F", 0.8); f.line(x0 + 4, 172, x0 + 100, 172, "#37474F", 0.8)
-        if normal:
-            f.path(f"M{x0+90},170 L{x0+30},148", stroke="#C62828", sw=1.8)
+    from svgkit import HALF
+    W = HALF
+    f = Fig(W, 166, "inversao_termica", "Inversão térmica")
+    spec = [("CONDIÇÃO NORMAL: o ar quente sobe e dispersa a poluição", "#1565C0", "#EAF4FC"), ("INVERSÃO TÉRMICA: camada de ar quente “tampa” o ar frio", "#C62828", "#FDEDEC")]
+    for i, (t, c, bg) in enumerate(spec):
+        y0 = i * 84
+        f.rect(0, y0, W, 15, fill=c, rx=4)
+        f.text(W / 2, y0 + 7.5, t, 5.9, 800, "#FFFFFF", "middle", valign="mid")
+        f.rect(0, y0 + 17, W, 60, fill=bg)
+        for bx, bh in [(8, 18), (26, 26), (44, 14), (62, 22), (80, 30), (98, 16), (116, 22), (134, 14)]:
+            f.rect(bx, y0 + 72 - bh, 12, bh, fill="#78909C", stroke="#546E7A", sw=0.5)
+        f.rect(0, y0 + 72, W, 5, fill="#546E7A")
+        # mini-perfil T × altitude à direita
+        px = 214
+        f.line(px, y0 + 26, px, y0 + 70, "#37474F", 0.8); f.line(px, y0 + 70, px + 120, y0 + 70, "#37474F", 0.8)
+        f.text(px - 3, y0 + 20, "altitude", 5.4, 700, MUTED, "end"); f.text(px + 122, y0 + 58, "temperatura →", 5.4, 700, MUTED, "end")
+        if i == 0:
+            f.path(f"M{px+100},{y0+68} L{px+30},{y0+30}", stroke="#C62828", sw=1.8)
+            f.text(px + 52, y0 + 24, "esfria com\na altitude", 5.6, 700, INK, lh=1.1)
         else:
-            f.path(f"M{x0+30},170 L{x0+60},158 L{x0+88},150", stroke="#C62828", sw=1.8)
-    perfil(0, True); perfil(hw + 12, False)
-    f.text(112, 156, "normal: esfria com a altitude", 6.0, 700, INK)
-    f.text(hw + 12 + 112, 156, "inversão: o ar fica mais quente em cima", 6.0, 700, INK)
-    f.para(hw + 12 + 112, 166, hw - 118, "mais frequente no inverno, em noites frias e secas; agrava doenças respiratórias", 5.6, 600, MUTED, lh=1.15)
+            f.path(f"M{px+30},{y0+68} L{px+62},{y0+52} L{px+96},{y0+34}", stroke="#C62828", sw=1.8)
+            f.text(px + 12, y0 + 26, "mais quente\nem cima", 5.6, 700, INK, lh=1.1)
+    for x in (24, 62, 100, 138):
+        f.arrow(x, 66, x, 28, "#E53935", 1.6, 5)
+    for (x, y) in [(36, 30), (76, 24), (116, 30), (150, 38), (170, 26)]:
+        f.circle(x, y, 2.2, fill="#6D4C41", opacity=0.55)
+    y0 = 84
+    f.rect(0, y0 + 30, 200, 11, fill="#EF9A9A", opacity=0.9)
+    f.text(100, y0 + 35.5, "camada de ar QUENTE (menos denso)", 5.8, 800, "#B71C1C", "middle", valign="mid")
+    for (x, y) in [(20, 52), (44, 58), (66, 48), (90, 56), (112, 50), (140, 58), (168, 52), (186, 60), (30, 60), (126, 60)]:
+        f.circle(x, y0 + y, 2.4, fill="#3E2723", opacity=0.75)
+    f.text(100, y0 + 21, "poluentes acumulam no ar FRIO", 5.8, 800, "#3E2723", "middle")
     save_svg("inversao_termica", f.render())
 
 
 def ilha_calor():
-    f = Fig(FULL, 190, "ilha_calor", "Perfil da ilha de calor urbana")
-    W = FULL
-    f.rect(0, 0, W, 190, fill="#FFFFFF")
-    f.text(0, 0, "Ilha de calor: temperatura do ar ao longo de uma linha rural → centro urbano → rural (perfil ilustrativo)", 7.4, 800, "#B71C1C")
-    x0, x1, y0, y1 = 36, W - 8, 40, 108
-    f.line(x0, y1, x1, y1, "#37474F", 0.9)
-    # curva
+    from svgkit import HALF
     import math as m
+    W = HALF
+    f = Fig(W, 150, "ilha_calor", "Perfil da ilha de calor urbana")
+    f.text(0, 0, "Ilha de calor: temperatura do ar de um lado rural ao outro (perfil ilustrativo)", 6.6, 800, "#B71C1C")
+    x0, x1, y0, y1 = 30, W - 6, 36, 100
+    f.line(x0, y1, x1, y1, "#37474F", 0.9)
+    f.text(x0 - 4, y0 - 12, "temperatura ↑", 5.4, 700, MUTED, "start")
     pts = []
     for i in range(0, 61):
         x = x0 + (x1 - x0) * i / 60
         t = i / 60
         base = 0.15 + 0.85 * (0.5 * (1 + m.tanh((t - 0.18) * 9)) * 0.5 * (1 + m.tanh((0.82 - t) * 9)))
-        dip = -0.28 * m.exp(-((t - 0.60) / 0.045) ** 2)       # parque
+        dip = -0.28 * m.exp(-((t - 0.60) / 0.045) ** 2)
         peak = 0.12 * m.exp(-((t - 0.38) / 0.1) ** 2)
         v = base + dip + peak
         pts.append((x, y1 - 8 - (y1 - y0 - 12) * v))
     f.poly(pts + [(x1, y1), (x0, y1)], fill="#FFCDD2", opacity=0.6)
     f.poly(pts, stroke="#C62828", sw=2.2, close=False)
-    # cenário
-    sky = 100
-    labs = [(0.07, "rural"), (0.24, "subúrbio"), (0.40, "centro\nverticalizado"), (0.60, "parque"), (0.76, "subúrbio"), (0.92, "rural")]
-    f.rect(x0, y1, x1 - x0, 46, fill="#ECEFF1")
+    labs = [(0.07, "rural"), (0.24, "subúrbio"), (0.40, "centro\nverticalizado"), (0.62, "parque"), (0.78, "subúrbio"), (0.93, "rural")]
+    f.rect(x0, y1, x1 - x0, 40, fill="#ECEFF1")
     for t, lab in labs:
         x = x0 + (x1 - x0) * t
-        f.text(x, y1 + 52, lab, 5.9, 700, INK, "middle", lh=1.05)
-    for (t, bh, w_, c_) in [(0.30, 28, 12, "#78909C"), (0.34, 40, 14, "#607D8B"), (0.38, 48, 14, "#546E7A"), (0.42, 36, 14, "#78909C"), (0.46, 24, 12, "#90A4AE"), (0.22, 12, 10, "#90A4AE"), (0.26, 16, 10, "#90A4AE"), (0.74, 10, 10, "#90A4AE"), (0.78, 14, 10, "#90A4AE")]:
+        f.text(x, y1 + 42, lab, 5.6, 700, INK, "middle", lh=1.05)
+    for (t, bh, w_, c_) in [(0.30, 22, 10, "#78909C"), (0.34, 32, 11, "#607D8B"), (0.38, 38, 11, "#546E7A"), (0.42, 28, 11, "#78909C"), (0.46, 18, 10, "#90A4AE"), (0.22, 10, 8, "#90A4AE"), (0.26, 13, 8, "#90A4AE"), (0.76, 8, 8, "#90A4AE"), (0.80, 11, 8, "#90A4AE")]:
         x = x0 + (x1 - x0) * t
-        f.rect(x, y1 + 46 - bh, w_, bh, fill=c_) if False else f.rect(x, y1 + 48 - bh - 2, w_, bh, fill=c_)
-    x = x0 + (x1 - x0) * 0.60
-    f.circle(x, y1 + 30, 12, fill="#66BB6A"); f.circle(x + 12, y1 + 34, 9, fill="#43A047"); f.circle(x - 12, y1 + 34, 9, fill="#43A047")
-    for t in (0.04, 0.08, 0.12, 0.90, 0.94):
-        xx = x0 + (x1 - x0) * t
-        f.tree(xx, y1 + 46, 0.7)
-    f.text(x0 + (x1 - x0) * 0.38, y0 - 8, "pico: maior temperatura no centro verticalizado", 6.0, 800, "#B71C1C", "middle")
-    f.text(x0 + (x1 - x0) * 0.60 + 8, y1 - 40, "parque: ilha de frescor", 5.8, 800, "#2E7D32", "start")
-    f.text(0, 176, "Causas: asfalto e concreto absorvem calor (baixo albedo), pouca vegetação, calor liberado por veículos/ar-condicionado e paredões de edifícios que dificultam a ventilação.", 6.0, 600, INK)
+        f.rect(x, y1 + 38 - bh, w_, bh, fill=c_)
+    x = x0 + (x1 - x0) * 0.62
+    f.circle(x, y1 + 26, 9, fill="#66BB6A"); f.circle(x + 9, y1 + 29, 7, fill="#43A047"); f.circle(x - 9, y1 + 29, 7, fill="#43A047")
+    for t in (0.03, 0.08, 0.12, 0.90, 0.95):
+        f.tree(x0 + (x1 - x0) * t, y1 + 38, 0.6)
+    f.text(x0 + (x1 - x0) * 0.38, y0 - 12, "pico no centro verticalizado", 5.6, 800, "#B71C1C", "middle")
+    f.text(x0 + (x1 - x0) * 0.62 + 6, y1 - 34, "parque: ilha de frescor", 5.6, 800, "#2E7D32", "start")
     save_svg("ilha_calor", f.render())
-
 
 def segregacao():
     f = Fig(FULL, 178, "segregacao", "Segregação socioespacial e áreas de risco")

@@ -1192,7 +1192,7 @@ L 54.7 106.2
 L 52.8 107.6 
 L 52.1 105.5 
 z
-" clip-path="url(#p6a3a8f93d9)" style="fill: url(#h73682e357a)"/>
+" clip-path="url(#p6a3a8f93d9)" style="fill: url(#h66692688c3)"/>
    </g>
    <g id="_GeoPandasPolyCollection_6">
     <path d="M 90.2 48.9 
@@ -1263,7 +1263,7 @@ L 90.6 52.5
 L 90.9 52.1 
 L 91.1 50.0 
 z
-" clip-path="url(#p6a3a8f93d9)" style="fill: url(#hb45f129a0a)"/>
+" clip-path="url(#p6a3a8f93d9)" style="fill: url(#h9d35a544fe)"/>
    </g>
    <g id="line2d_1">
     <path d="M 79.7 89.6 
@@ -1488,7 +1488,7 @@ L 94.9 160.6
 L 94.9 157.9 
 L 89.6 157.9 
 z
-" style="fill: url(#h3a9d3f7c81); stroke: #8d5b2e; stroke-width: 0.4; stroke-linejoin: miter"/>
+" style="fill: url(#heca63c419c); stroke: #8d5b2e; stroke-width: 0.4; stroke-linejoin: miter"/>
     </g>
     <g id="text_17">
      <text style="font-size: 3.8px; font-family: 'Inter'; text-anchor: start" x="96.779709" y="160.574287" transform="rotate(-0 96.779709 160.574287)">Territórios palestinos (ONU: ocupados)</text>
@@ -1499,7 +1499,7 @@ L 94.9 166.1
 L 94.9 163.5 
 L 89.6 163.5 
 z
-" style="fill: url(#h79c525879e); stroke: #7b3fa0; stroke-width: 0.4; stroke-linejoin: miter"/>
+" style="fill: url(#hb6a164a75a); stroke: #7b3fa0; stroke-width: 0.4; stroke-linejoin: miter"/>
     </g>
     <g id="text_18">
      <text style="font-size: 3.8px; font-family: 'Inter'; text-anchor: start" x="96.779709" y="166.122139" transform="rotate(-0 96.779709 166.122139)">Golã: Síria reivindica; Israel administra</text>
@@ -1513,7 +1513,7 @@ z
   </clipPath>
  </defs>
  <defs>
-  <pattern id="h73682e357a" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h66692688c3" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="none"/>
    <path d="M -36 36 
 L 36 -36 
@@ -1565,9 +1565,9 @@ M 33 105
 L 105 33 
 M 36 108 
 L 108 36 
-" style="fill: #8d5b2e; stroke: #8d5b2e; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #8d5b2e; stroke: #8d5b2e; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="hb45f129a0a" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h9d35a544fe" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="none"/>
    <path d="M 0 72.3 
 C 0.1 72.3 0.2 72.3 0.2 72.2 
@@ -7699,9 +7699,9 @@ C 71.7 -0.2 71.7 -0.1 71.7 0
 C 71.7 0.1 71.7 0.2 71.8 0.2 
 C 71.8 0.3 71.9 0.3 72 0.3 
 z
-" style="fill: #7b3fa0; stroke: #7b3fa0; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #7b3fa0; stroke: #7b3fa0; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h3a9d3f7c81" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="heca63c419c" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#f4e4c8"/>
    <path d="M -36 36 
 L 36 -36 
@@ -7753,9 +7753,9 @@ M 33 105
 L 105 33 
 M 36 108 
 L 108 36 
-" style="fill: #8d5b2e; stroke: #8d5b2e; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #8d5b2e; stroke: #8d5b2e; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h79c525879e" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="hb6a164a75a" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#e9ddf2"/>
    <path d="M 0 72.3 
 C 0.1 72.3 0.2 72.3 0.2 72.2 
@@ -13887,7 +13887,7 @@ C 71.7 -0.2 71.7 -0.1 71.7 0
 C 71.7 0.1 71.7 0.2 71.8 0.2 
 C 71.8 0.3 71.9 0.3 72 0.3 
 z
-" style="fill: #7b3fa0; stroke: #7b3fa0; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #7b3fa0; stroke: #7b3fa0; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
  </defs>
 </svg>

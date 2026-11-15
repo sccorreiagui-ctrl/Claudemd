@@ -7035,7 +7035,7 @@ L 130.4 59.6
 L 130.3 59.5 
 L 130.3 59.5 
 z
-" clip-path="url(#p57738dbdd8)" style="fill: url(#h8d3c840887)"/>
+" clip-path="url(#p57738dbdd8)" style="fill: url(#h4522927a0e)"/>
     <path d="M 121.9 76.6 
 L 121.9 76.5 
 L 121.9 76.5 
@@ -7909,7 +7909,7 @@ L 121.9 76.7
 L 121.9 76.7 
 L 121.9 76.6 
 z
-" clip-path="url(#p57738dbdd8)" style="fill: url(#h8d3c840887)"/>
+" clip-path="url(#p57738dbdd8)" style="fill: url(#h4522927a0e)"/>
     <path d="M 87.2 94.6 
 L 87.3 94.4 
 L 87.5 94.3 
@@ -8771,7 +8771,7 @@ L 96.8 97.6
 L 96.9 97.7 
 L 96.8 97.8 
 z
-" clip-path="url(#p57738dbdd8)" style="fill: url(#h8d3c840887)"/>
+" clip-path="url(#p57738dbdd8)" style="fill: url(#h4522927a0e)"/>
     <path d="M 105.1 81.8 
 L 105.9 81.5 
 L 106.9 81.3 
@@ -9619,7 +9619,7 @@ L 105.8 83.7
 L 105.7 83.5 
 L 105.3 82.3 
 z
-" clip-path="url(#p57738dbdd8)" style="fill: url(#h8d3c840887)"/>
+" clip-path="url(#p57738dbdd8)" style="fill: url(#h4522927a0e)"/>
    </g>
    <g id="_GeoPandasPolyCollection_6">
     <path d="M 92.6 104.4 
@@ -10020,7 +10020,7 @@ L 93.0 105.2
 L 92.9 105.1 
 L 92.7 104.5 
 z
-" clip-path="url(#p57738dbdd8)" style="fill: url(#h0bc1604d2c)"/>
+" clip-path="url(#p57738dbdd8)" style="fill: url(#h9be6c93f70)"/>
     <path d="M 99.6 113.2 
 L 99.6 113.2 
 L 99.8 113.1 
@@ -10088,7 +10088,7 @@ L 99.6 113.4
 L 99.6 113.3 
 L 99.6 113.2 
 z
-" clip-path="url(#p57738dbdd8)" style="fill: url(#h0bc1604d2c)"/>
+" clip-path="url(#p57738dbdd8)" style="fill: url(#h9be6c93f70)"/>
    </g>
    <g id="LineCollection_1">
     <path d="M 18.2 67.5 
@@ -11004,7 +11004,7 @@ L 8.58 120.6
 L 8.58 117.9 
 L 3.12 117.9 
 z
-" style="fill: url(#h588612c927); stroke: #1565c0; stroke-width: 0.4; stroke-linejoin: miter"/>
+" style="fill: url(#h2e780e4254); stroke: #1565c0; stroke-width: 0.4; stroke-linejoin: miter"/>
     </g>
     <g id="text_17">
      <text style="font-size: 3.9px; font-family: 'Inter'; text-anchor: start" x="10.53" y="120.63913" transform="rotate(-0 10.53 120.63913)">Crimeia e Sevastopol (anexação russa de 2014)</text>
@@ -11015,7 +11015,7 @@ L 8.58 126.3
 L 8.58 123.6 
 L 3.12 123.6 
 z
-" style="fill: url(#h75f100d02a); stroke: #c62828; stroke-width: 0.4; stroke-linejoin: miter"/>
+" style="fill: url(#h49ed0ce463); stroke: #c62828; stroke-width: 0.4; stroke-linejoin: miter"/>
     </g>
     <g id="text_18">
      <text style="font-size: 3.9px; font-family: 'Inter'; text-anchor: start" x="10.53" y="126.332978" transform="rotate(-0 10.53 126.332978)">4 regiões (anexação declarada em 2022)</text>
@@ -11029,7 +11029,7 @@ z
   </clipPath>
  </defs>
  <defs>
-  <pattern id="h8d3c840887" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h4522927a0e" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="none"/>
    <path d="M -36 36 
 L 36 -36 
@@ -11083,9 +11083,9 @@ M 30 -30
 L 102 42 
 M 36 -36 
 L 108 36 
-" style="fill: #c62828; stroke: #c62828; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #c62828; stroke: #c62828; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h0bc1604d2c" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h9be6c93f70" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="none"/>
    <path d="M -36 36 
 L 36 -36 
@@ -11137,9 +11137,9 @@ M 33 105
 L 105 33 
 M 36 108 
 L 108 36 
-" style="fill: #1565c0; stroke: #1565c0; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #1565c0; stroke: #1565c0; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h588612c927" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h2e780e4254" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#ffe9cc"/>
    <path d="M -36 36 
 L 36 -36 
@@ -11191,9 +11191,9 @@ M 33 105
 L 105 33 
 M 36 108 
 L 108 36 
-" style="fill: #1565c0; stroke: #1565c0; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #1565c0; stroke: #1565c0; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
-  <pattern id="h75f100d02a" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h49ed0ce463" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#ffd9b0"/>
    <path d="M -36 36 
 L 36 -36 
@@ -11247,7 +11247,7 @@ M 30 -30
 L 102 42 
 M 36 -36 
 L 108 36 
-" style="fill: #c62828; stroke: #c62828; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+" style="fill: #c62828; stroke: #c62828; stroke-width: 0.5; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
  </defs>
 </svg>
