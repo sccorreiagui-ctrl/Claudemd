@@ -18,13 +18,13 @@ Para regenerar: ver `README.md` (`python3 tools/build.py && node tools/render.js
 
 | Parte | Páginas | Exemplos resolvidos | Exercícios (itens com nível) | Figuras | Tabelas |
 |---|---:|---:|---:|---:|---:|
-| Capa e sumário | 2 | 0 | 0 | 1 | 0 |
+| Capa e sumário | 2 | 0 | 0 | 0 | 0 |
 | I · Fundamentos | 4 | 0 | 4 | 8 | 4 |
 | II · Eletrostática | 12 | 10 | 14 | 29 | 11 |
 | III · Eletrodinâmica | 21 | 14 | 42 | 38 | 14 |
 | IV · Magnetismo e eletromagnetismo | 12 | 8 | 21 | 28 | 10 |
 | Revisão final | 4 | 0 | 10 | 2 | 6 |
-| **Total** | **55** | **32** | **91** | **106** | **45** |
+| **Total** | **55** | **32** | **91** | **105** | **45** |
 
 * Os exemplos seguem 9 passos (situação, desenho, dados, interpretação, escolha justificada da fórmula, substituição, cálculo, unidade e verificação física). Exemplos numerados de 1 a 32.
 * Cada seção segue a ordem: intuição → conceito → desenho → fórmula (variáveis, unidades, validade, convenções de sinal) → exemplo → erro frequente → fixação → aprofundamento; três níveis (● ○ ○ fundamental, ● ● ○ intermediário, ● ● ● avançado) marcados em cada exemplo e exercício.
@@ -35,9 +35,9 @@ Para regenerar: ver `README.md` (`python3 tools/build.py && node tools/render.js
 
 ## 3. Recursos visuais
 
-* **106 figuras** em SVG vetorial desenhadas por código (bibliotecas próprias `svgkit.py` e `circuit.py`): circuitos com símbolos corretos e escala de cor por potencial nos nós, vetores com setas, linhas de campo calculadas numericamente (integração de segunda ordem, método do ponto médio), gráficos com eixos e unidades, quadros sequenciais (indução por contato, Lenz em quatro quadros, trajetórias em campo magnético).
+* **105 figuras** em SVG vetorial desenhadas por código (bibliotecas próprias `svgkit.py` e `circuit.py`): circuitos com símbolos corretos e escala de cor por potencial nos nós, vetores com setas, linhas de campo calculadas numericamente (integração de segunda ordem, método do ponto médio), gráficos com eixos e unidades, quadros sequenciais (indução por contato, Lenz em quatro quadros, trajetórias em campo magnético).
 * **Semântica de cores fixa** em toda a apostila (coral = cargas e polos +; azul = cargas − e elétrons; laranja = corrente convencional e trajetórias; roxo = campo magnético e indução; verde = energia e potência; ciano = campo elétrico e equipotenciais; cinza = neutros, condutores e estrutura), **nunca como única informação**: sempre há sinais, setas, rótulos, ⊙/⊗.
-* Fórmulas em KaTeX (texto pesquisável), tipografia Source Sans 3, cabeçalho e numeração, sumário e 126 marcadores (bookmarks) no PDF.
+* Fórmulas em KaTeX (texto pesquisável), tipografia Source Sans 3, cabeçalho e numeração, sumário e 125 marcadores (bookmarks) no PDF.
 
 ## 4. Complementos em relação ao inventário do NotebookLM
 
