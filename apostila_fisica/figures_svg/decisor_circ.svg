@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 226" width="680" height="226" role="img" aria-label="Fluxograma: que método usar para resolver um circuito"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="0" y="14" width="118" height="50" rx="9" fill="#EEF1F6" stroke="#6B7280" stroke-width="2.0"/>
+<text x="27.13" y="35.74" font-size="11" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Circuito dado</tspan></text>
+<text x="16.78" y="49.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">(desenho + dados)</tspan></text>
+<line x1="120" y1="39" x2="160.2" y2="39" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="168,39 158,43 158,35" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="170" y="4" width="232" height="70" rx="9" fill="#FFFFFF" stroke="#1B2438" stroke-width="2.0"/>
+<text x="228.15" y="28.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">Uma só fonte e resistores</tspan></text>
+<text x="245.82" y="42.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">que se reduzem a</tspan></text>
+<text x="248.69" y="56.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">série e paralelo?</tspan></text>
+<line x1="404" y1="39" x2="444.2" y2="39" stroke="#15803D" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="452,39 442,43 442,35" fill="#15803D" stroke="#15803D" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="419.55" y="30" font-size="11" fill="#15803D" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">sim</tspan></text>
+<rect x="454" y="4" width="226" height="70" rx="9" fill="#E1F4E8" stroke="#16A34A" stroke-width="2.0"/>
+<text x="509.34" y="28.74" font-size="11" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Reduza a </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="7.92" dy="2.97" xml:space="preserve">eq</tspan><tspan dy="-2.97" font-weight="600" xml:space="preserve"> (seção 3.4)</tspan></text>
+<text x="506.14" y="42.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">de dentro para fora e volte</tspan></text>
+<text x="513.36" y="56.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">aos ramos com </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mi" dx="3.08" xml:space="preserve">RI</tspan></text>
+<line x1="286" y1="76" x2="286" y2="96.2" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="286,104 282,94 290,94" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="298" y="94" font-size="11" fill="#1B2438" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">não</tspan></text>
+<rect x="170" y="106" width="232" height="56" rx="9" fill="#FFFFFF" stroke="#1B2438" stroke-width="2.0"/>
+<text x="214.68" y="130.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">Uma só fonte, mas há ponte ou</tspan></text>
+<text x="249.89" y="144.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">fio ligando nós?</tspan></text>
+<line x1="404" y1="134" x2="444.2" y2="134" stroke="#B25B00" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="452,134 442,138 442,130" fill="#B25B00" stroke="#B25B00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="419.55" y="125" font-size="11" fill="#B25B00" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">sim</tspan></text>
+<rect x="454" y="106" width="226" height="56" rx="9" fill="#FFF0D6" stroke="#F08C00" stroke-width="2.0"/>
+<text x="516.58" y="130.74" font-size="11" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Nós e potenciais (3.5)</tspan></text>
+<text x="505.38" y="144.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">fio ideal que contorna (3.6)</tspan></text>
+<line x1="286" y1="164" x2="286" y2="176.2" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="286,184 282,174 290,174" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="298" y="178" font-size="11" fill="#1B2438" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">não</tspan></text>
+<rect x="170" y="186" width="232" height="38" rx="9" fill="#EEF1F6" stroke="#1B2438" stroke-width="2.0"/>
+<text x="219.03" y="208.74" font-size="11" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Várias fontes: Kirchhoff (3.7)</tspan></text>
+<rect x="454" y="176" width="226" height="48" rx="9" fill="#EEF1F6" stroke="#6B7280" stroke-width="2.0"/>
+<text x="506.68" y="196.82" font-size="10.5" fill="#1B2438"><tspan xml:space="preserve">Fonte real? </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" dx="2.94" xml:space="preserve">=</tspan><tspan class="mi" dx="2.94" xml:space="preserve">ε</tspan><tspan class="mr" dx="2.31" xml:space="preserve">−</tspan><tspan class="mi" dx="2.31" xml:space="preserve">rI</tspan><tspan xml:space="preserve"> (3.8)</tspan></text>
+<text x="503.98" y="210.32" font-size="10.5" fill="#1B2438"><tspan xml:space="preserve">Medidores? (3.9) · confira </tspan><tspan class="mr" xml:space="preserve">Σ</tspan><tspan class="mi" xml:space="preserve">P</tspan></text>
+<text x="18.41" y="150" font-size="10.5" fill="#5B6578" font-weight="600"><tspan font-weight="600" xml:space="preserve">Em qualquer caso:</tspan></text>
+<text x="30.82" y="165" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">unidades SI e</tspan></text>
+<text x="23.68" y="180" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">verificação física</tspan></text>
+</svg>

@@ -1,0 +1,32 @@
+<!--mod=IV|sec=Gerador, transformador e transmissão-->
+<h2 class="sec top" data-toc="4.5|Gerador, transformador e transmissão de energia"><span class="num">4.5</span> Gerador, transformador e transmissão de energia</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Gerador de CA</span>Uma espira (ou bobina de \(N\) espiras) gira com velocidade angular \(\omega=2\pi f\) em um campo uniforme: \(\theta=\omega t\), \(\Phi=BA\cos\omega t\) e, por Faraday,
+      \[ \varepsilon=N\,B\,A\,\omega\,\mathrm{sen}\,\omega t\qquad\varepsilon_{max}=N\,B\,A\,\omega \]
+      A fem é <b>alternada</b> (senoidal), <b>máxima quando \(\Phi=0\)</b> (variação mais rápida) e <b>nula quando \(\Phi\) é máximo</b>. Em usinas, turbinas (água, vapor, vento) giram o rotor: energia mecânica ⇒ elétrica. Em \(60\) Hz, os \(127\) V “eficazes” da rede têm pico \(127\sqrt2\approx180\) V.</div>
+    <p class="small mt2 mb0"><b>Exemplo rápido.</b> Espira de \(0{,}020\ \mathrm{m^2}\) em \(0{,}50\) T a \(60\) Hz: \(\varepsilon_{max}=1\cdot0{,}50\cdot0{,}020\cdot2\pi\cdot60\approx3{,}8\) V.</p>
+  </div>
+  <div><fig name="gerador_ca" cls="line">Espira girando em campo uniforme: o fluxo (tracejado) e a fem (cheia) estão defasados de um quarto de período.</fig></div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div>
+    <div class="formula"><span class="tag">Transformador ideal</span>
+      <div class="eq">\[ \frac{V_s}{V_p}=\frac{N_s}{N_p}\qquad V_pI_p=V_sI_s \]</div>
+      <div class="cond">O fluxo <b>variável</b> do primário atravessa o secundário e induz a fem. \(N_s>N_p\): <b>elevador</b>; \(N_s&lt;N_p\): <b>abaixador</b>. A <b>potência não aumenta</b>: ganha-se tensão, perde-se corrente (\(I_s/I_p=N_p/N_s\)). <b>Só funciona com CA</b>: com CC estacionária \(\Phi\) é constante e \(\varepsilon=0\). Real: perdas por Joule, Foucault (núcleo laminado) e histerese; \(\eta\approx95\)–\(99\%\).</div>
+    </div>
+  </div>
+  <div><fig name="transformador" cls="line">Transformador: o fluxo \(\Phi\) variável no núcleo liga os dois enrolamentos.</fig></div>
+</div>
+
+<div class="mt3"><fig name="transmissao" cls="line">Por que se transmite em alta tensão: para a mesma potência, \(I=P/V\) cai e a perda na linha, \(RI^2\), cai com \(V^2\).</fig></div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 32</span>{{lvl:2}}<span class="tt">Perdas na linha de transmissão: \(10\) kV contra \(100\) kV</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Uma usina entrega \(P=10\) MW por uma linha de resistência total \(R=5{,}0\ \Omega\). Compare a perda na linha com a transmissão em \(10\) kV e em \(100\) kV e dê a razão \(N_s/N_p\) do transformador elevador.</p>
+    <div class="calc">\[ \begin{aligned} I_{10}&=\frac{P}{V}=\frac{10^7}{10^4}=1000\un{A}\Rightarrow P_{perda}=RI^2=5{,}0\cdot10^6\un{W}=5\ \mathrm{MW}\ (50\%)\\ I_{100}&=\frac{10^7}{10^5}=100\un{A}\Rightarrow P_{perda}=5{,}0\cdot10^4\un{W}=50\ \mathrm{kW}\ (0{,}5\%)\qquad \frac{N_s}{N_p}=\frac{100\ \mathrm{kV}}{10\ \mathrm{kV}}=10 \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> \(P_{perda}=RP^2/V^2\): \(V\) ×10 ⇒ perda ÷100 ✓. A corrente cai 10 vezes, como pede \(V_pI_p=V_sI_s\) (\(I_s/I_p=1/10\)). Perto dos consumidores, abaixadores levam a tensão a \(127\) V ou \(220\) V.</p>
+  </div>
+</div>

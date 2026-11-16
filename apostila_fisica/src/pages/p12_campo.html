@@ -1,0 +1,49 @@
+<!--mod=II|sec=Campo elétrico-->
+<h2 class="sec top" data-toc="2.4|Campo elétrico e linhas de campo"><span class="num">2.4</span> Campo elétrico</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Uma carga \(Q\) altera o espaço ao seu redor: em cada ponto passa a existir um <b>campo elétrico</b> \(\vec E\), definido como a <b>força por unidade de carga</b> sobre uma carga de prova <i>positiva</i> ali colocada, \(\vec E=\vec F/q\). O campo existe mesmo sem carga de prova; ela só serve para detectá-lo.</div>
+    <p class="small mt2 mb0"><b>Intuição.</b> Imagine um mapa de setas no espaço: cada seta diz para onde, e com que intensidade, uma carga positiva seria empurrada naquele ponto.</p>
+    <div class="formula mt3"><span class="tag">Fórmulas</span>
+      <div class="eq">\[ \vec F=q\,\vec E \qquad\qquad E=k\,\frac{|Q|}{r^{2}} \]</div>
+      <table class="vars">
+        <tr><td>\(E\)</td><td>campo elétrico</td><td>N/C = V/m</td></tr>
+        <tr><td>\(F\)</td><td>força sobre a carga \(q\)</td><td>N</td></tr>
+        <tr><td>\(q\)</td><td>carga colocada no campo (com sinal)</td><td>C</td></tr>
+        <tr><td>\(Q,\,r\)</td><td>carga fonte e distância até ela</td><td>C, m</td></tr>
+      </table>
+      <div class="cond"><b>Sentido:</b> \(\vec E\) <i>sai</i> de \(Q>0\) e <i>entra</i> em \(Q<0\). Se \(q>0\), \(\vec F\) tem o sentido de \(\vec E\); se \(q<0\), o oposto. <b>Validade:</b> \(\vec F=q\vec E\) vale para qualquer campo; \(E=kQ/r^2\) só para carga puntiforme (ou esfera uniforme, fora dela).</div>
+    </div>
+  </div>
+  <div><fig name="campo_pontual">Campo de cargas puntiformes: radial, saindo (\(Q>0\)) ou entrando (\(Q<0\)). A força sobre \(q>0\) acompanha \(\vec E\).</fig></div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div><fig name="dipolo_E">Dipolo elétrico: as linhas saem da carga positiva e chegam à negativa. Em cada ponto, \(\vec E\) é tangente à linha.</fig></div>
+  <div>
+    <h4 style="margin-top:0">Como ler linhas de campo</h4>
+    <ul class="small">
+      <li>A <b>tangente</b> à linha em um ponto dá a <b>direção</b> de \(\vec E\); a seta dá o <b>sentido</b>.</li>
+      <li>Onde as linhas estão <b>mais próximas</b>, o campo é <b>mais intenso</b>.</li>
+      <li>Saem das cargas <span class="c-pos b">positivas</span> e chegam às <span class="c-neg b">negativas</span> (ou vão ao infinito).</li>
+      <li><b>Nunca se cruzam</b>: o campo teria duas direções no mesmo ponto.</li>
+      <li>Em eletrostática não são curvas fechadas.</li>
+    </ul>
+    <div class="err"><span class="tag o">Erro frequente</span>Achar que a linha de campo é a <i>trajetória</i> da carga. A força é tangente à linha, mas a carga só acompanha a linha se partir do repouso e a linha for reta; em geral, ela <b>não</b> segue a linha.</div>
+  </div>
+</div>
+
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 5</span>{{lvl:1}}<span class="tt">Campo de uma carga e força sobre outra</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Uma carga \(Q=+5{,}0\) nC cria um campo no vácuo. (a) Qual é o campo elétrico no ponto \(P\), a \(10\) cm de \(Q\)? (b) Que força atua sobre uma carga \(q=-2{,}0\,\mu\mathrm{C}\) colocada em \(P\)?</p>
+      <p class="st"><b class="l">Dados</b> \(Q=5{,}0\times10^{-9}\un{C}\); \(r=0{,}10\un{m}\); \(q=-2{,}0\times10^{-6}\un{C}\).</p>
+      <p class="st"><b class="l">Interpretação</b> \(Q>0\): \(\vec E\) aponta <i>para fora</i> de \(Q\). Como \(q<0\), a força tem sentido <b>oposto</b> a \(\vec E\) (para \(Q\)): atração.</p>
+      <p class="st"><b class="l">Método</b> (a) \(E=k|Q|/r^2\); (b) \(F=|q|E\).</p>
+      <div class="calc">\[ \begin{aligned} E&=\frac{k|Q|}{r^2}=\frac{9{,}0\times10^{9}\cdot5{,}0\times10^{-9}}{(0{,}10)^2}=4{,}5\times10^{3}\un{N/C}\\ F&=|q|E=2{,}0\times10^{-6}\cdot4{,}5\times10^{3}=9{,}0\times10^{-3}\un{N} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> Pela lei de Coulomb direta: \(k|Qq|/r^2=9{,}0\times10^{9}\cdot5{,}0\times10^{-9}\cdot2{,}0\times10^{-6}/0{,}01=9{,}0\times10^{-3}\un{N}\) \(\checkmark\) — as duas formas coincidem, como devem (\(F=qE\) é só a lei de Coulomb “reorganizada”).</p>
+    </div>
+    <div><fig name="ex_campo"/></div>
+  </div>
+</div>

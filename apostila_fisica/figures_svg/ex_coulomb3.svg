@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 132" width="332" height="132" role="img" aria-label="Exemplo 3: as mesmas cargas a 10 cm"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<circle cx="138" cy="44" r="12" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="131.76" y1="44" x2="144.24" y2="44" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="138" y1="37.76" x2="138" y2="50.24" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="168" cy="44" r="12" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="161.76" y1="44" x2="174.24" y2="44" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="168" y1="37.76" x2="168" y2="50.24" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="124" y1="44" x2="23.8" y2="44" stroke="#1B2438" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="16,44 26,40.4 26,47.6" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="182" y1="44" x2="282.2" y2="44" stroke="#1B2438" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="290,44 280,47.6 280,40.4" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="57.98" y="31" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">5,4 N</tspan></text>
+<text x="223.98" y="31" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">5,4 N</tspan></text>
+<line x1="142.68" y1="74" x2="163.32" y2="74" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="168,74 162,76.4 162,71.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="138,74 144,71.6 144,76.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="130.99" y="90" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">r</tspan><tspan xml:space="preserve"> = 10 cm</tspan></text>
+<text x="87.57" y="110" font-size="11.5" fill="#BF2B31" font-weight="600"><tspan font-weight="600" xml:space="preserve">+2,0 µC</tspan></text>
+<text x="182" y="110" font-size="11.5" fill="#BF2B31" font-weight="600"><tspan font-weight="600" xml:space="preserve">+3,0 µC</tspan></text>
+<text x="98.06" y="127" font-size="10" fill="#5B6578"><tspan xml:space="preserve">mesma escala: 20 px por newton</tspan></text>
+</svg>

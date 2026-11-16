@@ -1,0 +1,28 @@
+<!--mod=III|sec=Leis de Kirchhoff: nós e malhas-->
+<h2 class="sec top" data-toc="3.7|Leis de Kirchhoff"><span class="num">3.7</span> Leis de Kirchhoff: nós e malhas</h2>
+<div class="c2 g3 ai-s">
+  <div class="concept"><span class="tag">Conceito</span>Nem todo circuito se reduz a séries e paralelos (pontes, vários geradores). As <b>leis de Kirchhoff</b> são a conservação da <b>carga</b> e da <b>energia</b> aplicadas a circuitos e resolvem qualquer rede linear.
+    <p class="mt1 mb0"><b>1ª lei — dos nós (carga):</b> em qualquer nó, a soma das correntes que <i>entram</i> é igual à soma das que <i>saem</i>.<br><b>2ª lei — das malhas (energia):</b> percorrendo uma malha fechada, a <i>soma algébrica das variações de potencial</i> é nula: \(\sum\Delta V=0\).</p></div>
+  <div class="box"><h4 style="margin-top:0">Roteiro (valem para qualquer circuito)</h4>
+    <ol class="small mb0">
+      <li><b>Nomeie</b> nós e ramos; atribua a cada ramo um <b>sentido arbitrário</b> de corrente (\(I_1,I_2,\dots\)).</li>
+      <li>Lei dos nós em <i>\(N-1\)</i> nós.</li>
+      <li>Escolha <b>malhas independentes</b> e um sentido de percurso (p. ex. horário); some \(\Delta V\) com as regras de sinais.</li>
+      <li>Resolva o sistema. Corrente <b>negativa</b> ⇒ o sentido real é o <i>oposto</i> ao suposto (não refaça o desenho).</li>
+      <li>Confira: \(\sum P_{geradores}=\sum P_{resistores}+\sum P_{receptores}\).</li>
+    </ol></div>
+</div>
+<div class="mt3"><fig name="kirch_regras" cls="line">Esquerda: a lei dos nós. Direita: sinais de \(\Delta V\) na lei das malhas — dependem do <b>percurso</b> (cinza) em relação ao sentido da corrente (laranja) e à polaridade da fonte.</fig></div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 20</span>{{lvl:2}}<span class="tt">Malha única com dois geradores</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Em uma única malha há dois geradores ideais, \(\varepsilon_1=12\) V e \(\varepsilon_2=4\) V (em oposição), e três resistores: \(R_1=2\ \Omega\), \(R_2=4\ \Omega\), \(R_3=2\ \Omega\). Determine a corrente, a tensão em cada resistor e confira a energia.</p>
+      <p class="st"><b class="l">Interpretação</b> Uma só malha ⇒ <b>mesma corrente</b> em todos os elementos (a lei dos nós é trivial). Suponha \(I\) <b>horária</b> e percorra a malha no mesmo sentido, a partir do canto inferior esquerdo. \(\varepsilon_1\) é percorrido de \(-\) para \(+\) (sobe 12 V); \(\varepsilon_2\), de \(+\) para \(-\) (cai 4 V); cada resistor, a favor de \(I\) (cai \(RI\)).</p>
+      <div class="calc">\[ \begin{aligned} &+\varepsilon_1-R_1I-\varepsilon_2-R_3I-R_2I=0\\ &12-2I-4-2I-4I=0\ \Rightarrow\ I=1{,}0\un{A}\ (+)\\ &U_1=2\un{V},\ U_3=2\un{V},\ U_2=4\un{V}\\ &P_{\varepsilon_1}=12\un{W}\ \text{(fornece)}\quad P_{\varepsilon_2}=4\un{W}\ \text{(recebe)}\\ &\textstyle\sum RI^2=2+2+4=8\un{W} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(I>0\): sentido horário, como suposto. Potenciais (canto inferior esquerdo \(=0\)): \(12\to10\to6\to4\to0\) V (fecha em 0 ✓). Balanço: \(12=8+4\) ✓ — o gerador \(\varepsilon_2\) <b>recebe</b> energia, pois a corrente entra por seu polo \(+\) (comporta-se como receptor).</p>
+    </div>
+    <div><fig name="k1"/></div>
+  </div>
+</div>

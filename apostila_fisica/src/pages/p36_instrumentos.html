@@ -1,0 +1,30 @@
+<!--mod=III|sec=Instrumentos de medida e circuitos especiais-->
+<h2 class="sec top" data-toc="3.9|Instrumentos e circuitos especiais"><span class="num">3.9</span> Instrumentos de medida e circuitos especiais</h2>
+<div class="c2 g3 ai-s">
+  <div class="concept"><span class="tag">Conceito</span>O <b>amperímetro</b> mede a corrente que o atravessa: liga-se <b>em série</b> e, para não perturbar o circuito, deve ter resistência <b>desprezível</b> (ideal: \(R_A=0\)). O <b>voltímetro</b> mede a DDP entre dois pontos: liga-se <b>em paralelo</b> com o trecho e deve ter resistência <b>muito grande</b> (ideal: \(R_V\to\infty\)) para desviar corrente desprezível. <b>Como reconhecer no desenho:</b> círculo com A ou V <i>no meio do fio</i> ⇒ série (amperímetro); círculo ligado <i>entre dois nós</i> ⇒ paralelo (voltímetro).</div>
+  <div class="box"><h4 style="margin-top:0">Instrumentos reais</h4>
+    <p class="small mb1">O amperímetro real tem \(R_A\) pequena mas não nula: acrescenta resistência em série e mede um pouco <i>menos</i>. O voltímetro real tem \(R_V\) grande mas finita: desvia uma corrente pequena e lê um pouco <i>menos</i> que a DDP original.</p>
+    <p class="small mb0"><b>Aprofundamento:</b> um galvanômetro (bobina móvel; deflexão \(\propto I\)) vira amperímetro com um <b>resistor shunt</b> em paralelo (maior escala de corrente) e voltímetro com um <b>resistor multiplicador</b> em série. Ex.: galvanômetro de \(1{,}0\) mA e \(50\ \Omega\) para ler até \(10\) V: \(R_{mult}=\dfrac{10}{0{,}001}-50=9950\ \Omega\).</p></div>
+</div>
+<div class="mt2"><fig name="instrumentos" cls="line">Ligações corretas (em cima) e erros típicos (embaixo): um amperímetro em paralelo com o resistor o contorna (curto-circuito); um voltímetro em série bloqueia a corrente e “lê” aproximadamente a fem.</fig></div>
+
+<div class="c2 g3 mt2 ai-s">
+  <div>
+    <h3 style="margin-top:0">Ponte de Wheatstone</h3>
+    <fig name="wheatstone">Quatro resistores e um galvanômetro \(G\) entre os nós do meio. Equilíbrio: \(I_G=0\).</fig>
+    <p class="small mt2 mb0">Ajusta-se um resistor conhecido até o galvanômetro acusar <b>corrente nula</b>: então \(V_B=V_C\), os divisores de tensão dão a mesma razão e \(R_1R_x=R_2R_3\), ou \(R_x=R_2R_3/R_1\). <b>Exemplo:</b> \(R_1=100\), \(R_2=200\), \(R_3=150\ \Omega\) ⇒ \(R_x=300\ \Omega\).</p>
+  </div>
+  <div>
+    <h3 style="margin-top:0">Resistor de proteção para LED</h3>
+    <div class="ex">
+      <div class="exh"><span class="tag acc">Exemplo 24</span>{{lvl:1}}<span class="tt">Qual resistor ligar em série com o LED?</span></div>
+      <div class="exb">
+        <fig name="led_res"/>
+        <p class="st mt1"><b class="l">Situação</b> Um LED (condução em \(\approx2{,}0\) V; corrente nominal \(20\) mA) será ligado a uma fonte de \(5\) V. Calcule o resistor e sua potência.</p>
+        <p class="st"><b class="l">Método</b> O LED “segura” \(2{,}0\) V; os \(3{,}0\) V restantes caem no resistor em série (mesma \(I\)): \(R=(U_{fonte}-U_{LED})/I\).</p>
+        <div class="calc">\[ \begin{aligned} R&=\frac{5-2{,}0}{0{,}020}=150\ \Omega\\ P_R&=U_RI=3{,}0\cdot0{,}020=0{,}06\un{W} \end{aligned} \]</div>
+        <p class="st mb0"><b class="l">Verificação</b> Resistor de \(150\ \Omega\) e \(\tfrac18\) W serve. <i>Sem</i> ele, o LED queimaria.</p>
+      </div>
+    </div>
+  </div>
+</div>

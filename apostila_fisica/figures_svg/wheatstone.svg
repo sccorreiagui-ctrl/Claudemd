@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 232" width="332" height="232" role="img" aria-label="Ponte de Wheatstone com galvanômetro"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="40,190 40,120.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,113.25 40,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="120.75" x2="47.5" y2="120.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="113.25" x2="53" y2="113.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="57.67" y="131.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="110.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,44 90,44 250,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,190 90,190 250,190" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="90,44 90,60.5" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="90,100.5 90,117" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="90,60.5 82.5,63.83 97.5,70.5 82.5,77.17 97.5,83.83 82.5,90.5 97.5,97.17 90,100.5" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="64.63" y="84.41" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan></text>
+<polyline points="90,117 90,133.5" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="90,173.5 90,190" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="90,133.5 82.5,136.83 97.5,143.5 82.5,150.17 97.5,156.83 82.5,163.5 97.5,170.17 90,173.5" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="64.63" y="157.41" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan></text>
+<polyline points="250,44 250,60.5" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,100.5 250,117" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,60.5 242.5,63.83 257.5,70.5 242.5,77.17 257.5,83.83 242.5,90.5 257.5,97.17 250,100.5" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262.5" y="84.41" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">3</tspan></text>
+<polyline points="250,117 250,133.5" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,173.5 250,190" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,133.5 242.5,136.83 257.5,143.5 242.5,150.17 257.5,156.83 242.5,163.5 257.5,170.17 250,173.5" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262.5" y="157.41" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">x</tspan></text>
+<polyline points="90,117 118,117" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="222,117 250,117" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="118,117 157,117" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="183,117 222,117" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="170" cy="117" r="13" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="165.6" y="121.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">G</tspan></text>
+<circle cx="90" cy="117" r="3.7" fill="#1B2438"/>
+<circle cx="250" cy="117" r="3.7" fill="#1B2438"/>
+<text x="56.59" y="218" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">equilíbrio (</tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">G</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">0</tspan><tspan font-weight="600" xml:space="preserve">, </tspan><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">B</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">V</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">C</tspan><tspan dy="-3.11" font-weight="600" xml:space="preserve">):  </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mi" dy="-3.11" xml:space="preserve">R</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">x</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan class="mi" dy="-3.11" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">3</tspan></text>
+</svg>

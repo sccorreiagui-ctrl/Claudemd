@@ -1,0 +1,31 @@
+<!--mod=III|sec=Exercícios: associações, chaves e curto-circuito|flow=spread-->
+<h2 class="sec top" style="font-size:13pt">Exercícios graduados — associações, circuitos mistos e curto-circuito</h2>
+<div class="fix"><span class="tag o">Fixação</span> <span class="b">Resistores e circuitos mistos</span>
+  <div class="c2 g3">
+    <ol>
+      <li><span class="b">{{lvl:2}}</span> Uma fonte ideal de \(18\) V alimenta \(R_1=4\ \Omega\) em série com o paralelo de \(R_2=6\ \Omega\) e \(R_3=3\ \Omega\). Calcule \(R_{eq}\), a corrente total e a corrente em \(R_2\) e \(R_3\).</li>
+      <li>{{lvl:2}} Três resistores iguais de \(6\ \Omega\): dois em paralelo, em série com o terceiro. Qual a resistência equivalente?</li>
+      <li>{{lvl:2}} Duas lâmpadas idênticas de \(100\) W – \(127\) V são ligadas <b>em série</b> a uma fonte de \(127\) V. Qual a potência de cada uma? (suponha \(R\) constante)</li>
+      <li>{{lvl:3}} Três resistores em série, de \(5\ \Omega\), \(10\ \Omega\) e \(10\ \Omega\), ligados a \(30\) V. Um fio ideal é ligado entre os terminais do resistor do meio (\(10\ \Omega\)). Qual a nova corrente e como variam as potências dos outros dois?</li>
+    </ol>
+    <ol start="5">
+      <li>{{lvl:3}} No circuito do Exemplo 16, a lâmpada \(L_2\) queima (ramo aberto) com \(S\) fechada. O que acontece com o brilho de \(L_1\) e de \(L_3\)? Calcule as potências.</li>
+      <li>{{lvl:2}} <b>Julgue (C/E)</b> — <i>itens autorais, estilo PAS</i>. (a) Em um circuito em série, a lâmpada de maior resistência brilha mais. (b) Em paralelo, a de menor resistência brilha mais. (c) Um curto-circuito aumenta a resistência equivalente do circuito. (d) A resistência equivalente de resistores em paralelo é menor que a menor das resistências.</li>
+      <li>{{lvl:3}} <b>Desafio.</b> Resistores de \(R\) cada um formam as 12 arestas de um cubo. Qual a resistência entre dois vértices <i>opostos</i> (diagonal do cubo)? Sugestão: por simetria, vértices à mesma distância dos extremos têm o mesmo potencial.</li>
+    </ol>
+  </div>
+  <div class="gab"><b>Gabarito comentado.</b> 1) \(R_p=\frac{6\cdot3}{9}=2\ \Omega\); \(R_{eq}=6\ \Omega\); \(I=3\) A; \(U_p=3\cdot2=6\) V ⇒ \(I_2=1\) A, \(I_3=2\) A.  2) \(\frac{6}{2}+6=9\ \Omega\).  3) \(R=127^2/100\approx161\ \Omega\) cada; em série \(U=63{,}5\) V em cada ⇒ \(P=U^2/R=25\) W (¼ da nominal).  4) Antes: \(I=30/25=1{,}2\) A. Depois: \(R_{eq}=15\ \Omega\), \(I=2{,}0\) A; \(P_{5}=5\cdot2^2=20\) W (era 7,2 W) e \(P_{10}=40\) W (era 14,4 W): as potências sobem 2,8×.  5) Com \(L_2\) aberta, \(L_1\) e \(L_3\) em série: \(I=12/8=1{,}5\) A; \(P_1=9\) W (cai de 16 W) e \(P_3=9\) W (sobe de 4 W): \(L_1\) escurece, \(L_3\) brilha mais.  6) (a) <b>C</b> (\(P=RI^2\), mesma \(I\)); (b) <b>C</b> (\(P=U^2/R\), mesma \(U\)); (c) <b>E</b> — diminui; (d) <b>C</b>.  7) Por simetria: \(R_{AB}=\tfrac R3+\tfrac R6+\tfrac R3=\tfrac{5R}{6}\) (três arestas em paralelo, seis em paralelo, três em paralelo, em série).</div>
+</div>
+<div class="c2 g3 mt3 ai-s">
+  <div class="adv"><span class="tag">Aprofundamento</span><b>Por que a ponte é “especial”.</b> Em uma ponte de Wheatstone <i>sem</i> fio, \(R_1\) e \(R_3\) ficam em série (ramo da esquerda) e \(R_2\) e \(R_4\) em série (ramo da direita) — mas o “quinto” elemento ligando os nós do meio impede a redução série/paralelo. Se \(R_1/R_3=R_2/R_4\) (<i>ponte equilibrada</i>), os nós do meio estão no mesmo potencial e <b>nenhuma corrente</b> passa pelo quinto elemento: pode-se retirá-lo ou substituí-lo por fio sem mudar nada. Se não estiver equilibrada, é preciso usar Kirchhoff.</div>
+  <div class="box"><h4 style="margin-top:0">Roteiro de provas (ENEM/PAS) para circuitos</h4>
+    <ol class="small mb0">
+      <li>Redesenhe com letras nos nós; pinte potenciais.</li>
+      <li>Série ou paralelo? Calcule \(R_{eq}\) de dentro para fora.</li>
+      <li>\(I_{total}=U/R_{eq}\); depois \(U\) e \(I\) em cada trecho.</li>
+      <li>Perguntas “o que acontece se…”: refaça \(R_{eq}\) com a chave/queima/curto e <b>compare</b> as potências \(P=RI^2\) ou \(P=U^2/R\).</li>
+    </ol></div>
+</div>
+
+<div><h4 style="margin-top:0">Que método usar? (fluxograma de decisão)</h4>
+<fig name="decisor_circ" cls="line">Escolha do método: reduzir por série e paralelo só funciona quando existe uma única fonte e nenhuma “ponte” que impeça a redução; do contrário, use nós/potenciais ou Kirchhoff.</fig></div>

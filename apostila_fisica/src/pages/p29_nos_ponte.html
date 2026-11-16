@@ -1,0 +1,24 @@
+<!--mod=III|sec=Método dos nós e dos potenciais-->
+<h2 class="sec top" data-toc="3.5|Método dos nós e dos potenciais"><span class="num">3.5</span> Método dos nós e dos potenciais</h2>
+<div class="c2 g3 ai-s">
+  <div class="concept"><span class="tag">Conceito</span>Um <b>nó</b> é um ponto — ou todo um trecho de <b>fio ideal</b> — onde se ligam dois ou mais componentes. Como o fio ideal tem resistência nula, <b>todo o fio tem o mesmo potencial</b>; o potencial só muda ao atravessar um <b>componente</b>: uma fonte (sobe) ou um resistor com corrente (cai). Pintar cada nó com uma cor revela a estrutura do circuito.</div>
+  <div class="box"><h4 style="margin-top:0">Como pintar (e o que isso diz)</h4>
+    <ol class="small mb0">
+      <li>Escolha a referência: terminal \(-\) da fonte \(=0\) V (cor fria).</li>
+      <li>Pinte o fio ligado ao terminal \(+\) com a cor “alta”; <b>continue com a mesma cor</b> por qualquer fio até chegar a um componente.</li>
+      <li>Após um resistor com corrente, <b>troque de cor</b>; cores iguais nas pontas de um resistor ⇒ \(U=0\) (sem corrente).</li>
+      <li>Mesmas duas cores nas pontas de vários resistores ⇒ <b>paralelo</b>; nó de só duas ligações ⇒ <b>série</b>.</li>
+    </ol></div>
+</div>
+<div class="mt2"><fig name="nos_regras" cls="line">As quatro regras de leitura de um circuito: o fio ideal tem um só potencial; o resistor “derruba” o potencial; as mesmas duas cores nas pontas indicam paralelo; um nó com apenas duas ligações indica série.</fig></div>
+
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 18</span>{{lvl:3}}<span class="tt">Ponte com um fio entre dois nós: potenciais, correntes e \(R_{eq}\)</span></div>
+  <div class="exb">
+    <fig name="ex_ponte"/>
+    <p class="st mt1"><b class="l">Situação</b> Em uma ponte, \(R_1=6\ \Omega\) (A–B), \(R_2=3\ \Omega\) (A–C), \(R_3=3\ \Omega\) (B–D) e \(R_4=6\ \Omega\) (C–D) estão ligados a uma fonte ideal de \(24\) V entre \(A\) e \(D\). Um <b>fio ideal</b> liga \(B\) a \(C\). Determine (a) \(R_{eq}\); (b) as correntes em todos os resistores e no fio; (c) os potenciais.</p>
+    <p class="st"><b class="l">Interpretação e método</b> O fio iguala \(V_B=V_C\): é <b>um só nó</b> (mesma cor). Assim \(R_1\) e \(R_2\) ligam o <i>mesmo par</i> de nós (\(A\) e \(BC\)) ⇒ paralelo; \(R_3\) e \(R_4\) ligam \(BC\) e \(D\) ⇒ paralelo; os dois grupos ficam em série. O fio <b>não</b> “desliga” nada: ele conduz a diferença entre as correntes que chegam e saem de \(B\).</p>
+    <div class="calc">\[ \begin{aligned} R_{AM}&=\frac{6\cdot3}{6+3}=2\ \Omega\quad R_{MD}=\frac{3\cdot6}{3+6}=2\ \Omega\quad R_{eq}=4\ \Omega\quad I=\frac{24}{4}=6\un{A}\\ U_{AM}&=6\cdot2=12\un{V}\Rightarrow V_B=V_C=24-12=12\un{V}\qquad U_{MD}=12\un{V}\\ I_1&=\tfrac{12}{6}=2\un{A}\quad I_2=\tfrac{12}{3}=4\un{A}\quad I_3=\tfrac{12}{3}=4\un{A}\quad I_4=\tfrac{12}{6}=2\un{A}\\ \text{nó }B&:\ I_1+I_{fio}=I_3\Rightarrow I_{fio}=4-2=2\un{A}\ (C\to B) \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> Nó \(C\): entram \(I_2=4\) A; saem \(I_4=2\) A e \(I_{fio}=2\) A ✓. Potência: \(24\cdot6=144\) W \(=2^2\cdot6+4^2\cdot3+4^2\cdot3+2^2\cdot6=24+48+48+24\) ✓.</p>
+  </div>
+</div>

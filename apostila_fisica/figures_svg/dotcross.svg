@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 198" width="332" height="198" role="img" aria-label="Convenção ⊙ (saindo do plano) e ⊗ (entrando no plano)"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="6" y="8" width="156" height="54" rx="4" fill="#EEF1F6" stroke="#C9D0DC" stroke-width="1"/>
+<circle cx="34" cy="35" r="14" fill="#FFFFFF" stroke="#1B2438" stroke-width="2.0"/>
+<circle cx="34" cy="35" r="4.2" fill="#1B2438"/>
+<text x="58" y="31" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">saindo do plano</tspan></text>
+<text x="58" y="46" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">(ponta da seta vista</tspan></text>
+<text x="58" y="58" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">de frente)</tspan></text>
+<rect x="174" y="8" width="156" height="54" rx="4" fill="#EEF1F6" stroke="#C9D0DC" stroke-width="1"/>
+<circle cx="202" cy="35" r="14" fill="#FFFFFF" stroke="#1B2438" stroke-width="2.0"/>
+<line x1="193.88" y1="26.88" x2="210.12" y2="43.12" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="193.88" y1="43.12" x2="210.12" y2="26.88" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<text x="226" y="31" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">entrando no plano</tspan></text>
+<text x="226" y="46" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">(cauda da seta vista</tspan></text>
+<text x="226" y="58" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">de trás)</tspan></text>
+<rect x="6" y="74" width="156" height="100" rx="4" fill="#fff" stroke="#9AA3B2" stroke-width="1.3"/>
+<circle cx="32" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="32" cy="94" r="2.4" fill="#7C3AED"/>
+<circle cx="32" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="32" cy="124" r="2.4" fill="#7C3AED"/>
+<circle cx="32" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="32" cy="154" r="2.4" fill="#7C3AED"/>
+<circle cx="66" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="66" cy="94" r="2.4" fill="#7C3AED"/>
+<circle cx="66" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="66" cy="124" r="2.4" fill="#7C3AED"/>
+<circle cx="66" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="66" cy="154" r="2.4" fill="#7C3AED"/>
+<circle cx="100" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="100" cy="94" r="2.4" fill="#7C3AED"/>
+<circle cx="100" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="100" cy="124" r="2.4" fill="#7C3AED"/>
+<circle cx="100" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="100" cy="154" r="2.4" fill="#7C3AED"/>
+<circle cx="134" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="134" cy="94" r="2.4" fill="#7C3AED"/>
+<circle cx="134" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="134" cy="124" r="2.4" fill="#7C3AED"/>
+<circle cx="134" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<circle cx="134" cy="154" r="2.4" fill="#7C3AED"/>
+<text x="60.95" y="193" font-size="12" fill="#6D28D9" font-weight="600"><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> saindo</tspan></text>
+<line x1="62.63" y1="183.4" x2="71.26" y2="183.4" stroke="#6D28D9" stroke-width="0.8999999999999999" stroke-linecap="butt"/>
+<polygon points="71.76,183.4 67.68,185.44 67.68,181.36" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="174" y="74" width="156" height="100" rx="4" fill="#fff" stroke="#9AA3B2" stroke-width="1.3"/>
+<circle cx="200" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="196" y1="90" x2="204" y2="98" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="196" y1="98" x2="204" y2="90" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="200" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="196" y1="120" x2="204" y2="128" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="196" y1="128" x2="204" y2="120" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="200" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="196" y1="150" x2="204" y2="158" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="196" y1="158" x2="204" y2="150" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="234" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="230" y1="90" x2="238" y2="98" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="230" y1="98" x2="238" y2="90" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="234" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="230" y1="120" x2="238" y2="128" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="230" y1="128" x2="238" y2="120" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="234" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="230" y1="150" x2="238" y2="158" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="230" y1="158" x2="238" y2="150" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="268" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="264" y1="90" x2="272" y2="98" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="264" y1="98" x2="272" y2="90" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="268" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="264" y1="120" x2="272" y2="128" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="264" y1="128" x2="272" y2="120" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="268" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="264" y1="150" x2="272" y2="158" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="264" y1="158" x2="272" y2="150" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="302" cy="94" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="298" y1="90" x2="306" y2="98" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="298" y1="98" x2="306" y2="90" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="302" cy="124" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="298" y1="120" x2="306" y2="128" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="298" y1="128" x2="306" y2="120" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="302" cy="154" r="7" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+<line x1="298" y1="150" x2="306" y2="158" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="298" y1="158" x2="306" y2="150" stroke="#7C3AED" stroke-width="1.5" stroke-linecap="round"/>
+<text x="222.31" y="193" font-size="12" fill="#6D28D9" font-weight="600"><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> entrando</tspan></text>
+<line x1="223.99" y1="183.4" x2="232.61" y2="183.4" stroke="#6D28D9" stroke-width="0.8999999999999999" stroke-linecap="butt"/>
+<polygon points="233.11,183.4 229.03,185.44 229.03,181.36" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>

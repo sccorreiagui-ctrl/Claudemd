@@ -1,0 +1,61 @@
+<!--mod=III|sec=Potência elétrica e energia-->
+<h2 class="sec top" data-toc="3.3|Potência elétrica, efeito Joule e energia"><span class="num">3.3</span> Potência elétrica, efeito Joule e energia</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span><b>Potência</b> é a rapidez com que a energia é transformada: \(P=\Delta E/\Delta t\) (watt = J/s). Em um dispositivo com DDP \(U\) e corrente \(I\), cada carga \(\Delta q\) perde energia elétrica \(\Delta q\,U\); como \(\Delta q=I\,\Delta t\), tem-se \(\Delta E=U\,I\,\Delta t\) ⇒ \(P=UI\). Em um <b>resistor</b>, essa energia vira <b>calor</b> (efeito Joule); em outros dispositivos vira luz, movimento, energia química…</div>
+    <div class="formula mt3"><span class="tag">Fórmulas</span>
+      <div class="eq">\[ P=U\,I=R\,I^{2}=\frac{U^{2}}{R}\qquad\qquad E=P\,\Delta t \]</div>
+      <table class="vars">
+        <tr><td>\(P\)</td><td>potência elétrica</td><td>W</td></tr>
+        <tr><td>\(E\)</td><td>energia transformada no intervalo \(\Delta t\)</td><td>J ou kWh</td></tr>
+        <tr><td>\(\Delta t\)</td><td>tempo de funcionamento</td><td>s ou h</td></tr>
+      </table>
+      <div class="cond"><b>Validade:</b> \(P=UI\) vale para <i>qualquer</i> dispositivo; \(P=RI^2\) e \(P=U^2/R\) só para <i>resistores</i> (derivam de \(U=RI\)). Para kWh use \(P\) em <b>kW</b> e \(\Delta t\) em <b>h</b>; \(1\un{kWh}=3{,}6\times10^{6}\un{J}\).</div>
+    </div>
+  </div>
+  <div>
+    <h4 style="margin-top:0">Qual fórmula usar? Depende do que é dado — ou do que é comum</h4>
+    <table class="t zebra tight">
+      <tr><th>Fórmula</th><th>Escolha quando…</th><th>Exemplo típico</th></tr>
+      <tr><td class="k">\(P=UI\)</td><td>há \(U\) e \(I\) conhecidos (qualquer aparelho)</td><td>corrente do chuveiro: \(I=P/U\)</td></tr>
+      <tr><td class="k">\(P=RI^2\)</td><td>a corrente é <b>a mesma</b> (elementos em série) ou é dada</td><td>lâmpadas em série: maior \(R\) ⇒ <b>maior</b> \(P\)</td></tr>
+      <tr><td class="k">\(P=U^2/R\)</td><td>a tensão é <b>a mesma</b> (tomada, ramos em paralelo)</td><td>chuveiro: menor \(R\) ⇒ <b>maior</b> \(P\)</td></tr>
+    </table>
+    <div class="err mt2"><span class="tag o">Erro frequente</span><b>Dizer que “maior resistência ⇒ maior potência” sempre.</b> Depende de qual grandeza fica fixa: com <i>mesma corrente</i> (\(P=RI^2\)), \(P\) cresce com \(R\); com <i>mesma tensão</i> (\(P=U^2/R\)), \(P\) <b>diminui</b> com \(R\). Nem \(I\) nem \(U\) permanecem fixas por mágica: só quando o circuito as impõe.</div>
+  </div>
+</div>
+
+<div class="mt3">
+  <div class="box"><h4 style="margin-top:0">Rendimento (eficiência)</h4>
+    <p class="small mb0">\(\eta=\dfrac{P_{útil}}{P_{total}}\). O chuveiro transforma quase toda a energia elétrica em calor <i>útil</i> (\(\eta\) próximo de 1, descontadas as perdas ao ambiente); a lâmpada incandescente converte só ~5% em luz; o LED, bem mais; o motor elétrico, de 80% a 95%. A energia “perdida” não some: vira calor no ambiente. <b>Valores nominais</b> (“60 W – 127 V”) só valem na tensão indicada: em outra tensão \(P=P_n\,(U/U_n)^2\) (Exemplo 15).</p></div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 13</span>{{lvl:2}}<span class="tt">Consumo mensal e conta de luz</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Em uma casa, o chuveiro (\(5500\) W, \(220\) V) é usado por 4 pessoas, 10 min por banho, durante 30 dias. A tarifa (valor <i>fictício</i>) é R$ 0,90 por kWh. Calcule (a) a corrente do chuveiro; (b) a energia consumida no mês, em kWh e em J; (c) o custo só do chuveiro.</p>
+      <p class="st"><b class="l">Interpretação e método</b> A conta cobra <b>energia</b>: kWh = kW × h. Tempo total \(=4\cdot10\cdot30=1200\) min \(=20\) h. A corrente vem de \(P=UI\).</p>
+      <div class="calc">\[ \begin{aligned} I&=\frac{P}{U}=\frac{5500}{220}=25\un{A}\\ E&=P\,\Delta t=5{,}5\un{kW}\cdot20\un{h}=110\un{kWh}\\ E&=110\cdot3{,}6\times10^{6}\approx4{,}0\times10^{8}\un{J}\\ \text{custo}&=110\cdot0{,}90=\text{R\$}\,99{,}00 \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> Unidades: kW·h = kWh ✓. O chuveiro, em apenas 20 h, consome mais que TV e ferro somados (barras): reduzir o tempo de banho é a economia mais eficaz.</p>
+    </div>
+    <div><fig name="consumo_barras"/></div>
+  </div>
+</div>
+
+<h3 class="mt3">Aquecimento resistivo e dimensionamento de fios</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <p>Todo fio tem resistência: ao conduzir corrente, dissipa \(P=RI^2\) <b>como calor ao longo de todo o seu comprimento</b>. Dobrar a área do fio (mesma corrente e comprimento) reduz \(R\) — e o calor — à metade; por isso a <b>bitola</b> é escolhida para a corrente do aparelho.</p>
+    <p class="small mb0">O <b>disjuntor</b> (ou fusível) protege o <i>fio</i>: abre o circuito quando \(I\) excede o valor de projeto, antes que o fio superaqueça. Bitola e disjuntor seguem a norma (ABNT NBR 5410); nunca se troca o disjuntor por um maior “para parar de desarmar”.</p>
+  </div>
+  <div>
+    <table class="t zebra tight">
+      <tr><th>Cabo de cobre (20 m, \(I=25\) A)</th><th class="num">\(R\)</th><th class="num">calor \(RI^2\)</th></tr>
+      <tr><td>2,5 mm²</td><td class="num">0,14 Ω</td><td class="num">86 W</td></tr>
+      <tr><td>4 mm²</td><td class="num">0,086 Ω</td><td class="num">54 W</td></tr>
+      <tr><td>6 mm²</td><td class="num">0,057 Ω</td><td class="num">36 W</td></tr>
+    </table>
+  </div>
+</div>
+

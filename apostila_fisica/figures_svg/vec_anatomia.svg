@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 204" width="332" height="204" role="img" aria-label="Módulo, direção e sentido de um vetor; componentes"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="219.21" y1="182" x2="219.21" y2="82" stroke="#9AA3B2" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="46" y1="82" x2="219.21" y2="82" stroke="#9AA3B2" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="46" y1="182" x2="212.97" y2="182" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="219.21,182 211.21,184.88 211.21,179.12" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="219.21" y1="182" x2="219.21" y2="89.24" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="219.21,83 222.09,91 216.33,91" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="46" y1="182" x2="211.1" y2="86.68" stroke="#1B2438" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="219.21,82 210.97,91.74 206.65,84.26" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="96,182 95.89,178.73 95.57,175.47 95.04,172.25 94.3,169.06 93.35,165.93 92.19,162.87 90.84,159.89 89.3,157" fill="none" stroke="#6B7280" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108.72" y="173" font-size="14" fill="#1B2438"><tspan class="mi" xml:space="preserve">θ</tspan></text>
+<text x="121.18" y="119" font-size="15" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan></text>
+<line x1="123.28" y1="107" x2="132.32" y2="107" stroke="#1B2438" stroke-width="1.125" stroke-linecap="butt"/>
+<polygon points="132.82,107 127.72,109.55 127.72,104.45" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="101.51" y="199" font-size="12" fill="#6B7280"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="8.64" dy="3.24" xml:space="preserve">x</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">F</tspan><tspan class="mr" dx="2.04" xml:space="preserve">cos</tspan><tspan class="mi" dx="2.04" xml:space="preserve">θ</tspan></text>
+<text x="227.21" y="137" font-size="12" fill="#6B7280"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="8.64" dy="3.24" xml:space="preserve">y</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">F</tspan><tspan class="mr" dx="4.08" xml:space="preserve">sen</tspan><tspan class="mi" dx="2.04" xml:space="preserve">θ</tspan></text>
+<text x="8" y="15" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">módulo</tspan></text>
+<text x="8" y="29" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">comprimento da seta (em newtons)</tspan></text>
+<text x="8" y="45" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">direção</tspan></text>
+<text x="8" y="59" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">reta suporte (ângulo θ)</tspan></text>
+<text x="8" y="75" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">sentido</tspan></text>
+<text x="8" y="89" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">para onde aponta a ponta</tspan></text>
+</svg>

@@ -1,0 +1,27 @@
+<!--mod=III|sec=Chaves, fios e curto-circuito-->
+<h3 class="top" style="margin-top:0">Como uma chave ou um fio adicional altera o circuito</h3>
+<div class="c3 g3 small">
+  <div class="box"><b>Chave aberta</b> = ramo interrompido: nesse ramo \(I=0\) e a tensão da chave é a da fonte; os outros ramos seguem como se ele não existisse.</div>
+  <div class="box"><b>Chave fechada</b> = fio ideal: seus terminais ficam no <b>mesmo potencial</b> (mesma cor). Se ela estiver em paralelo com um resistor, o resistor deixa de ter tensão.</div>
+  <div class="box"><b>Resistor queimado</b> = ramo aberto. Em série, interrompe o circuito todo; em paralelo, só o ramo — o resto muda apenas porque \(R_{eq}\) e a corrente total mudam.</div>
+</div>
+
+<h2 class="sec mt3" data-toc="3.6|Curto-circuito"><span class="num">3.6</span> Curto-circuito</h2>
+<div class="c2 g3 ai-s">
+  <div class="concept"><span class="tag">Conceito</span>Há <b>curto-circuito</b> quando dois pontos de potenciais diferentes são ligados por um caminho de resistência desprezível. No modelo ideal, um fio liga os pontos \(\Rightarrow V_B=V_C\Rightarrow U=0\) nos componentes que ele contorna; pela lei de Ohm, \(I=U/R=0\) <i>neles</i>. A corrente não “prefere” o fio: sem DDP, simplesmente não há o que empurre cargas pelos ramos contornados. E como \(R_{eq}\) do circuito <b>diminui</b>, a corrente total <b>aumenta</b>.</div>
+  <div>
+    <div class="err"><span class="tag o">Erro frequente</span><b>“Em um curto, a corrente aumenta em todos os resistores.”</b> Nos contornados ela vira <b>zero</b>; nos que ficam em série com o curto <b>aumenta</b> (e a potência \(RI^2\) dissipada neles dispara).</div>
+    <div class="box soft mt2"><p class="small mb0"><b>Modelo ideal × circuito real.</b> O fio real tem resistência pequena e a fonte tem resistência interna: a corrente de curto é <i>enorme, mas finita</i> (\(I_{cc}\approx\varepsilon/(r+R_{fio})\)). A potência \(RI^2\) aquece fios e contatos — risco de incêndio. As proteções <b>abrem</b> o circuito: <b>fusível</b> (fio que funde) e <b>disjuntor</b> termomagnético (lâmina bimetálica + eletroímã).</p></div>
+  </div>
+</div>
+<div class="mt3"><fig name="curto" cls="line">Antes e depois de um fio ideal contornar \(R_2\): em (B, C) o potencial é o mesmo ⇒ \(U_2=0\). A corrente do circuito triplica.</fig></div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 19</span>{{lvl:2}}<span class="tt">Efeito do curto sobre corrente e potência</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Uma fonte ideal de \(12\) V alimenta \(R_1=4\ \Omega\) em série com \(R_2=8\ \Omega\). Um fio ideal é ligado em paralelo com \(R_2\). Compare corrente e potências antes e depois.</p>
+    <p class="st"><b class="l">Interpretação e método</b> O fio iguala os potenciais dos terminais de \(R_2\) ⇒ \(U_2=0\), \(I_2=0\) e \(R_2\) sai da conta: \(R_{eq}\) passa de \(R_1+R_2\) a \(R_1\). Use \(I=\varepsilon/R_{eq}\) e \(P=RI^2\).</p>
+    <div class="calc">\[ \begin{aligned} \text{antes:}&\ I=\frac{12}{4+8}=1\un{A},\ P_1=4\un{W},\ P_2=8\un{W}\qquad \text{depois:}\ I=\frac{12}{4}=3\un{A},\ P_1=3^2\cdot4=36\un{W},\ P_2=0 \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> \(P_{fonte}\): \(12\) W \(\to\) \(36\) W; a potência em \(R_1\) ficou <b>9 vezes</b> maior, embora a corrente só triplicasse (\(P\propto I^2\)). Se \(R_1\) fosse um cabo, esse seria o caminho para o superaquecimento.</p>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<!--mod=III|sec=Lâmpadas, chaves e queda de tensão em cabos-->
+<h3 class="top" style="margin-top:0">Lâmpadas em série e em paralelo; efeito de chaves e de lâmpadas queimadas</h3>
+<fig name="lamp_sp" cls="line">Duas lâmpadas idênticas. Em série dividem a tensão (cada uma com metade ⇒ \(P=\tfrac14P_n\)). Em paralelo cada uma recebe a tensão total.</fig>
+<div class="c2 g3 mt2 ai-s small">
+  <div><b>Se uma lâmpada queima</b> (filamento rompido = ramo aberto): em <b>série</b> o único caminho se interrompe e <b>todas apagam</b>; em <b>paralelo</b> as demais continuam com a mesma tensão e o mesmo brilho — mas a corrente fornecida pela fonte <b>diminui</b>.</div>
+  <div><b>Brilho</b> é determinado pela <b>potência</b> dissipada em cada lâmpada. Para lâmpadas idênticas: em série compare \(P=RI^2\) (mesma corrente); em paralelo compare \(P=U^2/R\) (mesma tensão). Quando a chave abre ou fecha, a resistência equivalente muda ⇒ a corrente total muda ⇒ <i>todos</i> os brilhos podem mudar.</div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 16</span>{{lvl:2}}<span class="tt">Três lâmpadas idênticas e uma chave</span></div>
+  <div class="exb">
+    <fig name="ex_lamp"/>
+    <p class="st mt2"><b class="l">Situação</b> Três lâmpadas idênticas (\(R_L=4\ \Omega\), constante) são ligadas a uma fonte ideal de \(12\) V como na figura: \(L_1\) em série com o conjunto formado por \(L_2\) e (chave \(S\) + \(L_3\)) em paralelo. Compare brilho e potência de cada lâmpada com \(S\) aberta e fechada.</p>
+    <p class="st"><b class="l">Interpretação e método</b> <b>Aberta:</b> \(L_3\) está fora do circuito; \(L_1\) e \(L_2\) em série. <b>Fechada:</b> \(L_2\parallel L_3=2\ \Omega\) em série com \(L_1\). Em cada caso: \(R_{eq}\) ⇒ \(I\) total ⇒ \(P=RI^2\) por lâmpada (a corrente se divide igualmente entre \(L_2\) e \(L_3\), idênticas).</p>
+    <div class="calc">\[ \begin{aligned} S\ \text{aberta:}&\ R_{eq}=4+4=8\ \Omega,\ I=\tfrac{12}{8}=1{,}5\un{A},\ P_1=P_2=4\cdot1{,}5^2=9\un{W},\ P_3=0\\ S\ \text{fechada:}&\ R_{eq}=4+2=6\ \Omega,\ I=\tfrac{12}{6}=2{,}0\un{A},\ P_1=4\cdot2^2=16\un{W},\ I_2=I_3=1\un{A}\Rightarrow P_2=P_3=4\un{W} \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> Ao fechar \(S\): \(L_1\) fica <b>mais brilhante</b> (9 → 16 W: \(R_{eq}\) caiu, \(I\) subiu), \(L_2\) fica <b>mais fraca</b> (9 → 4 W: passou a dividir a corrente) e \(L_3\) acende. Potência total: \(12\cdot1{,}5=18\) W → \(12\cdot2=24\) W \(=16+4+4\) ✓. Erro comum: achar que “a corrente total permanece a mesma”.</p>
+  </div>
+</div>
+
+<div class="mt3">
+<div class="err"><span class="tag o">Erro frequente</span><b>“A fonte fornece sempre a mesma corrente.”</b> Uma fonte ideal mantém a <i>tensão</i>, e a corrente depende da carga: \(I=U/R_{eq}\). Ao fechar uma chave em paralelo, \(R_{eq}\) cai e a fonte passa a fornecer <b>mais</b> corrente e <b>mais</b> potência (24 W × 18 W no exemplo).</div>
+</div>

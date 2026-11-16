@@ -1,0 +1,42 @@
+<!--mod=II|sec=Superposição de forças-->
+<h3 class="top" style="margin-top:0">Princípio da superposição: várias cargas, forças somadas como vetores</h3>
+<p>A força de uma carga sobre outra <b>não é alterada pela presença de terceiras cargas</b>. Assim, a força total sobre uma carga é a <b>soma vetorial</b> das forças calculadas par a par: \(\vec F_R=\vec F_1+\vec F_2+\dots\) Duas forças de 0,60 N podem dar 1,2 N, 0 ou qualquer valor intermediário, conforme o ângulo entre elas.</p>
+<p class="small mb0"><b>Roteiro:</b> (1) desenhe as cargas e escolha os eixos; (2) para <b>cada par</b>, os sinais dão atração ou repulsão ⇒ sentido da seta; (3) módulo de cada força: \(F=k|q_1q_2|/r^2\); (4) decomponha (ou use Pitágoras se forem perpendiculares); (5) recomponha e confira com o desenho.</p>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 3</span>{{lvl:2}}<span class="tt">E se a distância mudar? (razões)</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> No Exemplo 2 a distância é reduzida para \(10\) cm. (a) Qual é a nova força? (b) E se, além disso, \(q_2\) fosse duplicada?</p>
+      <p class="st"><b class="l">Interpretação e método</b> Só \(r\) muda (e depois \(q_2\)): compare com a situação conhecida (\(F=0{,}60\un{N}\) a \(0{,}30\un{m}\)) usando razões, \(F\propto1/r^{2}\) e \(F\propto q_2\) — sem recalcular \(k\).</p>
+      <div class="calc">\[ \begin{aligned} \text{(a)}\ F'&=F\left(\frac{r}{r'}\right)^{2}=0{,}60\left(\frac{0{,}30}{0{,}10}\right)^{2}=0{,}60\cdot9=5{,}4\un{N}\\ \text{(b)}\ F''&=2F'=10{,}8\un{N} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> Pela fórmula: \(9{,}0\times10^{9}\cdot6{,}0\times10^{-12}/(0{,}10)^{2}=5{,}4\un{N}\) \(\checkmark\). Distância \(\div3\) ⇒ força \(\times9\).</p>
+    </div>
+    <div><fig name="ex_coulomb3"/></div>
+  </div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 4</span>{{lvl:3}}<span class="tt">Força resultante de duas cargas sobre uma terceira</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Três cargas puntiformes estão fixas, no vácuo, nos vértices de um triângulo retângulo: \(A\,(+2{,}0\,\mu\mathrm{C})\) no ângulo reto; \(B\,(+3{,}0\,\mu\mathrm{C})\) e \(C\,(-3{,}0\,\mu\mathrm{C})\), ambas a \(30\) cm de \(A\), uma sobre cada cateto. Determine a força resultante sobre \(A\).</p>
+      <p class="st"><b class="l">Interpretação</b> \(A\) e \(B\) têm mesmo sinal: \(\vec F_B\) é de <b>repulsão</b> (afasta de \(B\)). \(A\) e \(C\) têm sinais opostos: \(\vec F_C\) é de <b>atração</b> (aponta para \(C\)). Os catetos são perpendiculares, logo \(\vec F_B\perp\vec F_C\).</p>
+      <p class="st"><b class="l">Método</b> Coulomb em cada par (módulos) + soma vetorial por Pitágoras.</p>
+      <div class="calc">\[ \begin{aligned} F_B&=\frac{k\,q_Aq_B}{r^2}=\frac{9{,}0\times10^{9}\cdot2{,}0\times10^{-6}\cdot3{,}0\times10^{-6}}{0{,}30^2}\\ &=0{,}60\un{N}\\ F_C&=F_B\ (\text{mesmo }|q|\text{ e mesmo }r)\qquad F_R=\sqrt{F_B^{2}+F_C^{2}}\\ &=0{,}60\sqrt2\approx0{,}85\un{N}\quad(45^\circ\text{ dos catetos}) \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(\vec F_R\) aponta “afastando-se de \(B\) e em direção a \(C\)”, como no desenho. Módulo entre 0 (opostas) e 1,2 N (alinhadas): \(0{,}85\un{N}\) é coerente para ângulo de \(90^\circ\).</p>
+    </div>
+    <div><fig name="tri_coulomb">Soma vetorial das forças sobre \(A\) (escala: 120 px por newton).</fig></div>
+  </div>
+</div>
+
+<div class="c2 g3 mt2 ai-s">
+  <div class="fix"><span class="tag o">Fixação</span> <span class="b">Coulomb</span>
+    <ol>
+      <li><span class="b">{{lvl:2}}</span> A força entre duas cargas é \(F\). Se uma carga for <b>triplicada</b> e a distância <b>dobrada</b>, qual é a nova força?</li>
+      <li>{{lvl:3}} Duas cargas fixas, \(+4q\) em \(x=0\) e \(+q\) em \(x=0{,}90\un{m}\), estão no vácuo. Em que ponto do eixo uma terceira carga fica em <b>equilíbrio</b>? (O sinal dela importa?)</li>
+    </ol>
+    <div class="gab"><b>Gabarito.</b> 1) \(F'=F\cdot3/2^2=\tfrac34F\).  2) Entre as cargas, as forças têm sentidos opostos: \(\dfrac{k\,4q\,q_3}{x^2}=\dfrac{k\,q\,q_3}{(0{,}90-x)^2}\Rightarrow2(0{,}90-x)=x\Rightarrow x=0{,}60\un{m}\). O sinal e o valor de \(q_3\) <b>não</b> alteram a posição.</div>
+  </div>
+  <div class="adv"><span class="tag">Aprofundamento</span><b>Elétrica × gravitacional.</b> Ambas variam com \(1/r^2\), mas a elétrica pode atrair <i>ou</i> repelir e é muito mais intensa: entre um próton e um elétron, \(\dfrac{F_e}{F_g}=\dfrac{ke^2}{Gm_pm_e}\approx2\times10^{39}\). Por isso a gravidade é irrelevante na escala atômica, e a matéria em grande escala é <i>neutra</i>.</div>
+</div>

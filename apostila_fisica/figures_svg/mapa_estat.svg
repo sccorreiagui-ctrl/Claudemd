@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 168" width="680" height="168" role="img" aria-label="Mapa mental da Eletrostática"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="0" y="4" width="168" height="50" rx="9" fill="#EEF1F6" stroke="#6B7280" stroke-width="2.2"/>
+<text x="61.48" y="26" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Carga  q</tspan></text>
+<text x="65.62" y="42" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">Q = ± n e</tspan></text>
+<rect x="256" y="4" width="168" height="50" rx="9" fill="#EEF1F6" stroke="#1B2438" stroke-width="2.2"/>
+<text x="318.42" y="26" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Força  F</tspan></text>
+<text x="303.19" y="42" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">par ação–reação</tspan></text>
+<rect x="512" y="4" width="168" height="50" rx="9" fill="#DBF2F7" stroke="#0891B2" stroke-width="2.2"/>
+<text x="570.09" y="26" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Campo  E</tspan></text>
+<text x="560.03" y="42" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">linhas de campo</tspan></text>
+<rect x="512" y="112" width="168" height="50" rx="9" fill="#DBF2F7" stroke="#0891B2" stroke-width="2.2"/>
+<text x="544.21" y="134" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Potencial V, DDP U</tspan></text>
+<text x="563.5" y="150" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">equipotenciais</tspan></text>
+<rect x="256" y="112" width="168" height="50" rx="9" fill="#E1F4E8" stroke="#16A34A" stroke-width="2.2"/>
+<text x="287.71" y="134" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Trabalho e energia</tspan></text>
+<text x="316.81" y="150" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">ΔE_c = q·U</tspan></text>
+<rect x="0" y="112" width="168" height="50" rx="9" fill="#E1F4E8" stroke="#16A34A" stroke-width="2.2"/>
+<text x="56.84" y="134" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Capacitor</tspan></text>
+<text x="67.58" y="150" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">C = Q/U</tspan></text>
+<line x1="172" y1="29" x2="244.2" y2="29" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="252,29 242,33 242,25" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="190.51" y="20" font-size="11" fill="#1B2438" font-weight="600" class="halo"><tspan font-weight="600" xml:space="preserve">Coulomb</tspan></text>
+<text x="182.38" y="47" font-size="10.5" fill="#5B6578" class="halo"><tspan xml:space="preserve">F = k|q₁q₂|/r²</tspan></text>
+<line x1="428" y1="29" x2="500.2" y2="29" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="508,29 498,33 498,25" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="454.11" y="20" font-size="11" fill="#1B2438" font-weight="600" class="halo"><tspan font-weight="600" xml:space="preserve">F = qE</tspan></text>
+<text x="448.85" y="47" font-size="10.5" fill="#5B6578" class="halo"><tspan xml:space="preserve">E = kQ/r²</tspan></text>
+<line x1="596" y1="57" x2="596" y2="101.2" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="596,109 592,99 600,99" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="490.32" y="78" font-size="11" fill="#1B2438" font-weight="600" class="halo"><tspan font-weight="600" xml:space="preserve">U = E·d  (E uniforme)</tspan></text>
+<text x="464.99" y="92" font-size="10.5" fill="#5B6578" class="halo"><tspan xml:space="preserve">V = kQ/r  (carga puntiforme)</tspan></text>
+<line x1="508" y1="137" x2="435.8" y2="137" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="428,137 438,133 438,141" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="450.36" y="128" font-size="11" fill="#1B2438" font-weight="600" class="halo"><tspan font-weight="600" xml:space="preserve">W = q·U</tspan></text>
+<text x="448.06" y="155" font-size="10.5" fill="#5B6578" class="halo"><tspan xml:space="preserve">E_p = q·V</tspan></text>
+<line x1="252" y1="137" x2="179.8" y2="137" stroke="#1B2438" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="172,137 182,133 182,141" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="163.61" y="128" font-size="11" fill="#1B2438" font-weight="600" class="halo"><tspan font-weight="600" xml:space="preserve">energia armazenada</tspan></text>
+<text x="190.46" y="155" font-size="10.5" fill="#5B6578" class="halo"><tspan xml:space="preserve">E = C·U²/2</tspan></text>
+</svg>

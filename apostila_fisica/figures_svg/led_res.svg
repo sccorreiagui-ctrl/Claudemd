@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 190" width="332" height="190" role="img" aria-label="LED com resistor de proteção"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="40,140 40,98.75" fill="none" stroke="#2563EB" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,91.25 40,50" fill="none" stroke="#E5484D" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="98.75" x2="47.5" y2="98.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="91.25" x2="53" y2="91.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="9.17" y="98.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">5 V</tspan></text>
+<text x="57.67" y="109.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="88.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,50 76,50" fill="none" stroke="#E5484D" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="76,50 100,50" fill="none" stroke="#E5484D" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="146,50 170,50" fill="none" stroke="#109C74" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,50 103.83,57.5 111.5,42.5 119.17,57.5 126.83,42.5 134.5,57.5 142.17,42.5 146,50" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="97.84" y="37.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan xml:space="preserve"> = 150 Ω</tspan></text>
+<polyline points="170,50 216,50 216,66" fill="none" stroke="#109C74" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="216,66 216,85" fill="none" stroke="#109C74" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="216,107 216,126" fill="none" stroke="#2563EB" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="226.45,85 205.55,85 216,102.05" fill="#EEF1F6" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="226.45" y1="102.05" x2="205.55" y2="102.05" stroke="#1B2438" stroke-width="2.4" stroke-linecap="butt"/>
+<line x1="203.35" y1="93.8" x2="196.5" y2="98.59" stroke="#16A34A" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="192.35,101.5 196,95.38 199.35,100.17" fill="#16A34A" stroke="#16A34A" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="203.35" y1="101.8" x2="196.5" y2="106.59" stroke="#16A34A" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="192.35,109.5 196,103.38 199.35,108.17" fill="#16A34A" stroke="#16A34A" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="244.2" y="100.25" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">LED</tspan></text>
+<polyline points="216,126 216,140 40,140" fill="none" stroke="#2563EB" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="72.86" y="166" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">R</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">5</tspan><tspan class="mr" dx="2.53" xml:space="preserve">−</tspan><tspan class="mr" dx="2.53" xml:space="preserve">2,0</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">3,0</tspan><tspan xml:space="preserve"> V</tspan></text>
+<text x="38.41" y="182" font-size="11.5" fill="#1B2438" font-weight="600"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">U</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">R</tspan><tspan class="mr" dy="-3.11" xml:space="preserve">/</tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">3,0/0,020</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">150</tspan><tspan class="mr" dx="3.45" xml:space="preserve">Ω</tspan></text>
+</svg>

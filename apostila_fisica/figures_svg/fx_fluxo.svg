@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 150" width="236" height="150" role="img" aria-label="Gráfico do fluxo magnético em função do tempo"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="90.15" y1="118" x2="90.15" y2="34" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="159.38" y1="118" x2="159.38" y2="34" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="182.46" y1="118" x2="182.46" y2="34" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="44" y1="48" x2="194" y2="48" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="44" y1="118" x2="199.76" y2="118" stroke="#1B2438" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="206,118 198,120.72 198,115.28" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="44" y1="118" x2="44" y2="28.24" stroke="#1B2438" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="44,22 46.72,30 41.28,30" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="90.15" y1="118" x2="90.15" y2="122" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="83.63" y="135" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">0,2</tspan></text>
+<line x1="159.38" y1="118" x2="159.38" y2="122" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="152.86" y="135" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">0,5</tspan></text>
+<line x1="182.46" y1="118" x2="182.46" y2="122" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="175.94" y="135" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">0,6</tspan></text>
+<line x1="40" y1="48" x2="44" y2="48" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="31.78" y="51.57" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">6</tspan></text>
+<polyline points="44,118 90.15,48 159.38,48 182.46,118" fill="none" stroke="#7C3AED" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90.15" y1="48" x2="90.15" y2="118" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="90.15" y1="48" x2="44" y2="48" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="209" y="122.5" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">t</tspan><tspan xml:space="preserve"> (s)</tspan></text>
+<text x="23.82" y="17" font-size="12" fill="#1B2438"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan xml:space="preserve"> (mWb)</tspan></text>
+</svg>

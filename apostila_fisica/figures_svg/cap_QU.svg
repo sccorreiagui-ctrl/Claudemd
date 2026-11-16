@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 172" width="332" height="172" role="img" aria-label="Gráfico Q × U de um capacitor: a área é a energia armazenada"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="117.71" y1="140" x2="117.71" y2="40" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="183.43" y1="140" x2="183.43" y2="40" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="249.14" y1="140" x2="249.14" y2="40" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="52" y1="111.43" x2="282" y2="111.43" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="52" y1="82.86" x2="282" y2="82.86" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="52" y1="54.29" x2="282" y2="54.29" stroke="#E8EBF1" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="52" y1="140" x2="287.76" y2="140" stroke="#1B2438" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="294,140 286,142.72 286,137.28" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="52" y1="140" x2="52" y2="34.24" stroke="#1B2438" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="52,28 54.72,36 49.28,36" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="117.71" y1="140" x2="117.71" y2="144" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="115.11" y="157" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">4</tspan></text>
+<line x1="183.43" y1="140" x2="183.43" y2="144" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="180.82" y="157" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">8</tspan></text>
+<line x1="249.14" y1="140" x2="249.14" y2="144" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="243.92" y="157" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">12</tspan></text>
+<line x1="48" y1="111.43" x2="52" y2="111.43" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="39.78" y="115" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">8</tspan></text>
+<line x1="48" y1="82.86" x2="52" y2="82.86" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="34.56" y="86.43" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">16</tspan></text>
+<line x1="48" y1="54.29" x2="52" y2="54.29" stroke="#1B2438" stroke-width="1.2" stroke-linecap="round"/>
+<text x="34.56" y="57.86" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">24</tspan></text>
+<text x="297" y="144.5" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">U</tspan><tspan xml:space="preserve"> (V)</tspan></text>
+<text x="41.62" y="23" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">Q</tspan><tspan xml:space="preserve"> (µC)</tspan></text>
+<polygon points="52,140 249.14,54.29 249.14,140 52,140" fill="#16A34A" stroke="none" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.3"/>
+<polygon points="52,140 249.14,54.29 249.14,140" fill="#16A34A" stroke="none" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.3"/>
+<polyline points="52,140 265.57,47.14" fill="none" stroke="#1B2438" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="249.14" y1="54.29" x2="249.14" y2="140" stroke="#9AA3B2" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="249.14" y1="54.29" x2="52" y2="54.29" stroke="#9AA3B2" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<circle cx="249.14" cy="54.29" r="3.6" fill="#FFFFFF" stroke="#1B2438" stroke-width="2.0"/>
+<text x="154.31" y="116.79" font-size="13" fill="#15803D" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">E</tspan><tspan class="mr" dx="3.64" xml:space="preserve">=</tspan><tspan class="mi" dx="3.64" xml:space="preserve">Q</tspan><tspan class="mi" dx="2.21" xml:space="preserve">U</tspan><tspan class="mr" xml:space="preserve">/2</tspan></text>
+<text x="61.86" y="68.57" font-size="12" fill="#1B2438"><tspan xml:space="preserve">inclinação </tspan><tspan class="mr" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">C</tspan></text>
+<text x="61.86" y="80.71" font-size="11" fill="#5B6578"><tspan xml:space="preserve">(2 µC/V = 2 µF)</tspan></text>
+</svg>

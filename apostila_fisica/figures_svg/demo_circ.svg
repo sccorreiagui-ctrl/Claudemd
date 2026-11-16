@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" width="420" height="250" role="img" aria-label="demo"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="60,190 60,128.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="60,121.25 60,60" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="52.5" y1="128.75" x2="67.5" y2="128.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="47" y1="121.25" x2="73" y2="121.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="4.1" y="129.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">ε</tspan><tspan xml:space="preserve"> = 12 V</tspan></text>
+<text x="77.67" y="139.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="77.67" y="118.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="60,40 107,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="153,40 200,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="107,40 110.83,47.5 118.5,32.5 126.17,47.5 133.83,32.5 141.5,47.5 149.17,32.5 153,40" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108.81" y="28.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 4 Ω</tspan></text>
+<polyline points="60,60 60,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="200,40 242,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="288,40 330,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="242,40 245.83,47.5 253.5,32.5 261.17,47.5 268.83,32.5 276.5,47.5 284.17,32.5 288,40" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="243.81" y="28.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve"> = 6 Ω</tspan></text>
+<polyline points="330,40 380,40 380,70" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="380,70 380,97.5" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="380,122.5 380,150" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380" cy="110" r="12.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<line x1="371.16" y1="101.16" x2="388.84" y2="118.84" stroke="#1B2438" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="371.16" y1="118.84" x2="388.84" y2="101.16" stroke="#1B2438" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="394.78" y1="116.12" x2="401.25" y2="118.8" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="386.12" y1="124.78" x2="388.8" y2="131.25" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="373.88" y1="124.78" x2="371.2" y2="131.25" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="365.22" y1="116.12" x2="358.75" y2="118.8" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="365.22" y1="103.88" x2="358.75" y2="101.2" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="373.88" y1="95.22" x2="371.2" y2="88.75" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="386.12" y1="95.22" x2="388.8" y2="88.75" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="394.78" y1="103.88" x2="401.25" y2="101.2" stroke="#16A34A" stroke-width="2.0" stroke-linecap="round"/>
+<text x="406.5" y="114.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">L</tspan></text>
+<polyline points="380,150 380,210 250,210" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,210 211,210" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="169,210 130,210" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="211" y1="210" x2="175.72" y2="189.63" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="211" cy="210" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<circle cx="169" cy="210" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<text x="186.66" y="236.75" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">S</tspan></text>
+<polyline points="130,210 60,210 60,190" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="40" r="3.7" fill="#1B2438"/>
+<circle cx="380" cy="40" r="3.7" fill="#1B2438"/>
+<line x1="119" y1="40" x2="133.2" y2="40" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="141,40 131,44 131,36" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="127.25" y="29" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<line x1="326" y1="210" x2="311.8" y2="210" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="304,210 314,206 314,214" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="309.66" y="199" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan></text>
+<text x="165.87" y="120" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" dx="3.64" xml:space="preserve">=</tspan><tspan class="mi" dx="3.64" xml:space="preserve">q</tspan><tspan class="mi" dx="2.21" xml:space="preserve">E</tspan><tspan xml:space="preserve">  ε = 12 V</tspan></text>
+<line x1="167.69" y1="109.6" x2="175.53" y2="109.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="176.03,109.6 171.61,111.81 171.61,107.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="201.45" y1="109.6" x2="210.53" y2="109.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="211.03,109.6 206.61,111.81 206.61,107.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="154.32" y="150" font-size="13" fill="#1B2438"><tspan xml:space="preserve">U</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">AB</tspan><tspan dy="-3.51" xml:space="preserve"> = </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">AB</tspan><tspan dy="-3.51" xml:space="preserve"> = 5 V   </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">eq</tspan></text>
+</svg>

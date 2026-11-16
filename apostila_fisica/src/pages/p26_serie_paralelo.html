@@ -1,0 +1,40 @@
+<!--mod=III|sec=Associação em série e em paralelo-->
+<h2 class="sec top" data-toc="3.4|Associação de resistores: série, paralelo e misto"><span class="num">3.4</span> Associação de resistores: série e paralelo</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <h3 style="margin-top:0">Série: um único caminho</h3>
+    <div class="concept"><span class="tag">Conceito</span>Em série, os resistores formam <b>um só caminho</b>: a <b>mesma corrente</b> passa por todos; as <b>tensões se somam</b> (divisor de tensão). A resistência equivalente é <b>maior</b> que qualquer uma das parciais.</div>
+    <div class="formula mt2"><span class="tag">Série</span>
+      <div class="eq">\[ \begin{aligned} R_{eq}&=R_1+R_2+\cdots\\ U&=U_1+U_2+\cdots\\ U_i&=U\,\frac{R_i}{R_{eq}} \end{aligned} \]</div>
+      <div class="cond"><b>Use quando:</b> um nó liga <i>só dois</i> componentes (sem 3º ramo). Maior \(R\) ⇒ maior \(U_i\) <i>e</i> maior \(P_i=R_iI^2\).</div>
+    </div>
+    <div class="mt2"><fig name="circ_serie">Série: \(R_{eq}=12\ \Omega\), \(I=1\) A. Cada fio tem a cor do seu potencial; o potencial cai ao atravessar cada resistor.</fig></div>
+  </div>
+  <div>
+    <h3 style="margin-top:0">Paralelo: caminhos alternativos</h3>
+    <div class="concept"><span class="tag">Conceito</span>Em paralelo, os resistores ligam-se aos <b>mesmos dois nós</b>: têm a <b>mesma tensão</b> (a DDP entre esses nós); as <b>correntes se dividem</b> (divisor de corrente). A resistência equivalente é <b>menor</b> que a menor das parciais.</div>
+    <div class="formula mt2"><span class="tag">Paralelo</span>
+      <div class="eq">\[ \begin{aligned} \frac{1}{R_{eq}}&=\frac1{R_1}+\frac1{R_2}+\cdots\\ R_{eq}&=\frac{R_1R_2}{R_1+R_2}\ \ (\text{dois})\qquad R_{eq}=\frac{R}{n}\ \ (n\ \text{iguais})\\ I&=I_1+I_2+\cdots\qquad I_i=\frac{U}{R_i} \end{aligned} \]</div>
+      <div class="cond"><b>Use quando:</b> as pontas dos resistores estão nos <i>mesmos</i> dois nós (mesmas “cores”). Menor \(R\) ⇒ maior \(I_i\) <i>e</i> maior \(P_i=U^2/R_i\).</div>
+    </div>
+    <div class="mt2"><fig name="circ_par">Paralelo: \(R_{eq}=2{,}4\ \Omega\), \(I=5\) A. As correntes se dividem: o ramo de menor \(R\) leva mais corrente.</fig></div>
+  </div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="err"><span class="tag o">Erro frequente</span><b>“Mais resistores em paralelo ⇒ \(R_{eq}\) maior.”</b> Cada ramo novo é um caminho a mais: \(R_{eq}\) <b>diminui</b> e a corrente fornecida pela fonte <b>aumenta</b> (cuidado com o disjuntor ao ligar muitos aparelhos na mesma tomada). Já em série, cada resistor a mais <b>aumenta</b> \(R_{eq}\) e diminui a corrente.</div>
+  <div class="box"><h4 style="margin-top:0">Conferências que valem ouro</h4>
+    <ul class="small mb0">
+      <li>\(R_{eq}\) em paralelo é sempre <b>menor que o menor</b> resistor; em série, <b>maior que o maior</b>.</li>
+      <li>Em qualquer associação, \(P_{fonte}=\sum P_i\): a energia se conserva.</li>
+      <li>Série: \(U_i\propto R_i\). Paralelo: \(I_i\propto1/R_i\).</li>
+      <li>Resistores em paralelo com \(R_1\gg R_2\): \(R_{eq}\approx R_2\).</li>
+    </ul></div>
+</div>
+
+<div class="mt3">
+<div class="box"><h4 style="margin-top:0">Aplicação: queda de tensão em cabos mal dimensionados</h4>
+    <p class="small mb1">O cabo tem resistência e fica em <b>série</b> com o aparelho. Um chuveiro de 5500 W/220 V (\(R=8{,}8\ \Omega\)) ligado por cabos cuja resistência total (ida e volta) é \(0{,}40\ \Omega\):</p>
+    <p class="small mb1">\(I=\dfrac{220}{8{,}8+0{,}40}\approx23{,}9\un{A}\);  \(U_{chuv}=8{,}8\cdot23{,}9\approx210\un{V}\);  \(P_{chuv}=U_{chuv}\,I\approx5{,}0\un{kW}\);  \(P_{cabo}=0{,}40\cdot23{,}9^2\approx230\un{W}\).</p>
+    <p class="small mb0">O aparelho perde ~9% de potência e o cabo esquenta (230 W!). Ligar <b>mais</b> aparelhos em paralelo aumenta a corrente total e agrava a queda: as lâmpadas “piscam” quando o chuveiro liga.</p></div>
+</div>

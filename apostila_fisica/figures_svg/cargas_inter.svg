@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 178" width="332" height="178" role="img" aria-label="Interação entre cargas: mesmos sinais repelem, sinais opostos atraem"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<circle cx="112" cy="34" r="12" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="105.76" y1="34" x2="118.24" y2="34" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="112" y1="27.76" x2="112" y2="40.24" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="220" cy="34" r="12" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="213.76" y1="34" x2="226.24" y2="34" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="220" y1="27.76" x2="220" y2="40.24" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="97" y1="34" x2="61.02" y2="34" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="54,34 63,30.76 63,37.24" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="235" y1="34" x2="270.98" y2="34" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="278,34 269,37.24 269,30.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="67.48" y="25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">12</tspan></text>
+<line x1="69.23" y1="15" x2="76.77" y2="15" stroke="#1B2438" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="77.27,15 73.02,17.12 73.02,12.88" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="247.48" y="25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">21</tspan></text>
+<line x1="249.23" y1="15" x2="256.77" y2="15" stroke="#1B2438" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="257.27,15 253.02,17.12 253.02,12.88" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="8" y="38" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">repulsão</tspan></text>
+<circle cx="112" cy="92" r="12" fill="#E3EBFD" stroke="#2563EB" stroke-width="2"/>
+<line x1="105.76" y1="92" x2="118.24" y2="92" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="220" cy="92" r="12" fill="#E3EBFD" stroke="#2563EB" stroke-width="2"/>
+<line x1="213.76" y1="92" x2="226.24" y2="92" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="97" y1="92" x2="61.02" y2="92" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="54,92 63,88.76 63,95.24" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="235" y1="92" x2="270.98" y2="92" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="278,92 269,95.24 269,88.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="67.48" y="83" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">12</tspan></text>
+<line x1="69.23" y1="73" x2="76.77" y2="73" stroke="#1B2438" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="77.27,73 73.02,75.12 73.02,70.88" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="247.48" y="83" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">21</tspan></text>
+<line x1="249.23" y1="73" x2="256.77" y2="73" stroke="#1B2438" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="257.27,73 253.02,75.12 253.02,70.88" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="8" y="96" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">repulsão</tspan></text>
+<circle cx="112" cy="150" r="12" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="105.76" y1="150" x2="118.24" y2="150" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="112" y1="143.76" x2="112" y2="156.24" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="220" cy="150" r="12" fill="#E3EBFD" stroke="#2563EB" stroke-width="2"/>
+<line x1="213.76" y1="150" x2="226.24" y2="150" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="127" y1="150" x2="154.98" y2="150" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="162,150 153,153.24 153,146.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="205" y1="150" x2="177.02" y2="150" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="170,150 179,146.76 179,153.24" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="136.48" y="141" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">12</tspan></text>
+<line x1="138.23" y1="131" x2="145.77" y2="131" stroke="#1B2438" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="146.27,131 142.02,133.12 142.02,128.88" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="178.48" y="141" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">21</tspan></text>
+<line x1="180.23" y1="131" x2="187.77" y2="131" stroke="#1B2438" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="188.27,131 184.02,133.12 184.02,128.88" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="8" y="154" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">atração</tspan></text>
+<text x="189.24" y="172" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">|F₁₂| = |F₂₁|  (3ª lei de Newton)</tspan></text>
+</svg>

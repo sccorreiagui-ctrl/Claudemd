@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 232" width="680" height="232" role="img" aria-label="Regras de Kirchhoff: lei dos nós e sinais na lei das malhas"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="51.06" y="14" font-size="12.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">1ª lei — nós (carga)</tspan></text>
+<line x1="0" y1="22" x2="200" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="18,96 100,96" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,38 100,96" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,96 182,96" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,96 100,154" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="100" cy="96" r="5" fill="#1B2438"/>
+<line x1="24" y1="84" x2="62.2" y2="84" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="70,84 60,87.6 60,80.4" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="41.26" y="76" font-size="12.5" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan></text>
+<line x1="114" y1="44" x2="114" y2="68.2" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="114,76 110.4,66 117.6,66" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="124" y="64" font-size="12.5" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan></text>
+<line x1="128" y1="84" x2="166.2" y2="84" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="174,84 164,87.6 164,80.4" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="147.26" y="76" font-size="12.5" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">3</tspan></text>
+<line x1="114" y1="112" x2="114" y2="140.2" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="114,148 110.4,138 117.6,138" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="124" y="134" font-size="12.5" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">4</tspan></text>
+<text x="50.8" y="184" font-size="12" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Σ</tspan><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">entram</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mr" dx="3.36" xml:space="preserve">Σ</tspan><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">saem</tspan></text>
+<text x="60.44" y="202" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">i</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.24" dx="2.64" xml:space="preserve">+</tspan><tspan class="mi" dx="2.64" xml:space="preserve">i</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">i</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">3</tspan><tspan class="mr" dy="-3.24" dx="2.64" xml:space="preserve">+</tspan><tspan class="mi" dx="2.64" xml:space="preserve">i</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">4</tspan></text>
+<text x="32.03" y="220" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">(a carga não se acumula no nó)</tspan></text>
+<text x="297.97" y="14" font-size="12.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">2ª lei — malhas (energia): </tspan><tspan class="mr" xml:space="preserve">ΣΔ</tspan><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mr" dx="3.5" xml:space="preserve">=</tspan><tspan class="mr" dx="3.5" xml:space="preserve">0</tspan><tspan font-weight="600" xml:space="preserve"> ao percorrer a malha</tspan></text>
+<line x1="222" y1="22" x2="680" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="230,68 266,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="310,68 346,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="266,68 269.67,75 277,61 284.33,75 291.67,61 299,75 306.33,61 310,68" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="283.26" y="56" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<line x1="260" y1="43" x2="304.98" y2="43" stroke="#F08C00" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="312,43 303,46.24 303,39.76" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="322" y="47" font-size="12" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<line x1="240" y1="90" x2="328.98" y2="90" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="6 4"/>
+<polygon points="336,90 327,93.24 327,86.76" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="268.54" y="105" font-size="10.5" fill="#6B7280"><tspan xml:space="preserve">percurso</tspan></text>
+<text x="363.82" y="72" font-size="13" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Δ</tspan><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mr" dx="3.64" xml:space="preserve">=</tspan><tspan class="mr" dx="3.64" xml:space="preserve">−</tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" dx="2.21" xml:space="preserve">I</tspan></text>
+<text x="341.58" y="92" font-size="10" fill="#5B6578"><tspan xml:space="preserve">a favor de </tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan xml:space="preserve">: o potencial cai</tspan></text>
+<polyline points="460,68 496,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="540,68 576,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="496,68 499.67,75 507,61 514.33,75 521.67,61 529,75 536.33,61 540,68" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="513.26" y="56" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<line x1="542" y1="43" x2="497.02" y2="43" stroke="#F08C00" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="490,43 499,39.76 499,46.24" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="552" y="47" font-size="12" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<line x1="470" y1="90" x2="558.98" y2="90" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="6 4"/>
+<polygon points="566,90 557,93.24 557,86.76" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="498.54" y="105" font-size="10.5" fill="#6B7280"><tspan xml:space="preserve">percurso</tspan></text>
+<text x="593.82" y="72" font-size="13" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Δ</tspan><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mr" dx="3.64" xml:space="preserve">=</tspan><tspan class="mr" dx="3.64" xml:space="preserve">+</tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" dx="2.21" xml:space="preserve">I</tspan></text>
+<text x="574.43" y="92" font-size="10" fill="#5B6578"><tspan xml:space="preserve">contra </tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan xml:space="preserve">: o potencial sobe</tspan></text>
+<polyline points="230,166 284.25,166" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="291.75,166 346,166" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="284.25" y1="158.5" x2="284.25" y2="173.5" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="291.75" y1="153" x2="291.75" y2="179" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="270.67" y="152" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="298.67" y="152" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<line x1="240" y1="188" x2="328.98" y2="188" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="6 4"/>
+<polygon points="336,188 327,191.24 327,184.76" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="268.54" y="203" font-size="10.5" fill="#6B7280"><tspan xml:space="preserve">percurso</tspan></text>
+<text x="369.69" y="170" font-size="13" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Δ</tspan><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mr" dx="3.64" xml:space="preserve">=</tspan><tspan class="mr" dx="3.64" xml:space="preserve">+</tspan><tspan class="mi" xml:space="preserve">ε</tspan></text>
+<text x="338.52" y="190" font-size="10" fill="#5B6578"><tspan xml:space="preserve">de − para +: o potencial sobe</tspan></text>
+<polyline points="460,166 514.25,166" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="521.75,166 576,166" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="514.25" y1="158.5" x2="514.25" y2="173.5" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="521.75" y1="153" x2="521.75" y2="179" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="500.67" y="152" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="528.67" y="152" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<line x1="566" y1="188" x2="477.02" y2="188" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="6 4"/>
+<polygon points="470,188 479,184.76 479,191.24" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="498.54" y="203" font-size="10.5" fill="#6B7280"><tspan xml:space="preserve">percurso</tspan></text>
+<text x="599.69" y="170" font-size="13" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Δ</tspan><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mr" dx="3.64" xml:space="preserve">=</tspan><tspan class="mr" dx="3.64" xml:space="preserve">−</tspan><tspan class="mi" xml:space="preserve">ε</tspan></text>
+<text x="572.54" y="190" font-size="10" fill="#5B6578"><tspan xml:space="preserve">de + para −: o potencial cai</tspan></text>
+</svg>

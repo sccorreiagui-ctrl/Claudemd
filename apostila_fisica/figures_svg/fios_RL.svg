@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 190" width="332" height="190" role="img" aria-label="Dois fios do mesmo material: longo e fino × curto e grosso"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<path d="M40,39 L250,39 A3.15,7 0 0 1 250,53 L40,53 A3.15,7 0 0 1 40,39 Z" fill="#D9DEE7" stroke="#6B7280" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="250" cy="46" rx="3.15" ry="7" fill="#B9C1CF" stroke="#6B7280" stroke-width="1.8"/>
+<text x="8" y="50" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">1</tspan></text>
+<line x1="44.68" y1="70" x2="245.32" y2="70" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="250,70 244,72.4 244,67.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="40,70 46,67.6 46,72.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="108.66" y="86" font-size="11" fill="#1B2438"><tspan xml:space="preserve">comprimento </tspan><tspan class="mi" xml:space="preserve">L</tspan></text>
+<text x="264" y="40" font-size="11" fill="#1B2438"><tspan xml:space="preserve">área </tspan><tspan class="mi" xml:space="preserve">A</tspan></text>
+<text x="264" y="54" font-size="11.5" fill="#1B2438" font-weight="600"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">ρ</tspan><tspan class="mi" dx="1.96" xml:space="preserve">L</tspan><tspan class="mr" xml:space="preserve">/</tspan><tspan class="mi" xml:space="preserve">A</tspan></text>
+<path d="M40,119 L145,119 A7.65,17 0 0 1 145,153 L40,153 A7.65,17 0 0 1 40,119 Z" fill="#D9DEE7" stroke="#6B7280" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="145" cy="136" rx="7.65" ry="17" fill="#B9C1CF" stroke="#6B7280" stroke-width="1.8"/>
+<text x="8" y="140" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">2</tspan></text>
+<line x1="44.68" y1="164" x2="140.32" y2="164" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="145,164 139,166.4 139,161.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="40,164 46,161.6 46,166.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="50.16" y="180" font-size="11" fill="#1B2438"><tspan xml:space="preserve">comprimento </tspan><tspan class="mi" xml:space="preserve">L</tspan><tspan class="mr" xml:space="preserve">/2</tspan></text>
+<text x="176" y="130" font-size="11" fill="#1B2438"><tspan xml:space="preserve">área </tspan><tspan class="mr" xml:space="preserve">2</tspan><tspan class="mi" xml:space="preserve">A</tspan></text>
+<text x="176" y="144" font-size="11.5" fill="#1B2438" font-weight="600"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">ρ</tspan><tspan class="mr" dx="1.96" xml:space="preserve">(</tspan><tspan class="mi" xml:space="preserve">L</tspan><tspan class="mr" xml:space="preserve">/2)/(2</tspan><tspan class="mi" xml:space="preserve">A</tspan><tspan class="mr" xml:space="preserve">)</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" xml:space="preserve">/4</tspan></text>
+</svg>

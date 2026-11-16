@@ -1,0 +1,48 @@
+<!--mod=IV|sec=Espira, solenoide e eletroímã-->
+<h3 class="top" style="margin-top:0">Espira circular</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>O campo de uma espira com corrente <b>atravessa</b> o anel: no centro, \(\vec B\) é <b>perpendicular ao plano</b> da espira. A face de onde saem as linhas é a <b>face norte</b>; vista dela, a corrente é <b>anti-horária</b>.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ B_{\text{centro}}=\frac{N\,\mu_0\,I}{2R} \]</div>
+      <div class="cond"><b>Variáveis:</b> \(N\) espiras iguais e justapostas (\(N=1\): espira simples); \(R\) raio (m); \(I\) (A). <b>Validade:</b> só no <i>centro</i>; fora dele a expressão é mais complicada.</div>
+    </div>
+    <div class="why"><span class="tag o">Mão direita (2ª versão)</span>dedos curvados no sentido da <b>corrente</b> ⇒ polegar no sentido de <b>\(\vec B\)</b> dentro da espira.</div>
+  </div>
+  <div><fig name="espira_B" cls="line">Espira: perspectiva (face N à direita) e corte lateral (⊙ e ⊗ são as duas seções do fio).</fig></div>
+</div>
+
+<h3 class="mt3">Solenoide e eletroímã</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Um <b>solenoide</b> é um fio enrolado em hélice, com \(N\) espiras em um comprimento \(L\). Dentro dele, longe das pontas, \(\vec B\) é <b>quase uniforme</b> e paralelo ao eixo; fora, é fraco. Funciona como um ímã de barra: o <b>polegar</b> (dedos no sentido da corrente) aponta para o polo <b>N</b>.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ B=\mu_0\,\frac{N}{L}\,I=\mu_0\,n\,I \]</div>
+      <div class="cond"><b>Variáveis:</b> \(n=N/L\), espiras por metro. <b>Validade:</b> solenoide <i>longo</i> (\(L\) bem maior que o diâmetro), pontos da região central; nas extremidades \(B\) é ≈ metade.</div>
+    </div>
+  </div>
+  <div class="stack">
+    <fig name="solenoide_B" cls="line">Solenoide: interior com \(\vec B\) uniforme; as extremidades funcionam como polos N e S.</fig>
+    <div class="why"><span class="tag o">Eletroímã</span>Com <b>núcleo de ferro</b> o campo é multiplicado por centenas ou milhares (o ferro “satura” em ≈ 2 T) e some ao desligar a corrente: guindastes, campainhas, relés.</div>
+  </div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 26</span>{{lvl:2}}<span class="tt">Espira e solenoide</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> (a) Uma espira circular de raio \(5{,}0\) cm conduz \(10\) A. Calcule \(B\) no centro e compare com o campo de um fio longo, com a mesma corrente, a \(5{,}0\) cm dele (Exemplo 25). (b) Um solenoide de \(500\) espiras e \(25\) cm de comprimento conduz \(2{,}0\) A. Calcule \(B\) no interior.</p>
+    <p class="st"><b class="l">Método</b> (a) \(B=\mu_0I/(2R)\), com \(R=0{,}050\) m. (b) \(n=N/L=500/0{,}25=2000\) espiras/m e \(B=\mu_0nI\).</p>
+    <div class="calc">\[ \begin{aligned} B_{esp}&=\frac{4\pi\times10^{-7}\cdot10}{2\cdot0{,}050}=1{,}26\times10^{-4}\un{T}=126\ \mu\mathrm{T}\ \Rightarrow\ \frac{126}{40}\approx3{,}1=\pi\\ B_{sol}&=4\pi\times10^{-7}\cdot2000\cdot2{,}0=5{,}0\times10^{-3}\un{T}=5{,}0\ \mathrm{mT} \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> Com \(R=r\) a razão \(B_{esp}/B_{fio}=\pi\) vale para quaisquer \(I\) e \(R\). O solenoide dá cerca de 100 vezes o campo da Terra (5 mT contra ≈ 50 µT), sem núcleo de ferro. Corrente anti-horária vista de cima ⇒ \(\vec B\) para cima no centro.</p>
+  </div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <table class="t cmp zebra tight">
+    <tr><th>Fonte</th><th>Fórmula</th><th>Hipóteses de validade</th></tr>
+    <tr><td>Fio retilíneo</td><td>\(\mu_0I/(2\pi r)\)</td><td>fio muito longo; \(r\) = distância perpendicular</td></tr>
+    <tr><td>Espira (\(N\))</td><td>\(N\mu_0I/(2R)\)</td><td>apenas no <b>centro</b>; espiras justapostas</td></tr>
+    <tr><td>Solenoide</td><td>\(\mu_0nI\)</td><td>longo; interior, longe das pontas</td></tr>
+  </table>
+  <div class="adv"><span class="tag">Aprofundamento</span><b>Lei de Ampère.</b> Para qualquer percurso fechado, \(\oint\vec B\cdot\mathrm d\vec\ell=\mu_0I_{\text{env}}\) (\(I_{\text{env}}\): corrente que atravessa a superfície limitada pelo percurso). Dá \(B\) só quando a simetria o deixa constante e tangente ao percurso: <i>fio</i> (círculo de raio \(r\)): \(B\,2\pi r=\mu_0I\); <i>solenoide longo</i> (retângulo com um lado \(\ell\) dentro): \(B\ell=\mu_0(n\ell)I\).</div>
+</div>

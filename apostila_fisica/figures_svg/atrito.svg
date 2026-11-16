@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 188" width="332" height="188" role="img" aria-label="Eletrização por atrito"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="8" y="14" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">antes (neutros)</tspan></text>
+<rect x="8" y="22" width="98" height="50" rx="8" fill="#fff" stroke="#6B7280" stroke-width="1.6"/>
+<line x1="16.65" y1="37" x2="23.85" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="20.25" y1="33.4" x2="20.25" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="41.15" y1="37" x2="48.35" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="44.75" y1="33.4" x2="44.75" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="65.65" y1="37" x2="72.85" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="69.25" y1="33.4" x2="69.25" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.15" y1="37" x2="97.35" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="93.75" y1="33.4" x2="93.75" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="16.65" y1="57" x2="23.85" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="41.15" y1="57" x2="48.35" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="65.65" y1="57" x2="72.85" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.15" y1="57" x2="97.35" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="112" y="22" width="98" height="50" rx="8" fill="#fff" stroke="#6B7280" stroke-width="1.6"/>
+<line x1="120.65" y1="37" x2="127.85" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="124.25" y1="33.4" x2="124.25" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="145.15" y1="37" x2="152.35" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="148.75" y1="33.4" x2="148.75" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="169.65" y1="37" x2="176.85" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="173.25" y1="33.4" x2="173.25" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="194.15" y1="37" x2="201.35" y2="37" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="197.75" y1="33.4" x2="197.75" y2="40.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="120.65" y1="57" x2="127.85" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="145.15" y1="57" x2="152.35" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="169.65" y1="57" x2="176.85" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="194.15" y1="57" x2="201.35" y2="57" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<text x="53.74" y="86" font-size="12" fill="#1B2438"><tspan xml:space="preserve">A</tspan></text>
+<text x="157.47" y="86" font-size="12" fill="#1B2438"><tspan xml:space="preserve">B</tspan></text>
+<text x="226" y="50" font-size="11" fill="#5B6578"><tspan xml:space="preserve">atritando A com B</tspan></text>
+<line x1="8" y1="100" x2="324" y2="100" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<text x="8" y="118" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">depois (2 elétrons passam de A para B)</tspan></text>
+<rect x="8" y="128" width="98" height="40" rx="8" fill="#fff" stroke="#6B7280" stroke-width="1.6"/>
+<line x1="16.65" y1="140" x2="23.85" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="20.25" y1="136.4" x2="20.25" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="41.15" y1="140" x2="48.35" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="44.75" y1="136.4" x2="44.75" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="65.65" y1="140" x2="72.85" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="69.25" y1="136.4" x2="69.25" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="90.15" y1="140" x2="97.35" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="93.75" y1="136.4" x2="93.75" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="28.9" y1="156" x2="36.1" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="77.9" y1="156" x2="85.1" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="130" y="128" width="98" height="40" rx="8" fill="#fff" stroke="#6B7280" stroke-width="1.6"/>
+<line x1="138.65" y1="140" x2="145.85" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="142.25" y1="136.4" x2="142.25" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="163.15" y1="140" x2="170.35" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="166.75" y1="136.4" x2="166.75" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="187.65" y1="140" x2="194.85" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="191.25" y1="136.4" x2="191.25" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="212.15" y1="140" x2="219.35" y2="140" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="215.75" y1="136.4" x2="215.75" y2="143.6" stroke="#E5484D" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="134.57" y1="156" x2="141.77" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="150.9" y1="156" x2="158.1" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="167.23" y1="156" x2="174.43" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="183.57" y1="156" x2="190.77" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="199.9" y1="156" x2="207.1" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="216.23" y1="156" x2="223.43" y2="156" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="110" y1="152" x2="119.76" y2="152" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="126,152 118,154.88 118,149.12" fill="#2563EB" stroke="#2563EB" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="113.14" y="144" font-size="10.5" fill="#1D4ED8"><tspan xml:space="preserve">e⁻</tspan></text>
+<text x="25.88" y="182" font-size="11.5" fill="#BF2B31" font-weight="600"><tspan font-weight="600" xml:space="preserve">A:  </tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">+2</tspan><tspan class="mi" xml:space="preserve">e</tspan></text>
+<text x="147.65" y="182" font-size="11.5" fill="#1D4ED8" font-weight="600"><tspan font-weight="600" xml:space="preserve">B:  </tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">−2</tspan><tspan class="mi" xml:space="preserve">e</tspan></text>
+<text x="240" y="152" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">soma: 0</tspan></text>
+<text x="240" y="166" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">(carga conservada)</tspan></text>
+</svg>

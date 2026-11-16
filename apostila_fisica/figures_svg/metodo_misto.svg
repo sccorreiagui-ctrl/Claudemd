@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 352" width="680" height="352" role="img" aria-label="Método para circuitos mistos em quatro desenhos"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="118.04" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">1  Circuito original</tspan></text>
+<line x1="0" y1="22" x2="330" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="40,138 40,98.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,91.25 40,52" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="98.75" x2="47.5" y2="98.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="91.25" x2="53" y2="91.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="3.7" y="98.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">24 V</tspan></text>
+<text x="57.67" y="109.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="88.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,52 62,52" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="62,52 79,52" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="125,52 142,52" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="79,52 82.83,59.5 90.5,44.5 98.17,59.5 105.83,44.5 113.5,59.5 121.17,44.5 125,52" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="80.81" y="39.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 2 Ω</tspan></text>
+<polyline points="142,52 168,52" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,52 250,52" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,52 168,73" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,117 168,138" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,73 160.5,76.67 175.5,84 160.5,91.33 175.5,98.67 160.5,106 175.5,113.33 168,117" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="113.11" y="99.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve"> = 6 Ω</tspan></text>
+<polyline points="250,52 250,73" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,117 250,138" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,73 242.5,76.67 257.5,84 242.5,91.33 257.5,98.67 242.5,106 257.5,113.33 250,117" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262.5" y="99.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">3</tspan><tspan dy="-3.38" xml:space="preserve"> = 12 Ω</tspan></text>
+<polyline points="250,138 168,138" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="168" cy="52" r="4" fill="#1B2438"/>
+<circle cx="168" cy="138" r="4" fill="#1B2438"/>
+<polyline points="168,138 138,138" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="92,138 62,138" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="138,138 134.17,130.5 126.5,145.5 118.83,130.5 111.17,145.5 103.5,130.5 95.83,145.5 92,138" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="93.81" y="125.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">4</tspan><tspan dy="-3.38" xml:space="preserve"> = 2 Ω</tspan></text>
+<polyline points="62,138 40,138" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="428.15" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">2  Nomear os nós (cor = potencial)</tspan></text>
+<line x1="350" y1="22" x2="680" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="390,138 390,98.75" fill="none" stroke="#2563EB" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="390,91.25 390,52" fill="none" stroke="#E5484D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="382.5" y1="98.75" x2="397.5" y2="98.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="377" y1="91.25" x2="403" y2="91.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="353.7" y="98.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">24 V</tspan></text>
+<text x="407.67" y="109.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="407.67" y="88.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="390,52 412,52" fill="none" stroke="#E5484D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="412,52 429,52" fill="none" stroke="#E5484D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="475,52 492,52" fill="none" stroke="#F08C00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="429,52 432.83,59.5 440.5,44.5 448.17,59.5 455.83,44.5 463.5,59.5 471.17,44.5 475,52" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="430.81" y="39.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 2 Ω</tspan></text>
+<polyline points="492,52 518,52" fill="none" stroke="#F08C00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="518,52 600,52" fill="none" stroke="#F08C00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="518,52 518,73" fill="none" stroke="#F08C00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="518,117 518,138" fill="none" stroke="#0891B2" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="518,73 510.5,76.67 525.5,84 510.5,91.33 525.5,98.67 510.5,106 525.5,113.33 518,117" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="463.11" y="99.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve"> = 6 Ω</tspan></text>
+<polyline points="600,52 600,73" fill="none" stroke="#F08C00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="600,117 600,138" fill="none" stroke="#0891B2" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="600,73 592.5,76.67 607.5,84 592.5,91.33 607.5,98.67 592.5,106 607.5,113.33 600,117" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612.5" y="99.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">3</tspan><tspan dy="-3.38" xml:space="preserve"> = 12 Ω</tspan></text>
+<polyline points="600,138 518,138" fill="none" stroke="#0891B2" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="518" cy="52" r="4" fill="#F08C00"/>
+<circle cx="518" cy="138" r="4" fill="#0891B2"/>
+<polyline points="518,138 488,138" fill="none" stroke="#0891B2" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="442,138 412,138" fill="none" stroke="#2563EB" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="488,138 484.17,130.5 476.5,145.5 468.83,130.5 461.17,145.5 453.5,130.5 445.83,145.5 442,138" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="443.81" y="125.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">4</tspan><tspan dy="-3.38" xml:space="preserve"> = 2 Ω</tspan></text>
+<polyline points="412,138 390,138" fill="none" stroke="#2563EB" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="88.76" y="190" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">3  Substituir o paralelo por </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="8.64" dy="3.24" xml:space="preserve">p</tspan></text>
+<line x1="0" y1="198" x2="330" y2="198" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="40,314 40,274.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,267.25 40,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="274.75" x2="47.5" y2="274.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="267.25" x2="53" y2="267.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="3.7" y="274.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">24 V</tspan></text>
+<text x="57.67" y="285.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="264.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,228 62,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="62,228 79,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="125,228 142,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="79,228 82.83,235.5 90.5,220.5 98.17,235.5 105.83,220.5 113.5,235.5 121.17,220.5 125,228" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="80.81" y="215.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 2 Ω</tspan></text>
+<polyline points="142,228 168,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,228 168,247" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,295 168,314" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="168,247 160.5,251 175.5,259 160.5,267 175.5,275 160.5,283 175.5,291 168,295" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180.5" y="275.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="9" dy="3.38" xml:space="preserve">p</tspan><tspan dy="-3.38" xml:space="preserve"> = 4 Ω</tspan></text>
+<circle cx="168" cy="228" r="4" fill="#1B2438"/>
+<circle cx="168" cy="314" r="4" fill="#1B2438"/>
+<polyline points="168,314 138,314" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="92,314 62,314" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="138,314 134.17,306.5 126.5,321.5 118.83,306.5 111.17,321.5 103.5,306.5 95.83,321.5 92,314" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="93.81" y="301.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">4</tspan><tspan dy="-3.38" xml:space="preserve"> = 2 Ω</tspan></text>
+<polyline points="62,314 40,314" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="448.34" y="190" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">4  Resistência equivalente</tspan></text>
+<line x1="350" y1="198" x2="680" y2="198" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="390,314 390,274.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="390,267.25 390,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="382.5" y1="274.75" x2="397.5" y2="274.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="377" y1="267.25" x2="403" y2="267.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="353.7" y="274.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">24 V</tspan></text>
+<text x="407.67" y="285.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="407.67" y="264.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="390,228 412,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="412,228 478,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="534,228 600,228" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,228 482.67,235.5 492,220.5 501.33,235.5 510.67,220.5 520,235.5 529.33,220.5 534,228" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="482.68" y="215.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">eq</tspan><tspan dy="-3.38" xml:space="preserve"> = 8 Ω</tspan></text>
+<polyline points="600,228 640,228 640,314 390,314" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="401" cy="34" r="8.5" fill="#E5484D" stroke="#E5484D" stroke-width="1"/>
+<text x="397.93" y="37.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<circle cx="505" cy="32" r="8.5" fill="#F08C00" stroke="#F08C00" stroke-width="1"/>
+<text x="501.72" y="35.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">B</tspan></text>
+<circle cx="505" cy="158" r="8.5" fill="#0891B2" stroke="#0891B2" stroke-width="1"/>
+<text x="501.83" y="161.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">C</tspan></text>
+<circle cx="401" cy="156" r="8.5" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<text x="397.56" y="159.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">D</tspan></text>
+<text x="453.38" y="170" font-size="11" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">A 24 V · B 18 V · C 6 V · D 0 V</tspan></text>
+<text x="59.11" y="170" font-size="11" fill="#5B6578"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="7.92" dy="2.97" xml:space="preserve">2</tspan><tspan dy="-2.97" xml:space="preserve"> e </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="7.92" dy="2.97" xml:space="preserve">3</tspan><tspan dy="-2.97" xml:space="preserve"> ligam os mesmos nós </tspan><tspan class="mi" xml:space="preserve">B</tspan><tspan xml:space="preserve"> e </tspan><tspan class="mi" xml:space="preserve">C</tspan><tspan xml:space="preserve"> ⇒ paralelo</tspan></text>
+<text x="89.85" y="346" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">p</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">(</tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan class="mi" dy="-3.11" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">3</tspan><tspan class="mr" dy="-3.11" xml:space="preserve">)/(</tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.11" dx="2.53" xml:space="preserve">+</tspan><tspan class="mi" dx="2.53" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">3</tspan><tspan class="mr" dy="-3.11" xml:space="preserve">)</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">4</tspan><tspan class="mr" dx="3.45" xml:space="preserve">Ω</tspan></text>
+<text x="449.15" y="346" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">eq</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" dx="2.53" xml:space="preserve">+</tspan><tspan class="mi" dx="2.53" xml:space="preserve">R</tspan><tspan class="mi" font-size="8.28" dy="3.11" xml:space="preserve">p</tspan><tspan class="mr" dy="-3.11" dx="2.53" xml:space="preserve">+</tspan><tspan class="mi" dx="2.53" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">4</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">8</tspan><tspan class="mr" dx="3.45" xml:space="preserve">Ω</tspan></text>
+</svg>

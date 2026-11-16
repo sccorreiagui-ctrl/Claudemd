@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 186" width="332" height="186" role="img" aria-label="Consumo mensal de energia de alguns aparelhos (kWh)"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="8" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Energia consumida em um mês</tspan></text>
+<text x="8" y="40" font-size="11" fill="#1B2438"><tspan xml:space="preserve">Chuveiro 5 500 W · 20 h/mês</tspan></text>
+<rect x="8" y="46" width="230" height="14" rx="3" fill="#E1F4E8" stroke="#16A34A" stroke-width="1.8"/>
+<rect x="8" y="46" width="230" height="14" rx="3" fill="#16A34A" stroke="none" fill-opacity="0.35"/>
+<text x="244" y="58" font-size="11.5" fill="#15803D" font-weight="700"><tspan font-weight="600" xml:space="preserve">110 kWh</tspan></text>
+<text x="8" y="76" font-size="11" fill="#1B2438"><tspan xml:space="preserve">TV 120 W · 150 h/mês</tspan></text>
+<rect x="8" y="82" width="37.64" height="14" rx="3" fill="#E1F4E8" stroke="#16A34A" stroke-width="1.8"/>
+<rect x="8" y="82" width="37.64" height="14" rx="3" fill="#16A34A" stroke="none" fill-opacity="0.35"/>
+<text x="51.64" y="94" font-size="11.5" fill="#15803D" font-weight="700"><tspan font-weight="600" xml:space="preserve">18 kWh</tspan></text>
+<text x="8" y="112" font-size="11" fill="#1B2438"><tspan xml:space="preserve">Ferro de passar 1 000 W · 10 h/mês</tspan></text>
+<rect x="8" y="118" width="20.91" height="14" rx="3" fill="#E1F4E8" stroke="#16A34A" stroke-width="1.8"/>
+<rect x="8" y="118" width="20.91" height="14" rx="3" fill="#16A34A" stroke="none" fill-opacity="0.35"/>
+<text x="34.91" y="130" font-size="11.5" fill="#15803D" font-weight="700"><tspan font-weight="600" xml:space="preserve">10 kWh</tspan></text>
+<text x="8" y="148" font-size="11" fill="#1B2438"><tspan xml:space="preserve">Lâmpada LED 10 W · 150 h/mês</tspan></text>
+<rect x="8" y="154" width="3.14" height="14" rx="3" fill="#E1F4E8" stroke="#16A34A" stroke-width="1.8"/>
+<rect x="8" y="154" width="3.14" height="14" rx="3" fill="#16A34A" stroke="none" fill-opacity="0.35"/>
+<text x="17.14" y="166" font-size="11.5" fill="#15803D" font-weight="700"><tspan font-weight="600" xml:space="preserve">1,5 kWh</tspan></text>
+</svg>

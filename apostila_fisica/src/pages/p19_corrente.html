@@ -1,0 +1,32 @@
+<!--mod=III|sec=Corrente elétrica-->
+<div class="mod-open" data-toc-mod="III|Eletrodinâmica">
+  <div class="rom">III</div>
+  <div class="tt">Eletrodinâmica<small>Cargas em movimento: corrente, resistência, potência, circuitos e leis de Kirchhoff</small></div>
+  <div class="lv"><b>Níveis 1 → 3</b> — corrente e tensão · Ohm e resistividade · potência e energia · série, paralelo e misto · nós e potenciais · curto-circuito · Kirchhoff · geradores e receptores · instrumentos</div>
+</div>
+
+<h2 class="sec" data-toc="3.1|Corrente elétrica: carga em movimento"><span class="num">3.1</span> Corrente elétrica: carga em movimento</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>A <b>corrente elétrica</b> é o movimento <i>ordenado</i> de portadores de carga — elétrons livres nos metais; íons em soluções e gases. Ela só existe quando há <b>campo elétrico</b> no condutor, criado ao ligar uma <b>fonte</b> que mantém uma diferença de potencial (DDP, ou <b>tensão</b>) entre seus terminais. Sua <b>intensidade</b> é a carga que atravessa a seção do condutor por unidade de tempo.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ I=\frac{\Delta Q}{\Delta t}\qquad\Longleftrightarrow\qquad \Delta Q=I\,\Delta t \]</div>
+      <table class="vars">
+        <tr><td>\(I\)</td><td>intensidade da corrente (média)</td><td>A = C/s</td></tr>
+        <tr><td>\(\Delta Q\)</td><td>carga que atravessa a seção</td><td>C</td></tr>
+        <tr><td>\(\Delta t\)</td><td>intervalo de tempo</td><td>s</td></tr>
+      </table>
+      <div class="cond"><b>Validade:</b> dá a corrente <i>média</i> no intervalo; se \(I\) varia, vale \(I=\mathrm{d}Q/\mathrm{d}t\). Combinando com a quantização, \(|\Delta Q|=Ne\). A corrente é escalar. <span class="mem"><b>Memória:</b> \(Q=I\,\Delta t\) (“kit”) — carga é corrente vezes tempo.</span></div>
+    </div>
+  </div>
+  <div><fig name="fio_micro">Visão microscópica de um metal: os elétrons livres colidem com a rede e derivam devagar; \(\vec E\) e a corrente convencional \(I\) apontam no sentido oposto ao dos elétrons.</fig></div>
+</div>
+
+<div class="mt3"><fig name="hidraulica" cls="line">Analogia hidráulica: a bomba mantém a diferença de pressão (↔ fonte e tensão); a vazão (↔ corrente) é a mesma ao longo do tubo; o estreitamento (↔ resistor) dificulta a passagem. Limite da analogia: a corrente <b>não se gasta</b> ao passar pelo resistor — o que se perde é energia por unidade de carga.</fig></div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="box"><h4 style="margin-top:0">Sentido da corrente: uma convenção de sinais</h4>
+    <p class="small mb1">Por convenção, o sentido da corrente é o do movimento de cargas <b class="c-pos">positivas</b>: fora da fonte, do <b>maior para o menor potencial</b>. Nos metais quem se move são <b class="c-neg">elétrons</b>, no sentido <i>oposto</i>. Isso não é erro nem “prótons correndo pelo fio”: o efeito de um fluxo de cargas \(-\) para a esquerda equivale ao de cargas \(+\) para a direita (térmico, magnético, queda de potencial). Em soluções iônicas, íons \(+\) e \(-\) se movem em sentidos opostos e <i>ambos</i> contribuem.</p></div>
+  <div class="box"><h4 style="margin-top:0">Quem é rápido, quem é lento?</h4>
+    <p class="small mb1">Ao fechar o circuito, o <b>campo elétrico</b> se estabelece ao longo do fio com velocidade <i>finita</i>, que depende do cabo e do meio (tipicamente de 50% a 99% de \(c\), não exatamente \(c\)); por isso a lâmpada acende quase na hora. Já cada elétron <b>deriva lentamente</b>: \(v_d=I/(neA)\sim10^{-4}\un{m/s}\) (≈ 0,2 mm/s para 6 A num fio de 2,5 mm²). O elétron que sai do interruptor não é o que chega à lâmpada.</p></div>
+</div>

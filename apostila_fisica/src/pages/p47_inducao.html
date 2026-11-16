@@ -1,0 +1,44 @@
+<!--mod=IV|sec=Indução: fluxo, Faraday e Lenz-->
+<h2 class="sec top" data-toc="4.4|Indução eletromagnética: Faraday e Lenz"><span class="num">4.4</span> Indução eletromagnética</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <p class="lead mb2">Oersted mostrou que corrente cria campo. Em 1831, <b>Faraday</b> achou o inverso: um campo <i>constante</i> não faz nada; é a <b>variação do fluxo</b> magnético em um circuito que gera corrente (ímã e bobina: o LED só acende com o ímã em movimento).</p>
+    <div class="formula"><span class="tag">Fluxo magnético</span>
+      <div class="eq">\[ \Phi=B\,A\cos\theta \]</div>
+      <div class="cond"><b>Unidade:</b> weber, Wb = T·m². \(\theta\) é o ângulo entre \(\vec B\) e a <b>normal</b> ao plano (não o ângulo com o plano). <b>Validade:</b> \(\vec B\) uniforme sobre a superfície plana. Escalar, com sinal que depende da orientação da normal.</div>
+    </div>
+  </div>
+  <div><fig name="fluxo_geom" cls="line">Espira vista de perfil: o fluxo depende de \(B\), de \(A\) e do ângulo \(\theta\) entre \(\vec B\) e a normal \(\vec n\).</fig>
+    <p class="small mt2 mb0"><b>Três modos de variar \(\Phi\):</b> mudar \(B\) (ímã que se move, eletroímã que liga); mudar \(A\) (circuito que se deforma, haste que desliza); mudar \(\theta\) (espira que gira — geradores).</p>
+  </div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="formula"><span class="tag">Lei de Faraday</span>
+    <div class="eq">\[ \varepsilon=-N\,\frac{\Delta\Phi}{\Delta t}\qquad I=\frac{\varepsilon}{R} \]</div>
+    <div class="cond"><b>Módulo:</b> \(|\varepsilon|=N|\Delta\Phi|/\Delta t\): depende da <i>rapidez</i> da variação, não do valor de \(\Phi\). Valor <i>médio</i> em \(\Delta t\) (instantâneo: \(-N\,\mathrm d\Phi/\mathrm dt\)). O sinal \(-\) é Lenz. \(R\): resistência total.</div>
+  </div>
+  <div class="concept"><span class="tag">Lei de Lenz</span>A corrente induzida tem o sentido em que seu campo \(\vec B_{ind}\) <b>se opõe à variação</b> do fluxo. Fluxo <b>aumentando</b> ⇒ \(\vec B_{ind}\) <b>oposto</b> a \(\vec B_{ext}\). Fluxo <b>diminuindo</b> ⇒ \(\vec B_{ind}\) <b>no mesmo sentido</b> de \(\vec B_{ext}\). É a conservação da energia: quem move o ímã realiza trabalho contra a força magnética induzida, e esse trabalho vira energia elétrica.</div>
+</div>
+
+<div class="mt3"><fig name="lenz_paineis" cls="line">Lenz em quatro situações: em (d), com o ímã parado, não há corrente por mais intenso que seja \(\vec B\). Roxo = campo; laranja = corrente.</fig></div>
+
+<div class="box soft mt3"><div class="chain"><span class="tag">Método</span>
+  <span class="s o">1 \(\vec B_{ext}\)?</span><span class="a">→</span>
+  <span class="s o">2 \(\Phi\) sobe ou desce?</span><span class="a">→</span>
+  <span class="s o">3 \(\vec B_{ind}\): contra / a favor</span><span class="a">→</span>
+  <span class="s o">4 mão direita ⇒ \(I\)</span><span class="a">→</span>
+  <span class="s o">5 freia?</span></div></div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 30</span>{{lvl:2}}<span class="tt">Bobina em campo que cresce: fem, corrente e sentido</span></div>
+  <div class="exb c32 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Bobina de \(100\) espiras de \(50\ \mathrm{cm^2}\), perpendicular a um campo que cresce <i>linearmente</i> de \(0\) a \(0{,}60\) T em \(0{,}10\) s (\(\vec B\) entrando no papel); resistência total \(6{,}0\ \Omega\). Calcule a fem, a corrente e o seu sentido.</p>
+      <p class="st"><b class="l">Método</b> \(\theta=0\): \(\Phi=BA\). Faraday em módulo e depois Ohm. Lenz: \(\Phi\) <i>aumenta</i> ⇒ \(\vec B_{ind}\) oposto (saindo, ⊙) ⇒ mão direita: corrente <b>anti-horária</b>.</p>
+      <div class="calc">\[ \begin{aligned} \Delta\Phi&=\Delta B\,A=0{,}60\cdot5{,}0\times10^{-3}=3{,}0\times10^{-3}\un{Wb}\\ |\varepsilon|&=N\frac{\Delta\Phi}{\Delta t}=100\cdot\frac{3{,}0\times10^{-3}}{0{,}10}=3{,}0\un{V}\qquad I=\frac{\varepsilon}{R}=0{,}50\un{A} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> Wb/s = V ✓. Só importa a taxa \(\Delta B/\Delta t=6{,}0\) T/s: com \(B\) constante, \(\varepsilon=0\).</p>
+    </div>
+    <div><fig name="ex_bobina"/></div>
+  </div>
+</div>

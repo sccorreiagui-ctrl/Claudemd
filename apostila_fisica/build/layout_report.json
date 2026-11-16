@@ -1,0 +1,546 @@
+[
+ {
+  "page": 1,
+  "special": true
+ },
+ {
+  "page": 2,
+  "fill": 0.952,
+  "over_px": -48.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Sumário»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 3,
+  "fill": 0.97,
+  "over_px": -30.1,
+  "over_w_px": 0.3,
+  "wEl": "DIV.mod-open «I\n  FundamentosO mínimo que vo»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 4,
+  "fill": 0.967,
+  "over_px": -33,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «1.4 Notação científica, prefix»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 5,
+  "fill": 0.997,
+  "over_px": -2.7,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «1.6 Grandezas escalares e veto»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 6,
+  "fill": 0.977,
+  "over_px": -23.3,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «1.7 Ler gráficos e ler circuit»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 7,
+  "fill": 0.963,
+  "over_px": -36.7,
+  "over_w_px": 0.3,
+  "wEl": "DIV.mod-open «II\n  EletrostáticaCargas em re»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 8,
+  "fill": 0.892,
+  "over_px": -107.3,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Condutores, isolantes e semico»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 9,
+  "fill": 0.99,
+  "over_px": -9.6,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Eletrização por indução — sem »",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 10,
+  "fill": 0.992,
+  "over_px": -7.9,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «2.3 Lei de Coulomb»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 11,
+  "fill": 0.994,
+  "over_px": -6.2,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Princípio da superposição: vár»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 12,
+  "fill": 0.994,
+  "over_px": -6.1,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «2.4 Campo elétrico»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 13,
+  "fill": 0.888,
+  "over_px": -111.5,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Campo uniforme: placas paralel»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 14,
+  "fill": 0.99,
+  "over_px": -9.8,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «2.5 Potencial elétrico e energ»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 15,
+  "fill": 0.993,
+  "over_px": -6.6,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «DDP e campo uniforme: U=Ed — e»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 16,
+  "fill": 0.997,
+  "over_px": -3.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «2.6 Condutores em equilíbrio, »",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 17,
+  "fill": 0.956,
+  "over_px": -44.1,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «2.7 Capacitores»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 18,
+  "fill": 0.994,
+  "over_px": -5.9,
+  "over_w_px": 0.3,
+  "wEl": "DIV.ex «Exemplo 10Capacitor de um desf»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 19,
+  "fill": 0.85,
+  "over_px": -149.8,
+  "over_w_px": 0.3,
+  "wEl": "DIV.mod-open «III\n  EletrodinâmicaCargas em »",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 20,
+  "fill": 0.989,
+  "over_px": -11.3,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Gráfico I×t: a área é a carga»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 21,
+  "fill": 0.954,
+  "over_px": -46.1,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.2 Resistência elétrica e pri»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 22,
+  "fill": 0.996,
+  "over_px": -4,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Segunda lei de Ohm: de que dep»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 23,
+  "fill": 0.977,
+  "over_px": -23.4,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.3 Potência elétrica, efeito »",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 24,
+  "fill": 0.995,
+  "over_px": -4.5,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «O chuveiro elétrico: por que “»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 25,
+  "fill": 0.839,
+  "over_px": -161,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Exercícios graduados — corrent»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 26,
+  "fill": 0.869,
+  "over_px": -130.9,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.4 Associação de resistores: »",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 27,
+  "fill": 0.912,
+  "over_px": -88.2,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Lâmpadas em série e em paralel»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 28,
+  "fill": 0.983,
+  "over_px": -16.5,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Circuitos mistos: o método em »",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 29,
+  "fill": 0.987,
+  "over_px": -13.5,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.5 Método dos nós e dos poten»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 30,
+  "fill": 0.838,
+  "over_px": -162.1,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Como uma chave ou um fio adici»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 31,
+  "fill": 1,
+  "over_px": -0.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Exercícios graduados — associa»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 32,
+  "fill": 0.916,
+  "over_px": -83.5,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.7 Leis de Kirchhoff: nós e m»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 33,
+  "fill": 1,
+  "over_px": -0.2,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Duas malhas com um resistor co»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 34,
+  "fill": 0.929,
+  "over_px": -71.1,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Mais de um gerador: interpreta»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 35,
+  "fill": 0.992,
+  "over_px": -8.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.8 Geradores e receptores rea»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 36,
+  "fill": 0.998,
+  "over_px": -2.5,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «3.9 Instrumentos de medida e c»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 37,
+  "fill": 1,
+  "over_px": -0.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Mapa mental da Eletrodinâmica»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 38,
+  "fill": 0.911,
+  "over_px": -89.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Exercícios graduados de Eletro»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 39,
+  "fill": 0.902,
+  "over_px": -98.2,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Exercícios graduados de Eletro»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 40,
+  "fill": 1.001,
+  "over_px": 0.5,
+  "over_w_px": 0.3,
+  "wEl": "DIV.mod-open «IV\n  Magnetismo e eletromagnet»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 41,
+  "fill": 0.984,
+  "over_px": -16.2,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «A Terra também é um ímã»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 42,
+  "fill": 0.958,
+  "over_px": -41.8,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Espira circular»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 43,
+  "fill": 0.963,
+  "over_px": -36.8,
+  "over_w_px": 0.3,
+  "wEl": "DIV.fix «Fixação Ímãs e campo de corren»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 44,
+  "fill": 0.97,
+  "over_px": -29.5,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Carga em campo uniforme: movim»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 45,
+  "fill": 0.965,
+  "over_px": -35,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Força magnética sobre um fio c»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 46,
+  "fill": 0.977,
+  "over_px": -23,
+  "over_w_px": 0.3,
+  "wEl": "H3.top «Torque em uma espira e o motor»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 47,
+  "fill": 0.996,
+  "over_px": -3.6,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «4.4 Indução eletromagnética»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 48,
+  "fill": 0.963,
+  "over_px": -36.7,
+  "over_w_px": 0.3,
+  "wEl": "DIV.c2 g3 ai-s «Erro frequente“Lenz: a corrent»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 49,
+  "fill": 0.924,
+  "over_px": -75.6,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «4.5 Gerador, transformador e t»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 50,
+  "fill": 0.878,
+  "over_px": -121.4,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Mapa mental do Magnetismo e do»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 51,
+  "fill": 0.996,
+  "over_px": -3.6,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «Exercícios graduados de Magnet»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 52,
+  "fill": 0.929,
+  "over_px": -71.2,
+  "over_w_px": 0.3,
+  "wEl": "DIV.mod-open «R\n  Revisão finalFormulários p»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 53,
+  "fill": 0.82,
+  "over_px": -179.4,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «R.3 Magnetismo e eletromagneti»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 54,
+  "fill": 0.875,
+  "over_px": -124.7,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «R.4 Questões integradoras»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ },
+ {
+  "page": 55,
+  "fill": 0.888,
+  "over_px": -111.5,
+  "over_w_px": 0.3,
+  "wEl": "H2.sec top «R.5 Gabarito comentado das int»",
+  "offender": null,
+  "katexErr": 0,
+  "wide": []
+ }
+]

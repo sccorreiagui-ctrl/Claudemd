@@ -1,0 +1,36 @@
+<!--mod=IV|sec=Torque, motor e fixação-->
+<h3 class="top" style="margin-top:0">Torque em uma espira e o motor elétrico</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Em uma espira em campo uniforme, as forças nos lados opostos são iguais e contrárias: a resultante é <b>nula</b>, mas elas formam um <b>binário</b> que faz a espira <b>girar</b>. O giro cessa quando o plano da espira fica perpendicular a \(\vec B\) (equilíbrio estável), como a agulha da bússola. No <b>motor de corrente contínua</b>, o <b>comutador</b> inverte o sentido de \(I\) a cada meia volta e mantém o sentido do torque.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ \tau=N\,B\,I\,A\,\mathrm{sen}\,\varphi \]</div>
+      <div class="cond"><b>Variáveis:</b> \(N\) espiras; \(A\) área; \(\varphi\) ângulo entre \(\vec B\) e a <b>normal</b> ao plano. <b>\(\tau\) máximo</b> com o plano <i>paralelo</i> a \(\vec B\) (\(\varphi=90^\circ\)); <b>\(\tau=0\)</b> com o plano perpendicular (\(\varphi=0\)). O produto \(\mu=NIA\) é o <i>momento magnético</i>: \(\tau=\mu B\,\mathrm{sen}\,\varphi\).</div>
+    </div>
+  </div>
+  <div><fig name="motor_cc" cls="line">Motor de corrente contínua: forças \(\vec F\) e \(-\vec F\) formam um binário; o comutador mantém o giro.</fig></div>
+</div>
+
+<div class="adv mt3"><span class="tag">Aprofundamento</span><b>Galvanômetro.</b> Uma bobina móvel, em campo radial de um ímã e presa a uma mola espiral, gira até o torque magnético (proporcional a \(I\)) igualar o da mola (proporcional ao ângulo): a <b>deflexão é proporcional à corrente</b>. Com um resistor <i>shunt em paralelo</i> vira amperímetro; com um resistor <i>em série</i>, voltímetro (seção 3.9).</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 29</span>{{lvl:2}}<span class="tt">O motor é um receptor: a fcem vem da indução</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Um motor de \(12\) V tem enrolamento de resistência \(r'=1{,}0\ \Omega\). Em regime, gira com força contraeletromotriz \(\varepsilon'=10\) V. Calcule (a) a corrente em regime, (b) a corrente na partida (rotor parado), (c) a potência mecânica e o rendimento em regime e (d) o que ocorre se o rotor for <b>travado</b>.</p>
+    <p class="st"><b class="l">Método</b> O motor é um <b>receptor</b> (seção 3.8): \(U=\varepsilon'+r'I\). A fcem \(\varepsilon'\) é a fem <i>induzida</i> pela rotação (seção 4.4): proporcional à rotação, é nula com o rotor parado.</p>
+    <div class="calc">\[ \begin{aligned} &\text{(a) } I=\frac{U-\varepsilon'}{r'}=\frac{12-10}{1{,}0}=2{,}0\un{A}\qquad\text{(b) } \varepsilon'=0\Rightarrow I=\frac{12}{1{,}0}=12\un{A}\\ &\text{(c) } P_{mec}=\varepsilon'I=20\un{W};\ \ P_{abs}=UI=24\un{W};\ \ P_J=r'I^2=4\un{W};\ \ \eta=\frac{20}{24}\approx83\% \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> \(24=20+4\) ✓ (energia). (d) Travado, \(\varepsilon'=0\): \(I=12\) A e \(P_J=r'I^2=144\) W só no enrolamento — superaquece e queima. Por isso a corrente de partida é alta e cai quando o motor ganha rotação.</p>
+  </div>
+</div>
+
+<div class="fix mt3"><span class="tag o">Fixação</span> <span class="b">Força magnética sobre cargas, fios e espiras</span>
+  <ol class="xq">
+    <li>{{lvl:1}} <b>Mão direita.</b> Um próton se move para o <b>leste</b> em um campo \(\vec B\) horizontal que aponta para o <b>norte</b>. Qual o sentido da força? E para um elétron?</li>
+    <li>{{lvl:1}} <b>Módulo.</b> Um íon de carga \(+3{,}2\times10^{-19}\) C move-se a \(5{,}0\times10^{5}\) m/s, perpendicular a um campo de \(0{,}40\) T. Calcule a força magnética.</li>
+    <li>{{lvl:2}} <b>Raio e período.</b> Um próton (\(m=1{,}67\times10^{-27}\) kg) com \(2{,}0\times10^{6}\) m/s entra perpendicularmente em um campo de \(0{,}50\) T. Calcule \(r\) e \(T\).</li>
+    <li>{{lvl:2}} <b>Fio.</b> Um fio de \(30\) cm com \(4{,}0\) A está em um campo de \(0{,}25\) T que faz \(30^\circ\) com o fio. Calcule a força.</li>
+    <li>{{lvl:3}} <b>Seletor.</b> Partículas passam sem desvio por \(E=2{,}0\times10^4\) V/m e \(B=0{,}10\) T. Qual a velocidade? Uma partícula positiva mais rápida desvia para qual lado (\(\vec F_E\) para baixo, \(\vec F_B\) para cima)?</li>
+    <li>{{lvl:3}} <b>Torque.</b> Uma bobina de \(100\) espiras e \(0{,}020\ \mathrm{m^2}\) conduz \(2{,}0\) A em \(B=0{,}20\) T. Calcule o torque máximo. Quanto vale com o plano perpendicular a \(\vec B\)?</li>
+  </ol>
+  <div class="gab"><b>Gabarito.</b> 1) Leste × norte \(=\) <b>para cima</b> (\(\hat x\times\hat y=\hat z\)) para o próton; <b>para baixo</b> para o elétron.  2) \(F=qvB=3{,}2\times10^{-19}\cdot5{,}0\times10^{5}\cdot0{,}40=6{,}4\times10^{-14}\) N.  3) \(r=\dfrac{mv}{eB}=\dfrac{1{,}67\times10^{-27}\cdot2{,}0\times10^{6}}{1{,}6\times10^{-19}\cdot0{,}50}\approx4{,}2\) cm; \(T=\dfrac{2\pi m}{eB}\approx1{,}3\times10^{-7}\) s.  4) \(F=BIL\,\mathrm{sen}\,30^\circ=0{,}25\cdot4{,}0\cdot0{,}30\cdot0{,}5=0{,}15\) N.  5) \(v=E/B=2{,}0\times10^{5}\) m/s. Com \(v>E/B\), \(F_B=qvB>qE\): desvia <b>para cima</b>, no sentido de \(\vec F_B\).  6) \(\tau_{max}=NBIA=100\cdot0{,}20\cdot2{,}0\cdot0{,}020=0{,}80\) N·m; com o plano perpendicular a \(\vec B\), \(\tau=0\).</div>
+</div>

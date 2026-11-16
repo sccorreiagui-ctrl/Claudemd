@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 168" width="332" height="168" role="img" aria-label="Partir um ímã: cada pedaço é um ímã completo, com N e S"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="96" y="22" width="100" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="196" y="22" width="100" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="143" y="37.74" font-size="11" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="242.39" y="37.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<text x="58.33" y="38.5" font-size="11" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">1 ímã</tspan></text>
+<rect x="96" y="66" width="49.25" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="145.25" y="66" width="49.25" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="117.63" y="81.74" font-size="11" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="166.26" y="81.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<rect x="197.5" y="66" width="49.25" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="246.75" y="66" width="49.25" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="219.13" y="81.74" font-size="11" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="267.76" y="81.74" font-size="11" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<text x="53.58" y="82.5" font-size="11" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">2 ímãs</tspan></text>
+<rect x="96" y="110" width="23.88" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="119.88" y="110" width="23.88" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="105.21" y="125.4" font-size="10" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="128.53" y="125.4" font-size="10" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<rect x="146.75" y="110" width="23.88" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="170.62" y="110" width="23.88" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="155.96" y="125.4" font-size="10" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="179.28" y="125.4" font-size="10" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<rect x="197.5" y="110" width="23.88" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="221.38" y="110" width="23.88" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="206.71" y="125.4" font-size="10" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="230.03" y="125.4" font-size="10" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<rect x="248.25" y="110" width="23.88" height="24" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="272.12" y="110" width="23.88" height="24" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="257.46" y="125.4" font-size="10" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="280.78" y="125.4" font-size="10" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<text x="53.58" y="126.5" font-size="11" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">4 ímãs</tspan></text>
+<line x1="94" y1="50" x2="298" y2="50" stroke="#6B7280" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="304" y="54" font-size="10" fill="#5B6578"><tspan xml:space="preserve">corte</tspan></text>
+<line x1="94" y1="94" x2="298" y2="94" stroke="#6B7280" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="304" y="98" font-size="10" fill="#5B6578"><tspan xml:space="preserve">corte</tspan></text>
+<text x="70.06" y="152" font-size="11" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">nunca se obtém um polo N (ou S) isolado</tspan></text>
+<text x="90.24" y="12" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">partir um ímã não separa os polos:</tspan></text>
+</svg>

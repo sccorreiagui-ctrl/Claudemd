@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 176" width="680" height="176" role="img" aria-label="Eletrização por indução em três etapas"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="43.54" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">1  Aproxima-se o indutor</tspan></text>
+<line x1="0" y1="22" x2="213" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<rect x="130" y="100" width="20" height="26" rx="0" fill="#fff" stroke="#6B7280" stroke-width="1.4"/>
+<line x1="130" y1="107" x2="150" y2="102" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="114" x2="150" y2="109" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<line x1="130" y1="121" x2="150" y2="116" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<rect x="116" y="126" width="48" height="6" rx="0" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="140" cy="66" r="34" fill="#E8EBF1" stroke="#6B7280" stroke-width="2.4"/>
+<text x="116.59" y="60.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="113.64" y="71.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="116.59" y="82.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="154.69" y="82.6" font-size="17" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="157.64" y="71.6" font-size="17" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="154.69" y="60.6" font-size="17" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<rect x="6" y="57" width="70" height="18" rx="9" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.6"/>
+<line x1="17" y1="66" x2="24" y2="66" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="28" y1="66" x2="35" y2="66" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="39" y1="66" x2="46" y2="66" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round"/>
+<text x="18.44" y="94" font-size="10.5" fill="#1D4ED8" font-weight="600"><tspan font-weight="600" xml:space="preserve">bastão (−)</tspan></text>
+<text x="41.08" y="148" font-size="11" fill="#5B6578"><tspan xml:space="preserve">elétrons livres são repelidos:</tspan></text>
+<text x="57.96" y="162" font-size="11" fill="#5B6578"><tspan xml:space="preserve">as cargas se separam</tspan></text>
+<text x="296.28" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">2  Liga-se à Terra</tspan></text>
+<line x1="233" y1="22" x2="446" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<rect x="363" y="100" width="20" height="26" rx="0" fill="#fff" stroke="#6B7280" stroke-width="1.4"/>
+<line x1="363" y1="107" x2="383" y2="102" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<line x1="363" y1="114" x2="383" y2="109" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<line x1="363" y1="121" x2="383" y2="116" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<rect x="349" y="126" width="48" height="6" rx="0" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="373" cy="66" r="34" fill="#E8EBF1" stroke="#6B7280" stroke-width="2.4"/>
+<text x="349.59" y="60.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="346.64" y="71.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="349.59" y="82.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="407,66 431,66 431,128" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="431" y1="128" x2="431" y2="135" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="420" y1="135" x2="442" y2="135" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="423.5" y1="139.2" x2="438.5" y2="139.2" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="427" y1="143.4" x2="435" y2="143.4" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="431" y1="70" x2="431" y2="96.98" stroke="#2563EB" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="431,104 427.76,95 434.24,95" fill="#2563EB" stroke="#2563EB" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="439" y="92" font-size="11.5" fill="#1D4ED8" font-weight="600"><tspan font-weight="600" xml:space="preserve">e⁻</tspan></text>
+<rect x="239" y="57" width="70" height="18" rx="9" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.6"/>
+<line x1="250" y1="66" x2="257" y2="66" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="261" y1="66" x2="268" y2="66" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="272" y1="66" x2="279" y2="66" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round"/>
+<text x="251.44" y="94" font-size="10.5" fill="#1D4ED8" font-weight="600"><tspan font-weight="600" xml:space="preserve">bastão (−)</tspan></text>
+<text x="272.78" y="148" font-size="11" fill="#5B6578"><tspan xml:space="preserve">elétrons escoam para a Terra</tspan></text>
+<text x="290.95" y="162" font-size="11" fill="#5B6578"><tspan xml:space="preserve">(o lado + permanece)</tspan></text>
+<text x="469.89" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">3  Desliga-se a Terra, afasta-se o indutor</tspan></text>
+<line x1="466" y1="22" x2="679" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<rect x="596" y="100" width="20" height="26" rx="0" fill="#fff" stroke="#6B7280" stroke-width="1.4"/>
+<line x1="596" y1="107" x2="616" y2="102" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<line x1="596" y1="114" x2="616" y2="109" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<line x1="596" y1="121" x2="616" y2="116" stroke="#C5CBD6" stroke-width="1" stroke-linecap="round"/>
+<rect x="582" y="126" width="48" height="6" rx="0" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="606" cy="66" r="34" fill="#E8EBF1" stroke="#6B7280" stroke-width="2.4"/>
+<text x="623.64" y="71.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="612.64" y="52.55" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="590.64" y="52.55" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="579.64" y="71.6" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="590.64" y="90.65" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="612.64" y="90.65" font-size="17" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="499.24" y="148" font-size="11" fill="#5B6578"><tspan xml:space="preserve">o excesso de carga + se espalha:</tspan></text>
+<text x="527.87" y="162" font-size="11" fill="#5B6578"><tspan xml:space="preserve">esfera final positiva</tspan></text>
+</svg>

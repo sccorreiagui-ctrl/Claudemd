@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 172" width="332" height="172" role="img" aria-label="Campo magnético de um solenoide: interior uniforme e polos N e S nas extremidades"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="270,87 269.61,82.64 268.45,78.32 266.52,74.06 263.85,69.9 260.44,65.87 256.33,62 251.55,58.32 246.14,54.86 240.12,51.64 233.56,48.7 226.5,46.04 219,43.7 211.11,41.68 202.89,40.02 194.4,38.7 185.71,37.76 176.89,37.19 168,37 159.11,37.19 150.29,37.76 141.6,38.7 133.11,40.02 124.89,41.68 117,43.7 109.5,46.04 102.44,48.7 95.88,51.64 89.86,54.86 84.45,58.32 79.67,62 75.56,65.87 72.15,69.9 69.48,74.06 67.55,78.32 66.39,82.64 66,87" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="164.4,37.08 172.33,33.87 172.46,39.95" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="270,87 269.61,91.36 268.45,95.68 266.52,99.94 263.85,104.1 260.44,108.13 256.33,112 251.55,115.68 246.14,119.14 240.12,122.36 233.56,125.3 226.5,127.96 219,130.3 211.11,132.32 202.89,133.98 194.4,135.3 185.71,136.24 176.89,136.81 168,137 159.11,136.81 150.29,136.24 141.6,135.3 133.11,133.98 124.89,132.32 117,130.3 109.5,127.96 102.44,125.3 95.88,122.36 89.86,119.14 84.45,115.68 79.67,112 75.56,108.13 72.15,104.1 69.48,99.94 67.55,95.68 66.39,91.36 66,87" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="164.4,136.92 172.46,134.05 172.33,140.13" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="255,87 254.67,84.3 253.68,81.62 252.04,78.98 249.75,76.4 246.85,73.9 243.34,71.5 239.27,69.22 234.65,67.07 229.52,65.08 223.92,63.25 217.9,61.61 211.5,60.15 204.77,58.9 197.76,57.87 190.52,57.06 183.11,56.47 175.58,56.12 168,56 160.42,56.12 152.89,56.47 145.48,57.06 138.24,57.87 131.23,58.9 124.5,60.15 118.1,61.61 112.08,63.25 106.48,65.08 101.35,67.07 96.73,69.22 92.66,71.5 89.15,73.9 86.25,76.4 83.96,78.98 82.32,81.62 81.33,84.3 81,87" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="164.4,55.94 172.45,53.03 172.35,59.11" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="255,87 254.67,89.7 253.68,92.38 252.04,95.02 249.75,97.6 246.85,100.1 243.34,102.5 239.27,104.78 234.65,106.93 229.52,108.92 223.92,110.75 217.9,112.39 211.5,113.85 204.77,115.1 197.76,116.13 190.52,116.94 183.11,117.53 175.58,117.88 168,118 160.42,117.88 152.89,117.53 145.48,116.94 138.24,116.13 131.23,115.1 124.5,113.85 118.1,112.39 112.08,110.75 106.48,108.92 101.35,106.93 96.73,104.78 92.66,102.5 89.15,100.1 86.25,97.6 83.96,95.02 82.32,92.38 81.33,89.7 81,87" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="164.4,118.06 172.35,114.89 172.45,120.97" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="96" y="62" width="144" height="50" rx="0" fill="#EEF1F6" stroke="none"/>
+<line x1="108" y1="112" x2="120" y2="62" stroke="#9AA3B2" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<line x1="132" y1="112" x2="144" y2="62" stroke="#9AA3B2" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<line x1="156" y1="112" x2="168" y2="62" stroke="#9AA3B2" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<line x1="180" y1="112" x2="192" y2="62" stroke="#9AA3B2" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<line x1="204" y1="112" x2="216" y2="62" stroke="#9AA3B2" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<line x1="228" y1="112" x2="240" y2="62" stroke="#9AA3B2" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+<line x1="96" y1="62" x2="108" y2="112" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="120" y1="62" x2="132" y2="112" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="144" y1="62" x2="156" y2="112" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="168" y1="62" x2="180" y2="112" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="192" y1="62" x2="204" y2="112" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="216" y1="62" x2="228" y2="112" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="127.6,93.66 121.22,85.42 129.54,83.42" fill="#B25B00" stroke="#B25B00" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="175.6,93.66 169.22,85.42 177.54,83.42" fill="#B25B00" stroke="#B25B00" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="223.6,93.66 217.22,85.42 225.54,83.42" fill="#B25B00" stroke="#B25B00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="64" y1="62" x2="96" y2="62" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="64" y1="62" x2="76.98" y2="62" stroke="#B25B00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="84,62 75,65.24 75,58.76" fill="#B25B00" stroke="#B25B00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="240" y1="62" x2="276" y2="62" stroke="#F08C00" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="248" y1="62" x2="262.98" y2="62" stroke="#B25B00" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="270,62 261,65.24 261,58.76" fill="#B25B00" stroke="#B25B00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="67.36" y="54" font-size="12" fill="#B25B00" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<text x="269.36" y="54" font-size="12" fill="#B25B00" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<line x1="102" y1="78" x2="234" y2="78" stroke="#6D28D9" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="172.05,78 163.05,81.42 163.05,74.58" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="102" y1="96" x2="234" y2="96" stroke="#6D28D9" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="172.05,96 163.05,99.42 163.05,92.58" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="252" y="76" width="20" height="22" rx="3" fill="#6D28D9" stroke="#6D28D9" stroke-width="1"/>
+<text x="257.73" y="92" font-size="13" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<rect x="64" y="76" width="20" height="22" rx="3" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.2"/>
+<text x="70.46" y="92" font-size="13" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="49.97" y="13" font-size="11" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">dentro: </tspan><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> uniforme, </tspan><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mi" dx="3.08" xml:space="preserve">μ</tspan><tspan class="mr" font-size="7.92" dy="2.97" xml:space="preserve">0</tspan><tspan class="mi" dy="-2.97" dx="1.87" xml:space="preserve">n</tspan><tspan class="mi" dx="1.87" xml:space="preserve">I</tspan><tspan font-weight="600" xml:space="preserve"> (solenoide longo)</tspan></text>
+<line x1="88.79" y1="4.2" x2="96.69" y2="4.2" stroke="#1B2438" stroke-width="0.825" stroke-linecap="butt"/>
+<polygon points="97.19,4.2 93.45,6.07 93.45,2.33" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="41.55" y="166" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">fora: campo fraco e disperso, como o de um ímã de barra</tspan></text>
+</svg>

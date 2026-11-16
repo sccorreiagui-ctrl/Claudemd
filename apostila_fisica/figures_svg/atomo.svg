@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 190" width="332" height="190" role="img" aria-label="Átomo: núcleo com prótons e nêutrons; elétrons na eletrosfera"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<circle cx="88" cy="92" r="38" fill="none" stroke="#9AA3B2" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="88" cy="92" r="72" fill="none" stroke="#9AA3B2" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="81" cy="84" r="6.6" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.5"/>
+<circle cx="94" cy="83" r="6.6" fill="#FDE6E7" stroke="#E5484D" stroke-width="1.5"/>
+<line x1="91" y1="83" x2="97" y2="83" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="94" y1="80" x2="94" y2="86" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="76" cy="95" r="6.6" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.5"/>
+<circle cx="88" cy="93" r="6.6" fill="#FDE6E7" stroke="#E5484D" stroke-width="1.5"/>
+<line x1="85" y1="93" x2="91" y2="93" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="88" y1="90" x2="88" y2="96" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="99" cy="94" r="6.6" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.5"/>
+<circle cx="84" cy="104" r="6.6" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.5"/>
+<circle cx="95" cy="104" r="6.6" fill="#FDE6E7" stroke="#E5484D" stroke-width="1.5"/>
+<line x1="92" y1="104" x2="98" y2="104" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="95" y1="101" x2="95" y2="107" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="117.11" cy="67.57" r="6.8" fill="#E3EBFD" stroke="#2563EB" stroke-width="1.7"/>
+<line x1="113.91" y1="67.57" x2="120.31" y2="67.57" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="58.89" cy="116.43" r="6.8" fill="#E3EBFD" stroke="#2563EB" stroke-width="1.7"/>
+<line x1="55.69" y1="116.43" x2="62.09" y2="116.43" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="54.2" cy="28.43" r="6.8" fill="#E3EBFD" stroke="#2563EB" stroke-width="1.7"/>
+<line x1="51" y1="28.43" x2="57.4" y2="28.43" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="124.11" y1="65.57" x2="178" y2="30" stroke="#9AA3B2" stroke-width="0.9" stroke-linecap="round"/>
+<text x="182" y="28" font-size="12" fill="#1D4ED8" font-weight="600"><tspan font-weight="600" xml:space="preserve">elétron  (−)</tspan></text>
+<text x="182" y="42" font-size="10" fill="#5B6578"><tspan xml:space="preserve">carga −e · massa ≈ 9,1×10⁻³¹ kg</tspan></text>
+<line x1="100" y1="94" x2="178" y2="82" stroke="#9AA3B2" stroke-width="0.9" stroke-linecap="round"/>
+<text x="182" y="80" font-size="12" fill="#BF2B31" font-weight="600"><tspan font-weight="600" xml:space="preserve">próton  (+)</tspan></text>
+<text x="182" y="94" font-size="10" fill="#5B6578"><tspan xml:space="preserve">carga +e · massa ≈ 1,67×10⁻²⁷ kg</tspan></text>
+<line x1="76" y1="96" x2="178" y2="134" stroke="#9AA3B2" stroke-width="0.9" stroke-linecap="round"/>
+<text x="182" y="132" font-size="12" fill="#6B7280" font-weight="600"><tspan font-weight="600" xml:space="preserve">nêutron  (sem carga)</tspan></text>
+<text x="182" y="146" font-size="10" fill="#5B6578"><tspan xml:space="preserve">massa ≈ 1,67×10⁻²⁷ kg</tspan></text>
+<text x="77.98" y="184" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">eletrosfera ≈ 10⁻¹⁰ m  ·  núcleo ≈ 10⁻¹⁵ m</tspan></text>
+</svg>

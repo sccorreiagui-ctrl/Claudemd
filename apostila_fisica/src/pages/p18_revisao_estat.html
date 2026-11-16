@@ -1,0 +1,40 @@
+<!--mod=II|sec=Exemplo, revisão do módulo e exercícios-->
+<div class="ex">
+  <div class="exh"><span class="tag acc">Exemplo 10</span>{{lvl:2}}<span class="tt">Capacitor de um desfibrilador</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Em um desfibrilador, um capacitor de \(70\,\mu\mathrm{F}\) é carregado a \(2500\) V e descarregado através do paciente em \(5{,}0\) ms. Calcule (a) a carga e a energia armazenadas; (b) a corrente média e a potência média na descarga.</p>
+      <p class="st"><b class="l">Interpretação e método</b> O capacitor acumula energia devagar (carga) e a entrega em tempo curto (descarga): potência alta. Use \(Q=CU\), \(E_{pot}=CU^2/2\), \(I_{med}=Q/\Delta t\) e \(P_{med}=E_{pot}/\Delta t\).</p>
+      <div class="calc">\[ \begin{aligned} Q&=CU=70\times10^{-6}\cdot2500=0{,}175\un{C}\\ E_{pot}&=\tfrac12CU^2=\tfrac12\cdot70\times10^{-6}\cdot2500^2\\ &\approx2{,}2\times10^{2}\un{J}\\ I_{med}&=\frac{Q}{\Delta t}=\frac{0{,}175}{5{,}0\times10^{-3}}=35\un{A}\\ P_{med}&=\frac{E_{pot}}{\Delta t}=\frac{219}{5{,}0\times10^{-3}}\approx4{,}4\times10^{4}\un{W} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(E_{pot}=QU/2=0{,}175\cdot2500/2=219\un{J}\) \(\checkmark\) (duas fórmulas). Unidades: \(\un{J/s}=\un{W}\) \(\checkmark\). Note que \(P_{med}\neq U\,I_{med}\): a tensão <i>cai</i> durante a descarga. Valores ilustrativos: parte da energia se dissipa no próprio circuito.</p>
+    </div>
+    <div><fig name="desfib">Fase 1: a fonte carrega \(C\) (\(S_1\) fechada, \(S_2\) aberta). Fase 2: \(S_1\) abre, \(S_2\) fecha e \(C\) descarrega em \(R\) (o paciente).</fig></div>
+  </div>
+</div>
+<p class="note mt2 mb0"><b>Aplicações:</b> flash fotográfico (carrega em segundos, descarrega em ms); telas sensíveis ao toque (o dedo altera a capacitância local); microfone de condensador; filtros e fontes (suavizam a tensão); memória DRAM.</p>
+
+<h2 class="sec mt3" style="font-size:12.5pt">Mapa mental da Eletrostática</h2>
+<fig name="mapa_estat"/>
+<p class="note mt1 mb0">Cada seta tem condições: Coulomb vale para cargas puntiformes em repouso; \(U=Ed\) só em campo uniforme com \(d\) ao longo das linhas; \(V=kQ/r\) com \(V_\infty=0\). O capacitor liga o potencial à energia: \(C=Q/U\), \(E_{pot}=CU^2/2\).</p>
+
+<table class="t cmp zebra tight mt3">
+  <tr><th>Carga + × carga −</th><th>Carga positiva (<span class="c-pos">coral</span>)</th><th>Carga negativa (<span class="c-neg">azul</span>)</th></tr>
+  <tr><td>Origem</td><td>falta de elétrons</td><td>excesso de elétrons</td></tr>
+  <tr><td>Campo criado</td><td>\(\vec E\) <b>sai</b> da carga</td><td>\(\vec E\) <b>entra</b> na carga</td></tr>
+  <tr><td>Potencial \(kQ/r\)</td><td>\(V>0\) (decresce com \(r\))</td><td>\(V<0\) (cresce, tende a 0, com \(r\))</td></tr>
+  <tr><td>Em campo \(\vec E\)</td><td>força no <b>mesmo</b> sentido de \(\vec E\)</td><td>força em sentido <b>oposto</b> a \(\vec E\)</td></tr>
+  <tr><td>Solta, só com força elétrica</td><td>vai de <b>maior para menor</b> \(V\)</td><td>vai de <b>menor para maior</b> \(V\)</td></tr>
+</table>
+
+<div class="fix mt3"><span class="tag o">Fixação</span> <span class="b">Potencial e capacitores</span>
+  <div class="c2 g3">
+    <ol>
+      <li><span class="b">{{lvl:1}}</span> Em campo uniforme de \(5{,}0\times10^{3}\un{V/m}\), qual é a DDP entre dois pontos separados de \(4{,}0\) cm ao longo das linhas?</li>
+      <li>{{lvl:2}} Um próton (\(m=1{,}67\times10^{-27}\un{kg}\)) é acelerado do repouso por uma DDP de \(2{,}0\un{kV}\). Qual a sua velocidade final?</li>
+    </ol>
+    <ol start="3">
+      <li>{{lvl:2}} Ligam-se os capacitores de \(6\,\mu\mathrm{F}\) e \(3\,\mu\mathrm{F}\) a uma fonte de \(12\) V, primeiro <b>em série</b>, depois <b>em paralelo</b>. Calcule \(C_{eq}\) e a carga total em cada caso, e a DDP em cada capacitor na série.</li>
+    </ol>
+  </div>
+  <div class="gab"><b>Gabarito.</b> 1) \(U=Ed=5{,}0\times10^{3}\cdot0{,}040=200\un{V}\).  2) \(v=\sqrt{2eU/m}=\sqrt{2\cdot1{,}6\times10^{-19}\cdot2000/1{,}67\times10^{-27}}\approx6{,}2\times10^{5}\un{m/s}\).  3) <b>Série:</b> \(C_{eq}=\frac{6\cdot3}{6+3}=2\,\mu\mathrm{F}\); \(Q=C_{eq}U=24\,\mu\mathrm{C}\) (a mesma em cada um); \(U_1=Q/C_1=4\un{V}\), \(U_2=8\un{V}\) (soma 12 V). <b>Paralelo:</b> \(C_{eq}=9\,\mu\mathrm{F}\); \(Q_{total}=108\,\mu\mathrm{C}\) (72 + 36 µC), com 12 V em cada.</div>
+</div>

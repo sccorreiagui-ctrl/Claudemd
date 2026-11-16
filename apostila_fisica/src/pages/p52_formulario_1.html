@@ -1,0 +1,43 @@
+<!--mod=R|sec=Formulário: eletrostática e eletrodinâmica-->
+<div class="mod-open" data-toc-mod="R|Revisão final">
+  <div class="rom">R</div>
+  <div class="tt">Revisão final<small>Formulários por situação de uso, questões integradoras, gabarito e fontes</small></div>
+  <div class="lv"><b>Como usar:</b> primeiro pergunte <i>o que o problema dá e o que pede</i>; só então escolha a fórmula — e confira as condições de validade.</div>
+</div>
+
+<h2 class="sec" data-toc="R.1|Formulário por situação de uso: eletrostática"><span class="num">R.1</span> Eletrostática (Módulo II)</h2>
+<table class="t cmp zebra">
+  <tr><th>Situação</th><th>Fórmula</th><th>Cuidado</th></tr>
+  <tr><td>Quantidade de carga</td><td>\(Q=n\,e\), \(e=1{,}6\times10^{-19}\) C</td><td>\(n\) inteiro; \(+\) = falta de elétrons, \(-\) = excesso</td></tr>
+  <tr><td>Força entre duas cargas puntiformes</td><td>\(F=k\dfrac{|q_1q_2|}{r^2}\)</td><td>cargas iguais repelem; várias cargas: soma <b>vetorial</b>; ação–reação</td></tr>
+  <tr><td>Campo de uma carga puntiforme</td><td>\(E=k\dfrac{|Q|}{r^2}\); \(\vec F=q\vec E\)</td><td>\(\vec E\) sai de \(+\) e entra em \(-\); \(\vec F\parallel\vec E\) só se \(q>0\)</td></tr>
+  <tr><td>Potencial e energia potencial</td><td>\(V=k\dfrac{Q}{r}\); \(E_p=qV\)</td><td>\(V\) é escalar: soma algébrica, com o sinal de \(Q\)</td></tr>
+  <tr><td>Trabalho e energia entre dois pontos</td><td>\(U=V_A-V_B\); \(W=qU=\Delta E_c\)</td><td>\(q\) <b>com sinal</b>; elétron: \(eU=\tfrac12mv^2\)</td></tr>
+  <tr><td>Campo uniforme entre placas</td><td>\(U=E\,d\); \(a=\dfrac{qE}{m}\)</td><td><b>só</b> campo uniforme; \(d\) ao longo de \(\vec E\)</td></tr>
+  <tr><td>Capacitor</td><td>\(Q=CU\); \(C=\dfrac{\kappa\varepsilon_0A}{d}\); \(E=\tfrac12CU^2\)</td><td>série: \(1/C=\sum1/C_i\) (\(Q\) igual); paralelo: \(C=\sum C_i\) (\(U\) igual) — <b>invertido</b> em relação aos resistores</td></tr>
+  <tr><td>Condutor em equilíbrio</td><td>\(E_{int}=0\); \(V\) constante; esfera: \(V=kQ/R\)</td><td>carga na superfície, mais densa nas pontas; blindagem</td></tr>
+</table>
+
+<h2 class="sec mt3" style="font-size:13pt" data-toc="R.2|Formulário: eletrodinâmica"><span class="num">R.2</span> Eletrodinâmica (Módulo III)</h2>
+<table class="t cmp zebra">
+  <tr><th>Situação</th><th>Fórmula</th><th>Cuidado</th></tr>
+  <tr><td>Corrente e carga</td><td>\(I=\dfrac{\Delta Q}{\Delta t}\); \(\Delta Q\) = área sob \(I\times t\)</td><td>sentido convencional; elétrons vão ao contrário</td></tr>
+  <tr><td>Ohm e resistência do fio</td><td>\(U=RI\); \(R=\rho\dfrac{L}{A}\)</td><td>\(R\) constante só em ôhmicos; dobrar o diâmetro ⇒ \(R/4\)</td></tr>
+  <tr><td>Potência e energia</td><td>\(P=UI=RI^2=\dfrac{U^2}{R}\); \(E=P\,\Delta t\)</td><td>use a grandeza <b>constante</b>: série ⇒ \(RI^2\); tomada ⇒ \(U^2/R\); \(1\) kWh \(=3{,}6\times10^6\) J</td></tr>
+  <tr><td>Resistores em série</td><td>\(R_{eq}=\sum R_i\)</td><td>mesma \(I\); a tensão se divide; \(R_{eq}>\) todas</td></tr>
+  <tr><td>Resistores em paralelo</td><td>\(\dfrac1{R_{eq}}=\sum\dfrac1{R_i}\); dois: \(\dfrac{R_1R_2}{R_1+R_2}\)</td><td>mesma \(U\); a corrente se divide; \(R_{eq}<\) a menor</td></tr>
+  <tr><td>Várias malhas</td><td>nós: \(\sum I_{ent}=\sum I_{sai}\); malhas: \(\sum U=0\)</td><td>\(I<0\) ⇒ sentido contrário ao suposto; confira o balanço de potência</td></tr>
+  <tr><td>Gerador real</td><td>\(U=\varepsilon-rI\); \(I=\dfrac{\varepsilon}{R+r}\); \(\eta=\dfrac U\varepsilon\)</td><td>\(I_{cc}=\varepsilon/r\); \(P_{útil}\) máxima com \(R=r\) (\(\eta=50\%\)); \(P_{perd}=rI^2\)</td></tr>
+  <tr><td>Receptor (motor)</td><td>\(U=\varepsilon'+r'I\); \(\eta'=\dfrac{\varepsilon'}U\)</td><td>\(\varepsilon'=0\) na partida: corrente alta</td></tr>
+  <tr><td>Aquecimento</td><td>\(P\,\Delta t=m\,c\,\Delta T\)</td><td>\(c_{água}=4180\) J/(kg·K); sem perdas</td></tr>
+  <tr><td>Medidores</td><td>amperímetro em <b>série</b> (\(R_A\to0\)); voltímetro em <b>paralelo</b> (\(R_V\to\infty\))</td><td>ligação trocada: curto-circuito ou circuito aberto</td></tr>
+</table>
+
+<div class="box soft mt3"><div class="chain"><span class="tag">Método de resolução</span>
+  <span class="s o">situação</span><span class="a">→</span><span class="s o">desenho</span><span class="a">→</span><span class="s o">dados em unidades SI</span><span class="a">→</span>
+  <span class="s o">interpretação</span><span class="a">→</span><span class="s o">fórmula escolhida e justificada</span><span class="a">→</span><span class="s o">substituição</span><span class="a">→</span>
+  <span class="s o">cálculo</span><span class="a">→</span><span class="s o">unidade</span><span class="a">→</span><span class="s o">verificação física</span></div></div>
+<div class="c2 g3 mt3 ai-s">
+  <div class="why"><span class="tag o">Verificações rápidas</span>(1) <b>Unidades</b> coerentes? (2) <b>Sinal e sentido</b> plausíveis? (3) <b>Ordem de grandeza</b> razoável? (4) <b>Limites</b>: \(r\to\infty\), \(R\to0\), \(R\to\infty\) dão o esperado? (5) <b>Conservação</b>: carga nos nós, energia (balanço de potências).</div>
+  <div class="why"><span class="tag o">Perguntas que decidem a fórmula</span>Que grandeza é <b>constante</b> (corrente, tensão, carga, fluxo)? O campo é <b>uniforme</b>? A carga está <b>parada</b> ou em movimento? O fluxo <b>varia</b>? As condições de validade foram respeitadas?</div>
+</div>

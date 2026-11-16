@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 154" width="332" height="154" role="img" aria-label="Fluxo magnético através de uma espira em três orientações"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="3" y="3" width="104" height="148" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<line x1="10" y1="20" x2="93.76" y2="20" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="100,20 92,22.88 92,17.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="10" y1="42" x2="93.76" y2="42" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="100,42 92,44.88 92,39.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="10" y1="90" x2="93.76" y2="90" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="100,90 92,92.88 92,87.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="10" y1="112" x2="93.76" y2="112" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="100,112 92,114.88 92,109.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="55" y1="104" x2="55" y2="28" stroke="#6B7280" stroke-width="5.0" stroke-linecap="round"/>
+<line x1="55" y1="66" x2="75.98" y2="66" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="83,66 74,69.24 74,62.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="92" y="70" font-size="11.5" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">n</tspan></text>
+<line x1="93.61" y1="62.64" x2="100.05" y2="62.64" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="100.55,62.64 96.64,64.59 96.64,60.69" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="55" cy="66" r="2.4" fill="#1B2438"/>
+<text x="38.26" y="130" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mi" xml:space="preserve">θ</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">0</tspan><tspan class="mr" font-size="8.28" dy="-4.6" xml:space="preserve">°</tspan></text>
+<text x="10.25" y="145" font-size="11" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mi" dx="3.08" xml:space="preserve">BA</tspan><tspan font-weight="600" xml:space="preserve"> (máximo)</tspan></text>
+<rect x="113" y="3" width="104" height="148" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<line x1="120" y1="20" x2="203.76" y2="20" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="210,20 202,22.88 202,17.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="120" y1="42" x2="203.76" y2="42" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="210,42 202,44.88 202,39.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="120" y1="90" x2="203.76" y2="90" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="210,90 202,92.88 202,87.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="120" y1="112" x2="203.76" y2="112" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="210,112 202,114.88 202,109.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="197.91" y1="85" x2="132.09" y2="47" stroke="#6B7280" stroke-width="5.0" stroke-linecap="round"/>
+<line x1="165" y1="66" x2="175.49" y2="47.83" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="179,41.75 177.31,51.17 171.69,47.93" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="185.5" y="37.42" font-size="11.5" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">n</tspan></text>
+<line x1="187.11" y1="30.06" x2="193.55" y2="30.06" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="194.05,30.06 190.14,32.02 190.14,28.11" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="183,66 182.9,64.12 182.61,62.26 182.12,60.44 181.44,58.68 180.59,57 179.56,55.42 178.38,53.96 177.04,52.62 175.58,51.44 174,50.41" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="191" y="61" font-size="11" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">θ</tspan></text>
+<circle cx="165" cy="66" r="2.4" fill="#1B2438"/>
+<text x="144.95" y="130" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mi" xml:space="preserve">θ</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">60</tspan><tspan class="mr" font-size="8.28" dy="-4.6" xml:space="preserve">°</tspan></text>
+<text x="137.81" y="145" font-size="11" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mi" dx="3.08" xml:space="preserve">BA</tspan><tspan class="mr" xml:space="preserve">/2</tspan></text>
+<rect x="223" y="3" width="104" height="148" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<line x1="230" y1="20" x2="313.76" y2="20" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="320,20 312,22.88 312,17.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="230" y1="42" x2="313.76" y2="42" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="320,42 312,44.88 312,39.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="230" y1="90" x2="313.76" y2="90" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="320,90 312,92.88 312,87.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="230" y1="112" x2="313.76" y2="112" stroke="#7C3AED" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="320,112 312,114.88 312,109.12" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="313" y1="66" x2="237" y2="66" stroke="#6B7280" stroke-width="5.0" stroke-linecap="round"/>
+<line x1="275" y1="66" x2="275" y2="45.02" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="275,38 278.24,47 271.76,47" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="279.55" y="33" font-size="11.5" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">n</tspan></text>
+<line x1="281.16" y1="25.64" x2="287.6" y2="25.64" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="288.1,25.64 284.19,27.59 284.19,23.69" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="293,66 292.9,64.12 292.61,62.26 292.12,60.44 291.44,58.68 290.59,57 289.56,55.42 288.38,53.96 287.04,52.62 285.58,51.44 284,50.41 282.32,49.56 280.56,48.88 278.74,48.39 276.88,48.1 275,48" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="301" y="50" font-size="11" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">θ</tspan></text>
+<circle cx="275" cy="66" r="2.4" fill="#1B2438"/>
+<text x="254.95" y="130" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mi" xml:space="preserve">θ</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">90</tspan><tspan class="mr" font-size="8.28" dy="-4.6" xml:space="preserve">°</tspan></text>
+<text x="259.27" y="145" font-size="11" fill="#1B2438" font-weight="600"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mr" dx="3.08" xml:space="preserve">0</tspan></text>
+</svg>

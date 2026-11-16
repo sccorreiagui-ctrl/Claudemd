@@ -1,0 +1,48 @@
+<!--mod=III|sec=Revisão do módulo: mapa e quadros comparativos|flow=spread-->
+<h2 class="sec top" style="font-size:12.5pt">Mapa mental da Eletrodinâmica</h2>
+<fig name="mapa_dinam"/>
+<table class="t cmp zebra tight mt3">
+  <tr><th>Série × paralelo</th><th>Série</th><th>Paralelo</th></tr>
+  <tr><td>Ligação</td><td>um só caminho (nós de duas ligações)</td><td>mesmos dois nós nas pontas</td></tr>
+  <tr><td>Corrente</td><td><b>igual</b> em todos</td><td>divide: \(I=\sum I_i\); \(I_i\propto1/R_i\)</td></tr>
+  <tr><td>Tensão</td><td>divide: \(U=\sum U_i\); \(U_i\propto R_i\)</td><td><b>igual</b> em todos</td></tr>
+  <tr><td>\(R_{eq}\)</td><td>\(\sum R_i\) — maior que todas</td><td>\(1/R_{eq}=\sum1/R_i\) — menor que todas</td></tr>
+  <tr><td>Potência em cada resistor</td><td>\(P=RI^2\): cresce com \(R\)</td><td>\(P=U^2/R\): cai com \(R\)</td></tr>
+  <tr><td>Um elemento “queima” (abre)</td><td>o circuito inteiro é interrompido</td><td>só aquele ramo deixa de conduzir</td></tr>
+  <tr><td>Exemplos</td><td>fusível + aparelho; lâmpadas de enfeite antigas</td><td>tomadas e lâmpadas da casa</td></tr>
+</table>
+<div class="c2 g3 mt3 ai-s">
+  <table class="t cmp zebra tight">
+    <tr><th>Corrente</th><th>De elétrons (real, metais)</th><th>Convencional</th></tr>
+    <tr><td>Portadores</td><td>elétrons livres (\(-\))</td><td>cargas \(+\) “imaginárias”</td></tr>
+    <tr><td>Sentido</td><td>do menor para o maior \(V\)</td><td>do maior para o menor \(V\) (fora da fonte)</td></tr>
+    <tr><td>Efeitos</td><td colspan="2">térmico, magnético e queda de potencial: <b>os mesmos</b></td></tr>
+    <tr><td>Quando usar</td><td>explicar o microscópico</td><td>setas e equações dos circuitos</td></tr>
+  </table>
+  <table class="t cmp zebra tight">
+    <tr><th>Gerador × receptor</th><th>Gerador</th><th>Receptor</th></tr>
+    <tr><td>Corrente</td><td>sai pelo \(+\)</td><td>entra pelo \(+\)</td></tr>
+    <tr><td>Equação</td><td>\(U=\varepsilon-rI\)</td><td>\(U=\varepsilon'+r'I\)</td></tr>
+    <tr><td>Energia</td><td>outra forma ⇒ elétrica</td><td>elétrica ⇒ outra forma</td></tr>
+    <tr><td>Exemplos</td><td>pilha, dínamo</td><td>motor, bateria em recarga</td></tr>
+    <tr><td>Rendimento</td><td>\(\eta=U/\varepsilon\)</td><td>\(\eta'=\varepsilon'/U\)</td></tr>
+  </table>
+</div>
+<div class="c2 g3 mt3 ai-s">
+  <table class="t cmp zebra tight">
+    <tr><th>Medidores</th><th>Amperímetro</th><th>Voltímetro</th></tr>
+    <tr><td>Mede</td><td>corrente</td><td>DDP</td></tr>
+    <tr><td>Ligação</td><td>em <b>série</b></td><td>em <b>paralelo</b></td></tr>
+    <tr><td>Ideal</td><td>\(R_A=0\)</td><td>\(R_V\to\infty\)</td></tr>
+    <tr><td>Erro de ligação</td><td>em paralelo: curto-circuito</td><td>em série: bloqueia o circuito</td></tr>
+  </table>
+  <table class="t cmp zebra tight">
+    <tr><th>Resistor × capacitor</th><th>Resistor</th><th>Capacitor</th></tr>
+    <tr><td>Lei básica</td><td>\(U=RI\)</td><td>\(Q=CU\)</td></tr>
+    <tr><td>Energia</td><td>dissipa: \(RI^2\)</td><td>armazena: \(CU^2/2\)</td></tr>
+    <tr><td>Série</td><td>\(\sum R\) (\(I\) igual)</td><td>\(1/C=\sum1/C_i\) (\(Q\) igual)</td></tr>
+    <tr><td>Paralelo</td><td>\(1/R=\sum1/R_i\) (\(U\) igual)</td><td>\(C=\sum C_i\) (\(U\) igual)</td></tr>
+    <tr><td>Em CC estacionária</td><td>conduz</td><td>bloqueia (\(I=0\))</td></tr>
+  </table>
+</div>
+<p class="note mt2 mb0">Mnemônicos só ajudam depois de entender: “\(Q=I\,\Delta t\)” (carga é corrente × tempo), “\(P=UI\)” (potência é tensão × corrente). O que cai na prova é <b>escolher a fórmula</b>: pergunte-se sempre <i>qual grandeza é a mesma</i> (corrente? tensão?) antes de calcular.</p>

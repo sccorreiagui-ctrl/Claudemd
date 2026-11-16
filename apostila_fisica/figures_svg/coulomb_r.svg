@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 202" width="332" height="202" role="img" aria-label="Força de Coulomb para as distâncias r, 2r e 3r"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<circle cx="34" cy="30" r="10" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="28.8" y1="30" x2="39.2" y2="30" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="34" y1="24.8" x2="34" y2="35.2" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="94" cy="30" r="10" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="88.8" y1="30" x2="99.2" y2="30" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="94" y1="24.8" x2="94" y2="35.2" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="34" y1="54" x2="94" y2="54" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.68" y1="54" x2="89.32" y2="54" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="94,54 88,56.4 88,51.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="34,54 40,51.6 40,56.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="61.29" y="68" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">r</tspan></text>
+<line x1="106" y1="30" x2="152.98" y2="30" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="160,30 151,33.24 151,26.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="166" y="34" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan></text>
+<circle cx="34" cy="94" r="10" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="28.8" y1="94" x2="39.2" y2="94" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="34" y1="88.8" x2="34" y2="99.2" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="154" cy="94" r="10" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="148.8" y1="94" x2="159.2" y2="94" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154" y1="88.8" x2="154" y2="99.2" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="34" y1="118" x2="154" y2="118" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.68" y1="118" x2="149.32" y2="118" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="154,118 148,120.4 148,115.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="34,118 40,115.6 40,120.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="88.29" y="132" font-size="12" fill="#1B2438"><tspan class="mr" xml:space="preserve">2</tspan><tspan class="mi" xml:space="preserve">r</tspan></text>
+<line x1="166" y1="94" x2="173.18" y2="94" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="179.5,94 171.4,96.92 171.4,91.08" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="185.5" y="98" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" xml:space="preserve">/4</tspan></text>
+<circle cx="34" cy="158" r="10" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="28.8" y1="158" x2="39.2" y2="158" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="34" y1="152.8" x2="34" y2="163.2" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="214" cy="158" r="10" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="208.8" y1="158" x2="219.2" y2="158" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="214" y1="152.8" x2="214" y2="163.2" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="34" y1="182" x2="214" y2="182" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="38.68" y1="182" x2="209.32" y2="182" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="214,182 208,184.4 208,179.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="34,182 40,179.6 40,184.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="118.29" y="196" font-size="12" fill="#1B2438"><tspan class="mr" xml:space="preserve">3</tspan><tspan class="mi" xml:space="preserve">r</tspan></text>
+<line x1="226" y1="158" x2="229.19" y2="158" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="232,158 228.4,159.3 228.4,156.7" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="238" y="162" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" xml:space="preserve">/9</tspan></text>
+</svg>

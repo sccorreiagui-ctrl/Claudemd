@@ -1,0 +1,55 @@
+<!--mod=II|sec=Carga elétrica-->
+<div class="mod-open" data-toc-mod="II|Eletrostática">
+  <div class="rom">II</div>
+  <div class="tt">Eletrostática<small>Cargas em repouso: forças, campos, potencial, blindagem e capacitores</small></div>
+  <div class="lv"><b>Níveis 1 → 3</b> — carga e eletrização · lei de Coulomb · campo elétrico · potencial e energia · condutores e blindagem · capacitores</div>
+</div>
+
+<h2 class="sec" data-toc="2.1|Carga elétrica, conservação e quantização"><span class="num">2.1</span> Carga elétrica, conservação e quantização</h2>
+<div class="c2 g3 ai-s">
+  <div><fig name="cargas_inter">Forças entre cargas puntiformes: o par ação–reação tem sempre o mesmo módulo e sentidos opostos.</fig></div>
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Cargas de <b>mesmo sinal se repelem</b>; cargas de <b>sinais opostos se atraem</b>. Um corpo é <b>neutro</b> quando a soma <i>algébrica</i> das suas cargas é nula — e não quando “não tem cargas”: um átomo neutro tem prótons e elétrons em igual número.</div>
+    <div class="why mt2"><span class="tag o">Conservação</span>Em um sistema isolado, a <b>soma algébrica das cargas permanece constante</b>. Os processos elétricos apenas <i>transferem</i> carga: o que um corpo perde, o outro ganha. (Em reações de partículas podem surgir pares +/−, mas a carga total continua a mesma.)</div>
+  </div>
+</div>
+
+<div class="formula mt3"><span class="tag">Fórmula</span>
+  <div class="c21 g3 ai-c">
+    <div class="eq">\[ Q=\pm\,n\,e \qquad |Q|=n\,e \]</div>
+    <table class="vars">
+      <tr><td>\(Q\)</td><td>carga elétrica <i>algébrica</i> do corpo</td><td>C</td></tr>
+      <tr><td>\(n\)</td><td>número <i>inteiro</i> de elétrons em excesso ou em falta</td><td>—</td></tr>
+      <tr><td>\(e\)</td><td>carga elementar, \(1{,}602\times10^{-19}\)</td><td>C</td></tr>
+    </table>
+  </div>
+  <div class="cond"><b>Sinais:</b> \(Q<0\) → <i>sobram</i> \(n\) elétrons; \(Q>0\) → <i>faltam</i> \(n\) elétrons. Use o módulo \(|Q|=ne\) quando só precisar <i>contar</i> elétrons. <b>Validade:</b> \(n\) é inteiro — a carga é <i>quantizada</i>; em corpos comuns os “degraus” de \(e\) são tão pequenos que a carga parece contínua. (Quarks têm \(\pm e/3\) e \(\pm 2e/3\), mas nunca aparecem isolados: a menor carga livre é \(e\).)</div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 1</span>{{lvl:1}}<span class="tt">Quantos elétrons foram transferidos?</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Ao ser atritado com seda, um bastão de vidro adquire carga \(+3{,}2\,\mu\mathrm{C}\). (a) Quantos elétrons o bastão perdeu? (b) Qual é a carga da seda, supondo o sistema isolado?</p>
+    <p class="st"><b class="l">Dados</b> \(Q_{vidro}=+3{,}2\times10^{-6}\un{C}\) (convertido de µC); \(e=1{,}6\times10^{-19}\un{C}\).</p>
+    <p class="st"><b class="l">Interpretação</b> Carga <i>positiva</i> significa <i>falta</i> de elétrons: eles saíram do vidro e foram para a seda. Prótons não se movem.</p>
+    <p class="st"><b class="l">Método</b> Quantização, \(|Q|=ne\), para contar elétrons; conservação da carga, \(Q_{vidro}+Q_{seda}=0\), para a seda.</p>
+    <div class="calc">\[ n=\frac{|Q|}{e}=\frac{3{,}2\times10^{-6}\un{C}}{1{,}6\times10^{-19}\un{C}}=2{,}0\times10^{13}\ \text{elétrons}\qquad Q_{seda}=-Q_{vidro}=-3{,}2\,\mu\mathrm{C} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> O resultado é inteiro e enorme: 1 µC já corresponde a ~\(10^{13}\) elétrons. Mesmo assim a massa transferida é desprezível (\(2\times10^{13}\times9{,}1\times10^{-31}\approx1{,}8\times10^{-17}\un{kg}\)). Os sinais são coerentes: vidro perdeu elétrons (+), seda ganhou (−).</p>
+  </div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="err"><span class="tag o">Erro frequente</span><b>Confundir “carga positiva” com “prótons a mais”.</b> Na eletrização os prótons não saem do núcleo: carga \(+\) é <i>falta de elétrons</i>. E <b>neutro</b> não é “sem carga”: é soma algébrica nula. Ao calcular, use o <b>sinal</b> para o tipo de carga e o <b>módulo</b> para contar partículas ou calcular intensidades.</div>
+  <div>
+    <h4 style="margin-top:0">Ordens de grandeza de carga</h4>
+    <table class="t tight zebra">
+      <tr><td>próton / elétron</td><td class="num">\(1{,}6\times10^{-19}\un{C}\)</td></tr>
+      <tr><td>pente ou balão atritado</td><td class="num">\(10^{-9}\) a \(10^{-6}\un{C}\)</td></tr>
+      <tr><td>capacitor de flash fotográfico</td><td class="num">\(\sim10^{-2}\un{C}\)</td></tr>
+      <tr><td>descarga nuvem–solo (raio)</td><td class="num">\(\sim10\un{C}\)</td></tr>
+      <tr><td>bateria de celular (3 Ah)</td><td class="num">\(\sim10^{4}\un{C}\)</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="adv mt3"><span class="tag">Aprofundamento</span><b>A quantização foi medida.</b> Em 1909, Robert Millikan observou gotículas de óleo carregadas em equilíbrio entre duas placas (peso = força elétrica) e verificou que todas as cargas eram múltiplos inteiros de um mesmo valor, \(1{,}6\times10^{-19}\un{C}\) — a primeira prova direta de que existe uma carga elementar. Ideia-chave: no equilíbrio, \(mg=|q|E\), logo \(|q|=mg/E\).</div>

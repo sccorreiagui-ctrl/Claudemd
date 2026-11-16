@@ -1,0 +1,43 @@
+<!--mod=II|sec=Lei de Coulomb-->
+<h2 class="sec top" data-toc="2.3|Lei de Coulomb e superposição de forças"><span class="num">2.3</span> Lei de Coulomb</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>A força elétrica entre duas cargas puntiformes atua <b>ao longo da reta que as une</b>, é proporcional ao <b>produto dos módulos</b> das cargas e inversamente proporcional ao <b>quadrado da distância</b>. É de repulsão para cargas de mesmo sinal e de atração para sinais opostos.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ F=k\,\frac{|q_1\,q_2|}{r^{2}} \]</div>
+      <table class="vars">
+        <tr><td>\(F\)</td><td>módulo da força elétrica</td><td>N</td></tr>
+        <tr><td>\(q_1,q_2\)</td><td>cargas (use os módulos)</td><td>C</td></tr>
+        <tr><td>\(r\)</td><td>distância entre as cargas</td><td>m</td></tr>
+        <tr><td>\(k\)</td><td>\(=\frac{1}{4\pi\varepsilon_0}\approx9{,}0\times10^{9}\)</td><td>N·m²/C²</td></tr>
+      </table>
+      <div class="cond"><b>Validade:</b> cargas puntiformes (ou esferas com carga uniforme, \(r\) entre os centros), em repouso, no vácuo ou no ar. Em um meio dielétrico, \(F_{meio}=F_{vácuo}/\kappa\). <b>Sinais:</b> a fórmula dá só o módulo; o sentido vem dos sinais. <b>Use quando:</b> houver duas cargas puntiformes e a distância conhecida.</div>
+    </div>
+  </div>
+  <div><fig name="coulomb_r">Dobrar a distância reduz a força a ¼; triplicar, a 1/9. As setas estão em escala.</fig></div>
+</div>
+
+<div class="c2 g3 mt2 ai-s">
+  <div><fig name="coulomb_graf">A curva \(F\times r\) é uma hipérbole “quadrática”, não uma reta: a força cai rapidamente com a distância.</fig></div>
+  <div>
+    <fig name="inv_sq">Por que \(1/r^2\)? As mesmas “linhas” se espalham sobre uma área \(\propto r^2\).</fig>
+  </div>
+</div>
+<div class="c2 g3 mt2 ai-s small" style="margin-bottom:-1mm">
+  <div><b>Por que o expoente 2?</b> A interação “se espalha” pelo espaço tridimensional: a uma distância \(r\) ela atravessa uma superfície esférica de área \(4\pi r^2\). Ao dobrar \(r\), a área vira \(4\times\) maior e a intensidade, \(\tfrac14\). O inverso do quadrado é consequência da geometria de três dimensões.</div>
+  <div><b>Tipos de pergunta.</b> (i) Valor numérico → use \(F=k|q_1q_2|/r^2\) em unidades do SI. (ii) “O que acontece se…” → use <b>razões</b>: \(\dfrac{F'}{F}=\dfrac{q_1'q_2'}{q_1q_2}\left(\dfrac{r}{r'}\right)^{2}\), sem calcular \(k\).</div>
+</div>
+
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 2</span>{{lvl:1}}<span class="tt">Força entre duas cargas</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Duas pequenas esferas, com cargas \(q_1=+2{,}0\,\mu\mathrm{C}\) e \(q_2=+3{,}0\,\mu\mathrm{C}\), estão no vácuo, a \(30\) cm uma da outra. Qual é a força entre elas?</p>
+      <p class="st"><b class="l">Dados</b> \(q_1=2{,}0\times10^{-6}\un{C}\); \(q_2=3{,}0\times10^{-6}\un{C}\); \(r=0{,}30\un{m}\); \(k=9{,}0\times10^{9}\un{N\,m^2/C^2}\).</p>
+      <p class="st"><b class="l">Interpretação e método</b> Mesmo sinal ⇒ <b>repulsão</b>; esferas pequenas frente à distância ⇒ cargas puntiformes. Lei de Coulomb com módulos e unidades do SI (convertemos µC e cm).</p>
+      <div class="calc">\[ \begin{aligned} F&=k\,\frac{q_1q_2}{r^{2}}=9{,}0\times10^{9}\,\frac{(2{,}0\times10^{-6})(3{,}0\times10^{-6})}{(0{,}30)^{2}}\\ &=\frac{9{,}0\times10^{9}\cdot6{,}0\times10^{-12}}{9{,}0\times10^{-2}}=0{,}60\un{N} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> Unidade: \(\un{N\,m^2/C^2}\cdot\un{C^2}/\un{m^2}=\un{N}\) \(\checkmark\). Ordem de grandeza razoável (≈ peso de 60 g). Pela 3ª lei de Newton, <i>cada</i> esfera sofre 0,60 N.</p>
+    </div>
+    <div><fig name="ex_coulomb2"/></div>
+  </div>
+</div>

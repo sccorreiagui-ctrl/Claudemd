@@ -1,0 +1,30 @@
+<!--mod=III|sec=O chuveiro elétrico-->
+<h3 class="top" style="margin-top:0">O chuveiro elétrico: por que “quente” tem menor resistência</h3>
+<fig name="chuveiro" cls="line">Resistor helicoidal de nicromo com derivação. A corrente (laranja) percorre só o trecho ligado: o <b>comprimento útil</b> muda com a posição da chave. Com a tensão de alimentação fixa (220 V), \(P=U^2/R\).</fig>
+<div class="c2 g3 mt2 ai-s">
+  <div class="concept"><span class="tag">Conceito</span>O fio helicoidal tem um terminal intermediário. Na posição <b>quente</b> (inverno) a corrente atravessa só <i>parte</i> do fio: o comprimento útil \(L\) diminui, logo \(R=\rho L/A\) <b>diminui</b>. Como a tensão da rede é fixa (\(U\) constante), \(P=U^2/R\) <b>aumenta</b> — e a corrente \(I=U/R\) também. Na posição <b>morna</b> (verão), o fio todo: \(R\) maior e \(P\) menor.</div>
+  <div class="err"><span class="tag o">Erro frequente</span><b>“Para esquentar mais, aumenta-se a resistência.”</b> Com \(U\) fixa é o contrário: <b>menor</b> \(R\) ⇒ <b>maior</b> corrente ⇒ <b>maior</b> potência. Atenção: a corrente <i>não</i> é a mesma nas duas posições (25 A × 12,5 A no exemplo) — por isso o chuveiro exige cabo grosso e disjuntor próprio.</div>
+</div>
+
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 14</span>{{lvl:3}}<span class="tt">Verão × inverno e aquecimento da água</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Um chuveiro de \(220\) V tem \(5500\) W na posição inverno e \(2750\) W na posição verão. Determine (a) as resistências e a razão entre os comprimentos úteis do fio; (b) as correntes; (c) a elevação de temperatura da água, supondo que toda a energia vá para ela, com vazão de \(3{,}0\) L/min (\(\dot m=0{,}050\un{kg/s}\)) e \(c=4180\un{J/(kg\cdot K)}\).</p>
+    <p class="st"><b class="l">Interpretação e método</b> \(U\) constante ⇒ \(P=U^2/R\Rightarrow R=U^2/P\). Mesmo material e seção ⇒ \(R\propto L\). Corrente: \(I=P/U\). Calor: em cada segundo, \(P\cdot1\un{s}=\dot m\,c\,\Delta T\) (calorimetria).</p>
+    <div class="calc">\[ \begin{aligned} R_{inv}&=\frac{220^2}{5500}=8{,}8\ \Omega\qquad R_{ver}=\frac{220^2}{2750}=17{,}6\ \Omega\qquad \frac{L_{ver}}{L_{inv}}=\frac{R_{ver}}{R_{inv}}=2\\ I_{inv}&=\frac{5500}{220}=25\un{A}\qquad I_{ver}=\frac{2750}{220}=12{,}5\un{A}\\ \Delta T_{inv}&=\frac{P}{\dot m\,c}=\frac{5500}{0{,}050\cdot4180}\approx26\un{K}\qquad \Delta T_{ver}\approx13\un{K} \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> A posição inverno tem <i>metade</i> da resistência e o <i>dobro</i> da potência e da corrente (\(25\cdot220=5500\) W ✓). Água a 22 °C sai a ≈ 48 °C (inverno) ou ≈ 35 °C (verão); com perdas, menos.</p>
+  </div>
+</div>
+
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 15</span>{{lvl:2}}<span class="tt">Aparelho de 127 V ligado em 220 V</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Um chuveiro de \(127\) V/\(4400\) W é ligado, por engano, em \(220\) V. Qual passa a ser a potência? E a corrente?</p>
+      <p class="st"><b class="l">Método</b> O resistor é o mesmo: \(R=U_n^2/P_n\) (≈ constante); com tensão maior, \(P=U^2/R\) cresce com \(U^2\).</p>
+      <div class="calc">\[ \begin{aligned} R&=\frac{127^2}{4400}\approx3{,}67\ \Omega\\ P'&=\frac{220^2}{3{,}67}\approx1{,}3\times10^{4}\un{W}=4400\left(\frac{220}{127}\right)^{2}\\ I'&=\frac{220}{3{,}67}=60\un{A}\quad(\text{nominal: }34{,}6\un{A}) \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \((220/127)^2\approx3{,}0\) ✓. Potência 3× e corrente 1,7× a nominal: o componente superaquece e queima.</p>
+    </div>
+    <div><fig name="ex_tensao"/></div>
+  </div>
+</div>

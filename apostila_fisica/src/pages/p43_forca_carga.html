@@ -1,0 +1,36 @@
+<!--mod=IV|sec=Força magnética sobre cargas-->
+<div class="fix"><span class="tag o">Fixação</span> <span class="b">Ímãs e campo de correntes</span>
+  <ol class="xq">
+    <li>{{lvl:1}} <b>Polos.</b> Um ímã de barra é partido ao meio. Quantos polos tem cada metade? Um prego de ferro é aproximado do polo N de um ímã: que polo surge na ponta do prego mais próxima do ímã e como é a força?</li>
+    <li>{{lvl:1}} <b>Bússola e fio.</b> Um fio longo horizontal, orientado de sul para norte, passa a \(2{,}0\) cm <b>acima</b> de uma bússola e conduz \(5{,}0\) A para o norte. Calcule \(B_{fio}\) sobre a bússola e diga para que lado (leste ou oeste) a ponta N da agulha gira.</li>
+    <li>{{lvl:2}} <b>Solenoide.</b> Um solenoide de \(40\) cm tem \(800\) espiras e conduz \(5{,}0\) A. Calcule \(B\) no interior. Dobrando só o comprimento (mesmos \(N\) e \(I\)), o que ocorre com \(B\)?</li>
+    <li>{{lvl:3}} <b>Campo nulo.</b> Dois fios longos e paralelos, distantes \(20\) cm, conduzem \(6{,}0\) A e \(3{,}0\) A <i>no mesmo sentido</i>. Em que ponto do plano dos fios o campo total é nulo?</li>
+  </ol>
+  <div class="gab"><b>Gabarito.</b> 1) Cada metade tem N e S. A ponta mais próxima do prego fica com polo <b>S</b> induzido ⇒ <b>atração</b> mútua.  2) \(B=\mu_0I/(2\pi r)=2\times10^{-7}\cdot5/0{,}02=5{,}0\times10^{-5}\) T \(=50\ \mu\)T; abaixo do fio, a mão direita dá \(\vec B\) para o <b>oeste</b> ⇒ a ponta N gira para o <b>oeste</b>.  3) \(n=800/0{,}40=2000\) /m; \(B=4\pi\times10^{-7}\cdot2000\cdot5{,}0=1{,}26\times10^{-2}\) T \(=12{,}6\) mT. Com \(L\) dobrado, \(n\) cai à metade e \(B\) <b>cai à metade</b> (6,3 mT).  4) Entre os fios os campos são opostos (mesmo sentido de corrente): \(\dfrac{6}{r_1}=\dfrac{3}{r_2}\Rightarrow r_1=2r_2\); com \(r_1+r_2=20\) cm: \(r_2\approx6{,}7\) cm do fio de \(3{,}0\) A e \(r_1\approx13{,}3\) cm do de \(6{,}0\) A.</div>
+</div>
+
+<h2 class="sec mt3" data-toc="4.3|Força magnética sobre cargas e correntes"><span class="num">4.3</span> Força magnética sobre cargas em movimento</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <p class="lead mb2">Um ímã não “puxa” uma carga <i>parada</i>. Mas uma carga <b>em movimento</b> num campo magnético é empurrada <b>de lado</b> — nunca para frente nem para trás.</p>
+    <div class="concept"><span class="tag">Conceito</span>Uma carga \(q\) com velocidade \(\vec v\) num campo \(\vec B\) sofre a <b>força magnética</b> \(\vec F=q\,\vec v\times\vec B\), <b>perpendicular a \(\vec v\) e a \(\vec B\)</b>. Por ser perpendicular a \(\vec v\), ela <b>não realiza trabalho</b>: muda a <i>direção</i> da velocidade, não o seu módulo nem a energia cinética.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ F=|q|\,v\,B\,\mathrm{sen}\,\theta \]</div>
+      <table class="vars">
+        <tr><td>\(q\)</td><td>carga (em módulo)</td><td>C</td></tr>
+        <tr><td>\(v\)</td><td>módulo da velocidade</td><td>m/s</td></tr>
+        <tr><td>\(B\)</td><td>módulo do campo</td><td>T</td></tr>
+        <tr><td>\(\theta\)</td><td>ângulo entre \(\vec v\) e \(\vec B\)</td><td>° ou rad</td></tr>
+      </table>
+      <div class="cond"><b>\(\theta=0^\circ\) ou \(180^\circ\)</b> (\(\vec v\parallel\vec B\)): \(F=0\). <b>\(\theta=90^\circ\)</b>: \(F\) máxima. <b>\(v=0\)</b>: \(F=0\). Com \(\vec E\) também presente: \(\vec F=q(\vec E+\vec v\times\vec B)\). <b>1 T = 1 N/(A·m).</b></div>
+    </div>
+  </div>
+  <div><fig name="regra_mao" cls="line">Regra da mão direita (“tapa”). À direita, mesmo \(\vec v\) e mesmo \(\vec B\) (⊗, entrando): para \(q<0\) a força é <b>oposta</b> à dada pela mão.</fig></div>
+</div>
+
+<div class="mt3"><fig name="trajetorias" cls="line">Trajetória conforme o ângulo \(\theta\) entre \(\vec v\) e \(\vec B\): a componente de \(\vec v\) paralela a \(\vec B\) não sente força; a perpendicular gira em círculo.</fig></div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="err"><span class="tag o">Erro frequente</span><b>“O campo magnético acelera a partícula.”</b> Ele a <i>desvia</i> (aceleração centrípeta), mas \(|\vec v|\) e a energia cinética <b>não mudam</b>: \(\vec F\perp\vec v\) ⇒ \(W=0\). Quem aumenta a energia de uma partícula é o campo <i>elétrico</i> (seção 2.5).</div>
+  <div class="adv"><span class="tag">Aprofundamento</span><b>Produto vetorial.</b> Em eixos \(x,y,z\) (mão direita): \(\hat x\times\hat y=\hat z\), \(\hat y\times\hat z=\hat x\), \(\hat z\times\hat x=\hat y\) (ciclo), e o inverso troca o sinal. Ex.: \(\vec v=v\hat x\), \(\vec B=-B\hat z\) (entrando): \(\vec v\times\vec B=-vB(\hat x\times\hat z)=+vB\,\hat y\) ⇒ \(q>0\): força para <b>cima</b> ✓.</div>
+</div>

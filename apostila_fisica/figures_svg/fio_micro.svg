@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 206" width="332" height="206" role="img" aria-label="Fio condutor: elétrons livres colidindo com a rede; deriva lenta; corrente convencional"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="14" y="56" width="304" height="94" rx="14" fill="#fff" stroke="#6B7280" stroke-width="2.2"/>
+<circle cx="40" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="37" y1="78" x2="43" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="40" y1="75" x2="40" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="40" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="37" y1="109" x2="43" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="40" y1="106" x2="40" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="40" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="37" y1="140" x2="43" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="40" y1="137" x2="40" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="82" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="79" y1="78" x2="85" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="82" y1="75" x2="82" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="82" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="79" y1="109" x2="85" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="82" y1="106" x2="82" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="82" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="79" y1="140" x2="85" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="82" y1="137" x2="82" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="124" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="121" y1="78" x2="127" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="124" y1="75" x2="124" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="124" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="121" y1="109" x2="127" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="124" y1="106" x2="124" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="124" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="121" y1="140" x2="127" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="124" y1="137" x2="124" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="166" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="163" y1="78" x2="169" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="166" y1="75" x2="166" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="166" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="163" y1="109" x2="169" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="166" y1="106" x2="166" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="166" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="163" y1="140" x2="169" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="166" y1="137" x2="166" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="208" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="205" y1="78" x2="211" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="208" y1="75" x2="208" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="208" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="205" y1="109" x2="211" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="208" y1="106" x2="208" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="208" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="205" y1="140" x2="211" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="208" y1="137" x2="208" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="250" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="247" y1="78" x2="253" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="250" y1="75" x2="250" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="250" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="247" y1="109" x2="253" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="250" y1="106" x2="250" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="250" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="247" y1="140" x2="253" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="250" y1="137" x2="250" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="292" cy="78" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="289" y1="78" x2="295" y2="78" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="292" y1="75" x2="292" y2="81" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="292" cy="109" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="289" y1="109" x2="295" y2="109" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="292" y1="106" x2="292" y2="112" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="292" cy="140" r="8" fill="#E8EBF1" stroke="#6B7280" stroke-width="1.3"/>
+<line x1="289" y1="140" x2="295" y2="140" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="292" y1="137" x2="292" y2="143" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polyline points="70,90 60.52,91.08 55.77,90.46 46.84,92.03 34.69,92.24" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="70" cy="90" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="120,112 112.3,117.27 99.24,113.73 86.15,119.31 79.08,111.06" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="120" cy="112" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="190,84 185.82,92.37 178.36,94.45 165.94,85.72 157.22,77.79" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="190" cy="84" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="250,120 237.9,115.35 224.2,114.71 214.61,120.87 205.8,123.39" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="250" cy="120" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="100,134 91,136.92 81.57,132.93 77.55,140 71.95,140" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="100" cy="134" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="210,100 199.15,95.13 188.04,87.4 181.71,85.61 176.17,83.56" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="210" cy="100" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="290,92 285.58,98.25 271.59,93.03 266.69,92.49 262.49,90.64" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="290" cy="92" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<polyline points="160,130 146.73,132.33 140.52,128.19 127.39,125.17 123.03,129.82" fill="none" stroke="#2563EB" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<circle cx="160" cy="130" r="3.4" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<line x1="300" y1="170" x2="87.8" y2="170" stroke="#1D4ED8" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="80,170 90,166.4 90,173.6" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="67.13" y="186" font-size="11" fill="#1D4ED8"><tspan xml:space="preserve">elétrons: deriva lenta (≈ 10⁻⁴ m/s), sentido oposto a </tspan><tspan class="mi" xml:space="preserve">E</tspan></text>
+<line x1="306.3" y1="177.2" x2="313.97" y2="177.2" stroke="#1D4ED8" stroke-width="0.825" stroke-linecap="butt"/>
+<polygon points="314.47,177.2 310.73,179.07 310.73,175.33" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="40" y1="32" x2="292.2" y2="32" stroke="#0891B2" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="300,32 290,35.6 290,28.4" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="87.93" y="20" font-size="11.5" fill="#0E7490"><tspan class="mi" xml:space="preserve">E</tspan><tspan xml:space="preserve"> no fio (estabelece-se pela fonte)</tspan></text>
+<line x1="89.54" y1="10.8" x2="97.57" y2="10.8" stroke="#0E7490" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="98.07,10.8 94.16,12.75 94.16,8.84" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="40" y1="48" x2="291.42" y2="48" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="300,48 289,51.96 289,44.04" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="312.5" y="42" font-size="12.5" fill="#B25B00" font-weight="600"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<text x="29.62" y="202" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">convenção: </tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan xml:space="preserve"> tem o sentido de </tspan><tspan class="mi" xml:space="preserve">E</tspan><tspan xml:space="preserve"> (como se cargas + andassem)</tspan></text>
+<line x1="165.96" y1="193.6" x2="173.29" y2="193.6" stroke="#5B6578" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="173.79,193.6 170.22,195.38 170.22,191.81" fill="#5B6578" stroke="#5B6578" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>

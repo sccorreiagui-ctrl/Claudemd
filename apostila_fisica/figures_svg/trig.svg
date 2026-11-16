@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 150" width="332" height="150" role="img" aria-label="Triângulo retângulo: cateto oposto, adjacente e hipotenusa"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polygon points="40,122 250,122 250,30" fill="#EEF1F6" stroke="#1B2438" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="238,122 238,110 250,110" fill="none" stroke="#1B2438" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="80,122 79.95,119.94 79.79,117.88 79.52,115.83 79.15,113.8 78.68,111.79 78.1,109.81 77.42,107.86 76.64,105.95" fill="none" stroke="#1B2438" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="88.72" y="114" font-size="14" fill="#1B2438"><tspan class="mi" xml:space="preserve">θ</tspan></text>
+<text x="91.98" y="140" font-size="12" fill="#1B2438"><tspan xml:space="preserve">cateto adjacente  (</tspan><tspan class="mi" xml:space="preserve">c</tspan><tspan class="mi" font-size="8.64" dy="3.24" xml:space="preserve">a</tspan><tspan dy="-3.24" xml:space="preserve">)</tspan></text>
+<text x="260" y="80" font-size="12" fill="#1B2438"><tspan xml:space="preserve">cateto</tspan></text>
+<text x="260" y="94" font-size="12" fill="#1B2438"><tspan xml:space="preserve">oposto</tspan></text>
+<text x="260" y="108" font-size="12" fill="#1B2438"><tspan xml:space="preserve">(</tspan><tspan class="mi" xml:space="preserve">c</tspan><tspan class="mi" font-size="8.64" dy="3.24" xml:space="preserve">o</tspan><tspan dy="-3.24" xml:space="preserve">)</tspan></text>
+<text x="59.6" y="64" font-size="12" fill="#1B2438" class="halo"><tspan xml:space="preserve">hipotenusa (</tspan><tspan class="mi" xml:space="preserve">h</tspan><tspan xml:space="preserve">)</tspan></text>
+</svg>

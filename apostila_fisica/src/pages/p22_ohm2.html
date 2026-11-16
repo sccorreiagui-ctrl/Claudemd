@@ -1,0 +1,46 @@
+<!--mod=III|sec=Segunda lei de Ohm e resistividade-->
+<h3 class="top" style="margin-top:0">Segunda lei de Ohm: de que depende a resistência de um fio</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Quanto mais <b>longo</b> o fio, mais colisões os elétrons sofrem: \(R\) <b>cresce</b> com \(L\). Quanto mais <b>grosso</b>, mais caminhos em paralelo para a corrente: \(R\) <b>diminui</b> com a área \(A\). E o <b>material</b> entra pela <b>resistividade</b> \(\rho\).</div>
+    <div class="formula mt3"><span class="tag">2ª lei de Ohm</span>
+      <div class="eq">\[ R=\rho\,\frac{L}{A} \]</div>
+      <table class="vars">
+        <tr><td>\(\rho\)</td><td>resistividade do material (a uma \(T\))</td><td>\(\Omega\cdot\)m</td></tr>
+        <tr><td>\(L\)</td><td>comprimento do fio</td><td>m</td></tr>
+        <tr><td>\(A\)</td><td>área da seção reta (\(\pi r^2=\pi d^2/4\))</td><td>m²</td></tr>
+      </table>
+      <div class="cond"><b>Validade:</b> fio homogêneo, de seção uniforme, a temperatura constante. Mesmo material, comprimento e área ⇒ mesma \(R\). <b>Cuidado com unidades:</b> \(\mathrm{mm}^2\to10^{-6}\un{m^2}\). <span class="mem"><b>Memória:</b> “\(R\) é diretamente proporcional a \(L\) e inversamente a \(A\)”.</span></div>
+    </div>
+  </div>
+  <div class="stack">
+    <fig name="fios_RL">Mesmo material: o fio 2 tem metade do comprimento e o dobro da área ⇒ resistência \(\tfrac14\).</fig>
+    <table class="t zebra tight"><tr><th>Material (20 °C)</th><th class="num">\(\rho\) (\(\Omega\cdot\mathrm{m}\))</th></tr>
+      <tr><td>prata</td><td class="num">\(1{,}6\times10^{-8}\)</td></tr><tr><td>cobre</td><td class="num">\(1{,}7\times10^{-8}\)</td></tr>
+      <tr><td>alumínio</td><td class="num">\(2{,}8\times10^{-8}\)</td></tr><tr><td>tungstênio (filamento)</td><td class="num">\(5{,}6\times10^{-8}\)</td></tr>
+      <tr><td>nicromo (resistências de aquecimento)</td><td class="num">\(1{,}1\times10^{-6}\)</td></tr>
+      <tr><td>silício puro (semicondutor)</td><td class="num">\(\sim2\times10^{3}\)</td></tr><tr><td>vidro, borracha (isolantes)</td><td class="num">\(10^{10}\) a \(10^{14}\)</td></tr></table>
+  </div>
+</div>
+
+<h3 class="mt2">Temperatura: nem toda resistência é “constante”</h3>
+<div class="c2 g3 ai-s">
+  <div><fig name="rho_T">Nos <b>metais</b>, \(\rho\) cresce com \(T\) (mais vibração da rede, mais colisões); em semicondutores como o <b>termistor NTC</b>, diminui (mais portadores livres).</fig></div>
+  <div>
+    <p class="small">Para variações moderadas, \(\rho=\rho_0\,[\,1+\alpha\,(T-T_0)\,]\); para o cobre, \(\alpha\approx4\times10^{-3}\,\mathrm{K^{-1}}\). Por isso o filamento quente de uma lâmpada tem muito mais resistência que frio, e um fio aquecido por excesso de corrente <b>piora</b> a própria situação (mais \(R\), mais calor).</p>
+    <p class="small mb0"><b>Aplicações:</b> sensores de temperatura (NTC/PTC), resistências de chuveiro e ferro (nicromo: \(\rho\) alta e estável), fios de cobre nas instalações (\(\rho\) baixa).</p>
+  </div>
+</div>
+
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 12</span>{{lvl:2}}<span class="tt">Resistência, queda de tensão e calor em um fio</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Um fio de cobre (\(\rho=1{,}7\times10^{-8}\,\Omega\cdot\mathrm{m}\)), \(50\) m e \(1{,}6\) mm de diâmetro, conduz \(5{,}0\) A. Calcule (a) \(R\); (b) a queda de tensão e a potência dissipada; (c) \(R\) e potência se o diâmetro for dobrado.</p>
+      <p class="st"><b class="l">Interpretação e método</b> 2ª lei: \(R=\rho L/A\) com \(A=\pi r^2\), \(r=0{,}8\) mm. Dobrar o diâmetro <i>quadruplica</i> a área. Depois, 1ª lei \(U=RI\) e \(P=RI^2\).</p>
+      <div class="calc">\[ \begin{aligned} A&=\pi\,(0{,}8\times10^{-3})^{2}=2{,}0\times10^{-6}\un{m^2}\\ R&=\frac{\rho L}{A}=\frac{1{,}7\times10^{-8}\cdot50}{2{,}0\times10^{-6}}=0{,}42\ \Omega\\ U&=RI=0{,}42\cdot5{,}0=2{,}1\un{V}\qquad P=RI^2\approx11\un{W}\\ \text{(c)}\ R'&=\frac{R}{4}\approx0{,}11\ \Omega\qquad P'\approx2{,}6\un{W} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(P=UI=2{,}1\cdot5{,}0\approx10{,}5\) W ✓. Um fio comum “perde” ~2 V em 50 m a 5 A; mais corrente ou fio mais fino ⇒ mais calor e mais queda de tensão: por isso a <b>bitola</b> importa.</p>
+    </div>
+    <div><fig name="ex_fio"/></div>
+  </div>
+</div>

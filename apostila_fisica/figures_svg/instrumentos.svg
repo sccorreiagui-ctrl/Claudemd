@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 268" width="680" height="268" role="img" aria-label="Ligação correta e incorreta de amperímetro e voltímetro"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="83.45" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Amperímetro em série (correto)</tspan></text>
+<line x1="0" y1="22" x2="330" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="36,100 36,76.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="36,69.25 36,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="28.5" y1="76.75" x2="43.5" y2="76.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="23" y1="69.25" x2="49" y2="69.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="53.67" y="87.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="53.67" y="66.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="36,100 290,100" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="36,46 60,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="60,46 91.5,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="118.5,46 150,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="105" cy="46" r="13.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="101.09" y="50.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<polyline points="150,46 170,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="170,46 207,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="253,46 290,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="207,46 210.83,53.5 218.5,38.5 226.17,53.5 233.83,38.5 241.5,53.5 249.17,38.5 253,46" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="225.26" y="33.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="290,46 290,100" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="55.34" y="124" font-size="11" fill="#1B2438"><tspan xml:space="preserve">mede a corrente que passa por </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan xml:space="preserve">; ideal: </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="7.92" dy="2.97" xml:space="preserve">A</tspan><tspan class="mr" dy="-2.97" dx="3.08" xml:space="preserve">=</tspan><tspan class="mr" dx="3.08" xml:space="preserve">0</tspan></text>
+<text x="431.29" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Voltímetro em paralelo (correto)</tspan></text>
+<line x1="350" y1="22" x2="680" y2="22" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="386,100 386,76.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="386,69.25 386,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="378.5" y1="76.75" x2="393.5" y2="76.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="373" y1="69.25" x2="399" y2="69.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="403.67" y="87.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="403.67" y="66.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="386,100 640,100" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="386,46 410,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="410,46 450,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="450,46 490,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="540,46 580,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="490,46 494.17,53.5 502.5,38.5 510.83,53.5 519.17,38.5 527.5,53.5 535.83,38.5 540,46" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="510.26" y="33.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="580,46 640,46 640,100" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="480" cy="46" r="3.7" fill="#1B2438"/>
+<circle cx="550" cy="46" r="3.7" fill="#1B2438"/>
+<polyline points="480,46 480,60" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="550,46 550,60" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="480,60 480,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="550,60 550,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="480,68 504,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="526,68 550,68" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="515" cy="68" r="11" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="511.25" y="72.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">V</tspan></text>
+<text x="436.61" y="124" font-size="11" fill="#1B2438"><tspan xml:space="preserve">mede a DDP em </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan xml:space="preserve">; ideal: </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="7.92" dy="2.97" xml:space="preserve">V</tspan><tspan class="mr" dy="-2.97" dx="3.08" xml:space="preserve">→</tspan><tspan class="mr" dx="3.08" xml:space="preserve">∞</tspan></text>
+<text x="60.35" y="150" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Amperímetro em paralelo: curto-circuito</tspan></text>
+<line x1="0" y1="158" x2="330" y2="158" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="36,236 36,212.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="36,205.25 36,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="28.5" y1="212.75" x2="43.5" y2="212.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="23" y1="205.25" x2="49" y2="205.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="53.67" y="223.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="53.67" y="202.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="36,236 290,236" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="36,182 60,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="60,182 100,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,182 140,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="190,182 230,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="140,182 144.17,189.5 152.5,174.5 160.83,189.5 169.17,174.5 177.5,189.5 185.83,174.5 190,182" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="160.26" y="169.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="230,182 290,182 290,236" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="130" cy="182" r="3.7" fill="#1B2438"/>
+<circle cx="200" cy="182" r="3.7" fill="#1B2438"/>
+<polyline points="130,182 130,204" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="200,182 200,204" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="130,204 154,204" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="176,204 200,204" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="165" cy="204" r="11" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="161.09" y="208.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<text x="74.59" y="260" font-size="11" fill="#BF2B31" font-weight="600"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="7.92" dy="2.97" xml:space="preserve">A</tspan><tspan class="mr" dy="-2.97" dx="3.08" xml:space="preserve">≈</tspan><tspan class="mr" dx="3.08" xml:space="preserve">0</tspan><tspan font-weight="600" xml:space="preserve"> contorna </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan font-weight="600" xml:space="preserve">: corrente enorme!</tspan></text>
+<text x="412.45" y="150" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Voltímetro em série: não passa corrente</tspan></text>
+<line x1="350" y1="158" x2="680" y2="158" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<polyline points="386,236 386,212.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="386,205.25 386,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="378.5" y1="212.75" x2="393.5" y2="212.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="373" y1="205.25" x2="399" y2="205.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="403.67" y="223.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="403.67" y="202.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="386,236 640,236" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="386,182 410,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="410,182 441.5,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="468.5,182 500,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="455" cy="182" r="13.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="451.25" y="186.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">V</tspan></text>
+<polyline points="500,182 520,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="520,182 557,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="603,182 640,182" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,182 560.83,189.5 568.5,174.5 576.17,189.5 583.83,174.5 591.5,189.5 599.17,174.5 603,182" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="575.26" y="169.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="640,182 640,236" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="430" y="260" font-size="11" fill="#BF2B31" font-weight="600"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="7.92" dy="2.97" xml:space="preserve">V</tspan><tspan dy="-2.97" font-weight="600" xml:space="preserve"> enorme bloqueia: </tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan class="mr" dx="3.08" xml:space="preserve">≈</tspan><tspan class="mr" dx="3.08" xml:space="preserve">0</tspan><tspan font-weight="600" xml:space="preserve"> e lê </tspan><tspan class="mr" dx="3.08" xml:space="preserve">≈</tspan><tspan class="mi" dx="3.08" xml:space="preserve">ε</tspan></text>
+</svg>

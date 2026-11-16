@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 128" width="332" height="128" role="img" aria-label="Exemplo 15: o mesmo resistor em 127 V e em 220 V"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="8" y="14" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Potência dissipada, com </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" dx="3.36" xml:space="preserve">=</tspan><tspan class="mr" dx="3.36" xml:space="preserve">3,67</tspan><tspan class="mr" dx="3.6" xml:space="preserve">Ω</tspan></text>
+<text x="8" y="40" font-size="11" fill="#1B2438"><tspan xml:space="preserve">127 V (nominal)</tspan></text>
+<rect x="8" y="46" width="63.33" height="15" rx="3" fill="#E1F4E8" stroke="#16A34A" stroke-width="1.8"/>
+<rect x="8" y="46" width="63.33" height="15" rx="3" fill="#16A34A" stroke="none" fill-opacity="0.35"/>
+<text x="77.33" y="58" font-size="11.5" fill="#15803D" font-weight="700"><tspan font-weight="600" xml:space="preserve">4 400 W</tspan></text>
+<text x="8" y="80" font-size="11" fill="#1B2438"><tspan xml:space="preserve">220 V (por engano)</tspan></text>
+<rect x="8" y="86" width="190" height="15" rx="3" fill="#E1F4E8" stroke="#16A34A" stroke-width="1.8"/>
+<rect x="8" y="86" width="190" height="15" rx="3" fill="#16A34A" stroke="none" fill-opacity="0.35"/>
+<text x="204" y="98" font-size="11.5" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">13 200 W  (×3,0)</tspan></text>
+<text x="82.94" y="122" font-size="11" fill="#5B6578"><tspan class="mi" xml:space="preserve">P</tspan><tspan class="mr" dx="3.08" xml:space="preserve">∝</tspan><tspan class="mi" dx="3.08" xml:space="preserve">U</tspan><tspan class="mr" font-size="7.92" dy="-4.4" xml:space="preserve">2</tspan><tspan dy="4.4" xml:space="preserve">: tensão ×1,73 ⇒ potência ×3,0</tspan></text>
+</svg>

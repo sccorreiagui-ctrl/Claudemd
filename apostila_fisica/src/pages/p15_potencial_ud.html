@@ -1,0 +1,42 @@
+<!--mod=II|sec=U = Ed, aceleração e dipolo-->
+<h3 class="top" style="margin-top:0">DDP e campo uniforme: \(U=E\,d\) — e quando <u>não</u> usar</h3>
+<div class="c2 g3 ai-s">
+  <div><fig name="placas_equip">Entre placas paralelas as equipotenciais são planos paralelos às placas, igualmente espaçados.</fig></div>
+  <div>
+    <div class="formula"><span class="tag">Fórmula</span>
+      <div class="eq">\[ U=E\,d \]</div>
+      <table class="vars">
+        <tr><td>\(U\)</td><td>DDP entre as placas (ou equipotenciais)</td><td>V</td></tr>
+        <tr><td>\(E\)</td><td>campo <b>uniforme</b></td><td>V/m</td></tr>
+        <tr><td>\(d\)</td><td>distância <b>ao longo das linhas</b></td><td>m</td></tr>
+      </table>
+      <div class="cond"><b>Origem:</b> \(W=Fd=qEd=qU\). <b>Validade:</b> só em campo <i>uniforme</i>, com \(d\) medida <i>paralelamente</i> a \(\vec E\). Para um deslocamento \(\ell\) inclinado de \(\theta\): \(U=E\,\ell\cos\theta\). <b>Não vale</b> para carga puntiforme (aí \(E\) varia com \(1/r^2\) e \(V=kQ/r\)).</div>
+    </div>
+  </div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 8</span>{{lvl:2}}<span class="tt">Elétron acelerado por uma DDP</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Um elétron é abandonado em repouso junto à placa \(A\) (0 V) de um canhão de elétrons; a placa \(B\), a \(2{,}0\) cm, está a \(+400\) V. Despreze o peso. Calcule o trabalho da força elétrica, a velocidade ao passar por \(B\), o campo entre as placas e a aceleração. (\(e=1{,}6\times10^{-19}\un{C}\); \(m=9{,}1\times10^{-31}\un{kg}\))</p>
+      <p class="st"><b class="l">Interpretação e método</b> Elétron (\(q<0\)) vai de <i>menor</i> para <i>maior</i> potencial: \(\vec E\) aponta de \(B\) para \(A\), a força de \(A\) para \(B\); \(E_p\) diminui e \(E_c\) aumenta. Use \(W=q(V_A-V_B)\), \(W=\tfrac12mv^2\), \(E=U/d\) e \(a=eE/m\).</p>
+      <div class="calc">\[ \begin{aligned} W&=q\,(V_A-V_B)=(-1{,}6\times10^{-19})(0-400)\\ &=6{,}4\times10^{-17}\un{J}\\ v&=\sqrt{\frac{2W}{m}}=\sqrt{\frac{2\cdot6{,}4\times10^{-17}}{9{,}1\times10^{-31}}}\approx1{,}2\times10^{7}\un{m/s}\\ E&=\frac{U}{d}=\frac{400}{0{,}020}=2{,}0\times10^{4}\un{V/m}\\ a&=\frac{eE}{m}\approx3{,}5\times10^{15}\un{m/s^2} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(v^2=2ad=1{,}4\times10^{14}\) \(\checkmark\) (igual ao obtido pela energia); \(v\approx4\%\) de \(c\): tratamento clássico aceitável. Esse elétron (\(v\approx1{,}2\times10^{7}\) m/s) volta no Exemplo 27 (seção 4.3).</p>
+    </div>
+    <div><fig name="acel_eletron">Elétron entre duas placas: \(\vec F\) tem sentido oposto a \(\vec E\).</fig></div>
+  </div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 9</span>{{lvl:3}}<span class="tt">Campo e potencial no ponto médio de um dipolo</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Duas cargas \(+Q\) e \(-Q\), \(Q=2{,}0\,\mu\mathrm{C}\), estão a \(0{,}60\) m uma da outra, no vácuo. No ponto médio \(M\), calcule o campo elétrico, o potencial e o trabalho da força elétrica para levar \(q=+1{,}0\) nC de \(M\) até muito longe (\(V_\infty=0\)).</p>
+      <p class="st"><b class="l">Interpretação</b> Em \(M\), os campos têm <b>mesmo sentido</b> e <b>somam-se</b>; os potenciais têm sinais opostos e somam-se <b>algebricamente</b>. \(r=0{,}30\) m.</p>
+      <div class="calc">\[ \begin{aligned} E_M&=2\,\frac{kQ}{r^2}=2\cdot\frac{9{,}0\times10^{9}\cdot2{,}0\times10^{-6}}{(0{,}30)^2}=4{,}0\times10^{5}\un{N/C}\\ V_M&=\frac{kQ}{r}-\frac{kQ}{r}=0\qquad W_{M\infty}=q\,(V_M-V_\infty)=0 \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> Há campo intenso, mas \(V=0\) e \(W=0\): a mediatriz do dipolo é uma <b>equipotencial</b> e \(\vec E\) é perpendicular a ela. Moral: <b>\(V=0\) não implica \(E=0\)</b>.</p>
+    </div>
+    <div><fig name="dip_mid"/></div>
+  </div>
+</div>

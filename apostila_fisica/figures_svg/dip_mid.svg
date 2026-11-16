@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 168" width="332" height="168" role="img" aria-label="Exemplo 9: ponto médio de um dipolo, campo não nulo e potencial nulo"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="166" y1="14" x2="166" y2="144" stroke="#0E7490" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="174" y="24" font-size="11.5" fill="#0E7490" font-weight="600"><tspan class="mi" xml:space="preserve">V</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">0</tspan><tspan font-weight="600" xml:space="preserve"> (mediatriz)</tspan></text>
+<line x1="66" y1="78" x2="266" y2="78" stroke="#9AA3B2" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="114" y1="56" x2="212.64" y2="56" stroke="#0E7490" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="222,56 210,60.32 210,51.68" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="160.66" y="46" font-size="13" fill="#0E7490" class="halo"><tspan class="mi" xml:space="preserve">E</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">M</tspan></text>
+<line x1="162.48" y1="35.6" x2="171.56" y2="35.6" stroke="#0E7490" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="172.06,35.6 167.64,37.81 167.64,33.39" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="52" cy="78" r="12" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="45.76" y1="78" x2="58.24" y2="78" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="52" y1="71.76" x2="52" y2="84.24" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="280" cy="78" r="12" fill="#E3EBFD" stroke="#2563EB" stroke-width="2"/>
+<line x1="273.76" y1="78" x2="286.24" y2="78" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="166" cy="78" r="3.8" fill="#fff" stroke="#1B2438" stroke-width="1.9"/>
+<text x="149.69" y="96" font-size="12.5" fill="#1B2438" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">M</tspan></text>
+<text x="42.19" y="106" font-size="12.5" fill="#BF2B31"><tspan class="mr" xml:space="preserve">+</tspan><tspan class="mi" xml:space="preserve">Q</tspan></text>
+<text x="270.19" y="106" font-size="12.5" fill="#1D4ED8"><tspan class="mr" xml:space="preserve">−</tspan><tspan class="mi" xml:space="preserve">Q</tspan></text>
+<line x1="56.68" y1="116" x2="161.32" y2="116" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="166,116 160,118.4 160,113.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="52,116 58,113.6 58,118.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="170.68" y1="116" x2="275.32" y2="116" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="280,116 274,118.4 274,113.6" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="166,116 172,113.6 172,118.4" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="93.08" y="132" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">0,30 m</tspan></text>
+<text x="207.08" y="132" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">0,30 m</tspan></text>
+<text x="36.9" y="160" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">campo reforçado (mesmo sentido), potenciais se cancelam</tspan></text>
+</svg>

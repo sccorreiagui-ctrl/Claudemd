@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 142" width="236" height="142" role="img" aria-label="Bobina em campo crescente: corrente induzida anti-horária"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="3" y="3" width="230" height="136" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.2"/>
+<circle cx="22" cy="22" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="19.56" y1="19.56" x2="24.44" y2="24.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="19.56" y1="24.44" x2="24.44" y2="19.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="62" cy="22" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="59.56" y1="19.56" x2="64.44" y2="24.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="59.56" y1="24.44" x2="64.44" y2="19.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="174" cy="22" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="171.56" y1="19.56" x2="176.44" y2="24.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="171.56" y1="24.44" x2="176.44" y2="19.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="214" cy="22" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="211.56" y1="19.56" x2="216.44" y2="24.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="211.56" y1="24.44" x2="216.44" y2="19.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="22" cy="52" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="19.56" y1="49.56" x2="24.44" y2="54.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="19.56" y1="54.44" x2="24.44" y2="49.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="62" cy="52" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="59.56" y1="49.56" x2="64.44" y2="54.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="59.56" y1="54.44" x2="64.44" y2="49.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="174" cy="52" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="171.56" y1="49.56" x2="176.44" y2="54.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="171.56" y1="54.44" x2="176.44" y2="49.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="214" cy="52" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="211.56" y1="49.56" x2="216.44" y2="54.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="211.56" y1="54.44" x2="216.44" y2="49.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="22" cy="92" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="19.56" y1="89.56" x2="24.44" y2="94.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="19.56" y1="94.44" x2="24.44" y2="89.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="62" cy="92" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="59.56" y1="89.56" x2="64.44" y2="94.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="59.56" y1="94.44" x2="64.44" y2="89.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="174" cy="92" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="171.56" y1="89.56" x2="176.44" y2="94.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="171.56" y1="94.44" x2="176.44" y2="89.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="214" cy="92" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="211.56" y1="89.56" x2="216.44" y2="94.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="211.56" y1="94.44" x2="216.44" y2="89.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="22" cy="122" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="19.56" y1="119.56" x2="24.44" y2="124.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="19.56" y1="124.44" x2="24.44" y2="119.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="62" cy="122" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="59.56" y1="119.56" x2="64.44" y2="124.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="59.56" y1="124.44" x2="64.44" y2="119.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="174" cy="122" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="171.56" y1="119.56" x2="176.44" y2="124.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="171.56" y1="124.44" x2="176.44" y2="119.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="214" cy="122" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="211.56" y1="119.56" x2="216.44" y2="124.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="211.56" y1="124.44" x2="216.44" y2="119.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="84" cy="30" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="81.56" y1="27.56" x2="86.44" y2="32.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="81.56" y1="32.44" x2="86.44" y2="27.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="152" cy="30" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="149.56" y1="27.56" x2="154.44" y2="32.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="149.56" y1="32.44" x2="154.44" y2="27.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="84" cy="116" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="81.56" y1="113.56" x2="86.44" y2="118.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="81.56" y1="118.44" x2="86.44" y2="113.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="152" cy="116" r="4.2" fill="none" stroke="#7C3AED" stroke-width="1.0"/>
+<line x1="149.56" y1="113.56" x2="154.44" y2="118.44" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="149.56" y1="118.44" x2="154.44" y2="113.56" stroke="#7C3AED" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="118" cy="72" r="44" fill="none" stroke="#F08C00" stroke-width="3.0"/>
+<polygon points="146.19,37.89 157.16,42.6 150.51,49.01" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="89.81,106.11 78.84,101.4 85.49,94.99" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="118" cy="72" r="11" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.7" stroke-dasharray="3 2"/>
+<circle cx="118" cy="72" r="3.2" fill="#7C3AED"/>
+<text x="100.64" y="99" font-size="10.5" fill="#6D28D9" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="7.56" dy="2.83" xml:space="preserve">ind</tspan><tspan dy="-2.83" font-weight="600" xml:space="preserve"> (⊙)</tspan></text>
+<line x1="102.11" y1="90.6" x2="109.66" y2="90.6" stroke="#6D28D9" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="110.16,90.6 106.59,92.38 106.59,88.81" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="168" y="34" font-size="12.5" fill="#B25B00" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<text x="14" y="15" font-size="10.5" fill="#6D28D9" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> cresce (⊗)</tspan></text>
+<line x1="15.47" y1="6.6" x2="23.02" y2="6.6" stroke="#6D28D9" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="23.52,6.6 19.95,8.38 19.95,4.81" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>

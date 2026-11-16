@@ -1,0 +1,6 @@
+node_modules/
+build/preview/
+build/*.pdf
+build/_*
+__pycache__/
+*.pyc

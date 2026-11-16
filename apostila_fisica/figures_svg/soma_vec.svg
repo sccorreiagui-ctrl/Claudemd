@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" width="680" height="150" role="img" aria-label="Soma de vetores: mesmo sentido, sentidos opostos, perpendiculares"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="42.8" y="13" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Mesma direção e sentido</tspan></text>
+<line x1="0" y1="21" x2="213" y2="21" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<text x="254.01" y="13" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Mesma direção, sentidos opostos</tspan></text>
+<line x1="233" y1="21" x2="446" y2="21" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<text x="506.9" y="13" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Direções perpendiculares</tspan></text>
+<line x1="466" y1="21" x2="679" y2="21" stroke="#C9D0DC" stroke-width="1" stroke-linecap="round"/>
+<line x1="14" y1="52" x2="76.2" y2="52" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="84,52 74,55.6 74,48.4" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="42.48" y="43" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">1</tspan></text>
+<line x1="44.3" y1="32.6" x2="52.14" y2="32.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="52.64,32.6 48.22,34.81 48.22,30.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="84" y1="52" x2="176.2" y2="52" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="184,52 174,55.6 174,48.4" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="127.48" y="43" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">2</tspan></text>
+<line x1="129.3" y1="32.6" x2="137.14" y2="32.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="137.64,32.6 133.22,34.81 133.22,30.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="14" y1="90" x2="174.64" y2="90" stroke="#1B2438" stroke-width="3.6" stroke-linecap="round"/>
+<polygon points="184,90 172,94.32 172,85.68" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="91.27" y="81" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">R</tspan></text>
+<line x1="93.09" y1="70.6" x2="100.93" y2="70.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="101.43,70.6 97.01,72.81 97.01,68.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="69.12" y="128" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">R</tspan><tspan class="mr" dy="-3.51" dx="3.64" xml:space="preserve">=</tspan><tspan class="mi" dx="3.64" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.51" dx="2.86" xml:space="preserve">+</tspan><tspan class="mi" dx="2.86" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">2</tspan></text>
+<line x1="333" y1="50" x2="415.2" y2="50" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="423,50 413,53.6 413,46.4" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="371.48" y="41" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">1</tspan></text>
+<line x1="373.3" y1="30.6" x2="381.14" y2="30.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="381.64,30.6 377.22,32.81 377.22,28.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="333" y1="68" x2="280.8" y2="68" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="273,68 283,64.4 283,71.6" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="296.48" y="86" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">2</tspan></text>
+<line x1="298.3" y1="75.6" x2="306.14" y2="75.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="306.64,75.6 302.22,77.81 302.22,73.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="333" y1="100" x2="353.64" y2="100" stroke="#1B2438" stroke-width="3.6" stroke-linecap="round"/>
+<polygon points="363,100 351,104.32 351,95.68" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="381" y="105" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">R</tspan></text>
+<line x1="382.82" y1="94.6" x2="390.66" y2="94.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="391.16,94.6 386.74,96.81 386.74,92.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="333" y1="44" x2="333" y2="106" stroke="#9AA3B2" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="269.4" y="128" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="9" dy="3.38" xml:space="preserve">R</tspan><tspan class="mr" dy="-3.38" dx="3.5" xml:space="preserve">=</tspan><tspan class="mi" dx="3.5" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.38" dx="2.75" xml:space="preserve">−</tspan><tspan class="mi" dx="2.75" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve">  (se </tspan><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.38" dx="3.5" xml:space="preserve">&gt;</tspan><tspan class="mi" dx="3.5" xml:space="preserve">F</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve">)</tspan></text>
+<line x1="506" y1="92" x2="608.2" y2="92" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="616,92 606,95.6 606,88.4" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="555.48" y="107" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">1</tspan></text>
+<line x1="557.3" y1="96.6" x2="565.14" y2="96.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="565.64,96.6 561.22,98.81 561.22,94.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="506" y1="92" x2="506" y2="47.8" stroke="#1B2438" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="506,40 509.6,50 502.4,50" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="484.96" y="68" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">2</tspan></text>
+<line x1="486.78" y1="57.6" x2="494.62" y2="57.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="495.12,57.6 490.7,59.81 490.7,55.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="616" y1="92" x2="616" y2="40" stroke="#6B7280" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="506" y1="40" x2="616" y2="40" stroke="#6B7280" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="506" y1="92" x2="607.54" y2="44" stroke="#1B2438" stroke-width="3.6" stroke-linecap="round"/>
+<polygon points="616,40 607,49.03 603.3,41.22" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="528.27" y="48" font-size="13" fill="#1B2438" class="halo"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">R</tspan></text>
+<line x1="530.09" y1="37.6" x2="537.93" y2="37.6" stroke="#1B2438" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="538.43,37.6 534.01,39.81 534.01,35.39" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="553.67,124.1 555.1,123.19 557.44,129.3 560.56,117.6 622.36,117.6" fill="none" stroke="#1B2438" stroke-width="0.975" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="524.2" y="128" font-size="13" fill="#1B2438"><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mi" font-size="9.36" dy="3.51" xml:space="preserve">R</tspan><tspan class="mr" dy="-3.51" dx="3.64" xml:space="preserve">=</tspan><tspan class="mr" dx="3.64" xml:space="preserve"></tspan><tspan class="mi" dx="8.06" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">1</tspan><tspan class="mr" font-size="9.36" dy="-8.71" dx="2.21" xml:space="preserve">2</tspan><tspan class="mr" dy="5.2" dx="2.86" xml:space="preserve">+</tspan><tspan class="mi" dx="2.86" xml:space="preserve">F</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">2</tspan><tspan class="mr" font-size="9.36" dy="-8.71" dx="2.21" xml:space="preserve">2</tspan></text>
+<text x="538.23" y="145" font-size="12" fill="#1B2438"><tspan class="mr" dx="2.04" xml:space="preserve">tg</tspan><tspan class="mi" dx="4.08" xml:space="preserve">θ</tspan><tspan class="mr" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">F</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.24" xml:space="preserve">/</tspan><tspan class="mi" xml:space="preserve">F</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan></text>
+</svg>

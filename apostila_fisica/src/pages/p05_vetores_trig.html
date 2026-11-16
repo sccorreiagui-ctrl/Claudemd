@@ -1,0 +1,41 @@
+<!--mod=I|sec=Vetores e trigonometria-->
+<h2 class="sec top" data-toc="1.6|Escalares, vetores e trigonometria"><span class="num">1.6</span> Grandezas escalares e vetoriais</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span><b>Escalar</b>: um número e uma unidade bastam (carga, energia, potencial). <b>Vetorial</b>: é preciso também <i>direção</i> e <i>sentido</i> (força, campo elétrico, campo magnético, velocidade).</div>
+    <table class="t cmp tight mt2">
+      <tr><th>Escalares</th><th>Vetoriais</th></tr>
+      <tr><td style="white-space:normal;font-weight:400">carga \(q\), energia \(E\), potencial \(V\), tensão \(U\), potência \(P\), resistência \(R\), massa, tempo</td><td style="white-space:normal">força \(\vec F\), campo elétrico \(\vec E\), campo magnético \(\vec B\), velocidade \(\vec v\), aceleração \(\vec a\)</td></tr>
+    </table>
+    <div class="err mt2"><span class="tag o">Erro frequente</span>A <b>corrente elétrica é escalar</b>. Seu “sentido” só indica o ramo por onde circula; as correntes de um nó somam-se <i>algebricamente</i>, nunca pela regra do paralelogramo.</div>
+  </div>
+  <div><fig name="vec_anatomia">Um vetor: o comprimento da seta é o módulo; a reta suporte dá a direção; a ponta, o sentido. Componentes: \(F_x=F\cos\theta\), \(F_y=F\,\sen\theta\).</fig></div>
+</div>
+
+<h3 class="mt3">Soma de vetores</h3>
+<fig name="soma_vec" cls="line">Três casos particulares. Caso geral (ângulo \(\alpha\) entre os vetores, de mesma origem): \(F_R^{2}=F_1^{2}+F_2^{2}+2F_1F_2\cos\alpha\) — com \(\alpha=0^\circ\), \(180^\circ\) e \(90^\circ\) recaímos nos três desenhos.</fig>
+<p class="small mt2"><b>Método geral (vários vetores):</b> decomponha cada um em \(x\) e \(y\); some as componentes (\(R_x=\sum F_x\), \(R_y=\sum F_y\)); recomponha \(F_R=\sqrt{R_x^{2}+R_y^{2}}\) e \(\tg\varphi=R_y/R_x\). Respeite os sinais: componentes para a esquerda ou para baixo são negativas.</p>
+
+<h2 class="sec mt3" style="font-size:12pt;margin-bottom:1.6mm">Trigonometria no triângulo retângulo</h2>
+<div class="c2 g3 ai-s">
+  <div><fig name="trig"/></div>
+  <div>
+    <p class="mb1">\(\sen\theta=\dfrac{c_o}{h}\)  ·  \(\cos\theta=\dfrac{c_a}{h}\)  ·  \(\tg\theta=\dfrac{c_o}{c_a}\)  ·  \(h^{2}=c_o^{2}+c_a^{2}\)</p>
+    <table class="t cmp tight zebra">
+      <tr><th class="c">θ</th><th class="c">0°</th><th class="c">30°</th><th class="c">37°</th><th class="c">45°</th><th class="c">53°</th><th class="c">60°</th><th class="c">90°</th></tr>
+      <tr><td>sen θ</td><td class="c">0</td><td class="c">0,50</td><td class="c">0,60</td><td class="c">0,71</td><td class="c">0,80</td><td class="c">0,87</td><td class="c">1</td></tr>
+      <tr><td>cos θ</td><td class="c">1</td><td class="c">0,87</td><td class="c">0,80</td><td class="c">0,71</td><td class="c">0,60</td><td class="c">0,50</td><td class="c">0</td></tr>
+      <tr><td>tg θ</td><td class="c">0</td><td class="c">0,58</td><td class="c">0,75</td><td class="c">1</td><td class="c">1,33</td><td class="c">1,73</td><td class="c">—</td></tr>
+    </table>
+    <p class="note mt1">37° e 53° vêm do triângulo 3–4–5 (valores aproximados). \(\cos\theta\) é “a parte que fica ao lado” do ângulo; \(\sen\theta\) é “a parte oposta”.</p>
+  </div>
+</div>
+
+<h3 class="mt3">Vetores perpendiculares ao papel: ⊙ e ⊗</h3>
+<div class="c2 g3 ai-s">
+  <div><fig name="dotcross">Convenção para desenhar o terceiro eixo em uma folha plana.</fig></div>
+  <div>
+    <p>Com \(x\) para a direita e \(y\) para cima, o eixo \(z\) <b>sai</b> do papel em direção a você. Vetor com sentido \(+z\): desenhe \(\odot\) (você vê a <i>ponta</i> da seta). Vetor com sentido \(-z\): desenhe \(\otimes\) (você vê a <i>cauda</i> com as penas).</p>
+    <div class="box soft mt2"><p class="small mb0"><span class="tag acc">Exemplo ilustrado</span> Um campo magnético uniforme \(\vec B=-B\,\hat z\) “entra” na página: representa-se por uma grade de \(\otimes\). Uma carga positiva com \(\vec v=+v\,\hat x\) (para a direita) move-se <i>perpendicularmente</i> a \(\vec B\). Esse arranjo — \(\vec v\) no plano, \(\vec B\) \(\otimes\) — será a base da força magnética (seção 4.3): saber ler \(\odot\) e \(\otimes\) evita errar o sentido da força.</p></div>
+  </div>
+</div>

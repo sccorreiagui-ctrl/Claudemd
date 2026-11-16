@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 172" width="332" height="172" role="img" aria-label="Capacitor de placas paralelas carregado"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="100" y="40" width="180" height="8" rx="0" fill="#FDE6E7" stroke="#E5484D" stroke-width="1.8"/>
+<rect x="100" y="116" width="180" height="8" rx="0" fill="#E3EBFD" stroke="#2563EB" stroke-width="1.8"/>
+<rect x="101" y="49" width="178" height="66" rx="0" fill="#E8EBF1" stroke="none" fill-opacity="0.35"/>
+<line x1="108.8" y1="44" x2="115.2" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="112" y1="41" x2="112" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="108.8" y1="120" x2="115.2" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="112" y1="52" x2="112" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="112,82 109,74.5 115,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="131.09" y1="44" x2="137.49" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="134.29" y1="41" x2="134.29" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="131.09" y1="120" x2="137.49" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="134.29" y1="52" x2="134.29" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="134.29,82 131.29,74.5 137.29,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="153.37" y1="44" x2="159.77" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="156.57" y1="41" x2="156.57" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="153.37" y1="120" x2="159.77" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="156.57" y1="52" x2="156.57" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="156.57,82 153.57,74.5 159.57,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="175.66" y1="44" x2="182.06" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="178.86" y1="41" x2="178.86" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="175.66" y1="120" x2="182.06" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="178.86" y1="52" x2="178.86" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="178.86,82 175.86,74.5 181.86,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="197.94" y1="44" x2="204.34" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="201.14" y1="41" x2="201.14" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="197.94" y1="120" x2="204.34" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="201.14" y1="52" x2="201.14" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="201.14,82 198.14,74.5 204.14,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="220.23" y1="44" x2="226.63" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="223.43" y1="41" x2="223.43" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="220.23" y1="120" x2="226.63" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="223.43" y1="52" x2="223.43" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="223.43,82 220.43,74.5 226.43,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="242.51" y1="44" x2="248.91" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="245.71" y1="41" x2="245.71" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="242.51" y1="120" x2="248.91" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="245.71" y1="52" x2="245.71" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="245.71,82 242.71,74.5 248.71,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="264.8" y1="44" x2="271.2" y2="44" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="268" y1="41" x2="268" y2="47" stroke="#BF2B31" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="264.8" y1="120" x2="271.2" y2="120" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="268" y1="52" x2="268" y2="112" stroke="#0891B2" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="268,82 265,74.5 271,74.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="147.32" y="98" font-size="10.5" fill="#5B6578" class="halo"><tspan xml:space="preserve">dielétrico (isolante)</tspan></text>
+<text x="260.39" y="34" font-size="12.5" fill="#BF2B31"><tspan class="mr" xml:space="preserve">+</tspan><tspan class="mi" xml:space="preserve">Q</tspan></text>
+<text x="260.39" y="138" font-size="12.5" fill="#1D4ED8"><tspan class="mr" xml:space="preserve">−</tspan><tspan class="mi" xml:space="preserve">Q</tspan></text>
+<line x1="298" y1="53.46" x2="298" y2="110.54" stroke="#6B7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="298,116 295.2,109 300.8,109" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="298,48 300.8,55 295.2,55" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="305" y="86" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">d</tspan></text>
+<text x="119.72" y="154" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">área </tspan><tspan class="mi" xml:space="preserve">A</tspan><tspan xml:space="preserve"> de cada placa</tspan></text>
+<polyline points="100,44 46,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,120 46,120" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="46,120 46,85.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="46,78.25 46,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="38.5" y1="85.75" x2="53.5" y2="85.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="33" y1="78.25" x2="59" y2="78.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="19.96" y="86.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">U</tspan></text>
+<text x="63.67" y="96.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="63.67" y="75.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="45.99" y="14" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">Q</tspan><tspan class="mr" xml:space="preserve">/</tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan xml:space="preserve">  ·  carga líquida total: </tspan><tspan class="mr" xml:space="preserve">(+</tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" xml:space="preserve">)</tspan><tspan class="mr" dx="2.53" xml:space="preserve">+</tspan><tspan class="mr" dx="2.53" xml:space="preserve">(−</tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" xml:space="preserve">)</tspan><tspan class="mr" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">0</tspan></text>
+</svg>

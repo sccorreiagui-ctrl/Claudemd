@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 262" width="680" height="262" role="img" aria-label="Símbolos usuais de circuitos elétricos"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="34,36 102,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="21.93" y="74" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">fio ideal (condutor)</tspan></text>
+<polyline points="170,36 238,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="204,10 204,62" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="204" cy="36" r="4.2" fill="#1B2438"/>
+<text x="155.42" y="74" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">fios conectados (nó)</tspan></text>
+<polyline points="306,36 332,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M332,36 A8,8 0 0 1 348,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="348,36 374,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="340,10 340,28" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="340,44 340,62" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="278.45" y="74" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">cruzamento sem conexão</tspan></text>
+<polyline points="442,36 472.25,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="479.75,36 510,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="472.25" y1="28.5" x2="472.25" y2="43.5" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="479.75" y1="23" x2="479.75" y2="49" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="462.42" y="61.2" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="482.92" y="61.2" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<text x="425.04" y="74" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">pilha / bateria (fonte)</tspan></text>
+<polyline points="578,36 589,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="635,36 646,36" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="589,36 592.83,43.5 600.5,28.5 608.17,43.5 615.83,28.5 623.5,43.5 631.17,28.5 635,36" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="593.86" y="74" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">resistor</tspan></text>
+<polyline points="34,122 55.5,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="80.5,122 102,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="68" cy="122" r="12.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<line x1="59.16" y1="113.16" x2="76.84" y2="130.84" stroke="#1B2438" stroke-width="1.7" stroke-linecap="round"/>
+<line x1="59.16" y1="130.84" x2="76.84" y2="113.16" stroke="#1B2438" stroke-width="1.7" stroke-linecap="round"/>
+<text x="46.69" y="160" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">lâmpada</tspan></text>
+<polyline points="170,122 183,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="225,122 238,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="183" y1="122" x2="218.28" y2="101.63" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="183" cy="122" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<circle cx="225" cy="122" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<text x="172.9" y="160" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">chave aberta</tspan></text>
+<polyline points="306,122 319,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="361,122 374,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="319" y1="122" x2="361" y2="122" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="319" cy="122" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<circle cx="361" cy="122" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<text x="305.4" y="160" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">chave fechada</tspan></text>
+<polyline points="442,122 472,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="480,122 510,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="472" y1="110.5" x2="472" y2="133.5" stroke="#1B2438" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="480" y1="110.5" x2="480" y2="133.5" stroke="#1B2438" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="453.3" y="160" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">capacitor</tspan></text>
+<polyline points="578,122 595,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="629,122 646,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="595" y="116.5" width="34" height="11" rx="1.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<line x1="595" y1="122" x2="629" y2="122" stroke="#1B2438" stroke-width="1.5" stroke-linecap="round"/>
+<text x="596.37" y="160" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">fusível</tspan></text>
+<polyline points="34,208 54.5,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="81.5,208 102,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="68" cy="208" r="13.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="64.09" y="212.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<text x="36.21" y="246" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">amperímetro</tspan></text>
+<polyline points="170,208 190.5,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="217.5,208 238,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="204" cy="208" r="13.5" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.9"/>
+<text x="200.25" y="212.8" font-size="14" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">V</tspan></text>
+<text x="178.7" y="246" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">voltímetro</tspan></text>
+<polyline points="340,182 340,204" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="340" y1="204" x2="340" y2="211" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="329" y1="211" x2="351" y2="211" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="332.5" y1="215.2" x2="347.5" y2="215.2" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="336" y1="219.4" x2="344" y2="219.4" stroke="#1B2438" stroke-width="1.8" stroke-linecap="round"/>
+<text x="299.38" y="246" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">terra (referência)</tspan></text>
+<polyline points="442,208 465,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="487,208 510,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="465,197.55 465,218.45 482.05,208" fill="#EEF1F6" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="482.05" y1="197.55" x2="482.05" y2="218.45" stroke="#1B2438" stroke-width="2.4" stroke-linecap="butt"/>
+<line x1="473.8" y1="195.35" x2="478.59" y2="188.5" stroke="#16A34A" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="481.5,184.35 480.17,191.35 475.38,188" fill="#16A34A" stroke="#16A34A" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="481.8" y1="195.35" x2="486.59" y2="188.5" stroke="#16A34A" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="489.5,184.35 488.17,191.35 483.38,188" fill="#16A34A" stroke="#16A34A" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="427.86" y="246" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">LED (diodo emissor)</tspan></text>
+<polyline points="578,208 598,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="626,208 646,208" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="612" cy="208" r="14" fill="#EEF1F6" stroke="#1B2438" stroke-width="1.9"/>
+<text x="607.34" y="212.25" font-size="12.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">M</tspan></text>
+<text x="597.06" y="246" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">motor</tspan></text>
+</svg>

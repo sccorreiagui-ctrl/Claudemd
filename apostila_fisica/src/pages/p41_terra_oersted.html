@@ -1,0 +1,46 @@
+<!--mod=IV|sec=Terra e campo de correntes-->
+<h3 class="top" style="margin-top:0">A Terra também é um ímã</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>O campo magnético da Terra é, em boa aproximação, o de um <b>dipolo</b>: um ímã de barra gigante, com eixo inclinado ≈ 11° em relação ao eixo de rotação, gerado por correntes no núcleo externo líquido. Na superfície, \(B\approx25\) a \(65\ \mu\)T.</div>
+    <div class="why mt2"><span class="tag o">Atenção ao nome</span>A ponta N da bússola aponta para o <b>norte geográfico</b>; como polos de nomes diferentes se atraem, ali a Terra tem um polo <b>sul magnético</b>.</div>
+    <ul class="small mt2 mb0">
+      <li><b>Inclinação:</b> as linhas penetram quase na vertical perto dos polos e são horizontais no equador magnético.</li>
+      <li><b>Declinação:</b> ângulo entre o norte geográfico e o indicado pela bússola; varia com o local e com os anos.</li>
+    </ul>
+  </div>
+  <div><fig name="terra_B" cls="line">Campo magnético terrestre; o ímã dentro do globo tem o polo S perto do norte geográfico.</fig></div>
+</div>
+
+<h2 class="sec mt3" data-toc="4.2|Campo magnético criado por correntes"><span class="num">4.2</span> Campo magnético criado por correntes</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <p class="lead mb2">Em 1820, <b>Oersted</b> viu a agulha de uma bússola girar ao lado de um fio com corrente: <b>cargas em movimento criam campo magnético</b>. Os ímãs também são correntes — as microscópicas, dos elétrons.</p>
+    <div class="formula"><span class="tag">Fórmula</span>
+      <div class="eq">\[ B=\frac{\mu_0\,I}{2\pi\,r} \]</div>
+      <table class="vars">
+        <tr><td>\(B\)</td><td>módulo do campo no ponto</td><td>T</td></tr>
+        <tr><td>\(\mu_0\)</td><td>permeabilidade do vácuo, \(4\pi\times10^{-7}\)</td><td>T·m/A</td></tr>
+        <tr><td>\(I\)</td><td>corrente no fio</td><td>A</td></tr>
+        <tr><td>\(r\)</td><td>distância perpendicular ao fio</td><td>m</td></tr>
+      </table>
+      <div class="cond"><b>Validade:</b> fio retilíneo <i>muito longo</i>, no vácuo ou no ar. <b>\(B\propto1/r\)</b> (não \(1/r^2\)). <b>Direção:</b> tangente a círculos centrados no fio. <b>Sentido:</b> mão direita.</div>
+    </div>
+  </div>
+  <div><fig name="fio_B" cls="line">Fio longo: polegar da mão direita no sentido da corrente \(I\); os dedos que “abraçam” o fio dão o sentido de \(\vec B\). ⊙ saindo do papel; ⊗ entrando.</fig></div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 25</span>{{lvl:2}}<span class="tt">Campo de um fio e superposição de dois fios</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> (a) Um fio longo conduz \(10\) A. Calcule \(B\) a \(5{,}0\) cm do fio e compare com o campo da Terra. (b) Dois fios paralelos, distantes \(10\) cm, conduzem \(10\) A cada. Qual é \(B\) no ponto médio P se as correntes têm sentidos <i>opostos</i>? E se têm o <i>mesmo</i> sentido?</p>
+      <p class="st"><b class="l">Método</b> (a) \(B=\mu_0I/(2\pi r)\), com \(r=0{,}050\) m. (b) Superposição: \(\vec B=\vec B_1+\vec B_2\), com \(B_1=B_2\) (mesma \(I\), mesma \(r=5{,}0\) cm). Pela mão direita, em P os campos têm o <i>mesmo</i> sentido se as correntes são opostas e sentidos contrários se são iguais.</p>
+      <div class="calc">\[ \begin{aligned} B&=\frac{4\pi\times10^{-7}\cdot10}{2\pi\cdot0{,}050}=4{,}0\times10^{-5}\un{T}=40\ \mu\mathrm{T}\\ B_P&=40+40=80\ \mu\mathrm{T}\ \ \text{(opostas)}\\ B_P&=40-40=0\ \ \text{(mesmo sentido)} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(40\ \mu\)T é da ordem do campo da Terra: uma bússola a 5 cm do fio é muito perturbada. Unidades: \(\mathrm{(T\cdot m/A)\cdot A/m=T}\) ✓.</p>
+    </div>
+    <div><fig name="ex_fios_B"/></div>
+  </div>
+</div>
+
+<div class="err mt3"><span class="tag o">Erro frequente</span><b>Tratar o campo do fio como o de uma carga.</b> O campo elétrico de uma carga cai com \(1/r^2\) e é <i>radial</i>; o de um fio longo cai com \(1/r\) e é <i>circular</i>: \(\vec B\) é perpendicular ao fio e ao raio que liga o fio ao ponto.</div>

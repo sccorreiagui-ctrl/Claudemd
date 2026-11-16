@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 186" width="332" height="186" role="img" aria-label="Circuito simplificado de desfibrilador: carga e descarga de um capacitor"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="34,40 60,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="60,40 77,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="113,40 130,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="77" y1="40" x2="113" y2="40" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="77" cy="40" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<circle cx="113" cy="40" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<text x="88.22" y="31" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">S₁</tspan></text>
+<polyline points="130,40 166,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="166,40 166,88" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="166,96 166,144" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="177.5" y1="88" x2="154.5" y2="88" stroke="#E5484D" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="177.5" y1="96" x2="154.5" y2="96" stroke="#2563EB" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="182" y="96.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">C</tspan></text>
+<polyline points="166,40 200,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="200,40 209,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="245,40 254,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="209" y1="40" x2="238.61" y2="21.5" stroke="#1B2438" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="209" cy="40" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<circle cx="245" cy="40" r="3.3" fill="#FFFFFF" stroke="#1B2438" stroke-width="1.7"/>
+<text x="220.22" y="23.46" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">S₂</tspan></text>
+<polyline points="254,40 296,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="254,40 296,40 296,62" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="296,62 296,73" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="296,113 296,124" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="296,73 288.5,76.33 303.5,83 288.5,89.67 303.5,96.33 288.5,103 303.5,109.67 296,113" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="308.5" y="97.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="296,124 296,144 34,144" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="34,144 34,95.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="34,88.25 34,40" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="26.5" y1="95.75" x2="41.5" y2="95.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="21" y1="88.25" x2="47" y2="88.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="1.91" y="96.25" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">HV</tspan></text>
+<text x="51.67" y="106.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="51.67" y="85.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<circle cx="166" cy="40" r="3.7" fill="#1B2438"/>
+<circle cx="166" cy="144" r="3.7" fill="#1B2438"/>
+<text x="67.49" y="172" font-size="11" fill="#5B6578"><tspan xml:space="preserve">fase 1 (S₁ fechada): a fonte carrega </tspan><tspan class="mi" xml:space="preserve">C</tspan><tspan xml:space="preserve"> até </tspan><tspan class="mi" xml:space="preserve">U</tspan></text>
+</svg>

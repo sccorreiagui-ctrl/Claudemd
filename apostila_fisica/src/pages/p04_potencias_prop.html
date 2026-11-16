@@ -1,0 +1,56 @@
+<!--mod=I|sec=Potências de dez e proporcionalidade-->
+<h2 class="sec top" data-toc="1.4|Notação científica, prefixos e conversões"><span class="num">1.4</span> Notação científica, prefixos e conversões</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Em eletricidade lidamos com números enormes e minúsculos (a carga de um elétron tem 18 zeros depois da vírgula). Escrevemos \(N=a\times10^{n}\), com \(1\le a<10\) e \(n\) inteiro. Mover a vírgula <b>para a esquerda</b> aumenta o expoente; <b>para a direita</b>, diminui.</div>
+    <table class="t tight mt2">
+      <tr><th>Número</th><th>Notação científica</th><th>Ordem de grandeza</th></tr>
+      <tr><td>\(0{,}000\,000\,32\un{C}\)</td><td>\(3{,}2\times10^{-7}\un{C}\)</td><td>\(10^{-7}\)</td></tr>
+      <tr><td>\(4\,500\,000\un{W}\)</td><td>\(4{,}5\times10^{6}\un{W}\)</td><td>\(10^{7}\)</td></tr>
+      <tr><td>\(0{,}000\,016\un{m^2}\)</td><td>\(1{,}6\times10^{-5}\un{m^2}\)</td><td>\(10^{-5}\)</td></tr>
+    </table>
+    <p class="small mt2 mb1"><b>Regras:</b> \(10^{m}\!\cdot\!10^{n}=10^{m+n}\); \(\dfrac{10^{m}}{10^{n}}=10^{m-n}\); \((10^{m})^{n}=10^{mn}\).</p>
+  </div>
+  <div>
+    <div class="box soft">
+      <p class="small mb1"><span class="tag acc">Aplicação</span> <b>Calcule</b> \(\dfrac{(9\times10^{9})(2\times10^{-6})(3\times10^{-6})}{(0{,}30)^{2}}\)</p>
+      <p class="small mb1"><b>1.</b> Números: \(9\cdot2\cdot3=54\). <b>2.</b> Potências no numerador: \(10^{9-6-6}=10^{-3}\). <b>3.</b> Denominador: \(0{,}30^2=0{,}09=9\times10^{-2}\).</p>
+      <p class="small mb0"><b>4.</b> \(\dfrac{54\times10^{-3}}{9\times10^{-2}}=6\times10^{-1}=0{,}6\). <span class="note">(É o cálculo da força de Coulomb entre 2 µC e 3 µC a 30 cm, que veremos na seção 2.3 — resultado 0,6 N.)</span></p>
+    </div>
+    <h4 class="mt2">Prefixos do SI mais usados em eletricidade</h4>
+    <div class="pfx">
+      <div><b>G</b>giga<span>10⁹</span></div><div><b>M</b>mega<span>10⁶</span></div><div><b>k</b>quilo<span>10³</span></div><div><b>—</b>unidade<span>10⁰</span></div>
+      <div><b>m</b>mili<span>10⁻³</span></div><div><b>µ</b>micro<span>10⁻⁶</span></div><div><b>n</b>nano<span>10⁻⁹</span></div><div><b>p</b>pico<span>10⁻¹²</span></div>
+    </div>
+    <p class="note mt1">Usos típicos: MW/GW (usinas) · kW (chuveiro: 5,5 kW) · mA (LED: 20 mA) · µF e nF (capacitores) · nC e µC (eletrostática) · mT e µT (campo magnético; o da Terra vale ≈ 25–65 µT).</p>
+  </div>
+</div>
+
+<h3 class="mt3">Conversões que mais derrubam candidatos</h3>
+<table class="t cmp zebra tight">
+  <tr><th>No enunciado</th><th>Em unidades do SI</th><th>Por que cuidar</th></tr>
+  <tr><td>\(350\un{mA}\)</td><td>\(350\times10^{-3}\un{A}=0{,}35\un{A}\)</td><td>mili = \(10^{-3}\): “350 mil-ésimos” de ampère</td></tr>
+  <tr><td>\(2{,}2\un{k\Omega}\)</td><td>\(2{,}2\times10^{3}\,\Omega=2200\,\Omega\)</td><td>quilo = \(10^{3}\)</td></tr>
+  <tr><td>\(47\,\mu\mathrm{F}\)</td><td>\(47\times10^{-6}\un{F}=4{,}7\times10^{-5}\un{F}\)</td><td>micro = \(10^{-6}\), não \(10^{-3}\)</td></tr>
+  <tr><td>\(20\un{g}\) (massa de partícula/haste)</td><td>\(0{,}020\un{kg}\)</td><td>a massa do SI é o <b>quilograma</b></td></tr>
+  <tr><td>\(2{,}5\un{mm^2}\) (seção de fio)</td><td>\(2{,}5\times10^{-6}\un{m^2}\)</td><td>\(1\un{mm^2}=(10^{-3}\un{m})^2=10^{-6}\un{m^2}\)</td></tr>
+  <tr><td>\(5\un{cm^2}\) (área de placa/espira)</td><td>\(5\times10^{-4}\un{m^2}\)</td><td>\(1\un{cm^2}=10^{-4}\un{m^2}\)</td></tr>
+  <tr><td>\(1\un{kWh}\) (energia da conta de luz)</td><td>\(1000\un{W}\cdot3600\un{s}=3{,}6\times10^{6}\un{J}\)</td><td>kWh é <b>energia</b>, não potência</td></tr>
+  <tr><td>\(2000\un{mA\cdot h}\) (bateria de celular)</td><td>\(2\un{A}\cdot3600\un{s}=7200\un{C}\)</td><td>A·h é <b>carga</b>: \(1\un{A\cdot h}=3600\un{C}\)</td></tr>
+</table>
+
+<h2 class="sec mt3" data-toc="1.5|Proporcionalidade direta e inversa"><span class="num">1.5</span> Proporcionalidade: prever sem calcular tudo de novo</h2>
+<fig name="prop4" cls="line">Quatro relações que aparecem em todo o curso. A pergunta útil é sempre: <i>se a variável dobrar, o que acontece com a grandeza?</i></fig>
+<div class="c2 g3 mt2 ai-s">
+  <div class="small"><b>Por razões.</b> Quando duas situações diferem apenas por fatores, divida uma pela outra: a constante \(k\) “some”. Exemplo: em \(P=U^2/R\) com \(R\) fixo, \(\dfrac{P'}{P}=\left(\dfrac{U'}{U}\right)^{2}\); se \(U\) passa de 127 V para 220 V, a potência é multiplicada por \((220/127)^2\approx3{,}0\).</div>
+  <div class="small"><b>Cuidado com o “tipo” de dependência.</b> Em \(I=U/R\) a corrente é <i>inversamente</i> proporcional a \(R\) (se \(U\) for fixa), mas <i>diretamente</i> proporcional a \(U\) (se \(R\) for fixa). Sempre diga qual grandeza está sendo mantida constante.</div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="box"><h4 style="margin-top:0">Checagem por unidades (análise dimensional)</h4>
+    <p class="small mb1">Uma fórmula só pode estar certa se as unidades dos dois lados coincidirem. Use isso para <b>testar</b> o que você lembrou:</p>
+    <p class="small mb1">\(F=k\dfrac{q_1q_2}{r^2}\;\Rightarrow\;\dfrac{\un{(N\,m^2/C^2)}\,\un{C}\,\un{C}}{\un{m^2}}=\un{N}\;\checkmark\)</p>
+    <p class="small mb0">\(P=RI^2\;\Rightarrow\;\un{\Omega\,A^2}=\un{(V/A)\,A^2}=\un{V\,A}=\un{W}\;\checkmark\)</p></div>
+  <div class="box"><h4 style="margin-top:0">Algarismos significativos</h4>
+    <p class="small mb0">Apresente o resultado com tantos algarismos significativos quanto o dado <i>menos</i> preciso (em geral 2 ou 3) e arredonde <b>só no final</b>. Zeros à esquerda não contam: \(0{,}060\un{N}\) tem 2 algarismos significativos, como \(6{,}0\times10^{-2}\un{N}\). Constantes como \(k=9{,}0\times10^{9}\) limitam a precisão a 2 algarismos.</p></div>
+</div>

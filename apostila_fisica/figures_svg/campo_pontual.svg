@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 198" width="332" height="198" role="img" aria-label="Linhas de campo de cargas puntiformes positiva e negativa"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="98" y1="80" x2="156" y2="80" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="134,80 124.5,83.8 124.5,76.2" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="93.9" y1="70.1" x2="134.91" y2="29.09" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="119.36,44.64 115.32,54.05 109.95,48.68" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="84" y1="66" x2="84" y2="8" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="84,30 87.8,39.5 80.2,39.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="74.1" y1="70.1" x2="33.09" y2="29.09" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="48.64,44.64 58.05,48.68 52.68,54.05" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="70" y1="80" x2="12" y2="80" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="34,80 43.5,76.2 43.5,83.8" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="74.1" y1="89.9" x2="33.09" y2="130.91" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="48.64,115.36 52.68,105.95 58.05,111.32" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="84" y1="94" x2="84" y2="152" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="84,130 80.2,120.5 87.8,120.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="93.9" y1="89.9" x2="134.91" y2="130.91" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="119.36,115.36 109.95,111.32 115.32,105.95" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="84" cy="80" r="11" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="78.28" y1="80" x2="89.72" y2="80" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="84" y1="74.28" x2="84" y2="85.72" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="145.9" y1="54.36" x2="166.21" y2="45.95" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="172.69,43.26 165.62,49.7 163.14,43.71" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="139.43" cy="57.04" r="6.5" fill="#FDE6E7" stroke="#E5484D" stroke-width="1.6"/>
+<line x1="136.43" y1="57.04" x2="142.43" y2="57.04" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="139.43" y1="54.04" x2="139.43" y2="60.04" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<text x="20.74" y="170" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" dx="3.22" xml:space="preserve">&gt;</tspan><tspan class="mr" dx="3.22" xml:space="preserve">0</tspan><tspan xml:space="preserve">: </tspan><tspan class="mi" xml:space="preserve">E</tspan><tspan xml:space="preserve"> aponta para fora</tspan></text>
+<line x1="57.75" y1="160.8" x2="65.78" y2="160.8" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="66.28,160.8 62.37,162.76 62.37,158.84" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="262" y1="80" x2="320" y2="80" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="286,80 295.5,76.2 295.5,83.8" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="257.9" y1="70.1" x2="298.91" y2="29.09" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="274.87,53.13 278.9,43.73 284.27,49.1" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="248" y1="66" x2="248" y2="8" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="248,42 244.2,32.5 251.8,32.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="238.1" y1="70.1" x2="197.09" y2="29.09" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="221.13,53.13 211.73,49.1 217.1,43.73" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="234" y1="80" x2="176" y2="80" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="210,80 200.5,83.8 200.5,76.2" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="238.1" y1="89.9" x2="197.09" y2="130.91" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="221.13,106.87 217.1,116.27 211.73,110.9" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="248" y1="94" x2="248" y2="152" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="248,118 251.8,127.5 244.2,127.5" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="257.9" y1="89.9" x2="298.91" y2="130.91" stroke="#0891B2" stroke-width="1.7" stroke-linecap="round"/>
+<polygon points="274.87,106.87 284.27,110.9 278.9,116.27" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="248" cy="80" r="11" fill="#E3EBFD" stroke="#2563EB" stroke-width="2"/>
+<line x1="242.28" y1="80" x2="253.72" y2="80" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="296.97" y1="59.72" x2="278.51" y2="67.36" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="272.02,70.05 279.1,63.61 281.58,69.6" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="303.43" cy="57.04" r="6.5" fill="#FDE6E7" stroke="#E5484D" stroke-width="1.6"/>
+<line x1="300.43" y1="57.04" x2="306.43" y2="57.04" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="303.43" y1="54.04" x2="303.43" y2="60.04" stroke="#E5484D" stroke-width="1.4" stroke-linecap="round"/>
+<text x="178.19" y="170" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" dx="3.22" xml:space="preserve">&lt;</tspan><tspan class="mr" dx="3.22" xml:space="preserve">0</tspan><tspan xml:space="preserve">: </tspan><tspan class="mi" xml:space="preserve">E</tspan><tspan xml:space="preserve"> aponta para dentro</tspan></text>
+<line x1="215.2" y1="160.8" x2="223.22" y2="160.8" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="223.72,160.8 219.81,162.76 219.81,158.84" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="54.2" y="191" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">carga de prova </tspan><tspan class="mi" xml:space="preserve">q</tspan><tspan class="mr" dx="2.94" xml:space="preserve">&gt;</tspan><tspan class="mr" dx="2.94" xml:space="preserve">0</tspan><tspan xml:space="preserve"> (a força </tspan><tspan class="mi" xml:space="preserve">F</tspan><tspan xml:space="preserve"> tem o sentido de </tspan><tspan class="mi" xml:space="preserve">E</tspan><tspan xml:space="preserve">)</tspan></text>
+<line x1="183.9" y1="182.6" x2="190.23" y2="182.6" stroke="#5B6578" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="190.73,182.6 187.16,184.38 187.16,180.81" fill="#5B6578" stroke="#5B6578" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="268.34" y1="182.6" x2="275.67" y2="182.6" stroke="#5B6578" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="276.17,182.6 272.6,184.38 272.6,180.81" fill="#5B6578" stroke="#5B6578" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>

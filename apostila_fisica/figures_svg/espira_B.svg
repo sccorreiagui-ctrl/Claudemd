@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 196" width="332" height="196" role="img" aria-label="Campo magnético de uma espira: vista em perspectiva e corte lateral"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="80,46 78.22,46.24 76.47,46.96 74.75,48.15 73.09,49.8 71.5,51.89 70.01,54.4 68.62,57.3 67.37,60.56 66.25,64.14 65.28,68 64.47,72.1 63.83,76.4 63.37,80.85 63.09,85.4 63,90 63.09,94.6 63.37,99.15 63.83,103.6 64.47,107.9 65.28,112 66.25,115.86 67.37,119.44 68.62,122.7 70.01,125.6 71.5,128.11 73.09,130.2 74.75,131.85 76.47,133.04 78.22,133.76 80,134" fill="none" stroke="#B25B00" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" stroke-opacity="0.7"/>
+<polyline points="80,46 81.78,46.24 83.53,46.96 85.25,48.15 86.91,49.8 88.5,51.89 89.99,54.4 91.38,57.3 92.63,60.56 93.75,64.14 94.72,68 95.53,72.1 96.17,76.4 96.63,80.85 96.91,85.4 97,90 96.91,94.6 96.63,99.15 96.17,103.6 95.53,107.9 94.72,112 93.75,115.86 92.63,119.44 91.38,122.7 89.99,125.6 88.5,128.11 86.91,130.2 85.25,131.85 83.53,133.04 81.78,133.76 80,134" fill="none" stroke="#F08C00" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="97.1,94.95 92.26,84.04 101.5,83.86" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="126,46 125.75,48.51 124.99,50.99 123.75,53.42 122.02,55.76 119.84,58 117.21,60.11 114.18,62.06 110.78,63.84 107.04,65.42 103,66.78 98.71,67.93 94.21,68.83 89.56,69.48 84.81,69.87 80,70 75.19,69.87 70.44,69.48 65.79,68.83 61.29,67.93 57,66.78 52.96,65.42 49.22,63.84 45.82,62.06 42.79,60.11 40.16,58 37.98,55.76 36.25,53.42 35.01,50.99 34.25,48.51 34,46 34.25,43.49 35.01,41.01 36.25,38.58 37.98,36.24 40.16,34 42.79,31.89 45.82,29.94 49.22,28.16 52.96,26.58 57,25.22 61.29,24.07 65.79,23.17 70.44,22.52 75.19,22.13 80,22 84.81,22.13 89.56,22.52 94.21,23.17 98.71,24.07 103,25.22 107.04,26.58 110.78,28.16 114.18,29.94 117.21,31.89 119.84,34 122.02,36.24 123.75,38.58 124.99,41.01 125.75,43.49 126,46" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="76.4,21.9 84.48,19.08 84.32,25.16" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="83.6,70.1 75.52,72.92 75.68,66.84" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="126,134 125.75,136.51 124.99,138.99 123.75,141.42 122.02,143.76 119.84,146 117.21,148.11 114.18,150.06 110.78,151.84 107.04,153.42 103,154.78 98.71,155.93 94.21,156.83 89.56,157.48 84.81,157.87 80,158 75.19,157.87 70.44,157.48 65.79,156.83 61.29,155.93 57,154.78 52.96,153.42 49.22,151.84 45.82,150.06 42.79,148.11 40.16,146 37.98,143.76 36.25,141.42 35.01,138.99 34.25,136.51 34,134 34.25,131.49 35.01,129.01 36.25,126.58 37.98,124.24 40.16,122 42.79,119.89 45.82,117.94 49.22,116.16 52.96,114.58 57,113.22 61.29,112.07 65.79,111.17 70.44,110.52 75.19,110.13 80,110 84.81,110.13 89.56,110.52 94.21,111.17 98.71,112.07 103,113.22 107.04,114.58 110.78,116.16 114.18,117.94 117.21,119.89 119.84,122 122.02,124.24 123.75,126.58 124.99,129.01 125.75,131.49 126,134" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.9"/>
+<polygon points="76.4,158.1 84.32,154.84 84.48,160.92" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="83.6,109.9 75.68,113.16 75.52,107.08" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="26" y1="90" x2="130.2" y2="90" stroke="#7C3AED" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="138,90 128,93.6 128,86.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="121.26" y="82" font-size="12.5" fill="#6D28D9" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">B</tspan></text>
+<line x1="123.01" y1="72" x2="131.99" y2="72" stroke="#6D28D9" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="132.49,72 128.24,74.12 128.24,69.88" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="102.89" y="76" font-size="12.5" fill="#6D28D9" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<text x="49.59" y="76" font-size="12.5" fill="#6D28D9" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="106.25" y="128" font-size="12.5" fill="#B25B00" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<text x="22.2" y="188" font-size="10" fill="#5B6578"><tspan xml:space="preserve">perspectiva: face N à direita</tspan></text>
+<line x1="178" y1="14" x2="178" y2="178" stroke="#C9D0DC" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="3 4"/>
+<circle cx="252" cy="56.07" r="19.78" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<circle cx="252" cy="127.93" r="19.78" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="255,75.85 246.5,79.42 246.5,72.28" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="249,36.29 257.5,32.72 257.5,39.86" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="255,108.15 246.5,111.72 246.5,104.58" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="249,147.71 257.5,144.14 257.5,151.28" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="252" cy="45.9" r="35.01" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<circle cx="252" cy="138.1" r="35.01" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="255,80.9 246.5,84.47 246.5,77.33" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="249,10.89 257.5,7.32 257.5,14.46" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="255,103.1 246.5,106.67 246.5,99.53" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="249,173.11 257.5,169.54 257.5,176.68" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="198" y1="92" x2="298.2" y2="92" stroke="#7C3AED" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="306,92 296,95.6 296,88.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="252" cy="62" r="8" fill="#FFFFFF" stroke="#B25B00" stroke-width="1.9"/>
+<circle cx="252" cy="62" r="2.4" fill="#B25B00"/>
+<circle cx="252" cy="122" r="8" fill="#FFFFFF" stroke="#B25B00" stroke-width="1.9"/>
+<line x1="247.36" y1="117.36" x2="256.64" y2="126.64" stroke="#B25B00" stroke-width="1.9" stroke-linecap="round"/>
+<line x1="247.36" y1="126.64" x2="256.64" y2="117.36" stroke="#B25B00" stroke-width="1.9" stroke-linecap="round"/>
+<text x="298.51" y="84" font-size="12.5" fill="#6D28D9" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">B</tspan></text>
+<line x1="300.26" y1="74" x2="309.25" y2="74" stroke="#6D28D9" stroke-width="0.9375" stroke-linecap="butt"/>
+<polygon points="309.75,74 305.5,76.12 305.5,71.88" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="198.48" y="188" font-size="10" fill="#5B6578"><tspan xml:space="preserve">corte lateral da espira</tspan></text>
+</svg>

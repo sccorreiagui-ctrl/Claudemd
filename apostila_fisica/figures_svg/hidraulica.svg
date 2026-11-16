@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 176" width="680" height="176" role="img" aria-label="Analogia hidráulica: bomba, tubulação, estreitamento e vazão ↔ fonte, fios, resistor e corrente"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="113.18" y="14" font-size="12.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Analogia hidráulica</tspan></text>
+<polyline points="36,48 296,48 296,128 36,128 36,48" fill="none" stroke="#C5CBD6" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="36,48 296,48 296,128 36,128 36,48" fill="none" stroke="#fff" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="150" y1="48" x2="190" y2="48" stroke="#C5CBD6" stroke-width="16" stroke-linecap="butt"/>
+<line x1="150" y1="48" x2="190" y2="48" stroke="#fff" stroke-width="3.4" stroke-linecap="butt"/>
+<circle cx="36" cy="88" r="19" fill="#fff" stroke="#6B7280" stroke-width="2.2"/>
+<text x="31.88" y="92" font-size="15" fill="#6B7280" font-weight="700"><tspan font-weight="600" xml:space="preserve">↑</tspan></text>
+<line x1="84" y1="48" x2="110.2" y2="48" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="118,48 108,51.6 108,44.4" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="222" y1="48" x2="254.2" y2="48" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="262,48 252,51.6 252,44.4" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="296" y1="68" x2="296" y2="92.2" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="296,100 292.4,90 299.6,90" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="250" y1="128" x2="217.8" y2="128" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="210,128 220,124.4 220,131.6" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="130" y1="128" x2="97.8" y2="128" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="90,128 100,124.4 100,131.6" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="60" y="148" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">bomba</tspan></text>
+<text x="134.71" y="30" font-size="11.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">estreitamento</tspan></text>
+<text x="259.03" y="150" font-size="11.5" fill="#B25B00" font-weight="600"><tspan font-weight="600" xml:space="preserve">vazão</tspan></text>
+<line x1="6" y1="127.32" x2="6" y2="48.68" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round"/>
+<polygon points="6,44 8.4,50 3.6,50" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="6,132 3.6,126 8.4,126" fill="#6B7280" stroke="#6B7280" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="14.18" y="92" font-size="13" fill="#6B7280"><tspan xml:space="preserve">Δ</tspan></text>
+<text x="132.84" y="168" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">pressão ↔ tensão</tspan></text>
+<text x="471.92" y="14" font-size="12.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Circuito elétrico</tspan></text>
+<polyline points="390,128 390,91.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="390,84.25 390,48" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="382.5" y1="91.75" x2="397.5" y2="91.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="377" y1="84.25" x2="403" y2="84.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="347.03" y="91.91" font-size="11.5" fill="#1B2438"><tspan xml:space="preserve">fonte</tspan></text>
+<text x="407.67" y="102.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="407.67" y="81.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="390,48 480,48" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="480,48 496,48" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="544,48 560,48" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="496,48 500,55.5 508,40.5 516,55.5 524,40.5 532,55.5 540,40.5 544,48" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="515.26" y="35.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="560,48 640,48 640,128 390,128" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="409.5" y1="48" x2="425.7" y2="48" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="433.5,48 423.5,52 423.5,44" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="418.75" y="37" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<line x1="640" y1="76" x2="640" y2="92.2" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="640,100 636,90 644,90" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="623.5" y="92.25" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<line x1="527" y1="128" x2="510.8" y2="128" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="503,128 513,124 513,132" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="512.25" y="147.25" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+</svg>

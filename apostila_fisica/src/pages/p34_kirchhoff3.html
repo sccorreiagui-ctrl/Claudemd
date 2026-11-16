@@ -1,0 +1,35 @@
+<!--mod=III|sec=Kirchhoff: dois geradores e correntes negativas-->
+<h3 class="top" style="margin-top:0">Mais de um gerador: interpretar o sinal da corrente</h3>
+<div class="ex">
+  <div class="exh"><span class="tag acc">Exemplo 22</span>{{lvl:3}}<span class="tt">Dois geradores em ramos diferentes: uma corrente sai negativa</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> No circuito, \(\varepsilon_1=6\) V (\(R_1=1\ \Omega\)) no ramo esquerdo, \(\varepsilon_2=2\) V (\(R_2=2\ \Omega\)) no direito e \(R_3=4\ \Omega\) no central; os polos \(+\) estão em cima. Determine as correntes e diga o que cada gerador faz.</p>
+      <p class="st"><b class="l">Interpretação</b> Suponha \(I_1\) e \(I_2\) <b>subindo</b> nos ramos laterais e \(I_3\) descendo no central. Malha esquerda (horária): sobe-se \(\varepsilon_1\) e desce-se por \(R_1\) e \(R_3\) (a favor das correntes). Malha direita (horária): sobe-se o ramo central <i>contra</i> \(I_3\) (\(+R_3I_3\)), desce-se o ramo direito <i>contra</i> \(I_2\) (\(+R_2I_2\)) e \(\varepsilon_2\) é percorrido de \(+\) para \(-\) (\(-\varepsilon_2\)).</p>
+      <div class="calc">\[ \begin{aligned} &I_1+I_2=I_3\\ &6-1I_1-4I_3=0\\ &4I_3+2I_2-2=0\\ &\text{substituindo }I_3:\ 5I_1+4I_2=6,\ \ 4I_1+6I_2=2\\ &I_1=2\un{A},\ \ I_2=-1\un{A},\ \ I_3=1\un{A} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(I_2<0\): a corrente <b>real</b> no ramo direito <b>desce</b> (entra pelo polo \(+\) de \(\varepsilon_2\)): esse gerador é um <b>receptor</b> (está sendo carregado) e absorve \(2\) W. Balanço: \(6\cdot2+2\cdot(-1)=10\) W \(=1\cdot2^2+2\cdot1^2+4\cdot1^2=4+2+4\) ✓.</p>
+    </div>
+    <div><fig name="k3"/></div>
+  </div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="box"><h4 style="margin-top:0">Como interpretar o resultado</h4>
+    <ul class="small mb0">
+      <li><b>\(I>0\)</b>: o sentido real é o suposto. <b>\(I<0\)</b>: é o oposto; o módulo está certo.</li>
+      <li>Em um gerador, se a corrente <i>sai</i> pelo polo \(+\): ele <b>fornece</b> energia. Se <i>entra</i> pelo polo \(+\): ele <b>recebe</b> (recarga).</li>
+      <li>Refazendo o problema com \(I_2\) suposta para baixo, sai \(I_2=+1\) A: <b>mesmo físico</b>, outro sinal.</li>
+    </ul></div>
+  <div class="adv"><span class="tag">Aprofundamento</span><b>Princípio de superposição.</b> Em circuitos lineares, o efeito de várias fontes é a <i>soma</i> dos efeitos de cada uma agindo sozinha (as outras fontes ideais viram fios). No Exemplo 22: só \(\varepsilon_1\) ⇒ \(I_1'=2{,}57\), \(I_2'=-1{,}71\), \(I_3'=0{,}86\) A; só \(\varepsilon_2\) ⇒ \(I_1''=-0{,}57\), \(I_2''=+0{,}71\), \(I_3''=0{,}14\) A. Somando: \(2{,}00\), \(-1{,}00\), \(1{,}00\) A — o mesmo resultado.</div>
+</div>
+
+<div class="fix mt3"><span class="tag o">Fixação</span> <span class="b">Leis de Kirchhoff</span>
+  <ol>
+    <li><span class="b">{{lvl:1}}</span> Em um nó chegam \(5\) A e \(3\) A e saem \(4\) A por um fio. Quanto sai pelo(s) outro(s) fio(s) e em que sentido?</li>
+    <li>{{lvl:3}} Mesmo circuito do Exemplo 22, com \(\varepsilon_1=12\) V (\(R_1=2\ \Omega\)), \(\varepsilon_2=4\) V (\(R_2=2\ \Omega\)) e \(R_3=3\ \Omega\). Determine \(I_1\), \(I_2\), \(I_3\) e diga qual gerador está sendo carregado.</li>
+    <li>{{lvl:2}} <b>Julgue (C/E)</b> — <i>itens autorais, estilo PAS</i>. (a) A lei dos nós expressa a conservação da energia. (b) Em uma malha, \(\sum\Delta V=0\) vale mesmo se a corrente calculada for negativa. (c) Corrente negativa indica erro de cálculo.</li>
+    <li>{{lvl:2}} <b>Baterias iguais em paralelo.</b> Duas baterias ideais de \(12\) V, cada uma com resistência interna de \(0{,}5\ \Omega\), são ligadas em paralelo e alimentam um resistor de \(5{,}0\ \Omega\). Calcule a corrente no resistor e a corrente em cada bateria.</li>
+    <li>{{lvl:3}} <b>Baterias diferentes em paralelo.</b> Uma bateria de \(12\) V (\(r=1{,}0\ \Omega\)) e outra de \(6{,}0\) V (\(r=1{,}0\ \Omega\)) são ligadas diretamente, polo \(+\) com polo \(+\) e \(-\) com \(-\), sem carga. Qual a corrente entre elas e qual a potência dissipada? Por que isso é desaconselhável?</li>
+  </ol>
+  <div class="gab"><b>Gabarito.</b> 1) Entram 8 A, saem 4 A + \(i\) ⇒ \(i=4\) A, saindo.  2) \(I_1+I_2=I_3\); \(12=2I_1+3I_3\); \(4=2I_2+3I_3\) ⇒ \(I_1=3\) A, \(I_2=-1\) A, \(I_3=2\) A: o gerador \(\varepsilon_2\) (4 V) é <b>carregado</b> (\(I_2<0\)).  3) (a) <b>E</b> — é a conservação da <i>carga</i>; (b) <b>C</b>; (c) <b>E</b> — só indica que o sentido suposto era oposto ao real.  4) Por simetria, cada bateria fornece \(I/2\): \(U=12-0{,}5\,(I/2)\) e \(U=5I\) \(\Rightarrow\) \(I=12/5{,}25\approx2{,}3\) A no resistor e \(\approx1{,}1\) A em cada bateria (\(U\approx11{,}4\) V).  5) Só há uma malha: \(I=\dfrac{12-6}{1+1}=3{,}0\) A; a de \(12\) V <b>fornece</b> e a de \(6\) V <b>é carregada</b>. \(P_{dis}=rI^2\cdot2=18\) W, desperdiçados (e a bateria fraca pode aquecer ou vazar).</div>
+</div>

@@ -1,0 +1,233 @@
+@import url("fonts.css");
+
+/* ───────────── tokens ───────────── */
+:root{
+  --ink:#1B2438; --ink2:#2C3652; --muted:#5B6578; --rule:#C9D0DC; --rule2:#DDE2EA; --soft:#F3F5F9; --soft2:#EAEEF4;
+  --paper:#fff;
+  /* cores semânticas (mesmo significado em toda a apostila) */
+  --pos:#E5484D; --pos-d:#BF2B31; --pos-l:#FDE6E7;
+  --neg:#2563EB; --neg-d:#1D4ED8; --neg-l:#E3EBFD;
+  --cur:#F08C00; --cur-d:#B25B00; --cur-l:#FFF0D6;
+  --mag:#7C3AED; --mag-d:#6D28D9; --mag-l:#EEE6FD;
+  --ene:#16A34A; --ene-d:#15803D; --ene-l:#E1F4E8;
+  --efd:#0891B2; --efd-d:#0E7490; --efd-l:#DBF2F7;
+  --gry:#6B7280; --gry-l:#E8EBF1;
+  --acc:#4B5563;            /* acento do módulo (ajustado por data-mod) */
+  --fs:9.55pt; --lh:1.37;
+}
+@page{ size:A4; margin:0 }
+*{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact }
+html,body{ margin:0; padding:0; background:#fff }
+body{ font-family:"Source Sans 3","DejaVu Sans",sans-serif; font-size:var(--fs); line-height:var(--lh); color:var(--ink);
+  font-kerning:normal; text-rendering:geometricPrecision; font-variant-numeric:lining-nums }
+.c-pos{color:var(--pos-d)} .c-neg{color:var(--neg-d)} .c-cur{color:var(--cur-d)} .c-mag{color:var(--mag-d)}
+.c-ene{color:var(--ene-d)} .c-efd{color:var(--efd-d)} .c-gry{color:var(--gry)} .c-mut{color:var(--muted)}
+.b{font-weight:700} .sb{font-weight:600} .it{font-style:italic} .nw{white-space:nowrap}
+
+/* ───────────── página ───────────── */
+.page{ width:210mm; height:297mm; position:relative; overflow:hidden; background:#fff; break-after:page; page-break-after:always }
+.page:last-child{ break-after:auto; page-break-after:auto }
+.page[data-mod="I"]{ --acc:#4B5563 }
+.page[data-mod="II"]{ --acc:#0E7490 }
+.page[data-mod="III"]{ --acc:#B25B00 }
+.page[data-mod="IV"]{ --acc:#6D28D9 }
+.page[data-mod="R"]{ --acc:#15803D }
+.page header.run{ position:absolute; left:15mm; right:15mm; top:8.2mm; height:6mm; display:flex; justify-content:space-between;
+  align-items:flex-end; font-size:7.4pt; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); font-weight:600;
+  border-bottom:.6pt solid var(--rule); padding-bottom:1.1mm }
+.page header.run .m{ color:var(--acc); font-weight:700 }
+.page footer.run{ position:absolute; left:15mm; right:15mm; bottom:7.4mm; height:5mm; display:flex; align-items:flex-end;
+  justify-content:space-between; font-size:7.2pt; color:var(--muted); letter-spacing:.03em }
+.page footer.run .pn{ font-weight:700; color:var(--ink); font-size:9pt; letter-spacing:0 }
+.page:nth-child(odd) footer.run{ flex-direction:row-reverse }
+.page .body{ position:absolute; left:15mm; right:15mm; top:18mm; height:264mm; overflow:hidden }
+.flow{ display:flex; flex-direction:column; gap:0 }
+.flow.spread{ min-height:264mm; justify-content:space-between }
+
+/* ───────────── títulos ───────────── */
+h1,h2,h3,h4{ margin:0; font-weight:700; color:var(--ink); line-height:1.15 }
+h2.sec{ display:flex; align-items:center; gap:2.4mm; font-size:15pt; margin:0 0 2.2mm; letter-spacing:-.005em }
+h2.sec .num{ display:inline-flex; align-items:center; justify-content:center; min-width:9.6mm; height:6.4mm; padding:0 1.6mm;
+  background:var(--acc); color:#fff; font-size:9.6pt; font-weight:700; border-radius:1.4mm; letter-spacing:.01em }
+h2.sec.top{ margin-top:0 }
+h2.sec small{ font-size:9pt; font-weight:600; color:var(--muted); margin-left:auto; letter-spacing:.02em }
+h3{ font-size:10.6pt; margin:2.6mm 0 1mm }
+h3 .k{ color:var(--acc) }
+h4{ font-size:7.6pt; text-transform:uppercase; letter-spacing:.09em; color:var(--muted); margin:2mm 0 .8mm }
+p{ margin:0 0 1.5mm; text-wrap:pretty }
+p:last-child{ margin-bottom:0 }
+ul,ol{ margin:0 0 1.5mm; padding-left:4.6mm }
+li{ margin:0 0 .5mm; padding-left:.4mm; text-wrap:pretty }
+li::marker{ color:var(--acc); font-weight:700 }
+.lead{ font-size:10.4pt; line-height:1.4; color:var(--ink2) }
+.small{ font-size:8.4pt; line-height:1.32 } .tiny{ font-size:7.6pt; line-height:1.28 }
+.mt1{margin-top:1mm}.mt2{margin-top:2mm}.mt3{margin-top:3mm}.mt4{margin-top:4mm}.mt5{margin-top:5mm}.mt6{margin-top:6mm}
+.mb0{margin-bottom:0}.mb1{margin-bottom:1mm}.mb2{margin-bottom:2mm}.mb3{margin-bottom:3mm}
+.center{text-align:center}.right{text-align:right}
+
+/* ───────────── abertura de módulo ───────────── */
+.mod-open{ display:grid; grid-template-columns:auto 1fr auto; gap:4mm; align-items:center; padding:0 0 2.6mm; margin:0 0 3mm;
+  border-bottom:1.4pt solid var(--acc) }
+.mod-open .rom{ font-size:34pt; font-weight:700; color:var(--acc); line-height:.9; letter-spacing:-.02em }
+.mod-open .rom::before{ content:"MÓDULO"; display:block; font-size:6.4pt; letter-spacing:.2em; color:var(--muted); font-weight:700; line-height:1; margin-bottom:1.2mm }
+.mod-open .tt{ font-size:19pt; font-weight:700; line-height:1.05 }
+.mod-open .tt small{ display:block; font-size:8.8pt; font-weight:500; color:var(--muted); margin-top:1.2mm; letter-spacing:0 }
+.mod-open .lv{ font-size:7.6pt; color:var(--muted); line-height:1.35; text-align:right; max-width:50mm }
+.mod-open .lv b{ color:var(--ink) }
+
+/* ───────────── rótulos (tags) ───────────── */
+.tag{ display:inline-block; font-size:6.8pt; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:.35mm 1.9mm .25mm;
+  border-radius:.9mm; background:var(--ink); color:#fff; vertical-align:middle; line-height:1.35 }
+.tag.o{ background:#fff; color:var(--ink); box-shadow:inset 0 0 0 .7pt var(--ink) }
+.tag.acc{ background:var(--acc) }
+.lvl{ height:2.05mm; width:7.4mm; vertical-align:middle; margin-left:1.4mm; display:inline-block }
+.lvlname{ font-size:7pt; font-weight:600; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; margin-left:1mm; vertical-align:middle }
+
+/* ───────────── caixas ───────────── */
+.box{ border:.7pt solid var(--rule); border-radius:1.6mm; padding:2mm 3mm 2.1mm; background:#fff }
+.box.soft{ background:var(--soft); border-color:var(--rule2) }
+.box > :last-child{ margin-bottom:0 }
+.concept{ border-left:2.4pt solid var(--ink); background:var(--soft); border-radius:0 1.6mm 1.6mm 0; padding:1.8mm 3mm 2mm }
+.concept .tag{ margin-right:1.6mm }
+.why{ border-left:2.4pt solid var(--rule); padding:.4mm 0 .4mm 3mm; margin:1.2mm 0 }
+.why .tag{ margin-right:1.6mm }
+.formula{ border:1.1pt solid var(--ink); border-radius:1.6mm; padding:1.6mm 3mm 2mm; background:#fff; position:relative }
+.formula .tag{ position:absolute; left:3mm; top:-1.9mm }
+.formula .eq{ text-align:center; margin:.8mm 0 .6mm }
+.formula .eq .katex-display{ margin:.5mm 0 }
+.formula .cond{ font-size:8.4pt; line-height:1.32; color:var(--ink2); border-top:.5pt dotted var(--rule); margin-top:1mm; padding-top:1mm }
+.formula .cond b{ color:var(--ink) }
+table.vars{ border-collapse:collapse; width:100%; font-size:8.5pt; line-height:1.25; margin-top:.8mm }
+table.vars td{ padding:.25mm 1.6mm .25mm 0; vertical-align:baseline }
+table.vars td:first-child{ width:11mm; white-space:nowrap }
+table.vars td:last-child{ text-align:right; color:var(--muted); white-space:nowrap; padding-right:0 }
+.ex{ border:.8pt solid #AAB3C3; border-radius:1.8mm; overflow:hidden; background:#fff }
+.ex > .exh{ background:var(--soft2); padding:1.2mm 3mm; display:flex; align-items:center; gap:2mm; border-bottom:.6pt solid #AAB3C3 }
+.ex > .exh .tt{ font-weight:700; font-size:9.6pt }
+.ex > .exb{ padding:2mm 3mm 2.2mm }
+.ex .st{ margin:0 0 1.1mm }
+.ex .st > b.l{ display:inline-block; min-width:0; font-size:7.2pt; letter-spacing:.07em; text-transform:uppercase; color:var(--acc); margin-right:1.4mm }
+.ex .calc{ margin:.8mm 0 1.1mm 0 }
+.ex .calc .katex-display{ margin:.6mm 0; text-align:left }
+.ex .calc .katex-display > .katex{ text-align:left }
+.err{ border:.8pt dashed #7A8498; border-radius:1.6mm; padding:1.6mm 3mm 1.8mm; background:#FAFBFC }
+.err .tag{ margin-right:1.6mm }
+.adv{ border:.8pt solid var(--acc); border-radius:1.6mm; padding:1.8mm 3mm 2mm; background:#fff }
+.adv > .tag{ background:var(--acc); margin-right:1.6mm }
+.fix{ border:.8pt solid var(--ink); border-radius:1.6mm; padding:1.6mm 3mm 1.8mm }
+.fix ol{ padding-left:5mm; margin:1mm 0 0 }
+.fix li{ margin-bottom:1.2mm }
+.fix li::marker{ color:var(--ink); font-weight:700 }
+.gab{ font-size:8pt; line-height:1.3; color:var(--ink2); border-top:.5pt dotted var(--rule); margin-top:1.2mm; padding-top:1mm }
+.gab b{ color:var(--ink) }
+.mem{ font-size:8.4pt; color:var(--ink2); padding:.9mm 2.4mm; border-radius:1mm; background:var(--soft); display:inline-block; margin:.6mm 0 }
+.mem b{ color:var(--ink) }
+.note{ font-size:8.2pt; color:var(--muted); line-height:1.3 }
+.safe{ font-size:8.2pt; border-top:.6pt solid var(--rule); padding-top:1mm; color:var(--muted) }
+.safe b{ color:var(--ink) }
+
+/* ───────────── layout em colunas ───────────── */
+.c2,.c21,.c12,.c3,.c32,.c23,.c4{ display:grid; gap:4.2mm }
+.c2{ grid-template-columns:1fr 1fr } .c21{ grid-template-columns:1.2fr 1fr } .c12{ grid-template-columns:1fr 1.2fr }
+.c3{ grid-template-columns:1fr 1fr 1fr } .c32{ grid-template-columns:1.5fr 1fr } .c23{ grid-template-columns:1fr 1.5fr }
+.c4{ grid-template-columns:repeat(4,1fr) }
+.c2 > *,.c21 > *,.c12 > *,.c3 > *,.c32 > *,.c23 > *,.c4 > *{ min-width:0 }
+.g1{gap:1.6mm}.g2{gap:2.6mm}.g3{gap:3.2mm}
+.ai-c{align-items:center}.ai-s{align-items:start}.ai-e{align-items:end}
+.stack > * + *{ margin-top:2.2mm }
+
+/* ───────────── figuras ───────────── */
+figure.f{ margin:0; break-inside:avoid }
+figure.f svg.fig{ display:block; width:100%; height:auto; overflow:visible }
+figure.f figcaption{ font-size:7.9pt; line-height:1.28; color:var(--muted); margin-top:.9mm }
+figure.f figcaption b{ color:var(--ink); font-weight:700; margin-right:1mm }
+figure.f.line{ border:.6pt solid var(--rule2); border-radius:1.6mm; padding:1.6mm 2mm 1.3mm; background:#fff }
+figure.f.plain{ padding:0 }
+svg.fig text{ font-family:"Source Sans 3","DejaVu Sans",sans-serif; font-kerning:none; font-variant-ligatures:none; white-space:pre }
+svg.fig .mi{ font-family:KaTeX_Math; font-style:italic } svg.fig .mr{ font-family:KaTeX_Main; font-style:normal }
+svg.fig text.halo{ paint-order:stroke; stroke:#fff; stroke-width:3.4px; stroke-linejoin:round }
+svg.fig tspan{ white-space:pre }
+svg.lvl circle{ stroke:var(--muted); stroke-width:1; fill:#fff } svg.lvl circle.on{ fill:var(--muted) }
+
+/* ───────────── tabelas ───────────── */
+table.t{ border-collapse:collapse; width:100%; font-size:8.5pt; line-height:1.27 }
+table.t th{ text-align:left; font-weight:700; font-size:7.8pt; letter-spacing:.05em; text-transform:uppercase; color:var(--muted);
+  border-bottom:1pt solid var(--ink); padding:.5mm 1.6mm .7mm }
+table.t td{ padding:.55mm 1.6mm; border-bottom:.5pt solid var(--rule2); vertical-align:top }
+table.t tr:last-child td{ border-bottom:none }
+table.t td.k{ font-weight:700; color:var(--ink); white-space:nowrap }
+table.t.cmp td:first-child,table.t.cmp th:first-child{ white-space:nowrap; font-weight:700; width:24% }
+table.t.cmp th:not(:first-child){ width:38% }
+table.t.zebra tr:nth-child(even) td{ background:var(--soft) }
+table.t td.num,table.t th.num{ text-align:right }
+
+/* ───────────── katex ───────────── */
+.katex{ font-size:1.07em }
+.katex-display{ margin:1.3mm 0 }
+.fix .katex-display,.ex .katex-display{ margin:.9mm 0 }
+.katex-display > .katex{ white-space:normal }
+
+/* ───────────── capa / sumário ───────────── */
+.cover{ position:absolute; inset:0; background:#fff; overflow:hidden }
+.toc{ columns:2; column-gap:9mm; font-size:8.9pt }
+.toc .tm{ break-after:avoid; break-inside:avoid } .toc .te{ break-inside:avoid }
+.toc .tm{ display:flex; align-items:baseline; gap:2.5mm; margin:3.2mm 0 1.2mm; font-weight:700; font-size:11pt; color:var(--acc); border-bottom:.7pt solid var(--rule); padding-bottom:.8mm }
+.toc .tm span.pg{ margin-left:auto; color:var(--ink) }
+.toc .te{ display:flex; align-items:baseline; gap:2mm; padding:.15mm 0 .15mm 8mm; line-height:1.3 }
+.toc .te .n{ color:var(--muted); min-width:9mm; font-weight:600 }
+.toc .te .dots{ flex:1; border-bottom:.6pt dotted var(--rule); transform:translateY(-.5mm) }
+.toc .te .pg{ font-weight:600; min-width:6mm; text-align:right }
+
+/* ───────────── capa ───────────── */
+.cv-band{ position:absolute; left:0; top:0; right:0; height:5mm; background:linear-gradient(90deg,var(--efd) 0 25%,var(--cur) 25% 50%,var(--mag) 50% 75%,var(--ene) 75% 100%) }
+.cv-top{ position:absolute; left:16mm; top:17mm; display:flex; gap:3mm; align-items:center; font-size:9.5pt; font-weight:700; letter-spacing:.2em; color:var(--muted) }
+.cv-top .dot{ width:1.3mm; height:1.3mm; border-radius:50%; background:var(--rule) }
+.cv-title{ position:absolute; left:15mm; top:30mm; font-size:62pt; line-height:.96; font-weight:700; letter-spacing:-.025em; color:var(--ink) }
+.cv-sub{ position:absolute; left:16mm; top:87mm; font-size:22pt; font-weight:300; color:var(--ink2); letter-spacing:.01em }
+.cv-desc{ position:absolute; left:16mm; top:101mm; width:165mm; font-size:10.4pt; line-height:1.45; color:var(--muted) }
+.cv-fig{ position:absolute; left:15mm; right:15mm; top:131mm }
+.cv-fig svg{ width:100%; height:auto; display:block }
+.cv-foot{ position:absolute; left:15mm; right:15mm; bottom:15mm; display:grid; grid-template-columns:repeat(3,1fr); gap:6mm; font-size:8.3pt; line-height:1.38; color:var(--muted); border-top:.7pt solid var(--rule); padding-top:3.4mm }
+.cv-foot b{ color:var(--ink); font-size:9.2pt }
+
+/* ───────────── componentes diversos ───────────── */
+.units{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.8mm }
+.u{ display:flex; gap:2.2mm; align-items:center; border:.7pt solid var(--rule); border-left:2.6pt solid var(--c,var(--gry)); border-radius:1.4mm;
+  padding:1.2mm 2mm 1.2mm 1.8mm; font-size:8.3pt; line-height:1.27 }
+.u i{ font-style:normal; font-weight:700; font-size:15pt; color:var(--c,var(--gry)); min-width:8.6mm; text-align:center; line-height:1 }
+.u b{ color:var(--ink) }
+.chain{ display:flex; flex-wrap:wrap; gap:1.2mm 1.4mm; align-items:center }
+.chain .s{ padding:.7mm 2.3mm; border-radius:1mm; background:var(--ink); color:#fff; font-weight:700; font-size:7.6pt; letter-spacing:.07em; text-transform:uppercase }
+.chain .s.o{ background:#fff; color:var(--ink); box-shadow:inset 0 0 0 .7pt var(--ink) }
+.chain .a{ color:var(--muted); font-weight:700; font-size:9pt }
+.lg{ display:grid; grid-template-columns:1fr 1fr; gap:1.1mm 5mm; font-size:8.5pt; line-height:1.25 }
+.lg .i{ display:flex; gap:2mm; align-items:center }
+.lg .sw{ width:4.6mm; height:4.6mm; border-radius:1mm; flex:none; background:var(--c) }
+.lg .i b{ color:var(--ink) }
+table.t.tight td,table.t.tight th{ padding:.35mm 1.3mm }
+table.t td.c,table.t th.c{ text-align:center }
+.pfx{ display:grid; grid-template-columns:repeat(8,1fr); border:.7pt solid var(--rule); border-radius:1.6mm; overflow:hidden; font-size:8.4pt; text-align:center }
+.pfx > div{ padding:1mm .6mm; border-right:.5pt solid var(--rule2); line-height:1.25 }
+.pfx > div:last-child{ border-right:none }
+.pfx b{ display:block; font-size:12pt; color:var(--ink) } .pfx span{ color:var(--muted); font-size:7.6pt; display:block }
+
+.cv-leg{ position:absolute; left:15mm; right:15mm; top:228mm; display:flex; flex-wrap:wrap; gap:1.6mm 5mm; font-size:8.2pt; color:var(--muted) }
+.cv-leg span{ display:inline-flex; align-items:center; gap:1.6mm }
+.cv-leg i{ width:3.2mm; height:3.2mm; border-radius:.8mm; display:inline-block }
+.tools{ display:grid; grid-template-columns:1fr 1fr; gap:2mm 3mm }
+.tools > div{ border:.7pt solid var(--rule); border-radius:1.4mm; padding:1.3mm 2.4mm 1.5mm; font-size:8.5pt; line-height:1.3 }
+.tools b.h{ display:block; font-size:7.4pt; letter-spacing:.08em; text-transform:uppercase; color:var(--acc); margin-bottom:.5mm }
+
+/* mapa mental em cadeia */
+.mm{ display:flex; align-items:stretch; gap:1.2mm }
+.mm .n{ flex:1 1 0; border:.9pt solid var(--c,var(--ink)); border-left-width:3pt; border-radius:1.4mm; padding:1.4mm 2mm; background:#fff; display:flex; flex-direction:column; justify-content:center; text-align:center; font-size:8.6pt; line-height:1.25 }
+.mm .n b{ color:var(--ink); font-size:9pt } .mm .n span{ color:var(--muted); font-size:7.8pt }
+.mm .ar{ flex:0 0 22mm; display:flex; flex-direction:column; justify-content:center; text-align:center; font-size:7.4pt; line-height:1.25; color:var(--muted); position:relative }
+.mm .ar::after{ content:""; display:block; height:.5pt; background:var(--ink); margin:1mm 3mm 0 3mm }
+.mm .ar i{ font-style:normal; color:var(--ink2) }
+.xq{ margin:0 0 1.2mm }
+.xq ol,ol.xq{ margin:0; padding-left:5mm }
+.fix .xq li{ margin-bottom:0 }
+/* equações dos exemplos: um pouco mais compactas */
+.ex .calc .katex{ font-size:1.0em }
+.ex .calc .katex-display{ margin:.4mm 0 }

@@ -1,0 +1,29 @@
+<!--mod=III|sec=Geradores e receptores reais-->
+<h2 class="sec top" data-toc="3.8|Geradores e receptores reais"><span class="num">3.8</span> Geradores e receptores reais</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Uma fonte real não mantém a mesma tensão quando fornece corrente: tem <b>resistência interna</b> \(r\). Modelo: uma <b>fem</b> ideal \(\varepsilon\) em série com \(r\). A <b>força eletromotriz</b> \(\varepsilon\) é a energia que a fonte fornece <i>por unidade de carga</i> (em volts) — é a tensão nos terminais <i>em circuito aberto</i>. Com corrente, a <b>tensão nos terminais</b> \(U=V_A-V_B\) é <b>menor</b>: parte da energia se dissipa em \(r\).</div>
+    <div class="formula mt3"><span class="tag">Gerador</span>
+      <div class="eq">\[ \begin{aligned} U&=\varepsilon-r\,I\qquad I=\frac{\varepsilon}{R+r}\qquad I_{cc}=\frac{\varepsilon}{r}\\ P_{total}&=\varepsilon I\quad P_{útil}=UI\quad P_{perd}=rI^{2}\quad \eta=\frac{U}{\varepsilon} \end{aligned} \]</div>
+      <div class="cond"><b>Convenção:</b> \(I\) <i>sai</i> pelo polo \(+\) (gerador fornecendo). \(U=\varepsilon\) só se \(I=0\) (ou \(r=0\)). \(I_{cc}\) é a corrente de curto (\(R=0\)) — <b>não</b> se faz.</div>
+    </div>
+    <div class="formula mt2"><span class="tag">Receptor</span>
+      <div class="eq">\[ U=\varepsilon'+r'\,I\qquad P_{abs}=UI=\varepsilon'I+r'I^{2}\qquad \eta'=\frac{\varepsilon'}{U} \]</div>
+      <div class="cond"><b>Convenção:</b> \(I\) <i>entra</i> pelo polo \(+\). \(\varepsilon'\) (<b>força contraeletromotriz</b>) é a parte da energia convertida em outra forma útil (motor: mecânica; bateria em recarga: química); \(r'I^2\) é perda.</div>
+    </div>
+  </div>
+  <div class="stack">
+    <fig name="ger_circ">Gerador real e carga \(R\): a tensão nos terminais \(A\)–\(B\) é \(U=\varepsilon-rI\), menor que \(\varepsilon\).</fig>
+    <div class="err"><span class="tag o">Erro frequente</span><b>Confundir fem com DDP nos terminais.</b> \(\varepsilon\) é uma propriedade da fonte (energia por carga); \(U\) depende da corrente que ela fornece. Um voltímetro ideal nos terminais de uma pilha <i>sem carga</i> mede \(\varepsilon\); com a pilha alimentando algo, mede menos. “Pilha fraca” = \(r\) alta: a fem pode ainda estar boa, mas \(U\) despenca com a corrente.</div>
+  </div>
+</div>
+<div class="mt2"><fig name="ger_graf" cls="line">A reta do gerador cai com inclinação \(-r\); a do receptor sobe com inclinação \(+r'\). O ponto de operação depende do circuito externo.</fig></div>
+<div class="ex mt2">
+  <div class="exh"><span class="tag acc">Exemplo 23</span>{{lvl:3}}<span class="tt">Gerador real alimentando uma carga e receptor com perdas</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Uma bateria (\(\varepsilon=12\) V, \(r=0{,}50\ \Omega\)) alimenta \(R=5{,}5\ \Omega\). Calcule (a) a corrente e a tensão nos terminais; (b) as potências total, útil e perdida e o rendimento; (c) \(I_{cc}\). (d) Um receptor (\(\varepsilon'=6\) V, \(r'=1\ \Omega\)) é atravessado por \(2\) A: calcule sua tensão, potência absorvida, útil e rendimento.</p>
+    <p class="st"><b class="l">Interpretação e método</b> Gerador real = \(\varepsilon\) em série com \(r\) e \(R\): circuito de uma malha, \(I=\varepsilon/(R+r)\). Depois \(U=\varepsilon-rI\) (confira com \(U=RI\)). Receptor: \(U=\varepsilon'+r'I\).</p>
+    <div class="calc">\[ \begin{aligned} I&=\frac{12}{5{,}5+0{,}5}=2{,}0\un{A}\qquad U=12-0{,}5\cdot2=11\un{V}\ (=RI\ \checkmark)\\ P_{total}&=12\cdot2=24\un{W}\quad P_{útil}=11\cdot2=22\un{W}\quad P_{perd}=0{,}5\cdot2^2=2\un{W}\quad \eta=\tfrac{11}{12}\approx92\%\quad I_{cc}=\tfrac{12}{0{,}5}=24\un{A}\\ U'&=6+1\cdot2=8\un{V}\quad P_{abs}=8\cdot2=16\un{W}=\underbrace{6\cdot2}_{12\ \text{útil}}+\underbrace{1\cdot2^2}_{4\ \text{perdida}}\quad \eta'=\tfrac{6}{8}=75\% \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> \(P_{total}=P_{útil}+P_{perd}\): \(24=22+2\) ✓; \(U=RI=5{,}5\cdot2=11\) V ✓. A corrente de curto (24 A) é 12× a de operação. <b>Aprofundamento:</b> a potência útil máxima ocorre com \(R=r\): \(P_{max}=\varepsilon^2/4r=72\) W, com rendimento de só 50%.</p>
+  </div>
+</div>

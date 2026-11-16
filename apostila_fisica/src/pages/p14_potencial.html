@@ -1,0 +1,47 @@
+<!--mod=II|sec=Potencial elétrico e energia-->
+<h2 class="sec top" data-toc="2.5|Potencial elétrico, DDP e energia"><span class="num">2.5</span> Potencial elétrico e energia</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Uma carga \(q\) em um campo elétrico tem <b>energia potencial elétrica</b> \(E_p\), como um corpo no campo gravitacional. Dividindo por \(q\), obtém-se uma propriedade do <i>ponto</i>: o <b>potencial elétrico</b> \(V=E_p/q\), energia por unidade de carga (volt = J/C). O que tem significado físico é a <b>diferença de potencial</b> (DDP, ou tensão): \(U_{AB}=V_A-V_B\).</div>
+    <div class="why mt2"><span class="tag o">Analogia</span><b>Potencial ↔ altitude; campo ↔ inclinação do relevo.</b> Uma bola “cai” de maior para menor altitude; uma carga <span class="c-pos b">positiva</span> abandonada vai de <b>maior para menor</b> potencial; uma <span class="c-neg b">negativa</span>, de menor para maior. Pontos de mesma “altitude” formam as <b>superfícies equipotenciais</b>.</div>
+    <div class="formula mt3"><span class="tag">Fórmulas</span>
+      <div class="eq">\[ \begin{aligned} V&=k\,\frac{Q}{r}\quad(V_\infty=0)\\ W_{AB}&=q\,(V_A-V_B)=q\,U_{AB}\\ E_p&=q\,V \end{aligned} \]</div>
+      <table class="vars">
+        <tr><td>\(V\)</td><td>potencial elétrico (\(Q\) <i>com sinal</i>)</td><td>V = J/C</td></tr>
+        <tr><td>\(U_{AB}\)</td><td>DDP entre \(A\) e \(B\): \(V_A-V_B\)</td><td>V</td></tr>
+        <tr><td>\(W_{AB}\)</td><td>trabalho da força elétrica de \(A\) a \(B\)</td><td>J</td></tr>
+        <tr><td>\(E_p\)</td><td>energia potencial elétrica de \(q\)</td><td>J</td></tr>
+      </table>
+      <div class="cond"><b>Sinais:</b> \(V>0\) perto de cargas positivas e \(V<0\) perto de negativas; com várias cargas, <b>some algebricamente</b> (é escalar). \(W_{AB}>0\) quando a carga “desce” em potencial. <b>Energia:</b> se só a força elétrica realiza trabalho, \(E_c+E_p=\) constante, ou seja, \(\Delta E_c=W_{AB}=qU_{AB}\). Vale também para \(1\un{eV}=1{,}6\times10^{-19}\un{J}\).</div>
+    </div>
+  </div>
+  <div>
+    <fig name="equip_pontual">Equipotenciais (tracejadas) e linhas de campo (setas) de \(Q=+10\) nC. \(V\) cai com \(1/r\): 900 V, 450 V, 300 V. Pontos \(A\) e \(B\): Exemplo 7.</fig>
+    <ul class="small mt2 mb0">
+      <li>Em uma equipotencial, \(V\) é constante: o <b>trabalho</b> da força elétrica ao longo dela é <b>nulo</b>.</li>
+      <li>São <b>perpendiculares</b> às linhas de campo; \(\vec E\) aponta para onde \(V\) <b>decresce</b>.</li>
+      <li>Mais <b>próximas</b> entre si ⇒ campo mais <b>intenso</b>.</li>
+      <li>Um condutor em equilíbrio é uma equipotencial.</li>
+    </ul>
+  </div>
+</div>
+
+<table class="t cmp zebra tight mt3">
+  <tr><th>Campo × potencial</th><th>Campo elétrico \(\vec E\)</th><th>Potencial elétrico \(V\)</th></tr>
+  <tr><td>Natureza</td><td>vetorial (módulo, direção, sentido)</td><td>escalar (número com sinal)</td></tr>
+  <tr><td>Significado</td><td>força por unidade de carga</td><td>energia por unidade de carga</td></tr>
+  <tr><td>Unidade</td><td>N/C = V/m</td><td>V = J/C</td></tr>
+  <tr><td>Carga puntiforme</td><td>\(kQ/r^{2}\)</td><td>\(kQ/r\)</td></tr>
+  <tr><td>Várias cargas</td><td>soma <b>vetorial</b></td><td>soma <b>algébrica</b></td></tr>
+</table>
+<div class="err mt2"><span class="tag o">Erro frequente</span><b>Achar que \(E=0\) implica \(V=0\) (ou o contrário).</b> Campo é a <i>variação</i> do potencial: onde \(V\) é constante, \(E=0\) — mesmo que \(V\) seja grande (dentro de um condutor carregado). E pode haver \(V=0\) com \(E\neq0\) (ponto médio de um dipolo, Exemplo 9).</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 7</span>{{lvl:2}}<span class="tt">Potencial, DDP e trabalho em torno de uma carga</span></div>
+  <div class="exb">
+    <p class="st"><b class="l">Situação</b> Em torno de uma carga fixa \(Q=+10\) nC (vácuo), uma carga de prova \(q=+2{,}0\) nC é levada do ponto \(A\) (a \(0{,}10\) m de \(Q\)) ao ponto \(B\) (a \(0{,}30\) m). (a) Calcule \(V_A\) e \(V_B\). (b) Qual o trabalho da força elétrica? (c) Se \(q\) fosse solta em \(A\), qual seria sua energia cinética em \(B\)?</p>
+    <p class="st"><b class="l">Interpretação</b> \(Q>0\) ⇒ \(V>0\), decrescendo com \(r\). \(q>0\) é <i>repelida</i>: ao se afastar vai de maior para menor \(V\) ⇒ \(W>0\). <b>Método:</b> \(V=kQ/r\); \(W_{AB}=q(V_A-V_B)\).</p>
+    <div class="calc">\[ \begin{aligned} V_A&=\frac{kQ}{r_A}=\frac{9{,}0\times10^{9}\cdot1{,}0\times10^{-8}}{0{,}10}=9{,}0\times10^{2}\un{V}\qquad V_B=\frac{kQ}{r_B}=3{,}0\times10^{2}\un{V}\\ W_{AB}&=q\,(V_A-V_B)=2{,}0\times10^{-9}\,(900-300)=1{,}2\times10^{-6}\un{J} \end{aligned} \]</div>
+    <p class="st mb0"><b class="l">Verificação</b> \(W>0\), coerente com repulsão e afastamento. Se \(q\) fosse solta em \(A\), \(E_c(B)=W_{AB}=1{,}2\,\mu\mathrm{J}\). Independe da trajetória (força conservativa); \(V\) caiu a \(1/3\) quando \(r\) triplicou \(\checkmark\).</p>
+  </div>
+</div>

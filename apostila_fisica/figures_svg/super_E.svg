@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 204" width="332" height="204" role="img" aria-label="Superposição de campos elétricos no ponto P"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="56" y1="174" x2="166" y2="64" stroke="#9AA3B2" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="276" y1="174" x2="166" y2="64" stroke="#9AA3B2" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="215.5" y1="14.5" x2="264.99" y2="64" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="215.5" y1="113.5" x2="264.99" y2="64" stroke="#6B7280" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="166" y1="64" x2="209.43" y2="20.57" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="215.5,14.5 210.52,25.08 204.92,19.48" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="166" y1="64" x2="209.43" y2="107.43" stroke="#0891B2" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="215.5,113.5 204.92,108.52 210.52,102.92" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="166" y1="64" x2="254.85" y2="64" stroke="#0E7490" stroke-width="3.8" stroke-linecap="round"/>
+<polygon points="264.99,64 251.99,68.68 251.99,59.32" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="166" cy="64" r="3.4" fill="#fff" stroke="#1B2438" stroke-width="1.8"/>
+<text x="150.93" y="58" font-size="12.5" fill="#1B2438" class="halo"><tspan xml:space="preserve">P</tspan></text>
+<text x="168.47" y="37.25" font-size="13" fill="#0E7490" class="halo"><tspan class="mi" xml:space="preserve">E</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">1</tspan></text>
+<line x1="170.29" y1="26.85" x2="179.37" y2="26.85" stroke="#0E7490" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="179.87,26.85 175.45,29.06 175.45,24.64" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="199.75" y="102.75" font-size="13" fill="#0E7490" class="halo"><tspan class="mi" xml:space="preserve">E</tspan><tspan class="mr" font-size="9.36" dy="3.51" xml:space="preserve">2</tspan></text>
+<line x1="201.57" y1="92.35" x2="210.64" y2="92.35" stroke="#0E7490" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="211.14,92.35 206.72,94.56 206.72,90.14" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="218.71" y="81" font-size="13.5" fill="#0E7490" class="halo"><tspan class="mi" xml:space="preserve">E</tspan><tspan class="mi" font-size="9.72" dy="3.65" xml:space="preserve">R</tspan></text>
+<line x1="220.6" y1="70.2" x2="230.02" y2="70.2" stroke="#0E7490" stroke-width="1.0125" stroke-linecap="butt"/>
+<polygon points="230.52,70.2 225.93,72.5 225.93,67.91" fill="#0E7490" stroke="#0E7490" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="89.61" y="16" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">E</tspan><tspan class="mi" font-size="8.64" dy="3.24" xml:space="preserve">R</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">E</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.24" dx="2.64" xml:space="preserve">+</tspan><tspan class="mi" dx="2.64" xml:space="preserve">E</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan><tspan dy="-3.24" xml:space="preserve">  (soma vetorial)</tspan></text>
+<line x1="91.29" y1="6.4" x2="99.67" y2="6.4" stroke="#1B2438" stroke-width="0.8999999999999999" stroke-linecap="butt"/>
+<polygon points="100.17,6.4 96.09,8.44 96.09,4.36" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="122.76" y1="6.4" x2="131.14" y2="6.4" stroke="#1B2438" stroke-width="0.8999999999999999" stroke-linecap="butt"/>
+<polygon points="131.64,6.4 127.56,8.44 127.56,4.36" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="153.91" y1="6.4" x2="162.29" y2="6.4" stroke="#1B2438" stroke-width="0.8999999999999999" stroke-linecap="butt"/>
+<polygon points="162.79,6.4 158.71,8.44 158.71,4.36" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="56" cy="174" r="11" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="50.28" y1="174" x2="61.72" y2="174" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="56" y1="168.28" x2="56" y2="179.72" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="276" cy="174" r="11" fill="#E3EBFD" stroke="#2563EB" stroke-width="2"/>
+<line x1="270.28" y1="174" x2="281.72" y2="174" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round"/>
+<text x="46.59" y="198" font-size="12" fill="#BF2B31"><tspan class="mr" xml:space="preserve">+</tspan><tspan class="mi" xml:space="preserve">Q</tspan></text>
+<text x="266.59" y="198" font-size="12" fill="#1D4ED8"><tspan class="mr" xml:space="preserve">−</tspan><tspan class="mi" xml:space="preserve">Q</tspan></text>
+</svg>

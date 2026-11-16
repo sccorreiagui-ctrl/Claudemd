@@ -1,0 +1,39 @@
+<!--mod=IV|sec=Força sobre fios e entre fios-->
+<h3 class="top" style="margin-top:0">Força magnética sobre um fio com corrente</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Corrente é carga em movimento; logo, um fio com corrente num campo \(\vec B\) sofre a soma das forças magnéticas sobre os seus portadores. A força é perpendicular ao fio e a \(\vec B\); o sentido vem da mão direita: <b>polegar = \(I\)</b> (sentido convencional), <b>dedos = \(\vec B\)</b>, <b>palma = \(\vec F\)</b>.</div>
+    <div class="formula mt3"><span class="tag">Fórmula</span>
+      <div class="eq">\[ F=B\,I\,L\,\mathrm{sen}\,\theta \]</div>
+      <div class="cond"><b>Variáveis:</b> \(L\) comprimento do trecho dentro do campo (m); \(\theta\) ângulo entre o fio (sentido de \(I\)) e \(\vec B\). <b>Validade:</b> trecho retilíneo em \(\vec B\) uniforme. <b>Por quê:</b> há \(nAL\) portadores no trecho, cada um com força \(qv_dB\); como \(I=nqv_dA\), \(F=nAL\,q\,v_d\,B=ILB\). A força <i>líquida</i> sobre uma espira fechada em campo uniforme é nula, mas o <b>torque</b> não.</div>
+    </div>
+  </div>
+  <div><fig name="fio_em_B" cls="line">Fio com corrente em \(\vec B\) entrando no papel: \(I\) para a direita ⇒ \(\vec F\) para cima.</fig></div>
+</div>
+
+<h3 class="mt3">Dois fios paralelos</h3>
+<div class="c2 g3 ai-s">
+  <div>
+    <p class="small">O fio 1 cria, no local do fio 2, o campo \(B_1=\mu_0I_1/(2\pi d)\); o fio 2, de comprimento \(L\), sofre \(F=B_1I_2L\). Pelo par ação–reação, o fio 1 sofre a mesma força, em sentido oposto. Por unidade de comprimento:</p>
+    <div class="formula"><span class="tag">Fórmula</span>
+      <div class="eq">\[ \frac{F}{L}=\frac{\mu_0\,I_1\,I_2}{2\pi\,d} \]</div>
+      <div class="cond"><b>Correntes de mesmo sentido se atraem; de sentidos opostos se repelem.</b> Com \(I_1=I_2=10\) A e \(d=1{,}0\) cm: \(F/L=2\times10^{-7}\cdot10^2/10^{-2}=2{,}0\times10^{-3}\) N/m. Esse efeito definiu o ampère (\(2\times10^{-7}\) N/m para \(1\) A a \(1\) m); hoje o ampère se define pela carga elementar \(e\), e \(\mu_0\approx4\pi\times10^{-7}\) T·m/A.</div>
+    </div>
+  </div>
+  <div><fig name="fios_paralelos" cls="line">Forças entre fios paralelos (vista de cima): ⊙ corrente saindo, ⊗ entrando.</fig></div>
+</div>
+
+<div class="ex mt3">
+  <div class="exh"><span class="tag acc">Exemplo 28</span>{{lvl:2}}<span class="tt">Fio em equilíbrio no ar</span></div>
+  <div class="exb c21 g3 ai-s">
+    <div>
+      <p class="st"><b class="l">Situação</b> Um fio horizontal de \(20\) cm e \(10\) g está em um campo uniforme horizontal de \(0{,}50\) T, perpendicular ao fio e entrando no papel. Que corrente (módulo e sentido) o mantém em equilíbrio, sem apoio? E qual seria a aceleração do fio com \(2{,}0\) A? (\(g=10\) m/s².)</p>
+      <p class="st"><b class="l">Método</b> Equilíbrio: \(F_m=mg\) com \(\vec F_m\) para cima. Mão direita, com \(\vec B\) entrando: para a força subir, \(I\) vai para a <b>direita</b>. Com \(2{,}0\) A: \(F_R=F_m-mg\).</p>
+      <div class="calc">\[ \begin{aligned} B\,I\,L&=m\,g\ \Rightarrow\ I=\frac{0{,}010\cdot10}{0{,}50\cdot0{,}20}=1{,}0\un{A}\\ a&=\frac{B(2{,}0)L-mg}{m}=\frac{0{,}20-0{,}10}{0{,}010}=10\un{m/s^2}\ \text{(para cima)} \end{aligned} \]</div>
+      <p class="st mb0"><b class="l">Verificação</b> \(F_m=0{,}50\cdot1{,}0\cdot0{,}20=0{,}10\) N \(=mg=0{,}010\cdot10\) ✓. Dobrar \(I\) dobra \(F_m\): resultante \(=0{,}10\) N, \(a=g\) para cima.</p>
+    </div>
+    <div><fig name="ex_fio_eq"/></div>
+  </div>
+</div>
+
+<div class="err mt3"><span class="tag o">Erro frequente</span><b>Esquecer que o sentido de \(I\) é o convencional.</b> Se os portadores são elétrons, eles se movem em sentido <i>oposto</i> ao de \(I\); usar o sentido do movimento dos elétrons com a regra da mão direita (feita para \(q>0\)) inverte a força. Use sempre \(I\) convencional <i>ou</i> inverta o resultado para \(q<0\).</div>

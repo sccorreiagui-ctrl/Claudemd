@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 212" width="680" height="212" role="img" aria-label="Lei de Lenz: ímã se aproximando, se afastando e parado diante de uma espira"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<rect x="3" y="3" width="164" height="206" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<text x="29.82" y="17" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">(a) polo N se aproxima</tspan></text>
+<rect x="12" y="56" width="35" height="20" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="47" y="56" width="35" height="20" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="26.23" y="70.08" font-size="12" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="60.56" y="70.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<polyline points="124,33 122.85,33.18 121.71,33.72 120.6,34.62 119.53,35.85 118.5,37.42 117.53,39.3 116.64,41.48 115.83,43.92 115.1,46.6 114.47,49.5 113.95,52.58 113.54,55.8 113.24,59.14 113.06,62.55 113,66 113.06,69.45 113.24,72.86 113.54,76.2 113.95,79.42 114.47,82.5 115.1,85.4 115.83,88.08 116.64,90.52 117.53,92.7 118.5,94.58 119.53,96.15 120.6,97.38 121.71,98.28 122.85,98.82 124,99" fill="none" stroke="#B25B00" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" stroke-opacity="0.75"/>
+<polyline points="124,33 125.15,33.18 126.29,33.72 127.4,34.62 128.47,35.85 129.5,37.42 130.47,39.3 131.36,41.48 132.17,43.92 132.9,46.6 133.53,49.5 134.05,52.58 134.46,55.8 134.76,59.14 134.94,62.55 135,66 134.94,69.45 134.76,72.86 134.46,76.2 134.05,79.42 133.53,82.5 132.9,85.4 132.17,88.08 131.36,90.52 130.47,92.7 129.5,94.58 128.47,96.15 127.4,97.38 126.29,98.28 125.15,98.82 124,99" fill="none" stroke="#F08C00" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="135.09,61.05 139.51,72.13 130.28,71.97" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="26" y1="42" x2="56.98" y2="42" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="64,42 55,45.24 55,38.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="42.21" y="36" font-size="11.5" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">v</tspan></text>
+<line x1="43.82" y1="28.64" x2="48.94" y2="28.64" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="49.44,28.64 45.53,30.59 45.53,26.69" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="18" y1="118" x2="42.2" y2="118" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="50,118 40,121.6 40,114.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="56" y="122" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ext</tspan></text>
+<line x1="57.61" y1="112.8" x2="65.88" y2="112.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="66.38,112.8 62.47,114.75 62.47,110.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="50" y1="140" x2="25.8" y2="140" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="5 3"/>
+<polygon points="18,140 28,136.4 28,143.6" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="56" y="144" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ind</tspan></text>
+<line x1="57.61" y1="134.8" x2="65.88" y2="134.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="66.38,134.8 62.47,136.76 62.47,132.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="56.88" y="170" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan font-weight="600" xml:space="preserve"> aumenta</tspan></text>
+<text x="25.77" y="186" font-size="10.5" fill="#B25B00" font-weight="600"><tspan font-weight="600" xml:space="preserve">anti-horário (visto do ímã)</tspan></text>
+<text x="26.32" y="201" font-size="10" fill="#5B6578"><tspan xml:space="preserve">face N diante do N: repulsão</tspan></text>
+<rect x="173" y="3" width="164" height="206" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<text x="207.87" y="17" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">(b) polo N se afasta</tspan></text>
+<rect x="182" y="56" width="35" height="20" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="217" y="56" width="35" height="20" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="196.23" y="70.08" font-size="12" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="230.56" y="70.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<polyline points="294,33 292.85,33.18 291.71,33.72 290.6,34.62 289.53,35.85 288.5,37.42 287.53,39.3 286.64,41.48 285.83,43.92 285.1,46.6 284.47,49.5 283.95,52.58 283.54,55.8 283.24,59.14 283.06,62.55 283,66 283.06,69.45 283.24,72.86 283.54,76.2 283.95,79.42 284.47,82.5 285.1,85.4 285.83,88.08 286.64,90.52 287.53,92.7 288.5,94.58 289.53,96.15 290.6,97.38 291.71,98.28 292.85,98.82 294,99" fill="none" stroke="#B25B00" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" stroke-opacity="0.75"/>
+<polyline points="294,33 295.15,33.18 296.29,33.72 297.4,34.62 298.47,35.85 299.5,37.42 300.47,39.3 301.36,41.48 302.17,43.92 302.9,46.6 303.53,49.5 304.05,52.58 304.46,55.8 304.76,59.14 304.94,62.55 305,66 304.94,69.45 304.76,72.86 304.46,76.2 304.05,79.42 303.53,82.5 302.9,85.4 302.17,88.08 301.36,90.52 300.47,92.7 299.5,94.58 298.47,96.15 297.4,97.38 296.29,98.28 295.15,98.82 294,99" fill="none" stroke="#F08C00" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="305.09,70.95 300.28,60.03 309.51,59.87" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="234" y1="42" x2="203.02" y2="42" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="196,42 205,38.76 205,45.24" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="212.21" y="36" font-size="11.5" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">v</tspan></text>
+<line x1="213.82" y1="28.64" x2="218.94" y2="28.64" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="219.44,28.64 215.53,30.59 215.53,26.69" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="188" y1="118" x2="212.2" y2="118" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="220,118 210,121.6 210,114.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="226" y="122" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ext</tspan></text>
+<line x1="227.61" y1="112.8" x2="235.88" y2="112.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="236.38,112.8 232.47,114.75 232.47,110.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="188" y1="140" x2="212.2" y2="140" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="5 3"/>
+<polygon points="220,140 210,143.6 210,136.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="226" y="144" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ind</tspan></text>
+<line x1="227.61" y1="134.8" x2="235.88" y2="134.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="236.38,134.8 232.47,136.76 232.47,132.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="230.05" y="170" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan font-weight="600" xml:space="preserve"> diminui</tspan></text>
+<text x="206.38" y="186" font-size="10.5" fill="#B25B00" font-weight="600"><tspan font-weight="600" xml:space="preserve">horário (visto do ímã)</tspan></text>
+<text x="199.22" y="201" font-size="10" fill="#5B6578"><tspan xml:space="preserve">face S diante do N: atração</tspan></text>
+<rect x="343" y="3" width="164" height="206" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<text x="370.78" y="17" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">(c) polo S se aproxima</tspan></text>
+<rect x="387" y="56" width="35" height="20" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="352" y="56" width="35" height="20" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="401.23" y="70.08" font-size="12" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="365.56" y="70.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<polyline points="464,33 462.85,33.18 461.71,33.72 460.6,34.62 459.53,35.85 458.5,37.42 457.53,39.3 456.64,41.48 455.83,43.92 455.1,46.6 454.47,49.5 453.95,52.58 453.54,55.8 453.24,59.14 453.06,62.55 453,66 453.06,69.45 453.24,72.86 453.54,76.2 453.95,79.42 454.47,82.5 455.1,85.4 455.83,88.08 456.64,90.52 457.53,92.7 458.5,94.58 459.53,96.15 460.6,97.38 461.71,98.28 462.85,98.82 464,99" fill="none" stroke="#B25B00" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" stroke-opacity="0.75"/>
+<polyline points="464,33 465.15,33.18 466.29,33.72 467.4,34.62 468.47,35.85 469.5,37.42 470.47,39.3 471.36,41.48 472.17,43.92 472.9,46.6 473.53,49.5 474.05,52.58 474.46,55.8 474.76,59.14 474.94,62.55 475,66 474.94,69.45 474.76,72.86 474.46,76.2 474.05,79.42 473.53,82.5 472.9,85.4 472.17,88.08 471.36,90.52 470.47,92.7 469.5,94.58 468.47,96.15 467.4,97.38 466.29,98.28 465.15,98.82 464,99" fill="none" stroke="#F08C00" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="475.09,70.95 470.28,60.03 479.51,59.87" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="366" y1="42" x2="396.98" y2="42" stroke="#1B2438" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="404,42 395,45.24 395,38.76" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="382.21" y="36" font-size="11.5" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">v</tspan></text>
+<line x1="383.82" y1="28.64" x2="388.94" y2="28.64" stroke="#1B2438" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="389.44,28.64 385.53,30.59 385.53,26.69" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="390" y1="118" x2="365.8" y2="118" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="358,118 368,114.4 368,121.6" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="396" y="122" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ext</tspan></text>
+<line x1="397.61" y1="112.8" x2="405.88" y2="112.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="406.38,112.8 402.47,114.75 402.47,110.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="358" y1="140" x2="382.2" y2="140" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="5 3"/>
+<polygon points="390,140 380,143.6 380,136.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="396" y="144" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ind</tspan></text>
+<line x1="397.61" y1="134.8" x2="405.88" y2="134.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="406.38,134.8 402.47,136.76 402.47,132.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="393.21" y="170" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mr" xml:space="preserve">|Φ|</tspan><tspan font-weight="600" xml:space="preserve"> aumenta</tspan></text>
+<text x="376.38" y="186" font-size="10.5" fill="#B25B00" font-weight="600"><tspan font-weight="600" xml:space="preserve">horário (visto do ímã)</tspan></text>
+<text x="367.45" y="201" font-size="10" fill="#5B6578"><tspan xml:space="preserve">face S diante do S: repulsão</tspan></text>
+<rect x="513" y="3" width="164" height="206" rx="6" fill="#FFFFFF" stroke="#C9D0DC" stroke-width="1.1"/>
+<text x="558.69" y="17" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">(d) ímã parado</tspan></text>
+<rect x="522" y="56" width="35" height="20" rx="0" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.8"/>
+<rect x="557" y="56" width="35" height="20" rx="0" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="536.23" y="70.08" font-size="12" fill="#6D28D9" font-weight="700"><tspan font-weight="600" xml:space="preserve">S</tspan></text>
+<text x="570.56" y="70.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">N</tspan></text>
+<polyline points="634,33 632.85,33.18 631.71,33.72 630.6,34.62 629.53,35.85 628.5,37.42 627.53,39.3 626.64,41.48 625.83,43.92 625.1,46.6 624.47,49.5 623.95,52.58 623.54,55.8 623.24,59.14 623.06,62.55 623,66 623.06,69.45 623.24,72.86 623.54,76.2 623.95,79.42 624.47,82.5 625.1,85.4 625.83,88.08 626.64,90.52 627.53,92.7 628.5,94.58 629.53,96.15 630.6,97.38 631.71,98.28 632.85,98.82 634,99" fill="none" stroke="#9AA3B2" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" stroke-opacity="0.75"/>
+<polyline points="634,33 635.15,33.18 636.29,33.72 637.4,34.62 638.47,35.85 639.5,37.42 640.47,39.3 641.36,41.48 642.17,43.92 642.9,46.6 643.53,49.5 644.05,52.58 644.46,55.8 644.76,59.14 644.94,62.55 645,66 644.94,69.45 644.76,72.86 644.46,76.2 644.05,79.42 643.53,82.5 642.9,85.4 642.17,88.08 641.36,90.52 640.47,92.7 639.5,94.58 638.47,96.15 637.4,97.38 636.29,98.28 635.15,98.82 634,99" fill="none" stroke="#9AA3B2" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="543.17" y="42" font-size="11" fill="#1B2438" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">v</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mr" dx="3.08" xml:space="preserve">0</tspan></text>
+<line x1="528" y1="118" x2="552.2" y2="118" stroke="#7C3AED" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="560,118 550,121.6 550,114.4" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="566" y="122" font-size="11.5" fill="#6D28D9" font-weight="700"><tspan class="mi" xml:space="preserve">B</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">ext</tspan></text>
+<line x1="567.61" y1="112.8" x2="575.88" y2="112.8" stroke="#6D28D9" stroke-width="0.8624999999999999" stroke-linecap="butt"/>
+<polygon points="576.38,112.8 572.47,114.75 572.47,110.84" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="564.31" y="170" font-size="11.5" fill="#1B2438" font-weight="700"><tspan class="mr" xml:space="preserve">Φ</tspan><tspan font-weight="600" xml:space="preserve"> constante</tspan></text>
+<text x="527.1" y="186" font-size="10.5" fill="#5B6578" font-weight="600"><tspan class="mi" xml:space="preserve">I</tspan><tspan class="mr" dx="2.94" xml:space="preserve">=</tspan><tspan class="mr" dx="2.94" xml:space="preserve">0</tspan><tspan font-weight="600" xml:space="preserve"> (mesmo com </tspan><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> intenso)</tspan></text>
+<text x="537.85" y="201" font-size="10" fill="#5B6578"><tspan xml:space="preserve">nenhuma força sobre o ímã</tspan></text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 214" width="332" height="214" role="img" aria-label="Circuito em série com potenciais: A 12 V, B 8 V, C 0 V"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="40,164 40,110.75" fill="none" stroke="#2563EB" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,103.25 40,50" fill="none" stroke="#E5484D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="110.75" x2="47.5" y2="110.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="103.25" x2="53" y2="103.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="16.91" y="104.36" font-size="12" fill="#1B2438"><tspan class="mi" xml:space="preserve">ε</tspan></text>
+<text x="1.99" y="117.8" font-size="12" fill="#1B2438"><tspan xml:space="preserve">12 V</tspan></text>
+<text x="57.67" y="121.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="100.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,50 84,50" fill="none" stroke="#E5484D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="84,50 117,50" fill="none" stroke="#E5484D" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="163,50 196,50" fill="none" stroke="#A79419" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="117,50 120.83,57.5 128.5,42.5 136.17,57.5 143.83,42.5 151.5,57.5 159.17,42.5 163,50" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="118.81" y="37.5" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 4 Ω</tspan></text>
+<polyline points="196,50 280,50 280,88" fill="none" stroke="#A79419" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="280,88 280,96" fill="none" stroke="#A79419" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="280,142 280,150" fill="none" stroke="#2563EB" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="280,96 272.5,99.83 287.5,107.5 272.5,115.17 287.5,122.83 272.5,130.5 287.5,138.17 280,142" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="225.11" y="123.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve"> = 8 Ω</tspan></text>
+<polyline points="280,150 280,164 40,164" fill="none" stroke="#2563EB" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="62" cy="50" r="9.5" fill="#E5484D" stroke="#E5484D" stroke-width="1"/>
+<text x="58.65" y="54.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<circle cx="238" cy="50" r="9.5" fill="#A79419" stroke="#A79419" stroke-width="1"/>
+<text x="234.42" y="54.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">B</tspan></text>
+<circle cx="160" cy="164" r="9.5" fill="#2563EB" stroke="#2563EB" stroke-width="1"/>
+<text x="156.54" y="168.08" font-size="12" fill="#FFFFFF" font-weight="700"><tspan font-weight="600" xml:space="preserve">C</tspan></text>
+<text x="51.87" y="30" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">12 V</tspan></text>
+<text x="230.82" y="30" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">8 V</tspan></text>
+<text x="152.82" y="190" font-size="11.5" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">0 V</tspan></text>
+<line x1="280" y1="58" x2="280" y2="72.2" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="280,80 276,70 284,70" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="236.2" y="73.25" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan><tspan font-weight="600" xml:space="preserve"> = 1 A</tspan></text>
+<line x1="101" y1="164" x2="86.8" y2="164" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="79,164 89,160 89,168" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="73.6" y="183.25" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan><tspan font-weight="600" xml:space="preserve"> = 1 A</tspan></text>
+<text x="83.21" y="208" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">4</tspan><tspan xml:space="preserve"> V  ·  </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">8</tspan><tspan xml:space="preserve"> V  ·  </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" dx="2.53" xml:space="preserve">+</tspan><tspan class="mi" dx="2.53" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">ε</tspan></text>
+</svg>

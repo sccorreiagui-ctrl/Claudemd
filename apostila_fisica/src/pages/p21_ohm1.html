@@ -1,0 +1,36 @@
+<!--mod=III|sec=Resistência e primeira lei de Ohm-->
+<h2 class="sec top" data-toc="3.2|Resistência elétrica e leis de Ohm"><span class="num">3.2</span> Resistência elétrica e primeira lei de Ohm</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Com uma DDP aplicada, o campo elétrico acelera os elétrons livres, mas eles colidem com os íons da rede cristalina. Em cada colisão parte da energia cinética passa ao material, que <b>esquenta</b> (<b>efeito Joule</b>). Essa dificuldade à passagem da corrente é a <b>resistência elétrica</b> \(R\), medida em ohm (\(\Omega=\mathrm{V/A}\)).</div>
+    <div class="formula mt3"><span class="tag">1ª lei de Ohm</span>
+      <div class="eq">\[ U=R\,I \qquad\Longleftrightarrow\qquad R=\frac{U}{I} \]</div>
+      <table class="vars">
+        <tr><td>\(U\)</td><td>DDP entre os terminais do resistor</td><td>V</td></tr>
+        <tr><td>\(R\)</td><td>resistência do resistor</td><td>\(\Omega\)</td></tr>
+        <tr><td>\(I\)</td><td>corrente que o atravessa</td><td>A</td></tr>
+      </table>
+      <div class="cond"><b>Resistor ôhmico:</b> \(R\) constante (à temperatura constante) ⇒ \(U\times I\) é <i>reta pela origem</i>. <b>Não ôhmico:</b> \(R=U/I\) varia (filamento, diodo, termistor, LDR). <b>Use</b> \(U=RI\) em um resistor ou trecho entre dois pontos; a tensão é a do <i>próprio</i> trecho.</div>
+    </div>
+  </div>
+  <div class="stack">
+    <div class="err"><span class="tag o">Erro frequente</span><b>“\(R\) aumenta quando a tensão aumenta.”</b> Em um resistor ôhmico \(R\) é uma <i>propriedade do componente</i>: ao dobrar \(U\), dobra \(I\), e \(R=U/I\) continua igual. Já \(R=U/I\) vale como <i>definição ponto a ponto</i> até em componentes não ôhmicos.</div>
+    <div class="box soft"><p class="small mb0"><b>Lâmpada incandescente.</b> O filamento de tungstênio a frio tem resistência cerca de dez vezes menor que a quente: no instante de ligar, \(I\) é muito maior (por isso lâmpadas queimam “na hora de ligar”). Exemplo: 12 V/36 W ⇒ \(R_{quente}=U^2/P=4\,\Omega\).</p></div>
+  </div>
+</div>
+
+<div class="mt3"><fig name="ohm_graf" cls="line">Resistores ôhmicos de \(2\ \Omega\) e \(6\ \Omega\): no gráfico \(U\times I\) a inclinação é \(R\); no \(I\times U\), é \(1/R\) (<i>condutância</i>, em siemens). A lâmpada é não ôhmica: a curva \(I\times U\) “achata” porque o filamento esquenta e \(R\) cresce.</fig></div>
+
+<h3 class="mt3">Como ler a inclinação conforme os eixos</h3>
+<table class="t cmp zebra tight">
+  <tr><th>Gráfico</th><th>Inclinação</th><th>Unidade</th><th>Para um resistor ôhmico</th></tr>
+  <tr><td>\(U\) (vertical) × \(I\) (horizontal)</td><td>\(\Delta U/\Delta I\)</td><td>V/A = \(\Omega\)</td><td>\(=R\) (constante: reta)</td></tr>
+  <tr><td>\(I\) (vertical) × \(U\) (horizontal)</td><td>\(\Delta I/\Delta U\)</td><td>A/V = S (siemens)</td><td>\(=1/R\) (condutância \(G\))</td></tr>
+  <tr><td>Resistor não ôhmico</td><td>varia ponto a ponto</td><td>—</td><td>use \(R=U/I\) <b>no ponto</b> (não a inclinação da tangente)</td></tr>
+</table>
+<div class="c2 g3 mt3 ai-s">
+  <div class="box"><h4 style="margin-top:0">Instrumentos e símbolos que já aparecem</h4>
+    <p class="small mb0">Reostato e potenciômetro são resistores de valor <b>variável</b> (cursor sobre um fio); resistores de carbono usam faixas coloridas para indicar valor. Para ler o valor de \(R\) em um gráfico, escolha um ponto onde as coordenadas sejam fáceis: \(R=U/I\).</p></div>
+  <div class="box"><h4 style="margin-top:0">Material, geometria e temperatura</h4>
+    <p class="small mb0">O valor de \(R\) de um <i>fio</i> depende de quatro coisas: <b>material</b>, <b>comprimento</b>, <b>área da seção</b> e <b>temperatura</b>. É o assunto da 2ª lei de Ohm, na página seguinte.</p></div>
+</div>

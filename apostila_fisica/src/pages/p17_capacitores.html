@@ -1,0 +1,36 @@
+<!--mod=II|sec=Capacitores-->
+<h2 class="sec top" data-toc="2.7|Capacitores: carga, energia e associações"><span class="num">2.7</span> Capacitores</h2>
+<div class="c2 g3 ai-s">
+  <div>
+    <div class="concept"><span class="tag">Conceito</span>Um <b>capacitor</b> é formado por dois condutores (<i>placas</i> ou armaduras) separados por um isolante (<i>dielétrico</i>). Sob uma DDP \(U\), as placas acumulam cargas \(+Q\) e \(-Q\) e o espaço entre elas armazena <b>energia no campo elétrico</b>. A razão \(Q/U\) é a <b>capacitância</b> \(C\): depende da geometria e do dielétrico, não de \(Q\) nem de \(U\).</div>
+    <div class="formula mt3"><span class="tag">Fórmulas</span>
+      <div class="eq">\[ C=\frac{Q}{U}\qquad C=\kappa\,\varepsilon_0\frac{A}{d}\qquad E_{pot}=\frac{C\,U^{2}}{2}=\frac{Q\,U}{2} \]</div>
+      <table class="vars">
+        <tr><td>\(C\)</td><td>capacitância</td><td>F = C/V</td></tr>
+        <tr><td>\(Q\)</td><td>carga de <b>cada</b> placa (módulo)</td><td>C</td></tr>
+        <tr><td>\(A,\,d\)</td><td>área das placas, distância entre elas</td><td>m², m</td></tr>
+        <tr><td>\(\kappa\)</td><td>constante dielétrica (\(\kappa\ge1\))</td><td>—</td></tr>
+        <tr><td>\(E_{pot}\)</td><td>energia armazenada</td><td>J</td></tr>
+      </table>
+      <div class="cond"><b>Validade:</b> \(C=\kappa\varepsilon_0A/d\) para placas paralelas com \(d\) pequena (\(\varepsilon_0=8{,}85\times10^{-12}\un{F/m}\)); o dielétrico polariza-se, reduz o campo e <b>aumenta \(C\)</b>. Capacitor de \(1\un{F}\) é enorme: usam-se µF, nF e pF.</div>
+    </div>
+  </div>
+  <div class="stack">
+    <fig name="capacitor">Capacitor carregado: as placas guardam \(+Q\) e \(-Q\); o conjunto é eletricamente neutro.</fig>
+    <fig name="cap_QU">A área do triângulo sob \(Q\times U\) é a energia armazenada.</fig>
+  </div>
+</div>
+
+<div class="c2 g3 mt3 ai-s">
+  <div class="err"><span class="tag o">Erro frequente</span><b>Carga de cada placa × carga líquida.</b> O capacitor “carregado com \(Q\)” tem \(+Q\) numa placa e \(-Q\) na outra: a carga <i>líquida</i> total é <b>zero</b>. Também não confunda as associações: <b>em série</b> os capacitores se combinam como resistores <i>em paralelo</i> (\(1/C_{eq}=\sum1/C\)), e <b>em paralelo</b> somam-se (\(C_{eq}=\sum C\)).</div>
+  <div class="safe"><b>Segurança.</b> Flashes, fontes de aparelhos e televisores podem manter carga e tensão perigosas <b>mesmo desligados</b>. Esta apostila trata do tema só de forma teórica: não abra nem manipule equipamentos.</div>
+</div>
+
+<fig name="cap_assoc" cls="line mt3">Associações com \(C_1=6\ \mu\mathrm{F}\), \(C_2=3\ \mu\mathrm{F}\) e \(U=12\) V: série \(C_{eq}=2\ \mu\mathrm{F}\) (cada um com \(Q=24\ \mu\mathrm{C}\)); paralelo \(C_{eq}=9\ \mu\mathrm{F}\) (cada um com \(U=12\) V).</fig>
+
+<div class="fix mt3"><span class="tag o">Fixação</span> <span class="b">Dielétrico e energia</span>
+  <ol>
+    <li>{{lvl:3}} Um capacitor de \(2{,}0\,\mu\mathrm{F}\) (vácuo) é carregado a \(12\) V e <b>desligado da fonte</b>. Preenche-se então todo o espaço entre as placas com um dielétrico de \(\kappa=4\). Qual a nova DDP e a nova energia armazenada? Por que a energia diminuiu?</li>
+  </ol>
+  <div class="gab"><b>Gabarito.</b> Desligado da fonte, a carga se conserva: \(Q=C_0U_0=24\,\mu\mathrm{C}\). Com o dielétrico, \(C=\kappa C_0=8\,\mu\mathrm{F}\) ⇒ \(U=Q/C=3{,}0\un{V}\). Energia: antes \(\tfrac12C_0U_0^2=144\,\mu\mathrm{J}\); depois \(\tfrac12Q^2/C=36\,\mu\mathrm{J}\) (¼). A energia “que falta” é o trabalho do campo ao <i>puxar</i> o dielétrico para dentro: o agente que o insere recebe esse trabalho (ou ele é dissipado).</div>
+</div>

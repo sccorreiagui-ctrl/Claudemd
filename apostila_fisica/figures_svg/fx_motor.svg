@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 176" width="332" height="176" role="img" aria-label="Exercício: bateria real alimentando um motor (receptor)"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="40,128 40,109.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,102.25 40,84" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="109.75" x2="47.5" y2="109.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="102.25" x2="53" y2="102.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="3.7" y="109.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">12 V</tspan></text>
+<text x="57.67" y="120.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="99.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,84 40,81" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,47 40,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,81 47.5,78.17 32.5,72.5 47.5,66.83 32.5,61.17 47.5,55.5 32.5,49.83 40,47" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="22.54" y="61.58" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">r</tspan></text>
+<text x="4.17" y="73.9" font-size="11" fill="#1B2438"><tspan xml:space="preserve">0,5 Ω</tspan></text>
+<polyline points="40,44 160,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="160,44 211,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="239,44 290,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="225" cy="44" r="14" fill="#EEF1F6" stroke="#1B2438" stroke-width="1.9"/>
+<text x="220.34" y="48.25" font-size="12.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">M</tspan></text>
+<text x="209.31" y="13.18" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">ε</tspan><tspan class="mr" xml:space="preserve">'</tspan><tspan xml:space="preserve"> = 6 V</tspan></text>
+<text x="208.49" y="25.5" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">r</tspan><tspan class="mr" xml:space="preserve">'</tspan><tspan xml:space="preserve"> = 1 Ω</tspan></text>
+<polyline points="290,44 290,128 40,128" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="79" y1="44" x2="93.2" y2="44" stroke="#F08C00" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="101,44 91,48 91,40" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="87.25" y="34" font-size="12.5" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<text x="57.52" y="168" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">gerador: corrente sai pelo </tspan><tspan class="mr" xml:space="preserve">+</tspan><tspan xml:space="preserve"> · motor: entra pelo </tspan><tspan class="mr" xml:space="preserve">+</tspan></text>
+</svg>

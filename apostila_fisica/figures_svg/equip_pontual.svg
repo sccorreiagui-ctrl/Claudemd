@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 216" width="332" height="216" role="img" aria-label="Superfícies equipotenciais de uma carga puntiforme positiva"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<line x1="179" y1="100" x2="262" y2="100" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="216,100 207,103.6 207,96.4" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="175.19" y1="90.81" x2="233.88" y2="32.12" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="201.36,64.64 197.54,73.55 192.45,68.46" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="166" y1="87" x2="166" y2="4" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="166,50 169.6,59 162.4,59" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="156.81" y1="90.81" x2="98.12" y2="32.12" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="130.64,64.64 139.55,68.46 134.46,73.55" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="153" y1="100" x2="70" y2="100" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="116,100 125,96.4 125,103.6" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="156.81" y1="109.19" x2="98.12" y2="167.88" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="130.64,135.36 134.46,126.45 139.55,131.54" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="166" y1="113" x2="166" y2="196" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="166,150 162.4,141 169.6,141" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<line x1="175.19" y1="109.19" x2="233.88" y2="167.88" stroke="#0891B2" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="201.36,135.36 192.45,131.54 197.54,126.45" fill="#0891B2" stroke="#0891B2" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="166" cy="100" r="30" fill="none" stroke="#0E7490" stroke-width="1.9" stroke-dasharray="6 4"/>
+<text x="190.21" y="82.79" font-size="11.5" fill="#0E7490" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">900 V</tspan></text>
+<circle cx="166" cy="100" r="60" fill="none" stroke="#0E7490" stroke-width="1.9" stroke-dasharray="6 4"/>
+<text x="211.43" y="61.57" font-size="11.5" fill="#0E7490" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">450 V</tspan></text>
+<circle cx="166" cy="100" r="90" fill="none" stroke="#0E7490" stroke-width="1.9" stroke-dasharray="6 4"/>
+<text x="232.64" y="40.36" font-size="11.5" fill="#0E7490" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">300 V</tspan></text>
+<circle cx="166" cy="100" r="11" fill="#FDE6E7" stroke="#E5484D" stroke-width="2"/>
+<line x1="160.28" y1="100" x2="171.72" y2="100" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="166" y1="94.28" x2="166" y2="105.72" stroke="#E5484D" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="196" cy="100" r="3.6" fill="#fff" stroke="#1B2438" stroke-width="1.8"/>
+<text x="192.51" y="117" font-size="12.5" fill="#1B2438" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<circle cx="256" cy="100" r="3.6" fill="#fff" stroke="#1B2438" stroke-width="1.8"/>
+<text x="252.27" y="117" font-size="12.5" fill="#1B2438" font-weight="700" class="halo"><tspan font-weight="600" xml:space="preserve">B</tspan></text>
+<text x="71.23" y="208" font-size="11" fill="#5B6578"><tspan class="mi" xml:space="preserve">r</tspan><tspan xml:space="preserve"> = 0,10 m, 0,20 m e 0,30 m  (</tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" dx="3.08" xml:space="preserve">=</tspan><tspan class="mr" dx="3.08" xml:space="preserve">+10</tspan><tspan xml:space="preserve"> nC)</tspan></text>
+</svg>

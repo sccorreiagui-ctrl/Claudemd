@@ -1,0 +1,51 @@
+<!--mod=I|sec=Átomo, carga e unidades-->
+<div class="mod-open" data-toc-mod="I|Fundamentos">
+  <div class="rom">I</div>
+  <div class="tt">Fundamentos<small>O mínimo que você precisa dominar antes de entrar em eletricidade</small></div>
+  <div class="lv"><b>Nível 1</b> — átomo e carga, unidades SI, potências de dez, proporcionalidade, vetores, trigonometria, gráficos e símbolos de circuitos</div>
+</div>
+
+<h2 class="sec" data-toc="1.1|O átomo e a carga elétrica"><span class="num">1.1</span> O átomo e a carga elétrica</h2>
+<div class="c2 g3 ai-s">
+  <div><fig name="atomo">Átomo de lítio simplificado (3 prótons, 4 nêutrons, 3 elétrons). Fora de escala: o núcleo é cerca de 10⁵ vezes menor que o átomo.</fig></div>
+  <div>
+    <div class="concept"><span class="tag">Conceito</span><b>Carga elétrica</b> é a propriedade da matéria responsável pelas interações elétricas e magnéticas. Há dois tipos: <b class="c-pos">positiva</b> (prótons) e <b class="c-neg">negativa</b> (elétrons). Os dois têm cargas de mesmo módulo, a <b>carga elementar</b> \(e = 1{,}602\times10^{-19}\un{C}\), com sinais opostos.</div>
+    <p class="mt2">Um átomo <b>neutro</b> tem tantos prótons quanto elétrons. Ao <i>perder</i> elétrons torna-se um íon positivo; ao <i>ganhar</i>, um íon negativo.</p>
+    <div class="why"><span class="tag o">Por quê?</span>Nos sólidos os núcleos ficam presos à rede. Só os elétrons mais externos conseguem passar de um corpo para outro: <b>eletrizar é transferir elétrons</b>, nunca prótons. Num metal, cerca de um elétron por átomo é “livre” — é esse <i>mar de elétrons</i> que forma a corrente elétrica.</div>
+  </div>
+</div>
+
+<h2 class="sec mt3" data-toc="1.2|Grandezas e unidades do SI"><span class="num">1.2</span> Grandezas e unidades do SI — o quadro que reaparece em toda a apostila</h2>
+<div class="units">
+  <div class="u" style="--c:var(--gry)"><i>C</i><div><b>coulomb</b> · carga elétrica<br>\(1\un{C}\approx 6{,}24\times10^{18}\,e\)</div></div>
+  <div class="u" style="--c:var(--cur)"><i>A</i><div><b>ampère</b> · corrente elétrica<br>\(1\un{A}=1\un{C/s}\)</div></div>
+  <div class="u" style="--c:var(--efd)"><i>V</i><div><b>volt</b> · tensão (DDP), potencial<br>\(1\un{V}=1\un{J/C}\)</div></div>
+  <div class="u" style="--c:var(--gry)"><i>Ω</i><div><b>ohm</b> · resistência elétrica<br>\(1\,\Omega=1\un{V/A}\)</div></div>
+  <div class="u" style="--c:var(--ene)"><i>W</i><div><b>watt</b> · potência<br>\(1\un{W}=1\un{J/s}=1\un{V\cdot A}\)</div></div>
+  <div class="u" style="--c:var(--ene)"><i>J</i><div><b>joule</b> · energia, trabalho<br>\(1\un{J}=1\un{N\cdot m}=1\un{W\cdot s}\)</div></div>
+  <div class="u" style="--c:var(--efd)"><i>F</i><div><b>farad</b> · capacitância<br>\(1\un{F}=1\un{C/V}\)</div></div>
+  <div class="u" style="--c:var(--mag)"><i>T</i><div><b>tesla</b> · campo magnético<br>\(1\un{T}=1\un{N/(A\cdot m)}\)</div></div>
+  <div class="u" style="--c:var(--mag)"><i>Wb</i><div><b>weber</b> · fluxo magnético<br>\(1\un{Wb}=1\un{T\cdot m^2}\)</div></div>
+</div>
+<div class="c2 g3 mt3 ai-s">
+  <div>
+    <h4>Como as unidades se encadeiam</h4>
+    <p class="small mb1">Carga ÷ tempo = <b class="c-cur">corrente</b> · Energia ÷ carga = <b class="c-efd">tensão</b> · Tensão ÷ corrente = <b>resistência</b> · Tensão × corrente = <b class="c-ene">potência</b> · Potência × tempo = <b class="c-ene">energia</b> · Carga ÷ tensão = <b class="c-efd">capacitância</b> · Campo × área = <b class="c-mag">fluxo</b>.</p>
+    <p class="small mb0">Grandezas físicas = <b>número × unidade</b>. A unidade também entra na conta: se ela não “fecha”, a fórmula está errada ou foi mal aplicada.</p>
+  </div>
+  <div class="err"><span class="tag o">Erro frequente</span><b>Misturar unidades.</b> As fórmulas pressupõem o SI: massa em kg, comprimento em m, carga em C, corrente em A. Gramas, centímetros, mA e µC precisam ser convertidos <i>antes</i> de substituir. Um resultado “em newtons” só vale se todos os dados estavam em unidades do SI.</div>
+</div>
+
+<h2 class="sec mt3" data-toc="1.3|Ferramentas de Mecânica e Termologia que vamos usar"><span class="num">1.3</span> Ferramentas de outras áreas (só o necessário)</h2>
+<div class="tools">
+  <div><b class="h">Leis de Newton e conservação da energia</b>\(\vec F_R=m\vec a\); equilíbrio: \(\vec F_R=\vec 0\). A força elétrica e a magnética somam-se às demais forças. A energia não é criada nem destruída: transforma-se (elétrica ↔ térmica, mecânica, luminosa…).</div>
+  <div><b class="h">Trabalho, energia e potência</b>\(W=F\,d\cos\theta\); \(E_c=\tfrac12mv^2\); teorema trabalho–energia \(W_{res}=\Delta E_c\); potência média \(P=W/\Delta t\) (1 W = 1 J/s).</div>
+  <div><b class="h">Movimento circular uniforme (MCU)</b>\(a_c=\dfrac{v^2}{r}\), \(F_c=\dfrac{mv^2}{r}\), \(v=\dfrac{2\pi r}{T}\). A força centrípeta aponta para o centro e só muda a <i>direção</i> de \(\vec v\) — base das trajetórias circulares em campo magnético.</div>
+  <div><b class="h">Calorimetria</b>\(Q=mc\,\Delta T\); para a água, \(c\approx4180\un{J/(kg\cdot K)}\). Base do efeito Joule: a energia elétrica dissipada aquece o resistor e a água do chuveiro.</div>
+</div>
+
+<h2 class="sec mt3" style="font-size:11.5pt;margin-bottom:1.4mm">Mapa da apostila: como as ideias se conectam</h2>
+<div class="chain">
+  <span class="s" style="background:var(--neg)">Carga</span><span class="a">→</span><span class="s" style="background:var(--efd)">Campo elétrico</span><span class="a">→</span><span class="s" style="background:var(--efd)">Força e potencial</span><span class="a">→</span><span class="s" style="background:var(--cur)">Corrente</span><span class="a">→</span><span class="s" style="background:var(--cur)">Circuitos</span><span class="a">→</span><span class="s" style="background:var(--ene)">Potência e energia</span><span class="a">→</span><span class="s" style="background:var(--mag)">Campo magnético</span><span class="a">→</span><span class="s" style="background:var(--mag)">Indução</span>
+</div>
+<p class="note mt1">Cada módulo termina com um mapa mental e quadros comparativos. As “cadeias” não são regras universais: cada elo tem condições de validade, indicadas ao lado das fórmulas.</p>

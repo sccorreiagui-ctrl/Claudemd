@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 170" width="332" height="170" role="img" aria-label="Exercício: gerador real e circuito misto"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="40,122 40,108.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,101.25 40,88" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="32.5" y1="108.75" x2="47.5" y2="108.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="27" y1="101.25" x2="53" y2="101.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="3.7" y="108.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">24 V</tspan></text>
+<text x="57.67" y="119.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="57.67" y="98.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="40,88 40,82" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,50 40,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="40,82 47.5,79.33 32.5,74 47.5,68.67 32.5,63.33 47.5,58 32.5,52.67 40,50" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="22.54" y="63.58" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">r</tspan></text>
+<text x="12.38" y="75.9" font-size="11" fill="#1B2438"><tspan xml:space="preserve">1 Ω</tspan></text>
+<polyline points="40,44 60,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="60,44 77,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="123,44 140,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="77,44 80.83,51.5 88.5,36.5 96.17,51.5 103.83,36.5 111.5,51.5 119.17,36.5 123,44" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="80.5" y="31.5" font-size="11.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan dy="-3.11" xml:space="preserve"> = 5 Ω</tspan></text>
+<polyline points="140,44 170,44 250,44" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="170,44 170,63" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="170,103 170,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="170,63 162.5,66.33 177.5,73 162.5,79.67 177.5,86.33 162.5,93 177.5,99.67 170,103" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="136.91" y="86.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">12 Ω</tspan></text>
+<polyline points="250,44 250,63" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,103 250,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="250,63 242.5,66.33 257.5,73 242.5,79.67 257.5,86.33 242.5,93 257.5,99.67 250,103" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262.5" y="86.74" font-size="11" fill="#1B2438"><tspan xml:space="preserve">6 Ω</tspan></text>
+<polyline points="250,122 40,122" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="170" cy="44" r="3.7" fill="#1B2438"/>
+<circle cx="170" cy="122" r="3.7" fill="#1B2438"/>
+<text x="70.12" y="160" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">gerador </tspan><tspan class="mr" xml:space="preserve">(</tspan><tspan class="mi" xml:space="preserve">ε</tspan><tspan class="mr" xml:space="preserve">,</tspan><tspan class="mi" xml:space="preserve">r</tspan><tspan class="mr" xml:space="preserve">)</tspan><tspan xml:space="preserve"> + </tspan><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mr" font-size="7.56" dy="2.83" xml:space="preserve">1</tspan><tspan dy="-2.83" xml:space="preserve"> em série com </tspan><tspan class="mr" xml:space="preserve">(12</tspan><tspan class="mr" dx="3.15" xml:space="preserve">Ω∥6</tspan><tspan class="mr" dx="3.15" xml:space="preserve">Ω)</tspan></text>
+</svg>

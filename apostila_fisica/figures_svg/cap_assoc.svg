@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 214" width="680" height="214" role="img" aria-label="Associação de capacitores em série e em paralelo"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<text x="175.74" y="14" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Série</tspan></text>
+<text x="491.7" y="14" font-size="13" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">Paralelo</tspan></text>
+<polyline points="78,56 100,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="100,56 134,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="142,56 176,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="134" y1="44.5" x2="134" y2="67.5" stroke="#E5484D" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="142" y1="44.5" x2="142" y2="67.5" stroke="#2563EB" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="114.72" y="40" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 6 µF</tspan></text>
+<polyline points="176,56 210,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="218,56 252,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="210" y1="44.5" x2="210" y2="67.5" stroke="#E5484D" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="218" y1="44.5" x2="218" y2="67.5" stroke="#2563EB" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="190.72" y="40" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve"> = 3 µF</tspan></text>
+<polyline points="252,56 310,56 310,150 78,150" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="78,150 78,106.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="78,99.25 78,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70.5" y1="106.75" x2="85.5" y2="106.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="65" y1="99.25" x2="91" y2="99.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="51.96" y="100.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">U</tspan></text>
+<text x="39.14" y="114.25" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">12 V</tspan></text>
+<text x="95.67" y="117.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="95.67" y="96.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<circle cx="176" cy="56" r="3.7" fill="#1B2438"/>
+<text x="78.5" y="186" font-size="12" fill="#1B2438"><tspan xml:space="preserve">mesma carga: </tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">Q</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">Q</tspan><tspan xml:space="preserve">   ·   </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.24" dx="2.64" xml:space="preserve">+</tspan><tspan class="mi" dx="2.64" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan></text>
+<text x="63.8" y="204" font-size="11.5" fill="#0E7490"><tspan class="mr" xml:space="preserve">1/</tspan><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">eq</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mr" dx="3.22" xml:space="preserve">1/</tspan><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" dx="2.53" xml:space="preserve">+</tspan><tspan class="mr" dx="2.53" xml:space="preserve">1/</tspan><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan dy="-3.11" xml:space="preserve">  (como resistores em paralelo)</tspan></text>
+<polyline points="400,56 480,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="480,56 610,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="400,150 610,150" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="400,150 400,106.75" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="400,99.25 400,56" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="392.5" y1="106.75" x2="407.5" y2="106.75" stroke="#2563EB" stroke-width="4.4" stroke-linecap="butt"/>
+<line x1="387" y1="99.25" x2="413" y2="99.25" stroke="#E5484D" stroke-width="2.6" stroke-linecap="butt"/>
+<text x="373.96" y="100.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">U</tspan></text>
+<text x="361.14" y="114.25" font-size="12.5" fill="#1B2438"><tspan xml:space="preserve">12 V</tspan></text>
+<text x="417.67" y="117.45" font-size="13" fill="#1D4ED8" font-weight="700"><tspan font-weight="600" xml:space="preserve">−</tspan></text>
+<text x="417.67" y="96.95" font-size="13" fill="#BF2B31" font-weight="700"><tspan font-weight="600" xml:space="preserve">+</tspan></text>
+<polyline points="480,56 480,99" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="480,107 480,150" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="491.5" y1="99" x2="468.5" y2="99" stroke="#E5484D" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="491.5" y1="107" x2="468.5" y2="107" stroke="#2563EB" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="417.44" y="107.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">1</tspan><tspan dy="-3.38" xml:space="preserve"> = 6 µF</tspan></text>
+<polyline points="610,56 610,99" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="610,107 610,150" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="621.5" y1="99" x2="598.5" y2="99" stroke="#E5484D" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="621.5" y1="107" x2="598.5" y2="107" stroke="#2563EB" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="626" y="107.25" font-size="12.5" fill="#1B2438"><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="9" dy="3.38" xml:space="preserve">2</tspan><tspan dy="-3.38" xml:space="preserve"> = 3 µF</tspan></text>
+<circle cx="480" cy="56" r="3.7" fill="#1B2438"/>
+<circle cx="480" cy="150" r="3.7" fill="#1B2438"/>
+<text x="410.31" y="186" font-size="12" fill="#1B2438"><tspan xml:space="preserve">mesma tensão: </tspan><tspan class="mi" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">U</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan><tspan class="mr" dy="-3.24" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">U</tspan><tspan xml:space="preserve">   ·   </tspan><tspan class="mi" xml:space="preserve">Q</tspan><tspan class="mr" dx="3.36" xml:space="preserve">=</tspan><tspan class="mi" dx="3.36" xml:space="preserve">Q</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.24" dx="2.64" xml:space="preserve">+</tspan><tspan class="mi" dx="2.64" xml:space="preserve">Q</tspan><tspan class="mr" font-size="8.64" dy="3.24" xml:space="preserve">2</tspan></text>
+<text x="455.39" y="204" font-size="11.5" fill="#0E7490"><tspan class="mi" xml:space="preserve">C</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">eq</tspan><tspan class="mr" dy="-3.11" dx="3.22" xml:space="preserve">=</tspan><tspan class="mi" dx="3.22" xml:space="preserve">C</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">1</tspan><tspan class="mr" dy="-3.11" dx="2.53" xml:space="preserve">+</tspan><tspan class="mi" dx="2.53" xml:space="preserve">C</tspan><tspan class="mr" font-size="8.28" dy="3.11" xml:space="preserve">2</tspan><tspan dy="-3.11" xml:space="preserve">  (soma direta)</tspan></text>
+</svg>

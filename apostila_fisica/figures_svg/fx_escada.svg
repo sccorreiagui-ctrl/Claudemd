@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 150" width="332" height="150" role="img" aria-label="Desafio: rede infinita de resistores iguais a R"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<circle cx="34" cy="46" r="3.8" fill="#fff" stroke="#1B2438" stroke-width="1.9"/>
+<circle cx="34" cy="110" r="3.8" fill="#fff" stroke="#1B2438" stroke-width="1.9"/>
+<text x="15.3" y="50" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">A</tspan></text>
+<text x="14.84" y="114" font-size="12" fill="#1B2438" font-weight="700"><tspan font-weight="600" xml:space="preserve">B</tspan></text>
+<polyline points="38,46 48,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="82,46 92,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="48,46 50.83,52 56.5,40 62.17,52 67.83,40 73.5,52 79.17,40 82,46" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60.83" y="35" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="92,46 102,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="102,46 102,61" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="102,95 102,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="102,61 96,63.83 108,69.5 96,75.17 108,80.83 96,86.5 108,92.17 102,95" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="113" y="81.74" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="102,110 38,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="102" cy="46" r="3.7" fill="#1B2438"/>
+<circle cx="102" cy="110" r="3.7" fill="#1B2438"/>
+<polyline points="102,46 128,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="128,46 138,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="172,46 182,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="138,46 140.83,52 146.5,40 152.17,52 157.83,40 163.5,52 169.17,40 172,46" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150.83" y="35" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="182,46 192,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="192,46 192,61" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="192,95 192,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="192,61 186,63.83 198,69.5 186,75.17 198,80.83 186,86.5 198,92.17 192,95" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="203" y="81.74" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="192,110 128,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="192" cy="46" r="3.7" fill="#1B2438"/>
+<circle cx="192" cy="110" r="3.7" fill="#1B2438"/>
+<polyline points="192,46 218,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="218,46 228,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="262,46 272,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="228,46 230.83,52 236.5,40 242.17,52 247.83,40 253.5,52 259.17,40 262,46" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="240.83" y="35" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="272,46 282,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="282,46 282,61" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="282,95 282,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="282,61 276,63.83 288,69.5 276,75.17 288,80.83 276,86.5 288,92.17 282,95" fill="none" stroke="#1B2438" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="293" y="81.74" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan></text>
+<polyline points="282,110 218,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="282" cy="46" r="3.7" fill="#1B2438"/>
+<circle cx="282" cy="110" r="3.7" fill="#1B2438"/>
+<polyline points="282,46 300,46" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="282,110 300,110" fill="none" stroke="#1B2438" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="308.57" y="74" font-size="18" fill="#6B7280" font-weight="700"><tspan font-weight="600" xml:space="preserve">···</tspan></text>
+<text x="57.91" y="144" font-size="11" fill="#1B2438"><tspan class="mi" xml:space="preserve">R</tspan><tspan class="mi" font-size="7.92" dy="2.97" xml:space="preserve">AB</tspan><tspan class="mr" dy="-2.97" dx="3.08" xml:space="preserve">=</tspan><tspan class="mr" dx="3.08" xml:space="preserve">?</tspan><tspan xml:space="preserve"> (o módulo se repete indefinidamente)</tspan></text>
+</svg>

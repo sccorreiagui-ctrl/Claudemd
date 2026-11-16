@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 212" width="332" height="212" role="img" aria-label="Campo magnético de um fio retilíneo longo: linhas circulares e regra da mão direita"><style>@import url('../src/fonts.css');@import url('../assets/katex/katex.min.css');text{font-family:'Source Sans 3','DejaVu Sans',sans-serif;font-kerning:none;font-variant-ligatures:none}.mi{font-family:KaTeX_Math;font-style:italic}.mr{font-family:KaTeX_Main}.halo{paint-order:stroke;stroke:#fff;stroke-width:3.2px;stroke-linejoin:round}</style><rect width="100%" height="100%" fill="#fff"/><defs></defs>
+<polyline points="46,62 46.15,60.9 46.61,59.82 47.37,58.76 48.42,57.73 49.75,56.75 51.35,55.83 53.19,54.97 55.26,54.2 57.54,53.51 60,52.91 62.61,52.41 65.35,52.01 68.18,51.73 71.07,51.56 74,51.5 76.93,51.56 79.82,51.73 82.65,52.01 85.39,52.41 88,52.91 90.46,53.51 92.74,54.2 94.81,54.97 96.65,55.83 98.25,56.75 99.58,57.73 100.63,58.76 101.39,59.82 101.85,60.9 102,62" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.45"/>
+<polygon points="77.37,51.43 69.93,54.43 69.82,48.73" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="46,108 46.15,106.9 46.61,105.82 47.37,104.76 48.42,103.73 49.75,102.75 51.35,101.83 53.19,100.97 55.26,100.2 57.54,99.51 60,98.91 62.61,98.41 65.35,98.01 68.18,97.73 71.07,97.56 74,97.5 76.93,97.56 79.82,97.73 82.65,98.01 85.39,98.41 88,98.91 90.46,99.51 92.74,100.2 94.81,100.97 96.65,101.83 98.25,102.75 99.58,103.73 100.63,104.76 101.39,105.82 101.85,106.9 102,108" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.45"/>
+<polygon points="77.37,97.43 69.93,100.43 69.82,94.73" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="46,154 46.15,152.9 46.61,151.82 47.37,150.76 48.42,149.73 49.75,148.75 51.35,147.83 53.19,146.97 55.26,146.2 57.54,145.51 60,144.91 62.61,144.41 65.35,144.01 68.18,143.73 71.07,143.56 74,143.5 76.93,143.56 79.82,143.73 82.65,144.01 85.39,144.41 88,144.91 90.46,145.51 92.74,146.2 94.81,146.97 96.65,147.83 98.25,148.75 99.58,149.73 100.63,150.76 101.39,151.82 101.85,152.9 102,154" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.45"/>
+<polygon points="77.37,143.57 69.82,146.27 69.93,140.57" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="68" y="28" width="12" height="164" rx="0" fill="#C5CBD6" stroke="#6B7280" stroke-width="1.4"/>
+<line x1="74" y1="184" x2="74" y2="49.36" stroke="#F08C00" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="74,40 79.04,52 68.96,52" fill="#F08C00" stroke="#F08C00" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="46,62 46.15,63.1 46.61,64.18 47.37,65.24 48.42,66.27 49.75,67.25 51.35,68.17 53.19,69.03 55.26,69.8 57.54,70.49 60,71.09 62.61,71.59 65.35,71.99 68.18,72.27 71.07,72.44 74,72.5 76.93,72.44 79.82,72.27 82.65,71.99 85.39,71.59 88,71.09 90.46,70.49 92.74,69.8 94.81,69.03 96.65,68.17 98.25,67.25 99.58,66.27 100.63,65.24 101.39,64.18 101.85,63.1 102,62" fill="none" stroke="#7C3AED" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="78.27,72.58 68.71,76.01 68.85,68.79" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="46,108 46.15,109.1 46.61,110.18 47.37,111.24 48.42,112.27 49.75,113.25 51.35,114.17 53.19,115.03 55.26,115.8 57.54,116.49 60,117.09 62.61,117.59 65.35,117.99 68.18,118.27 71.07,118.44 74,118.5 76.93,118.44 79.82,118.27 82.65,117.99 85.39,117.59 88,117.09 90.46,116.49 92.74,115.8 94.81,115.03 96.65,114.17 98.25,113.25 99.58,112.27 100.63,111.24 101.39,110.18 101.85,109.1 102,108" fill="none" stroke="#7C3AED" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="78.27,118.58 68.71,122.01 68.85,114.79" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polyline points="46,154 46.15,155.1 46.61,156.18 47.37,157.24 48.42,158.27 49.75,159.25 51.35,160.17 53.19,161.03 55.26,161.8 57.54,162.49 60,163.09 62.61,163.59 65.35,163.99 68.18,164.27 71.07,164.44 74,164.5 76.93,164.44 79.82,164.27 82.65,163.99 85.39,163.59 88,163.09 90.46,162.49 92.74,161.8 94.81,161.03 96.65,160.17 98.25,159.25 99.58,158.27 100.63,157.24 101.39,156.18 101.85,155.1 102,154" fill="none" stroke="#7C3AED" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="78.27,164.42 68.85,168.21 68.71,160.99" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="84" y="30" font-size="13" fill="#B25B00" font-weight="600" class="halo"><tspan class="mi" xml:space="preserve">I</tspan></text>
+<text x="116" y="124" font-size="13" fill="#6D28D9" font-weight="700" class="halo"><tspan class="mi" xml:space="preserve">B</tspan></text>
+<line x1="117.82" y1="113.6" x2="127.17" y2="113.6" stroke="#6D28D9" stroke-width="0.975" stroke-linecap="butt"/>
+<polygon points="127.67,113.6 123.25,115.81 123.25,111.39" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="214" cy="104" r="14" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="218.83,90.44 227.71,92.38 224.18,97.79" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="214" cy="104" r="26" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="225.85,80.41 234.59,82.92 230.71,88.09" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="214" cy="104" r="38" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="232.59,70.78 241.48,72.72 237.95,78.13" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="229.94,82.13 223.75,77.22 222.04,81.92" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="215.84,77 223.75,77.22 222.04,81.92" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="222.89" cy="79.57" r="1.5" fill="#FFFFFF"/>
+<polygon points="198.06,125.87 204.25,130.78 205.96,126.08" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="212.16,131 204.25,130.78 205.96,126.08" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="205.11" cy="128.43" r="1.5" fill="#FFFFFF"/>
+<circle cx="214" cy="104" r="7.5" fill="#FFFFFF" stroke="#B25B00" stroke-width="1.9"/>
+<circle cx="214" cy="104" r="2.25" fill="#B25B00"/>
+<text x="190.5" y="57" font-size="11" fill="#B25B00" font-weight="700"><tspan class="mi" xml:space="preserve">I</tspan><tspan font-weight="600" xml:space="preserve"> saindo ⊙</tspan></text>
+<text x="181.66" y="160" font-size="10.5" fill="#6D28D9" font-weight="600"><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> anti-horário</tspan></text>
+<line x1="183.13" y1="151.6" x2="190.68" y2="151.6" stroke="#6D28D9" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="191.18,151.6 187.61,153.38 187.61,149.81" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="292" cy="104" r="14" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="287.03,90.24 282.17,97.92 278.29,92.75" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="292" cy="104" r="26" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="280.15,80.41 275.29,88.09 271.41,82.92" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<circle cx="292" cy="104" r="38" fill="none" stroke="#7C3AED" stroke-width="1.4"/>
+<polygon points="273.26,70.58 268.4,78.26 264.53,73.09" fill="#7C3AED" stroke="#7C3AED" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon points="293.84,77 300.04,81.92 301.75,77.22" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="307.94,82.13 300.04,81.92 301.75,77.22" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300.89" cy="79.57" r="1.5" fill="#FFFFFF"/>
+<polygon points="290.16,131 283.96,126.08 282.25,130.78" fill="#EEE6FD" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="276.06,125.87 283.96,126.08 282.25,130.78" fill="#6D28D9" stroke="#6D28D9" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="283.11" cy="128.43" r="1.5" fill="#FFFFFF"/>
+<circle cx="292" cy="104" r="7.5" fill="#FFFFFF" stroke="#B25B00" stroke-width="1.9"/>
+<line x1="287.65" y1="99.65" x2="296.35" y2="108.35" stroke="#B25B00" stroke-width="1.9" stroke-linecap="round"/>
+<line x1="287.65" y1="108.35" x2="296.35" y2="99.65" stroke="#B25B00" stroke-width="1.9" stroke-linecap="round"/>
+<text x="262.41" y="57" font-size="11" fill="#B25B00" font-weight="700"><tspan class="mi" xml:space="preserve">I</tspan><tspan font-weight="600" xml:space="preserve"> entrando ⊗</tspan></text>
+<text x="270.27" y="160" font-size="10.5" fill="#6D28D9" font-weight="600"><tspan class="mi" xml:space="preserve">B</tspan><tspan font-weight="600" xml:space="preserve"> horário</tspan></text>
+<line x1="271.74" y1="151.6" x2="279.29" y2="151.6" stroke="#6D28D9" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="279.79,151.6 276.22,153.38 276.22,149.81" fill="#6D28D9" stroke="#6D28D9" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="214" y="22" font-size="10.5" fill="#5B6578"><tspan xml:space="preserve">vistas de cima</tspan></text>
+<text x="27.09" y="205" font-size="10.5" fill="#1B2438" font-weight="600"><tspan font-weight="600" xml:space="preserve">polegar no sentido de </tspan><tspan class="mi" xml:space="preserve">I</tspan><tspan font-weight="600" xml:space="preserve">; os dedos “abraçam” o fio no sentido de </tspan><tspan class="mi" xml:space="preserve">B</tspan></text>
+<line x1="318.41" y1="196.6" x2="325.96" y2="196.6" stroke="#1B2438" stroke-width="0.8" stroke-linecap="butt"/>
+<polygon points="326.46,196.6 322.89,198.38 322.89,194.81" fill="#1B2438" stroke="#1B2438" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>
