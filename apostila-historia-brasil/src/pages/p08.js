@@ -1,5 +1,5 @@
 module.exports = (H) => {
-  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, succ, chart, barChart, hbars } = H;
+  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, succ, chart, barChart, hbars, photo } = H;
   const { PIB, IGPDI } = require('../lib/data.js');
   const ys = ['1956', '1957', '1958', '1959', '1960'];
   const pibSvg = barChart({ w: 46, h: 34, keys: ys, vals: ys.map((y) => PIB[y]), color: '#0b7a8a', ymin: 0, ymax: 12, ticks: [0, 6, 12], show: ys, pad: { l: 5, r: 1, t: 4, b: 6 } });
@@ -28,7 +28,7 @@ ${gov({
       ${chart('PIB real', '% a.a. · IBGE', pibSvg)}
       ${chart('Inflação', '% dez/dez · IGP-DI', infSvg)}
     </div>
-    ${call('', 'Crescer e endividar', 'O PIB cresceu em média cerca de <b>8% a.a.</b> em 1956–1960, mas a inflação saltou de 24% (1956) para 30% (1960): o desenvolvimento veio com desequilíbrio externo e fiscal.')}
+    ${photo('brasilia', { h: 30, cap: '<b>Inauguração de Brasília</b>, 21/abr/1960.' }) || call('', 'Crescer e endividar', 'O PIB cresceu em média cerca de <b>8% a.a.</b> em 1956–1960, mas a inflação saltou de 24% (1956) para 30% (1960): o desenvolvimento veio com desequilíbrio externo e fiscal.')}
   </div>
 </div>
 

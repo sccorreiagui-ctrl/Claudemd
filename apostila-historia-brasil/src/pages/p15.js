@@ -27,6 +27,17 @@ ${gov({
     },
   })}
 
+${tl({
+    start: { d: '31/ago/1969', t: 'Junta assume (AI-12)' },
+    events: [
+      { d: '4/set', t: 'Sequestro do embaixador Elbrick', k: 'cris' },
+      { d: '9/set', t: 'AI-13 e AI-14: banimento e pena de morte', k: 'rep' },
+      { d: '17/out', t: 'Emenda Constitucional nº 1', k: 'inst' },
+      { d: '25/out', t: 'Congresso reaberto elege Médici', k: 'cris' },
+    ],
+    end: { d: '30/out/1969', t: 'Posse de Médici' },
+  })}
+
 <div class="row r2-53">
   ${sec('Medidas da Junta (Atos Institucionais)', 'rep', ul([
     '<b>AI-12</b>: legitima a Junta no lugar do presidente doente; <b>AI-13</b>: banimento; <b>AI-14</b>: pena de morte e prisão perpétua para “guerra revolucionária”.',
@@ -48,6 +59,17 @@ ${sec('Censura e controle das ideias', 'rep', med([
     ['Cultura', 'rep', '<b>DCDP</b> (Polícia Federal) censura músicas, peças, filmes e TV; o Decreto-lei 1.077 (1970) estende a censura prévia a livros e revistas “contrários à moral e aos bons costumes”.'],
     ['Propaganda', 'cris', '<b>AERP</b> (Assessoria de Relações Públicas): campanhas ufanistas, como “Brasil, ame-o ou deixe-o” (p. 16).'],
   ]))}
+
+${sec('Linha do tempo do aparato repressivo', 'rep', tl({
+    start: { d: '13/jun/1964', t: 'SNI criado' },
+    events: [
+      { d: '13/dez/1968', t: 'AI-5', k: 'rep' },
+      { d: '1969–70', t: 'OBAN e DOI-CODI', k: 'rep' },
+      { d: '1972–75', t: 'Guerrilha do Araguaia', k: 'cris' },
+      { d: '25/out/1975', t: 'Morte de Vladimir Herzog', k: 'rep' },
+    ],
+    end: { d: '1/jan/1979', t: 'Fim do AI-5' },
+  }))}
 
 ${rev([
     ['Por que Pedro Aleixo foi impedido de assumir em 1969?', 'Era civil e se opusera ao AI-5; os ministros militares não aceitaram a volta de um civil e preferiram uma Junta, que escolheu Médici.'],

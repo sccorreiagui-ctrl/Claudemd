@@ -1,5 +1,5 @@
 module.exports = (H) => {
-  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, succ } = H;
+  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, succ, photo } = H;
   const body = `
 ${gov({
     nome: 'Artur da Costa e Silva', anos: '1967–1969', sub: 'ARENA · 15/03/1967 → 31/08/1969 (afastado)', foto: 'costaesilva',
@@ -39,6 +39,8 @@ ${sec('AI-5 (13/dez/1968): como alterou o regime', 'rep', `<table class="t rep">
   <tr><td class="k">Habeas corpus</td><td><b>Suspenso</b> em crimes políticos e contra a segurança nacional: prisões sem controle da Justiça. A tortura <b>não foi legalizada</b> pelo ato, mas a ausência de controle judicial favoreceu sua prática</td></tr>
   <tr><td class="k">Intervenção e censura</td><td>Intervenção em estados e municípios; <b>censura prévia</b> a imprensa, música, teatro e cinema</td></tr>
 </table>`)}
+
+${(() => { const ph = photo('passeata', { h: 42, cap: '<b>Protesto estudantil contra a ditadura</b>, Rio de Janeiro, 1968 (acervo Correio da Manhã).' }); return ph ? `<div class="row r2-12">${ph}${call('soc', 'Passeata dos Cem Mil (26/jun/1968)', 'Manifestação no Rio de Janeiro, após a “Sexta-feira Sangrenta”, reuniu estudantes, artistas, intelectuais, religiosos e mães: foi o auge da mobilização civil contra a ditadura antes do AI-5. Seis meses depois, o regime fechou os canais legais de protesto.')}</div>` : ''; })()}
 
 ${sec('Linha do tempo do governo Costa e Silva', 'gray', tl({
     start: { d: '15/mar/1967', t: 'Posse; Constituição de 1967 em vigor' },

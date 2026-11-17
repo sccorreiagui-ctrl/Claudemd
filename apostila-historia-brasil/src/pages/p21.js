@@ -1,5 +1,5 @@
 module.exports = (H) => {
-  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, chart, barChart } = H;
+  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, chart, barChart, photo } = H;
   const { IGPDI } = require('../lib/data.js');
   const ys = ['1985', '1986', '1987', '1988', '1989'];
   const infSvg = barChart({ w: 70, h: 40, keys: ys, vals: ys.map((y) => IGPDI[y]), color: '#b66a00', colors: { 1986: '#0b7a8a' }, ymin: 0, ymax: 2000, ticks: [0, 1000, 2000], show: ys, dec: 0, pad: { l: 8, r: 1, t: 4, b: 6 } });
@@ -45,7 +45,7 @@ ${sec('4 · Planos econômicos e dificuldades', 'eco', flow([
     '<b>Conflitos no campo</b>: assassinato de Chico Mendes (22/dez/1988); greves e repressão (CSN, nov/1988).',
     '<b>Centrão</b> disputa pontos da Constituinte; mandato de Sarney (5 anos) decidido pelos constituintes.',
   ], 'cris'))}
-  ${call('', 'Nova República', 'Convém marcar o início da Nova República em <b>1985</b> e a <b>Constituição de 1988</b> como o marco de sua consolidação institucional.')}
+  ${photo('constituicao', { h: 30, cap: '<b>Promulgação da Constituição</b>, 5/out/1988. A Nova República começa em <b>1985</b>; a Constituição de 1988 é o marco de sua consolidação institucional.' }) || call('', 'Nova República', 'Convém marcar o início da Nova República em <b>1985</b> e a <b>Constituição de 1988</b> como o marco de sua consolidação institucional.')}
 </div>
 
 ${sec('Linha do tempo do governo Sarney', 'gray', tl({

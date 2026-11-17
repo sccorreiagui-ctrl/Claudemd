@@ -271,3 +271,8 @@ table.t.rep th { background: var(--rep); } table.t.soc th { background: var(--so
 .ficha.c1 .chip { font-size: 5.7pt; margin-bottom: .3mm; }
 
 table.t .chip { font-size: 5.6pt; padding: .05mm 1.2mm; margin-right: .6mm; }
+
+.gov-h .ph-slot img { object-position: 50% 12%; }
+.figwrap .fig img { object-position: 50% 30%; }
+.gov-h .ph-slot img, .gov-h .ph-slot svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.gov-h .ph-slot { overflow: hidden; }

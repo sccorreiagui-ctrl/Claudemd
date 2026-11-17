@@ -40,7 +40,13 @@ ${gov({
   </div>
 </div>
 
-${call('int', 'Contexto internacional', 'No auge da <b>Guerra Fria</b>, o regime se apresentava como bastião anticomunista; a abundância de crédito internacional (petrodólares) financiou o crescimento, mas preparou o endividamento que se revelaria após o choque do petróleo de 1973 (p. 17–18).')}
+${sec('Propaganda × realidade', 'cris', `<table class="t cris">
+  <tr><th>O que o governo dizia</th><th>O que mostram os dados e a pesquisa histórica</th></tr>
+  <tr><td>“Ninguém segura este país”: o Brasil do “Milagre”</td><td>PIB de 10,4% a 14,0% ao ano (1970–73), mas concentração de renda (Gini ≈ 0,50 → 0,56) e arrocho salarial (p. 17)</td></tr>
+  <tr><td>“Brasil, ame-o ou deixe-o”: ordem e segurança</td><td>CNV: 434 mortos e desaparecidos políticos (1946–1988), sendo 210 desaparecidos; censura e exílio</td></tr>
+</table>`)}
+
+${call('int', 'Contexto internacional', '<b>Guerra Fria</b>: o regime se dizia bastião anticomunista; o crédito internacional farto financiou o crescimento e preparou o endividamento revelado após o choque do petróleo de 1973 (p. 17–18).')}
 
 ${sec('Linha do tempo do governo Médici', 'gray', tl({
     start: { d: '30/out/1969', t: 'Posse; Congresso reaberto' },

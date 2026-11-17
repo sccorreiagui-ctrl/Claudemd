@@ -11,8 +11,7 @@ module.exports = (H) => {
     { t: 'fato', k: 'cris', h: 'No Brasil', p: 'Reformas de Base, CGT, Ligas e a política externa independente são lidas como ameaça.' },
     { t: 'cons', k: 'rep', h: 'Coalizão golpista', p: 'civis, militares e apoio externo.' },
   ]))}
-  <div class="col">
-    <h2>Várias causas, não uma só</h2>
+  ${sec('Várias causas, não uma só', 'cris', `
     <div class="row r3" style="gap:1.6mm">
       ${box('eco', 'Econômica', 'Inflação de 79,9% em 1963; PIB de 0,6%; fracasso do Plano Trienal; conflito sobre remessa de lucros.')}
       ${box('inst', 'Política', 'Congresso hostil; polarização e instabilidade desde 1961; reformas por decreto ou plebiscito.')}
@@ -20,8 +19,7 @@ module.exports = (H) => {
       ${box('cris', 'Social e ideológica', 'Mobilização de camponeses e operários; medo da “comunização” na classe média, na Igreja e na imprensa.')}
       ${box('eco', 'Empresarial', 'IPES/IBAD financiam campanha contra Jango; empresários temem reformas e sindicatos.')}
       ${box('int', 'Internacional', 'Guerra Fria; embaixada dos EUA acompanha e se prepara para apoiar os golpistas.')}
-    </div>
-  </div>
+    </div>`)}
 </div>
 
 ${sec('A escalada de março de 1964', 'cris', tl({

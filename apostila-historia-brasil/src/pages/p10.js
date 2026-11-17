@@ -1,5 +1,5 @@
 module.exports = (H) => {
-  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, succ } = H;
+  const { page, gov, sec, ul, med, call, flow, tl, rev, chip, succ, photo } = H;
   const body = `
 <div class="ptitle"><h1>Crise sucessória de 1961: Mazzilli, Legalidade e parlamentarismo</h1><span class="per">ago–set/1961</span></div>
 
@@ -36,6 +36,7 @@ ${gov({
     { t: 'cons', k: 'inst', h: '7/set', p: 'Jango assume: o Brasil evita o golpe, mas fica com um presidente de poderes limitados.' },
   ]))}
   <div class="col">
+    ${photo('legalidade', { h: 36, cap: '<b>Leonel Brizola</b>, governador do RS, no Palácio Piratini durante a Campanha da Legalidade (ago/1961).' })}
     ${sec('Presidencialismo × parlamentarismo (1961)', 'inst', `<table class="t">
       <tr><th></th><th>Antes</th><th>Depois (EC 4)</th></tr>
       <tr><td class="k">Chefe de Estado</td><td>Presidente</td><td>Presidente (Jango)</td></tr>

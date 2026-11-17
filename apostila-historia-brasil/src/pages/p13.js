@@ -26,15 +26,13 @@ ${sec('3 · Atos Institucionais: o regime se institucionaliza', 'rep', `<table c
     ['Controle', 'rep', '<b>SNI</b> criado em jun/1964 (Golbery); extinção da UNE (Lei Suplicy, nov/1964); intervenção em sindicatos; Lei de Imprensa e Lei de Segurança Nacional (1967).'],
     ['Exterior', 'int', 'Alinhamento aos EUA: ruptura com Cuba (1964); tropas à República Dominicana (1965).'],
   ]))}
-  <div class="col">
-    <h2>Do multipartidarismo ao bipartidarismo</h2>
+  ${sec('Do multipartidarismo ao bipartidarismo', 'inst', `
     <div class="ob" style="--c:var(--inst)"><b class="t">Partidos de 1945–1965</b>PSD, UDN, PTB, PSP, PDC e outros extintos pelo <b>AI-2</b> e pelo Ato Complementar nº 4</div>
     <div class="darr">▼ ▼</div>
     <div class="row r2" style="gap:1.6mm">
       <div class="ob fill k-c-inst" style="--c:var(--inst)"><b class="t">ARENA</b>governista; reúne a maioria da UDN e do PSD</div>
       <div class="ob fill k-c-soc" style="--c:var(--soc)"><b class="t">MDB</b>oposição consentida; PTB e parte do PSD</div>
-    </div>
-  </div>
+    </div>`)}
 </div>
 
 ${sec('4 · Crise de 1965 e o AI-2', 'cris', flow([
@@ -42,6 +40,13 @@ ${sec('4 · Crise de 1965 e o AI-2', 'cris', flow([
     { t: 'fato', k: 'rep', h: 'Pressão da linha dura', p: 'oficiais exigem endurecimento; o governo cede.' },
     { t: 'cons', k: 'rep', h: 'AI-2 (27/out)', p: 'partidos extintos, eleição indireta e Justiça Militar ampliada.' },
   ], { h: true }))}
+
+${sec('Dois projetos militares em disputa', 'inst', `<table class="t">
+  <tr><th></th><th>Castelistas (ESG, “Sorbonne”)</th><th>Linha dura</th></tr>
+  <tr><td class="k">Projeto</td><td>Regime de exceção temporário: “limpar” a política e devolver o poder aos civis</td><td>Permanecer no poder e radicalizar a punição aos adversários</td></tr>
+  <tr><td class="k">1964–67</td><td>Controlam a Presidência (Castelo Branco, Golbery)</td><td>Pressionam por cassações, IPMs e pelo AI-2</td></tr>
+  <tr><td class="k">Depois</td><td>Voltam ao poder com Geisel (1974) e a abertura</td><td>Dominam 1967–1974 (Costa e Silva, AI-5, Médici)</td></tr>
+</table>`)}
 
 ${sec('Linha do tempo do governo Castelo Branco', 'gray', tl({
     start: { d: '15/abr/1964', t: 'Posse (eleito em 11/abr)' },
@@ -56,8 +61,7 @@ ${sec('Linha do tempo do governo Castelo Branco', 'gray', tl({
   }))}
 
 ${rev([
-    ['Por que a ditadura criou o bipartidarismo?', 'Para manter uma aparência de legalidade e pluralismo, com uma oposição tolerada (MDB), mas sob controle do governo e dos Atos Institucionais.'],
-    ['O que o PAEG mudou na economia?', 'Estabilizou preços e modernizou o sistema financeiro, às custas de arrocho salarial; criou o FGTS e o Banco Central.'],
+    ['Por que a ditadura criou o bipartidarismo?', 'Para manter aparência de legalidade, com uma oposição tolerada (MDB), mas sob controle dos Atos Institucionais.'],
   ])}
 <div class="src">Fontes: CPDOC/FGV (verbete Castelo Branco; Atos Institucionais); Câmara dos Deputados e Planalto (AI-1 a AI-4, Constituição de 1967); IBGE e Ipeadata (PIB e IGP-DI).</div>
 `;

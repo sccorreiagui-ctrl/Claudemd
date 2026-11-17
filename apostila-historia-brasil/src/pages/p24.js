@@ -7,7 +7,7 @@ module.exports = (H) => {
   const COL = { D: '#2a7a4b', I: '#1e3a5f', C: '#6d8fb8', R: '#f2a21e', X: '#b3261e', G: '#7a1712', M: '#6b7685', P: '#b66a00', J: '#7a1712' };
   const T = [
     [1930.84, 'G', '1930'], [1934.55, 'I', '1934'], [1937.86, 'G', '1937'], [1945.83, 'X', '1945'], [1946.08, 'D', ''],
-    [1951.08, 'D', '1951'], [1954.65, 'M', '1954/55'], [1955.85, 'C', ''], [1956.08, 'D', '1956'], [1961.08, 'D', '1961'],
+    [1951.08, 'D', '1951'], [1954.65, 'M', '1954–56'], [1955.85, 'C', ''], [1956.08, 'D', ''], [1961.08, 'D', '1961'],
     [1961.65, 'R', ''], [1961.69, 'C', ''], [1964.25, 'G', '1964'], [1967.2, 'I', '1967'], [1969.66, 'J', '1969'],
     [1974.2, 'I', '1974'], [1979.2, 'I', '1979'], [1985.2, 'I', '1985'], [1990.2, 'D', '1990'], [1992.75, 'P', '1992'],
     [1995.0, 'D', '1995'], [2003.0, 'D', '2003'],
@@ -28,7 +28,7 @@ module.exports = (H) => {
     .map(([k, t]) => `<span style="display:inline-flex;align-items:center;gap:.9mm;margin-right:2.4mm"><i style="display:inline-block;width:2.4mm;height:2.4mm;border-radius:50%;background:${COL[k]}"></i>${t}</span>`).join('');
 
   const row = (ano, de, tipos, por) => `<tr><td class="k">${ano}</td><td>${de}</td><td>${tipos}</td><td>${por}</td></tr>`;
-  const table = `<table class="t" style="font-size:6.8pt;table-layout:fixed"><colgroup><col style="width:13mm"><col style="width:47mm"><col style="width:58mm"><col></colgroup>
+  const table = `<table class="t" style="font-size:6.8pt;table-layout:fixed"><colgroup><col style="width:17mm"><col style="width:46mm"><col style="width:57mm"><col></colgroup>
     <tr><th>Ano</th><th>Transição</th><th>Tipo</th><th>Por quê / contexto</th></tr>
     ${row('1930', 'Washington Luís → Junta → Vargas', chip('golpe', 'Revolução'), 'racha oligárquico, crise do café, eleição contestada')}
     ${row('1937', 'Vargas → Vargas (Estado Novo)', chip('golpe', 'Golpe'), 'Plano Cohen forjado; fim da eleição de 1938')}

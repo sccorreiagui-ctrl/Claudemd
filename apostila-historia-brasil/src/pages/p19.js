@@ -22,15 +22,13 @@ ${gov({
     ['Partidos', 'inst', '<b>Reforma partidária</b> (dez/1979) extingue ARENA e MDB: surgem PDS, PMDB, PT, PDT, PTB e PP (organograma ao lado).'],
     ['Eleições', 'soc', '<b>Eleições diretas para governadores</b> em 1982: oposição vence em SP, MG e RJ.'],
   ]))}
-  <div class="col">
-    <h2>Pluripartidarismo (1979–80)</h2>
+  ${sec('Pluripartidarismo (1979–80)', 'inst', `
     <div class="row r2" style="gap:1.4mm"><div class="col" style="gap:1.2mm">
       ${box('inst', 'ARENA', '→ <b>PDS</b> (governista)')}
       ${box('soc', 'MDB', '→ <b>PMDB</b> (Ulysses)')}
     </div><div class="col" style="gap:1.2mm">
       ${box('soc', 'Novos', '<b>PT</b> (Lula, ABC), <b>PDT</b> (Brizola), <b>PTB</b> (Ivete Vargas), <b>PP</b> (Tancredo; funde-se ao PMDB em 1982)')}
-    </div></div>
-  </div>
+    </div></div>`)}
 </div>
 
 ${sec('Lei da Anistia (1979): fatos × interpretação', 'cris', `<div class="row r2" style="gap:2.4mm">
@@ -51,6 +49,13 @@ ${sec('Lei da Anistia (1979): fatos × interpretação', 'cris', `<div class="ro
     </div>
   </div>
 </div>
+
+${sec('A abertura de Geisel × a de Figueiredo', 'soc', `<table class="t soc">
+  <tr><th></th><th>Geisel (1974–79)</th><th>Figueiredo (1979–85)</th></tr>
+  <tr><td class="k">Ritmo</td><td>“Lenta, gradual e segura”, controlada pelo governo</td><td>Mais ampla, pressionada pela sociedade</td></tr>
+  <tr><td class="k">Instrumentos</td><td>Fim do AI-5; recuos (Lei Falcão, Pacote de Abril)</td><td>Anistia, pluripartidarismo, eleições diretas de governadores</td></tr>
+  <tr><td class="k">Contexto</td><td>Fim do Milagre; linha dura ainda forte</td><td>Crise da dívida, greves e campanha das Diretas</td></tr>
+</table>`)}
 
 ${sec('Linha do tempo do governo Figueiredo', 'gray', tl({
     start: { d: '15/mar/1979', t: 'Posse de Figueiredo' },

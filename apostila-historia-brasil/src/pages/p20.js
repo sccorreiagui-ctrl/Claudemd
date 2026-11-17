@@ -33,7 +33,9 @@ ${succ({
   })}
 
 <div class="row r2-53">
-  ${sec('Por que a ditadura terminou por transição negociada?', 'soc', ul([
+  ${chart('Colégio Eleitoral de 15/jan/1985: composição por partido', 'delegados (total de 686 votantes) — fonte: Câmara dos Deputados / Wikipédia (conferência)', hbars([['PDS', 361, '#7d8da3', '361'], ['PMDB', 273, '#2a7a4b', '273'], ['PDT', 30, '#9aa8ba', '30'], ['PTB', 14, '#9aa8ba', '14'], ['PT', 8, '#9aa8ba', '8']], { max: 400 }), '<div class="src" style="margin-top:1mm">O PDS tinha maioria nominal, mas a <b>cisão da Frente Liberal</b> e votos de dissidentes levaram Tancredo a 480 votos × 180 de Maluf (26 abstenções).</div>')}
+
+${sec('Por que a ditadura terminou por transição negociada?', 'soc', ul([
     '<b>Crise econômica</b> e perda de legitimidade: recessão, inflação e dívida.',
     '<b>Racha das elites</b>: dissidentes do PDS (Frente Liberal) se aliam ao PMDB após a escolha de <b>Maluf</b> (ago/1984).',
     '<b>Pressão social</b>: Diretas Já, sindicatos e Igreja reorganizam a sociedade civil.',

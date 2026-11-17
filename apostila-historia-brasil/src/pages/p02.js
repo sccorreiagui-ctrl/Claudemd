@@ -15,7 +15,7 @@ module.exports = (H) => {
     '<b>Política:</b> Washington Luís (SP) rompe o revezamento do <i>café com leite</i> ao indicar o paulista <b>Júlio Prestes</b> em vez de um mineiro.',
     '<b>Econômica:</b> crise do café e da oligarquia paulista.',
     '<b>Social:</b> classes médias urbanas e <b>tenentes</b> querem voto secreto, justiça eleitoral e reformas.',
-    '<b>Eleitoral:</b> eleição de <b>1/mar/1930</b> (Prestes 57,7% × Vargas 39,3%), com denúncias de fraude.',
+    '<b>Eleitoral:</b> eleição de <b>1/mar/1930</b> (Prestes 1.091.709 votos × Vargas 742.794: ≈ 59% × 40%), com denúncias de fraude.',
     '<b>Estopim:</b> assassinato de <b>João Pessoa</b> (26/jul/1930), candidato a vice da Aliança Liberal.',
   ], 'cris'))}
     <div class="row r2" style="gap:1.6mm">
@@ -70,7 +70,7 @@ ${sec('Linha do tempo do Governo Provisório', 'gray', tl({
     ['Por que a Revolução de 1932 foi derrotada mas teve efeitos?', 'São Paulo ficou isolado, mas o governo convocou a Constituinte (1933) e nomeou interventor civil paulista.'],
   ])}
 </div>
-<div class="src">Fontes: CPDOC/FGV (Era Vargas, 1930–1937); Senado Federal e Câmara dos Deputados (Constituição de 1934); TSE (Código Eleitoral de 1932). Valores eleitorais de 1930 conforme CPDOC.</div>
+<div class="src">Fontes: CPDOC/FGV (Era Vargas, 1930–1937); Senado Federal e Câmara dos Deputados (Constituição de 1934); TSE (Código Eleitoral de 1932). Votos de 1930 conforme TSE/CPDOC (confirmados).</div>
 `;
   return page(2, { per: 'vargas', assunto: 'Crise de 1929, Revolução de 1930 e Governo Provisório', intervalo: '1929–1934' }, body);
 };
