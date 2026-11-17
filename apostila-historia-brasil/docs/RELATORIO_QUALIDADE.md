@@ -38,7 +38,7 @@
 - **9** mapas de sucessão numerados (1945, 1954, 1954–56, 1961, 1964, 1969, 1985, 1992 e variantes) com chips de tipo de transição
 - **23** quadros de gráficos/dados (PIB, inflação, dívida externa, resultados de eleições e votações), todos em SVG/HTML vetorial
 - **17** tabelas comparativas; 23 caixas de **revisão ativa** com resposta; organogramas de partidos e do aparelho repressivo
-- Fotografias históricas licenciadas (créditos sob cada imagem e em `assets/img/credits.json`); onde não havia imagem confiável, **silhuetas neutras** e infográficos originais (nenhuma imagem gerada por IA)
+- **9 retratos presidenciais** licenciados (Dutra, JK, Jânio, Castelo Branco, Costa e Silva, Médici, Geisel, Figueiredo e Sarney) com crédito discreto sobre a foto e dados completos em `assets/img/credits.json`; **silhuetas neutras** para Vargas (2º governo) e Jango, e infográficos originais no lugar das fotos de evento (nenhuma imagem gerada por IA)
 
 ## 3. Correções históricas feitas sobre o inventário do NotebookLM
 
@@ -78,12 +78,24 @@ Ver `docs/FONTES.md` (CPDOC/FGV, Senado, Câmara, TSE, Arquivo Nacional, Planalt
 - O ambiente de produção **bloqueia o acesso direto** ao CPDOC, Senado e Câmara; a leitura foi feita por ferramentas externas de extração. Datas e números críticos foram cruzados em duas fontes, mas **recomenda-se conferir** nas fontes primárias (TSE/CPDOC/Câmara) as votações citadas e o placar de 1966 (Costa e Silva), que não é citado numericamente na apostila.
 - A interpretação de Lott em 1955 (“contragolpe preventivo”) e de Jânio em 1961 reflete debate historiográfico, sinalizado no texto.
 - Gini de 1960/1970/1980 e a distribuição de investimentos do Plano de Metas são **valores aproximados**, citados como tais.
-- A Wikimedia aplica limite de requisições; por isso a cobertura de fotografias é parcial (ver seção abaixo).
+- **Fotografias de evento ausentes**: o Wikimedia Commons passou a responder `429 Too Many Requests` com `retry-after: 600` ao IP compartilhado do ambiente, impedindo o download de Brasília (1960), Campanha da Legalidade, Passeata dos Cem Mil, Marcha da Família e Promulgação da Constituição de 1988, cujos arquivos de domínio público/CC já foram identificados. O código já os integra automaticamente: basta salvá-los em `assets/img/` com os nomes `brasilia`, `legalidade`, `passeata` e `constituicao` (`.jpg`) e rodar `node build.js --pdf --check`. Também falta um retrato de Vargas (1951–54) e de Jango.
 - O inventário original não foi anexado ao repositório como arquivo (veio no enunciado); foi tratado como insumo e corrigido, não reproduzido.
 
 ## 6. Fotografias usadas
 
-(preenchido ao final da produção; veja `assets/img/credits.json`)
+| Retrato | Licença | Autoria / origem (Wikimedia Commons) |
+|---|---|---|
+| Eurico Gaspar Dutra | Domínio público | Governo do Brasil — *GASPARDUTRA (cropped).jpg* |
+| Juscelino Kubitschek | Domínio público | Governo do Brasil — *Juscelino Kubitschek in 1956 (cropped).jpg* |
+| Jânio Quadros | Domínio público | Agência Brasil — *Jânio Quadros, presidente do Brasil (1961).jpg* |
+| Castelo Branco | Domínio público | Governo do Brasil — *Humberto Castelo Branco, presidente do Brasil, 1964.jpg* |
+| Costa e Silva | Domínio público | Governo do Brasil — *Costa e Silva.jpg* |
+| Médici | Domínio público | Governo do Brasil — *Garrastazu médici.jpg* |
+| Geisel | Domínio público | Governo Federal — *Foto oficial do presidente Ernesto Geisel.png* |
+| Figueiredo | Domínio público | Governo do Brasil — *João Figueiredo, presidente do Brasil, 1979.jpg* |
+| Sarney | **CC BY 3.0 BR** | EBC/Agência Brasil — *Foto Oficial Sarney EBC.jpg* (crédito exibido sobre a foto) |
+
+A licença indicada é a registrada no Commons no momento da consulta; vale reconferir antes de publicação comercial.
 
 ## 7. Verificação final
 

@@ -31,7 +31,7 @@ ${tl({
     start: { d: '31/ago/1969', t: 'Junta assume (AI-12)' },
     events: [
       { d: '4/set', t: 'Sequestro do embaixador Elbrick', k: 'cris' },
-      { d: '9/set', t: 'AI-13 e AI-14: banimento e pena de morte', k: 'rep' },
+      { d: '5/set', t: 'AI-13 e AI-14: banimento e pena de morte', k: 'rep' },
       { d: '17/out', t: 'Emenda Constitucional nº 1', k: 'inst' },
       { d: '25/out', t: 'Congresso reaberto elege Médici', k: 'cris' },
     ],

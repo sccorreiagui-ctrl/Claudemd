@@ -40,7 +40,13 @@ ${sec('AI-5 (13/dez/1968): como alterou o regime', 'rep', `<table class="t rep">
   <tr><td class="k">Intervenção e censura</td><td>Intervenção em estados e municípios; <b>censura prévia</b> a imprensa, música, teatro e cinema</td></tr>
 </table>`)}
 
-${(() => { const ph = photo('passeata', { h: 42, cap: '<b>Protesto estudantil contra a ditadura</b>, Rio de Janeiro, 1968 (acervo Correio da Manhã).' }); return ph ? `<div class="row r2-12">${ph}${call('soc', 'Passeata dos Cem Mil (26/jun/1968)', 'Manifestação no Rio de Janeiro, após a “Sexta-feira Sangrenta”, reuniu estudantes, artistas, intelectuais, religiosos e mães: foi o auge da mobilização civil contra a ditadura antes do AI-5. Seis meses depois, o regime fechou os canais legais de protesto.')}</div>` : ''; })()}
+${(() => {
+    const txt = 'Manifestação no Rio de Janeiro, após a “Sexta-feira Sangrenta”, reuniu estudantes, artistas, intelectuais, religiosos e mães: foi o auge da mobilização civil contra a ditadura antes do AI-5. Seis meses depois, o regime fechou os canais legais de protesto.';
+    const ph = photo('passeata', { h: 38, cap: '<b>Protesto estudantil contra a ditadura</b>, Rio de Janeiro, 1968 (acervo Correio da Manhã).' });
+    return ph ? `<div class="row r2-12">${ph}${call('soc', 'Passeata dos Cem Mil (26/jun/1968)', txt)}</div>` : call('soc', 'Passeata dos Cem Mil (26/jun/1968)', txt);
+  })()}
+
+${call('int', 'Contexto internacional: 1968 no mundo', 'Maio de 68 em Paris, Primavera de Praga, a Ofensiva do Tet no Vietnã e os protestos nos EUA: a juventude brasileira participava de uma <b>onda mundial de contestação</b>, que o regime tratava como “subversão” — mais uma razão para endurecer em dezembro.')}
 
 ${sec('Linha do tempo do governo Costa e Silva', 'gray', tl({
     start: { d: '15/mar/1967', t: 'Posse; Constituição de 1967 em vigor' },
