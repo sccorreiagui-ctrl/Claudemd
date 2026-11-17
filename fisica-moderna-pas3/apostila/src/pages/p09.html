@@ -1,0 +1,56 @@
+<!--accent=cyan|topic=Tempo e espaço relativos-->
+<div>
+  <div class="h"><span class="n">3</span><b>Esquema</b><span class="sub">· a mesma viagem (Terra → estrela) em dois referenciais, a 0,8c</span></div>
+  <div class="figwrap">{{fig:nave}}</div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="h"><span class="n">1</span><b>Fenômeno</b><span class="sub">· relógios e réguas em movimento</span></div>
+    <p>Medidos de um referencial em que estão <b>em movimento</b>, um relógio “atrasa” e uma régua <b>encolhe</b> na direção do movimento. Efeito comprovado: <b>múons</b> cósmicos chegam ao solo porque seu tempo de vida, medido da Terra, é dilatado; os relógios do <b>GPS</b> exigem correção relativística.</p>
+    <div class="h"><span class="n">2</span><b>Explicação</b></div>
+    <ul>
+      <li><b>Tempo próprio</b> <m>\Delta\tau</m>: intervalo entre dois eventos que ocorrem <b>no mesmo lugar</b> do referencial (um único relógio presente nos dois eventos). É o <b>menor</b> intervalo.</li>
+      <li><b>Comprimento próprio</b> <m>L_0</m>: medido no referencial em que o objeto está <b>em repouso</b>. É o <b>maior</b>.</li>
+      <li>Para <m>v\ll c</m>, <m>\gamma\approx1</m>: sem efeito perceptível no cotidiano.</li>
+    </ul>
+  </div>
+  <div class="col">
+    <div class="h"><span class="n">4</span><b>Fórmulas</b></div>
+    <div class="formula" style="--accent:var(--cyan)"><div class="fh">Fator de Lorentz, dilatação e contração</div><div class="fb">
+      <m class="d">\gamma=\dfrac{1}{\sqrt{1-v^2/c^2}}\qquad \Delta t=\gamma\,\Delta\tau\qquad L=\dfrac{L_0}{\gamma}</m>
+      <table>
+        <tr><td><m>\Delta\tau</m></td><td>tempo <b>próprio</b> (s ou anos)</td></tr>
+        <tr><td><m>\Delta t</m></td><td>intervalo medido pelo observador para quem o relógio se move</td></tr>
+        <tr><td><m>L_0,\ L</m></td><td>comprimento próprio e comprimento medido <b>ao longo do movimento</b> (m)</td></tr>
+      </table>
+      <table style="margin-top:1mm;border-top:0.25mm dashed var(--line)"><tr><td>v/c</td><td>0,6 → γ = 1,25 · 0,8 → γ = 5/3 ≈ 1,67 · 0,9 → γ ≈ 2,29 · 0,99 → γ ≈ 7,09</td></tr></table>
+      <div class="valid"><b>Válido</b> entre <b>referenciais inerciais</b> com v constante; <m>v\lt c</m> sempre (γ → ∞ quando v → c).</div>
+    </div></div>
+  </div>
+</div>
+
+<div class="ex" style="--accent:var(--cyan)"><div class="eh">Exemplo resolvido 5 <em>Dilatação e contração, integradas</em></div><div class="eb">
+  <div class="ln"><b>Situação</b><span>Uma nave de comprimento próprio <m>L_0=100</m> m viaja da Terra a uma estrela a <b>8 anos-luz</b> (distância medida no referencial Terra–estrela) com <m>v=0{,}8c</m>. Determine, em cada referencial, o tempo de viagem e o comprimento da nave.</span></div>
+  <div class="ln"><b>Raciocínio</b><span>Primeiro identifique <b>quem mede o quê</b>. Terra e estrela estão em repouso entre si: lá os dois eventos (partida, chegada) ocorrem em <b>lugares diferentes</b>. Na nave, ocorrem <b>no mesmo lugar</b> ⇒ o relógio de bordo marca o <b>tempo próprio</b>.</span></div>
+  <div class="ln"><b>Cálculo</b><span>
+    <b class="c-cyan" style="display:inline;width:auto;font-size:inherit;text-transform:none">1)</b> <m>\gamma=\dfrac{1}{\sqrt{1-0{,}8^2}}=\dfrac{1}{0{,}6}=\dfrac53</m><br>
+    <b class="c-cyan" style="display:inline;width:auto;font-size:inherit;text-transform:none">2)</b> Terra–estrela: <m>\Delta t=\dfrac{8\ \text{anos-luz}}{0{,}8c}=10\ \text{anos}</m><br>
+    <b class="c-cyan" style="display:inline;width:auto;font-size:inherit;text-transform:none">3)</b> Relógio da nave (tempo próprio): <m>\Delta\tau=\dfrac{\Delta t}{\gamma}=\dfrac{10}{5/3}=6\ \text{anos}</m><br>
+    <b class="c-cyan" style="display:inline;width:auto;font-size:inherit;text-transform:none">4)</b> Comprimento da nave medido na Terra: <m>L=\dfrac{L_0}{\gamma}=\dfrac{100}{5/3}=60\ \text{m}</m></span></div>
+  <div class="ln concl"><b>Conclusão</b><span>Na nave, a distância Terra–estrela é <b>contraída</b>: <m>8/\gamma=4{,}8</m> anos-luz, percorridos em <m>4{,}8/0{,}8=6</m> anos — <b>consistente</b>. Medida da Terra, a nave tem 60 m; medida pela tripulação, 100 m.</span></div>
+</div></div>
+
+<div class="g2">
+  <div class="alert"><div class="bt">Armadilhas</div>
+    <ul>
+      <li>Tempo próprio <b>não</b> é qualquer intervalo medido: exige os dois eventos no <b>mesmo ponto</b> do referencial.</li>
+      <li>A contração ocorre <b>só ao longo do movimento</b>; as dimensões transversais não mudam.</li>
+      <li>Corpos com <b>massa</b> não alcançam a velocidade da luz; “o tempo para em c” é <b>incorreto</b>.</li>
+      <li>Contração relativística <b>não</b> tem relação com buracos negros.</li>
+      <li>Cada referencial inercial vê o relógio do outro mais lento: o efeito é <b>recíproco</b> (e consistente).</li>
+    </ul></div>
+  <div class="prova" style="--accent:var(--cyan)"><span class="bt">5 · Na prova</span>
+    <p style="margin-top:.8mm"><b>Roteiro:</b> (1) identifique os dois eventos; (2) descubra em qual referencial ocorrem no mesmo lugar (aí está <m>\Delta\tau</m>); (3) calcule γ; (4) <m>\Delta t=\gamma\Delta\tau</m>; (5) para comprimentos, ache o referencial onde o objeto está em repouso (<m>L_0</m>).</p>
+    <p style="margin-bottom:0"><b>Item:</b> “Para a tripulação, a nave mede mais de 100 m, pois está em movimento.” <b>ERRADO</b>: no próprio referencial mede <m>L_0</m> = 100 m.</p></div>
+</div>

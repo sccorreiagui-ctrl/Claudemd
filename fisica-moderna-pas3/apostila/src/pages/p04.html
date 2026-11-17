@@ -1,0 +1,55 @@
+<!--accent=blue|topic=Efeito fotoelétrico: gráficos e cálculos-->
+<div class="row">
+  <div class="col">
+    <div class="h"><span class="n">4</span><b>Fórmula</b><span class="sub">· conservação de energia para um fóton</span></div>
+    <div class="formula"><div class="fh">Equação fotoelétrica de Einstein</div><div class="fb">
+      <m class="d">hf = \Phi + K_{\max}\quad\Rightarrow\quad K_{\max}=hf-\Phi</m>
+      <table>
+        <tr><td><m>K_{\max}</m></td><td>energia cinética <b>máxima</b> do fotoelétron (J ou eV)</td></tr>
+        <tr><td><m>\Phi</m></td><td>função trabalho do metal (J ou eV)</td></tr>
+        <tr><td><m>f_0</m></td><td>frequência de corte: <m>K_{\max}=0\Rightarrow f_0=\Phi/h</m></td></tr>
+        <tr><td><m>V_c</m></td><td>potencial de corte (módulo da tensão de frenagem, em V): <m>K_{\max}=eV_c</m>, com <m>e=1{,}60\times10^{-19}</m> C</td></tr>
+      </table>
+      <div class="valid"><b>Reconheça:</b> “função trabalho”, “frequência de corte”, “tensão de frenagem”. <b>Válido</b> para um fóton por elétron; <m>K_{\max}</m> é a energia dos elétrons emitidos da <b>superfície</b> (os demais têm menos). Em eV: <m>1\,\mathrm{eV}=1{,}60\times10^{-19}</m> J.</div>
+    </div></div>
+  </div>
+  <div class="col">
+    <div class="ex"><div class="eh">Exemplo resolvido 2 <em>Efeito fotoelétrico</em></div><div class="eb">
+      <div class="ln"><b>Situação</b><span>Um metal tem <m>\Phi=2{,}0</m> eV. Ele é iluminado com luz de <m>\lambda=400</m> nm.</span></div>
+      <div class="ln"><b>Pede-se</b><span>(a) <m>K_{\max}</m> e <m>V_c</m>; (b) <m>f_0</m> e <m>\lambda_0</m>; (c) haverá emissão com luz de 700 nm?</span></div>
+      <div class="ln"><b>Raciocínio</b><span>Conservação de energia: <m>hf=\Phi+K_{\max}</m>; <m>f_0=\Phi/h</m>; <m>E(\mathrm{eV})=1240/\lambda(\mathrm{nm})</m>.</span></div>
+      <div class="ln"><b>Cálculo</b><span>(a) <m>E=1240/400=3{,}1</m> eV ⇒ <m>K_{\max}=3{,}1-2{,}0=1{,}1\ \mathrm{eV}</m> e <m>V_c=1{,}1\ \mathrm{V}</m>.<br>
+      (b) <m>f_0=\dfrac{2{,}0\cdot1{,}60\times10^{-19}}{6{,}63\times10^{-34}}\approx4{,}8\times10^{14}\,\mathrm{Hz}</m>; <m>\lambda_0=1240/2{,}0=620</m> nm.<br>
+      (c) 700 nm ⇒ <m>E=1{,}8</m> eV <m>\lt\Phi</m>.</span></div>
+      <div class="ln concl"><b>Conclusão</b><span>(c) <b>não há emissão</b>, mesmo com muita intensidade: 700 nm &gt; <m>\lambda_0</m>. Emissão só para <m>\lambda\lt\lambda_0</m>.</span></div>
+    </div></div>
+  </div>
+</div>
+
+<div>
+  <div class="h"><span class="n">3</span><b>Esquema</b><span class="sub">· os três gráficos clássicos do efeito fotoelétrico</span></div>
+  <div class="figwrap">{{fig:fotografs}}</div>
+</div>
+
+<div class="g2">
+  <div>
+    <div class="h"><span class="n">2</span><b>Como ler cada gráfico</b></div>
+    <table class="t">
+      <tr><th style="width:20%">Gráfico</th><th>Leitura</th></tr>
+      <tr><td>(a) <m>K_{\max}</m> × f</td><td><b>Reta</b> <m>K_{\max}=hf-\Phi</m>: <b>inclinação = h</b> (igual para todos os metais ⇒ retas paralelas); corte no eixo f = <m>f_0</m>; prolongamento até f = 0 dá <m>-\Phi</m>. Maior Φ ⇒ <m>f_0</m> maior.</td></tr>
+      <tr><td>(b) corrente × intensidade</td><td>Com <m>f\gt f_0</m>, <b>reta pela origem</b>. Com <m>f\lt f_0</m>, corrente <b>nula</b>.</td></tr>
+      <tr><td>(c) corrente × tensão</td><td>A tensão contrária que zera a corrente é <b>−V<sub>c</sub></b>. Intensidade maior ⇒ corrente de saturação maior, <b>mesmo V<sub>c</sub></b>.</td></tr>
+    </table>
+  </div>
+  <div>
+    <div class="alert"><div class="bt">Armadilhas nos gráficos</div>
+      <ul>
+        <li>No gráfico (a), a inclinação <b>não</b> depende do metal; quem muda é o <b>intercepto</b> (−Φ).</li>
+        <li>No gráfico (c), aumentar a intensidade <b>não</b> muda o potencial de corte.</li>
+        <li>Atenção às unidades: Hz × eV × J; converta antes de comparar.</li>
+      </ul></div>
+    <div class="prova" style="--accent:var(--blue);margin-top:2.2mm"><span class="bt">5 · Na prova</span>
+      <p style="margin-top:.8mm">Itens típicos de <b>fotocélula</b> combinam o efeito fotoelétrico com <b>eletricidade</b>: interpretar <b>corrente × tensão</b> e relacionar intensidade, frequência e corrente.</p>
+      <p><b>Item:</b> “Em dois metais diferentes, a inclinação da reta <m>K_{\max}\times f</m> é a mesma.” <b>CERTO</b> (é a constante de Planck).</p></div>
+  </div>
+</div>

@@ -1,0 +1,59 @@
+<!--accent=purple|topic=Incerteza e probabilidade quântica-->
+<div>
+  <div class="h"><span class="n">1</span><b>Fenômeno</b><span class="sub">· no átomo não existe “trajetória de elétron”: há <b>probabilidades</b></span></div>
+  <div class="figwrap">{{fig:probabilidade}}</div>
+  <div class="cap">À esquerda, a descrição clássica: posição e velocidade definidas. No centro e à direita, o hidrogênio no estado fundamental: a teoria fornece a <b>probabilidade</b> de detectar o elétron em cada região. O máximo da probabilidade radial coincide com o raio de Bohr (<m>a_0\approx0{,}053</m> nm), mas isso <b>não</b> significa órbita.</div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="h"><span class="n">2</span><b>Explicação</b><span class="sub">· interpretação probabilística</span></div>
+    <ul>
+      <li>O estado é descrito por uma <b>função de onda</b> ψ. A grandeza <m>|\psi|^2</m> dá a <b>densidade de probabilidade</b> de encontrar a partícula (Born, 1926).</li>
+      <li>Resultados <b>individuais</b> de medida são imprevisíveis; a <b>distribuição</b> de muitos resultados é prevista com precisão.</li>
+      <li>Antes da medição pode haver <b>superposição</b> de possibilidades; a medição fornece <b>um</b> resultado.</li>
+    </ul>
+    <div class="hist"><div class="bt">Interpretações — o que saber</div>
+      <ul style="margin:0">
+        <li><b>Copenhague (Bohr, Heisenberg):</b> a teoria dá probabilidades; a medição define o resultado.</li>
+        <li><b>Einstein</b> discordava do acaso fundamental (“Deus não joga dados”). <b>Gato de Schrödinger (1935):</b> crítica à superposição em escala macroscópica.</li>
+        <li>Experimentos com <b>fótons emaranhados</b> (Nobel de 2022) mostraram que “variáveis ocultas locais” não reproduzem os resultados.</li>
+      </ul></div>
+  </div>
+  <div style="width:90mm;flex:none">
+    <div class="h"><span class="n">3</span><b>Esquema</b><span class="sub">· Δx e Δp andam em sentidos opostos</span></div>
+    <div class="figwrap">{{fig:incerteza}}</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="h"><span class="n">4</span><b>Fórmula</b></div>
+    <div class="formula"><div class="fh">Princípio da Incerteza de Heisenberg (1927)</div><div class="fb">
+      <m class="d">\Delta x\cdot\Delta p_x\ \ge\ \dfrac{\hbar}{2}=\dfrac{h}{4\pi}</m>
+      <table>
+        <tr><td><m>\Delta x,\Delta p_x</m></td><td>indeterminações (dispersões) de posição (m) e de momento (kg·m/s) <b>no mesmo estado</b></td></tr>
+        <tr><td><m>\hbar</m></td><td><m>h/2\pi\approx1{,}05\times10^{-34}</m> J·s</td></tr>
+      </table>
+      <div class="valid"><b>Reconheça:</b> “não é possível conhecer ao mesmo tempo, com precisão arbitrária, posição e momento”. Use a forma dada no enunciado (<m>h/4\pi</m> ou <m>\hbar/2</m>).</div>
+    </div></div>
+  </div>
+  <div class="col">
+    <div class="ex"><div class="eh">Exemplo resolvido 4 <em>Incerteza</em></div><div class="eb">
+      <div class="ln"><b>Situação</b><span>Um elétron está confinado num átomo: <m>\Delta x\approx1{,}0\times10^{-10}</m> m. Qual a incerteza mínima da velocidade?</span></div>
+      <div class="ln"><b>Raciocínio</b><span>Limite mínimo: <m>\Delta p\ge\hbar/(2\Delta x)</m>; depois <m>\Delta v=\Delta p/m</m>, com <m>m_e=9{,}1\times10^{-31}</m> kg.</span></div>
+      <div class="ln"><b>Cálculo</b><span><m>\Delta p\ge\dfrac{1{,}05\times10^{-34}}{2\cdot1{,}0\times10^{-10}}\approx5\times10^{-25}\,\mathrm{kg\,m/s}</m><br><m>\Delta v=\dfrac{\Delta p}{m}\approx\dfrac{5\times10^{-25}}{9{,}1\times10^{-31}}\approx6\times10^{5}\,\mathrm{m/s}</m></span></div>
+      <div class="ln concl"><b>Conclusão</b><span>A incerteza em v é da ordem da própria velocidade do elétron no átomo (~10⁶ m/s): <b>não faz sentido</b> falar em órbita bem definida.</span></div>
+    </div></div>
+  </div>
+</div>
+
+<div class="g2">
+  <div class="alert"><div class="bt">Armadilhas</div>
+    <ul>
+      <li>A incerteza <b>não</b> é só defeito de instrumento: vale mesmo para medidas ideais, pela natureza ondulatória da matéria.</li>
+      <li>Não confundir probabilidade quântica com <b>ignorância</b> sobre uma trajetória que existiria.</li>
+      <li>Elétrons <b>não</b> orbitam como planetas; “órbita de Bohr” é um modelo.</li>
+    </ul></div>
+  <div class="prova" style="--accent:var(--purple)"><span class="bt">5 · Na prova</span><p style="margin-top:.8mm"><b>Item:</b> “A incerteza simultânea na posição e no momento de uma partícula pode ser reduzida a zero com instrumentos suficientemente precisos.” <b>ERRADO.</b></p><p style="margin-bottom:0"><b>Item:</b> “Segundo a Mecânica Quântica, o elétron no átomo de hidrogênio descreve órbitas circulares bem definidas ao redor do núcleo.” <b>ERRADO</b> (descrição probabilística).</p></div>
+</div>

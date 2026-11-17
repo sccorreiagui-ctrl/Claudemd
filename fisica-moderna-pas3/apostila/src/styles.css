@@ -1,0 +1,158 @@
+/* Apostila Estratégica de Física Moderna — PAS 3/UnB
+   Identidade visual: manual científico ilustrado. Cores semânticas (ver legenda na p. 1). */
+@page { size: A4; margin: 0; }
+:root {
+  --ink: #1B2430; --muted: #4A5568; --line: #D5DBE3; --soft: #F6F8FA;
+  --purple: #6B3FA0; --purple-d: #53307F; --purple-l: #F1EBF9;
+  --blue: #1769C9;   --blue-d: #0F52A0;   --blue-l: #E8F1FC;
+  --orange: #E07000; --orange-d: #A64E00; --orange-l: #FFF0DE;
+  --cyan: #0B8CA3;   --cyan-d: #086A7C;   --cyan-l: #E1F5F8;
+  --green: #2A8A4A;  --green-d: #1B6B37;  --green-l: #E5F5EA;
+  --red: #C62828;    --red-d: #A11F1F;    --red-l: #FDECEC;
+  --gray: #5B6573;   --gray-d: #3F4854;   --gray-l: #EEF0F3;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff; }
+body {
+  font-family: "Inter", "Liberation Sans", "DejaVu Sans", sans-serif;
+  color: var(--ink); font-size: 8.5pt; line-height: 1.36;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  font-feature-settings: "tnum" 0, "ss01" 0;
+}
+.a-gray   { --accent: var(--gray);   --accent-d: var(--gray-d);   --accent-l: var(--gray-l); }
+.a-purple { --accent: var(--purple); --accent-d: var(--purple-d); --accent-l: var(--purple-l); }
+.a-blue   { --accent: var(--blue);   --accent-d: var(--blue-d);   --accent-l: var(--blue-l); }
+.a-orange { --accent: var(--orange); --accent-d: var(--orange-d); --accent-l: var(--orange-l); }
+.a-cyan   { --accent: var(--cyan);   --accent-d: var(--cyan-d);   --accent-l: var(--cyan-l); }
+.a-green  { --accent: var(--green);  --accent-d: var(--green-d);  --accent-l: var(--green-l); }
+
+/* ---------- página ---------- */
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; background: #fff; break-after: page; page-break-after: always; }
+.page:last-child { break-after: auto; page-break-after: auto; }
+.hdr { position: absolute; top: 0; left: 0; right: 0; height: 12mm; padding: 0 12mm; display: flex; align-items: flex-end; justify-content: space-between; padding-bottom: 2mm; border-bottom: 0.6mm solid var(--accent); }
+.hdr .brand { font-size: 7pt; letter-spacing: .14em; font-weight: 700; color: var(--muted); text-transform: uppercase; }
+.hdr .brand i { font-style: normal; display: inline-block; background: var(--accent); color: #fff; padding: .4mm 1.6mm; border-radius: 1mm; margin-right: 2mm; letter-spacing: .08em; }
+.hdr .topic { font-size: 9.5pt; font-weight: 800; color: var(--accent-d); }
+.ftr { position: absolute; bottom: 0; left: 0; right: 0; height: 9.5mm; padding: 0 12mm; display: flex; align-items: center; justify-content: space-between; font-size: 6.8pt; color: var(--muted); border-top: 0.25mm solid var(--line); }
+.ftr b { color: var(--accent-d); }
+.content { position: absolute; top: 15.5mm; bottom: 12mm; left: 12mm; right: 12mm; display: flex; flex-direction: column; gap: 2.4mm; }
+.content.hero-page { top: 8mm; }
+.zin { display: flex; flex-direction: column; gap: 2.4mm; width: calc(100% / var(--z, 1)); transform: scale(var(--z, 1)); transform-origin: 0 0; }
+.zin > * { flex: none; }
+
+/* ---------- tipografia ---------- */
+p { margin: 0 0 1.2mm; }
+ul { margin: 0 0 1mm; padding-left: 3.6mm; }
+li { margin: 0 0 .7mm; }
+strong, b { font-weight: 700; }
+em { font-style: italic; }
+small, .sm { font-size: 7.3pt; color: var(--muted); }
+.mute { color: var(--muted); }
+sup, sub { font-size: 70%; line-height: 0; }
+m { display: inline; }
+.katex { font-size: 1.04em; }
+.katex-display { margin: .6mm 0 !important; }
+.c-purple { color: var(--purple-d); } .c-blue { color: var(--blue-d); } .c-orange { color: var(--orange-d); }
+.c-cyan { color: var(--cyan-d); } .c-green { color: var(--green-d); } .c-red { color: var(--red-d); } .c-gray { color: var(--gray-d); }
+
+/* título de bloco: 1 Fenômeno · 2 Explicação · 3 Esquema · 4 Fórmula · 5 Na prova */
+.h { display: flex; align-items: center; gap: 1.8mm; margin: 0 0 1.1mm; }
+.h .n { flex: none; width: 4.4mm; height: 4.4mm; border-radius: 50%; background: var(--accent); color: #fff; font-size: 7.2pt; font-weight: 800; display: grid; place-items: center; }
+.h b { font-size: 9.8pt; color: var(--accent-d); font-weight: 800; }
+.h span.sub { font-size: 7.4pt; color: var(--muted); }
+.title { font-size: 12.5pt; font-weight: 800; color: var(--accent-d); margin: 0 0 1mm; }
+
+/* ---------- layout ---------- */
+.row { display: flex; gap: 3.2mm; align-items: flex-start; }
+.row > * { min-width: 0; }
+.col { flex: 1 1 0; min-width: 0; }
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 3.2mm; align-items: start; }
+.g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; align-items: start; }
+.fig, svg.fig { display: block; max-width: 100%; height: auto; font-family: "Inter", "Liberation Sans", sans-serif; }
+.figwrap { display: block; line-height: 0; }
+.figwrap.c { text-align: center; }
+.cap { font-size: 7.2pt; color: var(--muted); line-height: 1.3; margin-top: .8mm; }
+
+/* ---------- caixas ---------- */
+.box { background: var(--accent-l); border-left: 1mm solid var(--accent); border-radius: 1.2mm; padding: 1.8mm 2.8mm; }
+.box > :last-child { margin-bottom: 0; }
+.box .bt { font-weight: 800; font-size: 7.6pt; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-d); margin-bottom: .6mm; }
+.alert { background: var(--red-l); border-left: 1mm solid var(--red); border-radius: 1.2mm; padding: 1.7mm 2.8mm; }
+.alert .bt { font-weight: 800; font-size: 7.6pt; letter-spacing: .06em; text-transform: uppercase; color: var(--red-d); margin-bottom: .5mm; display: flex; align-items: center; gap: 1.4mm; }
+.alert .bt::before { content: "!"; display: inline-grid; place-items: center; width: 3.6mm; height: 3.6mm; border-radius: 50%; background: var(--red); color: #fff; font-size: 7pt; font-weight: 800; }
+.alert ul { margin-bottom: 0; }
+.alert li { margin-bottom: .5mm; }
+.alert li::marker { color: var(--red); }
+.hist { background: var(--gray-l); border-left: 1mm solid var(--gray); border-radius: 1.2mm; padding: 1.7mm 2.8mm; }
+.hist .bt { font-weight: 800; font-size: 7.6pt; letter-spacing: .06em; text-transform: uppercase; color: var(--gray-d); margin-bottom: .5mm; }
+.hist > :last-child, .alert > :last-child { margin-bottom: 0; }
+.prova { border: 0.3mm dashed var(--accent); border-radius: 1.2mm; padding: 1.6mm 2.8mm; background: #fff; }
+.prova .bt { display: inline-block; background: var(--accent); color: #fff; font-weight: 800; font-size: 7pt; letter-spacing: .08em; padding: .3mm 1.8mm; border-radius: 1mm; margin-right: 1.8mm; text-transform: uppercase; }
+.prova > :last-child { margin-bottom: 0; }
+
+.formula { border: 0.35mm solid var(--accent); border-radius: 1.6mm; background: #fff; overflow: hidden; }
+.formula .fh { background: var(--accent); color: #fff; font-weight: 800; font-size: 7.6pt; letter-spacing: .08em; padding: .8mm 2.8mm; text-transform: uppercase; }
+.formula .fb { padding: 1.4mm 2.8mm; }
+.formula table { width: 100%; border-collapse: collapse; font-size: 7.6pt; }
+.formula td { padding: .25mm 0; vertical-align: top; }
+.formula td:first-child { width: 11mm; white-space: nowrap; color: var(--accent-d); font-weight: 600; }
+.formula .valid { margin-top: .8mm; font-size: 7.5pt; color: var(--muted); }
+.formula .valid b { color: var(--accent-d); }
+
+.ex { border: 0.35mm solid var(--line); border-radius: 1.6mm; overflow: hidden; background: #fff; }
+.ex .eh { background: var(--ink); color: #fff; font-weight: 800; font-size: 7.6pt; letter-spacing: .08em; padding: .8mm 2.8mm; text-transform: uppercase; display: flex; justify-content: space-between; }
+.ex .eh em { font-style: normal; font-weight: 500; letter-spacing: 0; text-transform: none; opacity: .85; }
+.ex .eb { padding: 1.5mm 2.8mm; }
+.ex .eb p { margin-bottom: .7mm; }
+.ex .eb .ln { display: flex; gap: 2mm; margin-bottom: .5mm; }
+.ex .eb .ln b { flex: none; width: 17mm; font-size: 6.9pt; color: var(--accent-d); font-size: 7.4pt; text-transform: uppercase; letter-spacing: .03em; }
+.ex .eb .ln > span { flex: 1; min-width: 0; }
+.ex .concl { margin-top: .8mm; padding-top: .8mm; border-top: 0.25mm dashed var(--line); }
+
+/* tabelas */
+table.t { width: 100%; border-collapse: collapse; font-size: 7.6pt; }
+table.t th { background: var(--accent); color: #fff; font-weight: 700; text-align: left; padding: .9mm 1.8mm; font-size: 7.4pt; }
+table.t td { padding: .9mm 1.8mm; border-bottom: 0.25mm solid var(--line); vertical-align: top; }
+table.t tr:nth-child(even) td { background: var(--soft); }
+table.t td:first-child { font-weight: 700; color: var(--accent-d); }
+
+/* chips */
+.chip { display: inline-block; padding: .3mm 2mm; border-radius: 10mm; font-size: 7.2pt; font-weight: 700; color: #fff; margin-right: 1mm; white-space: nowrap; }
+.chip.purple { background: var(--purple); } .chip.blue { background: var(--blue); } .chip.orange { background: var(--orange-d); }
+.chip.cyan { background: var(--cyan-d); } .chip.green { background: var(--green-d); } .chip.red { background: var(--red); } .chip.gray { background: var(--gray); }
+.dot { display: inline-block; width: 2.4mm; height: 2.4mm; border-radius: 50%; margin-right: 1mm; vertical-align: -.2mm; }
+.dot.purple { background: var(--purple); } .dot.cyan { background: var(--cyan); } .dot.green { background: var(--green); } .dot.orange { background: var(--orange); } .dot.blue { background: var(--blue); }
+
+/* ---------- capa integrada (p. 1) ---------- */
+.hero { position: relative; border-radius: 2mm; padding: 5mm 6mm 4mm 6mm; background: linear-gradient(180deg, #FFFFFF 0%, #F4F6FA 100%); border: 0.3mm solid var(--line); overflow: hidden; }
+.hero .stripe { position: absolute; left: 0; right: 0; top: 0; height: 2.4mm; display: flex; }
+.hero .stripe i { flex: 1; }
+.hero .kick { font-size: 7.6pt; letter-spacing: .16em; font-weight: 700; color: var(--muted); text-transform: uppercase; margin-top: 1.5mm; }
+.hero h1 { font-size: 30pt; line-height: 1.02; margin: 1mm 0 .8mm; font-weight: 800; letter-spacing: -.01em; }
+.hero h1 span { background: linear-gradient(90deg, var(--purple), var(--blue) 40%, var(--cyan) 65%, var(--green)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero .sub { font-size: 10.5pt; color: var(--muted); font-weight: 500; margin-bottom: 2.2mm; }
+.hero .stats { position: absolute; right: 6mm; top: 8mm; text-align: right; font-size: 7.4pt; color: var(--muted); line-height: 1.5; }
+.hero .stats b { display: block; font-size: 15pt; color: var(--ink); line-height: 1.1; }
+.hero svg.wave { position: absolute; right: 0; bottom: 0; opacity: .9; }
+.steps { display: flex; gap: 1.2mm; align-items: stretch; }
+.steps > div { flex: 1; border: 0.3mm solid var(--line); border-radius: 1.4mm; padding: 1.2mm 1.8mm; font-size: 7.3pt; background: #fff; position: relative; }
+.steps > div b { display: block; font-size: 8pt; color: var(--ink); }
+.steps > div .n { display: inline-grid; place-items: center; width: 4mm; height: 4mm; border-radius: 50%; background: var(--gray); color: #fff; font-size: 7pt; font-weight: 800; margin-right: 1.2mm; }
+.legend { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1mm 2.4mm; font-size: 7.3pt; }
+.legend div { display: flex; align-items: center; gap: 1.4mm; }
+.legend i { flex: none; width: 3.6mm; height: 3.6mm; border-radius: 1mm; }
+
+/* ---------- barra do espectro EM ---------- */
+.em { display: flex; border-radius: 1.2mm; overflow: hidden; border: 0.3mm solid var(--line); font-size: 7pt; font-weight: 700; text-align: center; }
+.em div { flex: 1; padding: 1mm .4mm; color: #fff; }
+.em .v { background: linear-gradient(90deg, #7A2DFF, #1E6BFF, #12C4E0, #26C24A, #E6D800, #FF8C00, #E02020); color: #1B2430; text-shadow: 0 0 2px #fff; }
+
+/* ---------- itens C/E ---------- */
+ol.ce { margin: 0; padding: 0; list-style: none; counter-reset: it; }
+ol.ce li { counter-increment: it; position: relative; padding: .8mm 0 .8mm 6mm; border-bottom: 0.25mm solid var(--line); margin: 0; font-size: 7.5pt; line-height: 1.3; }
+ol.ce li::before { content: counter(it); position: absolute; left: 0; top: .8mm; width: 4.2mm; height: 4.2mm; border-radius: 50%; background: var(--ink); color: #fff; font-size: 7pt; font-weight: 800; display: grid; place-items: center; }
+ol.ce .g { display: block; margin-top: .3mm; font-size: 7.1pt; color: var(--muted); }
+ol.ce .g b.c, ol.ce .g b.e { display: inline-block; min-width: 4.4mm; text-align: center; padding: 0 1mm; border-radius: .8mm; color: #fff; margin-right: 1mm; font-size: 7pt; }
+ol.ce .g b.c { background: var(--green-d); } ol.ce .g b.e { background: var(--red); }
+
+.sp { flex: 1; }

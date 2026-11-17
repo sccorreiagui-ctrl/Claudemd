@@ -1,0 +1,56 @@
+<!--accent=orange|topic=Meia-vida e energia nuclear-->
+<div class="row">
+  <div style="width:91.3mm;flex:none">
+    <div class="h"><span class="n">3</span><b>Esquema</b><span class="sub">· decaimento exponencial</span></div>
+    <div class="figwrap">{{fig:meiavida}}</div>
+  </div>
+  <div class="col">
+    <div class="h"><span class="n">1</span><b>Fenômeno</b></div>
+    <p>O decaimento é <b>estatístico</b>: não se sabe <b>qual</b> núcleo decairá em dado instante, mas, em um grande número deles, a fração que decai por unidade de tempo é fixa.</p>
+    <div class="h"><span class="n">2</span><b>Explicação</b></div>
+    <p><b>Meia-vida</b> (<m>T_{1/2}</m>) é o tempo para que <b>metade</b> dos núcleos radioativos de uma amostra decaia. Após <i>n</i> meias-vidas restam <m>(1/2)^n</m> dos núcleos: 100% → 50% → 25% → 12,5%. Ela <b>não depende</b> da quantidade inicial nem de temperatura, pressão ou ligações químicas.</p>
+    <div class="formula" style="--accent:var(--orange)"><div class="fh">Lei do decaimento</div><div class="fb">
+      <m class="d">N(t)=N_0\left(\dfrac12\right)^{t/T_{1/2}}</m>
+      <table>
+        <tr><td><m>N_0,\,N</m></td><td>núcleos (ou massa, ou atividade) inicial e restante</td></tr>
+        <tr><td><m>t,\ T_{1/2}</m></td><td>tempo decorrido e meia-vida — <b>na mesma unidade</b></td></tr>
+      </table>
+    </div></div>
+  </div>
+</div>
+
+<div class="g2">
+  <div class="ex" style="--accent:var(--orange)"><div class="eh">Exemplo resolvido 8 <em>Meia-vida</em></div><div class="eb">
+    <div class="ln"><b>Situação</b><span>Uma amostra de <m>{}^{131}\mathrm{I}</m> (<m>T_{1/2}\approx8</m> dias) tem 80 mg. Quanto resta após 24 dias?</span></div>
+    <div class="ln"><b>Raciocínio</b><span>Número de meias-vidas: <m>n=t/T_{1/2}=24/8=3</m>.</span></div>
+    <div class="ln"><b>Cálculo</b><span><m>m=80\cdot\left(\tfrac12\right)^3=80/8=10\ \mathrm{mg}</m> (80 → 40 → 20 → 10).</span></div>
+    <div class="ln concl"><b>Conclusão</b><span>Restam <b>10 mg</b> (12,5%) de ¹³¹I; os outros 70 mg viraram outro elemento, não “sumiram”.</span></div>
+  </div></div>
+  <div class="alert"><div class="bt">Armadilhas</div>
+    <ul>
+      <li>Meia-vida <b>não</b> é “metade do tempo até zerar”: após 2 meias-vidas restam 25%, <b>não</b> zero.</li>
+      <li>Cuidado com <b>unidades</b>: dias, anos e horas não se misturam.</li>
+      <li>O decaimento <b>não</b> acelera com calor ou pressão.</li>
+      <li>A <b>massa</b> de núcleos radioativos cai; a massa <b>total</b> da amostra não some (viram os produtos).</li>
+    </ul></div>
+</div>
+
+<div class="row">
+  <div style="width:91.3mm;flex:none">
+    <div class="h"><span class="n">3</span><b>Esquema</b><span class="sub">· por que fissão e fusão liberam energia</span></div>
+    <div class="figwrap">{{fig:ligacao}}</div>
+  </div>
+  <div class="col">
+    <div class="h"><span class="n">2</span><b>Fissão e fusão</b><span class="sub">· energia pelo defeito de massa (<m>E=\Delta m\,c^2</m>)</span></div>
+    <p>Núcleos próximos do <b>ferro</b> são os mais fortemente ligados (por núcleon). Ir <b>em direção a ele</b> libera energia: dividindo núcleos muito pesados (<b>fissão</b>) ou unindo núcleos muito leves (<b>fusão</b>).</p>
+    <div class="box" style="--accent:var(--orange);--accent-l:var(--orange-l);--accent-d:var(--orange-d)"><div class="bt">Defeito de massa na prática</div>Na fusão de 4 núcleos de H em 1 de He, a massa final é ≈ <b>0,7% menor</b>; essa diferença, pela relação <m>E=\Delta m\,c^2</m>, é a energia que o Sol irradia. Nos reatores, parte da massa dos fragmentos “falta” em relação ao núcleo original de urânio.</div>
+    <div class="alert" style="margin-top:2mm"><div class="bt">Armadilha</div>Fissão e fusão <b>não</b> liberam energia “em qualquer elemento”: o saldo depende de se aproximar do máximo de ligação (região do ferro).</div>
+  </div>
+</div>
+<table class="t">
+  <tr><th style="width:14%"></th><th style="width:43%">Fissão</th><th>Fusão</th></tr>
+  <tr><td>O que é</td><td>núcleo pesado (ex.: ²³⁵U), atingido por um nêutron, divide-se em dois fragmentos e libera 2–3 nêutrons e ≈ 200 MeV</td><td>núcleos leves (ex.: isótopos de H) se unem formando um núcleo maior (He) e liberando energia</td></tr>
+  <tr><td>Onde</td><td><b>Reatores</b> e armas. No Brasil, as usinas <b>Angra 1 e Angra 2</b> usam fissão. Reação em cadeia <b>controlada</b> no reator</td><td><b>Sol e estrelas</b> (≈ 10⁷ K). Em laboratório, ainda <b>experimental</b> como fonte de energia</td></tr>
+  <tr><td>Atenção</td><td>produz <b>rejeitos radioativos</b> que exigem armazenamento seguro</td><td>exige temperatura altíssima para vencer a repulsão elétrica entre núcleos</td></tr>
+</table>
+<div class="prova" style="--accent:var(--orange)"><span class="bt">5 · Na prova</span><b>Item:</b> “Em uma usina nuclear, a energia elétrica é obtida a partir da fissão de núcleos pesados, que liberam energia devido ao defeito de massa.” <b>CERTO.</b> &nbsp; <b>Item:</b> “Uma amostra radioativa de meia-vida de 10 anos desaparece completamente em 20 anos.” <b>ERRADO</b> (restam 25%).</div>

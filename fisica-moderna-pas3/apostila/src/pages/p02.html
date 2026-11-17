@@ -1,0 +1,61 @@
+<!--accent=blue|topic=Planck, fótons e corpo negro-->
+<div class="row">
+  <div style="width:91.3mm; flex:none">
+    <div class="h"><span class="n">1</span><b>Fenômeno</b><span class="sub">· todo corpo aquecido emite luz</span></div>
+    <p>Ferro em brasa fica vermelho; mais quente, amarelado e depois branco-azulado. A cor muda porque o <b>espectro</b> da radiação térmica (corpo negro) depende da temperatura.</p>
+    <div class="figwrap">{{fig:corponegro}}</div>
+    <div class="cap">Curvas calculadas pela lei de Planck. Em tracejado vermelho, a previsão clássica (Rayleigh–Jeans), que <b>diverge para λ pequeno</b> — erro da Física Clássica.</div>
+  </div>
+  <div class="col">
+    <div class="h"><span class="n">2</span><b>Explicação</b><span class="sub">· por que Planck “quantizou”</span></div>
+    <ul>
+      <li><b class="c-red">Clássico:</b> a energia seria trocada de forma contínua e a intensidade cresceria sem limite no ultravioleta (λ → 0). Isso <b>não</b> é observado.</li>
+      <li><b class="c-purple">Planck (1900):</b> os osciladores da matéria só trocam energia em pacotes <m>E=nhf</m> (<i>n</i> = 1, 2, 3…). Para f alta o pacote é grande, poucos osciladores o “pagam” e a intensidade <b>cai</b> → surge o pico.</li>
+      <li><b class="c-blue">Einstein (1905):</b> a própria luz é formada por pacotes de energia: os <b>fótons</b>.</li>
+    </ul>
+    <div class="box" style="--accent:var(--purple);--accent-l:var(--purple-l);--accent-d:var(--purple-d)"><div class="bt">Como ler a figura</div>
+      <ul style="margin:0">
+        <li>T maior ⇒ <b>pico em λ menor</b> (cor “mais azulada”).</li>
+        <li>T maior ⇒ curva <b>mais alta</b> em todos os λ (emite mais).</li>
+        <li>Só na região de λ grande a previsão clássica se aproxima da curva real.</li>
+      </ul></div>
+    <div class="alert" style="margin-top:2.2mm"><div class="bt">Armadilhas</div>
+      <ul>
+        <li>A divergência clássica ocorre para <b>λ pequeno</b>, não para λ grande.</li>
+        <li>Planck quantizou a <b>troca de energia</b> dos osciladores; o <b>fóton</b> é ideia de Einstein.</li>
+        <li>Aumentar T desloca o pico para <b>λ menor</b> (e f maior).</li>
+      </ul></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="h"><span class="n">4</span><b>Fórmula</b><span class="sub">· energia de um fóton</span></div>
+    <div class="formula"><div class="fh">Energia do fóton</div><div class="fb">
+      <m class="d">E = hf = \dfrac{hc}{\lambda}</m>
+      <table>
+        <tr><td><m>E</m></td><td>energia de <b>um</b> fóton — joule (J) ou elétron-volt (eV)</td></tr>
+        <tr><td><m>f</m></td><td>frequência — hertz (Hz)</td></tr>
+        <tr><td><m>\lambda</m></td><td>comprimento de onda — m ou nm (<m>c=\lambda f</m>)</td></tr>
+        <tr><td><m>h</m></td><td>constante de Planck: <m>6{,}63\times10^{-34}\,\mathrm{J\cdot s}</m> = <m>4{,}14\times10^{-15}\,\mathrm{eV\cdot s}</m></td></tr>
+      </table>
+      <div class="valid"><b>Atalho:</b> <m>hc\approx1240\ \mathrm{eV\cdot nm}</m> ⇒ <m>E(\mathrm{eV})=1240/\lambda(\mathrm{nm})</m>. <b>Reconheça:</b> “energia de um fóton”, cor, λ ou f dados. <b>Válido</b> para qualquer radiação eletromagnética (no vácuo, <m>c\approx3\times10^8</m> m/s).</div>
+    </div></div>
+  </div>
+  <div class="col">
+    <div class="ex"><div class="eh">Exemplo resolvido 1 <em>Energia de um fóton</em></div><div class="eb">
+      <div class="ln"><b>Situação</b><span>Luz verde de <m>\lambda=500</m> nm incide em um sensor. Qual é a energia de cada fóton?</span></div>
+      <div class="ln"><b>Raciocínio</b><span>Energia ↔ frequência: <m>f=c/\lambda</m> e <m>E=hf</m>.</span></div>
+      <div class="ln"><b>Cálculo</b><span><m>f=\dfrac{3\times10^8}{500\times10^{-9}}=6{,}0\times10^{14}\,\mathrm{Hz}</m><br><m>E=6{,}63\times10^{-34}\cdot6{,}0\times10^{14}\approx4{,}0\times10^{-19}\,\mathrm{J}\approx2{,}5\,\mathrm{eV}</m></span></div>
+      <div class="ln concl"><b>Conclusão</b><span>Confere com o atalho: <m>1240/500\approx2{,}5</m> eV. Fóton violeta (λ menor) teria energia <b>maior</b>.</span></div>
+    </div></div>
+  </div>
+</div>
+
+<div>
+  <div class="h"><span class="n">3</span><b>Esquema</b><span class="sub">· espectro eletromagnético: do menor ao maior E por fóton</span></div>
+  <div class="em"><div style="background:#5B6573">ondas de rádio</div><div style="background:#7A5C2E">micro-ondas</div><div style="background:#B33A3A">infraverm.</div><div class="v">visível</div><div style="background:#6B3FA0">ultravioleta</div><div style="background:#3F2B7A">raios X</div><div style="background:#1B2430">raios γ</div></div>
+  <div style="display:flex;justify-content:space-between;font-size:7.4pt;color:var(--muted);margin-top:.6mm"><span>← maior λ · menor f · menor E (fóton)</span><span>menor λ · maior f · maior E (fóton) →</span></div>
+</div>
+
+<div class="prova" style="--accent:var(--blue)"><span class="bt">5 · Na prova</span>Itens do tipo “certo ou errado” costumam comparar <b>cores</b> ou <b>faixas do espectro</b>: o fóton de luz violeta tem <b>mais energia</b> que o de luz vermelha; um fóton de raios X tem mais energia que um de rádio. A energia depende da <b>frequência</b> (<m>E=hf</m>), não do brilho da luz. Questões podem pedir também interpretação do <b>gráfico do corpo negro</b> (qual curva é de maior T, onde está o pico).</div>
