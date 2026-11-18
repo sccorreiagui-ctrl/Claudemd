@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 262" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="250" y="4" width="180" height="24" rx="6" fill="#E9EFF7" stroke="#0E2A47" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="340" y="20" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="800" fill="#0E2A47" text-anchor="middle">O que a questão pede?</text>
+<line x1="340" y1="28" x2="340" y2="36" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110" y1="36" x2="340" y2="36" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110" y1="36" x2="110" y2="40" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="4" y="40" width="212" height="24" rx="6" fill="#E8F0FD" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="110" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="800" fill="#1B4DA6" text-anchor="middle">CAMPO B (fontes)</text>
+<line x1="14" y1="64" x2="14" y2="230" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="14" y1="86" x2="24" y2="86" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="72" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">sentido de B (corrente → campo)</text>
+<text x="32" y="97" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">1ª regra da mão direita</text>
+<line x1="14" y1="124" x2="24" y2="124" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="110" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="122" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">B de 1 fio longo</text>
+<text x="32" y="135" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">B = μ<tspan dy="2.29" font-size="6.34" >0</tspan><tspan dy="-2.29">I/(2πr)</tspan></text>
+<line x1="14" y1="162" x2="24" y2="162" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="148" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">B no centro de espira / bobina</text>
+<text x="32" y="173" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">B = Nμ<tspan dy="2.29" font-size="6.34" >0</tspan><tspan dy="-2.29">I/(2R)</tspan></text>
+<line x1="14" y1="200" x2="24" y2="200" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="186" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="198" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">B no interior de solenoide</text>
+<text x="32" y="211" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">B = μ<tspan dy="2.29" font-size="6.34" >0</tspan><tspan dy="-2.29">nI,  n = N/L</tspan></text>
+<line x1="14" y1="238" x2="24" y2="238" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="24" y="224" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="236" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">vários fios; simetria</text>
+<text x="32" y="249" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">soma VETORIAL; Ampère</text>
+<line x1="340" y1="28" x2="340" y2="36" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="338" y1="36" x2="340" y2="36" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="338" y1="36" x2="338" y2="40" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="232" y="40" width="212" height="24" rx="6" fill="#E5F5EB" stroke="#1B8F4B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="338" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="800" fill="#14703A" text-anchor="middle">FORÇA MAGNÉTICA</text>
+<line x1="242" y1="64" x2="242" y2="230" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="242" y1="86" x2="252" y2="86" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="252" y="72" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">força sobre carga</text>
+<text x="260" y="97" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">F = q v × B;  |q|vB sen θ</text>
+<line x1="242" y1="124" x2="252" y2="124" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="252" y="110" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="122" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">trajetória circular ou hélice</text>
+<text x="260" y="135" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">r = m v<tspan dy="2.29" font-size="6.34" >⟂</tspan><tspan dy="-2.29">/(|q|B);  p = v</tspan><tspan dy="2.29" font-size="6.34" >∥</tspan><tspan dy="-2.29">T</tspan></text>
+<line x1="242" y1="162" x2="252" y2="162" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="252" y="148" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">força sobre fio / torque</text>
+<text x="260" y="173" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">F = BIL sen θ;  τ = NBIA sen φ</text>
+<line x1="242" y1="200" x2="252" y2="200" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="252" y="186" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="198" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">força entre fios paralelos</text>
+<text x="260" y="211" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">B de um fio → força no outro</text>
+<line x1="242" y1="238" x2="252" y2="238" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="252" y="224" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="236" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">(todas) sentido da força</text>
+<text x="260" y="249" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">v × B ou tapa; q &lt; 0 inverte</text>
+<line x1="340" y1="28" x2="340" y2="36" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="566" y1="36" x2="340" y2="36" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="566" y1="36" x2="566" y2="40" fill="none" stroke="#5C6573" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="460" y="40" width="212" height="24" rx="6" fill="#F1EAFB" stroke="#7E3FC4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="566" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="800" fill="#672DAE" text-anchor="middle">INDUÇÃO E DISPOSITIVOS</text>
+<line x1="470" y1="64" x2="470" y2="230" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="470" y1="86" x2="480" y2="86" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="480" y="72" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">fluxo</text>
+<text x="488" y="97" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">Φ = BA cos θ (θ com a NORMAL)</text>
+<line x1="470" y1="124" x2="480" y2="124" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="480" y="110" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488" y="122" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">FEM induzida / corrente</text>
+<text x="488" y="135" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">ε = −NΔΦ/Δt;  I = |ε|/R</text>
+<line x1="470" y1="162" x2="480" y2="162" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="480" y="148" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">sentido da corrente</text>
+<text x="488" y="173" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">Lenz: oposição à VARIAÇÃO</text>
+<line x1="470" y1="200" x2="480" y2="200" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="480" y="186" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488" y="198" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">haste em trilhos</text>
+<text x="488" y="211" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">confira a geometria; ε = BLv</text>
+<line x1="470" y1="238" x2="480" y2="238" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="480" y="224" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488" y="236" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">gerador · transformador</text>
+<text x="488" y="249" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">ε<tspan dy="2.29" font-size="6.34" >máx</tspan><tspan dy="-2.29"> = NBAω;  U</tspan><tspan dy="2.29" font-size="6.34" >p</tspan><tspan dy="-2.29">/U</tspan><tspan dy="2.29" font-size="6.34" >s</tspan><tspan dy="-2.29"> = N</tspan><tspan dy="2.29" font-size="6.34" >p</tspan><tspan dy="-2.29">/N</tspan><tspan dy="2.29" font-size="6.34" >s</tspan><tspan dy="-2.29"> </tspan></text></svg>

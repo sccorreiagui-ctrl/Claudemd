@@ -1,10 +1,10 @@
 <div class="row c2 g5">
   <div>
     <p><span class="tag">Intuição</span>A <b>circulação</b> de $\vB$ mede o quanto o campo “gira” ao longo de um caminho fechado. O resultado surpreendente: ela depende só da corrente que <em>atravessa</em> o caminho — não do formato dele.</p>
-    <x-fc t="Lei de Ampère (magnetostática)" s="correntes estacionárias" eq="\oint_C \vB\cdot\dd\vec{\ell}=\mu_0\,I_{\text{env}}">
-      <p data-k="Variáveis">$C$ = caminho fechado e <b>orientado</b> (escolhido por você); $\dd\vec\ell$ = elemento do caminho; $I_{\text{env}}$ = soma <b>algébrica</b> das correntes que atravessam qualquer superfície limitada por $C$.</p>
-      <p data-k="Sinal">Dedos da mão direita no sentido do percurso: corrente no sentido do polegar conta $(+)$; no oposto, $(-)$. Em desenhos de corte: $\odot$ $(+)$ e $\otimes$ $(-)$ para percurso anti-horário.</p>
-      <p data-k="Condições">Vale para qualquer distribuição de correntes <em>estacionárias</em> e qualquer $C$. Mas só <b>calcula</b> $B$ facilmente se a simetria deixa tirar $B$ da integral (fio longo, solenoide longo, toroide). Para campos elétricos variáveis, Maxwell acrescentou um termo (p. 26).</p>
+    <x-fc t="Lei de Ampère" s="correntes estacionárias" eq="\oint_C \vB\cdot\dd\vec{\ell}=\mu_0\,I_{\text{env}}">
+      <p data-k="Variáveis">$C$ = caminho fechado e <b>orientado</b>; $\dd\vec\ell$ = elemento do caminho; $I_{\text{env}}$ = soma <b>algébrica</b> das correntes que atravessam a superfície limitada por $C$.</p>
+      <p data-k="Sinal">Dedos no sentido do percurso: corrente no sentido do polegar conta $(+)$; no oposto, $(-)$. Em cortes, percurso anti-horário: $\odot$ $(+)$, $\otimes$ $(-)$.</p>
+      <p data-k="Condições">Vale para correntes <em>estacionárias</em> e qualquer $C$; só <b>calcula</b> $B$ com facilidade se a simetria deixa tirar $B$ da integral. Com $\vE$ variável, Maxwell acrescentou um termo (p. 26).</p>
     </x-fc>
     <p class="mb1"><span class="tag">Explicação</span>Três ideias para não errar:</p>
     <ul class="small">
@@ -29,8 +29,7 @@
       <ul class="small mb0">
         <li>Contar em $I_{env}$ um fio que está fora de $C$.</li>
         <li>Esquecer o sinal: correntes opostas dentro de $C$ se subtraem.</li>
-        <li>Concluir $\vB=0$ de $\oint\vB\cdot\dd\vec\ell=0$.</li>
-        <li>Achar que a lei só vale para caminhos simétricos (a <em>lei</em> vale sempre; a <em>facilidade</em> depende da simetria).</li>
+        <li>Concluir $\vB=0$ de $\oint\vB\cdot\dd\vec\ell=0$ ou achar que a lei só vale com simetria (a <em>facilidade</em> é que depende dela).</li>
       </ul>
     </x-box>
   </div>
@@ -48,7 +47,7 @@
   </div>
 </div>
 
-<x-box t="Quando a lei de Ampère calcula $B$ diretamente?">
+<x-box t="Quando a lei de Ampère dá o campo diretamente?">
   <div class="row c3 g3 mb0">
     <div class="small"><b>Sim — há simetria:</b> fio longo (círculos), cilindro condutor, plano infinito, solenoide e toroide ideais.</div>
     <div class="small"><b>Não diretamente:</b> espira circular fora do centro, fio curto, ímã real. Use fórmulas prontas ou Biot–Savart.</div>

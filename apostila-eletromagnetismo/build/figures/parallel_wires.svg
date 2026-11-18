@@ -12,10 +12,10 @@
 <circle cx="140" cy="132" r="6.2" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="137.02" y1="129.02" x2="142.98" y2="134.98" fill="none" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="137.02" y1="134.98" x2="142.98" y2="129.02" fill="none" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="158.61" y="60" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">1</tspan></text>
-<path d="M159.43 49.77 L165.11 49.77 M162.91 48.45 L165.11 49.77 L162.91 51.09" fill="none" stroke="#1B4DA6" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="152" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">campo do</text>
-<text x="152" y="81" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">fio 1</text>
+<text x="152.61" y="60" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">1</tspan></text>
+<path d="M153.43 49.77 L159.11 49.77 M156.91 48.45 L159.11 49.77 L156.91 51.09" fill="none" stroke="#1B4DA6" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="149" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">campo do</text>
+<text x="149" y="81" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">fio 1</text>
 <line x1="52" y1="120" x2="74.98" y2="120" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M82 120 L73 123.78 L74.98 120 L73 116.22 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="122" y1="120" x2="99.02" y2="120" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
@@ -44,10 +44,10 @@
 <circle cx="308" cy="132" r="6.2" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="305.02" y1="129.02" x2="310.98" y2="134.98" fill="none" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="305.02" y1="134.98" x2="310.98" y2="129.02" fill="none" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="326.61" y="60" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">1</tspan></text>
-<path d="M327.43 49.77 L333.11 49.77 M330.91 48.45 L333.11 49.77 L330.91 51.09" fill="none" stroke="#1B4DA6" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="320" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">campo do</text>
-<text x="320" y="81" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">fio 1</text>
+<text x="320.61" y="60" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">1</tspan></text>
+<path d="M321.43 49.77 L327.11 49.77 M324.91 48.45 L327.11 49.77 L324.91 51.09" fill="none" stroke="#1B4DA6" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="317" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">campo do</text>
+<text x="317" y="81" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.4" font-weight="400" fill="#1B4DA6" text-anchor="middle">fio 1</text>
 <line x1="220" y1="120" x2="197.02" y2="120" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M190 120 L199 116.22 L197.02 120 L199 123.78 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="290" y1="120" x2="312.98" y2="120" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>

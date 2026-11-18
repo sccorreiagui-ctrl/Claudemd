@@ -162,6 +162,7 @@ figure.fig.frame .svgw{ border:.25mm solid var(--rule2); border-radius:1mm; back
 .fc .fc-h span:last-child{ font-weight:600; opacity:.85; letter-spacing:.05em; }
 .fc .eq{ padding:1.2mm 2mm .6mm; text-align:center; font-size:1.18em; }
 .fc .eq .katex-display{ margin:0; }
+.fc .eq .katex-display + .katex-display{ margin-top:1.8mm; }
 .fc dl{ margin:0; padding:.3mm 2.2mm 1.5mm; display:grid; grid-template-columns:14.2mm 1fr; gap:.45mm 1.8mm; font:400 7.9pt/1.27 var(--serif); }
 .fc dt{ font:700 5.9pt/1.7 var(--sans); letter-spacing:.07em; text-transform:uppercase; color:var(--navy2); }
 .fc dd{ margin:0; }

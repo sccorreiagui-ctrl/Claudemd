@@ -1,0 +1,59 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Dois enrolamentos no mesmo núcleo de ferro: a corrente alternada do <b>primário</b> cria um fluxo que varia; o núcleo o conduz até o <b>secundário</b>, onde ele induz uma tensão alternada. É a lei de Faraday em ação, sem partes móveis.</p>
+    <p><span class="tag">Fenômeno</span>O mesmo fluxo $\Phi(t)$ atravessa as $N_p$ espiras do primário e as $N_s$ do secundário; em cada um, $|\varepsilon|=N\,|\dd\Phi/\dd t|$. Logo $U_p/U_s=N_p/N_s$. No transformador <b>ideal</b>, $P_p=P_s$: se a tensão sobe, a corrente cai na mesma proporção (<x-ref f="transformer"></x-ref>).</p>
+    <x-fc t="Transformador ideal" s="valores eficazes" eq="\dfrac{U_p}{U_s}=\dfrac{N_p}{N_s} ;; P_p=P_s\;\Rightarrow\;U_pI_p=U_sI_s\qquad \dfrac{I_p}{I_s}=\dfrac{N_s}{N_p}">
+      <p data-k="Variáveis">$U$ em V (eficaz); $N$ = nº de espiras; $I$ em A (eficaz); $p$ = primário; $s$ = secundário.</p>
+      <p data-k="Condições">Ideal: sem perdas (resistência dos fios, histerese, correntes parasitas, fluxo disperso) e acoplamento total; <b>fluxo variável</b> (CA ou pulsos). Em transformadores reais de potência, o rendimento passa de $95\%$.</p>
+      <p data-k="Quando usar">“Relação de espiras”, “elevador/abaixador”, “corrente no primário”, “potência fornecida”.</p>
+    </x-fc>
+  </div>
+  <div>
+    <h2>Elevador × abaixador</h2>
+    <table class="tbl fs76">
+      <tr><th style="width:26%"> </th><th>Elevador</th><th>Abaixador</th></tr>
+      <tr><td class="k">Espiras</td><td>$N_s>N_p$</td><td>$N_s<N_p$</td></tr>
+      <tr><td class="k">Tensão</td><td>$U_s>U_p$ (sobe)</td><td>$U_s<U_p$ (desce)</td></tr>
+      <tr><td class="k">Corrente</td><td>$I_s<I_p$ (cai)</td><td>$I_s>I_p$ (sobe)</td></tr>
+      <tr><td class="k">Potência</td><td colspan="2" class="c">$P_s=P_p$ (nunca aumenta)</td></tr>
+    </table>
+    <x-box k="warn" t="Corrente contínua: não funciona">
+      <p class="small mb0">Com bateria ($\text{CC}$ estacionária), $\Delta\Phi=0$: não há tensão sustentada no secundário — só um pulso <em>transitório</em> ao ligar ou desligar. Por isso a rede usa <b>CA</b>.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-fig name="transformer"><cap>Transformador elevador (esquerda) e abaixador (direita): primário à esquerda, secundário à direita, ligados pelo fluxo alternado no núcleo.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="21" l="1" t="Transformador abaixador">
+      <p data-k="Situação">Um transformador ideal tem $N_p=1000$ e $N_s=200$ espiras. O primário é ligado a $U_p=220\un{V}$ (CA) e o secundário alimenta uma carga de $11\,\Omega$. Calcule $U_s$, $I_s$ e $I_p$ e verifique a potência.</p>
+      <p data-k="Esquema"><x-ref f="transformer"></x-ref>, painel da direita (abaixador).</p>
+      <p data-k="Dados">$N_p=1000$; $N_s=200$; $U_p=220\un{V}$; $R=11\,\Omega$.</p>
+      <p data-k="Fenômeno">Indução mútua entre enrolamentos (fluxo variável).</p>
+      <p data-k="Método">$U_s=U_pN_s/N_p$; $I_s=U_s/R$; $I_p=I_sN_s/N_p$; $P=UI$.</p>
+      <p data-k="Cálculo">$U_s=220\cdot\dfrac{200}{1000}$; $I_s=\dfrac{44}{11}$; $I_p=4,0\cdot\dfrac{200}{1000}$</p>
+      <p data-k="Resultado">$U_s=44\un{V}$; $I_s=4,0\un{A}$; $I_p=0,80\un{A}$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>$P_s=44\cdot4,0=176\un{W}$ e $P_p=220\cdot0,80=176\un{W}$ ✓ (potência conservada). A tensão caiu $5\times$ e a corrente subiu $5\times$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Achar que o transformador <b>cria energia</b>: eleva a tensão, mas a corrente cai.</li>
+        <li>Inverter a razão: a razão de <em>correntes</em> é <b>inversa</b> à das espiras.</li>
+        <li>Usar em corrente contínua constante.</li>
+        <li>Misturar valores de pico e eficazes.</li>
+      </ul>
+    </x-box>
+    <x-box k="mem" t="Memorize">
+      <p class="small mb0">$U\propto N$ (mesmo sentido); $I\propto1/N$ (sentido contrário); $UI$ constante. Núcleo <b>laminado</b> de ferro: reduz as correntes parasitas.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="25" l="1">Um transformador ideal, com primário de $2000$ espiras ligado a $120\un{V}$, fornece $12\un{V}$ no secundário. (a) Quantas espiras tem o secundário? (b) Com carga de $6,0\,\Omega$, quais as correntes no secundário e no primário? <b>(Certo/Errado)</b> (c) Ligado a uma bateria de $12\un{V}$, produz tensão contínua no secundário. (d) Pode fornecer mais potência do que recebe.</x-exe>
+  <x-ans>E25 (a) $N_s=2000\cdot12/120=200$; (b) $I_s=12/6,0=2,0\un{A}$; $I_p=2,0\cdot200/2000=0,20\un{A}$; (c) Errado (fluxo constante: sem tensão sustentada); (d) Errado ($P_s=P_p$).</x-ans>
+</x-exs>

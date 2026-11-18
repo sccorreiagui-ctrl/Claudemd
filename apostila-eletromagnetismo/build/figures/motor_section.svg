@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 200" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="10" y="38" width="24" height="124" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="22" y="106" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<rect x="206" y="38" width="24" height="124" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="218" y="106" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="14" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+<line x1="38" y1="52" x2="195.32" y2="52" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M200 52 L194 54.52 L195.32 52 L194 49.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="38" y1="76" x2="195.32" y2="76" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M200 76 L194 78.52 L195.32 76 L194 73.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="38" y1="100" x2="195.32" y2="100" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M200 100 L194 102.52 L195.32 100 L194 97.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="38" y1="124" x2="195.32" y2="124" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M200 124 L194 126.52 L195.32 124 L194 121.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="38" y1="148" x2="195.32" y2="148" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M200 148 L194 150.52 L195.32 148 L194 145.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="180.47" y="34.8" width="11.06" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="182.27" y="48" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M183.16 36.84 L189.36 36.84 M186.96 35.4 L189.36 36.84 L186.96 38.28" fill="none" stroke="#1B4DA6" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="75.4" y1="129.83" x2="160.6" y2="70.17" fill="none" stroke="#E8710A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="160.6" cy="70.17" r="7.4" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="160.6" cy="70.17" r="2.07" fill="#E8710A" stroke="none"/>
+<circle cx="75.4" cy="129.83" r="7.4" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="71.85" y1="126.27" x2="78.96" y2="133.38" fill="none" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="71.85" y1="133.38" x2="78.96" y2="126.27" fill="none" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118" cy="100" r="3.2" fill="#1A2230" stroke="none"/>
+<line x1="160.6" y1="60.17" x2="160.6" y2="33.58" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M160.6 26.17 L164.59 35.67 L160.6 33.58 L156.61 35.67 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="75.4" y1="139.83" x2="75.4" y2="166.42" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M75.4 173.83 L71.41 164.33 L75.4 166.42 L79.39 164.33 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="169.36" y="26.97" width="10.46" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="171.16" y="40.17" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#14703A" text-anchor="start">F</text>
+<path d="M171.99 29.01 L177.68 29.01 M175.28 27.57 L177.68 29.01 L175.28 30.45" fill="none" stroke="#14703A" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="56.17" y="154.63" width="10.46" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="57.97" y="167.83" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#14703A" text-anchor="start">F</text>
+<path d="M58.8 156.67 L64.49 156.67 M62.09 155.23 L64.49 156.67 L62.09 158.11" fill="none" stroke="#14703A" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="118" y1="100" x2="136.22" y2="126.02" fill="none" stroke="#1A2230" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M139.8 131.13 L132.45 126.5 L136.22 126.02 L137.96 122.65 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="148.1" y="151.32" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#1A2230" text-anchor="start">n</text>
+<path d="M 140 100 A 22 22 0 0 1 130.62 118.02" fill="none" stroke="#5C6573" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="148" y="112" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#5C6573" text-anchor="middle">φ</text>
+<path d="M193.18 127.36 L195.27 120.71 L196.78 113.89 L197.7 106.97 L198 100 L197.7 93.03 L196.78 86.11 L195.27 79.29 L193.18 72.64 L190.5 66.19 L187.28 60 L186.88 59.38" fill="none" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M183.53 54.11 L190.44 59.36 L186.65 59.52 L184.62 62.72 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="210" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#5C6573" text-anchor="start">gira</text>
+<text x="8" y="16" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">motor: espira com corrente em B</text>
+<text x="8" y="28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">F = N B I ℓ em cada lado → binário</text>
+<text x="8" y="188" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#14703A" text-anchor="start">τ = N B I A sen φ</text>
+<text x="280" y="22" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#0E2A47" text-anchor="middle">comutador</text>
+<circle cx="280" cy="68" r="17" fill="none" stroke="#C3CBD6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 263 68 A 17 17 0 0 1 297 68" fill="none" stroke="#1A2230" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="277" y1="46" x2="283" y2="46" fill="none" stroke="#1A2230" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="277" y1="90" x2="283" y2="90" fill="none" stroke="#1A2230" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="280" y="112" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">anel partido +</text>
+<text x="280" y="122" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">escovas</text>
+<text x="280" y="138" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="middle">invertem I a cada</text>
+<text x="280" y="148" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="middle">meia volta: o torque</text>
+<text x="280" y="158" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="middle">mantém o sentido</text></svg>

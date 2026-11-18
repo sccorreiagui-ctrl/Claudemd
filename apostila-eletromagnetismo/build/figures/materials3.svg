@@ -24,13 +24,13 @@
 <path d="M223 140 L216.8 142.6 L218.16 140 L216.8 137.4 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="87" y1="122" x2="99.15" y2="122" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M105 122 L97.5 125.15 L99.15 122 L97.5 118.85 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
-<text x="173" y="161.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.9" font-weight="400" fill="#5C6573" text-anchor="middle">momentos alinhados: M grande, no sentido de B</text>
-<rect x="107" y="161" width="30" height="22" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="122" y="176" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
-<rect x="165" y="164" width="16" height="16" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="161" y1="172" x2="147.63" y2="172" fill="none" stroke="#1B8F4B" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
-<path d="M141 172 L149.5 168.43 L147.63 172 L149.5 175.57 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
-<text x="191" y="175.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">atração forte</text>
+<text x="173" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.9" font-weight="400" fill="#5C6573" text-anchor="middle">momentos alinhados: M grande, no sentido de B</text>
+<rect x="107" y="171" width="30" height="22" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="122" y="186" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<rect x="165" y="174" width="16" height="16" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="161" y1="182" x2="147.63" y2="182" fill="none" stroke="#1B8F4B" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M141 182 L149.5 178.43 L147.63 182 L149.5 185.57 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="191" y="185.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">atração forte</text>
 <text x="379" y="12" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#0E2A47" text-anchor="middle">Paramagnético</text>
 <text x="379" y="23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">Al, Pt, O<tspan dy="2.13" font-size="5.9" >2</tspan><tspan dy="-2.13"> líquido</tspan></text>
 <rect x="315" y="30" width="128" height="56" rx="0" fill="#FBFCFD" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -109,13 +109,13 @@
 <path d="M442.46 143.77 L437.06 145.41 L438.43 143.35 L437.51 141.06 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="293" y1="122" x2="305.15" y2="122" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M311 122 L303.5 125.15 L305.15 122 L303.5 118.85 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
-<text x="379" y="161.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.9" font-weight="400" fill="#5C6573" text-anchor="middle">alinhamento parcial: M pequena, no sentido de B</text>
-<rect x="313" y="161" width="30" height="22" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="328" y="176" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
-<rect x="371" y="164" width="16" height="16" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="367" y1="172" x2="358.46" y2="172" fill="none" stroke="#1B8F4B" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round"/>
-<path d="M353 172 L360 169.06 L358.46 172 L360 174.94 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
-<text x="397" y="175.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">atração fraca</text>
+<text x="379" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.9" font-weight="400" fill="#5C6573" text-anchor="middle">alinhamento parcial: M pequena, no sentido de B</text>
+<rect x="313" y="171" width="30" height="22" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="328" y="186" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<rect x="371" y="174" width="16" height="16" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="367" y1="182" x2="358.46" y2="182" fill="none" stroke="#1B8F4B" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M353 182 L360 179.06 L358.46 182 L360 184.94 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="397" y="185.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">atração fraca</text>
 <text x="585" y="12" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#0E2A47" text-anchor="middle">Diamagnético</text>
 <text x="585" y="23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">Cu, Au, água, grafite</text>
 <rect x="521" y="30" width="128" height="56" rx="0" fill="#FBFCFD" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -194,14 +194,14 @@
 <path d="M637.6 143 L641.8 141.24 L640.88 143 L641.8 144.76 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="499" y1="122" x2="511.15" y2="122" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M517 122 L509.5 125.15 L511.15 122 L509.5 118.85 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
-<text x="585" y="161.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.9" font-weight="400" fill="#5C6573" text-anchor="middle">momentos induzidos: M pequena, oposta a B</text>
-<rect x="519" y="161" width="30" height="22" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="534" y="176" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
-<rect x="561" y="164" width="16" height="16" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="581" y1="172" x2="591.54" y2="172" fill="none" stroke="#1B8F4B" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round"/>
-<path d="M597 172 L590 174.94 L591.54 172 L590 169.06 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
-<text x="605" y="175.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">repulsão fraca</text>
-<text x="0" y="164" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">amostra perto</text>
-<text x="0" y="175" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">de um polo</text>
-<text x="0" y="186" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">(campo não</text>
-<text x="0" y="197" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">uniforme)</text></svg>
+<text x="585" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.9" font-weight="400" fill="#5C6573" text-anchor="middle">momentos induzidos: M pequena, oposta a B</text>
+<rect x="519" y="171" width="30" height="22" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="534" y="186" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<rect x="561" y="174" width="16" height="16" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="581" y1="182" x2="591.54" y2="182" fill="none" stroke="#1B8F4B" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M597 182 L590 184.94 L591.54 182 L590 179.06 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="605" y="185.5" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="start">repulsão fraca</text>
+<text x="0" y="174" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">amostra perto</text>
+<text x="0" y="185" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">de um polo</text>
+<text x="0" y="196" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">(campo não</text>
+<text x="0" y="207" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#5C6573" text-anchor="start">uniforme)</text></svg>

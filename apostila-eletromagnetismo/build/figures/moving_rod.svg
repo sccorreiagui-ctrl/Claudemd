@@ -48,16 +48,6 @@
 <line x1="105.79" y1="103.79" x2="110.21" y2="108.21" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="105.79" y1="108.21" x2="110.21" y2="103.79" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g opacity="0.5">
-<circle cx="138" cy="106" r="4.6" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="135.79" y1="103.79" x2="140.21" y2="108.21" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="135.79" y1="108.21" x2="140.21" y2="103.79" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.5">
-<circle cx="168" cy="106" r="4.6" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="165.79" y1="103.79" x2="170.21" y2="108.21" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="165.79" y1="108.21" x2="170.21" y2="103.79" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
 <g opacity="0.22">
 <circle cx="224" cy="50" r="4.6" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="221.79" y1="47.79" x2="226.21" y2="52.21" fill="none" stroke="#2563C9" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>

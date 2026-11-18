@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 176" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="3" y="3" width="334" height="170" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="170" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="middle">plano ⟂ B (θ = 0°)</text>
+<line x1="28" y1="44" x2="307.32" y2="44" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M312 44 L306 46.52 L307.32 44 L306 41.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="28" y1="66" x2="307.32" y2="66" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M312 66 L306 68.52 L307.32 66 L306 63.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="28" y1="110" x2="307.32" y2="110" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M312 110 L306 112.52 L307.32 110 L306 107.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="28" y1="132" x2="307.32" y2="132" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M312 132 L306 134.52 L307.32 132 L306 129.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="28" y1="88" x2="307.32" y2="88" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M312 88 L306 90.52 L307.32 88 L306 85.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="294.47" y="48.8" width="11.06" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="296.27" y="62" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M297.16 50.84 L303.36 50.84 M300.96 49.4 L303.36 50.84 L300.96 52.28" fill="none" stroke="#1B4DA6" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170" cy="42" r="5.4" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="42" x2="148.24" y2="42" fill="none" stroke="#0E9FBC" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M142 42 L150 38.64 L148.24 42 L150 45.36 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="170" cy="134" r="5.4" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="170" y1="134" x2="191.76" y2="134" fill="none" stroke="#0E9FBC" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M198 134 L190 137.36 L191.76 134 L190 130.64 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="170" y1="42" x2="170" y2="134" fill="none" stroke="#E8710A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="170" cy="88" r="3" fill="#1A2230" stroke="none"/>
+<path d="M116.31 57 L113.36 62.78 L111.03 68.84 L109.35 75.11 L108.34 81.52 L108 88 L108.34 94.48 L109.35 100.89 L111.03 107.16 L113.36 113.22 L113.83 114.14" fill="none" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M116.31 119 L110.77 113.8 L114.09 114.01 L116.15 111.41 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
+<path d="M223.69 119 L226.64 113.22 L228.97 107.16 L230.65 100.89 L231.66 94.48 L232 88 L231.66 81.52 L230.65 75.11 L228.97 68.84 L226.64 62.78 L226.17 61.86" fill="none" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M223.69 57 L229.23 62.2 L225.91 61.99 L223.85 64.59 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="94" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#5C6573" text-anchor="end">ω</text>
+<text x="170" y="164" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#14703A" text-anchor="middle">Φ máximo · ε = 0</text>
+<rect x="343" y="3" width="334" height="170" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="middle">plano ∥ B (θ = 90°)</text>
+<line x1="368" y1="44" x2="647.32" y2="44" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M652 44 L646 46.52 L647.32 44 L646 41.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="368" y1="66" x2="647.32" y2="66" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M652 66 L646 68.52 L647.32 66 L646 63.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="368" y1="110" x2="647.32" y2="110" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M652 110 L646 112.52 L647.32 110 L646 107.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="368" y1="132" x2="647.32" y2="132" fill="none" stroke="#2563C9" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path d="M652 132 L646 134.52 L647.32 132 L646 129.48 Z" fill="#2563C9" fill-opacity="0.5" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="634.47" y="48.8" width="11.06" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="636.27" y="62" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M637.16 50.84 L643.36 50.84 M640.96 49.4 L643.36 50.84 L640.96 52.28" fill="none" stroke="#1B4DA6" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="464" cy="88" r="7.2" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="464" cy="88" r="2.02" fill="#7E3FC4" stroke="none"/>
+<line x1="464" y1="88" x2="464" y2="109.76" fill="none" stroke="#0E9FBC" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M464 116 L460.64 108 L464 109.76 L467.36 108 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="556" cy="88" r="7.2" fill="#FFFFFF" stroke="#7E3FC4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="552.54" y1="84.54" x2="559.46" y2="91.46" fill="none" stroke="#7E3FC4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="552.54" y1="91.46" x2="559.46" y2="84.54" fill="none" stroke="#7E3FC4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="556" y1="88" x2="556" y2="66.24" fill="none" stroke="#0E9FBC" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M556 60 L559.36 68 L556 66.24 L552.64 68 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="464" y1="88" x2="556" y2="88" fill="none" stroke="#E8710A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="510" cy="88" r="3" fill="#1A2230" stroke="none"/>
+<path d="M456.31 57 L453.36 62.78 L451.03 68.84 L449.35 75.11 L448.34 81.52 L448 88 L448.34 94.48 L449.35 100.89 L451.03 107.16 L453.36 113.22 L453.83 114.14" fill="none" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M456.31 119 L450.77 113.8 L454.09 114.01 L456.15 111.41 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
+<path d="M563.69 119 L566.64 113.22 L568.97 107.16 L570.65 100.89 L571.66 94.48 L572 88 L571.66 81.52 L570.65 75.11 L568.97 68.84 L566.64 62.78 L566.17 61.86" fill="none" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M563.69 57 L569.23 62.2 L565.91 61.99 L563.85 64.59 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="434" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#5C6573" text-anchor="end">ω</text>
+<text x="510" y="164" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#14703A" text-anchor="middle">Φ = 0 · |ε| máxima</text></svg>

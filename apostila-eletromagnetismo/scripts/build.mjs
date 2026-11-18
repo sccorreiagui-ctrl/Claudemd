@@ -37,6 +37,9 @@ function renderMath(src, display) {
   }
 }
 function processMath(text) {
+  // matemática dentro de atributos (t="…", s="…", cap="…"): o HTML do KaTeX passa a usar aspas simples
+  text = text.replace(/(\s(?:t|s|cap)=")([^"]*\$[^"]*)(")/g, (_, a, v, c) =>
+    a + v.replace(/\$([^$\n]+?)\$/g, (__, g) => renderMath(g.trim(), false).replace(/"/g, "'")) + c);
   text = text.replace(/\$\$([\s\S]+?)\$\$/g, (_, g) => renderMath(g.trim(), true));
   text = text.replace(/\$([^$\n]+?)\$/g, (_, g) => renderMath(g.trim(), false));
   return text;
@@ -122,7 +125,7 @@ function buildBody(n, raw) {
   // exercícios
   $('x-exe').each((_, el) => {
     const $e = $(el); const l = +($e.attr('l') || 1);
-    $e.replaceWith(`<div class="exe"><div class="n">E${$e.attr('n')}${lvDots(l)}</div><div>${$e.html()}</div></div>`);
+    $e.replaceWith(`<div class="exe"><div class="n">${$e.attr('p') || 'E'}${$e.attr('n')}${lvDots(l)}</div><div>${$e.html()}</div></div>`);
   });
   $('x-ans').each((_, el) => { $(el).replaceWith(`<div class="ans"><b>Respostas:</b> ${$(el).html()}</div>`); });
   $('x-exs').each((_, el) => {

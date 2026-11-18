@@ -1,0 +1,106 @@
+VERIFICAÇÕES NUMÉRICAS INDEPENDENTES — Apostila CTG Eletromagnetismo PAS 3/UnB
+(gerado por scripts/validate_physics.py)
+
+== 1. Fórmulas de campo × Biot–Savart numérico
+[OK ] fio longo: B = μ0 I/(2π r), I = 10 A, r = 5 cm: calculado = 4e-05 | impresso = 4e-05 
+[OK ] fio ⊙ (I = +z): B à direita aponta para +y (1ª regra da mão direita) 
+[OK ] espira, centro: B = μ0 I/(2R), I = 4 A, R = 5 cm: calculado = 5.0266e-05 | impresso = 5.0265e-05 
+[OK ] espira anti-horária (vista de +z): B no centro aponta para +z (face norte = +z) 
+[OK ] espira, eixo a 3 cm: B = μ0 I R²/[2(R²+x²)^(3/2)]: calculado = 3.1693e-05 | impresso = 3.1693e-05 
+[OK ] semicírculo: B_centro = μ0 I/(4R): calculado = 3.1416e-05 | impresso = 3.1416e-05 
+[OK ] solenoide (N=500 espiras, L=25 cm, I=2 A): B(centro) ≈ μ0 n I = 5,03 mT: calculado = 0.0050107 | impresso = 0.0050265 
+[OK ] solenoide: B na extremidade ≈ ½ μ0 n I: calculado = 0.0025113 | impresso = 0.0025133 
+[OK ] exercício E9(c): 1000 esp/m, 3,0 A → B ≈ 3,8 mT: calculado = 0.0037699 | impresso = 0.0038 
+[OK ] loop_B (desenhos): centro = π (μ0 I/2π) ⇒ μ0 I/2a: calculado = 3.1416 | impresso = 3.1416 
+
+== 2. Superposição de campos (p. 6) e Lei de Ampère (p. 9)
+[OK ] Ex.2 (a): B em P (meio) = 8,0×10⁻⁵ T, +y: calculado = 8e-05 | impresso = 8e-05 
+[OK ] Ex.2 (b): ponto de B = 0 em x = −10 cm: calculado = -0.1 | impresso = -0.1 
+[OK ] E7: corrente no fio C com B(P)=0 → −16 A (16 A entrando): calculado = -16 | impresso = -16 
+[OK ] quadrado de 4 fios: B no centro = 80 μT, horizontal (+x): calculado = [8.e-05,0.e+00] | impresso = [8.e-05,0.e+00] 
+[OK ] E6: B(20 A, 10 cm) = 40 μT; r para 50 μT = 8,0 cm; fator (3I, 2r) = 1,5: calculado = [4.0e-05,8.0e-02,1.5e+00] | impresso = [4.0e-05,8.0e-02,1.5e+00] 
+[OK ] Ex.1: B_P = 80 μT, B_Q = 40 μT (12 A; 3 cm e 6 cm): calculado = [8.e-05,4.e-05] | impresso = [8.e-05,4.e-05] 
+[OK ] Ex.5: circulação anti-horária com 6 A (⊙) e 4 A (⊗) dentro e 5 A fora = 2 μ0 = 2,5×10⁻⁶ T·m: calculado = 2.5133e-06 | impresso = 2.5133e-06 
+[OK ] E10: circulação = μ0 I = 3,1×10⁻⁵ (I=25 A); B(4 cm) = 1,25×10⁻⁴; B(8 cm) = 6,3×10⁻⁵: calculado = [3.14159e-05,1.25000e-04,6.25000e-05] | impresso = [3.14e-05,1.25e-04,6.25e-05] 
+
+== 3. Força sobre cargas e trajetórias (RK4 da equação de Lorentz)
+[OK ] Ex.6: F = |q| v B sen30° = 8,0×10⁻¹⁴ N; F/P ≈ 5×10¹²: calculado = [8.00000e-14,4.79042e+12] | impresso = [8.0e-14,4.8e+12] 
+[OK ] E11: (a) 9,6e-16; (b) 4,8e-16; (e) B = 0,40 T: calculado = [9.6e-16,4.8e-16,4.0e-01] | impresso = [9.6e-16,4.8e-16,4.0e-01] 
+[OK ] Ex.7: v×B para (+q, B⊗) = +y; (−q) = −y; (+q, B⊙) = −y: calculado = [ 1.,-1.,-1.] | impresso = [ 1.,-1.,-1.] 
+[OK ] Ex.7: |F| = 3,2×10⁻¹⁴ N: calculado = 3.2e-14 | impresso = 3.2e-14 
+[OK ] E12 (a): F = q v × B tem o sentido impresso 
+[OK ] E12 (b): F = q v × B tem o sentido impresso 
+[OK ] E12 (c): F = q v × B tem o sentido impresso 
+[OK ] E12 (d): F = q v × B tem o sentido impresso 
+[OK ] E12 (e): F = q v × B tem o sentido impresso 
+[OK ] E12 (f): F = q v × B tem o sentido impresso 
+[OK ] Ex.8: próton em B entrando (−z) gira no sentido anti-horário 
+[OK ] Ex.8: raio da órbita (RK4) = 5,2 cm: calculado = 0.052187 | impresso = 0.052 
+[OK ] Ex.8: r = mv/(qB), T = 2πm/(qB), f: calculado = [5.21875e-02,3.27904e-07,3.04968e+06] | impresso = [5.20e-02,3.30e-07,3.05e+06] 
+[OK ] Ex.8: ω = qB/m = 1,9×10⁷ rad/s: calculado = 1.9162e+07 | impresso = 1.9e+07 
+[OK ] E13: r_e/r_p = m_e/m_p = 5,4×10⁻⁴; r14/r12 = 1,17: calculado = [5.45509e-04,1.16667e+00] | impresso = [5.40e-04,1.17e+00] 
+[OK ] E13(e): v = 4,4×10⁵ m/s; r = 4,6 cm: calculado = [4.37741e+05,4.56892e-02] | impresso = [4.4e+05,4.6e-02] 
+[OK ] Ex.9: raio da hélice (RK4) = 7,4 mm: calculado = 0.0073964 | impresso = 0.0074 
+[OK ] Ex.9: período (RK4) = 1,8×10⁻⁸ s: calculado = 1.7887e-08 | impresso = 1.79e-08 
+[OK ] Ex.9: passo = v∥ T = 2,7 cm: calculado = 0.026831 | impresso = 0.027 
+[OK ] Ex.9: |v| constante (W = 0): calculado = 2.8871e-14 | impresso = 0 
+[OK ] Ex.9: v⟂² + v∥² = v²: calculado = 9.01e+12 | impresso = 9e+12 
+[OK ] E14(e): raio ≈ 1,0 cm; passo ≈ 11 cm: calculado = [0.01044,0.11362] | impresso = [0.0104,0.1136] 
+
+== 4. Força sobre fios (integração de I dℓ × B) e entre fios
+[OK ] Ex.10: F = B I L sen θ: 0,20 N (30°) e 0,40 N (90°): calculado = [0.2,0.4] | impresso = [0.2,0.4] 
+[OK ] Ex.10 (c): I entrando, B → : F para baixo 
+[OK ] E15: I = mg/(BL) = 1,0 A: calculado = [1.] | impresso = [1.] 
+[OK ] E15 (b): L × x̂ = +ŷ ⇒ L = +ẑ (saindo da página) 
+[OK ] E15(c): fio em semicírculo R = 10 cm, 3,0 A, 0,20 T: |F| = BI(2R) = 0,12 N (para cima): calculado = [0.12,0.12] | impresso = [0.12,0.12] 
+[OK ] Ex.11: F/L = 4,0×10⁻⁴ N/m; F(0,80 m) = 3,2×10⁻⁴ N: calculado = [0.0004 ,0.00032] | impresso = [0.0004 ,0.00032] 
+[OK ] Ex.11 (BS numérico): força em 0,80 m do fio 2 = 3,2×10⁻⁴ N, em direção ao fio 1 (−x): calculado = [ 0.00032,-0.00032] | impresso = [ 0.00032,-0.00032] 
+[OK ] E16: λ g = μ0 I1 I2/(2π d) ⇒ λ = 2,5×10⁻⁵ kg/m: calculado = 2.5e-05 | impresso = 2.5e-05 
+[OK ] p. 15: força líquida = 7,5×10⁻⁵ N, atração (−x); F_y ≈ 0: calculado = [-7.50000e-05,-1.28749e-19] | impresso = [-7.5e-05, 0.0e+00] 
+[OK ]   F_perto = 1,0×10⁻⁴ N (atrai, −x); F_longe = 2,5×10⁻⁵ N (repele, +x): calculado = [-1.0e-04, 2.5e-05] | impresso = [-1.0e-04, 2.5e-05] 
+[OK ]   forças em topo e base se cancelam: calculado = [ 0.00000e+00,-1.28749e-19, 0.00000e+00] | impresso = [0.,0.,0.] 
+
+== 5. Fluxo, Faraday e Lenz
+[OK ] Ex.12: Φ = 10 mWb (θ=60°), 20 mWb, 0: calculado = [1.00000e-02,2.00000e-02,1.22465e-18] | impresso = [0.01,0.02,0.  ] 
+[OK ] E17: Φ = 1,6×10⁻² Wb e 1,4×10⁻² Wb: calculado = [0.01571,0.0136 ] | impresso = [0.016,0.014] 
+[OK ] Ex.13: |ε| = 20 V; I = 0,50 A: calculado = [20. , 0.5] | impresso = [20. , 0.5] 
+[OK ] E18: ΔΦ = 1,0×10⁻² Wb; ε = 10 V; I = 2,0 A: calculado = [ 0.01,10.  , 2.  ] | impresso = [ 0.01,10.  , 2.  ] 
+[OK ] Ex.14: ε = [−0,20; 0; +0,30] V; Q₁ = 4,0×10⁻² C: calculado = [-0.2 ,-0.  , 0.3 , 0.04] | impresso = [-0.2 , 0.  , 0.3 , 0.04] 
+[OK ] E19: ε = [−2,0; 0; +8,0] V: calculado = [-2.,-0., 8.] | impresso = [-2., 0., 8.] 
+[OK ] Ex.15: |ε| = 4,0 V; I = 0,50 A: calculado = [4. ,0.5] | impresso = [4. ,0.5] 
+[OK ] Lenz p. 20: polo N se aproxima → anti-horário, face N (fluxo com sinal + dipolo) 
+[OK ] Lenz p. 20: polo N se afasta → horário, face S (fluxo com sinal + dipolo) 
+[OK ] Lenz p. 20: polo S se aproxima → horário, face S (fluxo com sinal + dipolo) 
+[OK ] Lenz p. 20: polo S se afasta → anti-horário, face N (fluxo com sinal + dipolo) 
+[OK ] Anel parado: B entrando aumenta → anti-horária; diminui → horária; B saindo aumenta → horária; diminui → anti-horária 
+
+== 6. Haste móvel e rampa (EDO com produtos vetoriais, sem usar as fórmulas fechadas)
+[OK ] Ex.17: ε = 0,60 V; I = 0,30 A; F = 0,060 N; P = 0,18 W (= εI = I²R): calculado = [0.6 ,0.3 ,0.06,0.18] | impresso = [0.6 ,0.3 ,0.06,0.18] 
+[OK ] Ex.17 (vetorial): ε = (v × B)·L com v = +x, B = −z, L = +y: calculado = 0.6 | impresso = 0.6 
+[OK ] E21: ε = 0,40 V; I = 0,10 A; F = 0,020 N; P = 0,040 W: calculado = [0.4 ,0.1 ,0.02,0.04] | impresso = [0.4 ,0.1 ,0.02,0.04] 
+[OK ] Ex.18: v_terminal = 0,60 m/s (B vertical, sen α = 0,6): calculado = 0.6 | impresso = 0.6 
+[OK ] Ex.18: |ε| = 0,60 V; |I| = 0,60 A; |F| = 0,75 N: calculado = [0.6 ,0.6 ,0.75] | impresso = [0.6 ,0.6 ,0.75] 
+[OK ] Ex.18: força magnética horizontal (F_z ≈ 0) e para o lado alto da rampa (+x) 
+[OK ] Ex.18: balanço de energia m g v sen α = I²R = 0,36 W: calculado = [0.36,0.36] | impresso = [0.36,0.36] 
+[OK ] E22: com B ⟂ rampa o vetor B é perpendicular a ŝ 
+[OK ] E22: B ⟂ rampa: v_terminal = 0,38 m/s; |I| = 0,48 A: calculado = [0.384,0.48 ] | impresso = [0.384,0.48 ] 
+[OK ] E22(c): razão v_term(B vertical)/v_term(B ⟂) = 1/cos²α = 1,5625: calculado = 1.5625 | impresso = 1.5625 
+[OK ] Ex.18: constante de tempo τ = m/(B²L²cos²α) = 0,10 s: calculado = 0.1 | impresso = 0.1 
+[OK ] Ex.18: N = mg cosα + F sinα = 1,25 N: calculado = 1.25 | impresso = 1.25 
+
+== 7. Motor, gerador, transformador e aplicações
+[OK ] Ex.19: τ_máx = 1,2 N·m (φ=90°); τ(60°) = 1,04 N·m; τ(0°) = 0; ΣF = 0: calculado = [1.2    ,1.03923,0.     ,0.     ] | impresso = [1.2 ,1.04,0.  ,0.  ] 
+[OK ] Ex.19(c): F por lado longo = N B I ℓ = 12 N: calculado = 12 | impresso = 12 
+[OK ] E23: τ_máx = 1,2; τ(30°) = 0,60 N·m; I_partida = 6,0 A; I = 1,0 A: calculado = [1.2,0.6,6. ,1. ] | impresso = [1.2,0.6,6. ,1. ] 
+[OK ] Ex.20: ω = 377 rad/s; ε_máx = 188 V; ε_ef = 133 V; T = 16,7 ms: calculado = [376.99112,188.49556,133.28649, 16.66667] | impresso = [377. ,188. ,133. , 16.7] 
+[OK ] Ex.20 (diferenças finitas): ε_máx = 188,5 V e ε nula quando Φ é máximo: calculado = [1.88496e+02,2.96088e-03] | impresso = [188.5,  0. ] 
+[OK ] E24: ε_máx(1 espira) = 1,26 V; N = 79,6 ≈ 80: calculado = [ 1.25664,79.57747] | impresso = [ 1.26,79.6 ] 
+[OK ] Ex.21: U_s = 44 V; I_s = 4,0 A; I_p = 0,80 A; P = 176 W: calculado = [ 44. ,  4. ,  0.8,176. ] | impresso = [ 44. ,  4. ,  0.8,176. ] 
+[OK ] E25: N_s = 200; I_s = 2,0 A; I_p = 0,20 A: calculado = [200. ,  2. ,  0.2] | impresso = [200. ,  2. ,  0.2] 
+[OK ] p. 26: perdas 50 kW e 0,5 kW (P = 2,0 MW, R = 5,0 Ω); 2,5 % e 0,025 % da potência: calculado = [5.0e+04,5.0e+02,2.5e-02,2.5e-04] | impresso = [5.0e+04,5.0e+02,2.5e-02,2.5e-04] 
+[OK ] Q9: U_s = 4,0 kV; I = 2,5 A; perda = 25 W (0,25%): calculado = [4.0e+03,2.5e+00,2.5e+01,2.5e-03] | impresso = [4.0e+03,2.5e+00,2.5e+01,2.5e-03] 
+[OK ] Q7: F/L = 1,2×10⁻³ N/m: calculado = 0.0012 | impresso = 0.0012 
+[OK ] Q8: ε = 0,80 V; I = 0,40 A; F = 0,080 N; P = 0,32 W: calculado = [0.8 ,0.4 ,0.08,0.32] | impresso = [0.8 ,0.4 ,0.08,0.32] 
+[OK ] RM: frequência de Larmor do ¹H = 42,577 MHz/T → 63,9 MHz a 1,5 T; 127,7 MHz a 3 T: calculado = [ 63.8655,127.731 ] | impresso = [ 63.9,127.7] 
+
+TOTAL: 88 verificações OK, 0 falhas.

@@ -2,7 +2,7 @@
   <div>
     <p><span class="tag">Intuição</span>Uma haste condutora desliza sobre trilhos em um campo $\vB$: a <b>área</b> do circuito cresce e o fluxo varia. Ao empurrá-la, você sente uma força contrária ao movimento — o preço, em trabalho mecânico, da energia elétrica gerada.</p>
     <p><span class="tag">Explicação</span>Duas leituras do mesmo fato. <b>Faraday:</b> $\Phi=BLx$ e $\dd x/\dd t=v$ dão $|\varepsilon|=d\Phi/dt=BLv$. <b>Lorentz:</b> os elétrons livres da haste, arrastados com velocidade $\vv$, sofrem $q\,\vv\times\vB$ ao longo da haste; o acúmulo de cargas cria um campo $E=vB$ e uma diferença de potencial $EL=BLv$. O sentido da corrente sai de $\vv\times\vB$ (ou de Lenz).</p>
-    <x-fc t="FEM de movimento (haste em trilhos)" s="geometria perpendicular" eq="|\varepsilon|=B\,L\,v ;; I=\dfrac{BLv}{R}\qquad F_{mag}=BIL=\dfrac{B^{2}L^{2}v}{R}\qquad P=F\,v=\varepsilon I=I^{2}R">
+    <x-fc t="FEM de movimento (haste em trilhos)" s="geometria perpendicular" eq="|\varepsilon|=B\,L\,v\qquad I=\dfrac{BLv}{R} ;; F_{mag}=BIL=\dfrac{B^{2}L^{2}v}{R} ;; P=F\,v=\varepsilon I=I^{2}R">
       <p data-k="Variáveis">$L$ = comprimento da haste entre os trilhos (m); $v$ em m/s; $B$ em T; $R$ = resistência total do circuito (Ω); $F_{mag}$ em N (sempre <b>contra</b> $\vv$); $P$ em W.</p>
       <p data-k="Condições">$\vB$ uniforme, <b>perpendicular ao plano</b> dos trilhos; haste perpendicular aos trilhos; $\vv$ ao longo dos trilhos. Ou seja, $\vL$, $\vv$ e $\vB$ <b>mutuamente perpendiculares</b>. Em geral, $\varepsilon=(\vv\times\vB)\cdot\vL$.</p>
       <p data-k="Quando usar">“Haste/barra/fio deslizando em trilhos”, “condutor em movimento no campo”, “força necessária para manter $v$ constante”.</p>
@@ -17,6 +17,7 @@
         <li>$v$ é a velocidade <b>da haste em relação ao campo</b>.</li>
       </ul>
     </x-box>
+    <x-fig name="rod_lorentz"><cap>Leitura de Lorentz: $q\,\vv\times\vB$ separa as cargas até que $qE=qvB$; o topo fica positivo e, dentro da haste (a “fonte”), a corrente vai do polo $-$ ao $+$.</cap></x-fig>
   </div>
 </div>
 
@@ -51,6 +52,6 @@
 </div>
 
 <x-exs t="Exercícios de aplicação">
-  <x-exe n="21" l="2">Uma haste de $0,80\un{m}$ é mantida com velocidade constante de $2,0\un{m/s}$ em trilhos, em $B=0,25\un{T}$ perpendicular ao plano; $R=4,0\,\Omega$. (a) $\varepsilon$; (b) $I$; (c) a força externa necessária; (d) a potência mecânica fornecida; (e) compare com $I^2R$. (f) Se $v$ for dobrada, o que ocorre com $F$ e com $P$?</x-exe>
-  <x-ans>E21 (a) $0,25\cdot0,80\cdot2,0=0,40\un{V}$; (b) $0,10\un{A}$; (c) $F=BIL=0,25\cdot0,10\cdot0,80=0,020\un{N}$; (d) $P=Fv=0,040\un{W}$; (e) $I^2R=0,010\cdot4,0=0,040\un{W}$ (iguais); (f) $F\times2$ e $P\times4$.</x-ans>
+  <x-exe n="21" l="2">Uma haste de $0,80\un{m}$ é mantida com velocidade constante de $2,0\un{m/s}$ em trilhos, em $B=0,25\un{T}$ perpendicular ao plano (entrando), movendo-se para a direita (<x-ref f="moving_rod"></x-ref>); $R=4,0\,\Omega$. (a) $\varepsilon$; (b) $I$; (c) a força externa necessária; (d) a potência mecânica fornecida; (e) compare com $I^2R$. (f) Se $v$ for dobrada, o que ocorre com $F$ e com $P$? (g) Qual extremidade da haste, a superior ou a inferior, fica no maior potencial?</x-exe>
+  <x-ans>E21 (a) $0,25\cdot0,80\cdot2,0=0,40\un{V}$; (b) $0,10\un{A}$; (c) $F=BIL=0,25\cdot0,10\cdot0,80=0,020\un{N}$; (d) $P=Fv=0,040\un{W}$; (e) $I^2R=0,010\cdot4,0=0,040\un{W}$ (iguais); (f) $F\times2$ e $P\times4$; (g) a <b>superior</b>: $q\,\vv\times\vB$ empurra as cargas $+$ para cima, e dentro da haste (a fonte) a corrente vai do polo $-$ ao $+$.</x-ans>
 </x-exs>

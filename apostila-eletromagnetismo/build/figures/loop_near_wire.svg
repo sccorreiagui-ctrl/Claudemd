@@ -1,12 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 152" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><g opacity="0.25">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 168" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><g opacity="0.25">
 <circle cx="58" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="56.17" y1="10.17" x2="59.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="56.17" y1="13.83" x2="59.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="162" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="160.17" y1="10.17" x2="163.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="160.17" y1="13.83" x2="163.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g opacity="0.25">
 <circle cx="188" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
@@ -14,74 +9,9 @@
 <line x1="186.17" y1="13.83" x2="189.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g opacity="0.25">
-<circle cx="214" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="212.17" y1="10.17" x2="215.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="212.17" y1="13.83" x2="215.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="240" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="238.17" y1="10.17" x2="241.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="238.17" y1="13.83" x2="241.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="266" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="264.17" y1="10.17" x2="267.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="264.17" y1="13.83" x2="267.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="292" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="290.17" y1="10.17" x2="293.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="290.17" y1="13.83" x2="293.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="318" cy="12" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="316.17" y1="10.17" x2="319.83" y2="13.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="316.17" y1="13.83" x2="319.83" y2="10.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="149" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="147.17" y1="34.17" x2="150.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="147.17" y1="37.83" x2="150.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="175" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="173.17" y1="34.17" x2="176.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="173.17" y1="37.83" x2="176.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="201" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="199.17" y1="34.17" x2="202.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="199.17" y1="37.83" x2="202.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="227" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="225.17" y1="34.17" x2="228.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="225.17" y1="37.83" x2="228.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="253" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="251.17" y1="34.17" x2="254.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="251.17" y1="37.83" x2="254.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="279" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="277.17" y1="34.17" x2="280.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="277.17" y1="37.83" x2="280.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="305" cy="36" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="303.17" y1="34.17" x2="306.83" y2="37.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="303.17" y1="37.83" x2="306.83" y2="34.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
 <circle cx="58" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="56.17" y1="58.17" x2="59.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="56.17" y1="61.83" x2="59.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="162" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="160.17" y1="58.17" x2="163.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="160.17" y1="61.83" x2="163.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g opacity="0.25">
 <circle cx="188" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
@@ -89,104 +19,14 @@
 <line x1="186.17" y1="61.83" x2="189.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g opacity="0.25">
-<circle cx="214" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="212.17" y1="58.17" x2="215.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="212.17" y1="61.83" x2="215.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="240" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="238.17" y1="58.17" x2="241.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="238.17" y1="61.83" x2="241.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="266" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="264.17" y1="58.17" x2="267.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="264.17" y1="61.83" x2="267.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="292" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="290.17" y1="58.17" x2="293.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="290.17" y1="61.83" x2="293.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="318" cy="60" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="316.17" y1="58.17" x2="319.83" y2="61.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="316.17" y1="61.83" x2="319.83" y2="58.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="149" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="147.17" y1="82.17" x2="150.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="147.17" y1="85.83" x2="150.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="175" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="173.17" y1="82.17" x2="176.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="173.17" y1="85.83" x2="176.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="201" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="199.17" y1="82.17" x2="202.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="199.17" y1="85.83" x2="202.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="227" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="225.17" y1="82.17" x2="228.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="225.17" y1="85.83" x2="228.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="253" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="251.17" y1="82.17" x2="254.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="251.17" y1="85.83" x2="254.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="279" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="277.17" y1="82.17" x2="280.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="277.17" y1="85.83" x2="280.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="305" cy="84" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="303.17" y1="82.17" x2="306.83" y2="85.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="303.17" y1="85.83" x2="306.83" y2="82.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
 <circle cx="58" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="56.17" y1="106.17" x2="59.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="56.17" y1="109.83" x2="59.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g opacity="0.25">
-<circle cx="162" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="160.17" y1="106.17" x2="163.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="160.17" y1="109.83" x2="163.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
 <circle cx="188" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="186.17" y1="106.17" x2="189.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="186.17" y1="109.83" x2="189.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="214" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="212.17" y1="106.17" x2="215.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="212.17" y1="109.83" x2="215.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="240" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="238.17" y1="106.17" x2="241.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="238.17" y1="109.83" x2="241.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="266" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="264.17" y1="106.17" x2="267.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="264.17" y1="109.83" x2="267.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="292" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="290.17" y1="106.17" x2="293.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="290.17" y1="109.83" x2="293.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="318" cy="108" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="316.17" y1="106.17" x2="319.83" y2="109.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="316.17" y1="109.83" x2="319.83" y2="106.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g opacity="0.25">
 <circle cx="71" cy="132" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
@@ -213,31 +53,6 @@
 <line x1="173.17" y1="130.17" x2="176.83" y2="133.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="173.17" y1="133.83" x2="176.83" y2="130.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g opacity="0.25">
-<circle cx="201" cy="132" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="199.17" y1="130.17" x2="202.83" y2="133.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="199.17" y1="133.83" x2="202.83" y2="130.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="227" cy="132" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="225.17" y1="130.17" x2="228.83" y2="133.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="225.17" y1="133.83" x2="228.83" y2="130.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="253" cy="132" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="251.17" y1="130.17" x2="254.83" y2="133.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="251.17" y1="133.83" x2="254.83" y2="130.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="279" cy="132" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="277.17" y1="130.17" x2="280.83" y2="133.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="277.17" y1="133.83" x2="280.83" y2="130.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g opacity="0.25">
-<circle cx="305" cy="132" r="3.8" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="303.17" y1="130.17" x2="306.83" y2="133.83" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="303.17" y1="133.83" x2="306.83" y2="130.17" fill="none" stroke="#2563C9" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
 <line x1="46" y1="130" x2="46" y2="13.8" fill="none" stroke="#E8710A" stroke-width="3.6" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M46 6 L50.2 16 L46 13.8 L41.8 16 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
 <text x="28.02" y="24" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#A94E00" text-anchor="start">I<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">1</tspan></text>
@@ -249,21 +64,15 @@
 <path d="M134 124 L130.43 115.5 L134 117.37 L137.57 115.5 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="134" y1="124" x2="74.63" y2="124" fill="none" stroke="#E8710A" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M68 124 L76.5 120.43 L74.63 124 L76.5 127.57 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
-<line x1="68" y1="69" x2="35.41" y2="69" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
-<path d="M28 69 L37.5 65.01 L35.41 69 L37.5 72.99 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
-<line x1="134" y1="69" x2="138.54" y2="69" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
-<path d="M144 69 L137 71.94 L138.54 69 L137 66.06 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="68" y1="69" x2="57.85" y2="69" fill="none" stroke="#1B8F4B" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M52 69 L59.5 65.85 L57.85 69 L59.5 72.15 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="134" y1="69" x2="138.09" y2="69" fill="none" stroke="#1B8F4B" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M143 69 L136.7 71.65 L138.09 69 L136.7 66.35 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="101" y1="14" x2="101" y2="8.24" fill="none" stroke="#1B8F4B" stroke-width="2.4" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M101 2 L104.36 10 L101 8.24 L97.64 10 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
 <line x1="101" y1="124" x2="101" y2="129.76" fill="none" stroke="#1B8F4B" stroke-width="2.4" stroke-linecap="butt" stroke-linejoin="round"/>
 <path d="M101 136 L97.64 128 L101 129.76 L104.36 128 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
-<rect x="32.64" y="50.45" width="26.72" height="14.49" rx="1.6" fill="#fff" fill-opacity="0.88"/>
-<text x="34.44" y="62" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="10.5" font-style="italic" fill="#14703A" text-anchor="start">F<tspan dy="2.73" font-size="7.56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">perto</tspan></text>
-<path d="M35.16 52.23 L40.15 52.23 M38.05 50.98 L40.15 52.23 L38.05 53.49" fill="none" stroke="#14703A" stroke-width="0.74" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="146.39" y="50.45" width="27.22" height="14.49" rx="1.6" fill="#fff" fill-opacity="0.88"/>
-<text x="148.19" y="62" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="10.5" font-style="italic" fill="#14703A" text-anchor="start">F<tspan dy="2.73" font-size="7.56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">longe</tspan></text>
-<path d="M148.91 52.23 L153.9 52.23 M151.8 50.98 L153.9 52.23 L151.8 53.49" fill="none" stroke="#14703A" stroke-width="0.74" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="105.02" y="73" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#A94E00" text-anchor="start">I<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">2</tspan></text>
+<text x="107.02" y="83" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#A94E00" text-anchor="start">I<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">2</tspan></text>
 <line x1="46" y1="148" x2="68" y2="148" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="46" y1="145" x2="46" y2="151" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="68" y1="145" x2="68" y2="151" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
@@ -272,7 +81,19 @@
 <line x1="68" y1="145" x2="68" y2="151" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="134" y1="145" x2="134" y2="151" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="101" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">b</text>
-<line x1="172" y1="14" x2="172" y2="124" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="168" y1="14" x2="176" y2="14" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="168" y1="124" x2="176" y2="124" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="186" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">L</text></svg>
+<line x1="164" y1="14" x2="164" y2="124" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="160" y1="14" x2="168" y2="14" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="160" y1="124" x2="168" y2="124" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="175" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">L</text>
+<rect x="196" y="8" width="136" height="122" rx="5" fill="#FBFCFD" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="264" y="22" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.8" font-weight="400" fill="#5C6573" text-anchor="middle">forças nos lados verticais (à escala)</text>
+<line x1="274" y1="32" x2="274" y2="120" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<text x="202" y="42" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">F<tspan dy="2.13" font-size="5.9" >perto</tspan><tspan dy="-2.13"> = 1,0×10</tspan><tspan dy="-2.95" font-size="5.9" >-4</tspan><tspan dy="2.95"> N</tspan></text>
+<line x1="274" y1="50" x2="240.63" y2="50" fill="none" stroke="#1B8F4B" stroke-width="2.8" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M234 50 L242.5 46.43 L240.63 50 L242.5 53.57 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="202" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">F<tspan dy="2.13" font-size="5.9" >longe</tspan><tspan dy="-2.13"> = 2,5×10</tspan><tspan dy="-2.95" font-size="5.9" >-5</tspan><tspan dy="2.95"> N</tspan></text>
+<line x1="274" y1="80" x2="278.54" y2="80" fill="none" stroke="#1B8F4B" stroke-width="2.8" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M284 80 L277 82.94 L278.54 80 L277 77.06 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="202" y="102" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">resultante: 7,5×10<tspan dy="-2.95" font-size="5.9" >-5</tspan><tspan dy="2.95"> N (atração)</tspan></text>
+<line x1="274" y1="110" x2="251.8" y2="110" fill="none" stroke="#1B8F4B" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M244 110 L254 105.8 L251.8 110 L254 114.2 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/></svg>

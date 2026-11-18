@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 190" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="12" y="22" width="104" height="32" rx="6" fill="#FFF0DF" stroke="#E8710A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="42" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.2" font-weight="700" fill="#A94E00" text-anchor="middle">Corrente I</text>
+<rect x="220" y="22" width="104" height="32" rx="6" fill="#E8F0FD" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="272" y="42" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.2" font-weight="700" fill="#1B4DA6" text-anchor="middle">Campo B</text>
+<rect x="220" y="134" width="104" height="32" rx="6" fill="#E5F5EB" stroke="#1B8F4B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="272" y="154" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.2" font-weight="700" fill="#14703A" text-anchor="middle">Força / torque</text>
+<rect x="12" y="134" width="104" height="32" rx="6" fill="#F1EAFB" stroke="#7E3FC4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="154" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.2" font-weight="700" fill="#672DAE" text-anchor="middle">FEM ε / I induzida</text>
+<line x1="118" y1="38" x2="211.76" y2="38" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M218 38 L210 41.36 L211.76 38 L210 34.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="168" y="30" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#1A2230" text-anchor="middle">Oersted/Ampère</text>
+<text x="168" y="52" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">I cria B</text>
+<line x1="272" y1="56" x2="272" y2="125.76" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M272 132 L268.64 124 L272 125.76 L275.36 124 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="280" y="86" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#1A2230" text-anchor="start">Lorentz</text>
+<text x="280" y="98" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">B age sobre I</text>
+<text x="280" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">motor</text>
+<line x1="218" y1="150" x2="124.24" y2="150" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M118 150 L126 146.64 L124.24 150 L126 153.36 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="168" y="142" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#1A2230" text-anchor="middle">Faraday</text>
+<text x="168" y="164" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">ΔΦ/Δt induz ε</text>
+<text x="168" y="176" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#672DAE" text-anchor="middle">gerador, transformador</text>
+<line x1="64" y1="132" x2="64" y2="62.24" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M64 56 L67.36 64 L64 62.24 L60.64 64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="56" y="86" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#1A2230" text-anchor="end">Lenz</text>
+<text x="56" y="98" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="end">I′ se opõe</text>
+<text x="56" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="end">à variação</text></svg>

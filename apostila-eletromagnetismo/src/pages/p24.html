@@ -1,0 +1,56 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Girar uma bobina em um campo magnético faz o <b>fluxo variar</b> com o tempo; pela lei de Faraday, surge uma tensão — e, como o fluxo oscila, a tensão <b>alterna</b> de sinal. Em usinas, turbinas (água, vapor, vento) fazem esse giro.</p>
+    <p class="mb1"><span class="tag">Explicação</span>Com a bobina girando com velocidade angular $\omega$, $\theta=\omega t$ é o ângulo entre $\vB$ e a normal. Então $\Phi(t)=BA\cos\omega t$ por espira e $\varepsilon=-N\,\dd\Phi/\dd t$ (<x-ref f="generator_two"></x-ref>):</p>
+    <x-fc t="Gerador de corrente alternada" s="bobina girando" eq="\varepsilon(t)=N\,B\,A\,\omega\,\sen\omega t ;; \varepsilon_{\text{máx}}=N\,B\,A\,\omega=2\pi f\,N\,B\,A\qquad \varepsilon_{\text{ef}}=\dfrac{\varepsilon_{\text{máx}}}{\sqrt2}">
+      <p data-k="Variáveis">$\omega=2\pi f$ (rad/s); $f$ em Hz; $T=1/f$; $\varepsilon_{\text{ef}}$ = valor <b>eficaz</b> (o das tomadas), $\varepsilon_{\text{máx}}/\sqrt2$.</p>
+      <p data-k="Condições">$\vB$ uniforme, eixo de rotação perpendicular a $\vB$, $\omega$ constante, tensão senoidal. Anéis coletores levam a corrente ao exterior sem comutar (CA).</p>
+      <p data-k="Quando usar">“Espira girando em campo”, “FEM máxima/eficaz”, “frequência da rede”. No Brasil, $f=60\un{Hz}$.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="ac_voltage"><cap>Tensão alternada de um gerador de $60\un{Hz}$ (Exemplo 20): pico, valor eficaz e período.</cap></x-fig>
+    <x-box t="Corrente contínua × alternada">
+      <table class="tbl fs70">
+        <tr><th> </th><th>Contínua (CC)</th><th>Alternada (CA)</th></tr>
+        <tr><td class="k">Sentido</td><td>constante</td><td>inverte periodicamente</td></tr>
+        <tr><td class="k">Fontes</td><td>pilha, bateria</td><td>geradores, tomada</td></tr>
+        <tr><td class="k">Transformador</td><td>não funciona</td><td>funciona</td></tr>
+      </table>
+    </x-box>
+  </div>
+</div>
+
+<x-fig name="generator_two"><cap>Bobina girando (seção): com o plano $\perp\vB$, o fluxo é máximo e $\varepsilon=0$; com o plano $\parallel\vB$, o fluxo é nulo e $|\varepsilon|$ é máxima. Velocidades (ciano) e sentidos de $\vv\times\vB$ (roxo) conferidos por produto vetorial.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="20" l="2" t="FEM de um gerador">
+      <p data-k="Situação">Um gerador tem bobina de $N=100$ espiras, $A=0,010\un{m^2}$, em $B=0,50\un{T}$, girando a $60\un{Hz}$. Calcule $\varepsilon_{\text{máx}}$ e $\varepsilon_{\text{ef}}$ e o período.</p>
+      <p data-k="Esquema"><x-ref f="ac_voltage"></x-ref>.</p>
+      <p data-k="Dados">$N=100$; $A=0,010\un{m^2}$; $B=0,50\un{T}$; $f=60\un{Hz}$; $\omega=2\pi\cdot60=377\un{rad/s}$.</p>
+      <p data-k="Fenômeno">Indução por rotação (varia $\theta$).</p>
+      <p data-k="Método">$\varepsilon_{\text{máx}}=NBA\omega$; $\varepsilon_{\text{ef}}=\varepsilon_{\text{máx}}/\sqrt2$; $T=1/f$.</p>
+      <p data-k="Cálculo">$\varepsilon_{\text{máx}}=100\cdot0,50\cdot0,010\cdot377$; $\varepsilon_{\text{ef}}=188/1,41$; $T=1/60$</p>
+      <p data-k="Resultado">$\varepsilon_{\text{máx}}=1,9\tx{2}\un{V}$ ($188\un{V}$); $\varepsilon_{\text{ef}}\approx1,3\tx{2}\un{V}$ ($133\un{V}$); $T=16,7\un{ms}$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>$\varepsilon_{\text{máx}}$ ocorre quando $\Phi=0$ (plano $\parallel\vB$) ✓. $\varepsilon_{\text{ef}}\approx133\un{V}$ é da ordem das tensões de rede (127 V); dobrar $f$ dobraria $\varepsilon$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="hist" t="Do gerador à usina">
+      <p class="small mb0">Hidrelétrica, termelétrica, nuclear e eólica convertem energia (potencial da água, calor do vapor, vento) em rotação de um eixo ligado ao gerador. A hidreletricidade é a maior fonte da matriz elétrica brasileira. (A energia solar fotovoltaica é exceção: não usa indução.)</p>
+    </x-box>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Achar que a FEM é máxima quando o <b>fluxo</b> é máximo (é nula).</li>
+        <li>Confundir valor <b>eficaz</b> com valor de pico.</li>
+        <li>Tratar motor e gerador como o mesmo mecanismo: um usa força sobre corrente; o outro, indução.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="24" l="2">Uma espira de $0,020\un{m^2}$ gira a $50\un{Hz}$ em $B=0,20\un{T}$. (a) Qual é a FEM máxima por espira? (b) Quantas espiras são necessárias para $\varepsilon_{\text{máx}}=100\un{V}$? <b>(Certo/Errado)</b> (c) A FEM do gerador é máxima quando o plano da espira é perpendicular a $\vB$. (d) O gerador pode produzir corrente contínua usando anéis coletores lisos.</x-exe>
+  <x-ans>E24 (a) $\omega=314\un{rad/s}$; $\varepsilon_{\text{máx}}=0,20\cdot0,020\cdot314=1,3\un{V}$; (b) $N=100/1,26\approx80$; (c) Errado (é nula: o fluxo é máximo); (d) Errado (anéis lisos dão CA; o comutador de anel partido retifica).</x-ans>
+</x-exs>

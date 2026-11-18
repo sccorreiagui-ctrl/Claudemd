@@ -1,0 +1,50 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Um motor elétrico é a força sobre fios com corrente (p. 14) organizada para <b>girar</b>: uma bobina em campo magnético recebe um par de forças opostas — um <b>binário</b> — e passa a rodar.</p>
+    <p><span class="tag">Fenômeno</span>Numa espira retangular em $\vB$ uniforme, os lados paralelos ao eixo sentem forças iguais e opostas, $F=NBI\ell$ (<x-ref f="motor_section"></x-ref>): resultante nula, mas um <b>binário</b> (torque). Os lados perpendiculares ao eixo sofrem forças axiais que se cancelam.</p>
+    <x-fc t="Torque sobre uma bobina em campo uniforme" s="motor" eq="\tau=N\,B\,I\,A\,\sen\varphi ;; \vec\tau=\vec m\times\vB\;,\quad \vec m=N\,I\,A\,\vN">
+      <p data-k="Variáveis">$\tau$ em N·m; $N$ = nº de espiras; $I$ em A; $A=\ell w$ em m$^2$; $\varphi$ = ângulo entre $\vN$ e $\vB$; $\vec m$ = momento magnético da bobina.</p>
+      <p data-k="Condições">$\vB$ uniforme; bobina plana e rígida. $\varphi=90^{\circ}$ (plano $\parallel\vB$): $\tau_{\text{máx}}=NBIA$. $\varphi=0$ (plano $\perp\vB$): $\tau=0$ — posição de equilíbrio.</p>
+      <p data-k="Quando usar">“Torque numa espira/bobina”, “motor de corrente contínua”, “binário”.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="motor_section"><cap>Motor em corte: forças (verde) nos lados com $\odot$ e $\otimes$ formam um binário; a normal $\vN$ tende a alinhar-se a $\vB$. À direita, o comutador.</cap></x-fig>
+    <x-box t="Dedução do torque">
+      <p class="small mb0">Com o plano da bobina a um ângulo $\psi$ de $\vB$, cada força tem braço $\tfrac w2\cos\psi$ ($w$ = largura). Logo $\tau=F\,w\cos\psi=NBI\,(\ell w)\cos\psi=NBIA\sen\varphi$, com $\varphi=90^{\circ}-\psi$ o ângulo entre a <b>normal</b> e $\vB$.</p>
+    </x-box>
+    <x-box t="Comutador: manter o sentido do torque">
+      <p class="small mb0">Sem ele, a bobina oscilaria em torno da posição neutra ($\varphi=0$). Com o <b>anel partido</b> e as <b>escovas</b>, a corrente inverte a cada meia volta e o torque conserva o sentido (motor CC). Em motores de CA, o campo girante faz esse papel.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-fig name="motor_vs_gen"><cap>Motor × gerador: a mesma física em direções opostas — o motor usa a <em>força</em> sobre corrente; o gerador, a <em>indução</em>. Não são mecanismos idênticos (p. 24).</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="19" l="2" t="Torque numa bobina">
+      <p data-k="Situação">Bobina de $N=100$ espiras, $A=0,020\un{m^2}$ ($10\times20\un{cm}$), $I=2,0\un{A}$, em $B=0,30\un{T}$. Calcule (a) o torque máximo; (b) o torque com o plano a $30^{\circ}$ de $\vB$; (c) a força em cada lado longo.</p>
+      <p data-k="Esquema"><x-ref f="motor_section"></x-ref>: $\ell=0,20\un{m}$; $w=0,10\un{m}$.</p>
+      <p data-k="Dados">$N=100$; $A=0,020\un{m^2}$; $I=2,0\un{A}$; $B=0,30\un{T}$; plano a $30^{\circ}$ $\Rightarrow\varphi=60^{\circ}$.</p>
+      <p data-k="Fenômeno">Binário de forças magnéticas sobre corrente.</p>
+      <p data-k="Método">$\tau=NBIA\sen\varphi$; $F=NBI\ell$.</p>
+      <p data-k="Cálculo">$\tau_{\text{máx}}=100\cdot0,30\cdot2,0\cdot0,020$; $\tau=\tau_{\text{máx}}\sen60^{\circ}$; $F=100\cdot0,30\cdot2,0\cdot0,20$</p>
+      <p data-k="Resultado">$\tau_{\text{máx}}=1,2\un{N\cdot m}$; $\tau=1,0\un{N\cdot m}$; $F=12\un{N}$ em cada lado.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Pelo binário: $F\,w=12\cdot0,10=1,2\un{N\cdot m}$ ✓. Com o plano $\perp\vB$, $\tau=0$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="warn" t="O motor também é um gerador (Lenz)">
+      <p class="small mb0">A bobina que gira em $\vB$ tem fluxo variável: surge uma FEM induzida $\varepsilon'$ que <b>se opõe</b> à tensão da fonte ($\varepsilon'$ = força contraeletromotriz). A corrente é $I=(U-\varepsilon')/R$: na <b>partida</b> $\varepsilon'=0$ e $I$ é máxima; em rotação plena, $\varepsilon'$ aumenta e $I$ cai.</p>
+    </x-box>
+    <x-box k="mem" t="Memorize">
+      <p class="small mb0">Motor: <b>elétrica → mecânica</b>. Torque máximo com o plano <b>paralelo</b> a $\vB$ ($\varphi=90^{\circ}$); nulo com o plano <b>perpendicular</b>. O comutador mantém o sentido do giro.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="23" l="2">Uma bobina de $200$ espiras ($8,0\un{cm}\times5,0\un{cm}$) conduz $3,0\un{A}$ em $B=0,50\un{T}$. (a) Calcule o torque máximo. (b) E quando a normal forma $30^{\circ}$ com $\vB$? (c) O motor é ligado a $12\un{V}$ com resistência $2,0\,\Omega$: qual é a corrente na partida? (d) Em rotação, a força contraeletromotriz é $10\un{V}$: qual é a corrente?</x-exe>
+  <x-ans>E23 (a) $A=4,0\tx{-3}\un{m^2}$; $\tau_{\text{máx}}=200\cdot0,50\cdot3,0\cdot4,0\tx{-3}=1,2\un{N\cdot m}$; (b) $1,2\cdot\sen30^{\circ}=0,60\un{N\cdot m}$; (c) $I=12/2,0=6,0\un{A}$; (d) $I=(12-10)/2,0=1,0\un{A}$.</x-ans>
+</x-exs>

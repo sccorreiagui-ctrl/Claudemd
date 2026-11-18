@@ -31,6 +31,11 @@
 <rect x="76.01" y="29.35" width="11.81" height="15.18" rx="1.6" fill="#fff" fill-opacity="0.88"/>
 <text x="77.81" y="41.45" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1A2230" text-anchor="start">N</text>
 <path d="M78.79 31.22 L85.6 31.22 M83.4 29.9 L85.6 31.22 L83.4 32.54" fill="none" stroke="#1A2230" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="328" y="142" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#0E2A47" text-anchor="end">equilíbrio (v constante):</text>
-<text x="328" y="154" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="end">P = 1,00 N · F = B I L = 0,75 N · N = 1,25 N</text>
-<text x="328" y="166" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="end">ao longo da rampa: F cos α = P sen α = 0,60 N</text></svg>
+<text x="239.66" y="70" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#0E2A47" text-anchor="start">equilíbrio</text>
+<text x="239.66" y="81" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#0E2A47" text-anchor="start">(v constante)</text>
+<text x="239.66" y="99" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="start">P = 1,00 N</text>
+<text x="239.66" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="start">F = B I L = 0,75 N</text>
+<text x="239.66" y="121" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="start">N = 1,25 N</text>
+<text x="239.66" y="137" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">ao longo da rampa:</text>
+<text x="239.66" y="148" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">F cos α = P sen α</text>
+<text x="239.66" y="159" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">= 0,60 N</text></svg>

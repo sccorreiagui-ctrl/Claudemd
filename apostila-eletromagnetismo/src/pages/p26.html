@@ -1,0 +1,44 @@
+<div class="row c2 g5">
+  <div>
+    <h2>Transmissão em alta tensão</h2>
+    <p class="small">Para entregar a potência $P=UI$, a corrente é $I=P/U$. A perda por efeito Joule na linha, de resistência $R$, é $P_{perda}=RI^{2}=R\,P^{2}/U^{2}$: <b>elevar a tensão 10 vezes reduz a perda 100 vezes</b>. Por isso, transformadores elevam a tensão na usina e a abaixam perto dos consumidores — o que só é possível em corrente alternada.</p>
+  </div>
+  <div>
+    <h2>Onde a matriz do PAS 3 pede Eletromagnetismo</h2>
+    <p class="small mb0">Nos objetivos educacionais de Ciências da Natureza, o tema aparece em: <b>produção e fornecimento de energia elétrica</b> (CN1) · <b>transporte e mobilidade</b> (CN3) · <b>robótica e automação</b> (CN4) · <b>tecnologias de informação e comunicação</b> (CN5) · <b>técnicas e tecnologias de saúde</b>, com ressonância magnética e marcapasso (CN9) · segurança no trabalho (CN10) · sustentabilidade (CN11) · <b>história da eletricidade e do magnetismo</b> (CN12).</p>
+  </div>
+</div>
+
+<x-fig name="transmission_chain"><cap>Mesma potência entregue em duas tensões: a corrente cai com $U$ e a perda na linha cai com $U^{2}$ (valores de exemplo).</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <h2>Ressonância magnética (RM)</h2>
+    <x-fig name="mri_scheme"><cap>Esquema simplificado de um aparelho de RM (corte longitudinal).</cap></x-fig>
+    <ul class="small">
+      <li><b>Campo intenso $\vB_0$</b> ($1,5$ a $3\un{T}$, solenoide supercondutor) alinha, em pequena proporção, os momentos magnéticos nucleares do <b>hidrogênio</b> (água e gordura).</li>
+      <li>Esses núcleos ressoam na frequência de Larmor, $f\approx42,6\un{MHz}$ por tesla ($\approx64\un{MHz}$ a $1,5\un{T}$): faixa de <b>rádio</b>. Um pulso de <b>radiofrequência</b> nessa frequência perturba o alinhamento.</li>
+      <li>Ao cessar o pulso, os núcleos emitem um sinal de RF, detectado por bobinas — <b>por indução (Faraday)</b>.</li>
+      <li><b>Gradientes</b> de campo fazem a frequência depender da posição: o computador forma a imagem. O contraste vem dos tempos de relaxação de cada tecido.</li>
+      <li><b>Não usa radiação ionizante</b> (diferente de raios X e tomografia). Cuidados: objetos ferromagnéticos são atraídos pelo ímã; implantes e <b>marcapassos</b> exigem avaliação.</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Captador de guitarra</h2>
+    <x-fig name="guitar_pickup"><cap>Captador magnético: corda de aço vibrando varia o fluxo na bobina.</cap></x-fig>
+    <h2>Trens de levitação magnética</h2>
+    <x-fig name="maglev"><cap>Levitação por atração controlada (esquema).</cap></x-fig>
+    <p class="small mb0">Forças magnéticas sustentam o veículo (atração controlada ou repulsão por correntes induzidas/supercondutores); um <b>motor linear</b> o propulsiona, sem atrito de rolamento.</p>
+  </div>
+</div>
+
+<x-box t="Outras aplicações ligadas ao conteúdo"><p class="small mb0"><b>Relés e eletroímãs:</b> uma corrente pequena comanda um circuito de potência (automação). <b>Sensor Hall:</b> a força magnética desvia portadores em movimento e produz tensão transversal proporcional a $B$. <b>Servomotores e motores de passo:</b> robótica. <b>Fogão de indução e carregador sem fio:</b> indução (Faraday) e correntes parasitas. <b>Dispositivo de aceleração (<em>coilgun</em>):</b> bobinas acionadas em sequência atraem um projétil ferromagnético.</p></x-box>
+
+<x-box k="hist" t="Conexão histórica: Oersted → Faraday → Maxwell"><div class="tl">
+  <div><b>1820 · Oersted</b>corrente desvia a agulha: $I\to\vB$</div>
+  <div><b>1820 · Ampère</b>forças entre correntes; circulação de $\vB$</div>
+  <div><b>1831 · Faraday</b>$\vB$ variável induz corrente: $\Delta\Phi\to\varepsilon$</div>
+  <div><b>1865 · Maxwell</b>teoria unificada: $\vE$ variável também cria $\vB$; a luz é onda EM</div>
+  <div><b>1887 · Hertz</b>ondas de rádio confirmam a teoria</div>
+  <div><b>séc. XX</b>eletrificação, motores, transformadores e ressonância magnética</div>
+</div></x-box>

@@ -414,8 +414,8 @@ def parallel_wires(W=336, H=186):
             s.arrow((xw, 92 + sgn * 54), (xw, 92 - sgn * 54), 'orange', 3.4, head=10)
         for yy in (52, 92, 132):
             (s.sym_in if B1[2] < 0 else s.sym_out)((x2 + 18, yy), 6.2, 'blue', 1.6)
-        s.vtext(x2 + 42, 60, 'B', sub='1', size=11, color='blue')
-        s.text(x2 + 30, 72, 'campo do', 7.4, 'blue'); s.text(x2 + 30, 81, 'fio 1', 7.4, 'blue')
+        s.vtext(x2 + 36, 60, 'B', sub='1', size=11, color='blue')
+        s.text(x2 + 27, 72, 'campo do', 7.4, 'blue'); s.text(x2 + 27, 81, 'fio 1', 7.4, 'blue')
         # forças (verdes)
         s.arrow((x1, 120), (x1 + 30 * np.sign(F1[0]), 120), 'green', 3.0, head=9)
         s.arrow((x2, 120), (x2 + 30 * np.sign(F2[0]), 120), 'green', 3.0, head=9)
@@ -464,14 +464,16 @@ def wire_arc(W=336, H=132):
 
 
 # ======================================================================================= p15 · espira retangular perto de um fio
-def loop_near_wire(W=336, H=152):
+def loop_near_wire(W=336, H=168):
     s = Svg(W, H, 'loop_near_wire')
     sc = 11.0                                              # px por cm
     xw = 46.0
     a_cm, b_cm, L_cm = 2.0, 6.0, 10.0
     x_near, x_far = xw + a_cm * sc, xw + (a_cm + b_cm) * sc
     y_top, y_bot = 14.0, 14.0 + L_cm * sc
-    s.symgrid(xw + 12, 12, W - 10, H - 10, 26, 24, 'in', 'blue', r=3.8, w=0.9, opacity=0.25, skip=lambda x, y: x_near - 8 < x < x_far + 8 and y_top - 8 < y < y_bot + 8)
+    xp0, xp1 = 196.0, W - 4.0                              # painel "forças à escala"
+    s.symgrid(xw + 12, 12, xp0 - 8, y_bot + 12, 26, 24, 'in', 'blue', r=3.8, w=0.9, opacity=0.25,
+              skip=lambda x, y: (x_near - 8 < x < x_far + 8 and y_top - 8 < y < y_bot + 8) or (x_far + 14 < x < x_far + 46 and y_top - 8 < y < y_bot + 8))
     s.arrow((xw, y_bot + 6), (xw, 6), 'orange', 3.6, head=10)
     s.vtext(xw - 14, 24, 'I', sub='1', size=11, color='orange', arrow=False)
     # espira (horária): lado próximo sobe, topo vai para a direita, lado distante desce, base vai para a esquerda
@@ -486,26 +488,39 @@ def loop_near_wire(W=336, H=152):
         s.arrow(p0, p1, 'orange', 2.6, head=8.5)
     assert res['perto'][0] < 0 and res['longe'][0] > 0 and res['topo'][1] > 0 and res['base'][1] < 0
     ym = (y_top + y_bot) / 2
-    s.arrow((x_near, ym), (x_near - 40, ym), 'green', 3.0, head=9.5)
-    s.arrow((x_far, ym), (x_far + 10, ym), 'green', 3.0, head=9.5)
+    s.arrow((x_near, ym), (x_near - 16, ym), 'green', 2.6, head=7.5)          # só o sentido (comprimentos à escala no painel)
+    s.arrow((x_far, ym), (x_far + 9, ym), 'green', 2.6, head=7.5)
     xm = (x_near + x_far) / 2
     s.arrow((xm, y_top), (xm, y_top - 12), 'green', 2.4, head=8)
     s.arrow((xm, y_bot), (xm, y_bot + 12), 'green', 2.4, head=8)
-    s.vtext(x_near - 22, ym - 7, 'F', sub='perto', size=10.5, color='green', plate=True)
-    s.vtext(x_far + 26, ym - 7, 'F', sub='longe', size=10.5, color='green', plate=True)
-    s.vtext((x_near + x_far) / 2 + 8, ym + 4, 'I', sub='2', size=11, color='orange', arrow=False)
+    s.vtext(xm + 10, ym + 14, 'I', sub='2', size=11, color='orange', arrow=False)
     # cotas
     yc = y_bot + 24
     for xa, xb, lab in ((xw, x_near, 'a'), (x_near, x_far, 'b')):
         s.line((xa, yc), (xb, yc), 'gray', 1.0); s.line((xa, yc - 3), (xa, yc + 3), 'gray', 1.0); s.line((xb, yc - 3), (xb, yc + 3), 'gray', 1.0)
         s.text((xa + xb) / 2, yc + 12, lab, 9, 'gray', weight=700)
-    s.line((x_far + 38, y_top), (x_far + 38, y_bot), 'gray', 1.0)
-    s.line((x_far + 34, y_top), (x_far + 42, y_top), 'gray', 1.0); s.line((x_far + 34, y_bot), (x_far + 42, y_bot), 'gray', 1.0)
-    s.text(x_far + 52, ym + 3, 'L', 9, 'gray', weight=700)
-    s.text(W - 6, 14, 'topo e base: forças iguais e opostas', 8, 'ink', anchor='end') if False else None
-    s.save()
+    xl = x_far + 30
+    s.line((xl, y_top), (xl, y_bot), 'gray', 1.0)
+    s.line((xl - 4, y_top), (xl + 4, y_top), 'gray', 1.0); s.line((xl - 4, y_bot), (xl + 4, y_bot), 'gray', 1.0)
+    s.text(xl + 11, ym + 3, 'L', 9, 'gray', weight=700)
+    # painel: forças nos lados verticais, à escala (1,0×10^-4 N = 40 px)
     mu = 2e-7
     I1, I2, L, a, b = 20.0, 5.0, 0.10, 0.02, 0.06
+    Fp = mu * I1 * I2 * L / a
+    Fl = mu * I1 * I2 * L / (a + b)
+    Fr = Fp - Fl
+    assert abs(Fp - 1.0e-4) < 1e-12 and abs(Fl - 2.5e-5) < 1e-12 and abs(Fr - 7.5e-5) < 1e-12
+    k = 40 / 1.0e-4
+    s.rect(xp0, y_top - 6, xp1 - xp0, (y_bot - y_top) + 12, 5, fill='paper', stroke='light', sw=1.0)
+    s.text((xp0 + xp1) / 2, y_top + 8, 'forças nos lados verticais (à escala)', 7.8, 'gray')
+    xo = xp0 + 78
+    s.line((xo, y_top + 18), (xo, y_bot - 4), 'light', 1.0, dash='3 3')
+    rows = [(y_top + 36, 'F_{perto} = 1,0×10^{-4} N', -Fp * k, 'green', 2.8), (y_top + 66, 'F_{longe} = 2,5×10^{-5} N', +Fl * k, 'green', 2.8),
+            (y_top + 96, 'resultante: 7,5×10^{-5} N (atração)', -Fr * k, 'green', 4.0)]
+    for yy, lab, dx, col, wd in rows:
+        s.text(xp0 + 6, yy - 8, lab, 8.2, 'green', anchor='start', weight=700)
+        s.arrow((xo, yy), (xo + dx, yy), col, wd, head=8.5 if wd < 3.5 else 10)
+    s.save()
     return mu * I1 * I2 * L * (1 / a - 1 / (a + b))
 
 

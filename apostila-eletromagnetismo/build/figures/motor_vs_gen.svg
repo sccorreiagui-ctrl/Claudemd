@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 128" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><text x="164" y="16" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="800" fill="#14703A" text-anchor="middle">MOTOR</text>
+<rect x="12" y="28" width="92" height="40" rx="5" fill="#E5F5EB" stroke="#1B8F4B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58" y="45" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Energia elétrica</text>
+<text x="58" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">da fonte (I)</text>
+<line x1="105" y1="48" x2="116.76" y2="48" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M123 48 L115 51.36 L116.76 48 L115 44.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="124" y="28" width="92" height="40" rx="5" fill="#E5F5EB" stroke="#1B8F4B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="170" y="45" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Forças sobre I em B</text>
+<text x="170" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">F = N B I ℓ → torque</text>
+<line x1="217" y1="48" x2="228.76" y2="48" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M235 48 L227 51.36 L228.76 48 L227 44.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="236" y="28" width="92" height="40" rx="5" fill="#E5F5EB" stroke="#1B8F4B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="282" y="45" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Rotação</text>
+<text x="282" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">energia mecânica</text>
+<text x="164" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Entrada: elétrica · Saída: mecânica</text>
+<text x="164" y="98" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#5C6573" text-anchor="middle">Efeito principal: força sobre corrente (p. 14)</text>
+<text x="164" y="112" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="middle">Ao girar, também induz FEM contrária (Lenz)</text>
+<text x="504" y="16" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="800" fill="#672DAE" text-anchor="middle">GERADOR</text>
+<rect x="352" y="28" width="92" height="40" rx="5" fill="#F1EAFB" stroke="#7E3FC4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="398" y="45" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Rotação</text>
+<text x="398" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">turbina, vento, água</text>
+<line x1="445" y1="48" x2="456.76" y2="48" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M463 48 L455 51.36 L456.76 48 L455 44.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="464" y="28" width="92" height="40" rx="5" fill="#F1EAFB" stroke="#7E3FC4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="45" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Fluxo varia</text>
+<text x="510" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">ΔΦ/Δt → FEM</text>
+<line x1="557" y1="48" x2="568.76" y2="48" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M575 48 L567 51.36 L568.76 48 L567 44.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="576" y="28" width="92" height="40" rx="5" fill="#F1EAFB" stroke="#7E3FC4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="622" y="45" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Energia elétrica</text>
+<text x="622" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">tensão alternada</text>
+<text x="504" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">Entrada: mecânica · Saída: elétrica</text>
+<text x="504" y="98" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#5C6573" text-anchor="middle">Efeito principal: indução de Faraday (p. 17)</text>
+<text x="504" y="112" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#672DAE" text-anchor="middle">Com carga elétrica, exige torque na turbina (Lenz)</text>
+<line x1="340" y1="8" x2="340" y2="120" fill="none" stroke="#DDE3EA" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg>

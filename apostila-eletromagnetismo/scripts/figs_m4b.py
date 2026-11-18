@@ -112,7 +112,7 @@ def moving_rod(W=336, H=186):
     assert np.allclose(drive, Y_)                # corrente na haste sobe
     F = np.cross(drive, B)                       # I L × B  (L ∥ corrente)
     assert np.allclose(F, -X_)                   # freia a haste
-    s.symgrid(xl + 22, yt + 16, xr_rod - 12, yb - 10, 30, 28, 'in', 'blue', r=4.6, w=1.1, opacity=0.5)
+    s.symgrid(xl + 22, yt + 16, xr_rod - 12, yb - 10, 30, 28, 'in', 'blue', r=4.6, w=1.1, opacity=0.5, skip=lambda x, y: 118 < x < 200 and 94 < y < 124)
     s.symgrid(xr_rod + 18, yt + 16, xr - 16, yb - 10, 30, 28, 'in', 'blue', r=4.6, w=1.1, opacity=0.22)
     s.line((xl, yt), (xr, yt), 'ink', 2.4); s.line((xl, yb), (xr, yb), 'ink', 2.4)
     s.resistor((xl, yt), (xl, yb), n=5, amp=6.5, color='ink', w=2.2)
@@ -143,6 +143,39 @@ def moving_rod(W=336, H=186):
     s.save()
     return s
 
+
+
+# ======================================================================================= p21 · leitura de Lorentz (separação de cargas na haste)
+def rod_lorentz(W=336, H=112):
+    s = Svg(W, H, 'rod_lorentz')
+    v, B = X_.copy(), -Z_
+    f_pos = np.cross(v, B)                        # força magnética por unidade de carga positiva: v × B
+    assert np.allclose(f_pos, Y_)                 # cargas + sobem; elétrons descem
+    E_in = -f_pos                                 # equilíbrio q E + q v × B = 0  ⇒  E = −v × B (aponta para baixo)
+    assert np.allclose(E_in, -Y_)
+    xr0, xr1, yt, yb = 44.0, 68.0, 12.0, 100.0
+    s.symgrid(8, 14, 150, 100, 28, 26, 'in', 'blue', r=4.2, w=1.0, opacity=0.3,
+              skip=lambda x, y: (xr0 - 14 < x < xr1 + 12) or (xr1 + 6 < x < 140 and 44 < y < 68))
+    s.rect(xr0, yt, xr1 - xr0, yb - yt, 5, fill='#D9DEE6', stroke='gray', sw=1.4)
+    for yy in (26, 38):
+        s.text((xr0 + xr1) / 2, yy + 4, '+', 13, 'red', weight=700)
+    for yy in (72, 84):
+        s.text((xr0 + xr1) / 2, yy + 4, '−', 13, 'red', weight=700)
+    s.circle(((xr0 + xr1) / 2, 61), 5.4, fill='white', stroke=STROKE['red'], w=1.3)
+    s.text((xr0 + xr1) / 2, 64.6, '+', 9, 'red', weight=700)
+    s.arrow(((xr0 + xr1) / 2, 54), ((xr0 + xr1) / 2, 44), 'green', 2.4, head=7)
+    s.arrow((xr1 + 8, 56), (xr1 + 46, 56), 'cyan', 2.8, head=9.5)
+    s.vtext(xr1 + 58, 61, 'v', size=12, color='cyan', plate=True)
+    s.arrow((xr0 - 10, 34), (xr0 - 10, 80), 'ink', 1.8, head=7)
+    s.vtext(xr0 - 20, 60, 'E', size=11.5, color='ink')
+    x0 = 160.0
+    s.text(x0, 20, 'Leitura de Lorentz', 9.4, 'navy', anchor='start', weight=700)
+    s.text(x0, 36, 'q v × B: cargas + sobem, elétrons descem', 8.4, 'green', anchor='start', weight=700)
+    s.text(x0, 52, 'topo (+) e base (−): surge E para baixo', 8.4, 'red', anchor='start', weight=700)
+    s.text(x0, 68, 'equilíbrio: q E = q v B  ⇒  E = v B', 8.4, 'ink', anchor='start')
+    s.text(x0, 86, 'ε = E L = B L v', 10, 'purple', anchor='start', weight=700)
+    s.save()
+    return s
 
 # ======================================================================================= p22 · rampa (vista lateral)
 def incline_side(W=336, H=186):
@@ -188,9 +221,15 @@ def incline_side(W=336, H=186):
     s.vtext(cpos[0] + Fm * sc + 8, cpos[1] - 4, 'F', sub='mag', size=11, color='green', plate=True)
     s.vtext(cpos[0] + 14, cpos[1] + P * sc + 6, 'P', size=11, color='ink', plate=True)
     s.vtext(cpos[0] + nx * N * sc - 14, cpos[1] + ny * N * sc - 2, 'N', size=11, color='ink', plate=True)
-    s.text(W - 8, H - 44, 'equilíbrio (v constante):', 9.0, 'navy', anchor='end', weight=700)
-    s.text(W - 8, H - 32, 'P = 1,00 N · F = B I L = 0,75 N · N = 1,25 N', 8.2, 'ink', anchor='end')
-    s.text(W - 8, H - 20, 'ao longo da rampa: F cos α = P sen α = 0,60 N', 8.2, 'green', anchor='end', weight=700)
+    xt = ex + 10                                  # faixa livre à direita da rampa
+    s.text(xt, 70, 'equilíbrio', 9.0, 'navy', anchor='start', weight=700)
+    s.text(xt, 81, '(v constante)', 8.2, 'navy', anchor='start')
+    s.text(xt, 99, 'P = 1,00 N', 8.2, 'ink', anchor='start')
+    s.text(xt, 110, 'F = B I L = 0,75 N', 8.2, 'ink', anchor='start')
+    s.text(xt, 121, 'N = 1,25 N', 8.2, 'ink', anchor='start')
+    s.text(xt, 137, 'ao longo da rampa:', 8.2, 'green', anchor='start', weight=700)
+    s.text(xt, 148, 'F cos α = P sen α', 8.2, 'green', anchor='start', weight=700)
+    s.text(xt, 159, '= 0,60 N', 8.2, 'green', anchor='start', weight=700)
     s.save()
     return vt, I, Fm, N
 
@@ -251,6 +290,6 @@ def v_terminal(W=336, H=150):
 if __name__ == '__main__':
     print('lenz_four:', lenz_four())
     print('lenz_stationary:', lenz_stationary())
-    moving_rod()
+    moving_rod(); rod_lorentz()
     print('incline (vt, I, F, N):', incline_side())
     incline_top(); v_terminal()

@@ -1,0 +1,49 @@
+<x-fig name="decision_flowchart"><cap>Fluxograma de consulta rápida: da pergunta da questão à fórmula ou regra. Confira sempre as <b>condições de uso</b> da fórmula escolhida.</cap></x-fig>
+
+<h2>Formulário essencial (SI) e condições de uso</h2>
+<table class="tbl fs70">
+  <tr><th style="width:33%">Campos e fontes</th><th style="width:34%">Força magnética</th><th>Indução e dispositivos</th></tr>
+  <tr>
+    <td>Fio longo: $B=\dfrac{\mu_0I}{2\pi r}$ <span class="muted">($r\perp$ fio)</span><br>Espira (centro): $B=N\dfrac{\mu_0I}{2R}$<br>Solenoide longo: $B=\mu_0nI$, $n=N/L$ <span class="muted">(interior)</span><br>Ampère: $\oint\vB\cdot\dd\vec\ell=\mu_0I_{env}$ <span class="muted">(estacionária; simetria p/ calcular $B$)</span><br>Fios paralelos: $\dfrac FL=\dfrac{\mu_0I_1I_2}{2\pi d}$</td>
+    <td>Carga: $\vF=q\,\vv\times\vB$; $F=|q|vB\sen\theta$<br>Círculo ($\vv\perp\vB$): $r=\dfrac{mv}{|q|B}$; $T=\dfrac{2\pi m}{|q|B}$<br>Hélice: $r=\dfrac{mv_\perp}{|q|B}$; $p=v_\parallel T$<br>Fio: $F=BIL\sen\theta$ ($\vF=I\vL\times\vB$)<br>Bobina: $\tau=NBIA\sen\varphi$<br><span class="muted">$W_{\vF_m}=0$ sobre carga pontual</span></td>
+    <td>Fluxo: $\Phi=BA\cos\theta$ <span class="muted">($\theta$ com a normal)</span><br>Faraday: $\varepsilon=-N\dfrac{\Delta\Phi}{\Delta t}$; $I=\dfrac{|\varepsilon|}{R}$<br>Haste: $\varepsilon=BLv$; $F=\dfrac{B^2L^2v}{R}$ <span class="muted">(se $\vL\perp\vv\perp\vB$)</span><br>Gerador: $\varepsilon_{\text{máx}}=NBA\omega$; $\varepsilon_{\text{ef}}=\varepsilon_{\text{máx}}/\sqrt2$<br>Transformador ideal: $\dfrac{U_p}{U_s}=\dfrac{N_p}{N_s}$; $P_p=P_s$</td>
+  </tr>
+</table>
+<p class="xs muted mb1">Constantes: $\mu_0=4\pi\tx{-7}\un{T\cdot m/A}$ · $e=1,6\tx{-19}\un{C}$ · $m_e=9,11\tx{-31}\un{kg}$ · $m_p=1,67\tx{-27}\un{kg}$ · $1\un{T}=1\un{N/(A\cdot m)}$ · $1\un{Wb}=1\un{T\cdot m^2}=1\un{V\cdot s}$.</p>
+
+<div class="row c2 g5">
+  <div>
+    <h2>Quadro comparativo das regras vetoriais</h2>
+    <table class="tbl fs70">
+      <tr><th style="width:23%">Regra</th><th>Pergunta e como fazer</th></tr>
+      <tr><td class="k">1ª regra da mão direita</td><td>$I\to\vB$: polegar em $I$ (convencional); os dedos que envolvem o fio dão $\vB$ (círculos tangentes).</td></tr>
+      <tr><td class="k">Regra da força ($v\times B$)</td><td>$\vB,\vv\to\vF$: dedos em $\vv$, curvando para $\vB$; polegar = $\vv\times\vB$; $q<0$ inverte. (Tapa: dedos em $\vB$, polegar em $\vv$, palma = $\vF$. Mão esquerda: F, B, v.)</td></tr>
+      <tr><td class="k">Espira / solenoide</td><td>Dedos na corrente, polegar em $\vB$ interno. Visto de frente: anti-horário = <b>N</b>; horário = <b>S</b>.</td></tr>
+      <tr><td class="k">Lenz</td><td>$\vB_{ind}$ se opõe à <b>variação</b> de $|\Phi|$; mão direita dá $I$.</td></tr>
+    </table>
+    <x-box k="mem" t="Comparações-chave">
+      <p class="small mb0"><b>Faraday</b> = quanto; <b>Lenz</b> = para que lado. <b>Motor</b>: força sobre corrente (elétrica → mecânica); <b>gerador</b>: indução (mecânica → elétrica). <b>CC</b> não alimenta transformador; <b>elevador</b>: $U\uparrow I\downarrow$. Carga <b>positiva</b>: $\vF\parallel\vv\times\vB$; <b>negativa</b>: oposta. Movimento <b>paralelo</b> a $\vB$: reta; <b>perpendicular</b>: círculo.</p>
+    </x-box>
+  </div>
+  <div>
+    <x-fig name="phenomena_map"><cap>Conexão entre os fenômenos: $I\to\vB\to$ força (motor) e $\Delta\Phi\to\varepsilon\to$ corrente (gerador, transformador), com a oposição de Lenz.</cap></x-fig>
+  </div>
+</div>
+
+<h2>Dez erros conceituais que mais custam pontos</h2>
+<div class="row c2 g5 mb0">
+  <ol class="small mb0">
+    <li>Usar a mão esquerda ou o sentido dos <b>elétrons</b> no lugar da corrente convencional.</li>
+    <li>Medir o ângulo do fluxo com o <b>plano</b> em vez da <b>normal</b>.</li>
+    <li><b>Somar módulos</b> de campos em vez de vetores (superposição).</li>
+    <li>Achar que <b>fluxo grande</b> induz FEM: só a <b>variação</b> induz.</li>
+    <li>Dizer que $\vB_{ind}$ “sempre se opõe a $\vB_{ext}$”: opõe-se à <b>variação</b>.</li>
+  </ol>
+  <ol class="small mb0" start="6">
+    <li>Aplicar $\varepsilon=BLv$ ou $F=BIL$ <b>sem checar a geometria</b> (ângulos, projeções).</li>
+    <li>Esquecer o <b>sinal</b> de $q$ ou usar $r=mv/qB$ com $\vv$ não perpendicular a $\vB$.</li>
+    <li>Dizer que a força magnética <b>realiza trabalho</b> sobre a carga pontual.</li>
+    <li>Ligar transformador em <b>CC</b> ou achar que ele <b>cria energia</b>.</li>
+    <li>Confundir fórmulas: fio (com $\pi$) × espira (sem $\pi$); $N$ × $n=N/L$.</li>
+  </ol>
+</div>

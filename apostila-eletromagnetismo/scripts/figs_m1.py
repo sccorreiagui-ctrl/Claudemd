@@ -214,8 +214,8 @@ def materials3(W=688, H=226):
                         s.arrow((cxm + 3.4, cym), (cxm - 3.4, cym), 'gray', 1.3, head=4.2)
             if on:
                 s.arrow((x - 22, y + ph / 2), (x - 4, y + ph / 2), 'blue', 2.0, head=7.5)
-        s.text(x + pw / 2, rows_y[1] + ph + 11.5, ['momentos alinhados: M grande, no sentido de B', 'alinhamento parcial: M pequena, no sentido de B', 'momentos induzidos: M pequena, oposta a B'][k], 7.9, 'gray')
-        yf = 172.0                                   # linha da força em campo não uniforme
+        s.text(x + pw / 2, rows_y[1] + ph + 10.0, ['momentos alinhados: M grande, no sentido de B', 'alinhamento parcial: M pequena, no sentido de B', 'momentos induzidos: M pequena, oposta a B'][k], 7.9, 'gray')
+        yf = 182.0                                   # linha da força em campo não uniforme
         s.rect(x - 2, yf - 11, 30, 22, 0, fill=STROKE['red'], stroke=STROKE['red'], sw=1.2)
         s.text(x + 13, yf + 4, 'N', 10.5, 'white', weight=700)
         if k == 0:
@@ -231,7 +231,7 @@ def materials3(W=688, H=226):
             s.arrow((x + 60, yf), (x + 76, yf), 'green', 1.8, head=7)
             s.text(x + 84, yf + 3.5, 'repulsão fraca', 8.4, 'green', anchor='start', weight=700)
     for i, t in enumerate(['amostra perto', 'de um polo', '(campo não', 'uniforme)']):
-        s.text(0, 164 + i * 11, t, 8.6, 'gray', anchor='start', weight=700)
+        s.text(0, 174 + i * 11, t, 8.6, 'gray', anchor='start', weight=700)
     s.save()
     return s
 
