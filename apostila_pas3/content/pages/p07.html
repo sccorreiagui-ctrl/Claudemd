@@ -1,0 +1,54 @@
+<!--META {"topic":"Conjugado"}-->
+<div class="pt"><span class="num">07</span><h1>Conjugado e propriedades fundamentais</h1><span class="mat">MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 80mm">
+<div>
+<div class="box def"><div class="bt">Conjugado</div>
+<p class="nob">Se $z=a+bi$, o conjugado é $\;\conj z=a\,\bad{-}\,bi$. <b>Só o sinal da parte imaginária muda.</b> A parte real fica igual.</p></div>
+<div class="att box"><div class="bt">Atenção · conjugado ≠ oposto</div>
+<p class="nob">$\conj{3+2i}=3-2i$ (reflexão no <b>eixo real</b>) &nbsp;·&nbsp; $-(3+2i)=-3-2i$ (reflexão pela <b>origem</b>). Erro típico: escrever $\conj{a+bi}=-a+bi$.</p></div>
+<h3>Propriedades que mais caem</h3>
+<table class="t2">
+<tr><td class="l">$z+\conj z=2a=2\Rep(z)$</td><td class="l">$z-\conj z=2b\,i$</td></tr>
+<tr class="hl"><td class="l" colspan="2">$z\cdot\conj z=a^2+b^2=|z|^2\ \ge 0$ (sempre real!)</td></tr>
+<tr><td class="l">$\conj{z+w}=\conj z+\conj w$</td><td class="l">$\conj{zw}=\conj z\,\conj w$</td></tr>
+<tr><td class="l">$\conj{\conj z}=z$</td><td class="l">$\conj{z^n}=(\conj z)^n$</td></tr>
+<tr><td class="l">$z\in\R\iff z=\conj z$</td><td class="l">$z$ imag. puro $\iff \conj z=-z$</td></tr></table>
+</div>
+<div class="fig"><div>{{fig:fig_conj}}</div><div class="cap"><b>Fig. 5.</b> $\conj z$ é o <b>espelho</b> de $z$ no eixo real; $-z$ é o simétrico em relação à origem.</div></div>
+</div>
+
+<div class="box ok"><div class="bt">Por que $z\cdot\conj z=a^2+b^2$?</div>
+<p class="nob">É o produto notável da p. 6: $(a+bi)(a-bi)=a^2-(bi)^2=a^2-b^2i^2=a^2+b^2$. O resultado é um número <b>real não negativo</b>, e é por isso que o conjugado serve para «eliminar» o $i$ de um denominador (p. 8).</p></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 13</span><span class="lv">N1</span><span class="r">produto pelo conjugado</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $z\cdot\conj z$ para $z=3-4i$ e para $z=2+i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$z=3-4i$: $\conj z=3+4i$, $z\conj z=3^2+(-4)^2=25$. &nbsp;$z=2+i$: $2^2+1^2=5$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$25$ &nbsp;e&nbsp; $5$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(2+i)(2-i)=4-i^2=5$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 14</span><span class="lv">N2</span><span class="r">equação com conjugado</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Ache $z$ tal que $z+2\conj z=3-4i$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Escreva $z=a+bi$ e substitua.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$(a+bi)+2(a-bi)=3a-bi=3-4i\Rightarrow a=1,\ b=4$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$z=1+4i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$\conj z=1-4i$: $1+4i+2-8i=3-4i$ ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 15</span><span class="lv">N2</span><span class="r">conjugado em ambos os lados</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $\conj z=2z+3$ em $\C$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$a-bi=2a+2bi+3\Rightarrow\begin{cases}a=2a+3\\ -b=2b\end{cases}\Rightarrow a=-3,\ b=0.$</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$z=-3$ (única solução, real).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$\conj{-3}=-3$ e $2(-3)+3=-3$ ✓.</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Conjugado de $5-7i$; de $-3i$; de $4$. Quanto vale $(1+2i)(1-2i)$? <span class="mut sm">(Respostas: $5+7i$; $3i$; $4$; $5$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Qual sinal muda no conjugado? Que tipo de número é $z\cdot\conj z$? Se $z=\conj z$, o que se conclui sobre $z$?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">6</div><div><span class="lv">N2</span> <span class="fm ce">C/E</span> Julgue: «Para todo número complexo $z$, o número $z-\conj z$ é imaginário puro.»</div></div></div>
+<div class="gab"><b>6 — Errado.</b> $z-\conj z=2b\,i$. Se $b\neq0$ é imaginário puro, mas para $z$ real ($b=0$) o resultado é $0$, que não é imaginário puro. O «para todo» falha.</div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> Se $z\cdot\conj z=25$ e $\Rep(z)=3$, então $\Imp(z)=\pm4$.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo.</b> $z\conj z=a^2+b^2=25$ com $a=3$ ⟹ $b^2=16$ ⟹ $b=\pm4$.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$z=2-5i$: $z+\conj z$ <b class="cg">→ $4$</b></div><div>$z=2-5i$: $z\conj z$ <b class="cg">→ $29$</b></div><div>$\conj{(1+i)(2-i)}$ <b class="cg">→ $3-i$</b></div></div></div>

@@ -1,0 +1,46 @@
+<!--META {"topic":"Raízes da unidade e polígonos"}-->
+<div class="pt"><span class="num">19</span><h1>Raízes da unidade, polígonos regulares e equações</h1><span class="mat">MAT9 · MAT10</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 1fr">
+<div class="box def"><div class="bt">Raízes $n$-ésimas da unidade: $z^n=1$</div>
+<p class="nob">Como $1=1\cis0$: $\ \ok{1}\ \cis\!\left(\ang{\dfrac{2k\pi}n}\right)$, $k=0,\dots,n-1$. Estão sobre a <b>circunferência unitária</b>, igualmente espaçadas de $\frac{360^\circ}n$, e são os vértices de um <b>polígono regular de $n$ lados</b> com um vértice em $(1,0)$. Soma $=0$ ($n\ge2$).</p></div>
+<div class="box ok"><div class="bt">E se $z^n=k$ com $|k|\ne1$?</div>
+<p class="nob">Mesma ideia, mas o raio é $R=\sqrt[n]{|k|}$ e o primeiro ângulo é $\arg k/n$. Para $z^3=8$: $R=2$ (Fig. 21). Raio errado dá perímetro e área errados: <b>confira $R$ antes de medir</b>.</p></div>
+</div>
+
+<div class="fig"><div style="width:80%;margin:0 auto">{{fig:fig_unity}}</div><div class="cap"><b>Fig. 20.</b> Raízes de $z^n=1$. Casos degenerados: $n=1$ (um ponto) e $n=2$ ($\pm1$: um segmento, não um polígono).</div></div>
+
+<div class="gA" style="grid-template-columns:1fr 70mm">
+<div>
+<div class="box met"><div class="bt">Geometria dos polígonos inscritos (raio $R$)</div>
+<table class="t2" style="margin:0 0 1mm">
+<tr><th>$n$</th><th class="l">figura</th><th>lado $\ell=2R\sen\frac\pi n$</th><th>área $=\frac n2R^2\sen\frac{2\pi}n$</th></tr>
+<tr><td>3</td><td class="l">triângulo equilátero</td><td>$R\sqrt3$</td><td>$\dfrac{3\sqrt3}4R^2$</td></tr>
+<tr><td>4</td><td class="l">quadrado</td><td>$R\sqrt2$</td><td>$2R^2$</td></tr>
+<tr><td>6</td><td class="l">hexágono regular</td><td>$R$</td><td>$\dfrac{3\sqrt3}2R^2$</td></tr></table>
+</div>
+<div class="box brg"><div class="bt">Ponte com Polinômios (p. 33 e 38)</div>
+<p class="sm nob">Resolver $z^n=1$ é achar as raízes do polinômio $z^n-1$. Por Girard, a soma das raízes é o coeficiente de $z^{n-1}$ (que é $0$ para $n\ge2$) e o produto é $(-1)^{n+1}$: ex. $z^4-1$: $1\cdot i\cdot(-1)\cdot(-i)=-1$ ✓.</p></div>
+</div>
+<div class="fig"><div>{{fig:fig_unity_r}}</div><div class="cap"><b>Fig. 21.</b> $z^3=8$: raízes $2$, $-1\pm i\sqrt3$, em círculo de raio $2$.</div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 43</span><span class="lv">N2</span><span class="r">$z^3=1$ por dois caminhos</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $z^3=1$ em $\C$.</div></div>
+<div class="er"><div class="l">Resolução</div><div><b>Polar:</b> $\cis0^\circ,\ \cis120^\circ,\ \cis240^\circ$. &nbsp;<b>Fatorando:</b> $z^3-1=(z-1)(z^2+z+1)$; $\ z^2+z+1=0\Rightarrow z=\dfrac{-1\pm i\sqrt3}2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$1,\ -\frac12+\frac{\sqrt3}2i,\ -\frac12-\frac{\sqrt3}2i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=0$; produto $=1\cdot\left(\frac14+\frac34\right)=1$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 44</span><span class="lv">N3</span><span class="r">geometria + complexos</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Área do triângulo cujos vértices são os afixos das raízes de $z^3=8$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$R=\sqrt[3]8=2$. Vértices $2,\ -1\pm i\sqrt3$: lado $=|2-(-1+i\sqrt3)|=|3-i\sqrt3|=\sqrt{12}=2\sqrt3$. Área $=\frac{\ell^2\sqrt3}4=\frac{12\sqrt3}4$ (ou $\frac{3\sqrt3}4R^2$).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$3\sqrt3$ unidades de área.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Fórmula do polígono: $\frac{3\sqrt3}4\cdot2^2=3\sqrt3$ ✓.</div></div></div>
+</div>
+
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Quantas raízes tem $z^7=1$? Qual a sua soma? Quais são as raízes de $z^2=1$? Onde ficam, e de que figura são vértices? <span class="mut sm">(Respostas: $7$; $0$; $\pm1$.)</span></p></div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">14</div><div><span class="lv">N3</span> <span class="fm tb">B</span> Os afixos das raízes da equação $z^4=64$ são vértices de um quadrado. Calcule o perímetro desse quadrado.</div></div></div>
+<div class="gab"><b>14 — 016.</b> $R=\sqrt[4]{64}=2\sqrt2$ (não $1$!). Lado do quadrado inscrito: $R\sqrt2=2\sqrt2\cdot\sqrt2=4$. Perímetro $=4\cdot4=16$. (Raízes: $\pm2\sqrt2,\ \pm2\sqrt2\,i$: distância de $2\sqrt2$ a $2\sqrt2\,i$ é $\sqrt{8+8}=4$ ✓.)</div>

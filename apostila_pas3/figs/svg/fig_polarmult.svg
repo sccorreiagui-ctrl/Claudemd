@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 262" width="72.50mm" height="65.50mm">
+<line x1="14.40" y1="224.00" x2="283.10" y2="224.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="288.00,224.00 281.66,226.96 284.15,224.00 281.66,221.04" fill="#1f5fbf"/>
+<line x1="36.00" y1="242.00" x2="36.00" y2="12.90" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="36.00,8.00 38.96,14.34 36.00,11.85 33.04,14.34" fill="#7a3fc2"/>
+<text x="31.00" y="234.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="i">O</tspan></text>
+<text x="287.00" y="218.00" font-size="9" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>Re</tspan></text>
+<text x="42.00" y="14.00" font-size="9" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>Im</tspan></text>
+<line x1="36.00" y1="224.00" x2="156.46" y2="154.45" stroke="#1f5fbf" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="160.71,152.00 156.69,157.73 157.37,153.93 153.73,152.61" fill="#1f5fbf"/>
+<line x1="36.00" y1="224.00" x2="104.54" y2="155.46" stroke="#7a3fc2" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="108.00,152.00 105.61,158.58 105.28,154.72 101.42,154.39" fill="#7a3fc2"/>
+<line x1="36.00" y1="224.00" x2="87.44" y2="32.03" stroke="#167a44" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="88.71,27.29 89.92,34.19 87.71,31.01 84.21,32.65" fill="#167a44"/>
+<circle cx="160.71" cy="152.00" r="3.20" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="108.00" cy="152.00" r="3.20" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="88.71" cy="27.29" r="3.20" fill="#167a44" stroke="#ffffff" stroke-width="0.8"/>
+<path d="M147.60,224.00 A111.60,111.60 0 0 0 132.65,168.20" fill="none" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="132.65,168.20 137.97,171.93 134.44,171.30 133.21,174.68" fill="#1f5fbf"/>
+<path d="M108.00,224.00 A72.00,72.00 0 0 0 86.91,173.09" fill="none" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="86.91,173.09 93.02,175.31 89.44,175.62 89.13,179.20" fill="#7a3fc2"/>
+<path d="M190.80,224.00 A154.80,154.80 0 0 0 76.07,74.47" fill="none" stroke="#d4690a" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="76.07,74.47 82.47,73.35 79.52,75.40 81.04,78.65" fill="#d4690a"/>
+<text x="168.71" y="155.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start" font-weight="700"><tspan class="i">Z</tspan><tspan class="m"> = 2 </tspan><tspan class="m">cis 30°</tspan></text>
+<text x="168.71" y="155.00" font-size="9.2" fill="#1f5fbf" text-anchor="start" font-weight="700"><tspan class="i">Z</tspan><tspan class="m"> = 2 </tspan><tspan class="m">cis 30°</tspan></text>
+<text x="100.00" y="146.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="end" font-weight="700"><tspan class="i">W</tspan><tspan class="m"> = √2 </tspan><tspan class="m">cis 45°</tspan></text>
+<text x="100.00" y="146.00" font-size="9.2" fill="#7a3fc2" text-anchor="end" font-weight="700"><tspan class="i">W</tspan><tspan class="m"> = √2 </tspan><tspan class="m">cis 45°</tspan></text>
+<text x="96.71" y="24.29" font-size="9.4" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start" font-weight="700"><tspan class="i">ZW</tspan><tspan class="m"> = 2√2 </tspan><tspan class="m">cis 75°</tspan></text>
+<text x="96.71" y="24.29" font-size="9.4" fill="#167a44" text-anchor="start" font-weight="700"><tspan class="i">ZW</tspan><tspan class="m"> = 2√2 </tspan><tspan class="m">cis 75°</tspan></text>
+</svg>

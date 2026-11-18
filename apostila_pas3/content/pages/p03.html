@@ -1,0 +1,52 @@
+<!--META {"topic":"Forma algébrica"}-->
+<div class="pt"><span class="num">03</span><h1>Forma algébrica, partes real e imaginária</h1><span class="mat">MAT9</span></div>
+<div class="gA" style="grid-template-columns:1fr 94mm">
+<div>
+<h2>Todo complexo se escreve de modo único como $a+bi$</h2>
+<div class="box def"><div class="bt">Forma algébrica</div>
+<p class="nob">$z=\re{a}+\im{b}\,i$, com $a,b\in\R$. &nbsp;<b>Parte real:</b> $\Rep(z)=\re a$. &nbsp;<b>Parte imaginária:</b> $\Imp(z)=\im b$.</p></div>
+<div class="att box"><div class="bt">Atenção · a parte imaginária é um número REAL</div>
+<p class="nob">Em $z=4-i$: $\Rep(z)=4$ e $\Imp(z)=\bad{-1}$ (e não $-i$). O $i$ é a unidade que <i>acompanha</i> $b$; não faz parte dele. O sinal pertence a $b$.</p></div>
+</div>
+<div class="fig"><div>{{fig:fig_anat_alg}}</div><div class="cap"><b>Fig. 3.</b> Anatomia de $z=a+bi$.</div></div>
+</div>
+
+<h2>Classificação (o zero merece cuidado)</h2>
+<table>
+<tr><th class="l">Tipo</th><th>Condição</th><th>Exemplos</th><th class="l">Observação</th></tr>
+<tr><td class="l"><b>Real</b></td><td>$b=0$</td><td>$5,\ -2,\ 0,\ \sqrt2$</td><td class="l">$\R\subset\C$: $z=a+0i$</td></tr>
+<tr><td class="l"><b>Imaginário</b> (não real)</td><td>$b\neq0$</td><td>$2+3i,\ -i,\ 5i$</td><td class="l">no PAS: «complexo não real»</td></tr>
+<tr><td class="l"><b>Imaginário puro</b></td><td>$a=0$ e $b\neq0$</td><td>$3i,\ -i$</td><td class="l">está sobre o eixo imaginário</td></tr>
+<tr class="hl"><td class="l"><b>Zero</b></td><td>$a=0$ e $b=0$</td><td>$0$</td><td class="l"><b>real</b>; <u>não</u> é imaginário puro</td></tr>
+</table>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 4</span><span class="lv">N1</span><span class="r">identificar partes</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Dê $\Rep$, $\Imp$ e a classe de $2+3i$, $\;4-i$, $\;-5i$, $\;7$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>
+<table class="t2" style="margin:0"><tr><th>$z$</th><th>$\Rep$</th><th>$\Imp$</th><th>classe</th></tr>
+<tr><td>$2+3i$</td><td>$2$</td><td>$3$</td><td>não real</td></tr>
+<tr><td>$4-i$</td><td>$4$</td><td>$-1$</td><td>não real</td></tr>
+<tr><td>$-5i$</td><td>$0$</td><td>$-5$</td><td>imag. puro</td></tr>
+<tr><td>$7$</td><td>$7$</td><td>$0$</td><td>real</td></tr></table></div></div>
+<div class="er res"><div class="l">Resposta</div><div>Conforme a tabela.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 5</span><span class="lv">N2</span><span class="r">parâmetro</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$z=(m^2-4)+(m-2)\,i$, $m\in\R$. Para que $m$ $z$ é <b>real</b>? E <b>imaginário puro</b>?</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Real: $\Imp=0$. Imag. puro: $\Rep=0$ <b>e</b> $\Imp\neq0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Real: $m-2=0\Rightarrow m=2$. Puro: $m^2-4=0\Rightarrow m=\pm2$, mas $m-2\neq0\Rightarrow m\neq2$; fica $m=-2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>Real: $m=2$. Imaginário puro: $m=-2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$m=-2$: $z=-4i$ ✓. $m=2$: $z=0$ (real, não puro) ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Qual é $\Imp(3-2i)$? Qual é $\Rep(-6i)$? O número $0$ é imaginário puro? <span class="mut sm">(Respostas: $-2$; $0$; não, é real.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Todo real é complexo? Todo complexo é real? Que condição sobre $a$ e $b$ define um imaginário puro?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">3</div><div><span class="lv">N1</span> <span class="fm ce">C/E</span> Julgue: «Se $z=(m^2-4)+(m-2)i$ é imaginário puro, então $m=2$ ou $m=-2$.»</div></div></div>
+<div class="gab"><b>3 — Errado.</b> $\Rep(z)=0\Rightarrow m=\pm2$, mas é preciso $\Imp(z)\neq0$. Com $m=2$, $z=0$, que não é imaginário puro. Só serve $m=-2$.</div>
+<div class="box brg"><div class="bt">Ponte com Polinômios (p. 21 em diante)</div><p class="sm nob">Em polinômios, «coeficiente» e «termo independente» cumprirão o papel de $a$ e $b$ aqui: o que se compara são sempre números <b>reais</b> (ou complexos) escritos <i>sem</i> a incógnita.</p></div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N1</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> A parte imaginária de $z=4-7i$ é $-7i$.<br><b>(b)</b> O número $0$ é, ao mesmo tempo, real e imaginário puro.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Errado:</b> $\Imp(z)=-7$ (um número real); o $i$ não faz parte dela. <b>(b) Errado:</b> $0$ é real; imaginário puro exige $a=0$ <b>e</b> $b\neq0$.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>classe de $-2i$ <b class="cg">→ imag. puro</b></div><div>classe de $3+0i$ <b class="cg">→ real</b></div><div>classe de $1-i$ <b class="cg">→ não real</b></div><div>$\Rep(-6+2i)$ <b class="cg">→ $-6$</b></div><div>$\Imp(5)$ <b class="cg">→ $0$</b></div><div>$z$ real: $(k-1)+3i$? <b class="cg">→ impossível</b></div></div></div>

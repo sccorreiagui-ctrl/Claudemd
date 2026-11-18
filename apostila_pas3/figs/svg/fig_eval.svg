@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 548 118" width="137.00mm" height="29.50mm">
+<rect x="6.00" y="16.00" width="116.00" height="62.00" rx="6" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.4"/>
+<text x="64.00" y="42.00" font-size="16" fill="#1a2233" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m"> = 2</tspan></text>
+<text x="64.00" y="60.00" font-size="9" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan>ENTRADA</tspan></text>
+<text x="64.00" y="73.00" font-size="9" fill="#5f6b7a" text-anchor="middle"><tspan>valor a atribuir a x</tspan></text>
+<line x1="124.00" y1="47.00" x2="162.40" y2="47.00" stroke="#1a2233" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="168.00,47.00 160.75,50.38 163.60,47.00 160.75,43.62" fill="#1a2233"/>
+<rect x="170.00" y="16.00" width="210.00" height="62.00" rx="6" fill="#e6e9ee" stroke="#5f6b7a" stroke-width="1.4"/>
+<text x="275.00" y="42.00" font-size="16" fill="#1a2233" text-anchor="middle"><tspan class="i">P</tspan><tspan class="m">(</tspan><tspan class="i">x</tspan><tspan class="m">) = </tspan><tspan class="i">x</tspan><tspan class="m" dy="-6.72" font-size="11.52">3</tspan><tspan class="m" dy="6.72"> − </tspan><tspan class="i">x</tspan><tspan class="m" dy="-6.72" font-size="11.52">2</tspan><tspan class="m" dy="6.72"> + 1</tspan></text>
+<text x="275.00" y="60.00" font-size="9" fill="#5f6b7a" text-anchor="middle" font-weight="700"><tspan>AVALIAÇÃO</tspan></text>
+<text x="275.00" y="73.00" font-size="9" fill="#5f6b7a" text-anchor="middle"><tspan>troque todo x por 2 e calcule</tspan></text>
+<line x1="382.00" y1="47.00" x2="418.40" y2="47.00" stroke="#1a2233" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="424.00,47.00 416.75,50.38 419.60,47.00 416.75,43.62" fill="#1a2233"/>
+<rect x="426.00" y="16.00" width="116.00" height="62.00" rx="6" fill="#d9f0e2" stroke="#167a44" stroke-width="1.4"/>
+<text x="484.00" y="42.00" font-size="16" fill="#1a2233" text-anchor="middle"><tspan class="i">P</tspan><tspan class="m">(2) = 5</tspan></text>
+<text x="484.00" y="60.00" font-size="9" fill="#167a44" text-anchor="middle" font-weight="700"><tspan>RESULTADO</tspan></text>
+<text x="484.00" y="73.00" font-size="9" fill="#5f6b7a" text-anchor="middle"><tspan>P(2) = 8 − 4 + 1</tspan></text>
+<rect x="6.00" y="88.00" width="536.00" height="26.00" rx="5" fill="#fbe5cb" stroke="#d4690a" stroke-width="1.2"/>
+<text x="274.00" y="105.00" font-size="9.6" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Se o resultado for ZERO, o valor de entrada é RAIZ:  P(a) = 0  ⟺  a é raiz de P</tspan></text>
+</svg>

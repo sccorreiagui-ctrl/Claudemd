@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 108" width="130.00mm" height="27.00mm">
+<text x="26.00" y="56.00" font-size="12" fill="#1a2233" text-anchor="middle"><tspan class="i">P</tspan><tspan class="m">(</tspan><tspan class="i">x</tspan><tspan class="m">)</tspan></text>
+<text x="26.00" y="70.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan>coef.</tspan></text>
+<rect x="54.00" y="28.00" width="62.00" height="36.00" rx="4" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.4"/>
+<text x="85.00" y="54.00" font-size="19" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">1</tspan></text>
+<text x="85.00" y="20.00" font-size="12" fill="#5f6b7a" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">5</tspan><tspan dy="5.04"> </tspan></text>
+<rect x="124.00" y="28.00" width="62.00" height="36.00" rx="4" fill="#fadcdc" stroke="#c62828" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="155.00" y="54.00" font-size="19" fill="#c62828" text-anchor="middle" font-weight="700"><tspan class="m">0</tspan></text>
+<text x="155.00" y="20.00" font-size="12" fill="#5f6b7a" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">4</tspan><tspan dy="5.04"> </tspan></text>
+<rect x="194.00" y="28.00" width="62.00" height="36.00" rx="4" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.4"/>
+<text x="225.00" y="54.00" font-size="19" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">−3</tspan></text>
+<text x="225.00" y="20.00" font-size="12" fill="#5f6b7a" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">3</tspan><tspan dy="5.04"> </tspan></text>
+<rect x="264.00" y="28.00" width="62.00" height="36.00" rx="4" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.4"/>
+<text x="295.00" y="54.00" font-size="19" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">2</tspan></text>
+<text x="295.00" y="20.00" font-size="12" fill="#5f6b7a" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan dy="5.04"> </tspan></text>
+<rect x="334.00" y="28.00" width="62.00" height="36.00" rx="4" fill="#fadcdc" stroke="#c62828" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="365.00" y="54.00" font-size="19" fill="#c62828" text-anchor="middle" font-weight="700"><tspan class="m">0</tspan></text>
+<text x="365.00" y="20.00" font-size="12" fill="#5f6b7a" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">1</tspan><tspan dy="5.04"> </tspan></text>
+<rect x="404.00" y="28.00" width="62.00" height="36.00" rx="4" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.4"/>
+<text x="435.00" y="54.00" font-size="19" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">4</tspan></text>
+<text x="435.00" y="20.00" font-size="12" fill="#5f6b7a" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">0</tspan><tspan dy="5.04"> </tspan></text>
+<text x="225.00" y="92.00" font-size="9.4" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>x⁵ − 3x³ + 2x² + 4  →  coeficientes 1, 0, −3, 2, 0, 4</tspan></text>
+<text x="225.00" y="104.00" font-size="8.4" fill="#c62828" text-anchor="middle"><tspan>(zeros nos expoentes que não aparecem: x⁴ e x¹)</tspan></text>
+</svg>

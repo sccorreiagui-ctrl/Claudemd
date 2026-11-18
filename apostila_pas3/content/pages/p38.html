@@ -1,0 +1,46 @@
+<!--META {"topic":"Equações do 2º e 3º grau"}-->
+<div class="pt"><span class="num">38</span><h1>Equações quadráticas e cúbicas: fatoração, Ruffini e complexos</h1><span class="mat">MAT10 · MAT12</span></div>
+
+<div class="fig"><div style="width:100%">{{fig:fig_flow_eq}}</div><div class="cap"><b>Fig. 37.</b> Fluxo de resolução de uma equação algébrica de grau 2 a 4 no ensino médio. Cardano e Ferrari não são necessários.</div></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Quadráticas</div>
+<p class="sm nob"><b>Fatoração</b> quando for visível; senão <b>Bhaskara</b>: $x=\dfrac{-b\pm\sqrt\Delta}{2a}$, $\Delta=b^2-4ac$. <b>$\Delta>0$</b>: duas raízes reais; <b>$\Delta=0$</b>: uma raiz real dupla; <b>$\Delta<0$</b>: duas raízes <b>não reais conjugadas</b>, $\sqrt\Delta=i\sqrt{|\Delta|}$.</p></div>
+<div class="box def"><div class="bt">Cúbicas</div>
+<p class="sm nob">(1) Procure <b>uma</b> raiz: soma dos coeficientes $=0\Rightarrow x=1$; $P(-1)=0$; Raízes Racionais (p. 32). (2) <b>Ruffini</b> reduz a cúbica a uma quadrática. (3) Resolva a quadrática. Nem toda cúbica tem raiz racional ($x^3=2$): aí use outro caminho (forma polar, se for binômio).</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 91</span><span class="lv">N2</span><span class="r">cúbica com raízes não reais</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $x^3-3x^2+7x-5=0$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Soma dos coeficientes: $1-3+7-5=0$ ⟹ $x=1$ é raiz.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Ruffini com $1$: $[1,-3,7,-5]\to1;\ -2;\ 5;\ 0$. $\ x^2-2x+5=0$: $\Delta=4-20=-16$, $x=\dfrac{2\pm4i}2=1\pm2i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=\{1,\ 1+2i,\ 1-2i\}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=3$ ✓; produto $=1\cdot5=5$ ✓ (Girard).</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 92</span><span class="tag-int">Integra Complexos + Polinômios</span><span class="lv">N2</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $z^3+1=0$ (a) fatorando e (b) pela forma polar (p. 18).</div></div>
+<div class="er"><div class="l">Resolução</div><div>(a) $z^3+1=(z+1)(z^2-z+1)$ (soma de cubos): $z=-1$ ou $z=\dfrac{1\pm i\sqrt3}2$. (b) $z^3=-1=\cis180^\circ$: $z=\cis60^\circ,\ \cis180^\circ,\ \cis300^\circ$ $=\frac12+\frac{\sqrt3}2i,\ -1,\ \frac12-\frac{\sqrt3}2i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\{-1,\ \tfrac{1+i\sqrt3}2,\ \tfrac{1-i\sqrt3}2\}$ — os mesmos três pontos nos dois métodos.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=-1+1=0$ ✓ (coef. de $z^2$ nulo); produto $=-1\cdot1=-1=-d/a$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 93</span><span class="lv">N2</span><span class="r">cúbica com três raízes reais inteiras</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $x^3-7x+6=0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$1-7+6=0$ ⟹ raiz $1$. Ruffini: $[1,0,-7,6]\to1;\ 1;\ -6;\ 0$; $\ x^2+x-6=(x-2)(x+3)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\{1,\ 2,\ -3\}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=0$ ✓ ($b=0$).</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 94</span><span class="lv l3">N3</span><span class="r">cúbica sem raiz racional</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $x^3-2=0$ em $\C$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Candidatos racionais $\pm1,\pm2$: nenhum serve. Polar: $2=2\cis0$ ⟹ $x=\sqrt[3]2\cis\frac{2k\pi}3$, $k=0,1,2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\sqrt[3]2$ (real) e $\sqrt[3]2\,\frac{-1\pm i\sqrt3}2$ (não reais).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Raio $\sqrt[3]2$, triângulo equilátero (p. 19); soma $0$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Resolva $x^2+2x+5=0$; $\ x^3-1=0$. <span class="mut sm">(Respostas: $-1\pm2i$; $1$ e $\frac{-1\pm i\sqrt3}2$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Qual o sinal de $\Delta$ que dá raízes não reais? Como achar a 1ª raiz de uma cúbica? Toda cúbica tem raiz racional?</p></div>
+</div>
+<div class="box brg"><div class="bt">Ponte com Complexos</div><p class="sm nob">Os três exemplos mostram a mesma coisa de três lados: <b>$\Delta<0$ ⟷ raízes conjugadas</b> (p. 1, 35); <b>binômio $z^n=k$ ⟷ forma polar</b> (p. 18–19); <b>soma de cubos ⟷ raízes da unidade</b>.</p></div>

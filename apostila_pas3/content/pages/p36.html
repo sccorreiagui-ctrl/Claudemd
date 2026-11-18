@@ -1,0 +1,55 @@
+<!--META {"topic":"Relações de Girard (2º e 3º graus)"}-->
+<div class="pt"><span class="num">36</span><h1>Relações de Girard: equações do 2º e do 3º grau</h1><span class="mat">MAT10</span></div>
+
+<div class="box def"><div class="bt">De onde vêm (decomposição, p. 33)</div>
+<p class="nob">Se $r_1,r_2,r_3$ são as raízes de $ax^3+bx^2+cx+d$, então $P=a(x-r_1)(x-r_2)(x-r_3)$. Expandindo o produto:
+$$(x-r_1)(x-r_2)(x-r_3)=x^3-\ok{(r_1+r_2+r_3)}x^2+\ok{(r_1r_2+r_1r_3+r_2r_3)}x-\ok{r_1r_2r_3}.$$ Comparando com $x^3+\frac bax^2+\frac cax+\frac da$ (identidade, p. 24) saem as relações abaixo. Valem com raízes <b>reais ou complexas</b> e <b>contadas com multiplicidade</b>.</p></div>
+
+<div class="g2">
+<table>
+<tr><th class="l" colspan="3">2º grau: $ax^2+bx+c=0$</th></tr>
+<tr><td class="l">soma</td><td>$S=r_1+r_2$</td><td>$=\ \bad{-}\dfrac ba$</td></tr>
+<tr><td class="l">produto</td><td>$P=r_1r_2$</td><td>$=\ +\dfrac ca$</td></tr></table>
+<table>
+<tr><th class="l" colspan="3">3º grau: $ax^3+bx^2+cx+d=0$</th></tr>
+<tr><td class="l">$S_1$ (soma)</td><td>$r_1+r_2+r_3$</td><td>$=\ \bad{-}\dfrac ba$</td></tr>
+<tr><td class="l">$S_2$ (dois a dois)</td><td>$r_1r_2+r_1r_3+r_2r_3$</td><td>$=\ +\dfrac ca$</td></tr>
+<tr><td class="l">$S_3$ (produto)</td><td>$r_1r_2r_3$</td><td>$=\ \bad{-}\dfrac da$</td></tr></table>
+</div>
+<div class="g2">
+<div class="att box"><div class="bt">Atenção · alternância de sinais $-,+,-,\dots$</div>
+<p class="sm nob">Os sinais alternam: $S_1=-\frac ba$, $S_2=+\frac ca$, $S_3=-\frac da$. Lembre-se também de dividir por $a$. Esquecer o sinal de $S_1$ ou de $S_3$ é o erro mais frequente.</p></div>
+<div class="box ok"><div class="bt">Combinações úteis (sem resolver)</div>
+<p class="sm nob">$\dfrac1{r_1}+\dfrac1{r_2}+\dfrac1{r_3}=\dfrac{S_2}{S_3}$ (raízes não nulas) &nbsp;·&nbsp; $r_1^2+r_2^2+r_3^2=S_1^2-2S_2$ &nbsp;·&nbsp; no 2º grau, $r_1^2+r_2^2=S^2-2P$.</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 84</span><span class="lv">N2</span><span class="r">soma, produtos e soma dos inversos</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para $x^3-4x^2+6x-5=0$, calcule $S_1,S_2,S_3$ e $\dfrac1{r_1}+\dfrac1{r_2}+\dfrac1{r_3}$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$a=1,\ b=-4,\ c=6,\ d=-5$: $S_1=-\frac{-4}1=4$; $\ S_2=\frac61=6$; $\ S_3=-\frac{-5}1=5$. Inversos: $\dfrac{r_2r_3+r_1r_3+r_1r_2}{r_1r_2r_3}=\dfrac{S_2}{S_3}=\dfrac65$ (as raízes são não nulas pois $S_3\ne0$).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S_1=4,\ S_2=6,\ S_3=5$; soma dos inversos $=\dfrac65$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Não é preciso achar as raízes (algumas são não reais); confira o sinal: $S_3=5>0$ e $-d/a=5$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 85</span><span class="lv l3">N3</span><span class="r">uma raiz é a soma das outras duas</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $x^3-8x^2+19x-12=0$ sabendo que uma raiz é a soma das outras duas.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Com $r_1=r_2+r_3$, a relação $S_1=8$ vira $2r_1=8$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$r_1=4$. Ruffini com $4$: $[1,-8,19,-12]\to1;\ -4;\ 3;\ 0$; $\ x^2-4x+3=(x-1)(x-3)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=\{1,\ 3,\ 4\}$ ($4=1+3$ ✓).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$S_2=3+4+12=19$ ✓; $S_3=12$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 86</span><span class="lv">N2</span><span class="r">soma de quadrados</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Soma dos quadrados das raízes de $x^3-7x^2+14x-8=0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$S_1=7$, $S_2=14$: $\ r_1^2+r_2^2+r_3^2=7^2-2\cdot14=49-28=21$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$21$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>As raízes são $1,2,4$: $1+4+16=21$ ✓.</div></div></div>
+<div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$2x^2-6x+3=0$: soma e produto. $\ x^3+2x^2-5x-6=0$: soma, e produto das raízes. <span class="mut sm">(Respostas: $3$ e $\frac32$; $-2$ e $6$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Qual o padrão de sinais? O que acontece com $S_2$ quando uma raiz é $0$? Como obter soma dos inversos sem resolver?</p></div>
+</div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">28</div><div><span class="lv">N2</span> <span class="fm tb">B</span> Calcule a soma dos quadrados das raízes da equação $x^3-6x^2+11x-6=0$.</div></div></div>
+<div class="gab"><b>28 — 014.</b> $S_1=6$, $S_2=11$: $6^2-2\cdot11=36-22=14$ (as raízes são $1,2,3$: $1+4+9=14$ ✓).</div>

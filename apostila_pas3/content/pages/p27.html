@@ -1,0 +1,40 @@
+<!--META {"topic":"Divisão pelo método da chave"}-->
+<div class="pt"><span class="num">27</span><h1>Divisão de polinômios: o método da chave</h1><span class="mat">MAT11</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Divisão euclidiana</div>
+<p class="nob">Dados $P$ (dividendo) e $D\ne0$ (divisor), existem únicos $Q$ (quociente) e $R$ (resto) com
+$$P(x)=D(x)\cdot Q(x)+R(x),\quad\text{e}\quad R\equiv0\ \text{ ou }\ \operatorname{gr}(R)<\operatorname{gr}(D).$$ Essa é a <b>condição de parada</b>: divida enquanto o resto ainda tiver grau $\ge\operatorname{gr}(D)$.</p></div>
+<div class="box met"><div class="bt">Método (6 passos)</div>
+<ol class="steps">
+<li><b>Ordene</b> dividendo e divisor (potências decrescentes).</li>
+<li>Insira <b>coeficiente $0$</b> nos termos ausentes.</li>
+<li><b>Divida</b> o termo de maior grau do dividendo pelo de $D$: surge um termo de $Q$.</li>
+<li><b>Multiplique</b> esse termo por todo o divisor.</li>
+<li><b>Subtraia</b> (troque os sinais do produto e some).</li>
+<li>Repita com o novo resto até $\operatorname{gr}(R)<\operatorname{gr}(D)$.</li></ol></div>
+</div>
+
+<div class="fig"><div>{{fig:fig_chave}}</div><div class="cap"><b>Fig. 27.</b> $(x^3-3x^2+5x-3)\div(x-1)$ em três painéis. <span class="co">Laranja</span>: operação; <span class="cr">vermelho</span>: produto <b>com sinal trocado</b> (já pronto para somar); <span class="cg">verde</span>: termos do quociente.</div></div>
+
+<div class="att box"><div class="bt">Atenção · a subtração é o erro nº 1</div>
+<p class="nob">Multiplicou o termo do quociente pelo divisor $\Rightarrow$ <b>troque os sinais</b> antes de somar ao dividendo. Esquecer isso inverte o resto. Confira sempre: <b>divisor × quociente + resto = dividendo</b>.</p></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 60</span><span class="lv">N2</span><span class="r">divisão exata — de onde vem cada termo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Divida $P=x^3-3x^2+5x-3$ por $D=x-1$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Passo 1: $x^3\div x=\mathbf{x^2}$; $\ x^2(x-1)=x^3-x^2$; subtraindo: $-3x^2+x^2=-2x^2$, restando $-2x^2+5x-3$. Passo 2: $-2x^2\div x=\mathbf{-2x}$; $\ -2x(x-1)=-2x^2+2x$; resta $3x-3$. Passo 3: $3x\div x=\mathbf{3}$; $\ 3(x-1)=3x-3$; resta $0$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$Q=x^2-2x+3$ e $R=0$ (divisão exata).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x-1)(x^2-2x+3)=x^3-2x^2+3x-x^2+2x-3=x^3-3x^2+5x-3$ ✓.</div></div></div>
+
+<div class="gA" style="grid-template-columns:1fr 1fr">
+<div class="fig"><div>{{fig:fig_chave2}}</div><div class="cap"><b>Fig. 28.</b> Divisão por polinômio de grau 2, com resto não nulo.</div></div>
+<div class="exm"><div class="eh"><span>Exemplo 61</span><span class="lv l3">N3</span><span class="r">divisor de grau 2 · resto $\ne0$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$P=6x^4-3x^3+3x^2-x+1$ por $D=2x^2+x-3$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$6x^4\div2x^2=3x^2$ → resto $-6x^3+12x^2-x+1$. $\ -6x^3\div2x^2=-3x$ → resto $15x^2-10x+1$. $\ 15x^2\div2x^2=\frac{15}2$ → resto $-\frac{35}2x+\frac{47}2$ (grau $1<2$: pare).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$Q=3x^2-3x+\frac{15}2$; $\ R=-\frac{35}2x+\frac{47}2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$D\cdot Q+R=6x^4-3x^3+3x^2-x+1$ ✓. <span class="cr">Cuidado:</span> o par $Q=3x^2-3x+7$, $R=-14x+22$ que aparece em algumas listas está <b>errado</b> (não reproduz $P$).</div></div></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">21</div><div><span class="lv">N2</span> <span class="fm">Resolva</span> Determine o quociente e o resto da divisão de $4x^3-2x^2+x-5$ por $x^2+1$ e confira o resultado.</div></div></div>
+<div class="gab"><b>21 — $Q=4x-2$, $R=-3x-3$.</b> $4x^3\div x^2=4x$; $4x(x^2+1)=4x^3+4x$; resta $-2x^2-3x-5$. Depois $-2x^2\div x^2=-2$; $-2(x^2+1)=-2x^2-2$; resta $-3x-3$ (grau $1<2$). Confere: $(x^2+1)(4x-2)+(-3x-3)=4x^3-2x^2+4x-2-3x-3$ ✓.</div>

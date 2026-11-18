@@ -1,0 +1,45 @@
+<!--META {"topic":"Quocientes, restos e divisibilidade"}-->
+<div class="pt"><span class="num">28</span><h1>Quocientes, restos, divisibilidade e parâmetros</h1><span class="mat">MAT11</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Quem é quem na divisão</div>
+<p class="sm nob">$\ P=D\cdot Q+R$.<br>$\bullet$ Se $\operatorname{gr}(P)\ge\operatorname{gr}(D)$ (e $P\ne0$): &nbsp;$\operatorname{gr}(Q)=\operatorname{gr}(P)-\operatorname{gr}(D)$.<br>$\bullet$ Se $\operatorname{gr}(P)<\operatorname{gr}(D)$: &nbsp;$Q=0$ e $R=P$ (não há o que dividir).<br>$\bullet$ Sempre: $R\equiv0$ ou $\operatorname{gr}(R)<\operatorname{gr}(D)$.<br>$\bullet$ $\ Q$ e $R$ são <b>únicos</b>.</p></div>
+<div class="box ok"><div class="bt">Divisibilidade</div>
+<p class="nob sm">$P$ é <b>divisível</b> por $D$ $\iff R\equiv0\iff P=D\cdot Q$ (a divisão é <b>exata</b>; $D$ é um fator de $P$). Se $\operatorname{gr}(D)=1$, o resto é uma constante: ou é zero ou não é.</p></div>
+</div>
+
+<div class="box met"><div class="bt">Método para problemas com parâmetros</div>
+<ol class="steps"><li>Efetue a divisão pela chave <b>com os parâmetros</b> (eles viajam nos coeficientes).</li><li>Imponha a condição pedida ao resto: <b>divisão exata</b> $\Rightarrow$ cada coeficiente de $R$ igual a $0$.</li><li>Resolva o sistema obtido e confira $D\cdot Q+R=P$.</li></ol></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 62</span><span class="lv">N2</span><span class="r">divisão exata com dois parâmetros</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $a,b$ para que $P=x^3+2x^2+ax+b$ seja divisível por $D=x^2+1$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$x^3\div x^2=x$: $x(x^2+1)=x^3+x$, resta $2x^2+(a-1)x+b$. Depois $2x^2\div x^2=2$: $2(x^2+1)$, resta $(a-1)x+(b-2)$. Exatidão: $a-1=0$ e $b-2=0$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$a=1$ e $b=2$, com $Q=x+2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x^2+1)(x+2)=x^3+2x^2+x+2$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 63</span><span class="lv">N1</span><span class="r">grau do dividendo menor</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Divida $x+1$ por $x^2+1$ e $\;x^4$ por $x^2-1$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>(i) $\operatorname{gr}(x+1)=1<2$: $Q=0$, $R=x+1$. (ii) $x^4\div x^2=x^2$; $x^2(x^2-1)=x^4-x^2$; resta $x^2$; $x^2\div x^2=1$; resta $1$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>(i) $Q=0,\ R=x+1$. (ii) $Q=x^2+1,\ R=1$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x^2-1)(x^2+1)+1=x^4$ ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 64</span><span class="lv">N1</span><span class="r">reconstruindo o dividendo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Numa divisão, $D=x^2+1$, $Q=x-3$ e $R=2x+5$. Qual é $P$?</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P=D\cdot Q+R=(x^2+1)(x-3)+2x+5=x^3-3x^2+x-3+2x+5$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$P=x^3-3x^2+3x+2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$\operatorname{gr}(R)=1<2$ ✓ e $\operatorname{gr}(Q)=3-2=1$ ✓.</div></div></div>
+
+<div class="g2">
+<div class="att box"><div class="bt">Atenção · três armadilhas</div>
+<p class="sm nob">(1) Não confunda «resto nulo» com «quociente nulo». (2) Termos ausentes em $P$ ou $D$ viram <b>zero</b> (ex.: $x^3+1=x^3+0x^2+0x+1$). (3) Dividir <b>por uma constante</b> é possível: o resto é sempre $0$.</p></div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Grau de $Q$ ao dividir $x^7-1$ por $x^3+x$. $\ P$ de grau $4$ dividido por $D$ de grau $4$: que graus possíveis tem $R$? <span class="mut sm">(Respostas: $4$; $R\equiv0$ ou grau $\le3$.)</span></p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">22</div><div><span class="lv">N2</span> <span class="fm tb">B</span> O polinômio $P(x)=x^3+ax^2+bx-6$ é divisível por $x^2-3x+2$. Calcule $|a|+|b|$.</div></div></div>
+<div class="gab"><b>22 — 017.</b> Como $x^2-3x+2=(x-1)(x-2)$, $P$ deve se anular em $1$ e em $2$: $\;1+a+b-6=0$ e $8+4a+2b-6=0$ ⟹ $a+b=5$ e $2a+b=-1$ ⟹ $a=-6$, $b=11$ (confere: $P=x^3-6x^2+11x-6=(x-1)(x-2)(x-3)$). $|a|+|b|=17$. (Resolvido sem chave, graças à p. 29.)</div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que garante que $Q$ e $R$ são únicos? Quando $R$ pode ser um polinômio não constante? O que significa «$P$ é divisível por $D$» em termos de fator?</p></div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> Na divisão de um polinômio por $D(x)=x^2+1$, o resto pode ser $R(x)=x^2+1$.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Errado.</b> Deve valer $R\equiv0$ ou $\operatorname{gr}(R)<\operatorname{gr}(D)=2$. Um resto de grau $2$ indica que a divisão ainda não terminou: $x^2+1=D\cdot1+0$.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$(x^2-5x+6)\div(x-2)$ <b class="cg">→ $Q=x-3,\,R=0$</b></div><div>$(x^3+1)\div(x+1)$ <b class="cg">→ $Q=x^2-x+1,\,R=0$</b></div><div>$(x^2+1)\div x$ <b class="cg">→ $Q=x,\,R=1$</b></div></div></div>

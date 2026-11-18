@@ -1,0 +1,49 @@
+<!--META {"topic":"2ª fórmula de De Moivre"}-->
+<div class="pt"><span class="num">18</span><h1>Radiciação e a 2ª fórmula de De Moivre</h1><span class="mat">MAT9</span></div>
+
+<div class="box def"><div class="bt">Problema: resolver $w^n=z$ ($n\ge2$ inteiro, $z=\rho\cis\theta\neq0$)</div>
+<p>Existem <b>exatamente $n$ soluções distintas</b>:
+$$w_k=\ok{\sqrt[n]{\rho}}\left[\cos\!\left(\ang{\dfrac{\theta+2k\pi}{n}}\right)+i\,\sen\!\left(\ang{\dfrac{\theta+2k\pi}{n}}\right)\right],\qquad k=0,1,\dots,n-1.$$</p>
+<p class="nob sm"><b>Por que $n$ soluções?</b> $w^n=z$ pede $\ |w|^n=\rho$ e $\ n\arg w=\theta+2k\pi$ (os ângulos $\theta+2k\pi$ são o mesmo $z$). Daí $\arg w=\frac{\theta+2k\pi}n$; para $k=0,\dots,n-1$ obtêm-se $n$ ângulos diferentes e, para $k=n$, o ângulo repete o de $k=0$. <b>Mesmo módulo; ângulos igualmente espaçados</b> por $\ang{\Delta\theta=\dfrac{2\pi}n}$ ($=\frac{360^\circ}n$): os afixos formam um <b>polígono regular</b> de $n$ lados.</p></div>
+
+<div class="g2">
+<div class="box met"><div class="bt">Método visual (5 passos)</div>
+<ol class="steps">
+<li>Converta $z$ para a forma polar $\rho\cis\theta$.</li>
+<li>Módulo comum das raízes: $\ok{\sqrt[n]\rho}$ (real positivo).</li>
+<li>Primeiro ângulo ($k=0$): $\ang{\theta_0=\theta/n}$.</li>
+<li>Espaçamento: $\ang{\Delta\theta=360^\circ/n}$.</li>
+<li>Liste $\theta_0,\ \theta_0+\Delta\theta,\ \dots$ ($n$ valores) e converta se pedido.</li></ol>
+<p class="sm nob" style="margin-top:1mm"><b>Verificação:</b> eleve uma raiz a $n$ (De Moivre 1): deve voltar a $z$.</p></div>
+<div class="att box"><div class="bt">Atenção</div>
+<p class="sm nob"><b>Erro 1:</b> achar só uma raiz (esquecer $2k\pi$). <b>Erro 2:</b> dividir só o argumento e esquecer a <b>raiz do módulo</b>. <b>Erro 3:</b> usar o espaçamento $\theta/n$ no lugar de $2\pi/n$.<br><b>Caso $z=0$:</b> $w^n=0$ tem <b>uma</b> raiz distinta, $w=0$ (multiplicidade $n$); a fórmula não se aplica. <b>Soma:</b> para $n\ge2$ a soma das $n$ raízes de $w^n=z$ é <b>zero</b> (polígono regular centrado na origem).</p></div>
+</div>
+
+<div class="g2">
+<div class="fig"><div>{{fig:fig_roots3}}</div><div class="cap"><b>Fig. 18.</b> Raízes cúbicas de $-1$: triângulo equilátero, $\theta_0=60^\circ$, passo $120^\circ$.</div></div>
+<div class="fig"><div>{{fig:fig_roots4}}</div><div class="cap"><b>Fig. 19.</b> Raízes quartas de $-16$: quadrado de raio $2$, $\theta_0=45^\circ$, passo $90^\circ$.</div></div>
+</div>
+
+<div class="g3">
+<div class="exm"><div class="eh"><span>Exemplo 40</span><span class="lv">N1</span><span class="r">$n=2$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Raízes quadradas de $4\cis60^\circ$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\sqrt4=2$; $\theta_0=30^\circ$; passo $180^\circ$: $\ w_0=2\cis30^\circ=\sqrt3+i$; $\ w_1=2\cis210^\circ=-\sqrt3-i$.</div></div>
+<div class="er res"><div class="l">Resp.</div><div>$\pm(\sqrt3+i)$ (opostas, soma $0$).</div></div></div>
+<div class="exm"><div class="eh"><span>Exemplo 41</span><span class="lv">N2</span><span class="r">$z^3=-1$</span></div>
+<div class="er"><div class="l">Resolução</div><div>$-1=1\cis180^\circ$: $\rho'=1$, $\theta_0=60^\circ$, passo $120^\circ$: $60^\circ,180^\circ,300^\circ$.</div></div>
+<div class="er res"><div class="l">Resp.</div><div>$\frac12+\frac{\sqrt3}2i,\ -1,\ \frac12-\frac{\sqrt3}2i$.</div></div>
+<div class="er ver"><div class="l">Verif.</div><div>$(\cis60^\circ)^3=\cis180^\circ=-1$ ✓; soma $=\frac12-1+\frac12=0$ ✓.</div></div></div>
+<div class="exm"><div class="eh"><span>Exemplo 42</span><span class="lv l3">N3</span><span class="r">$z^4=-16$</span></div>
+<div class="er"><div class="l">Resolução</div><div>$-16=16\cis180^\circ$: $\rho'=\sqrt[4]{16}=2$; $\theta_0=45^\circ$; passo $90^\circ$ ⟹ $2\cis45^\circ,\,135^\circ,\,225^\circ,\,315^\circ$.</div></div>
+<div class="er res"><div class="l">Resp.</div><div>$\sqrt2(\pm1\pm i)$ (4 raízes).</div></div>
+<div class="er ver"><div class="l">Verif.</div><div>$(\sqrt2(1+i))^4=4\cdot(1+i)^4=4(-4)=-16$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Raízes cúbicas de $8i$ (módulo $2$; ângulos $30^\circ,150^\circ,270^\circ$) em forma algébrica. <span class="mut sm">(Resposta: $\sqrt3+i,\ -\sqrt3+i,\ -2i$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Quantas raízes $n$-ésimas tem um complexo $\ne0$? Qual o espaçamento? Por que a soma delas é $0$? E quando $z=0$?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">13</div><div><span class="lv">N2</span> <span class="fm ce">C/E</span> Julgue: «A equação $z^3=8i$ possui exatamente duas raízes não reais.»</div></div></div>
+<div class="gab"><b>13 — Errado.</b> Há <b>três</b> raízes, $\sqrt3+i,\ -\sqrt3+i,\ -2i$, e <b>todas</b> são não reais: se $z$ fosse real, $z^3$ seria real, e $8i$ não é.</div>

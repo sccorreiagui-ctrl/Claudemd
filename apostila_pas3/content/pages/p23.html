@@ -1,0 +1,44 @@
+<!--META {"topic":"Valor numérico e raiz"}-->
+<div class="pt"><span class="num">23</span><h1>Valor numérico, $P(0)$, $P(1)$, $P(-1)$ e o conceito de raiz</h1><span class="mat">MAT10</span></div>
+
+<div class="fig"><div>{{fig:fig_eval}}</div><div class="cap"><b>Fig. 24.</b> $P(a)$ é o número obtido ao <b>trocar todo $x$ por $a$</b> (use parênteses ao substituir negativos!).</div></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Atalhos de ouro</div>
+<p class="sm nob">$\bullet\ P(0)=a_0$: <b>termo independente</b>.<br>$\bullet\ P(1)=a_n+\dots+a_1+a_0$: <b>soma dos coeficientes</b>.<br>$\bullet\ P(-1)$: <b>soma alternada</b>, pois $(-1)^k=\pm1$ conforme a paridade de $k$.<br>$\bullet\ \dfrac{P(1)+P(-1)}2$: soma dos coeficientes dos termos de grau <b>par</b>.</p></div>
+<div class="box ok"><div class="bt">Raiz</div>
+<p class="nob">$\ a$ é <b>raiz</b> (ou zero) de $P$ $\iff P(a)=0$. Para <b>testar</b>: calcule $P(a)$. Para <b>achar</b> as raízes: resolva $P(x)=0$. Há raízes reais e não reais (o valor $a$ pode ser complexo).</p></div>
+</div>
+
+<div class="fig"><div>{{fig:fig_graph_roots}}</div><div class="cap"><b>Fig. 25.</b> <b>Raízes reais</b> de um polinômio de coeficientes reais são as abscissas dos pontos em que o gráfico encontra o eixo $x$. <b>Raízes não reais</b> ($\pm i$ em $x^2+1$) <b>não aparecem</b> como interseções: o gráfico real não as mostra.</div></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 48</span><span class="lv">N1</span><span class="r">substituir</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$P(x)=x^3-x^2+1$. Calcule $P(2)$, $P(-1)$ e $P(i)$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P(2)=8-4+1=5$. &nbsp;$P(-1)=(-1)^3-(-1)^2+1=-1-1+1=-1$. &nbsp;$P(i)=i^3-i^2+1=-i-(-1)+1=2-i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$5$; $\ -1$; $\ 2-i$ (nenhum é raiz).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$P(1)=1$ = soma dos coef. $(1-1+0+1)$ ✓; $P(0)=1$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 49</span><span class="lv">N2</span><span class="r">soma dos coeficientes sem expandir</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule a soma dos coeficientes de $P(x)=(2x^2-3x+2)^{10}$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Soma dos coeficientes $=P(1)$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P(1)=(2-3+2)^{10}=1^{10}=1$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$1$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Não é preciso expandir: $x=1$ transforma cada $a_kx^k$ em $a_k$.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 50</span><span class="lv">N2</span><span class="r">raiz e parâmetro</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $m$ para que $-2$ seja raiz de $x^3+4x^2+mx-3$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P(-2)=-8+16-2m-3=5-2m=0\Rightarrow m=\frac52$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$m=\dfrac52$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$-8+16-5-3=0$ ✓.</div></div></div>
+<div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$1+i$ é raiz de $x^2-2x+2$? $\ P(-1)$ de $3x^3-2x^2+x-5$? <span class="mut sm">(Sim: $(1+i)^2=2i$ e $2i-2-2i+2=0$; $P(-1)=-11$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que significa $P(a)=0$? Como obter a soma dos coeficientes e o termo independente sem expandir? Raízes não reais aparecem no gráfico?</p></div>
+</div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">19</div><div><span class="lv">N1</span> <span class="fm tb">B</span> Calcule a soma dos coeficientes do polinômio $P(x)=(x^2+x+1)^4$.</div></div></div>
+<div class="gab"><b>19 — 081.</b> Soma dos coeficientes $=P(1)=(1+1+1)^4=3^4=81$.</div>

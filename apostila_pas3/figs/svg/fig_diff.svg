@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 178" width="61.50mm" height="44.50mm">
+<line x1="51.00" y1="164.10" x2="51.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="78.00" y1="164.10" x2="78.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="105.00" y1="164.10" x2="105.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="132.00" y1="164.10" x2="132.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="159.00" y1="164.10" x2="159.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="186.00" y1="164.10" x2="186.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="213.00" y1="164.10" x2="213.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="240.00" y1="164.10" x2="240.00" y2="4.80" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.90" y1="129.00" x2="240.00" y2="129.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.90" y1="102.00" x2="240.00" y2="102.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.90" y1="75.00" x2="240.00" y2="75.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.90" y1="48.00" x2="240.00" y2="48.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.90" y1="21.00" x2="240.00" y2="21.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.90" y1="156.00" x2="235.10" y2="156.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="240.00,156.00 233.66,158.96 236.15,156.00 233.66,153.04" fill="#1f5fbf"/>
+<line x1="24.00" y1="164.10" x2="24.00" y2="9.70" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="24.00,4.80 26.96,11.14 24.00,8.65 21.04,11.14" fill="#7a3fc2"/>
+<line x1="51.00" y1="154.00" x2="51.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="51.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">1</tspan></text>
+<line x1="78.00" y1="154.00" x2="78.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="78.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">2</tspan></text>
+<line x1="105.00" y1="154.00" x2="105.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="105.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">3</tspan></text>
+<line x1="132.00" y1="154.00" x2="132.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="132.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">4</tspan></text>
+<line x1="159.00" y1="154.00" x2="159.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="159.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">5</tspan></text>
+<line x1="186.00" y1="154.00" x2="186.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="186.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">6</tspan></text>
+<line x1="213.00" y1="154.00" x2="213.00" y2="158.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="213.00" y="166.00" font-size="7.5" fill="#5f6b7a" text-anchor="middle"><tspan class="m">7</tspan></text>
+<line x1="22.00" y1="129.00" x2="26.00" y2="129.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="19.00" y="132.00" font-size="7.5" fill="#5f6b7a" text-anchor="end"><tspan class="m">1</tspan></text>
+<line x1="22.00" y1="102.00" x2="26.00" y2="102.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="19.00" y="105.00" font-size="7.5" fill="#5f6b7a" text-anchor="end"><tspan class="m">2</tspan></text>
+<line x1="22.00" y1="75.00" x2="26.00" y2="75.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="19.00" y="78.00" font-size="7.5" fill="#5f6b7a" text-anchor="end"><tspan class="m">3</tspan></text>
+<line x1="22.00" y1="48.00" x2="26.00" y2="48.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="19.00" y="51.00" font-size="7.5" fill="#5f6b7a" text-anchor="end"><tspan class="m">4</tspan></text>
+<line x1="22.00" y1="21.00" x2="26.00" y2="21.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="19.00" y="24.00" font-size="7.5" fill="#5f6b7a" text-anchor="end"><tspan class="m">5</tspan></text>
+<text x="239.00" y="150.00" font-size="8.6" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>Re</tspan></text>
+<text x="30.00" y="10.80" font-size="8.6" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>Im</tspan></text>
+<line x1="24.00" y1="156.00" x2="128.08" y2="77.94" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="132.00,75.00 128.70,81.17 128.92,77.31 125.15,76.44" fill="#1f5fbf"/>
+<line x1="24.00" y1="156.00" x2="48.81" y2="106.38" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="51.00,102.00 50.81,109.00 49.28,105.44 45.52,106.35" fill="#7a3fc2"/>
+<line x1="24.00" y1="156.00" x2="100.35" y2="130.55" stroke="#167a44" stroke-width="1.6" stroke-dasharray="4 3" stroke-linecap="round"/>
+<polygon points="105.00,129.00 99.92,133.81 101.35,130.22 98.05,128.20" fill="#167a44"/>
+<line x1="51.00" y1="102.00" x2="127.35" y2="76.55" stroke="#167a44" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="132.00,75.00 126.92,79.81 128.35,76.22 125.05,74.20" fill="#167a44"/>
+<circle cx="132.00" cy="75.00" r="3.20" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="51.00" cy="102.00" r="3.20" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="105.00" cy="129.00" r="2.60" fill="#167a44" stroke="#ffffff" stroke-width="0.8"/>
+<text x="138.00" y="75.00" font-size="10" fill="#1f5fbf" text-anchor="start" font-weight="700"><tspan class="i">z</tspan></text>
+<text x="44.00" y="99.00" font-size="10" fill="#7a3fc2" text-anchor="end" font-weight="700"><tspan class="i">w</tspan></text>
+<text x="94.20" y="73.75" font-size="9.4" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="middle" font-weight="700"><tspan class="i">z</tspan><tspan class="m"> − </tspan><tspan class="i">w</tspan></text>
+<text x="94.20" y="73.75" font-size="9.4" fill="#167a44" text-anchor="middle" font-weight="700"><tspan class="i">z</tspan><tspan class="m"> − </tspan><tspan class="i">w</tspan></text>
+<text x="112.00" y="141.00" font-size="8.6" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start"><tspan class="i">z</tspan><tspan class="m"> − </tspan><tspan class="i">w</tspan><tspan class="m"> = 3 + </tspan><tspan class="i">i</tspan></text>
+<text x="112.00" y="141.00" font-size="8.6" fill="#167a44" text-anchor="start"><tspan class="i">z</tspan><tspan class="m"> − </tspan><tspan class="i">w</tspan><tspan class="m"> = 3 + </tspan><tspan class="i">i</tspan></text>
+<text x="138.00" y="36.00" font-size="9.2" fill="#167a44" text-anchor="start" font-weight="700"><tspan>d = |z − w| = √10</tspan></text>
+<text x="138.00" y="49.00" font-size="7.6" fill="#5f6b7a" text-anchor="start"><tspan>(distância entre os afixos)</tspan></text>
+</svg>

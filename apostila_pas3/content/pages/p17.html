@@ -1,0 +1,52 @@
+<!--META {"topic":"1ª fórmula de De Moivre"}-->
+<div class="pt"><span class="num">17</span><h1>Potenciação e a 1ª fórmula de De Moivre</h1><span class="mat">MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 84mm">
+<div>
+<div class="box def"><div class="bt">1ª fórmula de De Moivre ($n\in\Z$)</div>
+<p>$$\big[\ok\rho\,(\cos\ang\theta+i\sen\ang\theta)\big]^n=\ok{\rho^{\,n}}\big[\cos(\ang{n\theta})+i\sen(\ang{n\theta})\big]$$</p>
+<p class="nob">O <b class="cg">módulo é elevado a $n$</b>; o <b class="co">argumento é multiplicado por $n$</b>. Segue da regra do produto (p. 16) aplicada $n$ vezes. Para $n<0$ exige-se $z\ne0$ e vale a mesma fórmula: $z^{-n}=\rho^{-n}\cis(-n\theta)$.</p></div>
+<div class="att box"><div class="bt">Atenção · três erros clássicos</div>
+<p class="sm nob"><b>(1)</b> Não escreva $\theta^n$: o argumento é <b>multiplicado</b> ($n\theta$). <b>(2)</b> Não esqueça $\rho^n$. <b>(3)</b> Reduza $n\theta$ à 1ª volta: $\theta'=n\theta-2\pi k$ (ou $-360^\circ k$) antes de ler seno e cosseno.</p></div>
+<div class="box met"><div class="bt">Método</div>
+<ol class="steps"><li>Escreva $z$ na forma polar ($\rho,\theta$).</li><li>Calcule $\rho^n$ e $n\theta$.</li><li>Reduza $n\theta$ à 1ª volta.</li><li>Se pedido, volte à forma algébrica.</li></ol></div>
+</div>
+<div class="fig"><div>{{fig:fig_demoivre}}</div><div class="cap"><b>Fig. 17.</b> Potências de $w=\cis30^\circ$ (módulo 1): cada $w^n$ gira mais $30^\circ$. Em $w^n$, $\ n=3$ dá $i$; $n=6$ dá $-1$; $n=12$ fecha a volta. Para $(\sqrt3+i)^n$ as direções são as mesmas, mas o módulo cresce como $2^n$.</div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 36</span><span class="lv">N1</span><span class="r">expoente pequeno</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $\left(5\cis\frac\pi3\right)^3$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\rho^3=125$; $\ 3\cdot\frac\pi3=\pi$ ⟹ $125\cis\pi=125(-1+0i)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$-125$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>O módulo cresceu de $5$ para $125=5^3$ e o vetor girou $180^\circ$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 37</span><span class="lv">N2</span><span class="r">expoente 10</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $(\sqrt3+i)^{10}$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>$\sqrt3+i=2\cis30^\circ$ (p. 14). $\ n=10$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$2^{10}\cis(300^\circ)=1024\left(\frac12-\frac{\sqrt3}2\,i\right)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$512-512\sqrt3\,i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(\sqrt3+i)^2=2+2\sqrt3 i=4\cis60^\circ\Rightarrow(\cdot)^5=4^5\cis300^\circ$ ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 38</span><span class="lv l3">N3</span><span class="r">quando a potência é real ou imaginária pura</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para quais $n\in\N^*$ o número $(\sqrt3+i)^n$ é <b>real</b>? <b>real positivo</b>? <b>imaginário puro</b>?</div></div>
+<div class="er"><div class="l">Estratégia</div><div>$(\sqrt3+i)^n=2^n\cis(30^\circ n)$. Real: o ângulo cai no eixo real; puro: cai no eixo imaginário.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Real: $30n=180k\Rightarrow n=6k$. Real <b>positivo</b>: $30n=360k\Rightarrow n=12k$ (menor: $12$). Imaginário puro: $30n=90+180k\Rightarrow n=3+6k$ (menor: $3$, pois $(\sqrt3+i)^3=8i$).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>real: $n$ múltiplo de $6$; positivo: múltiplo de $12$; imaginário puro: $n=3,9,15,\dots$</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$n=6$: $64\cis180^\circ=-64$ (real, negativo); $n=12$: $4096\cis360^\circ=4096$ ✓.</div></div></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 39</span><span class="lv">N2</span><span class="r">expoente negativo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $(1+i)^{-4}$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$1+i=\sqrt2\cis45^\circ$: $(\sqrt2)^{-4}\cis(-180^\circ)=\frac14(-1)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$-\dfrac14$. &nbsp;<span class="mut">Confere:</span> $(1+i)^4=-4$ ✓.</div></div></div>
+<div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$\left(2\cis\frac\pi4\right)^4$ &nbsp;·&nbsp; $(1-i)^6$ <span class="mut sm">(Respostas: $-16$; $8i$ — pois $(1-i)^2=-2i$, $(-2i)^3=8i$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Quem é elevado a $n$: módulo ou argumento? Quem é multiplicado? Por que $z\ne0$ para $n<0$?</p></div>
+</div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">12</div><div><span class="lv l3">N3</span> <span class="fm tb">B</span> Seja $n$ o menor inteiro positivo para o qual $\left(\dfrac{\sqrt3-i}2\right)^{n}$ é um imaginário puro com parte imaginária positiva. Calcule $n$.</div></div></div>
+<div class="gab"><b>12 — 009.</b> $\frac{\sqrt3-i}2=\cis330^\circ$ (módulo 1; $\cos=\frac{\sqrt3}2$, $\sen=-\frac12$, 4º Q). Quer-se $330n\equiv90\pmod{360}$ ⟹ $-30n\equiv90\Rightarrow n\equiv-3\equiv9\pmod{12}$. Menor: $n=9$ ($330\cdot9=2970=8\cdot360+90$ ✓).</div>

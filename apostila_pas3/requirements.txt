@@ -1,0 +1,4 @@
+sympy>=1.12
+matplotlib>=3.8
+numpy>=1.26
+pillow>=10.0   # apenas para montar as folhas de contato do controle visual (qa/)

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 178" width="184.00mm" height="44.50mm">
+<rect x="2.00" y="2.00" width="238.00" height="174.00" rx="5" fill="#ffffff" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="39.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">3</tspan><tspan dy="5.04"> </tspan></text>
+<text x="68.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">−3</tspan><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan dy="5.04"> </tspan></text>
+<text x="97.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">+5</tspan><tspan class="i">x</tspan></text>
+<text x="126.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">−3</tspan></text>
+<line x1="134.00" y1="26.00" x2="134.00" y2="45.00" stroke="#1a2233" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="134.00" y1="45.00" x2="218.00" y2="45.00" stroke="#1a2233" stroke-width="1.4" stroke-linecap="round"/>
+<text x="142.00" y="40.00" font-size="12" fill="#1a2233" text-anchor="start"><tspan class="i">x</tspan><tspan class="m">−1</tspan></text>
+<text x="142.00" y="62.00" font-size="12" fill="#167a44" text-anchor="start" font-weight="700"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan dy="5.04"> </tspan></text>
+<text x="39.00" y="60.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">−</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">3</tspan><tspan dy="4.83"> </tspan></text>
+<text x="68.00" y="60.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">+</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<line x1="14.00" y1="65.00" x2="71.00" y2="65.00" stroke="#5f6b7a" stroke-width="1.0" stroke-linecap="round"/>
+<text x="68.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end" font-weight="700"><tspan class="m">−2</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<text x="97.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end" font-weight="700"><tspan class="m">+5</tspan><tspan class="i">x</tspan></text>
+<text x="126.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end" font-weight="700"><tspan class="m">−3</tspan></text>
+<text x="8.00" y="15.00" font-size="8.6" fill="#d4690a" text-anchor="start" font-weight="800"><tspan>① divida só os termos de maior grau</tspan></text>
+<text x="8.00" y="15.00" font-size="8" fill="#1a2233" text-anchor="middle"></text>
+<text x="234.00" y="170.00" font-size="7.4" fill="#c62828" text-anchor="end"><tspan>vermelho: produto com SINAL TROCADO</tspan></text>
+<rect x="248.00" y="2.00" width="238.00" height="174.00" rx="5" fill="#ffffff" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="285.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">3</tspan><tspan dy="5.04"> </tspan></text>
+<text x="314.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">−3</tspan><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan dy="5.04"> </tspan></text>
+<text x="343.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">+5</tspan><tspan class="i">x</tspan></text>
+<text x="372.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">−3</tspan></text>
+<line x1="380.00" y1="26.00" x2="380.00" y2="45.00" stroke="#1a2233" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="380.00" y1="45.00" x2="464.00" y2="45.00" stroke="#1a2233" stroke-width="1.4" stroke-linecap="round"/>
+<text x="388.00" y="40.00" font-size="12" fill="#1a2233" text-anchor="start"><tspan class="i">x</tspan><tspan class="m">−1</tspan></text>
+<text x="388.00" y="62.00" font-size="12" fill="#167a44" text-anchor="start" font-weight="700"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan class="m" dy="5.04">−2</tspan><tspan class="i">x</tspan></text>
+<text x="285.00" y="60.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">−</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">3</tspan><tspan dy="4.83"> </tspan></text>
+<text x="314.00" y="60.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">+</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<line x1="260.00" y1="65.00" x2="317.00" y2="65.00" stroke="#5f6b7a" stroke-width="1.0" stroke-linecap="round"/>
+<text x="314.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">−2</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<text x="343.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">+5</tspan><tspan class="i">x</tspan></text>
+<text x="372.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">−3</tspan></text>
+<text x="314.00" y="94.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">2</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<text x="343.00" y="94.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">−2</tspan><tspan class="i">x</tspan></text>
+<line x1="289.00" y1="99.00" x2="346.00" y2="99.00" stroke="#5f6b7a" stroke-width="1.0" stroke-linecap="round"/>
+<text x="343.00" y="111.00" font-size="11.5" fill="#1a2233" text-anchor="end" font-weight="700"><tspan class="m">3</tspan><tspan class="i">x</tspan></text>
+<text x="372.00" y="111.00" font-size="11.5" fill="#1a2233" text-anchor="end" font-weight="700"><tspan class="m">−3</tspan></text>
+<text x="254.00" y="15.00" font-size="8.6" fill="#d4690a" text-anchor="start" font-weight="800"><tspan>② repita com o novo resto</tspan></text>
+<text x="254.00" y="15.00" font-size="8" fill="#1a2233" text-anchor="middle"></text>
+<text x="480.00" y="170.00" font-size="7.4" fill="#c62828" text-anchor="end"><tspan>vermelho: produto com SINAL TROCADO</tspan></text>
+<rect x="494.00" y="2.00" width="238.00" height="174.00" rx="5" fill="#ffffff" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="531.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">3</tspan><tspan dy="5.04"> </tspan></text>
+<text x="560.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">−3</tspan><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan dy="5.04"> </tspan></text>
+<text x="589.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">+5</tspan><tspan class="i">x</tspan></text>
+<text x="618.00" y="40.00" font-size="12" fill="#1f5fbf" text-anchor="end"><tspan class="m">−3</tspan></text>
+<line x1="626.00" y1="26.00" x2="626.00" y2="45.00" stroke="#1a2233" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="626.00" y1="45.00" x2="710.00" y2="45.00" stroke="#1a2233" stroke-width="1.4" stroke-linecap="round"/>
+<text x="634.00" y="40.00" font-size="12" fill="#1a2233" text-anchor="start"><tspan class="i">x</tspan><tspan class="m">−1</tspan></text>
+<text x="634.00" y="62.00" font-size="12" fill="#167a44" text-anchor="start" font-weight="700"><tspan class="i">x</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan class="m" dy="5.04">−2</tspan><tspan class="i">x</tspan><tspan class="m">+3</tspan></text>
+<text x="531.00" y="60.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">−</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">3</tspan><tspan dy="4.83"> </tspan></text>
+<text x="560.00" y="60.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">+</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<line x1="506.00" y1="65.00" x2="563.00" y2="65.00" stroke="#5f6b7a" stroke-width="1.0" stroke-linecap="round"/>
+<text x="560.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">−2</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<text x="589.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">+5</tspan><tspan class="i">x</tspan></text>
+<text x="618.00" y="77.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">−3</tspan></text>
+<text x="560.00" y="94.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">2</tspan><tspan class="i">x</tspan><tspan class="m" dy="-4.83" font-size="8.28">2</tspan><tspan dy="4.83"> </tspan></text>
+<text x="589.00" y="94.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">−2</tspan><tspan class="i">x</tspan></text>
+<line x1="535.00" y1="99.00" x2="592.00" y2="99.00" stroke="#5f6b7a" stroke-width="1.0" stroke-linecap="round"/>
+<text x="589.00" y="111.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">3</tspan><tspan class="i">x</tspan></text>
+<text x="618.00" y="111.00" font-size="11.5" fill="#1a2233" text-anchor="end"><tspan class="m">−3</tspan></text>
+<text x="589.00" y="128.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">−3</tspan><tspan class="i">x</tspan></text>
+<text x="618.00" y="128.00" font-size="11.5" fill="#c62828" text-anchor="end"><tspan class="m">+3</tspan></text>
+<line x1="564.00" y1="133.00" x2="621.00" y2="133.00" stroke="#5f6b7a" stroke-width="1.0" stroke-linecap="round"/>
+<text x="618.00" y="145.00" font-size="11.5" fill="#167a44" text-anchor="end" font-weight="700"><tspan class="m">0</tspan></text>
+<text x="618.00" y="145.00" font-size="11.5" fill="#167a44" text-anchor="end" font-weight="700"><tspan class="m">0</tspan></text>
+<text x="500.00" y="15.00" font-size="8.6" fill="#d4690a" text-anchor="start" font-weight="800"><tspan>③ pare: resto nulo (grau &lt; gr D)</tspan></text>
+<text x="500.00" y="15.00" font-size="8" fill="#1a2233" text-anchor="middle"></text>
+<text x="726.00" y="170.00" font-size="7.4" fill="#c62828" text-anchor="end"><tspan>vermelho: produto com SINAL TROCADO</tspan></text>
+</svg>

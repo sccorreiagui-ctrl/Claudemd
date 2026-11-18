@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 456" width="125.00mm" height="114.00mm">
+<text x="325.00" y="156.00" font-size="9.5" fill="#aab3c0" text-anchor="middle"><tspan class="m">(+, +)</tspan></text>
+<text x="175.00" y="156.00" font-size="9.5" fill="#aab3c0" text-anchor="middle"><tspan class="m">(−, +)</tspan></text>
+<text x="175.00" y="306.00" font-size="9.5" fill="#aab3c0" text-anchor="middle"><tspan class="m">(−, −)</tspan></text>
+<text x="325.00" y="306.00" font-size="9.5" fill="#aab3c0" text-anchor="middle"><tspan class="m">(+, −)</tspan></text>
+<text x="325.00" y="177.00" font-size="8" fill="#aab3c0" text-anchor="middle"><tspan>1º Q</tspan></text>
+<text x="175.00" y="177.00" font-size="8" fill="#aab3c0" text-anchor="middle"><tspan>2º Q</tspan></text>
+<text x="175.00" y="327.00" font-size="8" fill="#aab3c0" text-anchor="middle"><tspan>3º Q</tspan></text>
+<text x="325.00" y="327.00" font-size="8" fill="#aab3c0" text-anchor="middle"><tspan>4º Q</tspan></text>
+<line x1="49.00" y1="228.00" x2="446.10" y2="228.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="451.00,228.00 444.66,230.96 447.15,228.00 444.66,225.04" fill="#1f5fbf"/>
+<line x1="250.00" y1="429.00" x2="250.00" y2="31.90" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="250.00,27.00 252.96,33.34 250.00,30.85 247.04,33.34" fill="#7a3fc2"/>
+<text x="450.00" y="222.00" font-size="8.6" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>cos θ (Re)</tspan></text>
+<text x="256.00" y="33.00" font-size="8.6" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>sen θ (Im)</tspan></text>
+<circle cx="250.00" cy="228.00" r="150.00" fill="none" stroke="#0b6fa4" stroke-width="1.9"/>
+<text x="393.00" y="241.00" font-size="8.4" fill="#5f6b7a" text-anchor="middle"><tspan class="m">1</tspan></text>
+<text x="93.00" y="241.00" font-size="8.4" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−1</tspan></text>
+<text x="259.00" y="81.00" font-size="8.4" fill="#5f6b7a" text-anchor="middle"><tspan class="m">1</tspan></text>
+<text x="261.00" y="381.00" font-size="8.4" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−1</tspan></text>
+<circle cx="400.00" cy="228.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="410.00" y="242.00" font-size="8.6" fill="#1a2233" text-anchor="start"><tspan class="m">0° = 360°</tspan></text>
+<text x="410.00" y="252.00" font-size="8.4" fill="#d4690a" text-anchor="start"><tspan class="m">0 = 2</tspan><tspan class="i">π</tspan></text>
+<circle cx="379.90" cy="153.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="363.90" y="133.00" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">30°</tspan></text>
+<text x="363.90" y="143.00" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="i">π</tspan><tspan class="m">/6</tspan></text>
+<circle cx="356.07" cy="121.93" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="364.55" y="109.45" font-size="8.6" fill="#1a2233" text-anchor="start"><tspan class="m">45°</tspan></text>
+<text x="364.55" y="119.45" font-size="8.4" fill="#d4690a" text-anchor="start"><tspan class="i">π</tspan><tspan class="m">/4</tspan></text>
+<circle cx="325.00" cy="98.10" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="331.00" y="83.70" font-size="8.6" fill="#1a2233" text-anchor="start"><tspan class="m">60°</tspan></text>
+<text x="331.00" y="93.70" font-size="8.4" fill="#d4690a" text-anchor="start"><tspan class="i">π</tspan><tspan class="m">/3</tspan></text>
+<circle cx="250.00" cy="78.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="250.00" y="53.00" font-size="8.6" fill="#1a2233" text-anchor="middle"><tspan class="m">90°</tspan></text>
+<text x="250.00" y="63.00" font-size="8.4" fill="#d4690a" text-anchor="middle"><tspan class="i">π</tspan><tspan class="m">/2</tspan></text>
+<circle cx="175.00" cy="98.10" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="169.00" y="83.70" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">120°</tspan></text>
+<text x="169.00" y="93.70" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="m">2</tspan><tspan class="i">π</tspan><tspan class="m">/3</tspan></text>
+<circle cx="143.93" cy="121.93" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="135.45" y="109.45" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">135°</tspan></text>
+<text x="135.45" y="119.45" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="m">3</tspan><tspan class="i">π</tspan><tspan class="m">/4</tspan></text>
+<circle cx="120.10" cy="153.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="109.70" y="143.00" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">150°</tspan></text>
+<text x="109.70" y="153.00" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="m">5</tspan><tspan class="i">π</tspan><tspan class="m">/6</tspan></text>
+<circle cx="100.00" cy="228.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="88.00" y="224.00" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">180°</tspan></text>
+<text x="88.00" y="234.00" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="i">π</tspan></text>
+<circle cx="120.10" cy="303.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="109.70" y="307.00" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">210°</tspan></text>
+<text x="109.70" y="317.00" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="m">7</tspan><tspan class="i">π</tspan><tspan class="m">/6</tspan></text>
+<circle cx="143.93" cy="334.07" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="135.45" y="340.55" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">225°</tspan></text>
+<text x="135.45" y="350.55" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="m">5</tspan><tspan class="i">π</tspan><tspan class="m">/4</tspan></text>
+<circle cx="175.00" cy="357.90" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="169.00" y="366.30" font-size="8.6" fill="#1a2233" text-anchor="end"><tspan class="m">240°</tspan></text>
+<text x="169.00" y="376.30" font-size="8.4" fill="#d4690a" text-anchor="end"><tspan class="m">4</tspan><tspan class="i">π</tspan><tspan class="m">/3</tspan></text>
+<circle cx="250.00" cy="378.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="250.00" y="390.00" font-size="8.6" fill="#1a2233" text-anchor="middle"><tspan class="m">270°</tspan></text>
+<text x="250.00" y="400.00" font-size="8.4" fill="#d4690a" text-anchor="middle"><tspan class="m">3</tspan><tspan class="i">π</tspan><tspan class="m">/2</tspan></text>
+<circle cx="325.00" cy="357.90" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="331.00" y="366.30" font-size="8.6" fill="#1a2233" text-anchor="start"><tspan class="m">300°</tspan></text>
+<text x="331.00" y="376.30" font-size="8.4" fill="#d4690a" text-anchor="start"><tspan class="m">5</tspan><tspan class="i">π</tspan><tspan class="m">/3</tspan></text>
+<circle cx="356.07" cy="334.07" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="364.55" y="340.55" font-size="8.6" fill="#1a2233" text-anchor="start"><tspan class="m">315°</tspan></text>
+<text x="364.55" y="350.55" font-size="8.4" fill="#d4690a" text-anchor="start"><tspan class="m">7</tspan><tspan class="i">π</tspan><tspan class="m">/4</tspan></text>
+<circle cx="379.90" cy="303.00" r="2.90" fill="#0b6fa4" stroke="#ffffff" stroke-width="0.8"/>
+<text x="390.30" y="307.00" font-size="8.6" fill="#1a2233" text-anchor="start"><tspan class="m">330°</tspan></text>
+<text x="390.30" y="317.00" font-size="8.4" fill="#d4690a" text-anchor="start"><tspan class="m">11</tspan><tspan class="i">π</tspan><tspan class="m">/6</tspan></text>
+<line x1="250.00" y1="228.00" x2="379.90" y2="153.00" stroke="#1a2233" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="250.00" y1="228.00" x2="379.90" y2="228.00" stroke="#1f5fbf" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="379.90" y1="228.00" x2="379.90" y2="153.00" stroke="#7a3fc2" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="400.00" y1="228.00" x2="400.00" y2="141.40" stroke="#5f6b7a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="250.00" y1="228.00" x2="400.00" y2="141.40" stroke="#5f6b7a" stroke-width="1.0" stroke-dasharray="3 3" stroke-linecap="round"/>
+<path d="M280.00,228.00 A30.00,30.00 0 0 0 275.98,213.00" fill="none" stroke="#d4690a" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="314.95" y="245.00" font-size="8.6" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">cos </tspan><tspan class="i">θ</tspan></text>
+<text x="374.90" y="193.50" font-size="8.6" fill="#7a3fc2" text-anchor="end" font-weight="700"><tspan class="m">sen </tspan><tspan class="i">θ</tspan></text>
+<text x="405.00" y="185.97" font-size="8.4" fill="#5f6b7a" text-anchor="start" font-weight="700"><tspan>tg θ</tspan></text>
+<text x="290.00" y="221.00" font-size="9" fill="#d4690a" text-anchor="middle"><tspan class="i">θ</tspan></text>
+</svg>

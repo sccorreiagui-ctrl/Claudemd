@@ -1,0 +1,35 @@
+<!--META {"topic":"Divisões sucessivas e redução do grau"}-->
+<div class="pt"><span class="num">31</span><h1>Divisões sucessivas e redução do grau</h1><span class="mat">MAT11</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Ideia</div>
+<p class="nob">Se $a$ é raiz de $P$, então $P=(x-a)\,Q_1$ e as demais raízes de $P$ são as de $Q_1$ (<b>grau menor em 1</b>). Repetindo com outra raiz $b$ de $Q_1$: $P=(x-a)(x-b)\,Q_2$. Cada passo é um Ruffini e <b>reduz o grau</b> da equação.</p></div>
+<div class="box ok"><div class="bt">Divisibilidade por produto</div>
+<p class="nob sm">Se $P$ é divisível por $(x-a)$ e por $(x-b)$ com <b>$a\ne b$</b>, então é divisível por $(x-a)(x-b)$. Para $a=b$ é preciso ir além: divisível por $(x-a)$ <i>duas vezes seguidas</i> $\iff$ divisível por $(x-a)^2$ (multiplicidade, p. 34).</p></div>
+</div>
+
+<div class="fig"><div>{{fig:fig_ruffini_succ}}</div><div class="cap"><b>Fig. 32.</b> Escada de Ruffini: o quociente da primeira divisão (sem o resto) vira os coeficientes da segunda.</div></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 71</span><span class="lv">N2</span><span class="r">reduzir e resolver a equação</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Sabendo que $x=-1$ é raiz, resolva $x^3-4x^2+x+6=0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Ruffini, raiz $-1$: $[1,-4,1,6]\to1;\ -1-4=-5;\ 5+1=6;\ -6+6=0$. $Q=x^2-5x+6=(x-2)(x-3)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=\{-1,\,2,\,3\}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=4=-(-4)$ ✓; produto $=-6=-(6)$ ✓ (Girard, p. 36).</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 72</span><span class="lv l3">N3</span><span class="r">divisível por um produto, com parâmetros</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $m,n$ para que $x^3+mx+n$ seja divisível por $(x-1)(x+2)$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Raízes distintas $1$ e $-2$ ⟹ basta $P(1)=P(-2)=0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P(1)=1+m+n=0$; $\ P(-2)=-8-2m+n=0$. Subtraindo: $9+3m=0$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$m=-3$, $n=2$: $P=x^3-3x+2=(x-1)^2(x+2)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x-1)^2(x+2)=(x^2-2x+1)(x+2)=x^3-3x+2$ ✓ (a raiz $1$ é dupla).</div></div></div>
+</div>
+
+<div class="att box"><div class="bt">Atenção · cada Ruffini consome o quociente anterior</div>
+<p class="nob">Na 2ª divisão, use os coeficientes do <b>quociente</b> $Q_1$ (sem o resto). Teste a mesma raiz de novo para detectar multiplicidade; teste outra para continuar a fatoração. Se o resto não for zero, <b>pare</b>: o valor testado não é raiz.</p></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Fatore $x^3-6x^2+11x-6$ sabendo que $1$ é raiz. <span class="mut sm">(Ruffini: $Q=x^2-5x+6$ ⟹ $(x-1)(x-2)(x-3)$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Por que a raiz $a$ reduz o grau em 1? O que fazer com o resto de um Ruffini não nulo? Quantas divisões sucessivas dão um cúbico completo?</p></div>
+</div>
+<div class="box brg"><div class="bt">Ponte com Complexos</div><p class="sm nob">Se as raízes que sobram num $Q$ quadrático têm $\Delta<0$, o último passo é Bhaskara com $\sqrt\Delta=i\sqrt{|\Delta|}$: <b>raízes complexas conjugadas</b>, como em $x^2-2x+5=0\Rightarrow x=1\pm2i$ (p. 34–35).</p></div>

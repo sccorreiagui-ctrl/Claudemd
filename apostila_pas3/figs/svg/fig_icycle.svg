@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="75.00mm" height="60.00mm">
+<circle cx="150.00" cy="118.00" r="64.00" fill="none" stroke="#aab3c0" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="41.20" y1="118.00" x2="253.90" y2="118.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="258.80,118.00 252.46,120.96 254.95,118.00 252.46,115.04" fill="#1f5fbf"/>
+<line x1="150.00" y1="217.20" x2="150.00" y2="23.70" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="150.00,18.80 152.96,25.14 150.00,22.65 147.04,25.14" fill="#7a3fc2"/>
+<text x="257.80" y="112.00" font-size="9.5" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>Re</tspan></text>
+<text x="156.00" y="24.80" font-size="9.5" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>Im</tspan></text>
+<circle cx="214.00" cy="118.00" r="4.40" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="150.00" cy="54.00" r="4.40" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="86.00" cy="118.00" r="4.40" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<circle cx="150.00" cy="182.00" r="4.40" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<path d="M188.81,109.75 A39.68,39.68 0 0 0 158.25,79.19" fill="none" stroke="#d4690a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="158.25,79.19 164.58,77.72 161.75,79.93 163.44,83.10" fill="#d4690a"/>
+<text x="188.01" y="83.49" font-size="10.5" fill="#d4690a" text-anchor="middle" font-weight="700"><tspan class="m">×</tspan><tspan class="i">i</tspan></text>
+<path d="M141.75,79.19 A39.68,39.68 0 0 0 111.19,109.75" fill="none" stroke="#d4690a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="111.19,109.75 109.72,103.42 111.93,106.25 115.10,104.56" fill="#d4690a"/>
+<text x="111.99" y="83.49" font-size="10.5" fill="#d4690a" text-anchor="middle" font-weight="700"><tspan class="m">×</tspan><tspan class="i">i</tspan></text>
+<path d="M111.19,126.25 A39.68,39.68 0 0 0 141.75,156.81" fill="none" stroke="#d4690a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="141.75,156.81 135.42,158.28 138.25,156.07 136.56,152.90" fill="#d4690a"/>
+<text x="111.99" y="159.51" font-size="10.5" fill="#d4690a" text-anchor="middle" font-weight="700"><tspan class="m">×</tspan><tspan class="i">i</tspan></text>
+<path d="M158.25,156.81 A39.68,39.68 0 0 0 188.81,126.25" fill="none" stroke="#d4690a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="188.81,126.25 190.28,132.58 188.07,129.75 184.90,131.44" fill="#d4690a"/>
+<text x="188.01" y="159.51" font-size="10.5" fill="#d4690a" text-anchor="middle" font-weight="700"><tspan class="m">×</tspan><tspan class="i">i</tspan></text>
+<text x="222.00" y="111.00" font-size="15" fill="#1f5fbf" text-anchor="start" font-weight="700"><tspan class="m">1</tspan></text>
+<text x="222.00" y="127.00" font-size="8.6" fill="#1f5fbf" text-anchor="start"><tspan class="m">= </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">0</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">4</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">8</tspan><tspan class="m" dy="3.61"> …</tspan></text>
+<text x="159.00" y="48.00" font-size="15" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan class="i">i</tspan></text>
+<text x="171.00" y="48.00" font-size="8.6" fill="#7a3fc2" text-anchor="start"><tspan class="m">= </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">1</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">5</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">9</tspan><tspan class="m" dy="3.61"> …</tspan></text>
+<text x="78.00" y="111.00" font-size="15" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan class="m">−1</tspan></text>
+<text x="78.00" y="127.00" font-size="8.6" fill="#1f5fbf" text-anchor="end"><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">2</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">6</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">10</tspan><tspan class="m" dy="3.61"> …</tspan></text>
+<text x="159.00" y="196.00" font-size="15" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan class="m">−</tspan><tspan class="i">i</tspan></text>
+<text x="179.00" y="196.00" font-size="8.6" fill="#7a3fc2" text-anchor="start"><tspan class="m">= </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">3</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">7</tspan><tspan class="m" dy="3.61"> = </tspan><tspan class="i">i</tspan><tspan class="m" dy="-3.61" font-size="6.19">11</tspan><tspan class="m" dy="3.61"> …</tspan></text>
+</svg>

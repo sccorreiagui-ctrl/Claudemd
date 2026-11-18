@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="160.00mm" height="75.00mm">
+<rect x="2.00" y="2.00" width="636.00" height="128.00" rx="5" fill="#ffffff" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="10.00" y="16.00" font-size="9.6" fill="#1a2233" text-anchor="start" font-weight="800"><tspan>1ª divisão:  P(x) ÷ (x − 2)   [raiz 2]</tspan></text>
+<text x="34.00" y="50.00" font-size="17" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan class="m">2</tspan></text>
+<line x1="60.00" y1="30.00" x2="60.00" y2="120.00" stroke="#1a2233" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="60.00" y1="86.00" x2="306.00" y2="86.00" stroke="#1a2233" stroke-width="1.8" stroke-linecap="round"/>
+<text x="96.00" y="50.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">1</tspan></text>
+<text x="156.00" y="50.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">2</tspan></text>
+<text x="216.00" y="50.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">−5</tspan></text>
+<text x="276.00" y="50.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">−6</tspan></text>
+<text x="96.00" y="106.00" font-size="17" fill="#167a44" text-anchor="middle" font-weight="800"><tspan class="m">1</tspan></text>
+<text x="156.00" y="79.00" font-size="11.5" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">2</tspan></text>
+<text x="156.00" y="106.00" font-size="17" fill="#d4690a" text-anchor="middle" font-weight="800"><tspan class="m">4</tspan></text>
+<text x="216.00" y="79.00" font-size="11.5" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">8</tspan></text>
+<text x="216.00" y="106.00" font-size="17" fill="#d4690a" text-anchor="middle" font-weight="800"><tspan class="m">3</tspan></text>
+<text x="276.00" y="79.00" font-size="11.5" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">6</tspan></text>
+<text x="276.00" y="106.00" font-size="17" fill="#c62828" text-anchor="middle" font-weight="800"><tspan class="m">0</tspan></text>
+<line x1="226.00" y1="94.00" x2="262.32" y2="74.02" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="266.00,72.00 262.46,76.84 263.11,73.59 260.01,72.40" fill="#1f5fbf"/>
+<text x="248.00" y="104.00" font-size="8" fill="#1a2233" text-anchor="middle"></text>
+<rect x="254.00" y="86.00" width="44.00" height="30.00" rx="5" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="276.00" y="134.00" font-size="8.4" fill="#c62828" text-anchor="middle" font-weight="800"><tspan>RESTO</tspan></text>
+<text x="330.00" y="72.00" font-size="9.4" fill="#167a44" text-anchor="start" font-weight="800"><tspan>resto 0  ⇒  x = 2 é raiz</tspan></text>
+<text x="330.00" y="90.00" font-size="9.4" fill="#1a2233" text-anchor="start"><tspan>Q₁(x) = x² + 4x + 3  (coeficientes 1, 4, 3)</tspan></text>
+<line x1="330.00" y1="104.00" x2="330.00" y2="135.80" stroke="#167a44" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="330.00,140.00 327.46,134.56 330.00,136.70 332.54,134.56" fill="#167a44"/>
+<text x="340.00" y="126.00" font-size="8.2" fill="#167a44" text-anchor="start" font-weight="700"><tspan>os coeficientes do quociente viram a nova linha de cima</tspan></text>
+<rect x="2.00" y="144.00" width="636.00" height="128.00" rx="5" fill="#ffffff" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="10.00" y="158.00" font-size="9.6" fill="#1a2233" text-anchor="start" font-weight="800"><tspan>2ª divisão:  Q₁(x) ÷ (x + 1)   [raiz −1]</tspan></text>
+<text x="34.00" y="192.00" font-size="17" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan class="m">−1</tspan></text>
+<line x1="60.00" y1="172.00" x2="60.00" y2="262.00" stroke="#1a2233" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="60.00" y1="228.00" x2="246.00" y2="228.00" stroke="#1a2233" stroke-width="1.8" stroke-linecap="round"/>
+<text x="96.00" y="192.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">1</tspan></text>
+<text x="156.00" y="192.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">4</tspan></text>
+<text x="216.00" y="192.00" font-size="17" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">3</tspan></text>
+<text x="96.00" y="248.00" font-size="17" fill="#167a44" text-anchor="middle" font-weight="800"><tspan class="m">1</tspan></text>
+<text x="156.00" y="221.00" font-size="11.5" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">−1</tspan></text>
+<text x="156.00" y="248.00" font-size="17" fill="#d4690a" text-anchor="middle" font-weight="800"><tspan class="m">3</tspan></text>
+<text x="216.00" y="221.00" font-size="11.5" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="m">−3</tspan></text>
+<text x="216.00" y="248.00" font-size="17" fill="#c62828" text-anchor="middle" font-weight="800"><tspan class="m">0</tspan></text>
+<line x1="166.00" y1="236.00" x2="202.32" y2="216.02" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="206.00,214.00 202.46,218.84 203.11,215.59 200.01,214.40" fill="#1f5fbf"/>
+<text x="188.00" y="246.00" font-size="8" fill="#1a2233" text-anchor="middle"></text>
+<rect x="194.00" y="228.00" width="44.00" height="30.00" rx="5" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="216.00" y="276.00" font-size="8.4" fill="#c62828" text-anchor="middle" font-weight="800"><tspan>RESTO</tspan></text>
+<text x="330.00" y="214.00" font-size="9.4" fill="#167a44" text-anchor="start" font-weight="800"><tspan>resto 0  ⇒  x = −1 é raiz</tspan></text>
+<text x="330.00" y="232.00" font-size="9.4" fill="#1a2233" text-anchor="start"><tspan>Q₂(x) = x + 3  ⇒  x = −3</tspan></text>
+<text x="8.00" y="292.00" font-size="10.4" fill="#5b2a9e" text-anchor="start" font-weight="800"><tspan>Logo  P(x) = (x − 2)(x + 1)(x + 3):  raízes 2, −1 e −3</tspan></text>
+</svg>

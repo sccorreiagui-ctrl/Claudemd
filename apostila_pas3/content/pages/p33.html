@@ -1,0 +1,48 @@
+<!--META {"topic":"TFA e decomposição em fatores"}-->
+<div class="pt"><span class="num">33</span><h1>Teorema Fundamental da Álgebra e decomposição em fatores</h1><span class="mat">MAT10</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Teorema Fundamental da Álgebra (T.F.A.)</div>
+<p class="nob">Todo polinômio <b>não constante</b> (grau $n\ge1$) com coeficientes complexos tem <b>pelo menos uma raiz complexa</b>. <span class="mut sm">(Não se demonstra aqui.)</span></p></div>
+<div class="box def"><div class="bt">Teorema da Decomposição</div>
+<p class="nob">Um polinômio de grau $n\ge1$ escreve-se como
+$$P(x)=\re{a_n}\,(x-r_1)(x-r_2)\cdots(x-r_n),$$ com $a_n$ o coeficiente dominante e $r_1,\dots,r_n\in\C$ as raízes. Logo há <b>exatamente $n$ raízes</b> complexas <b>contadas com multiplicidade</b>.</p></div>
+</div>
+
+<div class="fig"><div>{{fig:fig_decomp}}</div><div class="cap"><b>Fig. 33.</b> Decomposição de um polinômio de grau 3: o coeficiente dominante (azul) <b>não pode ser esquecido</b>; cada raiz gera um fator $(x-r)$.</div></div>
+
+<div class="g2">
+<div class="box ok"><div class="bt">Três contagens diferentes</div>
+<p class="sm nob"><b>Raízes distintas</b> $\le n$. &nbsp;<b>Raízes com multiplicidade</b> $=n$. &nbsp;<b>Raízes reais</b> $\le n$ (e, para coeficientes reais, o número de raízes não reais é par: p. 35). Em $(x-1)^2(x+2)(x^2+1)$: grau $5$; $5$ raízes com multiplicidade; $4$ distintas ($1,-2,i,-i$); $2$ reais distintas.</p></div>
+<div class="att box"><div class="bt">Atenção</div>
+<p class="sm nob">O T.F.A. exige <b>grau $\ge1$</b> (a constante $5$ não tem raiz; o polinômio nulo tem «todas»). Nunca omita $a_n$ quando $a_n\ne1$. Um polinômio de grau $n$ <b>não pode ter mais de $n$ raízes</b>: por isso, se $P$ de grau $\le n$ se anula em $n+1$ pontos, $P\equiv0$ (base da identidade, p. 24).</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 76</span><span class="lv">N2</span><span class="r">construir polinômio a partir das raízes</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Forme o polinômio de grau 3 com $a_3=2$ e raízes $-2i,\ 2i,\ 3$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P=2(x+2i)(x-2i)(x-3)=2(x^2+4)(x-3)=2(x^3-3x^2+4x-12)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$P(x)=2x^3-6x^2+8x-24$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$P(3)=54-54+24-24=0$ ✓; $P(2i)=2(2i)^3-6(2i)^2+8(2i)-24=-16i+24+16i-24=0$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 77</span><span class="lv">N2</span><span class="r">equação a partir das raízes</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Equação de 3º grau, mônica, de raízes $-1,\ 1,\ 2$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$(x+1)(x-1)(x-2)=(x^2-1)(x-2)=x^3-2x^2-x+2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$x^3-2x^2-x+2=0$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$P(2)=8-8-2+2=0$ ✓; soma das raízes $=2$ ✓ (Girard).</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 78</span><span class="lv">N1</span><span class="r">contar raízes</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para $P=(x-1)^2(x+2)(x^2+1)$, conte raízes distintas, raízes com multiplicidade e raízes reais distintas.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Em $\C$: $x^2+1=(x-i)(x+i)$. Raízes: $1$ (mult. 2), $-2$, $i$, $-i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$4$ distintas; $5$ com multiplicidade (grau 5); $2$ reais distintas ($1$ e $-2$).</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Quantas raízes complexas (com multiplicidade) tem $x^7-3$? E $x^4(x-2)^3$? <span class="mut sm">(Respostas: $7$; $7$ — raiz $0$ quádrupla e $2$ tripla.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que afirma o T.F.A.? Quantas raízes tem um polinômio de grau $n$? Por que $a_n$ aparece na decomposição? Distinga: distintas, com multiplicidade, reais.</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">25</div><div><span class="lv">N1</span> <span class="fm ce">C/E</span> Julgue: «O polinômio $(x-1)^2(x+2)(x^2+1)$ possui exatamente quatro raízes distintas e, contadas as multiplicidades, cinco raízes complexas.»</div></div></div>
+<div class="gab"><b>25 — Certo.</b> Raízes: $1$ (dupla), $-2$, $i$, $-i$: quatro distintas; $2+1+1+1=5=$ grau.</div>
+<div class="box brg"><div class="bt">Ponte com Complexos</div><p class="sm nob">O T.F.A. é a razão de $\C$ ser «o» conjunto certo: em $\R$ nem toda equação tem solução ($x^2+1=0$); em $\C$ <b>toda</b> equação polinomial tem. As raízes de $z^n=k$ (p. 18) são o exemplo concreto: $n$ raízes, igualmente espaçadas.</p></div>

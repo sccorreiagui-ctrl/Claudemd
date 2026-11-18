@@ -1,0 +1,51 @@
+<!--META {"topic":"Teorema das Raízes Racionais"}-->
+<div class="pt"><span class="num">32</span><h1>Teorema das Raízes Racionais</h1><span class="mat">MAT11 · MAT12</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Teorema</div>
+<p class="nob">Seja $P(x)=a_nx^n+\dots+a_0$ com <b>coeficientes inteiros</b>, $a_0\ne0$. Se $\dfrac pq$ (fração <b>irredutível</b>, $q>0$) é raiz de $P$, então
+<br>$\ok{p\ \mid\ a_0}$ &nbsp;(<b>$p$</b> divide o termo independente) &nbsp;e&nbsp; $\ok{q\ \mid\ a_n}$ &nbsp;(<b>$q$</b> divide o coef. dominante).</p></div>
+<div class="att box"><div class="bt">Atenção</div>
+<p class="nob sm"><b>(1)</b> $p$ em cima ($a_0$), $q$ embaixo ($a_n$). <b>(2)</b> O teorema fornece <b>candidatos</b>, não garante raízes (pode não haver nenhuma racional). <b>(3)</b> Precisa de coeficientes inteiros: se houver frações, multiplique tudo pelo mmc. <b>(4)</b> Se $a_0=0$, <b>fatore $x$</b> antes.</p></div>
+</div>
+
+<div class="box met"><div class="bt">Método de seleção e teste</div>
+<ol class="steps">
+<li>Liste os divisores (com sinais $\pm$) de $a_0$ ⟹ valores de $p$.</li>
+<li>Liste os divisores positivos de $a_n$ ⟹ valores de $q$.</li>
+<li>Forme $p/q$ (descarte repetidos) e <b>teste por ordem de conveniência</b>: $\pm1$ primeiro ($P(1)=$ soma dos coeficientes; $P(-1)$), depois os pequenos.</li>
+<li>Ao achar uma raiz, <b>Ruffini</b> reduz o grau: não continue testando no polinômio original.</li>
+<li>Resolva o quociente (Bhaskara, se for quadrático).</li></ol></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 73</span><span class="lv">N2</span><span class="r">raiz racional não inteira</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $3x^3-7x^2+8x-2=0$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>$p\in\{\pm1,\pm2\}$, $q\in\{1,3\}$ ⟹ candidatos $\pm1,\pm2,\pm\frac13,\pm\frac23$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P(1)=2\ne0$; $\ P(\frac13)=\frac19-\frac79+\frac83-2=0$ ✓. Ruffini com $\frac13$: $[3,-7,8,-2]\to3;\ 1-7=-6;\ -2+8=6;\ 2-2=0$. $Q=3x^2-6x+6=3(x^2-2x+2)$, com $\Delta=-4$: $x=1\pm i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=\{\tfrac13,\ 1+i,\ 1-i\}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(3x-1)(x^2-2x+2)=3x^3-7x^2+8x-2$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 74</span><span class="lv">N2</span><span class="r">três raízes racionais</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $2x^3-x^2-8x+4=0$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>$p\in\{\pm1,\pm2,\pm4\}$, $q\in\{1,2\}$. Dica: agrupar também funciona.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$P(2)=16-4-16+4=0$ ✓. Ruffini: $[2,-1,-8,4]\to2;\ 3;\ -2;\ 0$; $\ Q=2x^2+3x-2=(2x-1)(x+2)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=\{2,\ -2,\ \tfrac12\}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=\frac12=-\frac{-1}2$ ✓; produto $=-2=-\frac42$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 75</span><span class="lv">N2</span><span class="r">sem raízes racionais · $a_0=0$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>(a) Existe raiz racional em $x^3-2=0$? (b) Resolva $x^4-3x^3+2x^2=0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>(a) Candidatos $\pm1,\pm2$: $1-2,\ -1-2,\ 8-2,\ -8-2$, nenhum zero. Sem raiz racional (a raiz real é $\sqrt[3]2$, irracional). (b) $a_0=0$: $x^2(x^2-3x+2)=x^2(x-1)(x-2)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>(a) não; (b) $x=0$ (dupla), $1$, $2$.</div></div></div>
+<div>
+<div class="box ok"><div class="bt">Um clássico (Bombelli, séc. XVI)</div>
+<p class="sm nob">$x^3-15x-4=0$ tem a raiz $x=4$ ($64-60-4=0$). Ruffini dá $x^2+4x+1$, com raízes $-2\pm\sqrt3$. A fórmula de Cardano só chegava a elas passando por $\sqrt{-121}$: eis a origem histórica dos complexos (p. 1).</p></div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Candidatos racionais de $2x^3+x-3$? $\ x=1$ é raiz? <span class="mut sm">($\pm1,\pm3,\pm\frac12,\pm\frac32$; sim: $2+1-3=0$.)</span></p></div>
+</div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">24</div><div><span class="lv">N2</span> <span class="fm">Resolva</span> Determine todas as raízes de $2x^3-3x^2-3x+2=0$.</div></div></div>
+<div class="gab"><b>24 — $-1$, $2$ e $\tfrac12$.</b> $p\in\{\pm1,\pm2\}$, $q\in\{1,2\}$. $P(-1)=-2-3+3+2=0$ ✓. Ruffini com $-1$: $[2,-3,-3,2]\to2;\ -5;\ 2;\ 0$, $Q=2x^2-5x+2=(2x-1)(x-2)$, raízes $\frac12$ e $2$.</div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que dizem $p$ e $q$? O teorema garante que existe raiz racional? O que fazer se o termo independente é zero? Como o teorema se liga ao Teorema do Resto e a Ruffini?</p></div>

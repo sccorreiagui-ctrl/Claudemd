@@ -1,0 +1,38 @@
+<!--META {"topic":"Multiplicidade das raízes"}-->
+<div class="pt"><span class="num">34</span><h1>Multiplicidade das raízes e interpretação de gráficos</h1><span class="mat">MAT10</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Multiplicidade</div>
+<p class="nob">$\alpha$ é raiz de <b>multiplicidade $m$</b> de $P$ se $(x-\alpha)^m$ divide $P$ e $(x-\alpha)^{m+1}$ não divide: $\;P(x)=(x-\alpha)^m\,Q(x)$ com $Q(\alpha)\ne0$. $m=1$: simples; $m=2$: dupla; $m=3$: tripla…</p></div>
+<div class="box met"><div class="bt">Como descobrir $m$</div>
+<ol class="steps"><li><b>Forma fatorada</b>: leia o expoente do fator.</li><li><b>Ruffini repetido</b> com a mesma raiz: $m$ é o número de resíduos nulos seguidos.</li><li><b>Gráfico</b> (raiz real, coeficientes reais): troca de sinal ou não.</li></ol></div>
+</div>
+
+<div class="fig"><div>{{fig:fig_mult3}}</div><div class="cap"><b>Fig. 34.</b> $x$, $x^2$ e $x^3$: simples, dupla e tripla na origem.</div></div>
+<div class="fig"><div>{{fig:fig_mult_poly}}</div><div class="cap"><b>Fig. 35.</b> O mesmo polinômio perto de cada uma das suas raízes.</div></div>
+
+<div class="att box"><div class="bt">Atenção · o que se pode afirmar do gráfico</div>
+<p class="nob sm">Em <b>polinômios reais não nulos</b>, para raízes <b>reais</b>: multiplicidade <b>par</b> ⟹ toca o eixo <b>sem mudar de sinal</b>; <b>ímpar</b> ⟹ <b>cruza</b>. A simples cruza «inclinada»; a tripla cruza <b>achatada</b> (formatos distintos). Raízes não reais não aparecem no gráfico.</p></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 79</span><span class="lv l3">N3</span><span class="r">Ruffini sucessivo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Sabendo que $-3$ é raiz dupla de $x^4+4x^3+2x^2+12x+45$, ache todas as raízes.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Ruffini, raiz $-3$: $[1,4,2,12,45]\to1;\ 1;\ -1;\ 15;\ 0$ ⟹ $Q_1=x^3+x^2-x+15$. De novo: $[1,1,-1,15]\to1;\ -2;\ 5;\ 0$ ⟹ $Q_2=x^2-2x+5$. Terceira vez: $[1,-2,5]\to1;\ -5;\ 20\ne0$ ($m=2$). $x^2-2x+5=0\Rightarrow x=1\pm2i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\{-3\ (\text{dupla}),\ 1+2i,\ 1-2i\}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x+3)^2(x^2-2x+5)$ expandido dá o polinômio original ✓; 4 raízes = grau 4.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 80</span><span class="lv">N2</span><span class="r">construir com multiplicidade</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Equação mônica de 3º grau com raízes $3$ (dupla) e $-1$ (simples).</div></div>
+<div class="er"><div class="l">Resolução</div><div>$(x-3)^2(x+1)=(x^2-6x+9)(x+1)=x^3-5x^2+3x+9$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$x^3-5x^2+3x+9=0$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma das raízes (com mult.) $=3+3-1=5$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Multiplicidade da raiz $2$ em $(x-2)^3(x+1)^2$; da raiz $0$ em $x^3(x-1)$. $\ x^2$ muda de sinal em $0$? <span class="mut sm">(Respostas: $3$; $3$; não.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Simples × dupla? Como o Ruffini repetido mede $m$? Multiplicidade par muda o sinal?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">26</div><div><span class="lv">N2</span> <span class="fm tb">B</span> Calcule a multiplicidade da raiz $2$ do polinômio $x^4-5x^3+6x^2+4x-8$.</div></div></div>
+<div class="gab"><b>26 — 003.</b> Ruffini com $2$: $[1,-5,6,4,-8]\to1;-3;0;4;0$ (resto $0$); $\ Q_1=x^3-3x^2+4$ com $2$: $1;-1;-2;0$ (resto $0$); $\ Q_2=x^2-x-2$ com $2$: $1;1;0$ (resto $0$); $\ Q_3=x+1$ com $2$: resto $3\ne0$. Três zeros seguidos: $P=(x-2)^3(x+1)$.</div>

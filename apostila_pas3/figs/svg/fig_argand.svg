@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 300" width="96.00mm" height="75.00mm">
+<line x1="37.00" y1="288.40" x2="37.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="68.00" y1="288.40" x2="68.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="99.00" y1="288.40" x2="99.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="130.00" y1="288.40" x2="130.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="161.00" y1="288.40" x2="161.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="223.00" y1="288.40" x2="223.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="254.00" y1="288.40" x2="254.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="285.00" y1="288.40" x2="285.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="316.00" y1="288.40" x2="316.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="347.00" y1="288.40" x2="347.00" y2="15.60" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="276.00" x2="368.70" y2="276.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="245.00" x2="368.70" y2="245.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="214.00" x2="368.70" y2="214.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="183.00" x2="368.70" y2="183.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="121.00" x2="368.70" y2="121.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="90.00" x2="368.70" y2="90.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="59.00" x2="368.70" y2="59.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="28.00" x2="368.70" y2="28.00" stroke="#e3e7ed" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="15.30" y1="152.00" x2="363.80" y2="152.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="368.70,152.00 362.36,154.96 364.85,152.00 362.36,149.04" fill="#1f5fbf"/>
+<line x1="192.00" y1="288.40" x2="192.00" y2="20.50" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="192.00,15.60 194.96,21.94 192.00,19.45 189.04,21.94" fill="#7a3fc2"/>
+<line x1="37.00" y1="150.00" x2="37.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="37.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−5</tspan></text>
+<line x1="68.00" y1="150.00" x2="68.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="68.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−4</tspan></text>
+<line x1="99.00" y1="150.00" x2="99.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="99.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−3</tspan></text>
+<line x1="130.00" y1="150.00" x2="130.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="130.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−2</tspan></text>
+<line x1="161.00" y1="150.00" x2="161.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="161.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">−1</tspan></text>
+<line x1="223.00" y1="150.00" x2="223.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="223.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">1</tspan></text>
+<line x1="254.00" y1="150.00" x2="254.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="254.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">2</tspan></text>
+<line x1="285.00" y1="150.00" x2="285.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="285.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">3</tspan></text>
+<line x1="316.00" y1="150.00" x2="316.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="316.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">4</tspan></text>
+<line x1="347.00" y1="150.00" x2="347.00" y2="154.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="347.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="middle"><tspan class="m">5</tspan></text>
+<line x1="190.00" y1="276.00" x2="194.00" y2="276.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="279.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">−4</tspan></text>
+<line x1="190.00" y1="245.00" x2="194.00" y2="245.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="248.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">−3</tspan></text>
+<line x1="190.00" y1="214.00" x2="194.00" y2="214.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="217.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">−2</tspan></text>
+<line x1="190.00" y1="183.00" x2="194.00" y2="183.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="186.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">−1</tspan></text>
+<line x1="190.00" y1="121.00" x2="194.00" y2="121.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="124.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">1</tspan></text>
+<line x1="190.00" y1="90.00" x2="194.00" y2="90.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="93.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">2</tspan></text>
+<line x1="190.00" y1="59.00" x2="194.00" y2="59.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="62.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">3</tspan></text>
+<line x1="190.00" y1="28.00" x2="194.00" y2="28.00" stroke="#5f6b7a" stroke-width="0.9" stroke-linecap="round"/>
+<text x="187.00" y="31.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="m">4</tspan></text>
+<text x="187.00" y="162.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="i">O</tspan></text>
+<text x="367.70" y="146.00" font-size="9.5" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>Re</tspan></text>
+<text x="198.00" y="21.60" font-size="9.5" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>Im</tspan></text>
+<line x1="285.00" y1="90.00" x2="285.00" y2="152.00" stroke="#7a3fc2" stroke-width="1.1" stroke-dasharray="3 3" stroke-linecap="round"/>
+<line x1="285.00" y1="90.00" x2="192.00" y2="90.00" stroke="#1f5fbf" stroke-width="1.1" stroke-dasharray="3 3" stroke-linecap="round"/>
+<line x1="192.00" y1="152.00" x2="280.92" y2="92.72" stroke="#1a2233" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="285.00,90.00 281.36,95.98 281.80,92.14 278.08,91.06" fill="#1a2233"/>
+<circle cx="285.00" cy="90.00" r="3.40" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<text x="292.00" y="83.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">1</tspan><tspan class="m" dy="-1.84"> = 3 + 2</tspan><tspan class="i">i</tspan></text>
+<text x="292.00" y="83.00" font-size="9.2" fill="#1a2233" text-anchor="start"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">1</tspan><tspan class="m" dy="-1.84"> = 3 + 2</tspan><tspan class="i">i</tspan></text>
+<circle cx="130.00" cy="59.00" r="3.40" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<text x="123.00" y="52.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="end"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">2</tspan><tspan class="m" dy="-1.84"> = −2 + 3</tspan><tspan class="i">i</tspan></text>
+<text x="123.00" y="52.00" font-size="9.2" fill="#1a2233" text-anchor="end"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">2</tspan><tspan class="m" dy="-1.84"> = −2 + 3</tspan><tspan class="i">i</tspan></text>
+<circle cx="99.00" cy="214.00" r="3.40" fill="#1a2233" stroke="#ffffff" stroke-width="0.8"/>
+<text x="92.00" y="229.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="end"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">3</tspan><tspan class="m" dy="-1.84"> = −3 − 2</tspan><tspan class="i">i</tspan></text>
+<text x="92.00" y="229.00" font-size="9.2" fill="#1a2233" text-anchor="end"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">3</tspan><tspan class="m" dy="-1.84"> = −3 − 2</tspan><tspan class="i">i</tspan></text>
+<circle cx="254.00" cy="245.00" r="3.40" fill="#1a2233" stroke="#ffffff" stroke-width="0.8"/>
+<text x="261.00" y="260.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">4</tspan><tspan class="m" dy="-1.84"> = 2 − 3</tspan><tspan class="i">i</tspan></text>
+<text x="261.00" y="260.00" font-size="9.2" fill="#1a2233" text-anchor="start"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">4</tspan><tspan class="m" dy="-1.84"> = 2 − 3</tspan><tspan class="i">i</tspan></text>
+<circle cx="52.50" cy="152.00" r="3.40" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<text x="52.50" y="143.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="middle"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">5</tspan><tspan class="m" dy="-1.84"> = −4,5</tspan></text>
+<text x="52.50" y="143.00" font-size="9.2" fill="#1a2233" text-anchor="middle"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">5</tspan><tspan class="m" dy="-1.84"> = −4,5</tspan></text>
+<circle cx="192.00" cy="195.40" r="3.40" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<text x="199.00" y="199.40" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">6</tspan><tspan class="m" dy="-1.84"> = −1,4</tspan><tspan class="i">i</tspan></text>
+<text x="199.00" y="199.40" font-size="9.2" fill="#1a2233" text-anchor="start"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">6</tspan><tspan class="m" dy="-1.84"> = −1,4</tspan><tspan class="i">i</tspan></text>
+<text x="328.40" y="31.10" font-size="8.2" fill="#5f6b7a" text-anchor="middle" font-weight="700"><tspan>1º quadrante</tspan></text>
+<text x="55.60" y="31.10" font-size="8.2" fill="#5f6b7a" text-anchor="middle" font-weight="700"><tspan>2º quadrante</tspan></text>
+<text x="55.60" y="277.55" font-size="8.2" fill="#5f6b7a" text-anchor="middle" font-weight="700"><tspan>3º quadrante</tspan></text>
+<text x="328.40" y="277.55" font-size="8.2" fill="#5f6b7a" text-anchor="middle" font-weight="700"><tspan>4º quadrante</tspan></text>
+</svg>

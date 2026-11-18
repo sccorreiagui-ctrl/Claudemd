@@ -1,0 +1,51 @@
+<!--META {"topic":"Módulo"}-->
+<div class="pt"><span class="num">11</span><h1>Módulo de um número complexo</h1><span class="mat">MAT8 · MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 84mm">
+<div>
+<div class="box def"><div class="bt">Módulo</div>
+<p class="nob">$|z|=\rho=\ok{\sqrt{\re{a}^2+\im{b}^2}}$ é a <b>distância da origem ao afixo</b> $P(a,b)$. Vem direto do Teorema de Pitágoras no triângulo retângulo de catetos $|a|$ e $|b|$. É sempre um número <b>real $\ge0$</b>, e $|z|=0\iff z=0$.</p></div>
+<div class="att box"><div class="bt">Atenção · sem $i$ dentro da raiz</div>
+<p class="nob">Os catetos são os <b>números reais</b> $a$ e $b$. Escrever $\sqrt{a^2+(bi)^2}=\sqrt{a^2-b^2}$ é erro grave: pode até dar raiz de negativo, e o módulo nunca é.</p></div>
+<table class="t2">
+<tr><th>$z$</th><th>$|z|$</th><th class="l">tipo</th></tr>
+<tr><td>$-7$</td><td>$7$</td><td class="l">real: $|z|=$ valor absoluto</td></tr>
+<tr><td>$5i$</td><td>$5$</td><td class="l">imag. puro: $|bi|=|b|$</td></tr>
+<tr><td>$3-4i$</td><td>$\sqrt{9+16}=5$</td><td class="l">geral</td></tr>
+<tr><td>$\sqrt3+i$</td><td>$\sqrt{3+1}=2$</td><td class="l">geral</td></tr></table>
+</div>
+<div class="fig"><div>{{fig:fig_modulus}}</div><div class="cap"><b>Fig. 10.</b> Pitágoras no plano: $\rho^2=a^2+b^2$. Aqui $3^2+4^2=5^2$.</div></div>
+</div>
+
+<div class="box ok"><div class="bt">Propriedades do módulo ($z,w\in\C$)</div>
+<div class="g3 sm" style="gap:1mm 5mm">
+<div>$|z|^2=z\,\conj z$</div><div>$|\conj z|=|z|=|-z|$</div><div>$|zw|=|z|\,|w|$</div>
+<div>$\left|\dfrac zw\right|=\dfrac{|z|}{|w|}\ (w\neq0)$</div><div>$|z^n|=|z|^n$</div><div>$|z+w|\le|z|+|w|$ <span class="mut">(triangular)</span></div></div>
+<p class="sm nob" style="margin-top:1mm"><b>Cuidado:</b> $|z+w|\neq|z|+|w|$ em geral (só quando os vetores têm a mesma direção e sentido). Já $|zw|=|z||w|$ vale <b>sempre</b>.</p></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 23</span><span class="lv">N2</span><span class="r">módulo de produto e quociente</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $\left|\dfrac{(1+i)^8(3-4i)}{1-i}\right|$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Módulo de produto/quociente/potência: calcule cada módulo e combine.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$|1+i|=\sqrt2\Rightarrow|(1+i)^8|=(\sqrt2)^8=16$; $\ |3-4i|=5$; $\ |1-i|=\sqrt2$. Total: $\dfrac{16\cdot5}{\sqrt2}=40\sqrt2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$40\sqrt2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(1+i)^8=16$, $\ \frac{16(3-4i)}{1-i}=8(3-4i)(1+i)=8(7-i)$; $|\cdot|=8\sqrt{50}=40\sqrt2$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 24</span><span class="lv l3">N3</span><span class="r">$z^2=3-4i$ por módulo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $z^2=3-4i$ em $\C$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>$z=a+bi$: $|z|^2=|z^2|=5$ dá uma 3ª equação linear em $a^2,b^2$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$a^2-b^2=3$, $\;2ab=-4$ e $a^2+b^2=|3-4i|=5$. Somando: $a^2=4$; subtraindo: $b^2=1$. Como $ab=-2<0$, sinais opostos: $(2,-1)$ e $(-2,1)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$z=2-i$ ou $z=-2+i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(2-i)^2=4-4i+i^2=3-4i$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$|{-12}+5i|$ &nbsp;·&nbsp; $|2i|\cdot|3-4i|$ &nbsp;·&nbsp; $|i^{2026}|$ &nbsp;·&nbsp; $|\conj z|$ se $|z|=7$. <span class="mut sm">(Respostas: $13$; $10$; $1$; $7$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Qual a relação entre $|z|^2$ e $z\conj z$? Por que o módulo nunca é negativo? O módulo de uma soma é a soma dos módulos?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">9</div><div><span class="lv">N2</span> <span class="fm tb">B</span> Calcule $\big|(1+i)^8(3-4i)\big|$.</div></div></div>
+<div class="gab"><b>9 — 080.</b> $|(1+i)^8|=(\sqrt2)^8=16$ e $|3-4i|=5$; pela propriedade do produto, $16\cdot5=80$.</div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> Se $|z|=1$, então $\dfrac1z=\conj z$.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo.</b> $z\conj z=|z|^2=1$, logo $\conj z=\dfrac1z$. (Isso mostra que o inverso de um complexo de módulo $1$ é o seu conjugado.)</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$|-5+12i|$ <b class="cg">→ $13$</b></div><div>$|(2+i)(2-i)|$ <b class="cg">→ $5$</b></div><div>$\left|\dfrac1{3+4i}\right|$ <b class="cg">→ $\dfrac15$</b></div><div>$|z|=3$: $z\conj z$ <b class="cg">→ $9$</b></div><div>$|i^{2026}|$ <b class="cg">→ $1$</b></div><div>$|(1-i)^6|$ <b class="cg">→ $8$</b></div></div></div>

@@ -1,0 +1,61 @@
+<!--META {"topic":"Girard em graus superiores"}-->
+<div class="pt"><span class="num">37</span><h1>Relações de Girard em graus superiores e aplicações</h1><span class="mat">MAT10</span></div>
+
+<div class="box def"><div class="bt">Grau $n$ (padrão geral)</div>
+<p class="nob">Para $a_nx^n+a_{n-1}x^{n-1}+\dots+a_1x+a_0=0$ com raízes $r_1,\dots,r_n$ (contadas com multiplicidade), a soma de todos os produtos de $k$ raízes é
+$$S_k=(-1)^k\,\frac{a_{n-k}}{a_n},\qquad S_1=-\frac{a_{n-1}}{a_n},\quad\ S_n=r_1r_2\cdots r_n=(-1)^n\frac{a_0}{a_n}.$$</p></div>
+
+<table>
+<tr><th>grau</th><th>$S_1$ (soma)</th><th>$S_2$ (2 a 2)</th><th>$S_3$ (3 a 3)</th><th>$S_4$ (produto)</th></tr>
+<tr><td>$2$</td><td>$-\frac{b}a$</td><td>$+\frac ca$ <span class="mut">(produto)</span></td><td>—</td><td>—</td></tr>
+<tr><td>$3$</td><td>$-\frac ba$</td><td>$+\frac ca$</td><td>$-\frac da$ <span class="mut">(produto)</span></td><td>—</td></tr>
+<tr><td>$4$ <span class="mut sm">($ax^4+bx^3+cx^2+dx+e$)</span></td><td>$-\frac ba$</td><td>$+\frac ca$</td><td>$-\frac da$</td><td>$+\frac ea$ <span class="mut">(produto)</span></td></tr>
+<tr class="hl"><td>sinais</td><td>$\bad{-}$</td><td>$\bad{+}$</td><td>$\bad{-}$</td><td>$\bad{+}$</td></tr></table>
+
+<div class="g2">
+<div class="box met"><div class="bt">Aplicações obrigatórias</div>
+<ul class="sm" style="padding-left:3.6mm">
+<li>Soma e produto das raízes <b>sem resolver</b>.</li>
+<li>Determinar <b>coeficientes</b> desconhecidos.</li>
+<li>Uma raiz conhecida ⟹ restante por Girard.</li>
+<li>Relação entre as raízes: <b>PA</b> $(r-d,\,r,\,r+d)$: soma $=3r$; <b>PG</b> $(\frac rq,r,rq)$: produto $=r^3$.</li>
+<li>Soma de inversos $=S_{n-1}/S_n$ (raízes não nulas).</li></ul></div>
+<div class="att box"><div class="bt">Atenção</div>
+<p class="sm nob">Conte raízes <b>com multiplicidade</b> (uma raiz dupla entra duas vezes). Dê atenção ao sinal $(-1)^k$ e, se $a_n\ne1$, ao denominador. Raízes complexas contam como quaisquer outras: o par $a\pm bi$ contribui com soma $2a$ e produto $a^2+b^2$.</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 87</span><span class="lv">N2</span><span class="r">grau 4</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para $x^4-10x^3+35x^2-50x+24=0$, dê $S_1,\dots,S_4$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$S_1=10$; $\ S_2=35$; $\ S_3=-(-50)=50$; $\ S_4=24$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$(10,\ 35,\ 50,\ 24)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Raízes $1,2,3,4$: soma $10$; produto $24$; $S_2=2+3+4+6+8+12=35$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 88</span><span class="lv l3">N3</span><span class="r">raízes em progressão aritmética</span></div>
+<div class="er"><div class="l">Enunciado</div><div>As raízes de $x^3-9x^2+23x-15=0$ estão em PA. Determine-as.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Raízes $r-d,\ r,\ r+d$: soma $3r$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$3r=9\Rightarrow r=3$. Produto: $(3-d)\cdot3\cdot(3+d)=3(9-d^2)=15\Rightarrow d^2=4$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\{1,\ 3,\ 5\}$ ($d=\pm2$).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$S_2=3+5+15=23$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 89</span><span class="lv">N2</span><span class="r">coeficientes desconhecidos</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$x^3+px^2+qx-24=0$ tem raízes $2$ e $3$. Determine $p,q$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Produto: $2\cdot3\cdot r_3=24\Rightarrow r_3=4$. $S_1=9=-p\Rightarrow p=-9$. $\ S_2=6+8+12=26=q$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$p=-9,\ q=26$ (e a terceira raiz é $4$).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x-2)(x-3)(x-4)=x^3-9x^2+26x-24$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 90</span><span class="tag-int">Integra Complexos + Polinômios</span><span class="lv l3">N3</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$x^3+px^2+qx+10=0$ (coef. reais) tem a raiz $1+2i$. Determine $p$ e $q$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Conjugada: $1-2i$ (p. 35). Par: soma $2$, produto $5$. Produto das três raízes $=-10$ ⟹ $5r_3=-10$, $r_3=-2$. $\ S_1=2-2=0=-p\Rightarrow p=0$; $\ S_2=5+(-2)(2)=1=q$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$p=0,\ q=1$: $x^3+x+10=(x^2-2x+5)(x+2)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x^2-2x+5)(x+2)=x^3+2x^2-2x^2-4x+5x+10$ ✓.</div></div></div>
+</div>
+
+<div class="box brg"><div class="bt">Ponte com Complexos</div>
+<p class="sm nob">Para $z^n=k$ ($n\ge2$) o polinômio $z^n-k$ não tem termo em $z^{n-1}$: pela relação de $S_1$ a <b>soma das $n$ raízes é $0$</b> (p. 18); o produto das raízes é $(-1)^n\cdot(-k)=(-1)^{n+1}k$ (p. 19).</p></div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">29</div><div><span class="lv">N2</span> <span class="fm tb">B</span> As raízes de $x^3-12x^2+44x-48=0$ estão em progressão aritmética. Calcule a maior raiz.</div></div></div>
+<div class="gab"><b>29 — 006.</b> $3r=12\Rightarrow r=4$; $\ 4(16-d^2)=48\Rightarrow d^2=4$. Raízes $2,4,6$. Confere: $S_2=8+12+24=44$ ✓.</div>

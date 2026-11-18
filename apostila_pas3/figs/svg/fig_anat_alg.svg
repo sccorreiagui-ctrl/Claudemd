@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 150" width="93.00mm" height="37.50mm">
+<text x="186.00" y="42.00" font-size="30" fill="#1a2233" text-anchor="middle"><tspan class="i" fill="#1a2233">z</tspan><tspan class="m"> = </tspan><tspan class="i" fill="#1f5fbf">a</tspan><tspan class="m"> + </tspan><tspan class="i" fill="#7a3fc2">b</tspan><tspan class="i" fill="#7a3fc2">i</tspan></text>
+<line x1="172.00" y1="56.00" x2="75.95" y2="90.58" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="72.00,92.00 76.26,87.77 75.10,90.88 77.98,92.54" fill="#1f5fbf"/>
+<line x1="209.00" y1="56.00" x2="188.26" y2="88.46" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="186.00,92.00 186.79,86.05 187.78,89.22 191.06,88.78" fill="#7a3fc2"/>
+<line x1="232.00" y1="56.00" x2="296.29" y2="90.03" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="300.00,92.00 294.01,91.70 297.08,90.46 296.38,87.21" fill="#7a3fc2"/>
+<rect x="6.00" y="94.00" width="132.00" height="50.00" rx="4" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.0"/>
+<text x="72.00" y="122.40" font-size="10" fill="#1a2233" text-anchor="middle"></text>
+<text x="72.00" y="110.00" font-size="9.5" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan>Parte real</tspan></text>
+<text x="72.00" y="124.00" font-size="12" fill="#1f5fbf" text-anchor="middle"><tspan class="m">Re(</tspan><tspan class="i">z</tspan><tspan class="m">) = </tspan><tspan class="i">a</tspan></text>
+<text x="72.00" y="138.00" font-size="8.2" fill="#5f6b7a" text-anchor="middle"><tspan>(número real)</tspan></text>
+<rect x="142.00" y="94.00" width="100.00" height="50.00" rx="4" fill="#eadcf8" stroke="#7a3fc2" stroke-width="1.0"/>
+<text x="192.00" y="122.40" font-size="10" fill="#1a2233" text-anchor="middle"></text>
+<text x="192.00" y="110.00" font-size="9.2" fill="#7a3fc2" text-anchor="middle" font-weight="700"><tspan>Parte imaginária</tspan></text>
+<text x="192.00" y="124.00" font-size="12" fill="#7a3fc2" text-anchor="middle"><tspan class="m">Im(</tspan><tspan class="i">z</tspan><tspan class="m">) = </tspan><tspan class="i">b</tspan></text>
+<text x="192.00" y="138.00" font-size="8.2" fill="#c62828" text-anchor="middle" font-weight="700"><tspan>(também REAL!)</tspan></text>
+<rect x="246.00" y="94.00" width="120.00" height="50.00" rx="4" fill="#e6e9ee" stroke="#5f6b7a" stroke-width="1.0"/>
+<text x="306.00" y="122.40" font-size="10" fill="#1a2233" text-anchor="middle"></text>
+<text x="306.00" y="110.00" font-size="9.2" fill="#7a3fc2" text-anchor="middle" font-weight="700"><tspan>Unidade imaginária</tspan></text>
+<text x="306.00" y="124.00" font-size="12" fill="#1a2233" text-anchor="middle"><tspan class="i">i</tspan><tspan class="m" dy="-5.04" font-size="8.64">2</tspan><tspan class="m" dy="5.04"> = −1</tspan></text>
+<text x="306.00" y="138.00" font-size="8.2" fill="#5f6b7a" text-anchor="middle"><tspan>(não é parte de b)</tspan></text>
+</svg>

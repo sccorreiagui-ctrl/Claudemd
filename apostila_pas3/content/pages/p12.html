@@ -1,0 +1,33 @@
+<!--META {"topic":"Revisão trigonométrica"}-->
+<div class="pt"><span class="num">12</span><h1>Revisão estratégica de Trigonometria</h1><span class="mat">pré-requisito · MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:104mm 1fr">
+<div class="fig l"><div>{{fig:fig_trigcircle}}</div><div class="cap"><b>Fig. 11.</b> Círculo trigonométrico (raio 1). Cada ponto da circunferência é $(\cos\theta,\ \sen\theta)$: <span class="cb">cosseno</span> = projeção no eixo horizontal, <span class="cp">seno</span> = projeção no eixo vertical, $\ang\theta$ = ângulo medido do eixo $x$ positivo, <b>no sentido anti-horário</b>. A <span class="cx">tangente</span> é o segmento vertical em $x=1$ (existe se $\cos\theta\ne0$).</div></div>
+<div>
+<div class="box pre"><div class="bt">Pré-requisito · graus e radianos</div>
+<p class="sm nob">$180^\circ=\pi$ rad. &nbsp;<b>graus → rad:</b> $\times\dfrac{\pi}{180}$ &nbsp;·&nbsp; <b>rad → graus:</b> $\times\dfrac{180}{\pi}$.<br>$150^\circ=\dfrac{150\pi}{180}=\dfrac{5\pi}6$ &nbsp;·&nbsp; $\dfrac{7\pi}4=\dfrac{7\cdot180^\circ}4=315^\circ$.</p></div>
+<div class="box def"><div class="bt">Ângulos equivalentes</div>
+<p class="sm nob">$\theta$ e $\theta+2k\pi$ ($k\in\Z$) marcam o <b>mesmo ponto</b>: $\;\cos(\theta+2k\pi)=\cos\theta$, $\sen(\theta+2k\pi)=\sen\theta$ (período $2\pi=360^\circ$). Ex.: $750^\circ=2\cdot360^\circ+30^\circ\equiv30^\circ$; $\ -\dfrac\pi3\equiv\dfrac{5\pi}3$.</p></div>
+<div class="box met"><div class="bt">Redução ao 1º quadrante</div>
+<p class="sm nob">Sendo $\theta_0$ o ângulo agudo de referência: <br>2º Q: $\theta=180^\circ-\theta_0$ &nbsp;(sen +, cos −) <br>3º Q: $\theta=180^\circ+\theta_0$ &nbsp;(sen −, cos −) <br>4º Q: $\theta=360^\circ-\theta_0$ &nbsp;(sen −, cos +) <br>O <b>valor absoluto</b> é o do ângulo agudo; o <b>sinal</b> vem do quadrante.</p></div>
+</div>
+</div>
+
+<h2>Tabela dos ângulos notáveis</h2>
+<table>
+<tr><th>$\theta$ (graus)</th><th>$0^\circ$</th><th>$30^\circ$</th><th>$45^\circ$</th><th>$60^\circ$</th><th>$90^\circ$</th><th>$120^\circ$</th><th>$135^\circ$</th><th>$150^\circ$</th><th>$180^\circ$</th><th>$270^\circ$</th><th>$360^\circ$</th></tr>
+<tr><th>$\theta$ (rad)</th><td>$0$</td><td>$\frac\pi6$</td><td>$\frac\pi4$</td><td>$\frac\pi3$</td><td>$\frac\pi2$</td><td>$\frac{2\pi}3$</td><td>$\frac{3\pi}4$</td><td>$\frac{5\pi}6$</td><td>$\pi$</td><td>$\frac{3\pi}2$</td><td>$2\pi$</td></tr>
+<tr><th style="color:var(--blue)">$\cos\theta$</th><td>$1$</td><td>$\frac{\sqrt3}2$</td><td>$\frac{\sqrt2}2$</td><td>$\frac12$</td><td>$0$</td><td>$-\frac12$</td><td>$-\frac{\sqrt2}2$</td><td>$-\frac{\sqrt3}2$</td><td>$-1$</td><td>$0$</td><td>$1$</td></tr>
+<tr><th style="color:var(--purple)">$\sen\theta$</th><td>$0$</td><td>$\frac12$</td><td>$\frac{\sqrt2}2$</td><td>$\frac{\sqrt3}2$</td><td>$1$</td><td>$\frac{\sqrt3}2$</td><td>$\frac{\sqrt2}2$</td><td>$\frac12$</td><td>$0$</td><td>$-1$</td><td>$0$</td></tr>
+<tr><th>$\tg\theta$</th><td>$0$</td><td>$\frac{\sqrt3}3$</td><td>$1$</td><td>$\sqrt3$</td><td>—</td><td>$-\sqrt3$</td><td>$-1$</td><td>$-\frac{\sqrt3}3$</td><td>$0$</td><td>—</td><td>$0$</td></tr></table>
+<p class="sm"><b>Truque de memória:</b> para $30^\circ,45^\circ,60^\circ$, o seno vale $\frac{\sqrt1}2,\frac{\sqrt2}2,\frac{\sqrt3}2$ e o cosseno vale o <b>inverso</b> dessa ordem. «—» significa que a tangente não existe ($\cos\theta=0$).</p>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 25</span><span class="lv">N1</span><span class="r">redução ao 1º quadrante</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $\sen150^\circ$, $\cos210^\circ$ e $\sen\dfrac{7\pi}4$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$150^\circ=180^\circ-30^\circ$ (2º Q): $\sen150^\circ=+\sen30^\circ=\frac12$. &nbsp;$210^\circ=180^\circ+30^\circ$ (3º Q): $\cos210^\circ=-\cos30^\circ=-\frac{\sqrt3}2$. &nbsp;$\frac{7\pi}4=2\pi-\frac\pi4$ (4º Q): $\sen=-\sen\frac\pi4=-\frac{\sqrt2}2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\dfrac12$; $\ -\dfrac{\sqrt3}2$; $\ -\dfrac{\sqrt2}2$.</div></div></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Quanto valem $\cos\pi$, $\sen\frac{3\pi}2$ e $\cos120^\circ$? Converta $225^\circ$ e $\frac{11\pi}6$. Qual quadrante tem sen &lt; 0 e cos &gt; 0? <span class="mut">($-1$; $-1$; $-\frac12$; $\frac{5\pi}4$ e $330^\circ$; 4º.)</span></p></div>
+</div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> $\sen\dfrac{7\pi}6=-\dfrac12$ e $\cos\dfrac{7\pi}6=-\dfrac{\sqrt3}2$.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo.</b> $\frac{7\pi}6=210^\circ$, 3º quadrante, ângulo de referência $30^\circ$: seno e cosseno negativos, com $\sen30^\circ=\frac12$ e $\cos30^\circ=\frac{\sqrt3}2$.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$3\pi/4$ em graus <b class="cg">→ $135^\circ$</b></div><div>$240^\circ$ em rad <b class="cg">→ $4\pi/3$</b></div><div>$\cos300^\circ$ <b class="cg">→ $\tfrac12$</b></div><div>$\sen330^\circ$ <b class="cg">→ $-\tfrac12$</b></div><div>$\sen3\pi$ <b class="cg">→ $0$</b></div><div>$\tg225^\circ$ <b class="cg">→ $1$</b></div></div></div>

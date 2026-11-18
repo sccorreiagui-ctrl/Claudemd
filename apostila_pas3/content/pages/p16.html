@@ -1,0 +1,48 @@
+<!--META {"topic":"Multiplicação e divisão polar"}-->
+<div class="pt"><span class="num">16</span><h1>Multiplicação e divisão na forma trigonométrica</h1><span class="mat">MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 72mm">
+<div>
+<div class="box def"><div class="bt">Regras</div>
+<p class="sm">Com $Z_1=\rho_1\cis\theta_1$ e $Z_2=\rho_2\cis\theta_2$:</p>
+<p><b>Produto:</b> $\;Z_1Z_2=\ok{\rho_1\rho_2}\ \cis(\ang{\theta_1+\theta_2})$ &nbsp;— <b class="cg">multiplicam-se os módulos</b>, <b class="co">somam-se os argumentos</b>.</p>
+<p class="nob"><b>Quociente:</b> $\;\dfrac{Z_1}{Z_2}=\ok{\dfrac{\rho_1}{\rho_2}}\ \cis(\ang{\theta_1-\theta_2})$, $\ Z_2\neq0$ &nbsp;— dividem-se os módulos, <b class="co">subtraem-se os argumentos</b>.</p></div>
+<div class="box ok"><div class="bt">Por que funciona</div>
+<p class="sm nob">Multiplicando: a parte real é $\cos\theta_1\cos\theta_2-\sen\theta_1\sen\theta_2=\cos(\theta_1+\theta_2)$ e a imaginária é $\sen\theta_1\cos\theta_2+\cos\theta_1\sen\theta_2=\sen(\theta_1+\theta_2)$: são as fórmulas de adição de arcos. Geometricamente, o vetor $Z_2$ é <b>girado de $\theta_1$ e esticado por $\rho_1$</b> (p. 15).</p></div>
+<div class="att box"><div class="bt">Atenção · soma, não produto, dos ângulos</div>
+<p class="sm nob">Compare com potências de mesma base: $a^m\cdot a^n=a^{m+n}$. Aqui, módulos <b>multiplicam</b> e ângulos <b>somam</b>. Se $\theta_1+\theta_2\ge2\pi$ (ou $<0$), reduza à 1ª volta: $\,2\cis300^\circ\cdot3\cis120^\circ=6\cis420^\circ=6\cis60^\circ$.</p></div>
+</div>
+<div class="fig"><div>{{fig:fig_polarmult}}</div><div class="cap"><b>Fig. 16.</b> $Z=2\cis30^\circ$, $W=\sqrt2\cis45^\circ$: o produto tem módulo $2\sqrt2$ e argumento $30^\circ+45^\circ=75^\circ$.</div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 33</span><span class="lv">N2</span><span class="r">duas rotas para o mesmo produto</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $(1+i)(\sqrt3+i)$ pela forma algébrica e pela forma trigonométrica.</div></div>
+<div class="er"><div class="l">Resolução</div><div><b>Algébrica:</b> $\sqrt3+i+\sqrt3\,i+i^2=(\sqrt3-1)+(\sqrt3+1)\,i$. &nbsp;<b>Polar:</b> $1+i=\sqrt2\cis45^\circ$, $\ \sqrt3+i=2\cis30^\circ$ ⟹ produto $=2\sqrt2\cis75^\circ$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$(\sqrt3-1)+(\sqrt3+1)i\ =\ 2\sqrt2\,\cis75^\circ$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Módulo: $\sqrt{(\sqrt3-1)^2+(\sqrt3+1)^2}=\sqrt{8}=2\sqrt2$ ✓. E, de bônus: $2\sqrt2\cos75^\circ=\sqrt3-1\Rightarrow\cos75^\circ=\dfrac{\sqrt6-\sqrt2}4$.</div></div></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 34</span><span class="lv">N2</span><span class="r">quociente polar</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $\dfrac{6\cis(5\pi/3)}{2\cis(\pi/3)}$ e dê a forma algébrica.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Módulo: $6/2=3$. Argumento: $\frac{5\pi}3-\frac\pi3=\frac{4\pi}3$ (já em $[0,2\pi)$). $\;3(\cos240^\circ+i\sen240^\circ)=3\!\left(-\frac12-\frac{\sqrt3}2i\right)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$3\cis\frac{4\pi}3=-\dfrac32-\dfrac{3\sqrt3}2\,i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$3\cis\frac{4\pi}3\cdot2\cis\frac\pi3=6\cis\frac{5\pi}3$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 35</span><span class="lv">N2</span><span class="r">inverso e escolha da forma</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Ache $1/z$ para $z=2\cis\frac\pi6$ e dê o quociente $\dfrac{z}{\,i\,}$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$1=1\cis0$: $\ \dfrac1z=\dfrac12\cis\!\left(0-\frac\pi6\right)=\dfrac12\cis\frac{11\pi}6$. &nbsp;$i=\cis\frac\pi2$ ⟹ $z/i=2\cis\!\left(\frac\pi6-\frac\pi2\right)=2\cis\!\left(-\frac\pi3\right)=2\cis\frac{5\pi}3$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\frac12\cis\frac{11\pi}6$ &nbsp;e&nbsp; $2\cis\frac{5\pi}3$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$1/z=\conj z/|z|^2$: $\ \frac{2\cis(-\pi/6)}{4}$ ✓.</div></div></div>
+</div>
+
+<div class="box met"><div class="bt">Qual forma é mais eficiente?</div>
+<table class="t2" style="margin:0">
+<tr><th class="l">Situação</th><th class="l">Prefira</th><th class="l">Motivo</th></tr>
+<tr><td class="l">somar, subtrair, comparar partes</td><td class="l"><b>algébrica</b></td><td class="l">a polar não tem regra simples para soma</td></tr>
+<tr><td class="l">multiplicar/dividir vários fatores; girar; calcular módulo/argumento do produto</td><td class="l"><b>polar</b></td><td class="l">módulos multiplicam, ângulos somam</td></tr>
+<tr><td class="l">potências altas e raízes (p. 17–18)</td><td class="l"><b>polar</b></td><td class="l">De Moivre</td></tr></table></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$2\cis40^\circ\cdot3\cis80^\circ$ &nbsp;·&nbsp; $\dfrac{8\cis100^\circ}{2\cis160^\circ}$. <span class="mut sm">(Respostas: $6\cis120^\circ$; $4\cis300^\circ$ — pois $-60^\circ\equiv300^\circ$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que acontece com o módulo e com o ângulo ao multiplicar? Ao dividir? Quando $\theta_1+\theta_2>2\pi$, o que fazer?</p></div>
+</div>

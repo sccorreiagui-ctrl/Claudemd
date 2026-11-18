@@ -1,0 +1,60 @@
+<!--META {"topic":"Unidade imaginária"}-->
+<div class="opener"><div><div class="k">Parte I · páginas 01–20</div><div class="t">Números Complexos</div></div>
+<div class="s">Da unidade imaginária à forma polar, às fórmulas de De Moivre e às raízes: o necessário para o PAS 3/UnB, com método, desenho e verificação.</div></div>
+
+<div class="pt"><span class="num">01</span><h1>Por que existem os números complexos?</h1><span class="mat">MAT8 · MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 58mm">
+<div>
+<h2>Cada conjunto nasceu de uma equação sem solução no anterior</h2>
+<table class="t2">
+<tr><th>Equação</th><th>Sem solução em</th><th>Resolvida em</th><th class="l">Nova solução</th></tr>
+<tr><td>$x+5=2$</td><td>$\N$</td><td>$\Z$</td><td class="l">$x=-3$</td></tr>
+<tr><td>$2x=1$</td><td>$\Z$</td><td>$\Q$</td><td class="l">$x=\tfrac12$</td></tr>
+<tr><td>$x^2=2$</td><td>$\Q$</td><td>$\R$</td><td class="l">$x=\pm\sqrt2$</td></tr>
+<tr class="hl"><td>$x^2=-1$</td><td>$\R$</td><td>$\C$</td><td class="l">$x=\pm\,\im{i}$</td></tr>
+</table>
+<p>No quadrado de qualquer número real, o resultado nunca é negativo; logo, $x^2=-1$ <b>não tem solução real</b>. Para ter uma solução, inventa-se um número novo, a <b>unidade imaginária</b> $\im{i}$. A história confirma a necessidade: nas equações do 3º grau (Cardano–Tartaglia, séc. XVI) raízes reais só eram alcançadas passando por raízes quadradas de números negativos.</p>
+<div class="box def"><div class="bt">Definição · unidade imaginária</div>
+<p class="nob">$\im{i}$ é o número tal que $\;\im{i}^{\,2}=-1$. O conjunto dos complexos é $\C=\{\,\re{a}+\im{b}\,\im{i}\;:\;a,b\in\R\,\}$. Todo real $a$ é complexo, pois $a=a+0i$: por isso $\N\subset\Z\subset\Q\subset\R\subset\C$.</p></div>
+</div>
+<div class="fig"><div>{{fig:fig_sets}}</div><div class="cap"><b>Fig. 1.</b> Conjuntos numéricos encaixados. $\C$ contém todos os outros; $i$ e $2+3i$ estão em $\C$ mas <b>fora</b> de $\R$.</div></div>
+</div>
+
+<h2>Radicais de números negativos e equações do 2º grau</h2>
+<div class="g2">
+<div>
+<div class="box def"><div class="bt">Raiz quadrada principal</div>
+<p class="nob">Para $a>0$: $\;\sqrt{-a}=\sqrt a\cdot\im{i}$. Assim $\sqrt{-4}=\im{2i}$. Já a <b>equação</b> $x^2=-4$ tem <b>duas</b> soluções, $x=\pm 2i$: a raiz principal ($2i$) é um único valor; a equação pede todos os $x$ que a satisfazem.</p></div>
+<div class="att box"><div class="bt">Atenção · radicais com fatores negativos</div>
+<p class="nob">$\sqrt{-2}\cdot\sqrt{-8}\;\bad{\neq}\;\sqrt{16}=4$. Converta <b>antes</b>: $\;i\sqrt2\cdot 2i\sqrt2=4\,i^2=\ok{-4}$.</p></div>
+</div>
+<div>
+<div class="box ok"><div class="bt">Discriminante negativo ⟷ raízes complexas</div>
+<p class="nob">Em $ax^2+bx+c=0$ com $\Delta=b^2-4ac<0$: $\;\sqrt\Delta=i\sqrt{|\Delta|}$ e as raízes são <b>complexas conjugadas</b>: $x=\dfrac{-b\pm i\sqrt{|\Delta|}}{2a}$.</p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div>
+<p class="nob">Quantas soluções tem $x^2=-9$? Quanto vale $\sqrt{-9}$? Resolva $x^2+25=0$ e $x^2+2x+5=0$ <span class="mut">($\pm5i$; $-1\pm2i$)</span>.</p></div>
+</div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 1</span><span class="lv">N2</span><span class="r">equação do 2º grau com $\Delta<0$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Resolva $x^2-2x+3=0$ em $\C$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Bhaskara; como $\Delta<0$, usar $\sqrt{-k}=i\sqrt k$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\Delta=(-2)^2-4\cdot1\cdot3=-8$. &nbsp;$\sqrt{-8}=\sqrt8\,i=2\sqrt2\,i$. &nbsp;$x=\dfrac{2\pm2\sqrt2\,i}{2}=1\pm\sqrt2\,i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=\{\,1+i\sqrt2,\;1-i\sqrt2\,\}$ (duas raízes não reais).</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Soma $=2=-b/a$ ✓. Produto $=(1+i\sqrt2)(1-i\sqrt2)=1+2=3=c/a$ ✓.</div></div></div>
+
+
+<div class="box pre"><div class="bt">Como ler esta apostila · cores com significado fixo</div>
+<div class="g3 sm" style="gap:1.5mm 4mm">
+<div><span class="chip b">AZUL</span> parte real, coeficientes, dados iniciais</div>
+<div><span class="chip p">ROXO</span> parte imaginária e elementos complexos</div>
+<div><span class="chip g">VERDE</span> resultados, módulos, verificações corretas</div>
+<div><span class="chip o">LARANJA</span> argumentos, ângulos, rotações, etapas</div>
+<div><span class="chip r">VERMELHO</span> erros de conceito e de sinal, ressalvas</div>
+<div><span class="chip x">CINZA</span> construções auxiliares</div></div>
+<p class="sm nob" style="margin-top:1.2mm"><span class="lv">N1</span> fundamentos &nbsp;<span class="lv">N2</span> aplicações &nbsp;<span class="lv l3">N3</span> desafios PAS &nbsp;·&nbsp; <span class="fm ce">C/E</span> item certo/errado (tipo A) &nbsp;<span class="fm tb">B</span> resposta inteira 000–999 (tipo B). Exemplos: <b>Enunciado → Estratégia → Resolução → Resposta → Verificação</b>.</p></div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>Gabarito logo abaixo</span></div>
+<div class="x"><div class="xn">1</div><div><span class="lv">N1</span> <span class="fm ce">C/E</span> Julgue: «$\sqrt{-2}\cdot\sqrt{-8}=4$, pois $\sqrt{(-2)(-8)}=\sqrt{16}=4$.»</div></div></div>
+<div class="gab"><b>1 — Errado.</b> A propriedade $\sqrt{ab}=\sqrt a\sqrt b$ vale para $a,b\ge0$. Correto: $i\sqrt2\cdot2i\sqrt2=4i^2=-4$.</div>

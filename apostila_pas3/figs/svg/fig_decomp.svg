@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 548 150" width="137.00mm" height="37.50mm">
+<text x="274.00" y="52.00" font-size="22" fill="#1a2233" text-anchor="middle"><tspan class="i">P</tspan><tspan class="m">(</tspan><tspan class="i">x</tspan><tspan class="m">) = </tspan><tspan class="m" fill="#1f5fbf">2</tspan><tspan class="m">·(</tspan><tspan class="i">x</tspan><tspan class="m"> − </tspan><tspan class="m" fill="#7a3fc2">(−2</tspan><tspan class="i" fill="#7a3fc2">i</tspan><tspan class="m" fill="#7a3fc2">)</tspan><tspan class="m">)·(</tspan><tspan class="i">x</tspan><tspan class="m"> − </tspan><tspan class="m" fill="#7a3fc2">2</tspan><tspan class="i" fill="#7a3fc2">i</tspan><tspan class="m">)·(</tspan><tspan class="i">x</tspan><tspan class="m"> − </tspan><tspan class="m" fill="#167a44">3</tspan><tspan class="m">)</tspan></text>
+<text x="70.00" y="18.00" font-size="8.6" fill="#1f5fbf" text-anchor="middle" font-weight="800"><tspan>coeficiente dominante</tspan></text>
+<line x1="112.00" y1="24.00" x2="161.93" y2="36.95" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="166.00,38.00 160.10,39.09 162.81,37.17 161.37,34.18" fill="#1f5fbf"/>
+<line x1="214.00" y1="118.00" x2="255.41" y2="65.30" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="258.00,62.00 256.63,67.84 255.96,64.59 252.65,64.71" fill="#7a3fc2"/>
+<text x="206.00" y="130.00" font-size="8.6" fill="#7a3fc2" text-anchor="middle" font-weight="800"><tspan>raiz não real r₁ = −2i</tspan></text>
+<line x1="352.00" y1="118.00" x2="359.41" y2="66.16" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="360.00,62.00 361.74,67.74 359.53,65.27 356.72,67.02" fill="#7a3fc2"/>
+<text x="352.00" y="130.00" font-size="8.6" fill="#7a3fc2" text-anchor="middle" font-weight="800"><tspan>raiz não real r₂ = 2i (conjugada de r₁)</tspan></text>
+<line x1="466.00" y1="100.00" x2="442.37" y2="65.47" stroke="#167a44" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="440.00,62.00 445.16,65.06 441.86,64.72 440.98,67.92" fill="#167a44"/>
+<text x="486.00" y="112.00" font-size="8.6" fill="#167a44" text-anchor="middle" font-weight="800"><tspan>raiz real r₃ = 3</tspan></text>
+<text x="274.00" y="92.00" font-size="8.8" fill="#5f6b7a" text-anchor="middle"><tspan>grau 3  ⇒  3 fatores do 1º grau  ⇒  3 raízes (contadas com multiplicidade)</tspan></text>
+</svg>

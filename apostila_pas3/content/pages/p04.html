@@ -1,0 +1,56 @@
+<!--META {"topic":"Igualdade de complexos"}-->
+<div class="pt"><span class="num">04</span><h1>Igualdade de complexos e parâmetros</h1><span class="mat">MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 1fr">
+<div>
+<div class="box def"><div class="bt">Igualdade</div>
+<p>$\re{a}+\im{b}i=\re{c}+\im{d}i \iff \re{a=c}\ \text{ e }\ \im{b=d}.$</p>
+<p class="nob">Duas partes reais iguais <b>e</b> duas partes imaginárias iguais. Uma igualdade complexa equivale a um <b>sistema de duas equações reais</b>.</p></div>
+<div class="att box"><div class="bt">Atenção · onde estão as incógnitas</div>
+<p class="nob">Em $x+yi$ com $x,y\in\R$, as incógnitas são <b>reais</b>: se aparecer $x^2=-4$, <b>não há</b> solução real para $x$ (e o par é descartado).</p></div>
+</div>
+<div>
+<div class="box met"><div class="bt">Método</div>
+<ol class="steps">
+<li>Expanda e <b>reorganize</b> cada lado como $(\ldots)+(\ldots)i$.</li>
+<li>Iguale <span class="cb">real com real</span> e <span class="cp">imaginário com imaginário</span>.</li>
+<li>Resolva o sistema (reais!).</li>
+<li>Substitua na equação original.</li></ol></div>
+<table class="t2"><tr><th class="l">Lado esq.</th><th>$(x^2-5)$</th><th>$+\;(2+y)\,i$</th></tr>
+<tr><th class="l">Lado dir.</th><th>$4$</th><th>$+\;3\,i$</th></tr>
+<tr><td class="l">Igualar</td><td>$\re{x^2-5=4}$</td><td>$\im{2+y=3}$</td></tr></table>
+</div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 6</span><span class="lv">N1</span><span class="r">igualdade direta</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $x,y\in\R$ com $(x^2-5)+(2+y)i=4+3i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Real: $x^2-5=4\Rightarrow x^2=9\Rightarrow x=\pm3$. &nbsp;Imag.: $2+y=3\Rightarrow y=1$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$(x,y)=(3,1)$ ou $(-3,1)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$x=-3$: $9-5=4$ ✓; $y=1$: $2+1=3$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 7</span><span class="lv">N2</span><span class="r">sistema linear</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$(2x+y)+(x-y)\,i=7+2i$, com $x,y\in\R$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Parte real e parte imaginária dão um sistema.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\begin{cases}2x+y=7\\ x-y=2\end{cases}$ ⟹ somando: $3x=9$, $x=3$, $y=1$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$x=3$, $y=1$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$2\cdot3+1=7$ ✓; $3-1=2$ ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 8</span><span class="lv l3">N3</span><span class="r">raiz quadrada de um complexo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine os complexos $z=x+yi$ ($x,y\in\R$) tais que $z^2=5+12i$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Expandir $z^2$ e igualar as partes: o sistema $x^2-y^2=5$, $2xy=12$ leva a uma <b>biquadrática</b> em $x$ (assunto da p. 39).</div></div>
+<div class="er"><div class="l">Resolução</div><div>$z^2=(x^2-y^2)+2xy\,i$. Então $\begin{cases}x^2-y^2=5\\ 2xy=12\end{cases}$. De $y=6/x$: $\;x^2-\dfrac{36}{x^2}=5\Rightarrow x^4-5x^2-36=0\Rightarrow(x^2-9)(x^2+4)=0$. Como $x$ é real, $x^2+4\neq0$; logo $x^2=9$, $x=\pm3$ e $y=\pm2$ (mesmo sinal, pois $xy=6>0$).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$z=3+2i$ ou $z=-3-2i$, isto é, $z=\pm(3+2i)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(3+2i)^2=9+12i+4i^2=5+12i$ ✓. (Atalho com módulos na p. 11.)</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Ache $x,y$ reais: $x+3i=5+yi$ &nbsp;·&nbsp; $(x-1)+(y+2)i=0$. <span class="mut sm">(Respostas: $x=5,y=3$; $x=1,y=-2$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Por que $a+bi=c+di$ exige duas igualdades? Por que não se pode «cortar» o $i$ dos dois lados e comparar $a+b=c+d$?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">4</div><div><span class="lv l3">N3</span> <span class="fm tb">B</span> Sejam $x,y\in\R$ com $x>0$ e $(x+yi)^2=-7+24i$. Calcule $x+y$.</div></div></div>
+<div class="gab"><b>4 — 007.</b> $x^2-y^2=-7$ e $2xy=24\Rightarrow y=12/x$. Então $x^4+7x^2-144=0\Rightarrow(x^2-9)(x^2+16)=0\Rightarrow x^2=9$; com $x>0$: $x=3$, $y=4$. $\;x+y=7$. Confere: $(3+4i)^2=9-16+24i=-7+24i$ ✓.</div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> Se $x,y\in\R$ e $x+yi=(2+i)^2$, então $x+y=7$.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo.</b> $(2+i)^2=4+4i+i^2=3+4i$, logo $x=3$, $y=4$ e $x+y=7$.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$x+yi=3-5i$ <b class="cg">→ $x=3,\,y=-5$</b></div><div>$(2x-1)+(y+3)i=5$ <b class="cg">→ $x=3,\,y=-3$</b></div><div>$(x+y)+(x-y)i=6+2i$ <b class="cg">→ $x=4,\,y=2$</b></div></div></div>

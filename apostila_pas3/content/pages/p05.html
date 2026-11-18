@@ -1,0 +1,47 @@
+<!--META {"topic":"Adição e subtração"}-->
+<div class="pt"><span class="num">05</span><h1>Adição e subtração de complexos</h1><span class="mat">MAT9 · MAT8</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 1fr">
+<div class="box def"><div class="bt">Regra</div>
+<p>$(\re a+\im b i)\pm(\re c+\im d i)=(\re{a\pm c})+(\im{b\pm d})\,i.$</p>
+<p class="nob">Somam-se (ou subtraem-se) <b>partes reais entre si</b> e <b>partes imaginárias entre si</b>, como termos semelhantes. Elemento neutro: $0$. Oposto de $a+bi$: $-a-bi$.</p></div>
+<div class="att box"><div class="bt">Atenção · o sinal de menos distribui</div>
+<p class="nob">$(5-2i)-(3-7i)=5-2i\;\bad{-3+7i}=2+5i$. O sinal «$-$» antes do parêntese troca <b>os dois</b> sinais de dentro. Esquecer o $+7i$ é o erro mais comum.</p></div>
+</div>
+
+<h2>Os termos se organizam em duas colunas</h2>
+<div class="g2">
+<table class="t2">
+<tr><th class="l"></th><th style="color:var(--blue)">parte real</th><th style="color:var(--purple)">parte imaginária</th></tr>
+<tr><td class="l">$z=5-2i$</td><td>$\re{5}$</td><td>$\im{-2}$</td></tr>
+<tr><td class="l">$-w=-3+7i$</td><td>$\re{-3}$</td><td>$\im{+7}$</td></tr>
+<tr class="hl"><td class="l">$z-w$</td><td>$\re{2}$</td><td>$\im{5}$</td></tr></table>
+<div class="box ok"><div class="bt">Propriedades úteis</div>
+<p class="nob sm">Vale comutativa, associativa e distributiva: $k(a+bi)=ka+kb\,i$ para $k$ real. Uma <b>equação</b> como $z+w_0=u$ resolve-se como em $\R$: $z=u-w_0$. Geometricamente, somar $w_0$ é <b>deslocar</b> o ponto (p. 10).</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 9</span><span class="lv">N1</span><span class="r">soma e diferença</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $(3+4i)+(-1+2i)$ e $(5-2i)-(3-7i)$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Soma: $(3-1)+(4+2)i=2+6i$. &nbsp;Diferença: $5-2i-3+7i=(5-3)+(-2+7)i=2+5i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$2+6i$ &nbsp;e&nbsp; $2+5i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(2+5i)+(3-7i)=5-2i$ ✓ (a diferença «volta» ao minuendo).</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 10</span><span class="lv">N2</span><span class="r">combinação linear</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Sendo $z=1+i$ e $w=2-3i$, calcule $2z-3w$ e resolva $\;u+(2-i)=5+3i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$2z=2+2i$; $3w=6-9i$; $\;2z-3w=2+2i-6+9i=-4+11i$. &nbsp;$u=(5+3i)-(2-i)=3+4i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$-4+11i$ &nbsp;e&nbsp; $u=3+4i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(3+4i)+(2-i)=5+3i$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$(2+i)+(3-4i)$ &nbsp;·&nbsp; $(1-i)-(4+2i)$ &nbsp;·&nbsp; $3(1-2i)-i$. <span class="mut sm">(Respostas: $5-3i$; $-3-3i$; $3-7i$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Quais termos podem ser somados entre si? O que acontece com o sinal ao subtrair $(c+di)$?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">5</div><div><span class="lv">N1</span> <span class="fm ce">C/E</span> Julgue: «A soma de dois números imaginários puros é sempre um número imaginário puro.»</div></div></div>
+<div class="gab"><b>5 — Errado.</b> $2i$ e $-2i$ são imaginários puros, mas $2i+(-2i)=0$, que é real (não é imaginário puro). Para $b_1+b_2\neq0$ a soma é imaginária pura; o «sempre» torna o item falso.</div>
+<div class="box brg"><div class="bt">Adiante</div><p class="sm nob">A soma ganhará sentido geométrico na p. 10 (regra do paralelogramo) e voltará em polinômios como «reduzir termos semelhantes» (p. 25).</p></div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> Se $z_1=2+3i$ e $z_2=-2+5i$, então $z_1+z_2$ é imaginário puro.<br><b>(b)</b> A soma de dois números complexos não reais pode ser um número real.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo:</b> $z_1+z_2=0+8i$, com $a=0$ e $b=8\ne0$. <b>(b) Certo:</b> $(1+i)+(1-i)=2$ (partes imaginárias opostas se cancelam).</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$(2+3i)+(4-i)$ <b class="cg">→ $6+2i$</b></div><div>$(7-2i)-(5+3i)$ <b class="cg">→ $2-5i$</b></div><div>$3(2-i)+2(1+4i)$ <b class="cg">→ $8+5i$</b></div><div>$4i-(2-7i)$ <b class="cg">→ $-2+11i$</b></div><div>$-(-3+i)$ <b class="cg">→ $3-i$</b></div><div>$z+w,\ z-w$ p/ $1+2i,\ 3-i$ <b class="cg">→ $4+i;\ -2+3i$</b></div></div></div>

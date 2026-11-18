@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 548 92" width="137.00mm" height="23.00mm">
+<rect x="6.00" y="22.00" width="190.00" height="46.00" rx="6" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.4"/>
+<text x="101.00" y="52.00" font-size="17" fill="#1a2233" text-anchor="middle"><tspan class="m">(</tspan><tspan class="i">x</tspan><tspan class="m"> − 2)(</tspan><tspan class="i">x</tspan><tspan class="m"> + 3)</tspan></text>
+<text x="101.00" y="16.00" font-size="8.4" fill="#1f5fbf" text-anchor="middle" font-weight="800"><tspan>PRODUTO de fatores</tspan></text>
+<rect x="352.00" y="22.00" width="190.00" height="46.00" rx="6" fill="#fbe5cb" stroke="#d4690a" stroke-width="1.4"/>
+<text x="447.00" y="52.00" font-size="17" fill="#1a2233" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m" dy="-7.14" font-size="12.24">2</tspan><tspan class="m" dy="7.14"> + </tspan><tspan class="i">x</tspan><tspan class="m"> − 6</tspan></text>
+<text x="447.00" y="16.00" font-size="8.4" fill="#d4690a" text-anchor="middle" font-weight="800"><tspan>SOMA de termos</tspan></text>
+<line x1="204.00" y1="36.00" x2="338.40" y2="36.00" stroke="#167a44" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="344.00,36.00 336.75,39.38 339.60,36.00 336.75,32.62" fill="#167a44"/>
+<text x="274.00" y="30.00" font-size="8.8" fill="#167a44" text-anchor="middle" font-weight="800"><tspan>expandir (distributiva)</tspan></text>
+<line x1="344.00" y1="56.00" x2="209.60" y2="56.00" stroke="#7a3fc2" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="204.00,56.00 211.25,52.62 208.40,56.00 211.25,59.38" fill="#7a3fc2"/>
+<text x="274.00" y="76.00" font-size="8.8" fill="#7a3fc2" text-anchor="middle" font-weight="800"><tspan>fatorar (evidência, agrupamento, notáveis, raízes)</tspan></text>
+</svg>

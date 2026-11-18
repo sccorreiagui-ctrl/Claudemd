@@ -1,0 +1,48 @@
+<!--META {"topic":"Divisão"}-->
+<div class="pt"><span class="num">08</span><h1>Divisão: racionalizar o denominador</h1><span class="mat">MAT9</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Ideia</div>
+<p class="nob">Como $w\cdot\conj w=|w|^2$ é real e positivo, multiplicar numerador e denominador por $\conj w$ não altera o quociente e <b>torna o denominador real</b>:
+$$\dfrac{z}{w}=\dfrac{z\cdot\conj w}{w\cdot\conj w}=\dfrac{z\,\conj w}{|w|^2},\qquad w\neq0.$$</p></div>
+<div class="box met"><div class="bt">Método</div>
+<ol class="steps">
+<li>Identifique o denominador $c+di$.</li>
+<li>Escreva seu conjugado $c-di$.</li>
+<li>Multiplique <b>numerador e denominador</b> por ele.</li>
+<li>Distributiva no numerador; no denominador, $c^2+d^2$.</li>
+<li>Troque $i^2$ por $-1$.</li>
+<li>Separe: $\dfrac{\text{real}}{c^2+d^2}+\dfrac{\text{imag}}{c^2+d^2}\,i$.</li></ol></div>
+</div>
+<div class="att box"><div class="bt">Atenção · denominador não nulo</div>
+<p class="nob">A divisão só existe se $w\neq0$, isto é, se $c$ e $d$ <b>não são ambos nulos</b>. Em exercícios com parâmetros, verifique se algum valor encontrado anularia o denominador. Casos úteis: $\dfrac1i=\dfrac{1\cdot(-i)}{i\cdot(-i)}=-i$ &nbsp;e&nbsp; $\dfrac1z=\dfrac{\conj z}{|z|^2}$.</p></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 16</span><span class="lv">N2</span><span class="r">divisão completa</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $\dfrac{2-3i}{3-i}$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Conjugado do denominador: $3+i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\dfrac{(2-3i)(3+i)}{(3-i)(3+i)}=\dfrac{6+2i-9i-3i^2}{3^2+1^2}=\dfrac{9-7i}{10}$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\dfrac9{10}-\dfrac7{10}\,i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$\dfrac{9-7i}{10}(3-i)=\dfrac{27-9i-21i+7i^2}{10}=\dfrac{20-30i}{10}=2-3i$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 17</span><span class="lv l3">N3</span><span class="r">divisão com parâmetro</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para que $x\in\R$ o número $z=\dfrac{1+2i}{1-xi}$ é imaginário puro?</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Multiplicar por $1+xi$; impor $\Rep=0$ e $\Imp\neq0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$(1+2i)(1+xi)=1+xi+2i+2xi^2=(1-2x)+(x+2)i$; denominador $1+x^2>0$ (nunca nulo). $\Rep(z)=\dfrac{1-2x}{1+x^2}=0\Rightarrow x=\dfrac12$; $\Imp=\dfrac{x+2}{1+x^2}\neq0$ ✓.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$x=\dfrac12$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$x=\frac12$: $\dfrac{1+2i}{1-i/2}=\dfrac{(1+2i)(1+i/2)}{5/4}=\dfrac{5i/2}{5/4}=2i$ ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 18</span><span class="lv">N2</span><span class="r">quociente real</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $k\in\R$ para que $\dfrac{k+2i}{1+i}$ seja um número real, e dê o valor desse número.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\dfrac{(k+2i)(1-i)}{2}=\dfrac{k-ki+2i+2}{2}=\dfrac{k+2}{2}+\dfrac{2-k}{2}\,i$. Real $\iff\Imp=0\iff k=2$; então o número vale $\dfrac{2+2}{2}=2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$k=2$, quociente $=2$. &nbsp;<span class="mut">Verificação:</span> $\dfrac{2+2i}{1+i}=2$ ✓.</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$\dfrac{4+2i}{1+i}$ &nbsp;·&nbsp; $\dfrac{1}{3+4i}$ &nbsp;·&nbsp; $\dfrac{i}{1-i}$. <span class="mut sm">(Respostas: $3-i$; $\frac{3-4i}{25}$; $\frac{-1+i}2$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Por que se usa o conjugado do <b>denominador</b>? O que garante que $w\conj w\ne0$? Quanto vale $1/i$?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">7</div><div><span class="lv">N2</span> <span class="fm tb">B</span> Seja $z=\dfrac{7+i}{1-i}$. Calcule $\big(\Rep z\big)^2+\big(\Imp z\big)^2$.</div></div></div>
+<div class="gab"><b>7 — 025.</b> $z=\dfrac{(7+i)(1+i)}{2}=\dfrac{7+7i+i+i^2}{2}=\dfrac{6+8i}{2}=3+4i$. Logo $3^2+4^2=25$. (Também: $|z|=\frac{|7+i|}{|1-i|}=\frac{\sqrt{50}}{\sqrt2}=5$, p. 11.)</div>

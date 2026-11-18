@@ -1,0 +1,50 @@
+<!--META {"topic":"Fatoração fundamental"}-->
+<div class="pt"><span class="num">26</span><h1>Fatoração fundamental e produtos notáveis</h1><span class="mat">MAT11</span></div>
+
+<div class="fig"><div>{{fig:fig_expfac}}</div><div class="cap"><b>Fig. 26.</b> Expandir transforma um <b>produto</b> em <b>soma</b>; fatorar faz o caminho inverso. Fatorar é o que permite achar raízes: um produto é zero quando <b>algum fator</b> é zero.</div></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Caixa de ferramentas</div>
+<table class="t2" style="margin:0">
+<tr><th class="l">Técnica</th><th class="l">Forma</th></tr>
+<tr><td class="l">fator comum</td><td class="l">$ax+ay=a(x+y)$</td></tr>
+<tr><td class="l">agrupamento</td><td class="l">$ax+ay+bx+by=(a+b)(x+y)$</td></tr>
+<tr><td class="l">diferença de quadrados</td><td class="l">$a^2-b^2=(a-b)(a+b)$</td></tr>
+<tr><td class="l">trinômio quadrado perfeito</td><td class="l">$a^2\pm2ab+b^2=(a\pm b)^2$</td></tr>
+<tr><td class="l">soma/diferença de cubos</td><td class="l">$a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2)$</td></tr>
+<tr><td class="l">quadrática com raízes $r_1,r_2$</td><td class="l">$ax^2+bx+c=a(x-r_1)(x-r_2)$</td></tr></table></div>
+<div>
+<div class="att box"><div class="bt">Atenção · fatorar depende do conjunto</div>
+<p class="nob sm">Sobre $\R$, $x^2+4$ <b>não</b> se fatora; sobre $\C$, $x^2+4=(x-2i)(x+2i)$. Pergunte sempre: «fatorar em $\R$ ou em $\C$?» Um fator $x^2+bx+c$ com $\Delta<0$ é «irredutível em $\R$».</p></div>
+<div class="box met"><div class="bt">Ordem de ataque</div>
+<ol class="steps"><li>Fator comum (inclusive $x$ em evidência).</li><li>Produto notável ou agrupamento.</li><li>Raízes (Bhaskara, racionais).</li><li>Confira expandindo.</li></ol></div>
+</div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 57</span><span class="lv">N2</span><span class="r">agrupamento</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Fatore $x^3-x^2-4x+4$ e ache suas raízes.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Agrupe de dois em dois e extraia fator comum.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$x^2(x-1)-4(x-1)=(x-1)(x^2-4)=(x-1)(x-2)(x+2)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$(x-1)(x-2)(x+2)$; raízes $1,\,2,\,-2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(x-1)(x^2-4)=x^3-x^2-4x+4$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 58</span><span class="lv">N2</span><span class="r">em $\R$ e em $\C$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Fatore $x^4-16$ em $\R$ e em $\C$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Diferença de quadrados duas vezes: $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(\bad{x^2+4})$. Em $\C$: $x^2+4=(x-2i)(x+2i)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\R$: $(x-2)(x+2)(x^2+4)$. &nbsp;$\C$: $(x-2)(x+2)(x-2i)(x+2i)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Raízes: $\pm2$ e $\pm2i$ (as 4 raízes quartas de $16$) ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 59</span><span class="lv">N2</span><span class="r">quadrática com coeficiente líder $\ne1$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Fatore $6x^2-x-2$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Ache as raízes e use $a(x-r_1)(x-r_2)$ (ou procure dois números de soma $-1$ e produto $-12$).</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\Delta=1+48=49$; $\ x=\dfrac{1\pm7}{12}\Rightarrow x=\dfrac23$ ou $x=-\dfrac12$. Então $6(x-\frac23)(x+\frac12)=(3x-2)(2x+1)$ (o 6 absorve as frações).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$6x^2-x-2=(3x-2)(2x+1)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(3x-2)(2x+1)=6x^2+3x-4x-2$ ✓.</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Fatore $x^2-6x+9$ &nbsp;·&nbsp; $9x^2-1$ &nbsp;·&nbsp; $x^3-8$ &nbsp;·&nbsp; $x^3+x$ (em $\C$). <span class="mut sm">(Respostas: $(x-3)^2$; $(3x-1)(3x+1)$; $(x-2)(x^2+2x+4)$; $x(x-i)(x+i)$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Por que um produto igual a zero obriga um fator nulo? $x^2+4$ se fatora em $\R$? E em $\C$? Quanto é $a^3-b^3$ fatorado?</p></div>
+</div>
+<div class="box brg"><div class="bt">Ponte com Complexos</div><p class="sm nob">A fatoração $z^2+1=(z-i)(z+i)$ e $z^3-1=(z-1)(z^2+z+1)$ (p. 19) mostram que fatorar sobre $\C$ <b>revela as raízes não reais</b>. Essa ideia vira o Teorema Fundamental da Álgebra (p. 33).</p></div>

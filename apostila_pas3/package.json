@@ -1,0 +1,19 @@
+{
+  "name": "ctg-apostila-pas3-complexos-polinomios",
+  "version": "1.0.0",
+  "description": "Apostila CTG de Matemática (Números Complexos e Polinômios) para o PAS 3/UnB: fontes e gerador do PDF",
+  "main": "index.js",
+  "scripts": {
+    "figs": "python3 figs/make_figs.py",
+    "verify": "python3 verify/verify.py && python3 verify/verify_figs.py",
+    "build": "node build/build.cjs",
+    "all": "python3 figs/make_figs.py && python3 verify/verify.py && python3 verify/verify_figs.py && node build/build.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "katex": "0.16.11"
+  },
+  "private": true
+}

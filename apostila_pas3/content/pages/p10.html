@@ -1,0 +1,47 @@
+<!--META {"topic":"Vetores, distâncias e lugares geométricos"}-->
+<div class="pt"><span class="num">10</span><h1>Soma e diferença vetorial, distâncias, lugares geométricos</h1><span class="mat">MAT8</span></div>
+
+<div class="g3">
+<div class="fig"><div>{{fig:fig_sum}}</div><div class="cap"><b>Fig. 7.</b> Soma: diagonal do paralelogramo de lados $z$ e $w$.</div></div>
+<div class="fig"><div>{{fig:fig_diff}}</div><div class="cap"><b>Fig. 8.</b> Diferença: vetor que vai de $w$ <b>até</b> $z$.</div></div>
+<div class="fig"><div>{{fig:fig_locus}}</div><div class="cap"><b>Fig. 9.</b> Lugar geométrico $|z-z_0|=r$: circunferência.</div></div>
+</div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Soma e diferença</div>
+<p class="nob"><b>Soma:</b> $z+w=(a+c)+(b+d)i$ é a diagonal do paralelogramo (regra do paralelogramo) ou, equivalentemente, o vetor $w$ colocado na ponta de $z$. <b>Diferença:</b> $z-w$ é o vetor que <b>parte do afixo de $w$ e chega ao afixo de $z$</b> (aponta para o minuendo $z$).</p></div>
+<div class="box ok"><div class="bt">Distância entre afixos</div>
+<p class="nob">$d(z,w)=|z-w|=\sqrt{(a-c)^2+(b-d)^2}$ — é a distância euclidiana de Geometria Analítica. Como $|z-w|=|w-z|$, a ordem não importa.</p></div>
+</div>
+
+<div class="box met"><div class="bt">Lugares geométricos fundamentais (r &gt; 0)</div>
+<table class="t2" style="margin:0">
+<tr><th class="l">Condição</th><th class="l">Lugar no plano</th><th class="l">Por quê</th></tr>
+<tr><td class="l">$|z-z_0|=r$</td><td class="l"><b>circunferência</b>, centro $z_0$, raio $r$</td><td class="l">distância de $z$ a $z_0$ é constante</td></tr>
+<tr><td class="l">$|z-z_0|<r$ &nbsp;($\le r$)</td><td class="l"><b>interior</b> do círculo (círculo com borda)</td><td class="l">distância menor que $r$</td></tr>
+<tr><td class="l">$|z-z_0|>r$</td><td class="l"><b>exterior</b> do círculo</td><td class="l">distância maior que $r$</td></tr>
+<tr><td class="l">$|z-z_1|=|z-z_2|$</td><td class="l"><b>mediatriz</b> do segmento $z_1z_2$</td><td class="l">equidistância dos dois afixos</td></tr></table></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 21</span><span class="lv">N1</span><span class="r">soma e distância</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$z=4+3i$, $w=1+2i$. Calcule $z+w$, $z-w$ e $d(z,w)$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$z+w=5+5i$; $\ z-w=3+i$; $\ d=|3+i|=\sqrt{3^2+1^2}=\sqrt{10}$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$5+5i$; $3+i$; $\sqrt{10}$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>Figs. 7–8: diagonal em $(5,5)$ e vetor $(3,1)$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 22</span><span class="lv">N2</span><span class="r">identificar o lugar</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Descreva (a) $|z-(2+i)|=3$; (b) $|z-i|\le2$; (c) $|z-1|=|z+1|$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>(a) circunferência de centro $(2,1)$, raio $3$. (b) disco fechado de centro $(0,1)$ e raio $2$. (c) $z=x+yi$: $(x-1)^2+y^2=(x+1)^2+y^2\Rightarrow x=0$: o eixo imaginário (mediatriz de $-1$ e $1$).</div></div>
+<div class="er res"><div class="l">Resposta</div><div>circunferência; disco; reta $x=0$.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="att box"><div class="bt">Atenção · sinal no centro</div>
+<p class="nob sm">$|z-z_0|=r$ tem centro em $\bad{z_0}$, não em $-z_0$. Em $|z+2-i|=1$ reescreva: $|z-(-2+i)|=1$, centro $(-2,1)$.</p></div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Distância entre $1+i$ e $4+5i$. Centro e raio de $|z+3|=2$. <span class="mut sm">(Respostas: $5$; centro $(-3,0)$, raio $2$.)</span></p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">8</div><div><span class="lv">N1</span> <span class="fm tb">B</span> A distância entre os afixos de $z_1=-2+3i$ e $z_2=4-5i$ é igual a $d$. Calcule $d$.</div></div></div>
+<div class="gab"><b>8 — 010.</b> $z_1-z_2=-6+8i$, $\;d=\sqrt{36+64}=10$.</div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Como o vetor $z-w$ é orientado? Que lugar geométrico define $|z-z_0|=r$? E $|z-z_1|=|z-z_2|$?</p></div>

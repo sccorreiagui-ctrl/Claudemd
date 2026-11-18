@@ -1,0 +1,56 @@
+<!--META {"topic":"Identidade de polinômios"}-->
+<div class="pt"><span class="num">24</span><h1>Polinômio nulo, identidade e comparação de coeficientes</h1><span class="mat">MAT10</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Polinômio identicamente nulo</div>
+<p class="nob">$P\equiv0$ quando <b>todos</b> os coeficientes são nulos: $a_n=\dots=a_1=a_0=0$. Então $P(x)=0$ para todo $x$.</p></div>
+<div class="box def"><div class="bt">Identidade de polinômios</div>
+<p class="nob">$P\equiv Q$ (<b>mesmos</b> valores para todo $x$) $\iff$ os coeficientes dos termos de <b>mesmo grau</b> são iguais: $\;\re{a_k}=\re{b_k}$ para todo $k$. Em particular, graus iguais.</p></div>
+</div>
+
+<div class="g2">
+<div>
+<h3>Tabela de alinhamento (sempre ajude o olho)</h3>
+<table>
+<tr><th class="l"></th><th>$x^2$</th><th>$x^1$</th><th>$x^0$</th></tr>
+<tr><td class="l">$P=ax^2+(b-1)x+12$</td><td class="cb">$a$</td><td class="cb">$b-1$</td><td class="cb">$12$</td></tr>
+<tr><td class="l">$Q=-2x^2+7x-c$</td><td class="cb">$-2$</td><td class="cb">$7$</td><td class="cb">$-c$</td></tr>
+<tr class="hl"><td class="l"><b>$P\equiv Q$ dá</b></td><td>$a=-2$</td><td>$b=8$</td><td>$c=-12$</td></tr></table>
+</div>
+<div class="att box"><div class="bt">Atenção · identidade × equação</div>
+<p class="nob sm">$x^2=4$ é verdadeira só para $x=\pm2$: é uma <b>equação</b>, não uma identidade. Na identidade $x^2-4\equiv(x-2)(x+2)$ a igualdade vale para <b>todo</b> $x$. Substituir valores de $x$ numa identidade é permitido, mas você precisa de <b>tantas equações quantas as incógnitas</b>; igualar coeficientes é o caminho mais seguro.</p></div>
+</div>
+
+<div class="box met"><div class="bt">Método</div>
+<ol class="steps"><li>Expanda e reduza <b>ambos os lados</b> à forma $\sum c_kx^k$.</li><li>Alinhe em tabela e iguale os coeficientes de mesmo grau (um sistema).</li><li>Resolva o sistema; confira substituindo.</li></ol></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 51</span><span class="lv">N1</span><span class="r">identicamente nulo</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $m,n$ para que $(m^2-9)x+(n-2)\equiv0$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Todos os coeficientes nulos: $m^2-9=0\Rightarrow m=\pm3$; $\ n-2=0\Rightarrow n=2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$m=\pm3$ e $n=2$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$m=3,\,n=2$: $0\cdot x+0=0$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 52</span><span class="lv">N2</span><span class="r">reescrever em torno de $x=1$</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Ache $a,b,c$ com $x^2+x+1\equiv a(x-1)^2+b(x-1)+c$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$a(x^2-2x+1)+b(x-1)+c=ax^2+(-2a+b)x+(a-b+c)$. Iguale: $a=1$; $\ -2a+b=1\Rightarrow b=3$; $\ a-b+c=1\Rightarrow c=3$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$a=1,\ b=3,\ c=3$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$x=1$: lado esq. $3$; lado dir. $c=3$ ✓.</div></div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 53</span><span class="lv l3">N3</span><span class="r">identidade que vira equação quadrática</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $a,b$ tais que $(-2x+a)(x+b)\equiv-2x^2-3x-1$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Expandir o lado esquerdo e igualar coeficientes: sai um sistema não linear.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$(-2x+a)(x+b)=-2x^2+(a-2b)x+ab$. Então $a-2b=-3$ e $ab=-1$. De $a=2b-3$: $b(2b-3)=-1\Rightarrow2b^2-3b+1=0\Rightarrow b=1$ ou $b=\frac12$. Se $b=1$: $a=-1$. Se $b=\frac12$: $a=-2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$(a,b)=(-1,1)$ ou $(-2,\tfrac12)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$(-2x-1)(x+1)=-2x^2-3x-1$ ✓ e $(-2x-2)(x+\frac12)=-2x^2-3x-1$ ✓ (duas fatorações).</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Para que $k$ vale $(k-3)x^2+5\equiv5$? E $a,b$ em $a(x+1)+b\equiv 3x+7$? <span class="mut sm">(Respostas: $k=3$; $a=3,\ b=4$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que são polinômios idênticos? Por que graus diferentes impedem a identidade? Qual a diferença entre uma identidade e uma equação?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">20</div><div><span class="lv">N1</span> <span class="fm">Resolva</span> Determine $m$ e $n$ de modo que $(m-1)x^2+(n+2)x+3\equiv2x^2+5x+3$.</div></div></div>
+<div class="gab"><b>20 — $m=3$ e $n=3$.</b> $x^2$: $m-1=2$; $x$: $n+2=5$; constante: $3=3$ ✓.</div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$ax+b\equiv3x-2$ <b class="cg">→ $a=3,\ b=-2$</b></div><div>$(x+1)^2\equiv x^2+px+q$ <b class="cg">→ $p=2,\ q=1$</b></div><div>$(m-2)x^2+3x+1\equiv3x+1$ <b class="cg">→ $m=2$</b></div></div></div>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 215" width="82.50mm" height="53.75mm">
+<line x1="24.80" y1="185.00" x2="316.30" y2="185.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="321.20,185.00 314.86,187.96 317.35,185.00 314.86,182.04" fill="#1f5fbf"/>
+<line x1="40.00" y1="200.20" x2="40.00" y2="3.70" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="40.00,-1.20 42.96,5.14 40.00,2.65 37.04,5.14" fill="#7a3fc2"/>
+<text x="35.00" y="195.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="i">O</tspan></text>
+<text x="320.20" y="179.00" font-size="9" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>Re</tspan></text>
+<text x="46.00" y="4.80" font-size="9" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>Im</tspan></text>
+<polygon points="40.00,185.00 154.00,185.00 154.00,33.00" fill="#d9f0e2" stroke="none" stroke-width="0" stroke-linejoin="round" fill-opacity="0.55"/>
+<line x1="40.00" y1="185.00" x2="154.00" y2="185.00" stroke="#1f5fbf" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="154.00" y1="185.00" x2="154.00" y2="33.00" stroke="#7a3fc2" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="40.00" y1="185.00" x2="151.06" y2="36.92" stroke="#167a44" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="154.00,33.00 152.56,39.85 151.69,36.08 147.83,36.30" fill="#167a44"/>
+<polyline points="146.00,185.00 146.00,177.00 154.00,177.00" fill="none" stroke="#5f6b7a" stroke-width="1.0" stroke-linejoin="round"/>
+<circle cx="154.00" cy="33.00" r="3.60" fill="#1a2233" stroke="#ffffff" stroke-width="0.8"/>
+<text x="97.00" y="202.00" font-size="11" fill="#1f5fbf" text-anchor="middle" font-weight="700"><tspan class="i">a</tspan><tspan class="m"> = 3</tspan></text>
+<text x="164.00" y="109.00" font-size="11" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan class="i">b</tspan><tspan class="m"> = 4</tspan></text>
+<text x="83.00" y="103.00" font-size="11" fill="#167a44" text-anchor="end" font-weight="700"><tspan class="i">ρ</tspan><tspan class="m"> = |</tspan><tspan class="i">z</tspan><tspan class="m">| = 5</tspan></text>
+<text x="162.00" y="29.00" font-size="9.6" fill="#1a2233" text-anchor="start"><tspan class="i">P</tspan><tspan class="m">(3, 4)  ↔  </tspan><tspan class="i">z</tspan><tspan class="m"> = 3 + 4</tspan><tspan class="i">i</tspan></text>
+<text x="167.30" y="164.10" font-size="8" fill="#1a2233" text-anchor="middle"></text>
+<text x="166.00" y="130.00" font-size="9.3" fill="#5f6b7a" text-anchor="start"><tspan>Pitágoras: ρ² = a² + b²</tspan></text>
+<text x="166.00" y="146.00" font-size="9.3" fill="#167a44" text-anchor="start" font-weight="700"><tspan>ρ² = 9 + 16 = 25  ⇒  ρ = 5</tspan></text>
+<text x="166.00" y="162.00" font-size="8.6" fill="#c62828" text-anchor="start"><tspan>catetos: números REAIS a e b</tspan></text>
+<text x="166.00" y="174.00" font-size="8.6" fill="#c62828" text-anchor="start"><tspan>(nunca bi, com o i!)</tspan></text>
+</svg>

@@ -1,0 +1,47 @@
+<!--META {"topic":"Rotações e transformações"}-->
+<div class="pt"><span class="num">15</span><h1>Rotações e transformações no plano complexo</h1><span class="mat">MAT8 · MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 76mm">
+<div>
+<div class="box def"><div class="bt">Multiplicar por $i$ gira $90^\circ$</div>
+<p class="nob">Se $z=a+bi$: $\;iz=ai+bi^2=\ang{-b+a\,i}$. O afixo muda de $(a,b)$ para $(-b,a)$: <b>rotação de $90^\circ$ no sentido anti-horário</b> em torno da origem, <b>sem alterar o módulo</b>.</p></div>
+<table class="t2">
+<tr><th>operação</th><th>fórmula</th><th>afixo $(a,b)\to$</th><th>efeito</th></tr>
+<tr><td>$\times i$</td><td>$-b+ai$</td><td>$(-b,\ a)$</td><td>giro $+90^\circ$</td></tr>
+<tr><td>$\times(-1)$</td><td>$-a-bi$</td><td>$(-a,\,-b)$</td><td>giro $180^\circ$</td></tr>
+<tr><td>$\times(-i)$</td><td>$b-ai$</td><td>$(b,\ -a)$</td><td>giro $-90^\circ$ ($=270^\circ$)</td></tr>
+<tr><td>$\times\cis\varphi$</td><td colspan="2">módulo $1$</td><td>giro $\varphi$, <b>distâncias preservadas</b></td></tr>
+<tr class="hl"><td>$\times w$ geral</td><td colspan="2">$w=r\cis\varphi$</td><td>giro $\varphi$ <b>e</b> escala $r$</td></tr></table>
+<p class="sm nob">Quatro multiplicações por $i$ dão $i^4=1$: volta completa. A interpretação geral (módulo e argumento do produto) está na p. 16.</p>
+</div>
+<div class="fig"><div>{{fig:fig_rot}}</div><div class="cap"><b>Fig. 14.</b> $z=2+i$ e suas imagens: os quatro pontos formam um <b>quadrado</b> centrado na origem.</div></div>
+</div>
+
+<div class="gA" style="grid-template-columns:1fr 62mm">
+<div>
+<div class="att box"><div class="bt">Atenção · rotação em torno de outro centro</div>
+<p class="nob">$z\mapsto iz$ gira em torno da <b>origem</b>. Para girar $90^\circ$ em torno do ponto $c$: <b>$w=c+i\,(z-c)$</b> (translada para a origem, gira, volta).</p></div>
+<div class="exm"><div class="eh"><span>Exemplo 31</span><span class="lv">N2</span><span class="r">rotações pontuais</span></div>
+<div class="er"><div class="l">Enunciado</div><div>(a) Gire $P=3+i$ de $90^\circ$ em torno de $O$. (b) Gire $z=4+i$ de $90^\circ$ em torno de $c=1+i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>(a) $i(3+i)=3i+i^2=-1+3i$. &nbsp;(b) $z-c=3$; $\ i\cdot3=3i$; $\ w=c+3i=1+4i$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>(a) $-1+3i$ &nbsp;(b) $1+4i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>(b) $|w-c|=|3i|=3=|z-c|$ e $\vec{cz}\perp\vec{cw}$ ✓.</div></div></div>
+</div>
+<div class="fig"><div>{{fig:fig_scale}}</div><div class="cap"><b>Fig. 15.</b> Multiplicar por $1+i=\sqrt2\cis45^\circ$: giro de $45^\circ$ e ampliação por $\sqrt2$. $z=2+i\ \mapsto\ 1+3i$.</div></div>
+</div>
+
+<div class="exm"><div class="eh"><span>Exemplo 32</span><span class="lv l3">N3</span><span class="r">vértices de um quadrado</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$A=1+i$ e $B=4+2i$ são vértices consecutivos de um quadrado $ABCD$ (sentido anti-horário). Ache $C$ e $D$ e a área.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>O lado $\vec{AB}=B-A$ gira $90^\circ$ ($\times i$) e dá $\vec{BC}=\vec{AD}$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$B-A=3+i$; $\ i(3+i)=-1+3i$. &nbsp;$C=B+(-1+3i)=3+5i$; $\ D=A+(-1+3i)=0+4i$. Lado: $|3+i|=\sqrt{10}$; área $=(\sqrt{10})^2=10$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$C=3+5i$, $\ D=4i$, área $=10$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$\vec{BC}=-1+3i$ e $\vec{AD}=-1+3i$ ✓ (paralelogramo); $\vec{AB}\cdot\vec{BC}=3(-1)+1\cdot3=0$ ✓.</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$i(2-5i)$ &nbsp;·&nbsp; $-i(3+4i)$ &nbsp;·&nbsp; $i^3\,z$ gira quantos graus? <span class="mut sm">(Respostas: $5+2i$; $4-3i$; $270^\circ$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que $z\mapsto iz$ faz com o afixo? E com o módulo? Como girar em torno de um centro $c\ne0$?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">11</div><div><span class="lv">N2</span> <span class="fm tb">B</span> Em um quadrado, dois vértices consecutivos são os afixos de $2+i$ e $5+3i$. Calcule a área do quadrado.</div></div></div>
+<div class="gab"><b>11 — 013.</b> Lado $=|(5+3i)-(2+i)|=|3+2i|=\sqrt{13}$; área $=(\sqrt{13})^2=13$ (os demais vértices são irrelevantes para a área).</div>

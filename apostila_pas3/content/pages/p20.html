@@ -1,0 +1,48 @@
+<!--META {"topic":"Revisão estratégica"}-->
+<div class="pt"><span class="num">20</span><h1>Revisão: mapa de decisão, formulário e teste integrador</h1><span class="mat">MAT8 · MAT9</span></div>
+
+<div class="fig"><div>{{fig:fig_flow_c}}</div><div class="cap"><b>Mapa de decisão (estratégia, não regra exclusiva).</b> Identifique o que o enunciado pede e escolha a representação mais eficiente; combine métodos quando preciso.</div></div>
+
+<div class="g2">
+<div>
+<h2>Formulário essencial</h2>
+<table class="t2">
+<tr><th class="l">Fórmula</th><th class="l">Uso</th></tr>
+<tr><td class="l">$i^n=i^{r},\ r=n\bmod4$</td><td class="l">potências de $i$</td></tr>
+<tr><td class="l">$\conj{a+bi}=a-bi$; $\ z\conj z=|z|^2$</td><td class="l">conjugado</td></tr>
+<tr><td class="l">$\dfrac zw=\dfrac{z\,\conj w}{|w|^2}$, $w\neq0$</td><td class="l">divisão</td></tr>
+<tr><td class="l">$|z|=\sqrt{a^2+b^2}$; $|zw|=|z||w|$</td><td class="l">módulo</td></tr>
+<tr><td class="l">$|z-w|$; $\ |z-z_0|=r$</td><td class="l">distância; círculo</td></tr>
+<tr><td class="l">$\cos\theta=\frac a\rho,\ \sen\theta=\frac b\rho$</td><td class="l">argumento</td></tr>
+<tr><td class="l">$z=\rho\,\cis\theta$ ($\theta\in[0,2\pi)$)</td><td class="l">forma polar</td></tr>
+<tr><td class="l">$Z_1Z_2=\rho_1\rho_2\cis(\theta_1+\theta_2)$</td><td class="l">produto polar</td></tr>
+<tr><td class="l">$z^n=\rho^n\cis(n\theta)$</td><td class="l">De Moivre 1</td></tr>
+<tr><td class="l">$w_k=\sqrt[n]\rho\,\cis\frac{\theta+2k\pi}n$</td><td class="l">De Moivre 2</td></tr>
+<tr><td class="l">$i(a+bi)=-b+ai$ (giro de $90^\circ$)</td><td class="l">rotação</td></tr>
+<tr><td class="l">$z^n=1$: $\cis\frac{2k\pi}n$, polígono regular</td><td class="l">raízes da unidade</td></tr></table>
+</div>
+<div>
+<h2>Erros que não podem ser cometidos</h2>
+<div class="box att"><div class="bt">Checklist anti-erro</div>
+<ul class="sm" style="padding-left:3.6mm">
+<li>Conjugado: troca-se o sinal da parte <b>imaginária</b>, nunca da real.</li>
+<li>$\Imp(a+bi)=b$, e não $bi$.</li>
+<li>$\sqrt{-a}\sqrt{-b}\neq\sqrt{ab}$: converta para $i$ antes.</li>
+<li>Módulo: $\sqrt{a^2+b^2}$, <b>sem</b> $i$ dentro da raiz.</li>
+<li>Argumento: olhe os sinais de $\cos$ e $\sen$; a tangente sozinha erra o quadrante.</li>
+<li>De Moivre 1: $\rho^n$ e $n\theta$ (não $\theta^n$).</li>
+<li>$w^n=z$ tem <b>$n$ raízes</b> (passo $2\pi/n$), todas com o mesmo módulo.</li>
+<li>Potência de $i$: vale o <b>resto</b> da divisão por 4, não o quociente.</li>
+<li>Divisão: multiplique por $\conj w$ <b>em cima e embaixo</b>; $w\ne0$.</li>
+<li>$0$ é real, tem módulo $0$ e <b>não tem argumento</b>.</li></ul></div>
+</div>
+</div>
+
+<div class="exs"><div class="xh"><span>Teste integrador · itens no estilo PAS</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">15</div><div><span class="lv">N2</span> <span class="fm ce">C/E</span> Julgue: «Se $z=\dfrac{1+i}{1-i}$, então $z^{2026}=-1$.»</div></div>
+<div class="x"><div class="xn">16</div><div><span class="lv l3">N3</span> <span class="fm tb">B</span> Sendo $z=1+i$, calcule $\ |z^{10}|+\Rep(z^{8})$.</div></div></div>
+<div class="gab"><b>15 — Certo.</b> $z=\dfrac{(1+i)^2}{(1-i)(1+i)}=\dfrac{2i}{2}=i$; $\ 2026=4\cdot506+2\Rightarrow i^{2026}=i^2=-1$. &nbsp;<b>16 — 048.</b> $|z^{10}|=|z|^{10}=(\sqrt2)^{10}=32$; $\ z^8=[(1+i)^2]^4=(2i)^4=16$, logo $\Rep(z^8)=16$; soma $=48$.</div>
+
+<div class="box brg"><div class="bt">Ponte para a Parte II</div>
+<p class="sm nob">Os complexos voltam o tempo todo nos polinômios: raízes não reais ($\Delta<0$), pares de raízes <b>conjugadas</b> (p. 35), o <b>Teorema Fundamental da Álgebra</b> (p. 33), equações $z^n=k$ e $x^4+4=0$ (p. 38–39). Cobertura da Parte I: <span class="chip b">MAT8</span> p. 9–11 e 15; <span class="chip b">MAT9</span> p. 1–19.</p></div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N3</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> O conjunto dos complexos $z$ tais que $|z-1|=|z-i|$ é uma reta do plano de Argand-Gauss.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo.</b> É a mediatriz do segmento de afixos $1=(1,0)$ e $i=(0,1)$. Com $z=x+yi$: $(x-1)^2+y^2=x^2+(y-1)^2\Rightarrow-2x=-2y\Rightarrow y=x$.</div></div></div>

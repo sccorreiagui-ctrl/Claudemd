@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 289" width="184.00mm" height="72.25mm">
+<text x="8.00" y="12.00" font-size="9.5" fill="#5b2a9e" text-anchor="start" font-weight="800"><tspan>SE O PROBLEMA PEDE…  →  USE…</tspan></text>
+<text x="380.00" y="12.00" font-size="9.5" fill="#5b2a9e" text-anchor="start" font-weight="800"><tspan>SE O PROBLEMA PEDE…  →  USE…</tspan></text>
+<rect x="3.00" y="22.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="48.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Valor numérico P(a)</tspan></text>
+<line x1="136.46" y1="45.00" x2="146.26" y2="45.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,45.00 145.02,47.54 147.16,45.00 145.02,42.46" fill="#5b2a9e"/>
+<rect x="151.46" y="22.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="256.23" y="42.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>substituição; P(0) = termo indep.;</tspan></text>
+<text x="256.23" y="54.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>P(1) = soma dos coeficientes</tspan></text>
+<rect x="3.00" y="75.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="95.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Resto da divisão por</tspan></text>
+<text x="69.23" y="107.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>x − a  (ou ax + b)</tspan></text>
+<line x1="136.46" y1="98.00" x2="146.26" y2="98.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,98.00 145.02,100.54 147.16,98.00 145.02,95.46" fill="#5b2a9e"/>
+<rect x="151.46" y="75.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="256.23" y="95.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>Teorema do Resto: R = P(a)</tspan></text>
+<text x="256.23" y="107.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>(ou R = P(−b/a))</tspan></text>
+<rect x="3.00" y="128.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="148.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>x − a é fator?</tspan></text>
+<text x="69.23" y="160.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>P divisível por x − a?</tspan></text>
+<line x1="136.46" y1="151.00" x2="146.26" y2="151.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,151.00 145.02,153.54 147.16,151.00 145.02,148.46" fill="#5b2a9e"/>
+<rect x="151.46" y="128.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="256.23" y="148.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>D'Alembert: P(a) = 0</tspan></text>
+<text x="256.23" y="160.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>⟺ a é raiz ⟺ resto nulo</tspan></text>
+<rect x="3.00" y="181.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="207.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Dividir por x − a</tspan></text>
+<line x1="136.46" y1="204.00" x2="146.26" y2="204.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,204.00 145.02,206.54 147.16,204.00 145.02,201.46" fill="#5b2a9e"/>
+<rect x="151.46" y="181.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="256.23" y="201.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>Briot-Ruffini (zeros nos</tspan></text>
+<text x="256.23" y="213.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>termos ausentes!)</tspan></text>
+<rect x="3.00" y="234.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="254.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Dividir por polinômio</tspan></text>
+<text x="69.23" y="266.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>de grau ≥ 2</tspan></text>
+<line x1="136.46" y1="257.00" x2="146.26" y2="257.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,257.00 145.02,259.54 147.16,257.00 145.02,254.46" fill="#5b2a9e"/>
+<rect x="151.46" y="234.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="256.23" y="254.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>método da chave; parar quando</tspan></text>
+<text x="256.23" y="266.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>gr R &lt; gr D</tspan></text>
+<rect x="375.00" y="22.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="42.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Candidatos a raiz</tspan></text>
+<text x="441.23" y="54.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>racional</tspan></text>
+<line x1="508.46" y1="45.00" x2="518.26" y2="45.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,45.00 517.02,47.54 519.16,45.00 517.02,42.46" fill="#5b2a9e"/>
+<rect x="523.46" y="22.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="628.23" y="42.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>p/q: p | a₀, q | aₙ; testar com</tspan></text>
+<text x="628.23" y="54.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>Ruffini (são só candidatos)</tspan></text>
+<rect x="375.00" y="75.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="101.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Conheço uma raiz r</tspan></text>
+<line x1="508.46" y1="98.00" x2="518.26" y2="98.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,98.00 517.02,100.54 519.16,98.00 517.02,95.46" fill="#5b2a9e"/>
+<rect x="523.46" y="75.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="628.23" y="95.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>reduzir o grau: P = (x − r)·Q</tspan></text>
+<text x="628.23" y="107.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>e resolver Q</tspan></text>
+<rect x="375.00" y="128.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="148.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Raiz não real,</tspan></text>
+<text x="441.23" y="160.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>coeficientes reais</tspan></text>
+<line x1="508.46" y1="151.00" x2="518.26" y2="151.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,151.00 517.02,153.54 519.16,151.00 517.02,148.46" fill="#5b2a9e"/>
+<rect x="523.46" y="128.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="628.23" y="148.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>conjugada também é raiz;</tspan></text>
+<text x="628.23" y="160.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>fator x² − 2ax + a² + b²</tspan></text>
+<rect x="375.00" y="181.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="201.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Soma / produto das</tspan></text>
+<text x="441.23" y="213.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>raízes, coeficientes</tspan></text>
+<line x1="508.46" y1="204.00" x2="518.26" y2="204.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,204.00 517.02,206.54 519.16,204.00 517.02,201.46" fill="#5b2a9e"/>
+<rect x="523.46" y="181.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="628.23" y="201.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>Girard: S₁ = −aₙ₋₁/aₙ;</tspan></text>
+<text x="628.23" y="213.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>produto = (−1)ⁿ a₀/aₙ</tspan></text>
+<rect x="375.00" y="234.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="260.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>ax⁴ + bx² + c = 0</tspan></text>
+<line x1="508.46" y1="257.00" x2="518.26" y2="257.00" stroke="#5b2a9e" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,257.00 517.02,259.54 519.16,257.00 517.02,254.46" fill="#5b2a9e"/>
+<rect x="523.46" y="234.00" width="209.54" height="46.00" rx="4" fill="#e7dcf6" stroke="#5b2a9e" stroke-width="1.2"/>
+<text x="628.23" y="254.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>y = x²; resolver em y; voltar:</tspan></text>
+<text x="628.23" y="266.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>x = ± √y (todas, inclusive não reais)</tspan></text>
+</svg>

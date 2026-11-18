@@ -1,0 +1,48 @@
+<!--META {"topic":"Argumento"}-->
+<div class="pt"><span class="num">13</span><h1>Argumento, quadrantes e determinação de ângulos</h1><span class="mat">MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 1fr">
+<div>
+<div class="box def"><div class="bt">Argumento</div>
+<p class="nob">Para $z=a+bi\neq0$ com módulo $\rho$, o <b>argumento</b> é o ângulo $\ang\theta$ do semieixo real positivo até o vetor de $z$, no sentido anti-horário, tal que
+$$\cos\theta=\dfrac{\re a}{\ok\rho},\qquad \sen\theta=\dfrac{\im b}{\ok\rho}.$$</p></div>
+<div class="box ok"><div class="bt">Convenção desta apostila</div>
+<p class="sm nob"><b>Argumento principal:</b> $\theta\in[0,2\pi)$. Os argumentos de $z$ são todos $\theta+2k\pi$, $k\in\Z$ (voltas completas). <b>$z=0$ não tem argumento</b> (o vetor nulo não tem direção).</p></div>
+</div>
+<div>
+<div class="box met"><div class="bt">Método dos quadrantes</div>
+<ol class="steps">
+<li>Calcule $\rho=\sqrt{a^2+b^2}$.</li>
+<li>Calcule $\cos\theta=a/\rho$ e $\sen\theta=b/\rho$.</li>
+<li>Veja o <b>sinal de $a$</b> e o <b>sinal de $b$</b> ⟹ quadrante.</li>
+<li>Ache o ângulo agudo $\theta_0$ de referência (tabela da p. 12).</li>
+<li>Monte $\theta$: $\theta_0$; $\pi-\theta_0$; $\pi+\theta_0$; $2\pi-\theta_0$.</li></ol></div>
+</div>
+</div>
+
+<div class="fig"><div>{{fig:fig_quadrants}}</div><div class="cap"><b>Fig. 12.</b> Um complexo em cada quadrante, com seu argumento principal (arcos laranja a partir do eixo real positivo).</div></div>
+
+<div class="att box"><div class="bt">Atenção · a tangente sozinha engana</div>
+<p class="nob">$\tg\theta=b/a$ não distingue $z$ de $-z$: $1+i$ e $-1-i$ têm a mesma tangente ($1$). Para $z=-1-i$, a tangente sugere $45^\circ$, mas o correto é $\bad{225^\circ}$ (3º quadrante). <b>Sempre teste os sinais de $\cos\theta$ e $\sen\theta$.</b></p></div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 26</span><span class="lv">N2</span><span class="r">argumento no 2º quadrante</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine o argumento principal de $z=-1+i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$\rho=\sqrt{1+1}=\sqrt2$. $\ \cos\theta=-\frac1{\sqrt2}=-\frac{\sqrt2}2$, $\ \sen\theta=\frac{\sqrt2}2$: $a<0$, $b>0$ ⟹ 2º Q; $\theta_0=45^\circ$ ⟹ $\theta=180^\circ-45^\circ$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$\theta=135^\circ=\dfrac{3\pi}4$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$\sqrt2(\cos135^\circ+i\sen135^\circ)=\sqrt2(-\frac{\sqrt2}2+i\frac{\sqrt2}2)=-1+i$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 27</span><span class="lv">N1</span><span class="r">números sobre os eixos</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Argumento principal de $5$, $\ 2i$, $\ -3$, $\ -3i$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Não há quadrante: olhe a direção do vetor. $5$: $\to$ eixo $+x$: $0$. &nbsp;$2i$: $+y$: $\frac\pi2$. &nbsp;$-3$: $-x$: $\pi$. &nbsp;$-3i$: $-y$: $\frac{3\pi}2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$0,\ \dfrac\pi2,\ \pi,\ \dfrac{3\pi}2$.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Argumento principal de $1+i\sqrt3$ &nbsp;·&nbsp; $-2$ &nbsp;·&nbsp; $-i$ &nbsp;·&nbsp; $1-i$. <span class="mut sm">(Respostas: $\frac\pi3$; $\pi$; $\frac{3\pi}2$; $\frac{7\pi}4$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Qual é a diferença entre argumento e módulo? Por que $0$ não tem argumento? Por que $\theta$ e $\theta+2\pi$ descrevem o mesmo complexo?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">10</div><div><span class="lv">N2</span> <span class="fm tb">B</span> Seja $\theta\in[0^\circ,360^\circ)$ o argumento principal de $z=-1-\sqrt3\,i$. Calcule $\theta$ em graus.</div></div></div>
+<div class="gab"><b>10 — 240.</b> $\rho=\sqrt{1+3}=2$; $\cos\theta=-\frac12$, $\sen\theta=-\frac{\sqrt3}2$ ⟹ 3º Q, $\theta_0=60^\circ$ ⟹ $\theta=180^\circ+60^\circ=240^\circ$ (a tangente $\sqrt3$ sozinha daria $60^\circ$: erro).</div>

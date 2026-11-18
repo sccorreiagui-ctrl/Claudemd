@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 196" width="82.50mm" height="49.00mm">
+<rect x="4.00" y="4.00" width="322.00" height="42.00" rx="6" fill="#dbe8fa" stroke="#1f5fbf" stroke-width="1.5"/>
+<circle cx="20.00" cy="25.00" r="9.00" fill="#1f5fbf" stroke="#ffffff" stroke-width="1"/>
+<text x="20.00" y="29.00" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="800"><tspan>1</tspan></text>
+<text x="34.00" y="29.00" font-size="9.8" fill="#1f5fbf" text-anchor="start" font-weight="800"><tspan>Divisor</tspan></text>
+<text x="214.00" y="24.00" font-size="14" fill="#1a2233" text-anchor="middle"><tspan class="i">D</tspan><tspan class="m">(</tspan><tspan class="i">x</tspan><tspan class="m">) = </tspan><tspan class="i">x</tspan><tspan class="m"> − </tspan><tspan class="i">a</tspan></text>
+<text x="214.00" y="39.00" font-size="8.6" fill="#5f6b7a" text-anchor="middle"><tspan>ex.: x + 3  ou  2x − 4</tspan></text>
+<line x1="165.00" y1="47.00" x2="165.00" y2="51.80" stroke="#1a2233" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="165.00,56.00 162.46,50.56 165.00,52.70 167.54,50.56" fill="#1a2233"/>
+<rect x="4.00" y="56.00" width="322.00" height="42.00" rx="6" fill="#fbe5cb" stroke="#d4690a" stroke-width="1.5"/>
+<circle cx="20.00" cy="77.00" r="9.00" fill="#d4690a" stroke="#ffffff" stroke-width="1"/>
+<text x="20.00" y="81.00" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="800"><tspan>2</tspan></text>
+<text x="34.00" y="81.00" font-size="9.8" fill="#d4690a" text-anchor="start" font-weight="800"><tspan>Iguale a zero</tspan></text>
+<text x="214.00" y="76.00" font-size="14" fill="#1a2233" text-anchor="middle"><tspan class="i">x</tspan><tspan class="m"> − </tspan><tspan class="i">a</tspan><tspan class="m"> = 0  ⇒  </tspan><tspan class="i">x</tspan><tspan class="m"> = </tspan><tspan class="i">a</tspan></text>
+<text x="214.00" y="91.00" font-size="8.6" fill="#5f6b7a" text-anchor="middle"><tspan>x + 3: x = −3;  2x − 4: x = 2</tspan></text>
+<line x1="165.00" y1="99.00" x2="165.00" y2="103.80" stroke="#1a2233" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="165.00,108.00 162.46,102.56 165.00,104.70 167.54,102.56" fill="#1a2233"/>
+<rect x="4.00" y="108.00" width="322.00" height="42.00" rx="6" fill="#d9f0e2" stroke="#167a44" stroke-width="1.5"/>
+<circle cx="20.00" cy="129.00" r="9.00" fill="#167a44" stroke="#ffffff" stroke-width="1"/>
+<text x="20.00" y="133.00" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="800"><tspan>3</tspan></text>
+<text x="34.00" y="133.00" font-size="9.8" fill="#167a44" text-anchor="start" font-weight="800"><tspan>Resto</tspan></text>
+<text x="214.00" y="128.00" font-size="14" fill="#1a2233" text-anchor="middle"><tspan class="i">R</tspan><tspan class="m"> = </tspan><tspan class="i">P</tspan><tspan class="m">(</tspan><tspan class="i">a</tspan><tspan class="m">)</tspan></text>
+<text x="214.00" y="143.00" font-size="8.6" fill="#5f6b7a" text-anchor="middle"><tspan>P(−3);  P(2)</tspan></text>
+<text x="165.00" y="170.00" font-size="8.8" fill="#c62828" text-anchor="middle" font-weight="700"><tspan>Para ax + b (a ≠ 0): raiz −b/a e resto P(−b/a).</tspan></text>
+<text x="165.00" y="183.00" font-size="8.8" fill="#c62828" text-anchor="middle" font-weight="700"><tspan>Não confunda o sinal do binômio com a raiz.</tspan></text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 289" width="184.00mm" height="72.25mm">
+<text x="8.00" y="12.00" font-size="9.5" fill="#0b6fa4" text-anchor="start" font-weight="800"><tspan>SE O PROBLEMA PEDE…  →  USE…</tspan></text>
+<text x="380.00" y="12.00" font-size="9.5" fill="#0b6fa4" text-anchor="start" font-weight="800"><tspan>SE O PROBLEMA PEDE…  →  USE…</tspan></text>
+<rect x="3.00" y="22.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="48.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Somar / subtrair</tspan></text>
+<line x1="136.46" y1="45.00" x2="146.26" y2="45.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,45.00 145.02,47.54 147.16,45.00 145.02,42.46" fill="#0b6fa4"/>
+<rect x="151.46" y="22.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="256.23" y="42.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>forma algébrica: real com real,</tspan></text>
+<text x="256.23" y="54.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>imaginário com imaginário</tspan></text>
+<rect x="3.00" y="75.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="95.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Multiplicar</tspan></text>
+<text x="69.23" y="107.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>poucos fatores</tspan></text>
+<line x1="136.46" y1="98.00" x2="146.26" y2="98.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,98.00 145.02,100.54 147.16,98.00 145.02,95.46" fill="#0b6fa4"/>
+<rect x="151.46" y="75.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="256.23" y="101.60" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>distributiva e troca de i² por −1</tspan></text>
+<rect x="3.00" y="128.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="154.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Dividir</tspan></text>
+<line x1="136.46" y1="151.00" x2="146.26" y2="151.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,151.00 145.02,153.54 147.16,151.00 145.02,148.46" fill="#0b6fa4"/>
+<rect x="151.46" y="128.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="256.23" y="148.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>multiplicar por conjugado do denominador;</tspan></text>
+<text x="256.23" y="160.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>o novo denominador é |w|²</tspan></text>
+<rect x="3.00" y="181.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="207.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Potência de i</tspan></text>
+<line x1="136.46" y1="204.00" x2="146.26" y2="204.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,204.00 145.02,206.54 147.16,204.00 145.02,201.46" fill="#0b6fa4"/>
+<rect x="151.46" y="181.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="256.23" y="207.60" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>resto de n ÷ 4:  iⁿ = iʳ</tspan></text>
+<rect x="3.00" y="234.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="69.23" y="254.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Módulo, distância,</tspan></text>
+<text x="69.23" y="266.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>círculo</tspan></text>
+<line x1="136.46" y1="257.00" x2="146.26" y2="257.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150.46,257.00 145.02,259.54 147.16,257.00 145.02,254.46" fill="#0b6fa4"/>
+<rect x="151.46" y="234.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="256.23" y="254.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>√(a²+b²);  |z − w| = distância;</tspan></text>
+<text x="256.23" y="266.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>|z − z₀| = r é circunferência</tspan></text>
+<rect x="375.00" y="22.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="42.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Argumento /</tspan></text>
+<text x="441.23" y="54.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>forma polar</tspan></text>
+<line x1="508.46" y1="45.00" x2="518.26" y2="45.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,45.00 517.02,47.54 519.16,45.00 517.02,42.46" fill="#0b6fa4"/>
+<rect x="523.46" y="22.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="628.23" y="42.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>sinais de cos θ e sen θ → quadrante;</tspan></text>
+<text x="628.23" y="54.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>θ₀ na tabela → θ</tspan></text>
+<rect x="375.00" y="75.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="95.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Girar, multiplicar</tspan></text>
+<text x="441.23" y="107.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>ou dividir em cadeia</tspan></text>
+<line x1="508.46" y1="98.00" x2="518.26" y2="98.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,98.00 517.02,100.54 519.16,98.00 517.02,95.46" fill="#0b6fa4"/>
+<rect x="523.46" y="75.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="628.23" y="95.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>forma polar: módulos multiplicam,</tspan></text>
+<text x="628.23" y="107.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>argumentos somam</tspan></text>
+<rect x="375.00" y="128.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="154.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>zⁿ com n grande</tspan></text>
+<line x1="508.46" y1="151.00" x2="518.26" y2="151.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,151.00 517.02,153.54 519.16,151.00 517.02,148.46" fill="#0b6fa4"/>
+<rect x="523.46" y="128.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="628.23" y="148.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>De Moivre 1: ρⁿ cis(nθ); reduzir</tspan></text>
+<text x="628.23" y="160.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>nθ à 1ª volta</tspan></text>
+<rect x="375.00" y="181.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="207.60" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>wⁿ = k</tspan></text>
+<line x1="508.46" y1="204.00" x2="518.26" y2="204.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,204.00 517.02,206.54 519.16,204.00 517.02,201.46" fill="#0b6fa4"/>
+<rect x="523.46" y="181.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="628.23" y="201.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>De Moivre 2: n raízes, módulo ⁿ√ρ,</tspan></text>
+<text x="628.23" y="213.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>passo 360°/n (polígono regular)</tspan></text>
+<rect x="375.00" y="234.00" width="132.46" height="46.00" rx="4" fill="#e6e9ee" stroke="#aab3c0" stroke-width="1.0"/>
+<text x="441.23" y="254.35" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>Δ &lt; 0 em</tspan></text>
+<text x="441.23" y="266.85" font-size="10.2" fill="#1a2233" text-anchor="middle" font-weight="700"><tspan>ax² + bx + c = 0</tspan></text>
+<line x1="508.46" y1="257.00" x2="518.26" y2="257.00" stroke="#0b6fa4" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="522.46,257.00 517.02,259.54 519.16,257.00 517.02,254.46" fill="#0b6fa4"/>
+<rect x="523.46" y="234.00" width="209.54" height="46.00" rx="4" fill="#dcecf6" stroke="#0b6fa4" stroke-width="1.2"/>
+<text x="628.23" y="254.35" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>Bhaskara com √Δ = i√|Δ|:</tspan></text>
+<text x="628.23" y="266.85" font-size="9.8" fill="#1a2233" text-anchor="middle"><tspan>raízes complexas conjugadas</tspan></text>
+</svg>

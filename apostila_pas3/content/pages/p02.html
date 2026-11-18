@@ -1,0 +1,56 @@
+<!--META {"topic":"Potências de i"}-->
+<div class="pt"><span class="num">02</span><h1>Potências de $i$: um ciclo de período 4</h1><span class="mat">MAT9</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 76mm">
+<div>
+<h2>Calcule as primeiras potências e observe o padrão</h2>
+<p>Como $i^2=-1$, cada potência nasce da anterior multiplicando por $i$: $\;i^3=i^2\cdot i=-i$, $\;i^4=i^3\cdot i=-i^2=1$, e a partir daí tudo se repete.</p>
+<table class="t2">
+<tr><th>$n$</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+<tr><th>$i^n$</th><td>$\re{1}$</td><td>$\im{i}$</td><td>$\re{-1}$</td><td>$\im{-i}$</td><td>$\re{1}$</td><td>$\im{i}$</td><td>$\re{-1}$</td><td>$\im{-i}$</td><td>$\re{1}$</td></tr></table>
+<div class="box def"><div class="bt">Regra de redução (n inteiro ≥ 0)</div>
+<p class="nob">Divida $n$ por 4: $\;n=4q+r$, com $r\in\{0,1,2,3\}$. Então
+$$i^{n}=(i^4)^q\cdot i^{r}=1^q\cdot i^r=\ang{i^{\,r}}.$$ O <b>quociente</b> $q$ só conta voltas completas; quem decide a posição é o <b class="co">resto</b> $r$.</p></div>
+<div class="att box"><div class="bt">Atenção · quociente × resto</div>
+<p class="nob">$i^{14}$: $14=4\cdot\bad{3}+\ok{2}$. O expoente equivalente é o <b>resto 2</b>, não o quociente 3. Logo $i^{14}=i^2=-1$ (e não $i^3=-i$).</p></div>
+</div>
+<div class="fig"><div>{{fig:fig_icycle}}</div><div class="cap"><b>Fig. 2.</b> Multiplicar por $i$ gira o ponto $90^\circ$ no sentido anti-horário: $1\to i\to-1\to-i\to1$.</div></div>
+</div>
+
+<div class="g2">
+<div class="box met"><div class="bt">Método · expoentes grandes</div>
+<ol class="steps">
+<li>Só importam os <b>dois últimos algarismos</b> de $n$ (100 é múltiplo de 4).</li>
+<li>Calcule $r=$ resto de (dois últimos algarismos) $\div4$.</li>
+<li>Responda $i^r$ olhando o ciclo $1,\,i,\,-1,\,-i$.</li></ol></div>
+<div class="box ok"><div class="bt">Soma de 4 potências consecutivas = 0</div>
+<p class="nob">$i^k+i^{k+1}+i^{k+2}+i^{k+3}=i^k(1+i-1-i)=\ok{0}$ para qualquer $k$. Em somatórios, agrupe em blocos de 4 e sobram só os últimos termos.</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 2</span><span class="lv">N1</span><span class="r">expoente grande</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Calcule $i^{2027}$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Dois últimos algarismos: $27$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$27=4\cdot6+3\Rightarrow r=3$, logo $i^{2027}=i^3$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$i^{2027}=-i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$2027=4\cdot506+3$ ✓ (resto 3).</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 3</span><span class="lv l3">N3</span><span class="r">somatório</span></div>
+<div class="er"><div class="l">Enunciado</div><div>$S=i+i^2+i^3+\dots+i^{2026}$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Blocos de 4 termos somam zero.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$2026=4\cdot506+2$: os 2024 primeiros termos formam 506 blocos (soma 0). Sobram $i^{2025}+i^{2026}=i^1+i^2=i-1$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$S=-1+i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$S_n$ repete $i,\ i-1,\ -1,\ 0$; $2026\equiv2$ ⇒ $i-1$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Potências negativas (complemento)</div>
+<p class="nob">$i^{-n}=\dfrac1{i^n}$. A mesma regra vale com $r=n \bmod 4\in\{0,1,2,3\}$: $\;i^{-1}=\dfrac1i=\dfrac{-i}{i\cdot(-i)}=-i$ e $\;i^{-3}=\dfrac1{i^3}=\dfrac1{-i}=i$ (pois $-3=4\cdot(-1)+1\Rightarrow i^1$).</p></div>
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">$i^{14}$ &nbsp;·&nbsp; $i^{121}$ &nbsp;·&nbsp; $i^{-1}$ &nbsp;·&nbsp; $i^{100}+i^{101}$. <span class="mut sm">(Respostas: $-1$; $i$; $-i$; $1+i$.)</span></p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">2</div><div><span class="lv">N1</span> <span class="fm">Resolva</span> Calcule $S=i^{47}+i^{-3}$.</div></div></div>
+<div class="gab"><b>2 — 0.</b> $47=4\cdot11+3\Rightarrow i^{47}=i^3=-i$; $\;i^{-3}=1/i^3=1/(-i)=i$. Logo $S=-i+i=0$.</div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Por que a soma de quatro potências consecutivas de $i$ é nula? O que o <b>quociente</b> da divisão por 4 representa na figura do ciclo? Qual é $i^{4k+2}$ para qualquer inteiro $k$?</p></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>$i^{33}$ <b class="cg">→ $i$</b></div><div>$i^{50}$ <b class="cg">→ $-1$</b></div><div>$i^{2024}$ <b class="cg">→ $1$</b></div><div>$i^{-2}$ <b class="cg">→ $-1$</b></div><div>$i^5+i^6+i^7+i^8$ <b class="cg">→ $0$</b></div><div>$(i^2)^3$ <b class="cg">→ $-1$</b></div></div></div>

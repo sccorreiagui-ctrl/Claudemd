@@ -1,0 +1,45 @@
+<!--META {"topic":"Definição e estrutura"}-->
+<div class="opener"><div><div class="k">Parte II · páginas 21–40</div><div class="t">Polinômios</div></div>
+<div class="s">Estrutura, divisão, teoremas do resto e de D'Alembert, Briot-Ruffini, raízes complexas, multiplicidade e Girard: um só fio condutor, a <b>raiz</b>.</div></div>
+
+<div class="pt"><span class="num">21</span><h1>O que é um polinômio?</h1><span class="mat">MAT10</span></div>
+
+<div class="box def"><div class="bt">Definição</div>
+<p class="nob">Um <b>polinômio</b> na variável $x$ é uma expressão da forma $\;P(x)=\re{a_n}x^{n}+\re{a_{n-1}}x^{n-1}+\dots+\re{a_1}x+\re{a_0}$, em que $n\in\N$ (expoentes <b>naturais</b>: $0,1,2,\dots$) e os <b>coeficientes</b> $a_k$ são números reais ou complexos. Cada $a_kx^k$ é um <b>termo</b>; $k$ é o <b>expoente</b>; $a_0$ é o <b>termo independente</b> (o termo sem $x$).</p></div>
+
+<div class="fig"><div>{{fig:fig_poly_anat}}</div><div class="cap"><b>Fig. 22.</b> Anatomia de $P(x)=3x^4-2x^3+5x-7$. Falta o termo em $x^2$: o coeficiente é $0$ (por isso a expressão é um polinômio <b>incompleto</b>).</div></div>
+
+<div class="g2">
+<div>
+<h2>Isto é polinômio</h2>
+<table class="t2"><tr><th class="l">Expressão</th><th class="l">Por quê</th></tr>
+<tr><td class="l">$x^2+3x-1$</td><td class="l">expoentes $2,1,0$ naturais</td></tr>
+<tr><td class="l">$\sqrt2\,x^2+\pi x-3$</td><td class="l">coeficientes irracionais são permitidos</td></tr>
+<tr><td class="l">$(2+i)x^3-ix$</td><td class="l">coeficientes complexos são permitidos</td></tr>
+<tr><td class="l">$5$ &nbsp;e&nbsp; $0$</td><td class="l">constantes (expoente $0$)</td></tr></table>
+</div>
+<div>
+<h2>Isto NÃO é polinômio</h2>
+<table class="t2"><tr><th class="l">Expressão</th><th class="l">Por quê</th></tr>
+<tr><td class="l">$3x^{-1}+2=\frac3x+2$</td><td class="l">expoente <b>negativo</b></td></tr>
+<tr><td class="l">$\sqrt x+1=x^{1/2}+1$</td><td class="l">expoente <b>fracionário</b></td></tr>
+<tr><td class="l">$\dfrac1{x+1}$, &nbsp;$2^x$, &nbsp;$|x|$, &nbsp;$\sen x$</td><td class="l">$x$ no denominador, no expoente ou em função não polinomial</td></tr></table>
+</div>
+</div>
+<p class="sm">O motivo é estrutural: um polinômio é uma <b>soma finita</b> de potências naturais de $x$. Isso é o que permite somar, multiplicar e <b>dividir com resto</b> (p. 27), como com os inteiros. Cuidado com $\sqrt2\,x$ (polinômio) × $2\sqrt x$ (não polinômio): a raiz está no coeficiente ou na variável?</p>
+
+<div class="exm"><div class="eh"><span>Exemplo 45</span><span class="lv">N1</span><span class="r">vocabulário</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para $P(x)=7x^5-x^3+4x^2-2$, identifique o grau, o coeficiente dominante, o termo independente e a lista completa dos coeficientes.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Ordenar por expoentes decrescentes e <b>escrever $0$</b> nos expoentes que não aparecem.</div></div>
+<div class="er"><div class="l">Resolução</div><div>Expoentes: $5,\,4,\,3,\,2,\,1,\,0$. O termo em $x^4$ e o termo em $x$ não aparecem: coeficiente $0$. Lista: $\;7,\ \re0,\ -1,\ 4,\ \re0,\ -2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>grau $5$; coeficiente dominante $7$; termo independente $-2$; coeficientes $(7,0,-1,4,0,-2)$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$P(0)=-2$ (termo independente) e $P(1)=7+0-1+4+0-2=8$ (soma dos coeficientes) ✓.</div></div></div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Quais são polinômios? (a) $4x^3-\sqrt3x$ &nbsp;(b) $x^{-2}+x$ &nbsp;(c) $\sqrt{x^2}$ &nbsp;(d) $2^{x}$ &nbsp;(e) $ix^2+1$. <span class="mut sm">(Respostas: a, e. Em (c), $\sqrt{x^2}=|x|$ não é polinômio.)</span></p></div>
+<div class="box brg"><div class="bt">Ponte com Complexos</div><p class="sm nob">Os coeficientes podem ser complexos, mas na maioria das questões são <b>reais</b>; isso importa na p. 35 (raízes conjugadas). A <b>raiz</b> $x=i$ de $x^2+1$ só existe porque a Parte I criou $\C$.</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">17</div><div><span class="lv">N1</span> <span class="fm ce">C/E</span> Julgue: «A expressão $3x^{-1}+2$ define um polinômio de grau $1$ na variável $x$.»</div></div></div>
+<div class="gab"><b>17 — Errado.</b> O expoente $-1$ não é natural: $3x^{-1}=3/x$ não é um termo de polinômio. A expressão não é polinômio e, portanto, não tem grau.</div>

@@ -1,0 +1,50 @@
+<!--META {"topic":"Revisão estratégica"}-->
+<div class="pt"><span class="num">40</span><h1>Revisão: mapa de decisão, formulário e teste integrador</h1><span class="mat">MAT10 · MAT11 · MAT12</span></div>
+
+<div class="fig"><div>{{fig:fig_flow_p}}</div><div class="cap"><b>Mapa de decisão (estratégia, não regra exclusiva).</b> Identifique o objetivo do enunciado e escolha a ferramenta; combine-as quando necessário.</div></div>
+
+<div class="g2">
+<div>
+<h2>Formulário essencial</h2>
+<table class="t2">
+<tr><th class="l">Fórmula</th><th class="l">Uso</th></tr>
+<tr><td class="l">$P(0)=a_0$; $\ P(1)=\sum a_k$</td><td class="l">atalhos</td></tr>
+<tr><td class="l">$\operatorname{gr}(PQ)=\operatorname{gr}P+\operatorname{gr}Q$</td><td class="l">grau do produto</td></tr>
+<tr><td class="l">$P=D\,Q+R$; $\ R\equiv0$ ou $\operatorname{gr}R<\operatorname{gr}D$</td><td class="l">divisão</td></tr>
+<tr><td class="l">resto de $P\div(x-a)$ é $P(a)$</td><td class="l">Resto / D'Alembert</td></tr>
+<tr><td class="l">baixa · multiplica · soma</td><td class="l">Briot-Ruffini</td></tr>
+<tr><td class="l">$p/q$ com $p\mid a_0$ e $q\mid a_n$</td><td class="l">raízes racionais</td></tr>
+<tr><td class="l">$P=a_n(x-r_1)\cdots(x-r_n)$</td><td class="l">T.F.A. / decomposição</td></tr>
+<tr><td class="l">$(x-\alpha)^m\mid P,\ (x-\alpha)^{m+1}\nmid P$</td><td class="l">multiplicidade</td></tr>
+<tr><td class="l">$x^2-2ax+a^2+b^2$ (raízes $a\pm bi$)</td><td class="l">conjugadas</td></tr>
+<tr><td class="l">$S_k=(-1)^k\,a_{n-k}/a_n$</td><td class="l">Girard</td></tr>
+<tr><td class="l">$ax^4+bx^2+c=0\ \Rightarrow\ y=x^2$</td><td class="l">biquadrática</td></tr></table>
+</div>
+<div>
+<h2>Erros que não podem ser cometidos</h2>
+<div class="box att"><div class="bt">Checklist anti-erro</div>
+<ul class="sm" style="padding-left:3.6mm">
+<li>Esquecer <b>zeros</b> nos termos ausentes (chave e Ruffini).</li>
+<li>Não <b>trocar o sinal</b> do produto na subtração da chave.</li>
+<li>Usar o sinal do binômio em vez da <b>raiz</b> do divisor ($x+3\Rightarrow-3$).</li>
+<li>Usar Ruffini com divisor que não é $x-a$ (ou sem normalizar).</li>
+<li>Inverter $p/q$; achar que o teorema <b>garante</b> raízes.</li>
+<li>Aplicar a conjugada com coeficientes <b>não reais</b>.</li>
+<li>Contar raiz dupla como uma só (usar <b>multiplicidade</b>).</li>
+<li>Girard: <b>sinais alternados</b> e dividir por $a_n$.</li>
+<li>Biquadrática: parar em $y$; esquecer $x=\pm\sqrt y$ e as raízes não reais.</li>
+<li>Gráficos: raízes não reais não aparecem; só as reais.</li></ul></div>
+</div>
+</div>
+
+<div class="exs"><div class="xh"><span>Teste integrador · itens no estilo PAS</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">31</div><div><span class="lv">N2</span> <span class="fm ce">C/E</span> Julgue: «Um polinômio cúbico mônico, de coeficientes reais, que tenha como raízes $2$ e $1+i$ tem termo independente igual a $-4$.»</div></div>
+<div class="x"><div class="xn">32</div><div><span class="lv l3">N3</span> <span class="fm tb">B</span> Os afixos das raízes complexas da equação $x^4+64=0$ são vértices de um quadrado. Calcule a área desse quadrado.</div></div></div>
+<div class="gab"><b>31 — Certo.</b> Coeficientes reais ⟹ $1-i$ também é raiz. Produto das raízes $=2(1+i)(1-i)=4$; para grau 3 mônico, termo independente $=-(\text{produto})=-4$ ($P=(x-2)(x^2-2x+2)=x^3-4x^2+6x-4$). &nbsp;<b>32 — 016.</b> $x^4=-64=64\cis180^\circ$: módulo $\sqrt[4]{64}=2\sqrt2$, argumentos $45^\circ+90^\circ k$ ⟹ raízes $\pm2\pm2i$. Lado $=|(2+2i)-(-2+2i)|=4$; área $=16$. (Fatorando: $x^4+64=(x^2+4x+8)(x^2-4x+8)$ ✓.)</div>
+
+<div class="g2">
+<div class="box ok"><div class="bt">Cobertura das habilidades</div>
+<p class="sm nob"><span class="chip b">MAT8</span> pl. de Argand-Gauss, vetores: p. 9–11, 15. &nbsp;<span class="chip b">MAT9</span> álgebra, polar, De Moivre: p. 1–19. &nbsp;<span class="chip p">MAT10</span> polinômios, raízes, multiplicidade, Girard: p. 21–25, 33–37. &nbsp;<span class="chip p">MAT11</span> divisão, fatoração, raízes: p. 26–32. &nbsp;<span class="chip p">MAT12</span> equações de grau 2, 3 e 4, biquadráticas: p. 38–39.</p></div>
+<div class="box brg"><div class="bt">Fecho da apostila</div>
+<p class="sm nob">Complexos e polinômios são <b>uma só teoria</b>: o conjunto $\C$ existe para que todo polinômio tenha todas as suas raízes (T.F.A.); e as raízes de $z^n=k$ desenham polígonos regulares (p. 19). Antes da prova, refaça os itens integradores das p. 35, 37, 38 e 39.</p></div>
+</div>

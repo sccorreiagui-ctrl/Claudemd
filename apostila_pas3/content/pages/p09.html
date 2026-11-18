@@ -1,0 +1,46 @@
+<!--META {"topic":"Plano de Argand-Gauss"}-->
+<div class="pt"><span class="num">09</span><h1>Plano de Argand-Gauss: o complexo como ponto e como vetor</h1><span class="mat">MAT8</span></div>
+
+<div class="gA" style="grid-template-columns:1fr 94mm">
+<div>
+<div class="box def"><div class="bt">Plano complexo</div>
+<p class="nob">Eixo horizontal: <b class="cb">eixo real</b> (Re). Eixo vertical: <b class="cp">eixo imaginário</b> (Im). O complexo $z=\re a+\im b i$ corresponde ao <b>ponto</b> $P(a,b)$, chamado <b>afixo</b> de $z$, e ao <b>vetor de posição</b> $\vec{OP}$, que sai da origem.</p></div>
+<ul class="sm">
+<li>$z$ <b>real</b> ⟺ afixo sobre o eixo horizontal ($b=0$).</li>
+<li>$z$ <b>imaginário puro</b> ⟺ afixo sobre o eixo vertical, fora da origem.</li>
+<li>Sinais de $(a,b)$ definem o <b>quadrante</b>: $(+,+)$ 1º; $(-,+)$ 2º; $(-,-)$ 3º; $(+,-)$ 4º.</li>
+<li>$\conj z$: reflexão no eixo real; $-z$: reflexão pela origem.</li></ul>
+<div class="box ok"><div class="bt">Conexão com Geometria Analítica</div>
+<p class="sm nob">Tudo o que você sabe de pontos de $\R^2$ vale aqui: ponto médio de $z_1,z_2$ é $\dfrac{z_1+z_2}{2}$; o baricentro de três pontos é $\dfrac{z_1+z_2+z_3}3$; a distância é o módulo da diferença (p. 10).</p></div>
+</div>
+<div class="fig"><div>{{fig:fig_argand}}</div><div class="cap"><b>Fig. 6.</b> Afixos nos quatro quadrantes e sobre os eixos. Projeções de $z_1$: parte real $3$ (azul) e parte imaginária $2$ (roxo).</div></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 19</span><span class="lv">N1</span><span class="r">localizar afixos</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Localize $-3+2i$, $\;4-i$, $\;-2-2i$, $\;3i$ e $-5$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>
+<table class="t2" style="margin:0"><tr><th>$z$</th><th>afixo</th><th>posição</th></tr>
+<tr><td>$-3+2i$</td><td>$(-3,2)$</td><td>2º quad.</td></tr>
+<tr><td>$4-i$</td><td>$(4,-1)$</td><td>4º quad.</td></tr>
+<tr><td>$-2-2i$</td><td>$(-2,-2)$</td><td>3º quad.</td></tr>
+<tr><td>$3i$</td><td>$(0,3)$</td><td>eixo Im</td></tr>
+<tr><td>$-5$</td><td>$(-5,0)$</td><td>eixo Re</td></tr></table></div></div>
+<div class="er res"><div class="l">Resposta</div><div>Conforme a tabela.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 20</span><span class="lv">N2</span><span class="r">ponto médio e translação</span></div>
+<div class="er"><div class="l">Enunciado</div><div>(a) Ponto médio de $A=1+2i$ e $B=5-4i$. (b) Onde fica $z+(2-i)$ se $z=-1+3i$?</div></div>
+<div class="er"><div class="l">Resolução</div><div>(a) $M=\dfrac{(1+5)+(2-4)i}{2}=3-i$. &nbsp;(b) $z+(2-i)=1+2i$: o afixo <b>desloca</b> $2$ à direita e $1$ para baixo, de $(-1,3)$ para $(1,2)$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>(a) $M=3-i$, afixo $(3,-1)$. (b) $1+2i$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$M$ equidista de $A$ e $B$: $|M-A|=|2-3i|=\sqrt{13}=|M-B|$ ✓.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Em que quadrante está $-2-5i$? E $\conj{(-2-5i)}$? E $-(-2-5i)$? <span class="mut sm">(Respostas: 3º; 2º; 1º.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">O que é o afixo de $z$? Onde ficam os reais? Onde ficam os imaginários puros? Qual simetria produz $\conj z$?</p></div>
+</div>
+<div class="att box"><div class="bt">Atenção · escala igual nos dois eixos</div>
+<p class="nob sm">Ao desenhar para <b>medir distâncias e ângulos</b>, use a mesma escala nos eixos real e imaginário (como em todas as figuras desta apostila). O eixo vertical marca o <b>coeficiente</b> $b$, não $bi$: o ponto $3i$ está em $(0,3)$, e não em $(0,3i)$.</p></div>
+<div class="box ok xtra"><div class="bt">Resumo geométrico das operações (MAT8)</div><table class="t2" style="margin:0"><tr><th class="l">Operação</th><th class="l">Efeito sobre o afixo</th></tr><tr><td class="l">$z+w_0$</td><td class="l"><b>translação</b> pelo vetor $w_0$</td></tr><tr><td class="l">$k\,z$ ($k$ real $>0$)</td><td class="l"><b>homotetia</b> de razão $k$ (centro na origem)</td></tr><tr><td class="l">$-z$</td><td class="l">reflexão <b>pela origem</b> (giro de $180^\circ$)</td></tr><tr><td class="l">$\conj z$</td><td class="l">reflexão <b>no eixo real</b></td></tr><tr><td class="l">$iz$</td><td class="l">giro de $90^\circ$ no sentido anti-horário (p. 15)</td></tr></table></div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N2</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> Se $a\neq0$ e $b\ne0$, os afixos de $z=a+bi$, $\conj z$ e $-z$ são vértices de um triângulo retângulo.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Certo.</b> Afixos $(a,b)$, $(a,-b)$, $(-a,-b)$. O lado de $\conj z$ a $z$ é vertical e o de $\conj z$ a $-z$ é horizontal: ângulo reto no afixo de $\conj z$.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>afixo de $\conj{(-3+4i)}$ <b class="cg">→ $(-3,-4)$</b></div><div>afixo de $-(2-i)$ <b class="cg">→ $(-2,1)$</b></div><div>quadrante de $-1+5i$ <b class="cg">→ 2º</b></div></div></div>

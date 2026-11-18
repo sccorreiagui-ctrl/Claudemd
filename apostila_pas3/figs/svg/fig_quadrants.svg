@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 396 300" width="99.00mm" height="75.00mm">
+<line x1="5.60" y1="150.00" x2="385.50" y2="150.00" stroke="#1f5fbf" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="390.40,150.00 384.06,152.96 386.55,150.00 384.06,147.04" fill="#1f5fbf"/>
+<line x1="198.00" y1="293.00" x2="198.00" y2="11.90" stroke="#7a3fc2" stroke-width="1.5" stroke-linecap="round"/>
+<polygon points="198.00,7.00 200.96,13.34 198.00,10.85 195.04,13.34" fill="#7a3fc2"/>
+<text x="193.00" y="160.00" font-size="8" fill="#5f6b7a" text-anchor="end"><tspan class="i">O</tspan></text>
+<text x="389.40" y="144.00" font-size="9" fill="#1f5fbf" text-anchor="end" font-weight="700"><tspan>Re</tspan></text>
+<text x="204.00" y="13.00" font-size="9" fill="#7a3fc2" text-anchor="start" font-weight="700"><tspan>Im</tspan></text>
+<line x1="198.00" y1="150.00" x2="283.82" y2="100.45" stroke="#1f5fbf" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="288.07,98.00 284.05,103.73 284.73,99.92 281.09,98.61" fill="#1f5fbf"/>
+<circle cx="288.07" cy="98.00" r="3.20" fill="#1f5fbf" stroke="#ffffff" stroke-width="0.8"/>
+<path d="M219.84,150.00 A21.84,21.84 0 0 0 216.91,139.08" fill="none" stroke="#1f5fbf" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="216.91,139.08 222.24,142.81 218.70,142.18 217.48,145.56" fill="#1f5fbf"/>
+<line x1="198.00" y1="150.00" x2="149.46" y2="101.46" stroke="#7a3fc2" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="146.00,98.00 152.58,100.39 148.72,100.72 148.39,104.58" fill="#7a3fc2"/>
+<circle cx="146.00" cy="98.00" r="3.20" fill="#7a3fc2" stroke="#ffffff" stroke-width="0.8"/>
+<path d="M232.32,150.00 A34.32,34.32 0 0 0 173.73,125.73" fill="none" stroke="#7a3fc2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="173.73,125.73 175.96,119.62 176.26,123.20 179.84,123.51" fill="#7a3fc2"/>
+<line x1="198.00" y1="150.00" x2="149.46" y2="198.54" stroke="#d4690a" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="146.00,202.00 148.39,195.42 148.72,199.28 152.58,199.61" fill="#d4690a"/>
+<circle cx="146.00" cy="202.00" r="3.20" fill="#d4690a" stroke="#ffffff" stroke-width="0.8"/>
+<path d="M244.80,150.00 A46.80,46.80 0 1 0 164.91,183.09" fill="none" stroke="#d4690a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="164.91,183.09 158.80,180.87 162.38,180.56 162.68,176.98" fill="#d4690a"/>
+<line x1="198.00" y1="150.00" x2="246.54" y2="198.54" stroke="#167a44" stroke-width="2.0" stroke-linecap="round"/>
+<polygon points="250.00,202.00 243.42,199.61 247.28,199.28 247.61,195.42" fill="#167a44"/>
+<circle cx="250.00" cy="202.00" r="3.20" fill="#167a44" stroke="#ffffff" stroke-width="0.8"/>
+<path d="M257.28,150.00 A59.28,59.28 0 1 0 239.92,191.92" fill="none" stroke="#167a44" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="239.92,191.92 237.69,198.03 237.39,194.45 233.81,194.14" fill="#167a44"/>
+<text x="295.07" y="93.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">1</tspan><tspan class="m" dy="-1.84"> = √3 + </tspan><tspan class="i">i</tspan></text>
+<text x="295.07" y="93.00" font-size="9.2" fill="#1f5fbf" text-anchor="start" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">1</tspan><tspan class="m" dy="-1.84"> = √3 + </tspan><tspan class="i">i</tspan></text>
+<text x="295.07" y="104.00" font-size="8" fill="#1f5fbf" text-anchor="start"><tspan>θ = 30° = π/6</tspan></text>
+<text x="140.00" y="92.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="end" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">2</tspan><tspan class="m" dy="-1.84"> = −1 + </tspan><tspan class="i">i</tspan></text>
+<text x="140.00" y="92.00" font-size="9.2" fill="#7a3fc2" text-anchor="end" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">2</tspan><tspan class="m" dy="-1.84"> = −1 + </tspan><tspan class="i">i</tspan></text>
+<text x="140.00" y="103.00" font-size="8" fill="#7a3fc2" text-anchor="end"><tspan>θ = 135° = 3π/4</tspan></text>
+<text x="140.00" y="216.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="end" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">3</tspan><tspan class="m" dy="-1.84"> = −1 − </tspan><tspan class="i">i</tspan></text>
+<text x="140.00" y="216.00" font-size="9.2" fill="#d4690a" text-anchor="end" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">3</tspan><tspan class="m" dy="-1.84"> = −1 − </tspan><tspan class="i">i</tspan></text>
+<text x="140.00" y="227.00" font-size="8" fill="#d4690a" text-anchor="end"><tspan>θ = 225° = 5π/4</tspan></text>
+<text x="256.00" y="216.00" font-size="9.2" fill="#ffffff" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" text-anchor="start" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">4</tspan><tspan class="m" dy="-1.84"> = 1 − </tspan><tspan class="i">i</tspan></text>
+<text x="256.00" y="216.00" font-size="9.2" fill="#167a44" text-anchor="start" font-weight="700"><tspan class="i">z</tspan><tspan class="m" dy="1.84" font-size="6.62">4</tspan><tspan class="m" dy="-1.84"> = 1 − </tspan><tspan class="i">i</tspan></text>
+<text x="256.00" y="227.00" font-size="8" fill="#167a44" text-anchor="start"><tspan>θ = 315° = 7π/4</tspan></text>
+<text x="390.40" y="9.76" font-size="8.6" fill="#1a2233" text-anchor="end" font-weight="700"><tspan>1º Q: a &gt; 0, b &gt; 0</tspan></text>
+<text x="390.40" y="20.76" font-size="8.0" fill="#5f6b7a" text-anchor="end"><tspan>cos+, sen+  ·  θ = θ₀</tspan></text>
+<text x="5.60" y="9.76" font-size="8.6" fill="#1a2233" text-anchor="start" font-weight="700"><tspan>2º Q: a &lt; 0, b &gt; 0</tspan></text>
+<text x="5.60" y="20.76" font-size="8.0" fill="#5f6b7a" text-anchor="start"><tspan>cos−, sen+  ·  θ = π − θ₀</tspan></text>
+<text x="5.60" y="259.36" font-size="8.6" fill="#1a2233" text-anchor="start" font-weight="700"><tspan>3º Q: a &lt; 0, b &lt; 0</tspan></text>
+<text x="5.60" y="270.36" font-size="8.0" fill="#5f6b7a" text-anchor="start"><tspan>cos−, sen−  ·  θ = π + θ₀</tspan></text>
+<text x="390.40" y="259.36" font-size="8.6" fill="#1a2233" text-anchor="end" font-weight="700"><tspan>4º Q: a &gt; 0, b &lt; 0</tspan></text>
+<text x="390.40" y="270.36" font-size="8.0" fill="#5f6b7a" text-anchor="end"><tspan>cos+, sen−  ·  θ = 2π − θ₀</tspan></text>
+</svg>

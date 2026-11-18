@@ -1,0 +1,43 @@
+<!--META {"topic":"Grau e coeficientes"}-->
+<div class="pt"><span class="num">22</span><h1>Grau, coeficiente dominante, polinômios completos e incompletos</h1><span class="mat">MAT10</span></div>
+
+<div class="g2">
+<div class="box def"><div class="bt">Grau</div>
+<p class="nob">O <b>grau</b> $\operatorname{gr}(P)$ é o <b>maior expoente cujo coeficiente é diferente de zero</b>; esse coeficiente é o <b>coeficiente dominante</b> $a_n$. Constante não nula ($P=5$): grau $0$. Polinômio nulo ($P\equiv0$): <b>sem grau definido</b> (não lhe atribua um inteiro).</p></div>
+<div class="att box"><div class="bt">Atenção · «maior expoente escrito» ≠ «grau»</div>
+<p class="nob">Em $(m+1)x^4+2x^2-x+17$ o maior expoente escrito é $4$, mas se $m=-1$ o termo em $x^4$ <b>desaparece</b> e o grau passa a ser $\bad{2}$. Ordene e <b>confira se o coeficiente é não nulo</b>.</p></div>
+</div>
+
+<div class="fig"><div>{{fig:fig_slots}}</div><div class="cap"><b>Fig. 23.</b> «Casas» dos coeficientes de $x^5-3x^3+2x^2+4$: o polinômio é <b>incompleto</b> (faltam $x^4$ e $x$, coeficientes $0$). Em um polinômio <b>completo</b> todas as casas são preenchidas (de $x^n$ a $x^0$). Ao usar Ruffini (p. 30), cada casa vazia vira um <b>zero</b>.</div></div>
+
+<div class="g2">
+<div class="box ok"><div class="bt">Grau de somas, produtos e potências ($P,Q\ne0$)</div>
+<p class="nob sm">$\;\operatorname{gr}(P\cdot Q)=\operatorname{gr}(P)+\operatorname{gr}(Q)$ &nbsp;·&nbsp; $\operatorname{gr}(P^k)=k\cdot\operatorname{gr}(P)$ &nbsp;·&nbsp; $\operatorname{gr}(P+Q)\le\max\{\operatorname{gr}(P),\operatorname{gr}(Q)\}$.<br>A soma pode ter grau <b>menor</b> se os termos de maior grau se cancelam: $(x^3+x)+(-x^3+2)=x+2$ (grau 1, e não 3).</p></div>
+<div class="box brg"><div class="bt">Ponte: coeficiente dominante e raízes</div>
+<p class="nob sm">O coeficiente dominante $a_n$ reaparece na decomposição $P=a_n(x-r_1)\cdots(x-r_n)$ (p. 33) e em Girard (p. 36).</p></div>
+</div>
+
+<div class="g2">
+<div class="exm"><div class="eh"><span>Exemplo 46</span><span class="lv">N2</span><span class="r">impondo o grau</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Determine $m$ para que $P(x)=(m+1)x^4+2x^2-x+17$ tenha grau $2$.</div></div>
+<div class="er"><div class="l">Estratégia</div><div>Anular o termo de grau maior (para que ele suma) e conferir o coeficiente de $x^2$.</div></div>
+<div class="er"><div class="l">Resolução</div><div>$m+1=0\Rightarrow m=-1$. O coeficiente de $x^2$ é $2\neq0$, logo o novo maior expoente com coeficiente não nulo é $2$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>$m=-1$.</div></div>
+<div class="er ver"><div class="l">Verificação</div><div>$P(x)=0\cdot x^4+2x^2-x+17$: grau $2$ ✓.</div></div></div>
+
+<div class="exm"><div class="eh"><span>Exemplo 47</span><span class="lv l3">N3</span><span class="r">grau em função de um parâmetro</span></div>
+<div class="er"><div class="l">Enunciado</div><div>Para cada $m\in\R$, qual o grau de $P(x)=(m^2-4)x^3+(m-2)x^2+5$?</div></div>
+<div class="er"><div class="l">Resolução</div><div>$m^2-4=0\iff m=\pm2$.<br><b>$m\ne\pm2$:</b> coef. de $x^3$ é $\ne0$ ⟹ grau $3$.<br><b>$m=-2$:</b> $0\cdot x^3-4x^2+5$ ⟹ grau $2$.<br><b>$m=2$:</b> $0\cdot x^3+0\cdot x^2+5=5$ ⟹ constante, grau $0$.</div></div>
+<div class="er res"><div class="l">Resposta</div><div>grau $3$ se $m\ne\pm2$; grau $2$ se $m=-2$; grau $0$ se $m=2$.</div></div></div>
+</div>
+
+<div class="g2">
+<div class="qk box"><div class="bt">Teste rápido</div><p class="nob">Grau de $(x^2+1)^3(x-2)$ &nbsp;·&nbsp; grau de $0x^5+3$ &nbsp;·&nbsp; grau de $(x^2+x)-(x^2-1)$. <span class="mut sm">(Respostas: $7$; $0$; $1$.)</span></p></div>
+<div class="box rec"><div class="bt">Recordação ativa</div><p class="sm nob">Qual a diferença entre o maior expoente <i>escrito</i> e o grau? O polinômio nulo tem grau? O grau da soma é sempre o maior dos graus?</p></div>
+</div>
+
+<div class="exs"><div class="xh"><span>Exercício</span><span>gabarito abaixo</span></div>
+<div class="x"><div class="xn">18</div><div><span class="lv">N1</span> <span class="fm tb">B</span> Sejam $P$ um polinômio de grau $3$ e $Q$ um polinômio de grau $4$. Calcule o grau de $P^2\cdot Q$.</div></div></div>
+<div class="gab"><b>18 — 010.</b> $\operatorname{gr}(P^2)=2\cdot3=6$ e, no produto, os graus somam: $6+4=10$.</div>
+<div class="exm xtra"><div class="eh"><span>Itens PAS comentados</span><span class="lv">N1</span><span class="fm ce">C/E</span><span class="r">autorais, no estilo da banca</span></div><div class="er"><div class="l">Julgue</div><div><b>(a)</b> O polinômio nulo, $P(x)=0$, tem grau $0$.<br><b>(b)</b> Se $P$ e $Q$ têm grau $3$, então $P+Q$ tem grau $3$.</div></div><div class="er res"><div class="l">Gabarito</div><div><b>(a) Errado:</b> o grau do polinômio nulo não se define (não é $0$; o grau $0$ é das constantes não nulas). <b>(b) Errado:</b> $(x^3+1)+(-x^3+x)=x+1$ tem grau $1$; a soma pode ter grau menor.</div></div></div>
+<div class="box pre xtra"><div class="bt">Treino rápido · sem numeração · confira com a resposta ao lado</div><div class="g3 sm" style="gap:.8mm 4mm"><div>grau de $5x^2-x^4+3$ <b class="cg">→ $4$</b></div><div>grau de $(x-1)(x+1)(x^2+1)$ <b class="cg">→ $4$</b></div><div>grau de $(2x^3-x)-(2x^3+x^2)$ <b class="cg">→ $2$</b></div><div>$k$: $(k^2-1)x^2+(k+1)x+3$ de grau 1 <b class="cg">→ $k=1$</b></div></div></div>
