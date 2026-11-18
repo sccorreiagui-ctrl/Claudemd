@@ -1,0 +1,58 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Tente empurrar um ímã para dentro de uma espira: você <b>sente resistência</b>. É a natureza “se defendendo” da mudança: a corrente induzida cria um campo que se opõe à <b>variação</b> do fluxo que a produziu.</p>
+    <x-box k="mem" t="Lei de Lenz — enunciado preciso">
+      <p class="mb0">A corrente induzida tem o sentido tal que o seu campo magnético <b>se opõe à variação do fluxo</b> que a originou.</p>
+    </x-box>
+    <p><span class="tag">Explicação</span>A lei de Lenz é a <b>conservação da energia</b> em ação. Se o efeito <em>reforçasse</em> a variação, um pequeno movimento do ímã criaria corrente, que aumentaria o fluxo, que aumentaria a corrente… energia “de graça”. Na realidade, o ímã é repelido ao se aproximar e atraído ao se afastar: o <b>trabalho mecânico</b> que realizamos vira energia elétrica e, na resistência, calor.</p>
+    <x-box k="warn" t="Cuidado com o enunciado">
+      <p class="small mb0">Não diga “o campo induzido <em>sempre</em> se opõe ao campo externo”. Ele se opõe à <b>variação</b> do fluxo: se $|\Phi|$ <em>diminui</em>, $\vB_{ind}$ tem o <b>mesmo</b> sentido de $\vB_{ext}$ (ajuda a manter o fluxo).</p>
+    </x-box>
+  </div>
+  <div>
+    <h2>Faraday × Lenz</h2>
+    <table class="tbl fs76">
+      <tr><th style="width:22%"> </th><th>Faraday</th><th>Lenz</th></tr>
+      <tr><td class="k">Responde</td><td>quanto?</td><td>para que lado?</td></tr>
+      <tr><td class="k">Fornece</td><td>módulo: $|\varepsilon|=N|\Delta\Phi|/\Delta t$</td><td>sentido da corrente induzida</td></tr>
+      <tr><td class="k">Onde está</td><td>a razão $\Delta\Phi/\Delta t$</td><td>o sinal “$-$” da fórmula</td></tr>
+      <tr><td class="k">Princípio</td><td>indução eletromagnética</td><td>conservação da energia</td></tr>
+    </table>
+    <x-box k="pre" t="Sinal de $\Phi$ e de $\varepsilon$ (convenção)">
+      <p class="small mb0">Escolha $\vN$. Corrente <b>positiva</b> = sentido da mão direita com o polegar em $\vN$ (seu campo, no interior, aponta para $+\vN$). Com $\varepsilon=-N\,\dd\Phi/\dd t$: se $\Phi$ <em>cresce</em>, $\varepsilon<0$ (corrente negativa: campo induzido contra $\vN$); se $\Phi$ <em>decresce</em>, $\varepsilon>0$. Se $\Phi<0$ (campo contra $\vN$), “cresce” e “$|\Phi|$ aumenta” <b>não</b> são a mesma coisa: use o módulo.</p>
+    </x-box>
+  </div>
+</div>
+
+<h2>Método em 6 passos (use em qualquer problema)</h2>
+<x-fig name="lenz_flow"><cap>Algoritmo de Lenz. Cores: $\vB_{ext}$ azul · $\vB_{ind}$ roxo · corrente laranja · conferência verde.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="15" l="2" t="Faraday e Lenz juntos: módulo e sentido">
+      <p data-k="Situação">Uma bobina de $100$ espiras, de $0,020\un{m^2}$ cada, é perpendicular a um campo uniforme que <b>entra</b> na página e cresce de $0,10\un{T}$ a $0,50\un{T}$ em $0,20\un{s}$. A resistência total é $8,0\,\Omega$. Calcule a FEM média, a corrente e o sentido da corrente.</p>
+      <p data-k="Esquema">Anel com $\vB$ entrando e crescendo: 1º painel da 2ª figura da p. 20.</p>
+      <p data-k="Dados">$N=100$; $A=0,020\un{m^2}$; $\Delta B=0,40\un{T}$; $\Delta t=0,20\un{s}$; $R=8,0\,\Omega$.</p>
+      <p data-k="Fenômeno">Indução por variação de $B$ (com $A$ e $\theta$ fixos).</p>
+      <p data-k="Método">Faraday: $|\varepsilon|=NA\,\Delta B/\Delta t$; Ohm: $I=|\varepsilon|/R$; Lenz para o sentido.</p>
+      <p data-k="Cálculo">$\Delta\Phi=A\,\Delta B=8,0\tx{-3}\un{Wb}$; $|\varepsilon|=100\cdot\dfrac{8,0\tx{-3}}{0,20}$; $I=\dfrac{4,0}{8,0}$. Lenz: $\vB_{ext}$ entrando e $|\Phi|$ crescendo $\Rightarrow$ $\vB_{ind}$ <em>saindo</em>.</p>
+      <p data-k="Resultado">$|\varepsilon|=4,0\un{V}$; $I=0,50\un{A}$; corrente <b>anti-horária</b> (vista de frente).</p>
+      <p data-k="Verificação"><x-ok></x-ok>Se $B$ parasse em $0,50\un{T}$, $\varepsilon=0$. Se $B$ <em>diminuísse</em> de $0,50$ a $0,10\un{T}$ no mesmo tempo: mesmo módulo ($4,0\un{V}$), sentido <b>horário</b>.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="mem" t="Resumo do método">
+      <ol class="small mb0">
+        <li>Desenhe $\vB_{ext}$ na espira ($\odot$ ou $\otimes$).</li>
+        <li>Escolha $\vN$ (só serve de referência de sinal).</li>
+        <li>$|\Phi|$ aumenta ou diminui?</li>
+        <li>Aumenta: $\vB_{ind}$ <b>oposto</b> a $\vB_{ext}$. Diminui: <b>mesmo</b> sentido.</li>
+        <li>Mão direita: polegar em $\vB_{ind}$ (no interior) dá o sentido de $I$.</li>
+        <li>Confira: a corrente <b>resiste</b> à mudança?</li>
+      </ol>
+    </x-box>
+    <x-box t="Como o ímã sente a oposição">
+      <p class="small mb0">Aproximar o polo N de um anel induz corrente anti-horária (do lado do ímã): o anel vira face N e <b>repele</b>. Afastar: o anel vira face S e <b>atrai</b>. Nos dois casos, a força sobre o ímã se opõe ao seu movimento — o trabalho que você realiza é a energia que aparece como corrente.</p>
+    </x-box>
+  </div>
+</div>

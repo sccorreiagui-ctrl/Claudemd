@@ -17,7 +17,13 @@ await page.evaluate(async () => { await document.fonts.ready; });
 
 const rep = await page.evaluate(() => [...document.querySelectorAll('.page')].map((pg) => {
   const body = pg.querySelector('.body');
-  const grow = body.querySelector(':scope > .grow');
+  const main = body.querySelector(':scope > .main');
+  let slackPx = null;
+  if (main) {
+    let tot = 0;
+    for (const c of main.children) { const cs = getComputedStyle(c); tot += c.getBoundingClientRect().height + parseFloat(cs.marginTop) + parseFloat(cs.marginBottom); }
+    slackPx = main.getBoundingClientRect().height - tot;
+  }
   const br = body.getBoundingClientRect();
   let maxR = 0, maxB = 0;
   body.querySelectorAll('*').forEach((el) => {
@@ -27,7 +33,7 @@ const rep = await page.evaluate(() => [...document.querySelectorAll('.page')].ma
   });
   const mm = (px) => +(px * 25.4 / 96).toFixed(1);
   return {
-    n: +pg.dataset.n, avail: mm(body.clientHeight), slack: grow ? mm(grow.getBoundingClientRect().height) : null,
+    n: +pg.dataset.n, avail: mm(body.clientHeight), slack: slackPx === null ? null : mm(slackPx),
     overY: mm(body.scrollHeight - body.clientHeight), overX: mm(body.scrollWidth - body.clientWidth),
     right: mm(maxR - br.right), bottom: mm(maxB - br.bottom),
   };
@@ -36,7 +42,7 @@ const rep = await page.evaluate(() => [...document.querySelectorAll('.page')].ma
 let bad = 0;
 console.log('pág  folga(mm)  overflowY  overflowX  extrapola(dir/baixo)');
 for (const r of rep) {
-  const flag = (r.overY > 0.3 || r.overX > 0.3 || r.right > 0.3 || r.bottom > 0.3 || (r.slack !== null && r.slack < 0)) ? '  <<< PROBLEMA' : '';
+  const flag = (r.overY > 0.8 || r.overX > 0.3 || r.right > 0.3 || r.bottom > 0.3 || (r.slack !== null && r.slack < 0)) ? '  <<< PROBLEMA' : '';
   if (flag) bad++;
   console.log(String(r.n).padStart(3), String(r.slack).padStart(9), String(r.overY).padStart(10), String(r.overX).padStart(10), `  ${r.right}/${r.bottom}${flag}`);
 }

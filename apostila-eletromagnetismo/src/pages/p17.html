@@ -1,0 +1,55 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Um ímã <em>parado</em> dentro de uma bobina não faz nada. É preciso <b>mexer</b>: a tensão aparece enquanto o fluxo <em>varia</em>. Quanto mais rápida a variação e mais espiras, maior a tensão.</p>
+    <p><span class="tag">Fenômeno</span>Faraday (1831) viu que o galvanômetro de uma bobina deflete só <em>durante</em> a aproximação ou o afastamento de um ímã — e também ao ligar ou desligar outro circuito próximo (<x-ref f="faraday_setup"></x-ref>). A FEM induzida existe com ou sem circuito fechado; se ele estiver fechado, circula corrente.</p>
+    <x-fc t="Lei de Faraday–Neumann" s="N espiras idênticas" eq="\varepsilon=-N\,\dfrac{\Delta\Phi}{\Delta t} ;; |\varepsilon|=N\,\dfrac{|\Delta\Phi|}{\Delta t}\qquad I=\dfrac{|\varepsilon|}{R}">
+      <p data-k="Variáveis">$\varepsilon$ em volt ($1\un{V}=1\un{Wb/s}$); $N$ = nº de espiras; $\Delta\Phi$ = variação do fluxo <b>por espira</b> (Wb); $\Delta t$ em s; $R$ = resistência total do circuito (Ω).</p>
+      <p data-k="Condições">A expressão com $\Delta$ dá a FEM <b>média</b> no intervalo; a instantânea usa a derivada, $\varepsilon=-N\,\dd\Phi/\dd t$. O sinal “$-$” é a lei de Lenz (p. 19). $I=|\varepsilon|/R$ vale para circuito resistivo simples (sem autoindução).</p>
+      <p data-k="Quando usar">“FEM/tensão induzida”, “variação do fluxo”, “bobina com $N$ espiras”, “corrente induzida”. <b>Fluxo constante</b> (mesmo grande) $\Rightarrow\varepsilon=0$.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="faraday_setup"><cap>Ímã que se aproxima de uma bobina de $N$ espiras: o fluxo por espira cresce e surge uma FEM.</cap></x-fig>
+    <x-fig name="phi_t_ex17"><cap>Exemplo 13: o fluxo por espira cresce linearmente; a inclinação do gráfico é $\Delta\Phi/\Delta t$.</cap></x-fig>
+  </div>
+</div>
+
+<x-fig name="two_coils"><cap>Anel de Faraday: ao <b>ligar</b> ou <b>desligar</b> a corrente do primário, o fluxo varia e surge FEM no secundário; com corrente contínua constante, a FEM é nula.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="13" l="2" t="FEM e corrente numa bobina">
+      <p data-k="Situação">Uma bobina de $200$ espiras tem o fluxo por espira variando de $3,0\un{mWb}$ para $8,0\un{mWb}$ em $0,050\un{s}$. Sua resistência total é $40\,\Omega$. Calcule a FEM média e a corrente.</p>
+      <p data-k="Esquema"><x-ref f="phi_t_ex17"></x-ref>: reta de $3,0$ a $8,0\un{mWb}$.</p>
+      <p data-k="Dados">$N=200$; $\Delta\Phi=5,0\tx{-3}\un{Wb}$; $\Delta t=0,050\un{s}$; $R=40\,\Omega$.</p>
+      <p data-k="Fenômeno">Indução eletromagnética (variação de fluxo).</p>
+      <p data-k="Método">$|\varepsilon|=N|\Delta\Phi|/\Delta t$; $I=|\varepsilon|/R$.</p>
+      <p data-k="Cálculo">$|\varepsilon|=200\cdot\dfrac{5,0\tx{-3}}{0,050}$; $I=\dfrac{20}{40}$</p>
+      <p data-k="Resultado">$|\varepsilon|=20\un{V}$; $I=0,50\un{A}$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Unidades: $\mathrm{Wb/s}=\mathrm{V}$ ✓. Com o mesmo $\Delta\Phi$ em $0,10\un{s}$ (metade da rapidez), $\varepsilon$ cairia à metade: $10\un{V}$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box t="O que pode variar o fluxo">
+      <table class="tbl fs70">
+        <tr><th>Variação</th><th>Exemplo</th></tr>
+        <tr><td class="k">$B$ muda</td><td>eletroímã ligado/desligado; ímã que se aproxima</td></tr>
+        <tr><td class="k">$A$ muda</td><td>haste deslizante em trilhos (p. 21)</td></tr>
+        <tr><td class="k">$\theta$ muda</td><td>espira girando em campo (gerador, p. 24)</td></tr>
+      </table>
+    </x-box>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Achar que <b>fluxo alto</b> gera corrente: só a <b>variação</b> gera.</li>
+        <li>Esquecer o $N$ ou usar $\Phi$ total no lugar de $\Delta\Phi$.</li>
+        <li>Confundir $\Phi$ (Wb) com $\Delta\Phi/\Delta t$ (V).</li>
+      </ul>
+    </x-box>
+    <x-box k="mem" t="Memorize"><p class="small mb0">Faraday: <b>quanto</b> ($|\varepsilon|=N|\Delta\Phi|/\Delta t$). Lenz: <b>para que lado</b> (o sinal “$-$”). Mesma variação em metade do tempo $\Rightarrow$ o dobro de FEM.</p></x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="18" l="2">Uma bobina de $100$ espiras, de $0,020\un{m^2}$ cada uma, é perpendicular a um campo que cresce de $0$ a $0,50\un{T}$ em $0,10\un{s}$. (a) Calcule a FEM média induzida. (b) Com $R=5,0\,\Omega$, qual é a corrente? (c) Se o campo permanecer em $0,50\un{T}$, qual é a FEM?</x-exe>
+  <x-ans>E18 (a) $\Delta\Phi=0,50\cdot0,020=1,0\tx{-2}\un{Wb}$ por espira; $|\varepsilon|=100\cdot1,0\tx{-2}/0,10=10\un{V}$; (b) $I=10/5,0=2,0\un{A}$; (c) $0$ (fluxo constante).</x-ans>
+</x-exs>

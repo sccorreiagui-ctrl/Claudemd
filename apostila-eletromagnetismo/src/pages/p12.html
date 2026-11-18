@@ -1,0 +1,56 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Como $\vF\perp\vv$ o tempo todo, a força magnética funciona como força <b>centrípeta</b>: muda só a <em>direção</em> de $\vv$, nunca o seu módulo. Se $\vv\perp\vB$, a partícula descreve um <b>círculo</b>.</p>
+    <p><span class="tag">Fenômeno</span>Com $\vB$ entrando na página, uma carga positiva gira no sentido <b>anti-horário</b> e uma negativa no <b>horário</b> (<x-ref f="orbit"></x-ref>). Com $\vB$ saindo, inverte-se.</p>
+    <x-fc t="Raio e período no movimento circular" s="$\vv\perp\vB$" eq="|q|vB=\dfrac{mv^{2}}{r}\;\Rightarrow\;r=\dfrac{m\,v}{|q|\,B} ;; T=\dfrac{2\pi r}{v}=\dfrac{2\pi\,m}{|q|\,B}\qquad f=\dfrac{|q|B}{2\pi m}">
+      <p data-k="Variáveis">$m$ em kg; $v$ em m/s; $|q|$ em C; $B$ em T; $r$ em m; $T$ em s; $f=1/T$ em Hz.</p>
+      <p data-k="Condições">Campo uniforme; $\vv\perp\vB$; $v\ll c$ (não relativístico); sem outras forças nem perdas por radiação.</p>
+      <p data-k="Quando usar">“Partícula descreve semicírculo/círculo”, “raio da trajetória”, “tempo de uma volta”, espectrômetro, ciclotron.</p>
+    </x-fc>
+    <ul class="small">
+      <li>$r\propto v$ e $r\propto m/|q|$; $r\propto1/B$.</li>
+      <li>$T$ <b>não depende</b> de $v$ nem de $r$: partículas mais rápidas fazem círculos maiores no mesmo tempo (base do ciclotron).</li>
+    </ul>
+    <x-box t="Partícula acelerada por uma tensão $V$ (a partir do repouso)">
+      <p class="small mb0">$|q|V=\tfrac12mv^{2}\Rightarrow v=\sqrt{2|q|V/m}$ e, na sequência, $r=\dfrac{1}{B}\sqrt{\dfrac{2mV}{|q|}}$. Em função da energia cinética: $r=\dfrac{\sqrt{2mK}}{|q|B}$.</p>
+    </x-box>
+  </div>
+  <div>
+    <x-fig name="orbit"><cap>Carga positiva com $\vB$ entrando: $\vv$ tangente (ciano), $\vF$ centrípeta (verde).</cap></x-fig>
+    <x-fig name="spectrometer"><cap>Espectrômetro de massa: íons de mesma carga e velocidade separam-se por $r\propto m$.</cap></x-fig>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="8" l="2" t="Raio e período de um próton">
+      <p data-k="Situação">Um próton entra com $1,0\tx{6}\un{m/s}$, perpendicularmente a um campo uniforme de $0,20\un{T}$ (entrando na página). Calcule $r$, $T$ e $f$ e diga o sentido da rotação.</p>
+      <p data-k="Esquema"><x-ref f="orbit"></x-ref>.</p>
+      <p data-k="Dados">$m=1,67\tx{-27}\un{kg}$; $q=1,6\tx{-19}\un{C}$; $v=1,0\tx{6}\un{m/s}$; $B=0,20\un{T}$.</p>
+      <p data-k="Fenômeno">$\vF$ magnética como resultante centrípeta (MCU).</p>
+      <p data-k="Método">$r=mv/(qB)$; $T=2\pi m/(qB)$; $f=1/T$.</p>
+      <p data-k="Cálculo">$r=\dfrac{1,67\tx{-27}\cdot1,0\tx{6}}{1,6\tx{-19}\cdot0,20}$; $T=\dfrac{2\pi\cdot1,67\tx{-27}}{1,6\tx{-19}\cdot0,20}$</p>
+      <p data-k="Resultado">$r=5,2\tx{-2}\un{m}$ ($5,2\un{cm}$); $T=3,3\tx{-7}\un{s}$; $f\approx3,0\un{MHz}$; sentido <b>anti-horário</b> ($q>0$, $\vB$ entrando).</p>
+      <p data-k="Verificação"><x-ok></x-ok>Pelo outro caminho, $T=2\pi r/v=2\pi\cdot0,052/1,0\tx{6}=3,3\tx{-7}\un{s}$ ✓. A velocidade angular $\omega=qB/m=1,9\tx{7}\un{rad/s}$ não depende de $v$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box t="Aplicações">
+      <p class="small mb1"><b>Ciclotron.</b> Como $T$ não depende de $v$, um campo elétrico alternado de frequência fixa $f=|q|B/2\pi m$ acelera a partícula a cada meia volta; o raio cresce com a energia. Usado, por exemplo, para produzir radioisótopos médicos.</p>
+      <p class="small mb0"><b>Espectrômetro de massa.</b> Íons com a mesma $q$ e $v$ pousam a $2r$ da fenda: $r\propto m$ mede massas e separa isótopos.</p>
+    </x-box>
+    <x-box k="pre" t="Pré-requisito: força centrípeta"><p class="small mb0">No movimento circular uniforme, a resultante aponta para o centro e vale $F_c=mv^{2}/r$; a aceleração centrípeta é $a_c=v^{2}/r=\omega^{2}r$, com $v=\omega r$ e $T=2\pi/\omega$. A força centrípeta não é uma força nova: é o nome da resultante (aqui, a magnética).</p></x-box>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Usar $r=mv/qB$ quando $\vv$ <b>não</b> é perpendicular a $\vB$: use só a componente $v_\perp$ (p. 13).</li>
+        <li>Achar que $T$ aumenta com $v$ (não depende).</li>
+        <li>Trocar o sentido de giro de cargas positivas e negativas.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="13" l="2">Um elétron e um próton entram, com a <b>mesma velocidade</b>, perpendicularmente ao mesmo campo $\vB$ (entrando na página). (a) Qual é a razão $r_e/r_p$ ($m_p/m_e\approx1836$)? (b) Qual dos dois gira no sentido horário? (c) Dobrando $v$ do próton, o que ocorre com $r$ e com $T$? (d) Íons $^{12}\mathrm{C}^{+}$ e $^{14}\mathrm{C}^{+}$, com mesma velocidade, entram em um espectrômetro: qual a razão $r_{14}/r_{12}$? (e) Um próton, acelerado do repouso por $1,0\un{kV}$, entra perpendicularmente a $B=0,10\un{T}$: calcule $v$ e $r$.</x-exe>
+  <x-ans>E13 (a) $r_e/r_p=m_e/m_p\approx1/1836\approx5,4\tx{-4}$; (b) o elétron (carga negativa); (c) $r$ dobra e $T$ não muda; (d) $r_{14}/r_{12}=14/12\approx1,17$; (e) $v=\sqrt{2\cdot1,6\tx{-19}\cdot1,0\tx{3}/1,67\tx{-27}}=4,4\tx{5}\un{m/s}$; $r=mv/(qB)=4,6\tx{-2}\un{m}$ ($4,6\un{cm}$).</x-ans>
+</x-exs>

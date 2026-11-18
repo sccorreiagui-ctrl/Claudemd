@@ -1,0 +1,54 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>O gráfico de $\Phi\times t$ guarda a FEM: <b>inclinação do fluxo = $-\varepsilon/N$</b>. Reta crescente, $\varepsilon$ negativa e constante; patamar, $\varepsilon=0$; reta decrescente, $\varepsilon$ positiva.</p>
+    <ul class="small">
+      <li><b>Inclinação</b> de $\Phi(t)$ $\to$ valor de $\varepsilon$: $\varepsilon=-N\,\Delta\Phi/\Delta t$.</li>
+      <li><b>Patamar</b> (fluxo constante, mesmo alto) $\to$ $\varepsilon=0$.</li>
+      <li><b>Mudança de sinal</b> da inclinação $\to$ corrente muda de sentido.</li>
+      <li><b>Área</b> sob $\varepsilon(t)$ $\to$ $\int\varepsilon\,\dd t=-N\,\Delta\Phi$ (e a carga total $Q=N|\Delta\Phi|/R$ não depende do tempo).</li>
+    </ul>
+  </div>
+  <div>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Ler o <em>valor</em> de $\Phi$ como se fosse $\varepsilon$: o que vale é a <b>inclinação</b>.</li>
+        <li>Achar que $\varepsilon$ é máxima onde $\Phi$ é máximo: ali a inclinação é <b>zero</b>.</li>
+        <li>Esquecer o fator $N$ e as unidades (mWb $\to$ Wb).</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-fig name="phi_emf_piecewise"><cap>Fluxo por espira (esquerda) e FEM induzida em $N=50$ espiras (direita), para um fluxo que sobe, fica constante e depois desce.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="14" l="2" t="Do gráfico de fluxo à FEM">
+      <p data-k="Situação">O fluxo por espira de uma bobina de $N=50$ espiras varia como no gráfico. Calcule $\varepsilon$ em cada trecho, diga em que instante a corrente muda de sentido e a carga que circula no 1º trecho, com $R=10\,\Omega$.</p>
+      <p data-k="Esquema"><x-ref f="phi_emf_piecewise"></x-ref>: $0$ a $2\un{s}$; $2$ a $5\un{s}$; $5$ a $7\un{s}$.</p>
+      <p data-k="Dados">$\Delta\Phi_1=+8,0\un{mWb}$ em $2,0\un{s}$; $\Delta\Phi_2=0$; $\Delta\Phi_3=-12\un{mWb}$ em $2,0\un{s}$.</p>
+      <p data-k="Fenômeno">FEM média em cada intervalo (fluxo linear por partes).</p>
+      <p data-k="Método">$\varepsilon=-N\Delta\Phi/\Delta t$; $Q=N|\Delta\Phi|/R$.</p>
+      <p data-k="Cálculo">$\varepsilon_1=-50\cdot\dfrac{8,0\tx{-3}}{2,0}$; $\varepsilon_3=-50\cdot\dfrac{-12\tx{-3}}{2,0}$; $Q_1=\dfrac{50\cdot8,0\tx{-3}}{10}$</p>
+      <p data-k="Resultado">$\varepsilon_1=-0,20\un{V}$; $\varepsilon_2=0$; $\varepsilon_3=+0,30\un{V}$. A corrente <b>inverte</b> entre o 1º e o 3º trechos (sinais opostos). $Q_1=4,0\tx{-2}\un{C}$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>$Q_1=I\,\Delta t=(0,20/10)\cdot2,0=4,0\tx{-2}\un{C}$ ✓. O módulo máximo ($0,30\un{V}$) ocorre onde a inclinação é maior (trecho 3).</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-fig name="sin_flux_emf"><cap>Fluxo senoidal (espira que gira): $\varepsilon$ é máxima quando $\Phi$ passa por zero.</cap></x-fig>
+    <x-box k="mem" t="Memorize"><p class="small mb0">Patamar de $\Phi\Rightarrow\varepsilon=0$. Onde $\Phi$ passa por zero com maior inclinação, $|\varepsilon|$ é máxima — é o que ocorre no gerador (p. 24).</p></x-box>
+  </div>
+</div>
+
+<table class="tbl fs76">
+  <tr><th style="width:34%">Se $\Phi(t)$ é…</th><th style="width:33%">então $\varepsilon(t)$ é…</th><th>Exemplo físico</th></tr>
+  <tr><td class="k">reta crescente</td><td>constante e negativa</td><td>ímã que se aproxima com $v$ constante (aprox.)</td></tr>
+  <tr><td class="k">reta decrescente</td><td>constante e positiva</td><td>haste que diminui a área do circuito</td></tr>
+  <tr><td class="k">patamar (constante)</td><td>nula</td><td>ímã parado dentro da bobina</td></tr>
+  <tr><td class="k">$\Phi_{\text{máx}}\cos\omega t$ (cosseno)</td><td>$\varepsilon_{\text{máx}}\sen\omega t$ (defasada de $90^{\circ}$)</td><td>bobina girando em campo uniforme</td></tr>
+</table>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="19" l="2">O fluxo por espira de uma bobina de $20$ espiras cresce linearmente de $0,10\un{Wb}$ a $0,40\un{Wb}$ entre $0$ e $3,0\un{s}$; permanece constante até $5,0\un{s}$; e cai a zero entre $5,0$ e $6,0\un{s}$. (a) Calcule $\varepsilon$ em cada trecho. (b) Em qual trecho $|\varepsilon|$ é máxima? (c) As correntes do 1º e do 3º trechos têm o mesmo sentido?</x-exe>
+  <x-ans>E19 (a) $\varepsilon_1=-20\cdot0,30/3,0=-2,0\un{V}$; $\varepsilon_2=0$; $\varepsilon_3=-20\cdot(-0,40)/1,0=+8,0\un{V}$; (b) no 3º trecho ($8,0\un{V}$); (c) não: os sinais de $\varepsilon$ são opostos.</x-ans>
+</x-exs>

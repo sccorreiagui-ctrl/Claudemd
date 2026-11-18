@@ -1,0 +1,49 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>O fluxo magnético mede <b>quanto campo atravessa</b> uma superfície. Pense nas linhas de campo como chuva e na espira como uma janela: entra mais chuva numa janela grande, de frente para ela; e nenhuma, se a janela estiver paralela à chuva.</p>
+    <p><span class="tag">Desenho</span>Escolha um vetor <b>normal</b> $\vN$ (unitário, perpendicular à superfície). O ângulo que importa é $\theta$ entre $\vB$ e $\vN$ (<x-ref f="flux_geometry"></x-ref>). Em <x-ref f="flux_cases"></x-ref>: $\theta=0^{\circ}$ dá o fluxo máximo; $90^{\circ}$, fluxo nulo; $180^{\circ}$, fluxo negativo (o sinal depende da normal escolhida).</p>
+    <x-fc t="Fluxo magnético" s="campo uniforme, superfície plana" eq="\Phi=B\,A\cos\theta=B_{\perp}A">
+      <p data-k="Variáveis">$\Phi$ em weber ($1\un{Wb}=1\un{T\cdot m^2}=1\un{V\cdot s}$); $B$ em T; $A$ em m$^2$; $\theta$ = ângulo entre $\vB$ e a <b>normal</b> à superfície; $B_\perp=B\cos\theta$.</p>
+      <p data-k="Condições">$\vB$ uniforme sobre a superfície; superfície plana (senão, $\Phi=\int\vB\cdot\dd\vA$). Para $N$ espiras iguais, o fluxo <em>concatenado</em> é $N\Phi$. Em superfície fechada, $\Phi=0$ (sem monopolos).</p>
+      <p data-k="Quando usar">“Fluxo através da espira”, “campo perpendicular/paralelo ao plano”, “espira que gira ou que muda de área”. <b>Atenção:</b> ângulo com o <em>plano</em> $\Rightarrow$ $\theta=90^{\circ}-$ ângulo com o plano.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="flux_geometry"><cap>Fluxo através de uma espira plana: $\theta$ é medido entre $\vB$ e a normal $\vN$.</cap></x-fig>
+    <x-box t="Três maneiras de variar o fluxo">
+      <p class="small mb0"><b>Campo</b> ($B$ aumenta ou diminui) · <b>área</b> ($A$ muda: haste móvel, p. 21) · <b>orientação</b> ($\theta$ muda: espira que gira, p. 24). Qualquer uma induz FEM (p. 17).</p>
+    </x-box>
+  </div>
+</div>
+
+<x-fig name="flux_cases"><cap>Casos extremos (vista lateral da espira): $\vN$ em preto, $\vB$ em azul. O número de linhas que “atravessam” diminui com $\cos\theta$.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="12" l="1" t="Fluxo em uma espira inclinada">
+      <p data-k="Situação">Uma espira retangular de $20\un{cm}\times25\un{cm}$ está em $B=0,40\un{T}$, com o <b>plano</b> da espira formando $30^{\circ}$ com as linhas de campo. Calcule $\Phi$; depois, com o plano perpendicular e com o plano paralelo a $\vB$.</p>
+      <p data-k="Esquema"><x-ref f="flux_cases"></x-ref>: caso intermediário.</p>
+      <p data-k="Dados">$A=0,20\cdot0,25=0,050\un{m^2}$; $B=0,40\un{T}$; ângulo com o plano $=30^{\circ}\Rightarrow\theta=60^{\circ}$ (com a normal).</p>
+      <p data-k="Fenômeno">Fluxo de campo uniforme em superfície plana.</p>
+      <p data-k="Método">$\Phi=BA\cos\theta$, com $\theta$ medido até a <b>normal</b>.</p>
+      <p data-k="Cálculo">$\Phi=0,40\cdot0,050\cdot\cos60^{\circ}$; plano $\perp\vB$: $\theta=0^{\circ}$; plano $\parallel\vB$: $\theta=90^{\circ}$.</p>
+      <p data-k="Resultado">$\Phi=1,0\tx{-2}\un{Wb}$ ($10\un{mWb}$); plano perpendicular: $2,0\tx{-2}\un{Wb}$; plano paralelo: $0$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>$\Phi(60^{\circ})=\Phi_{\text{máx}}/2$, pois $\cos60^{\circ}=0,5$ ✓. Com $\cos30^{\circ}$ (erro) sairia $17\un{mWb}$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-fig name="phi_theta"><cap>$\Phi(\theta)=BA\cos\theta$: o fluxo muda de sinal com a orientação da normal.</cap></x-fig>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Usar o ângulo com o <b>plano</b> em $\cos\theta$ (deve ser com a normal).</li>
+        <li>Esquecer o $N$ em bobinas (fluxo concatenado $N\Phi$).</li>
+        <li>Confundir fluxo (<em>escalar</em>) com campo (vetor); achar que fluxo grande induz FEM: só a <em>variação</em> induz (p. 17).</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de fixação">
+  <x-exe n="17" l="1">(a) Calcule o fluxo através de uma espira circular de raio $10\un{cm}$, perpendicular a $B=0,50\un{T}$. (b) Gira-se a espira até que seu plano forme $60^{\circ}$ com $\vB$: qual o novo fluxo? <b>(Certo/Errado)</b> (c) O fluxo magnético é uma grandeza vetorial. (d) Se o plano da espira é paralelo a $\vB$, o fluxo é nulo.</x-exe>
+  <x-ans>E17 (a) $A=\pi r^2=3,1\tx{-2}\un{m^2}$; $\Phi=0,50\cdot3,1\tx{-2}=1,6\tx{-2}\un{Wb}$; (b) $\theta=30^{\circ}$ com a normal: $\Phi=1,6\tx{-2}\cos30^{\circ}=1,4\tx{-2}\un{Wb}$; (c) Errado (escalar); (d) Certo.</x-ans>
+</x-exs>

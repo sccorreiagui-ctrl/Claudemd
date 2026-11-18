@@ -16,8 +16,8 @@ const out = await page.evaluate((n) => {
     const r = c.getBoundingClientRect();
     const cls = c.className || c.tagName;
     const item = { cls: String(cls).slice(0, 28), top: mm(r.top - y0), h: mm(r.height) };
-    if (/row/.test(cls)) item.cols = [...c.children].map((k) => mm(k.getBoundingClientRect().height));
     rows.push(item);
+    if (/main/.test(cls)) for (const k of c.children) { const kr = k.getBoundingClientRect(); const it = { cls: '  ' + String(k.className || k.tagName).slice(0, 26), top: mm(kr.top - y0), h: mm(kr.height) }; if (/row/.test(k.className)) it.cols = [...k.children].map((q) => mm(q.getBoundingClientRect().height)); rows.push(it); }
   }
   return { avail: mm(body.clientHeight), rows };
 }, n);

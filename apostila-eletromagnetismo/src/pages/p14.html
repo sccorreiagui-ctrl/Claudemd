@@ -1,0 +1,51 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Uma corrente é um enxame de cargas em movimento: um fio com corrente, dentro de um campo magnético, sofre a <b>soma das forças</b> sobre todos os seus portadores. É o princípio dos motores (p. 23).</p>
+    <p><span class="tag">Explicação</span>Num trecho de comprimento $L$ há $N=nAL$ portadores, cada um com $F_1=|q|v_dB\sen\theta$. Como $I=|q|nAv_d$, a força total é $F=N F_1=BIL\sen\theta$.</p>
+    <x-fc t="Força magnética sobre um fio" s="segmento retilíneo" eq="F=B\,I\,L\,\sen\theta ;; \vF=I\,\vL\times\vB">
+      <p data-k="Variáveis">$F$ em N; $B$ em T; $I$ em A; $L$ em m (comprimento <em>dentro</em> do campo); $\theta$ = ângulo entre o fio (sentido de $I$) e $\vB$; $\vL$ aponta no sentido da corrente convencional.</p>
+      <p data-k="Condições">Fio retilíneo em $\vB$ uniforme. Para fio curvo ou campo variável, some $\dd\vF=I\,\dd\vec\ell\times\vB$ ao longo do fio.</p>
+      <p data-k="Quando usar">“Barra/fio/condutor percorrido por corrente em campo magnético.” Máximo para $\theta=90^{\circ}$ ($F=BIL$); nulo se o fio é paralelo a $\vB$.</p>
+    </x-fc>
+    <p class="small"><b>Sentido:</b> as mesmas regras da p. 11, com $I$ (corrente convencional) no lugar de $\vv$: dedos em $\vB$, polegar em $I$, a palma empurra o fio.</p>
+  </div>
+  <div>
+    <x-fig name="wire_poles"><cap>Fio entre os polos de um ímã: $I$ entrando, $\vB$ para a direita $\Rightarrow$ $\vF$ para baixo.</cap></x-fig>
+    <x-fig name="wire_angle"><cap>Fio inclinado de $\theta$ em relação a $\vB$: só a componente perpendicular, $L\,\sen\theta$, conta.</cap></x-fig>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="10" l="2" t="Fio em campo uniforme">
+      <p data-k="Situação">Um trecho retilíneo de $0,40\un{m}$ de um fio conduz $5,0\un{A}$ em um campo uniforme de $0,20\un{T}$. Calcule a força quando o fio forma (a) $30^{\circ}$ e (b) $90^{\circ}$ com $\vB$. (c) Para $I$ entrando e $\vB$ para a direita, qual o sentido de $\vF$?</p>
+      <p data-k="Esquema"><x-ref f="wire_angle"></x-ref> (caso a) e <x-ref f="wire_poles"></x-ref> (caso c).</p>
+      <p data-k="Dados">$L=0,40\un{m}$; $I=5,0\un{A}$; $B=0,20\un{T}$.</p>
+      <p data-k="Fenômeno">Força magnética sobre corrente.</p>
+      <p data-k="Método">$F=BIL\sen\theta$; sentido por $I\,\vL\times\vB$.</p>
+      <p data-k="Cálculo">(a) $F=0,20\cdot5,0\cdot0,40\cdot\sen30^{\circ}$; (b) $F=0,20\cdot5,0\cdot0,40$; (c) $(-\hat z)\times\hat x=-\hat y$.</p>
+      <p data-k="Resultado">(a) $F=0,20\un{N}$ (entrando na página); (b) $F=0,40\un{N}$; (c) para <b>baixo</b>.</p>
+      <p data-k="Verificação"><x-ok></x-ok>$F(30^{\circ})=F(90^{\circ})/2$ ✓. Unidades: $\mathrm{T\cdot A\cdot m}=\mathrm{N}$, pois $1\un{T}=1\un{N/(A\cdot m)}$ ✓. A força é perpendicular ao fio e a $\vB$ ✓.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Medir $\theta$ entre o fio e o <em>plano</em> de $\vB$, ou usar $L$ total quando só parte do fio está no campo.</li>
+        <li>Usar o sentido dos elétrons em vez da corrente convencional (inverte $\vF$).</li>
+        <li>Achar que a força é ao longo do fio: ela é <b>perpendicular</b> ao fio e a $\vB$.</li>
+      </ul>
+    </x-box>
+    <x-box t="Fio curvo em campo uniforme: vale a corda">
+      <x-fig name="wire_arc"></x-fig>
+      <p class="small mb0">A força resultante num fio curvo, com $\vB$ uniforme, é a de um fio <b>reto</b> que liga as extremidades, com a mesma corrente: $F=BI\,\ell_{\text{corda}}$. Para o semicírculo, $\ell_{\text{corda}}=2R$.</p>
+    </x-box>
+    <x-box k="mem" t="Memorize"><p class="small mb0">Mesma regra da carga com $\vv\to I$: $\vF=I\,\vL\times\vB$. O módulo cai de $BIL$ para $0$ conforme o fio se alinha a $\vB$.</p></x-box>
+    <x-box t="Ponte para os motores"><p class="small mb0">Duas forças opostas em lados opostos de uma espira formam um <b>binário</b> (torque) que a faz girar — é o motor elétrico (p. 23).</p></x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="15" l="2">Um fio horizontal de $20\un{cm}$ e massa $10\un{g}$ está em um campo horizontal de $0,50\un{T}$, perpendicular ao fio, apontando para a <b>direita</b>. (a) Qual deve ser a corrente para que a força magnética equilibre o peso do fio? (b) Qual o sentido da corrente (entrando ou saindo da página)? (c) Um fio em semicírculo de raio $10\un{cm}$, com $3,0\un{A}$, está em $\vB$ de $0,20\un{T}$ perpendicular ao seu plano: qual a força resultante? Use $g=10\un{m/s^2}$.</x-exe>
+  <x-ans>E15 (a) $BIL=mg\Rightarrow I=0,010\cdot10/(0,50\cdot0,20)=1,0\un{A}$; (b) $\vF$ para cima: $\vL\times\hat x=+\hat y\Rightarrow\vL=+\hat z$: corrente <b>saindo</b> da página ($\odot$); (c) pela corda: $F=BI(2R)=0,20\cdot3,0\cdot0,20=0,12\un{N}$.</x-ans>
+</x-exs>

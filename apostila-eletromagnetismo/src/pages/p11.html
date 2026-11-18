@@ -1,0 +1,60 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>O módulo vem de $|q|vB\sen\theta$; a <b>orientação</b> vem do <b>produto vetorial</b>: $\vF$ é perpendicular a $\vv$ <em>e</em> a $\vB$, e o sentido depende do sinal de $q$.</p>
+    <x-fc t="Força magnética em forma vetorial" s="vetor" eq="\vF=q\,(\vv\times\vB)">
+      <p data-k="Variáveis">$|\vv\times\vB|=vB\sen\theta$; direção ⟂ ao plano de $\vv$ e $\vB$; sentido: mão direita.</p>
+      <p data-k="Condições">As da p. 10, com $q$ <b>com sinal</b>. Se $\vv\parallel\vB$, $\vv\times\vB=\vec0$.</p>
+      <p data-k="Como usar">Ache o sentido de $\vv\times\vB$: $\vF$ tem esse sentido se $q>0$ e o oposto se $q<0$. O <b>módulo</b> sai da p. 10.</p>
+    </x-fc>
+    <h2>Três regras equivalentes (para $q>0$)</h2>
+    <table class="tbl fs70">
+      <tr><th style="width:24%">Regra</th><th>Como fazer</th></tr>
+      <tr><td class="k">Mão direita (produto vetorial)</td><td>dedos em $\vv$, curvando-se para $\vB$ (menor ângulo); o <b>polegar</b> dá $\vv\times\vB$ ($=\vF$ se $q>0$)</td></tr>
+      <tr><td class="k">Regra do tapa</td><td>dedos esticados em $\vB$; polegar em $\vv$; a <b>palma</b> “empurra” no sentido de $\vF$ (para $q<0$, as costas da mão)</td></tr>
+      <tr><td class="k">Mão esquerda (Boaro)</td><td>polegar = $\vF$, indicador = $\vB$, médio = $\vv$ — “<b>F</b>aça um <b>B</b>om <b>V</b>estibular”; inverta $\vF$ se $q<0$</td></tr>
+    </table>
+  </div>
+  <div>
+    <x-fig name="rule_triad"><cap>Regra da mão direita para a força: $\vv$ (ciano) varre até $\vB$ (azul); o polegar dá $\vv\times\vB$ (verde).</cap></x-fig>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li><b>Trocar de mão</b> no meio do problema, ou usar a regra da p. 4 (fonte → campo) aqui.</li>
+        <li>Esquecer de <b>inverter</b> $\vF$ para carga negativa.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-fig name="four_cases"><cap>Mesma velocidade ($\vv$ para a direita), quatro situações: $\vF$ inverte com o sinal de $q$ e com o sentido de $\vB$.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="7" l="2" t="Direção e sentido da força">
+      <p data-k="Situação">Um próton move-se para a direita a $1,0\tx{6}\un{m/s}$ em $\vB$ de $0,20\un{T}$ <b>entrando</b> na página. Ache $\vF$; repita para um elétron e para o próton com $\vB$ saindo.</p>
+      <p data-k="Esquema"><x-ref f="four_cases"></x-ref> (painéis 1, 3 e 2).</p>
+      <p data-k="Dados">$|q|=1,6\tx{-19}\un{C}$; $v=1,0\tx{6}\un{m/s}$; $B=0,20\un{T}$; $\theta=90^{\circ}$.</p>
+      <p data-k="Fenômeno">Força de Lorentz magnética (forma vetorial).</p>
+      <p data-k="Método">$\vF=q\,\vv\times\vB$; módulo $|q|vB$ ($\sen90^{\circ}=1$).</p>
+      <p data-k="Cálculo">$\hat x$ direita, $\hat y$ cima, $\hat z$ saindo: $\vv\times\vB=\hat x\times(-\hat z)=+\hat y$. $|F|=1,6\tx{-19}\cdot1,0\tx{6}\cdot0,20$.</p>
+      <p data-k="Resultado">Próton: $F=3,2\tx{-14}\un{N}$, para <b>cima</b>. Elétron: mesmo módulo, para <b>baixo</b>. Próton com $\vB$ saindo: para <b>baixo</b>.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Regra do tapa: dedos em $\vB$ (entrando), polegar em $\vv$ (direita): palma para cima ✓; $\vF\perp\vv$ e $\vF\perp\vB$ ✓.</p>
+    </x-ex>
+  </div>
+  <div>
+    <h2>1ª regra × regra da força</h2>
+    <table class="tbl fs70">
+      <tr><th style="width:21%"> </th><th>1ª regra (envolvente)</th><th>Regra da força</th></tr>
+      <tr><td class="k">Pergunta</td><td>qual o sentido de $\vB$ criado por uma corrente?</td><td>qual o sentido da força de $\vB$ sobre $q$ ou $I$?</td></tr>
+      <tr><td class="k">Entrada</td><td>corrente $I$ (polegar)</td><td>$\vv$ (ou $I$) e $\vB$</td></tr>
+      <tr><td class="k">Saída</td><td>$\vB$ <b>tangente</b> a círculos (dedos)</td><td>$\vF$ <b>perpendicular</b> a $\vv$ e $\vB$</td></tr>
+      <tr><td class="k">Onde aparece</td><td>fios, espiras, solenoides</td><td>cargas, fios em campo, motores</td></tr>
+    </table>
+    <x-box k="mem" t="Memorize"><p class="small mb0">Carga <b>positiva</b>: $\vF\parallel\vv\times\vB$. Carga <b>negativa</b>: $\vF$ oposta. Trocando o sinal de $q$ <em>ou</em> o sentido de $\vB$, $\vF$ inverte; trocando os dois, volta ao mesmo.</p></x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="12" l="2">Dê o sentido de $\vF$ em cada painel (carga em vermelho; $\vv$ em ciano; $\vB$ em azul). As cargas dos painéis (b), (d) e (f) são <b>negativas</b>; as demais, positivas.</x-exe>
+  <x-fig name="force_drill"></x-fig>
+  <x-ans>E12 (a) saindo ($\odot$); (b) saindo ($\odot$); (c) para cima; (d) para baixo; (e) para a direita; (f) para a esquerda.</x-ans>
+</x-exs>

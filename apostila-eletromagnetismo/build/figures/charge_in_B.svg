@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 150" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><line x1="16" y1="110" x2="314.93" y2="110" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1.0"/>
+<path d="M320 110 L313.5 112.73 L314.93 110 L313.5 107.27 Z" fill="#2563C9" fill-opacity="1.0" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="16" y1="70" x2="314.93" y2="70" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M320 70 L313.5 72.73 L314.93 70 L313.5 67.27 Z" fill="#2563C9" fill-opacity="0.55" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="16" y1="30" x2="314.93" y2="30" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.55"/>
+<path d="M320 30 L313.5 32.73 L314.93 30 L313.5 27.27 Z" fill="#2563C9" fill-opacity="0.55" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="308.31" y="90.25" width="11.38" height="17.25" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="310.11" y="104" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12.5" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M311.05 92.38 L317.5 92.38 M315 90.88 L317.5 92.38 L315 93.88" fill="none" stroke="#1B4DA6" stroke-width="0.88" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="86" y1="110" x2="159.54" y2="110" fill="none" stroke="#0E9FBC" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<line x1="159.54" y1="110" x2="159.54" y2="48.29" fill="none" stroke="#0E9FBC" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<line x1="86" y1="110" x2="154.16" y2="52.8" fill="none" stroke="#0E9FBC" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M159.54 48.29 L155.08 56.97 L154.16 52.8 L150.22 51.18 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="164.55" y="32.54" width="9.99" height="17.25" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="166.35" y="46.29" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12.5" font-style="italic" fill="#0A748A" text-anchor="start">v</text>
+<path d="M167.11 34.67 L172.41 34.67 M169.91 33.17 L172.41 34.67 L169.91 36.17" fill="none" stroke="#0A748A" stroke-width="0.88" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="122.77" y="123" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#0A748A" text-anchor="middle">v cos θ  (∥ B)</text>
+<text x="167.54" y="93.15" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#0A748A" text-anchor="start">v sen θ (⟂ B)</text>
+<path d="M 122.0 110.0 A 36 36 0 0 0 113.58 86.86" fill="none" stroke="#5C6573" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="134" y="103" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#5C6573" text-anchor="middle">θ</text>
+<circle cx="86" cy="110" r="7.5" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="82.25" y1="110" x2="89.75" y2="110" fill="none" stroke="#C8302F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="86" y1="106.25" x2="86" y2="113.75" fill="none" stroke="#C8302F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="48" cy="72" r="8.5" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="43.91" y1="67.91" x2="52.09" y2="76.09" fill="none" stroke="#1B8F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="43.91" y1="76.09" x2="52.09" y2="67.91" fill="none" stroke="#1B8F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="26.43" y="74" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12.5" font-style="italic" fill="#14703A" text-anchor="start">F</text>
+<path d="M27.28 62.38 L33.22 62.38 M30.72 60.88 L33.22 62.38 L30.72 63.88" fill="none" stroke="#14703A" stroke-width="0.88" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="8" y="15" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#14703A" text-anchor="start">F = |q| v B sen θ</text>
+<text x="8" y="27" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#14703A" text-anchor="start">F ⟂ v e F ⟂ B</text></svg>

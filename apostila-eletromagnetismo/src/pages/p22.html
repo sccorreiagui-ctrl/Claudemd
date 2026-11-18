@@ -1,0 +1,52 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Na rampa, a gravidade acelera a haste e a força magnética freia: a velocidade cresce até um <b>valor terminal</b>, em que as componentes ao longo da rampa se equilibram. O problema reúne <b>Faraday, Lenz, Ohm e Mecânica</b>.</p>
+    <x-box k="warn" t="Geometria primeiro">
+      <p class="small mb0"><b>$F=BIL$ é o módulo da força, não a componente ao longo da rampa.</b> Com $\vB$ vertical, a força é <em>horizontal</em> e só $F\cos\alpha$ age ao longo da rampa. Em $\varepsilon=BLv$, só a componente de $\vB$ <em>perpendicular ao plano da rampa</em> conta ($B\cos\alpha$).</p>
+    </x-box>
+    <h2>Método (da geometria à equação)</h2>
+    <ol class="small">
+      <li>Desenhe vista lateral e vista de cima: $\alpha$, $\vB$, $\vv$, $I$.</li>
+      <li>Componente de $\vB$ normal à rampa: $B_\perp=B\cos\alpha$ (se $\vB$ vertical) ou $B_\perp=B$ (se $\vB\perp$ rampa).</li>
+      <li>$\varepsilon=B_\perp Lv$; $I=\varepsilon/R$; sentido por Lenz ou $\vv\times\vB$.</li>
+      <li>Força: $F=BIL$ (haste $\perp\vB$); direção por $I\vL\times\vB$; <b>projete</b> ao longo da rampa.</li>
+      <li>Equilíbrio: componente de $F$ ao longo da rampa $=mg\sen\alpha$.</li>
+      <li>Confira a energia: $mg\,v\sen\alpha=I^{2}R$.</li>
+    </ol>
+    <table class="tbl fs70">
+      <tr><th style="width:30%"> </th><th>$\vB$ vertical</th><th>$\vB\perp$ rampa</th></tr>
+      <tr><td class="k">FEM</td><td>$BLv\cos\alpha$</td><td>$BLv$</td></tr>
+      <tr><td class="k">$F$ ao longo da rampa</td><td>$BIL\cos\alpha$</td><td>$BIL$</td></tr>
+      <tr><td class="k">$v_{term}$</td><td>$\dfrac{mgR\sen\alpha}{B^{2}L^{2}\cos^{2}\alpha}$</td><td>$\dfrac{mgR\sen\alpha}{B^{2}L^{2}}$</td></tr>
+      <tr><td class="k">$\tau$ (constante de tempo)</td><td>$\dfrac{mR}{B^{2}L^{2}\cos^{2}\alpha}$</td><td>$\dfrac{mR}{B^{2}L^{2}}$</td></tr>
+    </table>
+  </div>
+  <div>
+    <x-fig name="incline_side"><cap>Vista lateral (haste em corte, $I$ entrando): $\vP$, $\vN$ e $\vF_{mag}$ horizontal, com as componentes ao longo da rampa.</cap></x-fig>
+    <x-fig name="incline_top"><cap>Vista de cima: $\vB$ vertical (saindo da página); a haste desce, a área cresce, corrente horária.</cap></x-fig>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="18" l="3" t="Haste em plano inclinado com B vertical">
+      <p data-k="Situação">Uma haste de $m=0,10\un{kg}$ e $L=1,00\un{m}$ desliza sem atrito sobre trilhos inclinados de $\alpha=37^{\circ}$, ligados por um resistor, de modo que a resistência total é $R=1,0\,\Omega$. O campo $B=1,25\un{T}$ é <b>vertical</b>. Calcule a velocidade terminal e a corrente.</p>
+      <p data-k="Esquema"><x-ref f="incline_side"></x-ref> e <x-ref f="incline_top"></x-ref>. Use $\sen37^{\circ}=0,6$; $\cos37^{\circ}=0,8$; $g=10\un{m/s^2}$.</p>
+      <p data-k="Dados">$m=0,10\un{kg}$; $L=1,00\un{m}$; $R=1,0\,\Omega$; $B=1,25\un{T}$; $\alpha=37^{\circ}$.</p>
+      <p data-k="Fenômeno">Indução (área cresce) + equilíbrio dinâmico (velocidade terminal).</p>
+      <p data-k="Método">$\varepsilon=BLv\cos\alpha$; $F=BIL$ (horizontal); $F\cos\alpha=mg\sen\alpha$.</p>
+      <p data-k="Cálculo">$I=\dfrac{BLv\cos\alpha}{R}$; $\dfrac{B^{2}L^{2}v\cos^{2}\alpha}{R}=mg\sen\alpha\Rightarrow v=\dfrac{0,10\cdot10\cdot1,0\cdot0,6}{1,5625\cdot1,0\cdot0,64}$</p>
+      <p data-k="Resultado">$v_{term}=0,60\un{m/s}$; $\varepsilon=0,60\un{V}$; $I=0,60\un{A}$ (horária, vista de cima); $F=0,75\un{N}$ (horizontal), $F\cos\alpha=0,60\un{N}=mg\sen\alpha$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Energia: $mgv\sen\alpha=0,10\cdot10\cdot0,60\cdot0,6=0,36\un{W}=I^{2}R=0,36\un{W}$ ✓. Direção: $F\perp\vL$ e $F\perp\vB$ ✓; $N=mg\cos\alpha+F\sen\alpha=1,25\un{N}$.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-fig name="v_terminal"><cap>$v(t)=v_{term}\,(1-e^{-t/\tau})$ com $\tau=0,10\un{s}$ (solução da equação do movimento, conferida numericamente).</cap></x-fig>
+    <x-box k="mem" t="Memorize"><p class="small mb0">O que freia não é “$BIL$”, é a componente de $BIL$ <b>ao longo do movimento</b>. Com $\vB$ vertical, aparecem $\cos\alpha$ na FEM <em>e</em> na projeção da força: $\cos^{2}\alpha$ no denominador.</p></x-box>
+  </div>
+</div>
+
+<x-exs t="Exercício integrador — nível avançado">
+  <x-exe n="22" l="3">Repita o Exemplo 18 com o campo de mesmo módulo, mas <b>perpendicular ao plano da rampa</b>. (a) Qual a velocidade terminal? (b) Qual a corrente? (c) Por que a velocidade terminal é menor que a do exemplo?</x-exe>
+  <x-ans>E22 (a) $\varepsilon=BLv$, $F=BIL$ ao longo da rampa: $v=\dfrac{mgR\sen\alpha}{B^2L^2}=\dfrac{0,60}{1,5625}=0,38\un{m/s}$; (b) $I=mg\sen\alpha/(BL)=0,48\un{A}$; (c) $B_\perp$ é maior ($B$ em vez de $B\cos\alpha$), a frenagem é mais forte: $v_{term}$ cai por $\cos^{2}\alpha=0,64$.</x-ans>
+</x-exs>

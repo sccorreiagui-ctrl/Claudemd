@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 140" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><g>
+<rect x="62" y="44" width="42" height="28" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="20" y="44" width="42" height="28" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="83" y="62.42" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="41" y="62.42" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="13" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<line x1="34" y1="32" x2="85.37" y2="32" fill="none" stroke="#0E9FBC" stroke-width="2.4" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M92 32 L83.5 35.57 L85.37 32 L83.5 28.43 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="60.06" y="25" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#0A748A" text-anchor="start">v</text>
+<path d="M60.77 14.3 L65.64 14.3 M63.34 12.93 L65.64 14.3 L63.34 15.68" fill="none" stroke="#0A748A" stroke-width="0.81" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="196" cy="58" rx="6.5" ry="30" fill="none" stroke="#E8710A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="207" cy="58" rx="6.5" ry="30" fill="none" stroke="#E8710A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="218" cy="58" rx="6.5" ry="30" fill="none" stroke="#E8710A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="229" cy="58" rx="6.5" ry="30" fill="none" stroke="#E8710A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="240" cy="58" rx="6.5" ry="30" fill="none" stroke="#E8710A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="251" cy="58" rx="6.5" ry="30" fill="none" stroke="#E8710A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="110" y1="44" x2="186.93" y2="44" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.75"/>
+<path d="M192 44 L185.5 46.73 L186.93 44 L185.5 41.27 Z" fill="#2563C9" fill-opacity="0.75" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="262" y1="44" x2="286.93" y2="44" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.75"/>
+<path d="M292 44 L285.5 46.73 L286.93 44 L285.5 41.27 Z" fill="#2563C9" fill-opacity="0.75" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="110" y1="58" x2="186.93" y2="58" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.75"/>
+<path d="M192 58 L185.5 60.73 L186.93 58 L185.5 55.27 Z" fill="#2563C9" fill-opacity="0.75" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="262" y1="58" x2="286.93" y2="58" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.75"/>
+<path d="M292 58 L285.5 60.73 L286.93 58 L285.5 55.27 Z" fill="#2563C9" fill-opacity="0.75" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="110" y1="72" x2="186.93" y2="72" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.75"/>
+<path d="M192 72 L185.5 74.73 L186.93 72 L185.5 69.27 Z" fill="#2563C9" fill-opacity="0.75" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="262" y1="72" x2="286.93" y2="72" fill="none" stroke="#2563C9" stroke-width="1.3" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.75"/>
+<path d="M292 72 L285.5 74.73 L286.93 72 L285.5 69.27 Z" fill="#2563C9" fill-opacity="0.75" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="294.47" y="34.8" width="11.06" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="296.27" y="48" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M297.16 36.84 L303.36 36.84 M300.96 35.4 L303.36 36.84 L300.96 38.28" fill="none" stroke="#1B4DA6" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="232" cy="124" r="11" fill="#FFFFFF" stroke="#1A2230" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="232" y="128" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#1A2230" text-anchor="middle">V</text>
+<path d="M196 88 L196 124 L221 124" fill="none" stroke="#1A2230" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M251 88 L251 124 L243 124" fill="none" stroke="#1A2230" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252" y="128" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#672DAE" text-anchor="start">ε induzida</text>
+<text x="224" y="14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#A94E00" text-anchor="middle">N espiras</text>
+<line x1="190" y1="22" x2="257" y2="22" fill="none" stroke="#E8710A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="8" y="98" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#1A2230" text-anchor="start">ΔΦ/Δt: variação do fluxo</text>
+<text x="8" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#1A2230" text-anchor="start">em cada espira</text>
+<text x="8" y="128" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#672DAE" text-anchor="start">ε = − N ΔΦ/Δt</text></svg>

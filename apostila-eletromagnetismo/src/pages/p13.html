@@ -1,0 +1,54 @@
+<p><span class="tag">Intuição</span>A trajetória depende do ângulo $\theta$ entre $\vv$ e $\vB$. Decomponha a velocidade: $v_\parallel=v\cos\theta$ (ao longo de $\vB$) não sofre força; $v_\perp=v\,\sen\theta$ (perpendicular a $\vB$) gira em círculo. A soma dos dois movimentos é uma <b>hélice</b>.</p>
+
+<x-fig name="trajectories"><cap>Três casos em campo uniforme (projeção oblíqua; $\vB$ para a direita). Em todos os pontos, $\vF\perp\vv$ e $\vF\perp\vB$.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-fc t="Movimento helicoidal" s="$\vB$ uniforme" eq="r=\dfrac{m\,v_{\perp}}{|q|\,B}=\dfrac{m\,v\,\sen\theta}{|q|\,B} ;; T=\dfrac{2\pi\,m}{|q|\,B}\qquad p=v_{\parallel}\,T=\dfrac{2\pi\,m\,v\cos\theta}{|q|\,B}">
+      <p data-k="Variáveis">$v_\perp=v\sen\theta$ e $v_\parallel=v\cos\theta$; $r$ = raio da hélice; $T$ = tempo de uma volta; $p$ = <b>passo</b> (avanço ao longo de $\vB$ em um período).</p>
+      <p data-k="Condições">Campo uniforme; $v\ll c$; sem outras forças. $r$ usa só $v_\perp$; $T$ <b>não depende</b> de $\theta$.</p>
+      <p data-k="Casos">$\theta=0^{\circ}$ ou $180^{\circ}$: reta ($r=0$). $\theta=90^{\circ}$: círculo ($p=0$). Caso geral: hélice.</p>
+    </x-fc>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Usar $v$ total (e não $v_\perp$) no raio da hélice.</li>
+        <li>Achar que o período depende do ângulo ou da velocidade.</li>
+        <li>Dizer que o campo “acelera” a partícula: ele só a <em>desvia</em>.</li>
+      </ul>
+    </x-box>
+  </div>
+  <div>
+    <x-box t="Por que o trabalho é nulo">
+      <p class="small mb1">$W=\displaystyle\int\vF\cdot\dd\vec r=\int(\vF\cdot\vv)\,\dd t=0$, pois $\vF\perp\vv$. Logo $K=\tfrac12mv^{2}$ e $|\vv|$ <b>não mudam</b>: só a direção muda.</p>
+      <p class="small mb0">Vale para a força magnética sobre uma <b>carga pontual</b>. Em motores, a energia mecânica vem da fonte elétrica; a força magnética apenas <em>transfere</em> energia (p. 23).</p>
+    </x-box>
+    <x-box k="hist" t="Aplicação: auroras">
+      <p class="small mb0">Partículas carregadas do vento solar descrevem hélices em torno das linhas do campo geomagnético e são guiadas aos polos, onde $B$ é maior e o raio ($r\propto1/B$) menor. Ao colidirem com átomos da alta atmosfera, excitam-nos e produzem a luz das auroras.</p>
+    </x-box>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="9" l="3" t="Elétron em hélice">
+      <p data-k="Situação">Um elétron entra em $B=2,0\tx{-3}\un{T}$ com $3,0\tx{6}\un{m/s}$, formando $60^{\circ}$ com $\vB$. Calcule $v_\parallel$, $v_\perp$, o raio, o período e o passo da hélice.</p>
+      <p data-k="Esquema"><x-ref f="trajectories"></x-ref>, painel da hélice ($\vB$ para a direita).</p>
+      <p data-k="Dados">$m=9,11\tx{-31}\un{kg}$; $|q|=1,6\tx{-19}\un{C}$; $\sen60^{\circ}=0,87$; $\cos60^{\circ}=0,50$.</p>
+      <p data-k="Fenômeno">MRU ao longo de $\vB$ + MCU no plano perpendicular.</p>
+      <p data-k="Método">$r=mv_\perp/(|q|B)$; $T=2\pi m/(|q|B)$; $p=v_\parallel T$.</p>
+      <p data-k="Cálculo">$v_\perp=3,0\tx{6}\cdot0,87=2,6\tx{6}$; $v_\parallel=1,5\tx{6}\un{m/s}$. $r=\dfrac{9,11\tx{-31}\cdot2,6\tx{6}}{1,6\tx{-19}\cdot2,0\tx{-3}}$; $T=\dfrac{2\pi\cdot9,11\tx{-31}}{1,6\tx{-19}\cdot2,0\tx{-3}}$</p>
+      <p data-k="Resultado">$r=7,4\tx{-3}\un{m}$ ($7,4\un{mm}$); $T=1,8\tx{-8}\un{s}$; $p=1,5\tx{6}\cdot1,8\tx{-8}=2,7\tx{-2}\un{m}$ ($2,7\un{cm}$).</p>
+      <p data-k="Verificação"><x-ok></x-ok>$v_\perp^2+v_\parallel^2=(2,6^2+1,5^2)\tx{12}=9,0\tx{12}=v^2$ ✓. Também $p=2\pi r\,v_\parallel/v_\perp=2,7\tx{-2}\un{m}$ ✓. A energia cinética não mudou.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="mem" t="Memorize">
+      <p class="small mb0"><b>Paralelo</b> a $\vB$: reta (MRU). <b>Perpendicular</b>: círculo (MCU). <b>Oblíquo</b>: hélice. $v_\parallel$ define o passo; $v_\perp$ define o raio. $T$ depende só de $m$, $|q|$ e $B$.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação — nível avançado">
+  <x-exe n="14" l="3"><b>(Certo/Errado)</b> (a) Uma partícula lançada paralelamente a $\vB$ mantém movimento retilíneo uniforme. (b) A força magnética pode aumentar a energia cinética de uma partícula livre. (c) Na hélice, o período depende de $v_\parallel$. (d) Aumentando $B$, o raio da hélice diminui. (e) Um próton com $2,0\tx{5}\un{m/s}$ forma $30^{\circ}$ com $B=0,10\un{T}$: calcule o raio e o passo.</x-exe>
+  <x-ans>E14 (a) Certo; (b) Errado ($W=0$); (c) Errado; (d) Certo ($r\propto1/B$); (e) $r=\dfrac{1,67\tx{-27}\cdot2,0\tx{5}\cdot0,50}{1,6\tx{-19}\cdot0,10}\approx1,0\un{cm}$; $T=6,6\tx{-7}\un{s}$; $p=2,0\tx{5}\cdot0,87\cdot6,6\tx{-7}\approx11\un{cm}$.</x-ans>
+</x-exs>

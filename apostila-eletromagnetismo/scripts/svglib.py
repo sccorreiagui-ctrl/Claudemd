@@ -134,6 +134,19 @@ class Cam:
         return self.rot(p)[2]
 
 
+class Obl:
+    """Projeção oblíqua (cavalier/cabinet): x horizontal exato, y vertical exato, z (para o leitor) desenhado para baixo e à esquerda."""
+    def __init__(self, k=0.7, phi=24, scale=1.0, ox=0, oy=0):
+        self.k, self.phi, self.s, self.ox, self.oy = k, math.radians(phi), scale, ox, oy
+
+    def P(self, p):
+        x, y, z = p
+        return (self.ox + self.s * (x - self.k * z * math.cos(self.phi)), self.oy - self.s * (y - self.k * z * math.sin(self.phi)))
+
+    def depth(self, p):
+        return p[2]
+
+
 # ----------------------------------------------------------------------------------- SVG
 class Svg:
     def __init__(self, w, h, name=None):

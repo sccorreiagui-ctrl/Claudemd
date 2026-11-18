@@ -1,0 +1,56 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Uma haste condutora desliza sobre trilhos em um campo $\vB$: a <b>área</b> do circuito cresce e o fluxo varia. Ao empurrá-la, você sente uma força contrária ao movimento — o preço, em trabalho mecânico, da energia elétrica gerada.</p>
+    <p><span class="tag">Explicação</span>Duas leituras do mesmo fato. <b>Faraday:</b> $\Phi=BLx$ e $\dd x/\dd t=v$ dão $|\varepsilon|=d\Phi/dt=BLv$. <b>Lorentz:</b> os elétrons livres da haste, arrastados com velocidade $\vv$, sofrem $q\,\vv\times\vB$ ao longo da haste; o acúmulo de cargas cria um campo $E=vB$ e uma diferença de potencial $EL=BLv$. O sentido da corrente sai de $\vv\times\vB$ (ou de Lenz).</p>
+    <x-fc t="FEM de movimento (haste em trilhos)" s="geometria perpendicular" eq="|\varepsilon|=B\,L\,v ;; I=\dfrac{BLv}{R}\qquad F_{mag}=BIL=\dfrac{B^{2}L^{2}v}{R}\qquad P=F\,v=\varepsilon I=I^{2}R">
+      <p data-k="Variáveis">$L$ = comprimento da haste entre os trilhos (m); $v$ em m/s; $B$ em T; $R$ = resistência total do circuito (Ω); $F_{mag}$ em N (sempre <b>contra</b> $\vv$); $P$ em W.</p>
+      <p data-k="Condições">$\vB$ uniforme, <b>perpendicular ao plano</b> dos trilhos; haste perpendicular aos trilhos; $\vv$ ao longo dos trilhos. Ou seja, $\vL$, $\vv$ e $\vB$ <b>mutuamente perpendiculares</b>. Em geral, $\varepsilon=(\vv\times\vB)\cdot\vL$.</p>
+      <p data-k="Quando usar">“Haste/barra/fio deslizando em trilhos”, “condutor em movimento no campo”, “força necessária para manter $v$ constante”.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="moving_rod"><cap>Haste móvel: $\vB$ entrando, $\vv$ para a direita, corrente anti-horária e força magnética $\vF_{mag}$ freando a haste.</cap></x-fig>
+    <x-box k="warn" t="Antes de usar $B\,L\,v$: confira a geometria">
+      <ul class="small mb0">
+        <li>$\vB$ perpendicular ao plano do circuito? Se $\vB$ faz $\varphi$ com a <b>normal</b>, só conta $B\cos\varphi$: $\varepsilon=BLv\cos\varphi$.</li>
+        <li>Haste perpendicular a $\vv$? Se não, use a componente de $\vL$ perpendicular a $\vv$.</li>
+        <li>$v$ é a velocidade <b>da haste em relação ao campo</b>.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="17" l="2" t="Haste em trilhos com resistor">
+      <p data-k="Situação">Uma haste de $L=0,40\un{m}$ desliza com $v=3,0\un{m/s}$ sobre trilhos ligados a um resistor, em $B=0,50\un{T}$ (entrando na página). A resistência total é $R=2,0\,\Omega$. Calcule $\varepsilon$, $I$, a força magnética, a potência e o sentido da corrente.</p>
+      <p data-k="Esquema"><x-ref f="moving_rod"></x-ref>.</p>
+      <p data-k="Dados">$B=0,50\un{T}$; $L=0,40\un{m}$; $v=3,0\un{m/s}$; $R=2,0\,\Omega$; $\vL\perp\vv\perp\vB$.</p>
+      <p data-k="Fenômeno">FEM de movimento: o fluxo cresce com a área.</p>
+      <p data-k="Método">$\varepsilon=BLv$; $I=\varepsilon/R$; $F=BIL$; $P=Fv$; Lenz/$\vv\times\vB$.</p>
+      <p data-k="Cálculo">$\varepsilon=0,50\cdot0,40\cdot3,0$; $I=0,60/2,0$; $F=0,50\cdot0,30\cdot0,40$; $P=0,060\cdot3,0$. $\vv\times\vB=\hat x\times(-\hat z)=+\hat y$: corrente <em>sobe</em> na haste.</p>
+      <p data-k="Resultado">$\varepsilon=0,60\un{V}$; $I=0,30\un{A}$ (anti-horária); $F=0,060\un{N}$ (contra $\vv$); $P=0,18\un{W}$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>$\varepsilon I=0,60\cdot0,30=0,18\un{W}$ e $I^2R=0,09\cdot2,0=0,18\un{W}$ ✓: toda a potência mecânica vira calor. Lenz: $\vB$ entrando e a área crescendo $\Rightarrow$ campo induzido saindo $\Rightarrow$ anti-horário ✓.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="mem" t="Memorize">
+      <p class="small mb0">$\varepsilon=BLv$ · $I=\varepsilon/R$ · $F=B^{2}L^{2}v/R$ (cresce com $v$: freia mais rápido que se move) · $P_{mec}=P_{elétrica}$. Dobrar $v$: $\varepsilon\times2$, $F\times2$, $P\times4$.</p>
+    </x-box>
+    <x-box t="Energia: de onde vem a corrente?">
+      <p class="small mb0">Sem agente externo, a haste desacelera até parar: sua energia cinética vira calor em $R$. Para manter $v$ constante, o agente externo precisa fazer $F_{ext}=F_{mag}$ e fornecer $P=F_{ext}v$.</p>
+    </x-box>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Aplicar $BLv$ sem checar os ângulos.</li>
+        <li>Esquecer que $F_{mag}$ <b>freia</b> a haste.</li>
+        <li>Usar a resistência só do resistor, ignorando a da haste/trilhos (quando dada).</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="21" l="2">Uma haste de $0,80\un{m}$ é mantida com velocidade constante de $2,0\un{m/s}$ em trilhos, em $B=0,25\un{T}$ perpendicular ao plano; $R=4,0\,\Omega$. (a) $\varepsilon$; (b) $I$; (c) a força externa necessária; (d) a potência mecânica fornecida; (e) compare com $I^2R$. (f) Se $v$ for dobrada, o que ocorre com $F$ e com $P$?</x-exe>
+  <x-ans>E21 (a) $0,25\cdot0,80\cdot2,0=0,40\un{V}$; (b) $0,10\un{A}$; (c) $F=BIL=0,25\cdot0,10\cdot0,80=0,020\un{N}$; (d) $P=Fv=0,040\un{W}$; (e) $I^2R=0,010\cdot4,0=0,040\un{W}$ (iguais); (f) $F\times2$ e $P\times4$.</x-ans>
+</x-exs>

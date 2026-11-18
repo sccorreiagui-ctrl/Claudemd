@@ -1,0 +1,56 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Uma carga <em>parada</em> não sente força magnética. Uma carga <em>em movimento</em> sente — e a força é sempre <b>perpendicular à velocidade</b>: ela curva a trajetória, mas não acelera nem freia a partícula.</p>
+    <p><span class="tag">Fenômeno</span>Aproximando um ímã do feixe de elétrons de um tubo de imagem antigo, o feixe se desvia. O desvio é nulo se o feixe andar <em>ao longo</em> das linhas de campo e máximo se andar <em>perpendicularmente</em> a elas (<x-ref f="F_vs_theta"></x-ref>). Para elétrons ($q<0$) com $\vB$ entrando na página, o feixe curva para baixo (<x-ref f="electron_beam"></x-ref>).</p>
+    <x-fig name="electron_beam"><cap>Feixe de elétrons em um campo $\vB$ entrando na página: a trajetória curva para baixo e o ponto na tela se desloca.</cap></x-fig>
+    <x-fc t="Força magnética sobre uma carga" s="módulo" eq="F=|q|\,v\,B\,\sen\theta">
+      <p data-k="Variáveis">$F$ em newton (N); $q$ em coulomb (C); $v$ em m/s; $B$ em tesla (T); $\theta$ = ângulo entre $\vv$ e $\vB$ ($0^{\circ}\le\theta\le180^{\circ}$).</p>
+      <p data-k="Condições">Carga pontual em movimento; $B$ uniforme no local; só a força magnética (despreze gravidade e campo elétrico); velocidades muito menores que $c$. Direção e sentido: p. 11.</p>
+      <p data-k="Quando usar">“Carga/íon/elétron <em>com velocidade</em> em campo magnético”. Define o tesla: $1\un{T}=1\un{N/(C\cdot m/s)}=1\un{N/(A\cdot m)}$.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="F_vs_theta"><cap>$F/F_{\text{máx}}=\sen\theta$: máxima em $90^{\circ}$, nula quando $\vv\parallel\vB$.</cap></x-fig>
+    <x-fig name="charge_in_B"><cap>Carga positiva com $\vv$ oblíqua a $\vB$: só $v\,\sen\theta$ (componente perpendicular) gera força; $\vF$ é perpendicular ao plano de $\vv$ e $\vB$.</cap></x-fig>
+    <x-box k="mem" t="Memorize">
+      <p class="small mb0">$v=0\Rightarrow F=0$ · $\vv\parallel\vB$ ($\theta=0^{\circ}$ ou $180^{\circ}$) $\Rightarrow F=0$ · $\vv\perp\vB\Rightarrow F=F_{\text{máx}}=|q|vB$. A força é <b>perpendicular</b> a $\vv$ <b>e</b> a $\vB$.</p>
+    </x-box>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="6" l="1" t="Próton em campo magnético">
+      <p data-k="Situação">Um próton ($q=1,6\tx{-19}\un{C}$; $m=1,67\tx{-27}\un{kg}$) move-se a $2,0\tx{6}\un{m/s}$ em uma região com $B=0,50\un{T}$, formando $30^{\circ}$ com $\vB$. Calcule a força e compare-a com o peso do próton.</p>
+      <p data-k="Esquema"><x-ref f="charge_in_B"></x-ref>, com $\theta=30^{\circ}$.</p>
+      <p data-k="Dados">$q=1,6\tx{-19}\un{C}$; $v=2,0\tx{6}\un{m/s}$; $B=0,50\un{T}$; $\sen30^{\circ}=0,50$; $g=10\un{m/s^2}$.</p>
+      <p data-k="Fenômeno">Força magnética sobre carga em movimento.</p>
+      <p data-k="Método">$F=|q|vB\sen\theta$; peso $P=mg$.</p>
+      <p data-k="Cálculo">$F=1,6\tx{-19}\cdot2,0\tx{6}\cdot0,50\cdot0,50$; $P=1,67\tx{-27}\cdot10$</p>
+      <p data-k="Resultado">$F=8,0\tx{-14}\un{N}$; $P=1,7\tx{-26}\un{N}$; $F/P\approx5\tx{12}$.</p>
+      <p data-k="Verificação"><x-ok></x-ok>A força magnética é $\sim10^{12}$ vezes o peso: desprezar a gravidade para partículas carregadas é justificado. Se $\theta$ fosse $90^{\circ}$, $F$ dobraria ($1,6\tx{-13}\un{N}$).</p>
+    </x-ex>
+  </div>
+  <div>
+    <table class="tbl fs76">
+      <tr><th style="width:23%">Comparação</th><th>Força elétrica</th><th>Força magnética</th></tr>
+      <tr><td class="k">Expressão</td><td>$\vF=q\vE$</td><td>$\vF=q\,\vv\times\vB$</td></tr>
+      <tr><td class="k">Atua em…</td><td>qualquer carga, parada ou não</td><td>só cargas <b>em movimento</b></td></tr>
+      <tr><td class="k">Direção</td><td>ao longo de $\vE$</td><td>perpendicular a $\vv$ e a $\vB$</td></tr>
+      <tr><td class="k">Trabalho</td><td>pode ser $\neq0$ (muda a energia cinética)</td><td>sempre $0$ sobre carga pontual (p. 13)</td></tr>
+      <tr><td class="k">Unidade do campo</td><td>$\un{N/C}=\un{V/m}$</td><td>$\un{T}=\un{N/(A\cdot m)}$</td></tr>
+    </table>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Medir $\theta$ entre $\vv$ e o <em>plano</em>/outra linha: é o ângulo entre $\vv$ e $\vB$.</li>
+        <li>Usar $q$ com sinal no módulo: em $F=|q|vB\sen\theta$ use $|q|$; o sinal só decide o <em>sentido</em>.</li>
+        <li>Achar que $\vF$ tem a direção de $\vv$ ou de $\vB$.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de fixação">
+  <x-exe n="11" l="1">Um elétron ($|q|=1,6\tx{-19}\un{C}$) move-se a $3,0\tx{6}\un{m/s}$ em um campo de $2,0\tx{-3}\un{T}$. Calcule a força quando a velocidade (a) é perpendicular a $\vB$; (b) forma $30^{\circ}$ com $\vB$; (c) é paralela a $\vB$. (d) A força muda a energia cinética do elétron? Justifique. (e) Uma partícula de carga $2,0\un{\mu C}$, com $5,0\tx{3}\un{m/s}$ perpendicular a $\vB$, sofre $4,0\tx{-3}\un{N}$: calcule $B$.</x-exe>
+  <x-ans>E11 (a) $F=1,6\tx{-19}\cdot3,0\tx{6}\cdot2,0\tx{-3}=9,6\tx{-16}\un{N}$; (b) $4,8\tx{-16}\un{N}$; (c) $0$; (d) não: $\vF\perp\vv$ a cada instante, logo o trabalho é nulo e $|\vv|$ não varia; (e) $B=F/(|q|v)=4,0\tx{-3}/(2,0\tx{-6}\cdot5,0\tx{3})=0,40\un{T}$.</x-ans>
+</x-exs>

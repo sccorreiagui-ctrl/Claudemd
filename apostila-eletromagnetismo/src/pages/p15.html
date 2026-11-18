@@ -1,0 +1,64 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Cada fio cria um campo; o campo de um age sobre a corrente do outro. Resultado: <b>correntes paralelas se atraem</b> e <b>antiparalelas se repelem</b> — o contrário da eletrostática, em que cargas iguais se repelem.</p>
+    <p class="mb1"><span class="tag">Método</span>Em dois passos (<x-ref f="parallel_wires"></x-ref>):</p>
+    <ol class="small">
+      <li>O fio 1 cria, na posição do fio 2, $B_1=\dfrac{\mu_0I_1}{2\pi d}$, perpendicular ao fio 2.</li>
+      <li>Esse campo exerce sobre um trecho $L$ do fio 2 a força $F=B_1I_2L$ ($\theta=90^{\circ}$).</li>
+    </ol>
+    <x-fc t="Força entre fios paralelos longos" s="por unidade de comprimento" eq="\dfrac{F}{L}=\dfrac{\mu_0\,I_1\,I_2}{2\pi\,d}">
+      <p data-k="Variáveis">$F/L$ em N/m; $I_1$, $I_2$ em A; $d$ = distância entre os fios (m). As forças nos dois fios têm o mesmo módulo e sentidos opostos (3ª lei).</p>
+      <p data-k="Condições">Fios retilíneos, longos e paralelos, no vácuo/ar, com $d\ll$ comprimento. O resultado dá o <b>módulo</b>; o sentido vem de $I_2\,\vL\times\vB_1$.</p>
+      <p data-k="Quando usar">Dois fios paralelos: “força por metro”, “levitação” de um fio sobre outro. <b>Histórico:</b> até 2019 o ampere foi definido por $2\tx{-7}\un{N/m}$ a $1\un{m}$.</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="parallel_wires"><cap>Fios paralelos: $\vB_1$ no fio 2 (azul) e forças (verde), obtidos por $I\,\vL\times\vB$.</cap></x-fig>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Aplicar a regra da eletrostática (“iguais se repelem”) às correntes.</li>
+        <li>Usar $B_1$ no <em>próprio</em> fio 1: a força no fio 2 vem do campo do fio 1 (e vice-versa).</li>
+        <li>Esquecer que $F=B_1I_2L$ usa o <b>produto</b> das correntes e o comprimento $L$.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="11" l="2" t="Dois fios paralelos">
+      <p data-k="Situação">Dois fios longos e paralelos, a $10\un{cm}$ um do outro, conduzem $10\un{A}$ e $20\un{A}$ no <b>mesmo</b> sentido. Calcule a força por metro e a força em $0,80\un{m}$ de fio; diga se atraem ou repelem.</p>
+      <p data-k="Esquema"><x-ref f="parallel_wires"></x-ref>, painel da esquerda.</p>
+      <p data-k="Dados">$I_1=10\un{A}$; $I_2=20\un{A}$; $d=0,10\un{m}$; $L=0,80\un{m}$.</p>
+      <p data-k="Fenômeno">Interação magnética entre correntes.</p>
+      <p data-k="Método">$F/L=\mu_0I_1I_2/(2\pi d)$; $F=(F/L)\,L$.</p>
+      <p data-k="Cálculo">$\dfrac{F}{L}=\dfrac{2\tx{-7}\cdot10\cdot20}{0,10}$; $F=4,0\tx{-4}\cdot0,80$</p>
+      <p data-k="Resultado">$F/L=4,0\tx{-4}\un{N/m}$; $F=3,2\tx{-4}\un{N}$; <b>atração</b> (correntes paralelas).</p>
+      <p data-k="Verificação"><x-ok></x-ok>Pelos dois passos: $B_1=2\tx{-7}\cdot10/0,10=2,0\tx{-5}\un{T}$ e $F/L=B_1I_2=2,0\tx{-5}\cdot20=4,0\tx{-4}\un{N/m}$ ✓. Dobrar $d$ reduziria $F$ à metade.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="mem" t="Memorize"><p class="small mb0"><b>Paralelas</b> atraem · <b>antiparalelas</b> repelem. $F/L\propto I_1I_2$ e $\propto1/d$.</p></x-box>
+    <table class="tbl fs76">
+      <tr><th style="width:30%">Eletrostática</th><th>Correntes</th></tr>
+      <tr><td>cargas iguais se repelem</td><td>correntes de mesmo sentido se atraem</td></tr>
+      <tr><td>$F\propto1/d^{2}$</td><td>$F/L\propto1/d$</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="row g5 rowc" style="grid-template-columns:90mm 1fr">
+  <x-fig name="loop_near_wire"><cap>Espira retangular no plano de um fio longo: o lado próximo é atraído; o distante, repelido (menos).</cap></x-fig>
+  <div>
+    <x-box t="Problema integrador: espira perto de um fio" cls="tight">
+      <p class="small mb1">Fio longo com $I_1=20\un{A}$ (para cima); espira retangular ($L=10\un{cm}$, $b=6,0\un{cm}$) com $I_2=5,0\un{A}$ no sentido horário, com o lado próximo a $a=2,0\un{cm}$ do fio.</p>
+      <p class="small mb1">Nos lados verticais: $F_{perto}=\dfrac{\mu_0I_1I_2L}{2\pi a}=1,0\tx{-4}\un{N}$ (atração) e $F_{longe}=\dfrac{\mu_0I_1I_2L}{2\pi(a+b)}=2,5\tx{-5}\un{N}$ (repulsão). Nos horizontais, as forças são iguais e opostas: se cancelam.</p>
+      <p class="small mb0"><b>Resultante:</b> $F=F_{perto}-F_{longe}=7,5\tx{-5}\un{N}$, <b>atração</b> para o fio.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação — nível avançado">
+  <x-exe n="16" l="3">Um fio horizontal e fixo conduz $10\un{A}$. Um segundo fio, paralelo e $4,0\un{cm}$ acima dele, conduz $5,0\un{A}$ e fica em equilíbrio, sustentado só pela força magnética. (a) A corrente no fio de cima tem o mesmo sentido ou o oposto ao do fio de baixo? (b) Qual é a massa por unidade de comprimento do fio de cima? ($g=10\un{m/s^2}$)</x-exe>
+  <x-ans>E16 (a) sentido <b>oposto</b> (repulsão, para equilibrar o peso); (b) $F/L=2\tx{-7}\cdot10\cdot5,0/0,040=2,5\tx{-4}\un{N/m}=\lambda g\Rightarrow\lambda=2,5\tx{-5}\un{kg/m}$ ($25\un{mg/m}$).</x-ans>
+</x-exs>

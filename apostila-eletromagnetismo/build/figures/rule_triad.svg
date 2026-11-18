@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 186" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><line x1="108" y1="122" x2="194.76" y2="142.31" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="108" y1="122" x2="108" y2="27.15" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="108" y1="122" x2="53.79" y2="154.5" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="108" y1="122" x2="181.56" y2="139.22" fill="none" stroke="#0E9FBC" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M189.16 141 L178.46 142.81 L181.56 139.22 L180.38 134.63 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="108" y1="122" x2="108" y2="41.07" fill="none" stroke="#2563C9" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M108 33.27 L112.2 43.27 L108 41.07 L103.8 43.27 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="108" y1="122" x2="63.98" y2="148.39" fill="none" stroke="#1B8F4B" stroke-width="3.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M57.29 152.4 L63.7 143.66 L63.98 148.39 L68.02 150.86 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="108" y1="122" x2="142.97" y2="101.03" fill="none" stroke="#1B8F4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<text x="197.84" y="145" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="13" font-style="italic" fill="#0A748A" text-anchor="start">v</text>
+<path d="M198.63 132.91 L204.15 132.91 M201.55 131.35 L204.15 132.91 L201.55 134.47" fill="none" stroke="#0A748A" stroke-width="0.91" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="106.96" y="24.27" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="13" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M107.93 12.18 L114.64 12.18 M112.04 10.62 L114.64 12.18 L112.04 13.74" fill="none" stroke="#1B4DA6" stroke-width="0.91" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="39.57" y="158.4" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="13" font-style="italic" fill="#14703A" text-anchor="start">F</text>
+<path d="M40.46 146.31 L46.63 146.31 M44.03 144.75 L46.63 146.31 L44.03 147.87" fill="none" stroke="#14703A" stroke-width="0.91" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="27.29" y="171.4" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#14703A" text-anchor="start">q &gt; 0:  F ∥ v × B</text>
+<text x="150.97" y="105.03" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="start">q &lt; 0: sentido oposto</text>
+<path d="M138.56 125.13 L138.23 122.72 L137.75 120.31 L137.12 117.91 L136.35 115.52 L135.44 113.17 L134.4 110.87 L133.23 108.62 L131.93 106.43 L130.52 104.32 L128.99 102.3 L127.36 100.37 L125.64 98.55 L123.83 96.84 L121.95 95.26 L119.99 93.81 L117.98 92.5 L116.64 91.74" fill="none" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M111.69 89.45 L119.28 89.6 L116.67 91.67 L116.89 94.98 Z" fill="#5C6573" stroke="#5C6573" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="148" y="62" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#5C6573" text-anchor="start">dedos: de v para B</text>
+<text x="330" y="15" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#0E2A47" text-anchor="end">regra da mão direita (força)</text>
+<text x="330" y="28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="end">dedos ao longo de v, curvando-se</text>
+<text x="330" y="39" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="end">para B; o polegar dá v × B</text>
+<text x="330" y="178" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8" font-weight="400" fill="#5C6573" text-anchor="end">eixos: x → direita, y → cima, z → você</text></svg>

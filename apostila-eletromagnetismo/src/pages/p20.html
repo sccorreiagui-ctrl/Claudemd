@@ -1,0 +1,51 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Mesmo método, quatro histórias: o ímã chega ou sai, e mostra o polo N ou o S. Em todas, o anel “reage” ao que o ímã faz: <b>repele</b> a aproximação e <b>atrai</b> o afastamento.</p>
+    <p><span class="tag">Desenho</span>Em <x-ref f="lenz_four"></x-ref>, a corrente é observada <b>do lado do ímã</b> (olhando do ímã para o anel). A face do anel voltada para o ímã vira N ou S conforme a regra do relógio (p. 7).</p>
+  </div>
+  <div>
+    <table class="tbl fs70">
+      <tr><th>Situação</th><th>$\vB_{ext}$</th><th>$|\Phi|$</th><th>$\vB_{ind}$</th><th>$I$ (lado do ímã)</th></tr>
+      <tr><td>N aproxima</td><td>afasta do ímã</td><td>↑</td><td>para o ímã</td><td>anti-horário</td></tr>
+      <tr><td>N afasta</td><td>afasta do ímã</td><td>↓</td><td>afasta do ímã</td><td>horário</td></tr>
+      <tr><td>S aproxima</td><td>para o ímã</td><td>↑</td><td>afasta do ímã</td><td>horário</td></tr>
+      <tr><td>S afasta</td><td>para o ímã</td><td>↓</td><td>para o ímã</td><td>anti-horário</td></tr>
+    </table>
+  </div>
+</div>
+
+<x-fig name="lenz_four"><cap>Quatro casos do ímã e do anel. $\vB_{ext}$ (azul, sólido); $\vB_{ind}$ (roxo, tracejado); corrente (laranja). Resultados obtidos pelo método de Lenz e conferidos por produtos vetoriais.</cap></x-fig>
+
+<x-fig name="lenz_stationary"><cap>Anel parado, campo externo que varia no tempo. $\odot$/$\otimes$ roxo no centro: campo induzido.</cap></x-fig>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="16" l="2" t="Polo sul se afastando de um anel">
+      <p data-k="Situação">O polo S de um ímã, voltado para um anel condutor, é afastado do anel. Qual é o sentido da corrente induzida vista do lado do ímã, e que face o anel desenvolve?</p>
+      <p data-k="Esquema"><x-ref f="lenz_four"></x-ref>, 4º painel.</p>
+      <p data-k="Dados">Polo S voltado ao anel; ímã se afasta; observador do lado do ímã.</p>
+      <p data-k="Fenômeno">Indução por variação de fluxo (afastamento).</p>
+      <p data-k="Método">Lenz em 6 passos: $\vB_{ext}$, $|\Phi|$, $\vB_{ind}$, mão direita, conferência.</p>
+      <p data-k="Cálculo">1) Linhas entram no polo S: $\vB_{ext}$ aponta <em>para o ímã</em>. 2) Afastando, $|\Phi|$ diminui. 3) $\vB_{ind}$ no <em>mesmo</em> sentido: para o ímã. 4) Polegar para o observador: dedos <b>anti-horários</b>.</p>
+      <p data-k="Resultado">Corrente <b>anti-horária</b> (do lado do ímã); a face voltada ao ímã é <b>Norte</b>.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Face Norte atrai o polo S que se afasta: o anel <em>resiste</em> ao afastamento ✓ (conservação da energia).</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box t="Correntes parasitas (de Foucault)">
+      <p class="small mb0">Em um bloco metálico, a variação de fluxo induz correntes que circulam em “redemoinhos”, sempre <b>freando</b> a mudança: freio magnético, aquecimento por indução (fogões), detectores de metal. Um ímã que cai dentro de um tubo de cobre desce devagar; em um tubo de plástico, não.</p>
+    </x-box>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Não indicar de que lado se observa o sentido (horário/anti-horário é <em>relativo</em>).</li>
+        <li>Concluir que $\vB_{ind}$ sempre tem sentido oposto a $\vB_{ext}$.</li>
+        <li>Esquecer que, ao afastar, $|\Phi|$ <b>diminui</b> e $\vB_{ind}$ tem o <b>mesmo</b> sentido de $\vB_{ext}$.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="20" l="2">(a) Em um anel parado, $\vB$ <b>entra</b> na página e <b>diminui</b>. Qual o sentido da corrente induzida? (b) O polo N de um ímã se afasta de um anel: qual o sentido da corrente, vista do lado do ímã? (c) <b>(C/E)</b> Um ímã cai por um tubo de cobre mais devagar do que cairia por um tubo de plástico, porque correntes induzidas no cobre se opõem ao movimento.</x-exe>
+  <x-ans>E20 (a) horária ($\vB_{ind}$ entrando, como $\vB_{ext}$); (b) horária (painel 2); (c) Certo.</x-ans>
+</x-exs>

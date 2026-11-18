@@ -14,7 +14,7 @@ const TOTAL = meta.pages.length;
 // ---------------------------------------------------------------- matemática (KaTeX no build)
 const MACROS = {
   '\\vB': '\\vec{B}', '\\vv': '\\vec{v}', '\\vF': '\\vec{F}', '\\vE': '\\vec{E}', '\\vN': '\\hat{n}',
-  '\\vI': '\\vec{I}', '\\vL': '\\vec{L}', '\\vA': '\\vec{A}',
+  '\\vI': '\\vec{I}', '\\vL': '\\vec{L}', '\\vA': '\\vec{A}', '\\vP': '\\vec{P}', '\\vR': '\\vec{R}', '\\vT': '\\vec{\\tau}',
   '\\mz': '\\mu_0',
   '\\un': '\\,\\mathrm{#1}',
   '\\tx': '\\times10^{#1}',
@@ -131,11 +131,14 @@ function buildBody(n, raw) {
   });
   $('x-ok').each((_, el) => { $(el).replaceWith(OK_ICON); });
 
-  let out = $.html();
-  // espaçador flexível antes dos exercícios (ou no fim)
-  if (out.includes('class="exs"')) out = out.replace('<div class="exs">', '<div class="grow"></div><div class="exs">');
-  else out += '<div class="grow"></div>';
-  return out;
+  // blocos de conteúdo entram em .main (a folga da página é distribuída entre eles); exercícios ficam ao pé
+  const kids = $.root().children().toArray();
+  const main = []; let exs = '';
+  for (const k of kids) {
+    const cls = $(k).attr('class') || '';
+    if (/(^|\s)exs(\s|$)/.test(cls)) exs += $.html(k); else main.push($.html(k));
+  }
+  return `<div class="main">${main.join('')}</div>${exs}`;
 }
 
 // ---------------------------------------------------------------- montagem

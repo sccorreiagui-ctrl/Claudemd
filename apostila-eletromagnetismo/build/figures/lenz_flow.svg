@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 184" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="8" y="8" width="200" height="58" rx="5" fill="#E8F0FD" stroke="#2563C9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="24" cy="25" r="10" fill="#2563C9" stroke="none"/>
+<text x="24" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="40" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#1B4DA6" text-anchor="start">Campo externo</text>
+<text x="20" y="44" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">qual é o sentido de B que atravessa</text>
+<text x="20" y="55" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">a espira? (use ⊙ e ⊗)</text>
+<rect x="240" y="8" width="200" height="58" rx="5" fill="#EFF1F4" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="256" cy="25" r="10" fill="#5C6573" stroke="none"/>
+<text x="256" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="272" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#0E2A47" text-anchor="start">Normal da superfície</text>
+<text x="252" y="44" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">escolha n (um lado da espira);</text>
+<text x="252" y="55" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">só serve de referência de sinal</text>
+<rect x="472" y="8" width="200" height="58" rx="5" fill="#EFF1F4" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="488" cy="25" r="10" fill="#5C6573" stroke="none"/>
+<text x="488" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="504" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#0E2A47" text-anchor="start">O fluxo aumenta ou diminui?</text>
+<text x="484" y="44" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">olhe o módulo |Φ| (e o sinal,</text>
+<text x="484" y="55" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">se usar Φ com sinal)</text>
+<rect x="472" y="104" width="200" height="58" rx="5" fill="#F1EAFB" stroke="#7E3FC4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="488" cy="121" r="10" fill="#7E3FC4" stroke="none"/>
+<text x="488" y="125" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="504" y="125" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#672DAE" text-anchor="start">Campo induzido</text>
+<text x="484" y="140" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">Φ aumenta: B<tspan dy="2.18" font-size="6.05" >ind</tspan><tspan dy="-2.18"> OPOSTO a B</tspan><tspan dy="2.18" font-size="6.05" >ext</tspan><tspan dy="-2.18"> </tspan></text>
+<text x="484" y="151" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">Φ diminui: B<tspan dy="2.18" font-size="6.05" >ind</tspan><tspan dy="-2.18"> no MESMO sentido</tspan></text>
+<rect x="240" y="104" width="200" height="58" rx="5" fill="#FFF0DF" stroke="#E8710A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="256" cy="121" r="10" fill="#E8710A" stroke="none"/>
+<text x="256" y="125" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="272" y="125" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#A94E00" text-anchor="start">Corrente induzida</text>
+<text x="252" y="140" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">mão direita: polegar em B<tspan dy="2.18" font-size="6.05" >ind</tspan><tspan dy="-2.18"> no</tspan></text>
+<text x="252" y="151" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">interior; dedos = sentido de I</text>
+<rect x="8" y="104" width="200" height="58" rx="5" fill="#E5F5EB" stroke="#1B8F4B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="24" cy="121" r="10" fill="#1B8F4B" stroke="none"/>
+<text x="24" y="125" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="40" y="125" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#14703A" text-anchor="start">Confira a energia</text>
+<text x="20" y="140" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">o efeito resiste à mudança?</text>
+<text x="20" y="151" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="start">(repele a aproximação)</text>
+<line x1="210" y1="37" x2="231.76" y2="37" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M238 37 L230 40.36 L231.76 37 L230 33.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="442" y1="37" x2="463.76" y2="37" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M470 37 L462 40.36 L463.76 37 L462 33.64 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="572" y1="68" x2="572" y2="95.76" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M572 102 L568.64 94 L572 95.76 L575.36 94 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="470" y1="133" x2="448.24" y2="133" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M442 133 L450 129.64 L448.24 133 L450 136.36 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="238" y1="133" x2="216.24" y2="133" fill="none" stroke="#1A2230" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M210 133 L218 129.64 L216.24 133 L218 136.36 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="340" y="179" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#0E2A47" text-anchor="middle">Faraday dá o MÓDULO de ε (quão rápido varia Φ); Lenz dá o SENTIDO (oposição à variação).</text></svg>

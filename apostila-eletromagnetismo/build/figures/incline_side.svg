@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 186" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><path d="M30 172 L229.66 172 L229.66 21.55 Z" fill="#F1F3F6" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 76 172 A 46 46 0 0 0 66.74 144.32" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="166" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.2" font-weight="700" fill="#5C6573" text-anchor="start">α = 37°</text>
+<circle cx="129.01" cy="87.37" r="8" fill="#E4E8EE" stroke="#1A2230" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="129.01" cy="87.37" r="4.6" fill="none" stroke="#E8710A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="126.8" y1="85.16" x2="131.22" y2="89.59" fill="none" stroke="#E8710A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="126.8" y1="89.59" x2="131.22" y2="85.16" fill="none" stroke="#E8710A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="70" y1="127.86" x2="70" y2="84.93" fill="none" stroke="#2563C9" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.45"/>
+<path d="M70 79.86 L72.73 86.36 L70 84.93 L67.27 86.36 Z" fill="#2563C9" fill-opacity="0.45" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="140" y1="75.11" x2="140" y2="32.18" fill="none" stroke="#2563C9" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.45"/>
+<path d="M140 27.11 L142.73 33.61 L140 32.18 L137.27 33.61 Z" fill="#2563C9" fill-opacity="0.45" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="54.47" y="66.19" width="11.06" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="56.27" y="79.39" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M57.16 68.23 L63.36 68.23 M60.96 66.79 L63.36 68.23 L60.96 69.67" fill="none" stroke="#1B4DA6" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="129.01" y1="87.37" x2="129.01" y2="124.35" fill="none" stroke="#1A2230" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M129.01 131.37 L125.23 122.37 L129.01 124.35 L132.79 122.37 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="129.01" y1="87.37" x2="100.13" y2="49.06" fill="none" stroke="#1A2230" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M95.91 43.45 L104.34 48.36 L100.13 49.06 L98.31 52.91 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="129.01" y1="87.37" x2="154.21" y2="87.37" fill="none" stroke="#1B8F4B" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M162.01 87.37 L152.01 91.57 L154.21 87.37 L152.01 83.17 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="129.01" y1="87.37" x2="145.73" y2="74.77" fill="none" stroke="#1B8F4B" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<path d="M150.09 71.49 L146.27 78.05 L145.73 74.77 L142.73 73.35 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="129.01" y1="87.37" x2="112.28" y2="99.98" fill="none" stroke="#1A2230" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="round" stroke-dasharray="4 3"/>
+<path d="M107.92 103.26 L111.75 96.7 L112.28 99.98 L115.28 101.4 Z" fill="#1A2230" stroke="#1A2230" stroke-width="0.4" stroke-linejoin="round"/>
+<rect x="157.79" y="71.27" width="24.44" height="15.18" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="159.59" y="83.37" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#14703A" text-anchor="start">F<tspan dy="2.86" font-size="7.92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">mag</tspan></text>
+<path d="M160.34 73.14 L165.57 73.14 M163.37 71.82 L165.57 73.14 L163.37 74.46" fill="none" stroke="#14703A" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="138.07" y="125.27" width="9.88" height="15.18" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="139.87" y="137.37" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1A2230" text-anchor="start">P</text>
+<path d="M140.62 127.14 L145.83 127.14 M143.63 125.82 L145.83 127.14 L143.63 128.46" fill="none" stroke="#1A2230" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="76.01" y="29.35" width="11.81" height="15.18" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="77.81" y="41.45" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11" font-style="italic" fill="#1A2230" text-anchor="start">N</text>
+<path d="M78.79 31.22 L85.6 31.22 M83.4 29.9 L85.6 31.22 L83.4 32.54" fill="none" stroke="#1A2230" stroke-width="0.77" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="328" y="142" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#0E2A47" text-anchor="end">equilíbrio (v constante):</text>
+<text x="328" y="154" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#1A2230" text-anchor="end">P = 1,00 N · F = B I L = 0,75 N · N = 1,25 N</text>
+<text x="328" y="166" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="end">ao longo da rampa: F cos α = P sen α = 0,60 N</text></svg>
