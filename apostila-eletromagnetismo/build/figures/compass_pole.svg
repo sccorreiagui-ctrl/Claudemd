@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 118" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="95" y="49" width="110" height="26" rx="0" fill="#E4E8EE" stroke="#5C6573" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="150" y1="49" x2="150" y2="75" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="122.5" y="67" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="14" font-weight="700" fill="#1A2230" text-anchor="middle">X</text>
+<text x="177.5" y="67" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="14" font-weight="700" fill="#1A2230" text-anchor="middle">Y</text>
+<circle cx="69" cy="62" r="10" fill="#FFFFFF" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M77.2 62 L69 64.6 L69 59.4 Z" fill="#C8302F" stroke="#C8302F" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60.8 62 L69 64.6 L69 59.4 Z" fill="#FFFFFF" stroke="#C8302F" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="69" cy="62" r="1.1" fill="#EFF1F4" stroke="none"/>
+<circle cx="231" cy="62" r="10" fill="#FFFFFF" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M239.2 62 L231 64.6 L231 59.4 Z" fill="#C8302F" stroke="#C8302F" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M222.8 62 L231 64.6 L231 59.4 Z" fill="#FFFFFF" stroke="#C8302F" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="231" cy="62" r="1.1" fill="#EFF1F4" stroke="none"/>
+<circle cx="150" cy="26" r="10" fill="#FFFFFF" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M141.8 26 L150 23.4 L150 28.6 Z" fill="#C8302F" stroke="#C8302F" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M158.2 26 L150 23.4 L150 28.6 Z" fill="#FFFFFF" stroke="#C8302F" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="26" r="1.1" fill="#EFF1F4" stroke="none"/>
+<text x="69" y="86" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#5C6573" text-anchor="middle">A</text>
+<text x="231" y="86" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#5C6573" text-anchor="middle">C</text>
+<text x="172" y="29" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#5C6573" text-anchor="middle">B</text></svg>

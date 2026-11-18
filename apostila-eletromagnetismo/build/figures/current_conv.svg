@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 108" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><path d="M22 88 L22 26 L146 26 L146 88 L96 88" fill="none" stroke="#1A2230" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="22" y1="88" x2="64" y2="88" fill="none" stroke="#1A2230" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="74" y1="74.5" x2="74" y2="101.5" fill="none" stroke="#1A2230" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="86" y1="79.75" x2="86" y2="96.25" fill="none" stroke="#1A2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="88.5" y="78" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#A82221" text-anchor="middle">+</text>
+<text x="71.5" y="78" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#A82221" text-anchor="middle">−</text>
+<path d="M96 88 L96 88" fill="none" stroke="#1A2230" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="146" y1="80" x2="146" y2="44.24" fill="none" stroke="#E8710A" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M146 38 L149.36 46 L146 44.24 L142.64 46 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="130.9" y="64" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#A94E00" text-anchor="start">I</text>
+<text x="84" y="10" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#A94E00" text-anchor="middle">corrente convencional I</text>
+<text x="84" y="20" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.8" font-weight="400" fill="#5C6573" text-anchor="middle">(+ para −, fora da fonte)</text></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 100" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><line x1="16" y1="42" x2="320" y2="42" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<circle cx="88" cy="42" r="7.5" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="84.39" y1="38.39" x2="91.61" y2="45.61" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="84.39" y1="45.61" x2="91.61" y2="38.39" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="248" cy="42" r="7.5" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="244.39" y1="38.39" x2="251.61" y2="45.61" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="244.39" y1="45.61" x2="251.61" y2="38.39" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="168" cy="42" r="7.5" fill="#FFF0DF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 2"/>
+<text x="168" y="45.6" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#A94E00" text-anchor="middle">?</text>
+<circle cx="208" cy="42" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="208" y="30" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#1A2230" text-anchor="middle">P</text>
+<text x="88" y="28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#A94E00" text-anchor="middle">24 A</text>
+<text x="248" y="28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#A94E00" text-anchor="middle">24 A</text>
+<text x="168" y="28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#A94E00" text-anchor="middle">I<tspan dy="2.29" font-size="6.34" >C</tspan><tspan dy="-2.29"> </tspan></text>
+<text x="88" y="64" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">A</text>
+<text x="168" y="64" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">C</text>
+<text x="248" y="64" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">D</text>
+<line x1="88" y1="82" x2="168" y2="82" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="79" x2="88" y2="85" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="168" y1="79" x2="168" y2="85" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="168" y1="82" x2="208" y2="82" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="168" y1="79" x2="168" y2="85" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="208" y1="79" x2="208" y2="85" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="208" y1="82" x2="248" y2="82" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="208" y1="79" x2="208" y2="85" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="248" y1="79" x2="248" y2="85" fill="none" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="128" y="94" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">10 cm</text>
+<text x="188" y="94" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">5 cm</text>
+<text x="228" y="94" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="middle">5 cm</text></svg>

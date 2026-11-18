@@ -1,0 +1,62 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>A <b>circulação</b> de $\vB$ mede o quanto o campo “gira” ao longo de um caminho fechado. O resultado surpreendente: ela depende só da corrente que <em>atravessa</em> o caminho — não do formato dele.</p>
+    <x-fc t="Lei de Ampère (magnetostática)" s="correntes estacionárias" eq="\oint_C \vB\cdot\dd\vec{\ell}=\mu_0\,I_{\text{env}}">
+      <p data-k="Variáveis">$C$ = caminho fechado e <b>orientado</b> (escolhido por você); $\dd\vec\ell$ = elemento do caminho; $I_{\text{env}}$ = soma <b>algébrica</b> das correntes que atravessam qualquer superfície limitada por $C$.</p>
+      <p data-k="Sinal">Dedos da mão direita no sentido do percurso: corrente no sentido do polegar conta $(+)$; no oposto, $(-)$. Em desenhos de corte: $\odot$ $(+)$ e $\otimes$ $(-)$ para percurso anti-horário.</p>
+      <p data-k="Condições">Vale para qualquer distribuição de correntes <em>estacionárias</em> e qualquer $C$. Mas só <b>calcula</b> $B$ facilmente se a simetria deixa tirar $B$ da integral (fio longo, solenoide longo, toroide). Para campos elétricos variáveis, Maxwell acrescentou um termo (p. 26).</p>
+    </x-fc>
+    <p class="mb1"><span class="tag">Explicação</span>Três ideias para não errar:</p>
+    <ul class="small">
+      <li>Fios <b>fora</b> de $C$ contribuem para $\vB$ nos pontos de $C$, mas <b>não</b> para a circulação.</li>
+      <li>Circulação nula <b>não</b> implica $\vB=0$ no caminho (pode haver correntes opostas dentro, ou fios fora).</li>
+      <li>Inverter o percurso troca o sinal da circulação.</li>
+    </ul>
+  </div>
+  <div>
+    <x-fig name="ampere_loops"><cap>Um caminho fechado $C$ e três fios: só os que atravessam $C$ entram em $I_{env}$.</cap></x-fig>
+    <x-fig name="ampere_sym"><cap>Aplicações com simetria: círculo em torno do fio e retângulo sobre o solenoide.</cap></x-fig>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <h2>Três aplicações clássicas</h2>
+    <p class="small"><b>Fio longo.</b> Círculo de raio $r$ centrado no fio: $\vB$ é tangente e constante em $C$, logo $\oint\vB\cdot\dd\vec\ell=B\,(2\pi r)=\mu_0I\;\Rightarrow\;B=\dfrac{\mu_0I}{2\pi r}$ (a fórmula da p. 5).</p>
+    <p class="small"><b>Solenoide longo.</b> Retângulo com um lado de comprimento $L$ no interior e o outro fora, onde $B\approx0$; os lados transversais não contribuem. Ele envolve $nL$ espiras: $B\,L=\mu_0(nL)I\;\Rightarrow\;B=\mu_0nI$ (p. 8).</p>
+    <p class="small"><b>Toroide</b> (bobina em anel). Círculo de raio $r$ dentro do anel: $B\,(2\pi r)=\mu_0NI\Rightarrow B=\dfrac{\mu_0NI}{2\pi r}$; fora, $B=0$.</p>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Contar em $I_{env}$ um fio que está fora de $C$.</li>
+        <li>Esquecer o sinal: correntes opostas dentro de $C$ se subtraem.</li>
+        <li>Concluir $\vB=0$ de $\oint\vB\cdot\dd\vec\ell=0$.</li>
+        <li>Achar que a lei só vale para caminhos simétricos (a <em>lei</em> vale sempre; a <em>facilidade</em> depende da simetria).</li>
+      </ul>
+    </x-box>
+  </div>
+  <div>
+    <x-ex n="5" l="2" t="Circulação com três fios">
+      <p data-k="Situação">Na figura, $C$ é percorrido no sentido anti-horário e envolve os fios com $6\un{A}$ (saindo) e $4\un{A}$ (entrando); um terceiro fio, com $5\un{A}$ (saindo), está fora de $C$. Calcule a circulação de $\vB$ em $C$; depois, para o percurso horário; e diga se o terceiro fio interfere.</p>
+      <p data-k="Esquema"><x-ref f="ampere_loops"></x-ref>.</p>
+      <p data-k="Dados">$I_1=+6\un{A}$ ($\odot$); $I_2=-4\un{A}$ ($\otimes$); $I_3$ fora de $C$.</p>
+      <p data-k="Fenômeno">Lei de Ampère: circulação depende só da corrente envolvida.</p>
+      <p data-k="Método">$\oint\vB\cdot\dd\vec\ell=\mu_0I_{env}$, com $I_{env}=I_1+I_2$ (anti-horário).</p>
+      <p data-k="Cálculo">$I_{env}=6-4=+2\un{A}$; $\oint=4\pi\tx{-7}\cdot2$</p>
+      <p data-k="Resultado">Anti-horário: $+2,5\tx{-6}\un{T\cdot m}$. Horário: $-2,5\tx{-6}\un{T\cdot m}$. O fio de $5\un{A}$ <b>não</b> altera a circulação.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Unidade: $\mu_0\,[\mathrm{T\cdot m/A}]\times I\,[\mathrm{A}]=\mathrm{T\cdot m}$. O fio externo muda $\vB$ ponto a ponto, mas sua contribuição se cancela na integral fechada.</p>
+    </x-ex>
+  </div>
+</div>
+
+<x-box t="Quando a lei de Ampère calcula $B$ diretamente?">
+  <div class="row c3 g3 mb0">
+    <div class="small"><b>Sim — há simetria:</b> fio longo (círculos), cilindro condutor, plano infinito, solenoide e toroide ideais.</div>
+    <div class="small"><b>Não diretamente:</b> espira circular fora do centro, fio curto, ímã real. Use fórmulas prontas ou Biot–Savart.</div>
+    <div class="small"><b>Sempre vale:</b> para conferir $I_{env}$ e a circulação, mesmo sem poder isolar $B$.</div>
+  </div>
+</x-box>
+
+<x-exs t="Exercícios integradores de campo">
+  <x-exe n="10" l="2">Um fio longo conduz $25\un{A}$. (a) Pela lei de Ampère, calcule $B$ a $4,0\un{cm}$ do fio. (b) Calcule a circulação de $\vB$ ao longo de um círculo de raio $4,0\un{cm}$ centrado no fio e de outro de raio $8,0\un{cm}$. (c) <b>(Certo/Errado)</b> Se $\oint\vB\cdot\dd\vec\ell=0$ em um caminho, então $\vB=0$ em todos os pontos dele.</x-exe>
+  <x-ans>E10 (a) $B=\mu_0I/2\pi r=2\tx{-7}\cdot25/0,040=1,25\tx{-4}\un{T}$; (b) as duas valem $\mu_0I=3,1\tx{-5}\un{T\cdot m}$ (em $8,0\un{cm}$, $B=6,3\tx{-5}\un{T}$, metade); (c) Errado (por exemplo, dois fios com correntes opostas dentro de $C$).</x-ans>
+</x-exs>

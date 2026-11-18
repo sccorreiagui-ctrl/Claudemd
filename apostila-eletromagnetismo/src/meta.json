@@ -1,0 +1,41 @@
+{
+  "title": "CTG · Eletromagnetismo · PAS 3 / UnB 2026",
+  "modules": {
+    "I":   {"name": "Fundamentos", "pages": [1, 3]},
+    "II":  {"name": "Fontes de campo magnético", "pages": [4, 9]},
+    "III": {"name": "Força magnética", "pages": [10, 15]},
+    "IV":  {"name": "Indução eletromagnética", "pages": [16, 22]},
+    "V":   {"name": "Dispositivos e tecnologias", "pages": [23, 26]},
+    "VI":  {"name": "Consolidação", "pages": [27, 28]}
+  },
+  "pages": [
+    {"n": 1,  "title": "Magnetismo e campo magnético",            "subject": "Magnetismo e campo magnético",            "lead": "", "cover": true},
+    {"n": 2,  "title": "Materiais magnéticos",                    "subject": "Materiais magnéticos",                    "lead": "Ferro, alumínio e água respondem de modos muito diferentes ao mesmo campo."},
+    {"n": 3,  "title": "Campo terrestre, bússolas e vetores",     "subject": "Campo terrestre, bússolas e vetores",     "lead": "A Terra se comporta como um grande ímã — e a bússola é a prova mais simples disso."},
+    {"n": 4,  "title": "Experimento de Oersted",                  "subject": "Experimento de Oersted",                  "lead": "Corrente elétrica cria campo magnético: a primeira ponte entre eletricidade e magnetismo."},
+    {"n": 5,  "title": "Campo de fio retilíneo",                  "subject": "Campo de fio retilíneo",                  "lead": "Círculos concêntricos em volta do fio: a geometria que a mão direita descreve."},
+    {"n": 6,  "title": "Cálculos e superposição de campos",       "subject": "Superposição de campos",                  "lead": "Vários fios, vários campos: some vetores, não números."},
+    {"n": 7,  "title": "Campo de espira circular",                "subject": "Campo de espira circular",                "lead": "Uma única volta de fio já tem uma face norte e uma face sul."},
+    {"n": 8,  "title": "Solenoides e eletroímãs",                 "subject": "Solenoides e eletroímãs",                 "lead": "Muitas espiras em série: dentro, um campo intenso e quase uniforme."},
+    {"n": 9,  "title": "Lei de Ampère",                           "subject": "Lei de Ampère",                           "lead": "A circulação de B ao longo de um caminho fechado depende só da corrente que o atravessa."},
+    {"n": 10, "title": "Força sobre carga elétrica",              "subject": "Força sobre carga elétrica",              "lead": "Só carga em movimento sente força magnética — e só se v não for paralela a B."},
+    {"n": 11, "title": "Orientação da força",                     "subject": "Orientação da força magnética",           "lead": "O sentido de F sai do produto vetorial v × B; o sinal da carga decide o resto."},
+    {"n": 12, "title": "Movimento circular",                      "subject": "Movimento circular em campo magnético",   "lead": "A força magnética é centrípeta: raio, período e frequência saem de uma única igualdade."},
+    {"n": 13, "title": "Trajetórias e energia",                   "subject": "Trajetórias e energia",                   "lead": "Reta, círculo ou hélice: tudo depende do ângulo entre v e B. A energia cinética não muda."},
+    {"n": 14, "title": "Força magnética sobre fios",              "subject": "Força magnética sobre fios",              "lead": "Corrente é carga em movimento: F = B I L sen θ."},
+    {"n": 15, "title": "Interação entre fios",                    "subject": "Interação entre fios paralelos",          "lead": "Um fio cria o campo; o outro sente a força. Correntes paralelas se atraem."},
+    {"n": 16, "title": "Fluxo magnético",                         "subject": "Fluxo magnético",                         "lead": "Quanto campo atravessa a superfície — medido com o ângulo certo: o da normal."},
+    {"n": 17, "title": "Lei de Faraday",                          "subject": "Lei de Faraday",                          "lead": "Quem gera tensão é a variação do fluxo, nunca o fluxo em si."},
+    {"n": 18, "title": "Gráficos de fluxo e FEM",                 "subject": "Gráficos de fluxo e FEM",                 "lead": "A FEM é (menos N vezes) a inclinação do gráfico do fluxo."},
+    {"n": 19, "title": "Lei de Lenz",                             "subject": "Lei de Lenz",                             "lead": "A corrente induzida se opõe à variação do fluxo — e isso é conservação de energia."},
+    {"n": 20, "title": "Aplicações da Lei de Lenz",               "subject": "Aplicações da Lei de Lenz",               "lead": "Ímã chegando e saindo: quatro casos, um único método."},
+    {"n": 21, "title": "Indução em haste móvel",                  "subject": "Indução em haste móvel",                  "lead": "Barra deslizante sobre trilhos: ε = B L v e a força que a freia."},
+    {"n": 22, "title": "Problemas avançados de indução",          "subject": "Problemas avançados de indução",          "lead": "Haste em rampa: desenhe a geometria primeiro, aplique as fórmulas depois."},
+    {"n": 23, "title": "Motores elétricos",                       "subject": "Motores elétricos",                       "lead": "Força sobre condutores vira torque, e torque vira rotação."},
+    {"n": 24, "title": "Geradores e corrente alternada",          "subject": "Geradores e corrente alternada",          "lead": "A rotação muda o fluxo; o fluxo variável gera tensão alternada."},
+    {"n": 25, "title": "Transformadores",                         "subject": "Transformadores",                         "lead": "Tensão sobe, corrente desce — e a potência (ideal) fica a mesma."},
+    {"n": 26, "title": "Aplicações tecnológicas",                 "subject": "Aplicações tecnológicas",                 "lead": "Da usina ao exame de imagem: os mesmos princípios em contextos diferentes."},
+    {"n": 27, "title": "Revisão visual",                          "subject": "Revisão visual",                          "lead": "Formulário, regras, fluxogramas e erros comuns para consulta rápida."},
+    {"n": 28, "title": "Revisão PAS 3",                           "subject": "Revisão PAS 3",                           "lead": "Mini-simulado integrado, em itens Certo/Errado e cálculos, com gabarito comentado."}
+  ]
+}

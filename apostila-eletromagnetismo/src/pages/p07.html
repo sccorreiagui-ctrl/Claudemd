@@ -1,0 +1,54 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Dobrar o fio reto em círculo concentra as linhas de campo dentro da espira: ela se comporta como um ímã achatado, com uma <b>face norte</b> e uma <b>face sul</b> — exatamente a ideia de Ampère sobre a origem do magnetismo.</p>
+    <p><span class="tag">Desenho</span>No corte (<x-ref f="loop_section"></x-ref>), a corrente <em>sai</em> da página em cima ($\odot$) e <em>entra</em> embaixo ($\otimes$). As linhas atravessam a espira e se fecham por fora: no centro, $\vB$ é perpendicular ao plano da espira.</p>
+    <p class="mb1"><span class="tag">Explicação</span>Duas formas de achar o sentido de $\vB$ no centro:</p>
+    <ul class="small">
+      <li><b>Mão direita</b>: dedos no sentido da corrente na espira; o polegar dá o sentido de $\vB$ no centro.</li>
+      <li><b>Regra do relógio</b> (<x-ref f="loop_faces"></x-ref>): olhando <em>de frente</em> para uma face, corrente <b>anti-horária</b> = face <b>Norte</b> (as linhas saem em sua direção); corrente <b>horária</b> = face <b>Sul</b> (as linhas entram).</li>
+    </ul>
+    <x-fc t="Campo no centro da espira" s="vácuo" eq="B=\dfrac{\mu_0\,I}{2R} ;; B=N\,\dfrac{\mu_0\,I}{2R}\ \ (N\ \text{espiras})">
+      <p data-k="Variáveis">$R$ = raio da espira (m); $N$ = número de espiras iguais e justapostas (bobina chata); $I$ em A; $B$ em T.</p>
+      <p data-k="Condições">Vale <b>só no centro</b> (para outros pontos do eixo: $B=\dfrac{\mu_0IR^2}{2(R^2+x^2)^{3/2}}$, complemento). Espira(s) de raio $R$ bem maior que a espessura. <b>Não</b> há $\pi$ no denominador.</p>
+      <p data-k="Quando usar">“Campo no centro” de espira, bobina chata ou <b>arco</b> de ângulo $\theta$ (rad): $B=\dfrac{\theta}{2\pi}\dfrac{\mu_0I}{2R}$; semicírculo: $\mu_0I/4R$</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="loop_section"><cap>Espira vista em corte: corrente anti-horária vista da direita (face NORTE à direita).</cap></x-fig>
+    <x-fig name="loop_faces"><cap>Regra do relógio: anti-horário → norte; horário → sul.</cap></x-fig>
+    <x-box k="mem" t="Memorize"><p class="small mb0"><b>A</b>nti-horário = <b>N</b>orte · <b>H</b>orário = <b>S</b>ul. O campo no centro aponta <em>para fora</em> da face Norte.</p></x-box>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="3" l="1" t="Bobina chata">
+      <p data-k="Situação">Uma bobina chata de $N=50$ espiras circulares de raio $R=5,0\un{cm}$ é percorrida por $I=1,0\un{A}$ no sentido <b>anti-horário</b> visto de frente. Calcule $B$ no centro e diga qual face é a Norte.</p>
+      <p data-k="Esquema"><x-ref f="loop_faces"></x-ref> (à esquerda): vista de frente, $\vB$ saindo da página.</p>
+      <p data-k="Dados">$N=50$; $R=0,050\un{m}$; $I=1,0\un{A}$.</p>
+      <p data-k="Fenômeno">Campo no centro de espiras circulares justapostas.</p>
+      <p data-k="Método">$B=N\mu_0I/(2R)$; sentido pela regra do relógio.</p>
+      <p data-k="Cálculo">$B=50\cdot\dfrac{4\pi\tx{-7}\cdot1,0}{2\cdot0,050}=50\cdot1,26\tx{-5}$</p>
+      <p data-k="Resultado">$B=6,3\tx{-4}\un{T}$ ($2\pi\tx{-4}\un{T}$), saindo da face vista de frente, que é a face <b>Norte</b>.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Uma espira daria $1,3\tx{-5}\un{T}$; com 50, $50\times$ mais. É cerca de $13\times$ o campo da Terra: uma bússola no centro apontaria quase na direção do eixo.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Usar a fórmula do <b>fio</b> (com $\pi$) na espira, ou a da espira (sem $\pi$) no fio.</li>
+        <li>Esquecer o fator $N$ numa bobina de várias voltas.</li>
+        <li>Inverter a face: ver a espira “por trás” troca anti-horário por horário.</li>
+        <li>Usar $B=\mu_0I/2R$ em pontos fora do centro.</li>
+      </ul>
+    </x-box>
+    <x-box k="pre" t="Pré-requisito: seno e cosseno">
+      <p class="small mb0">Em um triângulo retângulo: $\sen\theta=$ cateto oposto/hipotenusa; $\cos\theta=$ cateto adjacente/hipotenusa. $\sen30^{\circ}=0,5$; $\sen45^{\circ}\approx0,71$; $\sen60^{\circ}\approx0,87$; $\cos60^{\circ}=0,5$.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="8" l="2">Uma espira circular de raio $10\un{cm}$ está num plano horizontal e conduz $5,0\un{A}$ no sentido <b>horário</b> visto de cima. (a) Calcule $B$ no centro. (b) $\vB$ aponta para cima ou para baixo? (c) Qual face, superior ou inferior, é a Norte? (d) Qual seria $B$ no centro se a corrente passasse apenas por um semicírculo de mesmo raio (trechos retos passando pelo centro)?</x-exe>
+  <x-ans>E8 (a) $B=4\pi\tx{-7}\cdot5,0/(2\cdot0,10)=\pi\tx{-5}\un{T}\approx3,1\tx{-5}\un{T}$; (b) para <b>baixo</b> (horário visto de cima); (c) face <b>inferior</b> (as linhas saem por ela); (d) metade: $1,6\tx{-5}\un{T}$.</x-ans>
+</x-exs>

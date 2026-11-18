@@ -1,0 +1,51 @@
+<div class="row g5" style="grid-template-columns:93mm 1fr">
+  <div>
+    <x-fig name="earth_field"><cap>Campo geomagnético: dipolo equivalente (esquema). As linhas saem pelo hemisfério sul e entram pelo norte.</cap></x-fig>
+  </div>
+  <div>
+    <p><span class="tag">Intuição</span>A Terra se comporta como um ímã gigante: por isso a agulha de uma bússola, livre para girar, se alinha ao campo local e “aponta para o norte”.</p>
+    <p><span class="tag">Explicação</span>O campo vem de correntes no núcleo externo líquido (ferro e níquel fundidos em movimento) e, perto da superfície, é bem descrito por um <b>dipolo</b>, com $B$ típico de $25$ a $65\un{\mu T}$.</p>
+    <ul class="small">
+      <li><b>Nome de lugar × polaridade física.</b> A ponta N da agulha aponta para o Polo Norte <em>geográfico</em>; como polos opostos se atraem, ali está o polo <b>sul</b> do ímã equivalente (e vice-versa). “Polo Norte magnético” é um nome de lugar.</li>
+      <li>O eixo do dipolo é inclinado em relação ao eixo de rotação (da ordem de $10^{\circ}$; muda com o tempo; os polos migram e já se inverteram várias vezes). A <b>declinação</b> é o ângulo entre o norte geográfico e o da bússola; varia com o local e a época.</li>
+      <li>A <b>inclinação</b> de $\vB$ em relação à horizontal vai de $0^{\circ}$ (equador magnético) a $\pm90^{\circ}$ (polos); a bússola comum só indica a componente horizontal.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <h2>Como ler uma bússola</h2>
+    <x-box k="mem" t="Regra">
+      <p class="mb1"><b>A ponta N da agulha aponta no sentido de $\vB$ no local</b> (tangente à linha de campo).</p>
+      <p class="small mb0">Perto de um ímã, a ponta N da agulha é <b>atraída pelo polo S</b> e repelida pelo polo N.</p>
+    </x-box>
+    <p class="small"><b>Mnemônico “Vaca e Boi”.</b> A linha de campo externo é a <em>vaca</em>; o campo interno da agulha (do seu S ao seu N) é o <em>boi</em>. Onde a vaca vai, o boi vai atrás: o N da agulha segue o sentido da linha.</p>
+
+  </div>
+  <div>
+    <h2>Revisão mínima: corrente e vetores</h2>
+    <x-box k="pre" t="Pré-requisito">
+      <p class="small"><b>Corrente elétrica</b> $I=\Delta q/\Delta t$, em ampère (A). A <b>corrente convencional</b> é o sentido do movimento das cargas <em>positivas</em> (do $+$ para o $-$ fora da fonte); os elétrons se movem no sentido contrário.</p>
+      <p class="small mb0"><b>Vetor</b>: módulo + direção + sentido. “Vertical” é direção; “para cima”, sentido. Componentes: $v_x=v\cos\theta$ e $v_y=v\,\sen\theta$.</p>
+    </x-box>
+    <x-fig name="vec_conv"><cap>Símbolos $\odot$ e $\otimes$ para vetores perpendiculares à página, e a corrente convencional num circuito simples.</cap></x-fig>
+  </div>
+</div>
+
+<div class="row g5 mt1" style="grid-template-columns:50mm 1fr">
+  <div>
+    <x-fig name="vec_sum"><cap>Campo resultante sobre a agulha: soma vetorial (com $B_T=B_{fio}=20\un{\mu T}$).</cap></x-fig>
+  </div>
+  <div>
+    <p><span class="tag">Aplicação</span>A bússola aponta para o norte por causa do campo horizontal da Terra, $B_T\sim20\un{\mu T}$. Se outro campo horizontal, $\vB_{fio}$ (aqui, para leste), age sobre ela, a agulha se alinha ao <b>campo resultante</b>: a soma <em>vetorial</em> $\vB_{res}=\vB_T+\vB_{fio}$.</p>
+    <p class="small mb0">Com $B_{fio}=20\un{\mu T}$: $B_{res}=\sqrt{20^2+20^2}\approx28\un{\mu T}$ e $\tan\theta=B_{fio}/B_T=1$, logo $\theta=45^{\circ}$ para o leste. É a base do experimento de Oersted (p. 4) e da superposição de campos (p. 6).</p>
+  </div>
+</div>
+
+
+<x-exs t="Exercícios de fixação">
+  <x-exe n="4" l="1"><div class="row c21 g5 mb0 rowc"><div><p class="mb0">As extremidades X e Y de um ímã não têm identificação. Três bússolas (A, B, C) são colocadas como na figura, com a ponta N (vermelha) desenhada. (a) Qual é a polaridade de X e de Y? (b) Qual é o sentido de $\vB$ <em>dentro</em> do ímã? (c) <b>(C/E)</b> A ponta N da bússola aponta para o Polo Norte geográfico porque ali há um polo sul magnético (dipolo equivalente).</p></div>
+    <x-fig name="compass_pole"></x-fig></div></x-exe>
+  <x-ans>E4 (a) X é polo S e Y é polo N (a ponta N de A é atraída por X; a de C aponta para longe de Y); (b) de X para Y (de S para N), da esquerda para a direita; (c) Certo.</x-ans>
+</x-exs>

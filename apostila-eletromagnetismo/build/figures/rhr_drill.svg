@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 104" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="4" y="4" width="105.33" height="96" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="12" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">(a)</text>
+<line x1="56.67" y1="90" x2="56.67" y2="21.02" fill="none" stroke="#E8710A" stroke-width="3.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M56.67 14 L60.45 23 L56.67 21.02 L52.89 23 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="86.67" cy="52" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="93.67" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1A2230" text-anchor="start">P</text>
+<rect x="117.33" y="4" width="105.33" height="96" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="125.33" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">(b)</text>
+<line x1="170" y1="14" x2="170" y2="82.98" fill="none" stroke="#E8710A" stroke-width="3.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M170 90 L166.22 81 L170 82.98 L173.78 81 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="200" cy="52" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="207" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1A2230" text-anchor="start">P</text>
+<rect x="230.67" y="4" width="105.33" height="96" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="238.67" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">(c)</text>
+<line x1="245.33" y1="52" x2="314.31" y2="52" fill="none" stroke="#E8710A" stroke-width="3.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M321.33 52 L312.33 55.78 L314.31 52 L312.33 48.22 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="283.33" cy="22" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="290.33" y="16" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1A2230" text-anchor="start">P</text>
+<rect x="344" y="4" width="105.33" height="96" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="352" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">(d)</text>
+<line x1="434.67" y1="52" x2="365.69" y2="52" fill="none" stroke="#E8710A" stroke-width="3.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M358.67 52 L367.67 48.22 L365.69 52 L367.67 55.78 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="396.67" cy="22" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="403.67" y="16" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1A2230" text-anchor="start">P</text>
+<rect x="457.33" y="4" width="105.33" height="96" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="465.33" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">(e)</text>
+<circle cx="510" cy="52" r="8" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="510" cy="52" r="2.24" fill="#E8710A" stroke="none"/>
+<circle cx="546" cy="52" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="553" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1A2230" text-anchor="start">P</text>
+<rect x="570.67" y="4" width="105.33" height="96" rx="4" fill="#FFFFFF" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="578.67" y="17" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#0E2A47" text-anchor="start">(f)</text>
+<circle cx="623.33" cy="52" r="8" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="619.49" y1="48.15" x2="627.18" y2="55.85" fill="none" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="619.49" y1="55.85" x2="627.18" y2="48.15" fill="none" stroke="#E8710A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="623.33" cy="16" r="3.4" fill="#1A2230" stroke="none"/>
+<text x="630.33" y="10" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1A2230" text-anchor="start">P</text></svg>

@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+scripts/_fonts/
+build/pages/
+build/shots/
+build/pilot*
+build/layout_report.json

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 118" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><circle cx="84" cy="56" r="34" fill="none" stroke="#E8710A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M98.4 25.06 L108.09 26.28 L104.48 28.57 L104.31 32.83 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<path d="M69.6 86.94 L59.91 85.72 L63.52 83.43 L63.69 79.17 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="84" cy="56" r="9" fill="#FFFFFF" stroke="#2563C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="84" cy="56" r="2.52" fill="#2563C9" stroke="none"/>
+<text x="84" y="14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#A94E00" text-anchor="middle">visto de frente: anti-horário</text>
+<rect x="54" y="98" width="60" height="16" rx="3" fill="#C8302F" stroke="#C8302F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="84" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#FFFFFF" text-anchor="middle">face NORTE</text>
+<circle cx="252" cy="56" r="34" fill="none" stroke="#E8710A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M271.6 28.06 L261.91 26.83 L265.52 24.55 L265.69 20.28 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<path d="M232.4 83.94 L242.09 85.17 L238.48 87.45 L238.31 91.72 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="252" cy="56" r="9" fill="#FFFFFF" stroke="#2563C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="247.67" y1="51.67" x2="256.33" y2="60.33" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="247.67" y1="60.33" x2="256.33" y2="51.67" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252" y="14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#A94E00" text-anchor="middle">visto de frente: horário</text>
+<rect x="222" y="98" width="60" height="16" rx="3" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#A82221" text-anchor="middle">face SUL</text></svg>

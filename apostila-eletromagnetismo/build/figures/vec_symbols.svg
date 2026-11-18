@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><circle cx="26" cy="26" r="13" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26" cy="26" r="3.64" fill="#2563C9" stroke="none"/>
+<text x="48" y="22" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1B4DA6" text-anchor="start">saindo do plano</text>
+<text x="48" y="34" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">vê-se a ponta da seta</text>
+<circle cx="26" cy="64" r="13" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="19.75" y1="57.75" x2="32.25" y2="70.25" fill="none" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="19.75" y1="70.25" x2="32.25" y2="57.75" fill="none" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="60" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1B4DA6" text-anchor="start">entrando no plano</text>
+<text x="48" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">veem-se as penas (cauda)</text>
+<line x1="196" y1="26" x2="253.76" y2="26" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M260 26 L252 29.36 L253.76 26 L252 22.64 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="228" y="14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8" font-weight="400" fill="#5C6573" text-anchor="middle">vista lateral</text>
+<line x1="196" y1="64" x2="253.76" y2="64" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M260 64 L252 67.36 L253.76 64 L252 60.64 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="196" y1="60" x2="190" y2="56" fill="none" stroke="#2563C9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="196" y1="68" x2="190" y2="72" fill="none" stroke="#2563C9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>

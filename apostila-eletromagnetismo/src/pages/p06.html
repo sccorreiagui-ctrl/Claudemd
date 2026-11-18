@@ -1,0 +1,58 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Cada fio cria o seu campo como se os outros não existissem. O campo total em um ponto é a <b>soma vetorial</b> dos campos de cada fio (princípio da superposição): some <em>vetores</em>, não módulos.</p>
+    <x-box t="Método em 4 passos">
+      <ol class="small mb0">
+        <li>Marque P e, para cada fio, desenhe $\vB_i$: <b>perpendicular</b> ao segmento fio–P, com sentido pela 1ª regra da mão direita.</li>
+        <li>Calcule $B_i=\mu_0 I_i/(2\pi r_i)$, com $r_i$ = distância de cada fio até P.</li>
+        <li>Escolha um eixo e some as componentes <b>com sinal</b> (positivo ou negativo).</li>
+        <li>Para $\vB=0$: some as componentes e <b>iguale a zero</b>.</li>
+      </ol>
+    </x-box>
+    <p class="mb1"><span class="tag">Desenho</span>Dois fios paralelos (<x-ref f="By_profile"></x-ref>):</p>
+    <ul class="small">
+      <li><b>Mesmo sentido</b>: entre os fios os campos têm sentidos <em>opostos</em> e podem se anular — no ponto médio, se $I_1=I_2$. Em geral, $B=0$ onde $I_1/r_1=I_2/r_2$, com $r_1+r_2=d$.</li>
+      <li><b>Sentidos opostos</b>: entre os fios os campos <em>se somam</em> (no meio, $B$ dobra se $I_1=I_2$). O ponto de campo nulo fica <b>fora</b>, do lado da corrente <em>menor</em>, também com $I_1/r_1=I_2/r_2$, mas com $r_2-r_1=d$.</li>
+    </ul>
+  </div>
+  <div>
+    <x-fig name="By_profile"><cap>$B_y(x)$ no plano de dois fios em $x=\pm5\un{cm}$, com $10\un{A}$ cada.</cap></x-fig>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Somar <b>módulos</b> sem olhar os sentidos.</li>
+        <li>Usar a distância <em>entre os fios</em> no lugar da distância <em>fio → ponto</em>.</li>
+        <li>Desenhar $\vB$ ao longo da reta que liga o fio ao ponto: ele é <b>perpendicular</b> a ela.</li>
+      </ul>
+    </x-box>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="2" l="2" t="Dois fios com correntes opostas">
+      <p data-k="Situação">Dois fios longos e paralelos, a $20\un{cm}$ um do outro, conduzem $10\un{A}$ (saindo da página) e $30\un{A}$ (entrando). Determine (a) $\vB$ no ponto médio P; (b) o ponto da reta dos fios onde $\vB=0$.</p>
+      <p data-k="Esquema"><x-ref f="two_wires_ex"></x-ref>: fio 1 em $x=0$; fio 2 em $x=20\un{cm}$.</p>
+      <p data-k="Dados">$I_1=10\un{A}$ ($\odot$); $I_2=30\un{A}$ ($\otimes$); $d=0,20\un{m}$.</p>
+      <p data-k="Fenômeno">Superposição de campos de dois fios longos.</p>
+      <p data-k="Método">$B_i=2\tx{-7}I_i/r_i$; some vetorialmente; em (b) use $I_1/r_1=I_2/r_2$.</p>
+      <p data-k="Cálculo">(a) $B_1=\dfrac{2\tx{-7}\cdot10}{0,10}=2,0\tx{-5}\un{T}$; $B_2=\dfrac{2\tx{-7}\cdot30}{0,10}=6,0\tx{-5}\un{T}$; ambos para cima. (b) fora, perto do fio 1: $\dfrac{10}{r_1}=\dfrac{30}{r_1+0,20}\Rightarrow r_1=0,10\un{m}$.</p>
+      <p data-k="Resultado">(a) $B_P=8,0\tx{-5}\un{T}$, para cima. (b) $B=0$ a $10\un{cm}$ do fio 1, no lado oposto ao fio 2.</p>
+      <p data-k="Verificação"><x-ok></x-ok>Em Q ($x=-10\un{cm}$): $B_1=2,0\tx{-5}\un{T}$ (baixo) e $B_2=\dfrac{2\tx{-7}\cdot30}{0,30}=2,0\tx{-5}\un{T}$ (cima): soma nula.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-fig name="two_wires_ex"><cap>Exemplo 2: vetores em P (meio) e em Q (ponto de campo nulo).</cap></x-fig>
+    <x-box t="Campos que não são colineares"><p class="small mb1">Se $\vB_1$ e $\vB_2$ formam um ângulo $\alpha$: $B=\sqrt{B_1^2+B_2^2+2B_1B_2\cos\alpha}$. Para $\alpha=90^{\circ}$: $B=\sqrt{B_1^2+B_2^2}$.</p><p class="small mb0"><b>Ex.:</b> dois fios com $10\un{A}$, a $5,0\un{cm}$ de P, com campos perpendiculares: $B_1=B_2=40\un{\mu T}$ e $B=40\sqrt2\approx57\un{\mu T}$, a $45^{\circ}$ de cada um.</p></x-box>
+  </div>
+</div>
+
+<div class="row g5 rowc" style="grid-template-columns:62mm 1fr">
+  <x-fig name="square_wires"></x-fig>
+  <p class="small mb0"><span class="tag">Aplicação</span><b>Quatro fios em um quadrado.</b> Cada fio (10 A) está a $r=a\sqrt2$ do centro O, com $a=5,0\un{cm}$: $B_1=\dfrac{2\tx{-7}\cdot10}{0,050\sqrt2}=2,8\tx{-5}\un{T}$, perpendicular à diagonal. Pelos produtos vetoriais, as componentes verticais se cancelam e as horizontais se somam: $B=4B_1\cos45^{\circ}=8,0\tx{-5}\un{T}$, para a direita. </p>
+</div>
+
+<x-exs t="Exercício integrador — nível avançado">
+  <x-exe n="7" l="3"><div class="row c21 g5 mb0 rowc"><div><p class="mb0">Três fios longos, perpendiculares à página, passam pelos pontos A, C e D de uma reta, com $AC=CD=10\un{cm}$. Os fios A e D conduzem $24\un{A}$ cada, <b>entrando</b> na página. O ponto P está sobre a reta, entre C e D, a $5\un{cm}$ de cada um. Determine o módulo e o sentido da corrente no fio C para que $\vB$ seja nulo em P.</p></div>
+    <x-fig name="three_wires"></x-fig></div></x-exe>
+  <x-ans>E7 Em P: A ($\otimes$, $r=15\un{cm}$) dá $3,2\tx{-5}\un{T}$ para baixo; D ($\otimes$, $r=5\un{cm}$) dá $9,6\tx{-5}\un{T}$ para cima; soma $6,4\tx{-5}\un{T}$ para cima. C deve dar $6,4\tx{-5}\un{T}$ para baixo em P (à sua direita): $I_C=6,4\tx{-5}\cdot0,05/(2\tx{-7})=16\un{A}$, sentido <b>entrando</b> ($\otimes$).</x-ans>
+</x-exs>

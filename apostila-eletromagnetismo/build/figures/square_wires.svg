@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232 118" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><rect x="44" y="25" width="68" height="68" rx="0" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<circle cx="44" cy="25" r="7" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="44" cy="25" r="1.96" fill="#E8710A" stroke="none"/>
+<line x1="78" y1="59" x2="85.41" y2="51.59" fill="none" stroke="#2563C9" stroke-width="1.5" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.85"/>
+<path d="M89 48 L86.33 54.53 L85.41 51.59 L82.47 50.67 Z" fill="#2563C9" fill-opacity="0.85" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="112" cy="25" r="7" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="112" cy="25" r="1.96" fill="#E8710A" stroke="none"/>
+<line x1="78" y1="59" x2="85.41" y2="66.41" fill="none" stroke="#2563C9" stroke-width="1.5" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.85"/>
+<path d="M89 70 L82.47 67.33 L85.41 66.41 L86.33 63.47 Z" fill="#2563C9" fill-opacity="0.85" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="112" cy="93" r="7" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="108.63" y1="89.63" x2="115.37" y2="96.37" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="108.63" y1="96.37" x2="115.37" y2="89.63" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="78" y1="59" x2="85.41" y2="51.59" fill="none" stroke="#2563C9" stroke-width="1.5" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.85"/>
+<path d="M89 48 L86.33 54.53 L85.41 51.59 L82.47 50.67 Z" fill="#2563C9" fill-opacity="0.85" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="44" cy="93" r="7" fill="#FFFFFF" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="40.63" y1="89.63" x2="47.37" y2="96.37" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="40.63" y1="96.37" x2="47.37" y2="89.63" fill="none" stroke="#E8710A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="78" y1="59" x2="85.41" y2="66.41" fill="none" stroke="#2563C9" stroke-width="1.5" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.85"/>
+<path d="M89 70 L82.47 67.33 L85.41 66.41 L86.33 63.47 Z" fill="#2563C9" fill-opacity="0.85" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="78" y1="59" x2="114.98" y2="59" fill="none" stroke="#2563C9" stroke-width="2.8" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M122 59 L113 62.78 L114.98 59 L113 55.22 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<circle cx="78" cy="59" r="2.6" fill="#1A2230" stroke="none"/>
+<text x="69" y="74" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#1A2230" text-anchor="middle">O</text>
+<rect x="124.47" y="40.8" width="11.06" height="16.56" rx="1.6" fill="#fff" fill-opacity="0.88"/>
+<text x="126.27" y="54" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12" font-style="italic" fill="#1B4DA6" text-anchor="start">B</text>
+<path d="M127.16 42.84 L133.36 42.84 M130.96 41.4 L133.36 42.84 L130.96 44.28" fill="none" stroke="#1B4DA6" stroke-width="0.84" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="228" y="16" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#A94E00" text-anchor="end">topo: saindo</text>
+<text x="228" y="28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#A94E00" text-anchor="end">base: entrando</text>
+<text x="228" y="44" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="end">cada fio: 10 A</text>
+<text x="228" y="56" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#1A2230" text-anchor="end">lado: 10 cm</text>
+<text x="228" y="72" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#1B4DA6" text-anchor="end">B no centro:</text>
+<text x="228" y="84" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#1B4DA6" text-anchor="end">80 μT, horizontal</text></svg>

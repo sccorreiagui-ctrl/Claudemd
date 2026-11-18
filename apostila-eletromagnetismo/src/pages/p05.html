@@ -1,0 +1,47 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>O campo de um fio longo lembra as ondas de uma pedra no lago: círculos concêntricos em torno do fio, fortes perto dele e fracos longe.</p>
+    <p><span class="tag">Desenho</span>Em cada ponto, $\vB$ é tangente ao círculo que passa por ele (<x-ref f="wire_xsec"></x-ref>). Com o fio no plano da página e a corrente <b>para cima</b>, $\vB$ <b>entra</b> na página à direita e <b>sai</b> à esquerda (<x-ref f="wire_planar"></x-ref>). Dobrar a distância divide $B$ por 2.</p>
+    <x-fc t="Campo de fio retilíneo longo" s="vácuo/ar" eq="B=\dfrac{\mu_0\,I}{2\pi\,r}">
+      <p data-k="Variáveis">$B$ em tesla (T); $\mu_0=4\pi\tx{-7}\un{T\cdot m/A}$; $I$ em ampère (A); $r$ em metro (m): distância <em>perpendicular</em> do ponto ao fio.</p>
+      <p data-k="Condições">Fio retilíneo muito longo ($L\gg r$); corrente estacionária; meio ≈ vácuo ou ar. Vale <em>fora</em> do fio ($r\geq$ raio do fio). Não vale perto das pontas de um fio curto.</p>
+      <p data-k="Quando usar">A questão pede o <b>módulo</b> de $\vB$ a uma distância $r$ de <b>um</b> fio reto. Atalho: $B=2\tx{-7}\,I/r$ (SI).</p>
+    </x-fc>
+    <x-box k="mem" t="Memorize e treine a proporcionalidade"><p class="small mb1">$B\propto I$ e $B\propto 1/r$. Na fórmula do fio há $2\pi$ no denominador; na espira (p. 7) <b>não</b> há $\pi$.</p>
+      <table class="tbl fs70"><tr><th>Se…</th><th>$I\to2I$</th><th>$r\to2r$</th><th>$r\to r/3$</th><th>$I\to I/2$ e $r\to r/2$</th></tr><tr><td class="k">$B$ passa a</td><td>$2B$</td><td>$B/2$</td><td>$3B$</td><td>$B$ (igual)</td></tr></table></x-box>
+  </div>
+  <div>
+    <x-fig name="wire_planar"><cap>Fio no plano da página, $I$ para cima: $B\propto1/r$. Sentidos: $\otimes$ à direita, $\odot$ à esquerda.</cap></x-fig>
+    <x-fig name="wire_xsec"><cap>Corte transversal: $\vB$ tangente às circunferências.</cap></x-fig>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="1" l="1" t="Campo de um fio longo">
+      <p data-k="Situação">Um fio retilíneo longo conduz $12\un{A}$ para cima, no plano da página. Determine o módulo e o sentido de $\vB$ em P, a $3,0\un{cm}$ à direita do fio, e em Q, a $6,0\un{cm}$ à esquerda.</p>
+      <p data-k="Esquema"><x-ref f="wire_planar"></x-ref>: P à distância $r$ (⊗) e Q a $2r$ (⊙), com $r=3,0\un{cm}$.</p>
+      <p data-k="Dados">$I=12\un{A}$; $r_P=0,030\un{m}$; $r_Q=0,060\un{m}$; $\mu_0=4\pi\tx{-7}\un{T\cdot m/A}$.</p>
+      <p data-k="Fenômeno">Campo magnético de corrente retilínea (Oersted–Ampère).</p>
+      <p data-k="Método">$B=\mu_0I/(2\pi r)$; sentido pela 1ª regra da mão direita.</p>
+      <p data-k="Cálculo">$B_P=\dfrac{4\pi\tx{-7}\cdot12}{2\pi\cdot0,030}$ ; $B_Q=\dfrac{4\pi\tx{-7}\cdot12}{2\pi\cdot0,060}$</p>
+      <p data-k="Resultado">$B_P=8,0\tx{-5}\un{T}$, entrando ($\otimes$); $B_Q=4,0\tx{-5}\un{T}$, saindo ($\odot$).</p>
+      <p data-k="Verificação"><x-ok></x-ok>$B_Q=B_P/2$, pois $r$ dobrou. $80\un{\mu T}$ é maior que o campo da Terra ($\sim50\un{\mu T}$): uma bússola ali seria muito perturbada — coerente com Oersted.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-fig name="B_vs_r"><cap>$B(r)$ de um fio com $I=10\un{A}$: hipérbole decrescente.</cap></x-fig>
+    <x-box t="Ordens de grandeza">
+      <p class="small mb0">Fio com $10\un{A}$ a $1\un{cm}$: $200\un{\mu T}$ · cabo de transmissão com $\sim1000\un{A}$ visto do solo, a $20\un{m}$: $10\un{\mu T}$ · fio de $5\un{A}$ de um aparelho, a $10\un{cm}$: $10\un{\mu T}$.</p>
+    </x-box>
+    <x-box k="hist" t="De onde vem a fórmula (visão geral)"><p class="small mb0">Cada pedacinho $\dd\vec\ell$ de fio com corrente $I$ contribui com $\dd\vB=\dfrac{\mu_0}{4\pi}\dfrac{I\,\dd\vec\ell\times\hat r}{r^{2}}$ (lei de Biot–Savart). Somando todos os pedacinhos de um fio infinito, resulta $B=\mu_0I/2\pi r$. A p. 9 mostra o mesmo resultado pela lei de Ampère.</p></x-box>
+    <x-box k="warn" t="Erros comuns">
+      <p class="small mb0">Usar $r$ em centímetros (converta para metros); medir $r$ <em>ao longo</em> do fio em vez de perpendicularmente; trocar $\otimes$ e $\odot$ por usar a mão esquerda.</p>
+    </x-box>
+  </div>
+</div>
+
+<x-exs t="Exercícios de fixação">
+  <x-exe n="6" l="1">Um fio retilíneo longo e horizontal conduz $20\un{A}$ para a <b>direita</b>. (a) Calcule $B$ a $10\un{cm}$ do fio. (b) A que distância $B$ vale $50\un{\mu T}$ (campo da Terra)? (c) Num ponto <em>abaixo</em> do fio, $\vB$ entra ou sai da página? (d) Se a corrente for triplicada e a distância dobrada, por qual fator $B$ é multiplicado?</x-exe>
+  <x-ans>E6 (a) $B=2\tx{-7}\cdot20/0,10=4,0\tx{-5}\un{T}$ ($40\un{\mu T}$); (b) $r=2\tx{-7}\cdot20/(5,0\tx{-5})=0,080\un{m}=8,0\un{cm}$; (c) entra na página ($\otimes$); (d) $3/2=1,5$.</x-ans>
+</x-exs>

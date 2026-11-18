@@ -1,0 +1,57 @@
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Enrole o fio em muitas espiras lado a lado: dentro da bobina os campos das espiras <b>se somam</b>; fora, quase se cancelam. É um ímã fabricado: o <b>eletroímã</b>, que liga e desliga com a corrente.</p>
+    <p><span class="tag">Desenho</span>No corte (<x-ref f="solenoid_section"></x-ref>), a corrente sai da página em cima ($\odot$) e entra embaixo ($\otimes$): $\vB$ aponta para a direita no interior, onde as linhas são <b>paralelas e igualmente espaçadas</b> (campo uniforme); a extremidade de onde elas saem é o polo <b>N</b>. O gráfico (<x-ref f="solenoid_profile"></x-ref>) mostra que o campo é quase constante no centro e cai a cerca da <b>metade</b> nas extremidades.</p>
+    <x-fc t="Campo no interior de um solenoide longo" s="ideal" eq="B=\mu_0\,\dfrac{N}{L}\,I=\mu_0\,n\,I">
+      <p data-k="Variáveis">$N$ = nº de espiras; $L$ = comprimento (m); $n=N/L$ = espiras por metro; $I$ em A; $B$ em T.</p>
+      <p data-k="Condições">Solenoide <b>longo</b> ($L\gg$ diâmetro), espiras juntas, ponto no interior e longe das pontas. Nas pontas $B\approx\tfrac12\mu_0nI$; fora, $B\approx0$. Com núcleo ferromagnético, $B\approx\mu_r\mu_0nI$ (longe da saturação).</p>
+      <p data-k="Quando usar">Dados em “espiras por metro”, “comprimento” e “corrente” de uma bobina longa. Sentido: dedos na corrente, polegar em $\vB$ (face N).</p>
+    </x-fc>
+  </div>
+  <div>
+    <x-fig name="solenoid_section"><cap>Solenoide em corte: campo interno quase uniforme; o exterior lembra o de um ímã em barra.</cap></x-fig>
+    <x-fig name="solenoid_profile"><cap>$B$ ao longo do eixo (comprimento = 2,5 diâmetros).</cap></x-fig>
+  </div>
+</div>
+
+<div class="row c2 g5">
+  <div>
+    <x-ex n="4" l="2" t="Solenoide com e sem núcleo">
+      <p data-k="Situação">Um solenoide tem $500$ espiras em $25\un{cm}$ e conduz $2,0\un{A}$. Calcule $B$ no interior (a) com ar; (b) com um núcleo de ferro doce de $\mu_r=200$ (valor ilustrativo); (c) se o comprimento fosse o dobro, com $N$ e $I$ iguais.</p>
+      <p data-k="Esquema"><x-ref f="solenoid_section"></x-ref>: $\vB$ uniforme ao longo do eixo.</p>
+      <p data-k="Dados">$N=500$; $L=0,25\un{m}$; $I=2,0\un{A}$; $\mu_r=200$.</p>
+      <p data-k="Fenômeno">Campo de solenoide longo (soma dos campos das espiras).</p>
+      <p data-k="Método">$n=N/L$; $B=\mu_0nI$; com núcleo, $B=\mu_r\mu_0nI$.</p>
+      <p data-k="Cálculo">$n=\dfrac{500}{0,25}=2000\un{m^{-1}}$; $B=4\pi\tx{-7}\cdot2000\cdot2,0$; (b) $200\times B$; (c) $n'=1000\un{m^{-1}}$.</p>
+      <p data-k="Resultado">(a) $B=5,0\tx{-3}\un{T}$; (b) $B\approx1,0\un{T}$; (c) $B'=2,5\tx{-3}\un{T}$ (metade).</p>
+      <p data-k="Verificação"><x-ok></x-ok>(a) é cerca de $100\times$ o campo da Terra, como um ímã de geladeira. (b) $1\un{T}$ está abaixo da saturação do ferro ($\approx2\un{T}$): a relação linear é aceitável. (c) $B\propto1/L$ a $N$ e $I$ fixos.</p>
+    </x-ex>
+  </div>
+  <div>
+    <x-box t="Aplicações">
+      <p class="small mb0">Guindastes de sucata, relés, campainhas, fechaduras elétricas, alto-falantes, válvulas solenoide, aceleradores de projéteis (<em>coilgun</em>, p. 26), trens de levitação e os <b>solenoides supercondutores</b> dos aparelhos de ressonância magnética (p. 26).</p>
+    </x-box>
+    <x-box k="warn" t="Erros comuns">
+      <ul class="small mb0">
+        <li>Achar que o campo é mais forte perto da parede interna: no interior ele é <b>uniforme</b>.</li>
+        <li>Usar $N$ no lugar de $n=N/L$ (unidade: espiras por metro).</li>
+        <li>Aplicar $B=\mu_0nI$ em solenoides curtos ou nas extremidades.</li>
+        <li>Achar que o núcleo de ferro funciona sem limite: há <b>saturação</b>.</li>
+      </ul>
+    </x-box>
+    <x-box k="mem" t="Memorize"><p class="small mb0">$B\propto n$ e $B\propto I$; o comprimento só entra por $n=N/L$.</p></x-box>
+  </div>
+</div>
+
+<table class="tbl fs76">
+  <tr><th style="width:17%">Fonte</th><th style="width:21%">Fórmula</th><th style="width:19%">Onde vale</th><th style="width:25%">Hipóteses</th><th>Depende de</th></tr>
+  <tr><td class="k">Fio retilíneo longo</td><td>$B=\dfrac{\mu_0I}{2\pi r}$</td><td>a distância $r$ do fio</td><td>fio muito longo; corrente estacionária; $r\geq$ raio do fio</td><td>$I$ e $1/r$</td></tr>
+  <tr><td class="k">Espira circular</td><td>$B=N\dfrac{\mu_0I}{2R}$</td><td>só no centro</td><td>$R\gg$ espessura; $N$ espiras justapostas</td><td>$I$, $N$ e $1/R$</td></tr>
+  <tr><td class="k">Solenoide longo</td><td>$B=\mu_0nI$</td><td>interior, longe das pontas</td><td>$L\gg$ diâmetro; espiras juntas</td><td>$I$ e $n=N/L$ (não depende do raio)</td></tr>
+</table>
+<p class="xs muted mb1">Nas três fontes o sentido de $\vB$ vem da mão direita “envolvente” (polegar na corrente; dedos no campo) ou, na espira e no solenoide, da regra do relógio.</p>
+
+<x-exs t="Exercícios de aplicação">
+  <x-exe n="9" l="2"><b>(Certo/Errado)</b> (a) Dobrar $N$, mantendo $L$ e $I$, dobra $B$ no interior. (b) Dobrar $L$, mantendo $N$ e $I$, dobra $B$. (c) Um solenoide com $1000$ espiras/m e $3,0\un{A}$ produz $B\approx3,8\un{mT}$ no interior. (d) Na extremidade de um solenoide ideal longo, $B$ vale cerca de metade do valor no centro.</x-exe>
+  <x-ans>E9 (a) Certo; (b) Errado ($B$ cai à metade); (c) Certo ($4\pi\tx{-7}\cdot1000\cdot3,0\approx3,8\tx{-3}\un{T}$); (d) Certo.</x-ans>
+</x-exs>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 124" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><line x1="42" y1="98" x2="160" y2="98" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="48" y1="104" x2="48" y2="12" fill="none" stroke="#C9D1DB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="162" y="110" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">L</text>
+<text x="39" y="12" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#5C6573" text-anchor="middle">N</text>
+<line x1="48" y1="98" x2="48" y2="48.24" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M48 42 L51.36 50 L48 48.24 L44.64 50 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="48" y1="98" x2="97.76" y2="98" fill="none" stroke="#2563C9" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M104 98 L96 101.36 L97.76 98 L96 94.64 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="48" y1="98" x2="99.04" y2="46.96" fill="none" stroke="#2563C9" stroke-width="2.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M104 42 L100.31 51.04 L99.04 46.96 L94.96 45.69 Z" fill="#2563C9" stroke="#2563C9" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="104" y1="98" x2="104" y2="42" fill="none" stroke="#2563C9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<line x1="48" y1="42" x2="104" y2="42" fill="none" stroke="#2563C9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<text x="20.2" y="74" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.99" font-size="8.28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">T</tspan></text>
+<path d="M21.06 63.3 L27 63.3 M24.7 61.92 L27 63.3 L24.7 64.69" fill="none" stroke="#1B4DA6" stroke-width="0.81" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="67.95" y="115" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.99" font-size="8.28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">fio</tspan></text>
+<path d="M68.81 104.31 L74.75 104.31 M72.45 102.93 L74.75 104.31 L72.45 105.69" fill="none" stroke="#1B4DA6" stroke-width="0.81" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="109.24" y="36" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#1B4DA6" text-anchor="start">B<tspan dy="2.99" font-size="8.28" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-style="normal">res</tspan></text>
+<path d="M110.1 25.3 L116.04 25.3 M113.74 23.93 L116.04 25.3 L113.74 26.68" fill="none" stroke="#1B4DA6" stroke-width="0.81" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 48 74 A 24 24 0 0 1 64.97 81.03" fill="none" stroke="#5C6573" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="67" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="400" fill="#5C6573" text-anchor="middle">45°</text></svg>

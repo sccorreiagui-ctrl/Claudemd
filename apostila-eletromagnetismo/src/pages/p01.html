@@ -1,0 +1,82 @@
+<div class="mast">
+  <div class="mast-art">{{svg:cover_art}}</div>
+  <div class="mast-txt">
+    <div class="kick"><span class="logo2">CTG</span> Apostila de Física · PAS 3 / UnB · 2026</div>
+    <h1>Eletromagnetismo</h1>
+    <div class="sub">Do básico ao avançado necessário — em 28 páginas</div>
+    <p class="goal">Campos e linhas de campo · regras da mão direita · forças e trajetórias · Ampère, Faraday e Lenz · motores, geradores, transformadores e ressonância magnética.</p>
+  </div>
+</div>
+
+<div class="info">
+  <div class="box">
+    <div class="bt">Como estudar</div>
+    <p>Todo tópico segue a trilha <span class="tag">Intuição</span><span class="tag">Fenômeno</span><span class="tag">Desenho</span><span class="tag">Explicação</span><span class="tag">Fórmula</span><span class="tag">Exemplo</span><span class="tag">Exercício</span></p>
+    <p class="mb0">Desenho antes da fórmula; refaça os exemplos sem olhar; respostas no pé da página.</p>
+  </div>
+  <div class="box">
+    <div class="bt">Cores com significado fixo</div>
+    <div class="legend">
+      <span class="i"><span class="sw B"></span>campo <i>B</i> externo</span>
+      <span class="i"><span class="sw P"></span>campo/efeito induzido</span>
+      <span class="i"><span class="sw O"></span>corrente convencional</span>
+      <span class="i"><span class="sw G"></span>força · resultado conferido</span>
+      <span class="i"><span class="sw C"></span>velocidade</span>
+      <span class="i"><span class="sw R"></span>polaridade · erro · alerta</span>
+    </div>
+    <p class="xs mt1 mb0">Todo vetor tem rótulo: a cor nunca é a única informação.</p>
+  </div>
+  <div class="box">
+    <div class="bt">Mapa e níveis</div>
+    <div class="chips">
+      <b>I</b><span>Fundamentos</span><i>p. 1–3</i>
+      <b>II</b><span>Fontes de campo</span><i>p. 4–9</i>
+      <b>III</b><span>Força magnética</span><i>p. 10–15</i>
+      <b>IV</b><span>Indução</span><i>p. 16–22</i>
+      <b>V</b><span>Dispositivos</span><i>p. 23–26</i>
+      <b>VI</b><span>Revisão</span><i>p. 27–28</i>
+    </div>
+    <p class="xs mt1 mb0"><span class="lv l1"><i></i><i></i><i></i></span> fundamental · <span class="lv l2"><i></i><i></i><i></i></span> intermed. · <span class="lv l3"><i></i><i></i><i></i></span> avançado PAS</p>
+  </div>
+</div>
+
+<div class="tb"><div class="num">01</div><div class="ttl"><h1>Magnetismo e campo magnético</h1><div class="lead">Ação à distância, polos inseparáveis e linhas de campo que sempre se fecham.</div></div></div>
+
+<div class="row c2 g5">
+  <div>
+    <p><span class="tag">Intuição</span>Ímãs atraem ferro, níquel e cobalto e agem uns sobre os outros sem se tocar. Essa ação à distância é descrita pelo <b>campo magnético</b>: em cada ponto do espaço há um vetor $\vB$ (módulo, direção e sentido) que mostra como uma bússola — um ímã minúsculo — se orientaria ali.</p>
+    <p><span class="tag">Fenômeno</span>Todo ímã tem dois polos, <b>norte (N)</b> e <b>sul (S)</b>. Polos de mesmo nome se repelem; polos de nomes diferentes se atraem (<x-ref f="poles_force"></x-ref>). A agulha da bússola se alinha ao campo local: a ponta N aponta no sentido de $\vB$.</p>
+    <p class="mb1"><span class="tag">Desenho</span>As <b>linhas de campo</b> (<x-ref f="magnet_field"></x-ref>) são traçadas de modo que:</p>
+    <ul>
+      <li>$\vB$ é <b>tangente</b> à linha em cada ponto e tem o sentido dela;</li>
+      <li><b>fora</b> do ímã as linhas vão de N para S e, <b>dentro</b>, de S para N: são curvas <b>fechadas</b>;</li>
+      <li>linhas mais próximas indicam $B$ maior (perto dos polos);</li>
+      <li>linhas nunca se cruzam: em cada ponto só existe um $\vB$.</li>
+    </ul>
+    <p><span class="tag">Explicação</span>Partir um ímã não separa N de S (<x-ref f="magnet_split"></x-ref>): cada pedaço volta a ter os dois polos. Nunca se observou um <b>monopolo magnético</b>; por isso as linhas de $\vB$ são sempre fechadas ($\oint\vB\cdot\dd\vA=0$: lei de Gauss do magnetismo). O magnetismo da matéria vem de momentos magnéticos atômicos (spin e movimento orbital dos elétrons), sempre dipolos.</p>
+  </div>
+  <div>
+    <x-fig name="magnet_field"><cap>Linhas de $\vB$ de um ímã em barra; bússolas alinhadas ao campo.</cap></x-fig>
+    <x-fig name="magnet_split"><cap>Partir o ímã não isola polos.</cap></x-fig>
+    <x-fig name="poles_force"><cap>Setas verdes: força sobre cada ímã.</cap></x-fig>
+    <x-box t="Unidade e ordens de grandeza">
+      <p class="small mb0">$B$ mede-se em <b>tesla</b> (T): $1\un{T}=1\un{N/(A\cdot m)}=10^{4}\un{G}$ (gauss). Terra: $25$ a $65\un{\mu T}$ · ímã de geladeira: $\approx5\un{mT}$ · ímã de neodímio (superfície): $0,1$ a $1\un{T}$ · ressonância magnética: $1,5$ a $3\un{T}$.</p>
+    </x-box>
+
+  </div>
+</div>
+
+<x-box k="hist" t="Linha do tempo" cls="tight"><div class="tl">
+  <div><b>Antiguidade</b>magnetita atrai o ferro</div>
+  <div><b>séc. XI</b>agulha magnética na navegação (China)</div>
+  <div><b>1600 · Gilbert</b>a Terra é um grande ímã</div>
+  <div><b>1820 · Oersted</b>corrente cria campo magnético</div>
+  <div><b>1831 · Faraday</b>campo variável cria corrente</div>
+  <div><b>anos 1860 · Maxwell</b>teoria unificada; luz é onda EM</div>
+</div></x-box>
+
+<x-exs t="Exercícios de fixação">
+  <x-exe n="1" l="1"><b>(Certo/Errado)</b> (a) Ao partir um ímã ao meio, obtêm-se um polo N isolado e um polo S isolado. (b) Dentro de um ímã em barra, as linhas de campo vão do polo sul ao polo norte. (c) Duas linhas de campo magnético podem se cruzar.</x-exe>
+  <x-exe n="2" l="1">(a) A extremidade do ímã A repele o polo S do ímã B: qual é a polaridade dessa extremidade? (b) Junto ao polo S de um ímã, a ponta N de uma bússola aponta para o ímã ou para longe dele?</x-exe>
+  <x-ans>E1 (a) Errado; (b) Certo; (c) Errado (em cada ponto só há um $\vB$). E2 (a) polo S (polos iguais se repelem); (b) para o ímã: as linhas de $\vB$ entram no polo S.</x-ans>
+</x-exs>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 52" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><g>
+<rect x="30" y="8" width="14" height="14" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="16" y="8" width="14" height="14" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="37" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="23" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<g>
+<rect x="82" y="8" width="14" height="14" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="68" y="8" width="14" height="14" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="89" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="75" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<line x1="43" y1="15" x2="48.93" y2="15" fill="none" stroke="#1B8F4B" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M54 15 L47.5 17.73 L48.93 15 L47.5 12.27 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="69" y1="15" x2="63.07" y2="15" fill="none" stroke="#1B8F4B" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M58 15 L64.5 12.27 L63.07 15 L64.5 17.73 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="56" y="36" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">atração</text>
+<text x="56" y="47" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.6" font-weight="400" fill="#5C6573" text-anchor="middle">polos opostos voltados</text>
+<g>
+<rect x="142" y="8" width="14" height="14" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="128" y="8" width="14" height="14" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="149" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="135" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<g>
+<rect x="180" y="8" width="14" height="14" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="194" y="8" width="14" height="14" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="187" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="201" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<line x1="129" y1="15" x2="120.07" y2="15" fill="none" stroke="#1B8F4B" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M115 15 L121.5 12.27 L120.07 15 L121.5 17.73 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="207" y1="15" x2="215.93" y2="15" fill="none" stroke="#1B8F4B" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M221 15 L214.5 17.73 L215.93 15 L214.5 12.27 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="168" y="36" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">repulsão</text>
+<text x="168" y="47" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.6" font-weight="400" fill="#5C6573" text-anchor="middle">polos iguais voltados</text>
+<g>
+<rect x="240" y="8" width="14" height="14" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="254" y="8" width="14" height="14" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="247" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="261" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<g>
+<rect x="306" y="8" width="14" height="14" rx="0" fill="#C8302F" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="292" y="8" width="14" height="14" rx="0" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="313" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+<text x="299" y="18.23" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#A82221" text-anchor="middle">S</text>
+</g>
+<line x1="241" y1="15" x2="232.07" y2="15" fill="none" stroke="#1B8F4B" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M227 15 L233.5 12.27 L232.07 15 L233.5 17.73 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<line x1="319" y1="15" x2="327.93" y2="15" fill="none" stroke="#1B8F4B" stroke-width="1.9" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M333 15 L326.5 17.73 L327.93 15 L326.5 12.27 Z" fill="#1B8F4B" stroke="#1B8F4B" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="280" y="36" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9" font-weight="700" fill="#1A2230" text-anchor="middle">repulsão</text>
+<text x="280" y="47" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="7.6" font-weight="400" fill="#5C6573" text-anchor="middle">polos iguais voltados</text></svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 92" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif"><circle cx="20" cy="24" r="12" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="20" cy="24" r="3.36" fill="#2563C9" stroke="none"/>
+<text x="40" y="21" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1B4DA6" text-anchor="start">saindo do plano</text>
+<text x="40" y="33" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">vê-se a ponta da seta</text>
+<circle cx="20" cy="66" r="12" fill="#FFFFFF" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="14.23" y1="60.23" x2="25.77" y2="71.77" fill="none" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="14.23" y1="71.77" x2="25.77" y2="60.23" fill="none" stroke="#2563C9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="40" y="63" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.4" font-weight="700" fill="#1B4DA6" text-anchor="start">entrando no plano</text>
+<text x="40" y="75" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">veem-se as penas (cauda)</text>
+<path d="M242 80 L186 80 L186 32 L322 32 L322 80 L266 80" fill="none" stroke="#1A2230" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="248" y1="66.5" x2="248" y2="93.5" fill="none" stroke="#1A2230" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="260" y1="71.75" x2="260" y2="88.25" fill="none" stroke="#1A2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="244.5" y="68" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#A82221" text-anchor="middle">+</text>
+<text x="263.5" y="68" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10" font-weight="700" fill="#A82221" text-anchor="middle">−</text>
+<line x1="226" y1="32" x2="263.76" y2="32" fill="none" stroke="#E8710A" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M270 32 L262 35.36 L263.76 32 L262 28.64 Z" fill="#E8710A" stroke="#E8710A" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="245.9" y="27" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="11.5" font-style="italic" fill="#A94E00" text-anchor="start">I</text>
+<line x1="294" y1="46" x2="257.46" y2="46" fill="none" stroke="#0E9FBC" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M252 46 L259 43.06 L257.46 46 L259 48.94 Z" fill="#0E9FBC" stroke="#0E9FBC" stroke-width="0.4" stroke-linejoin="round"/>
+<text x="273" y="57" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8" font-weight="700" fill="#0A748A" text-anchor="middle">elétrons</text>
+<text x="182" y="10" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#A94E00" text-anchor="start">corrente convencional: do + para o −</text></svg>
