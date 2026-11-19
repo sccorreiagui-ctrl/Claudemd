@@ -23,8 +23,7 @@ def F_vs_theta(W=336, H=156):
         pl.dot(t, math.sin(math.radians(t)), 'green')
     for t in (0, 180):
         pl.dot(t, 0.0, 'red')
-    s.text(pl.X(90), pl.Y(1.0) - 8, 'θ = 90°: F máxima (v ⟂ B)', 8.4, 'green', weight=700, plate=True)
-    s.text(pl.X(30) + 6, pl.Y(0.5) - 8, '30°: F = F_{máx}/2', 8.2, 'green', anchor='start', weight=700, plate=True) if False else None
+    s.text(pl.X(90), pl.Y(1.0) - 8, 'θ = 90°: F máxima (v ⊥ B)', 8.4, 'green', weight=700, plate=True)
     s.text(pl.X(8), pl.Y(0.0) - 8, 'v ∥ B: F = 0', 8.2, 'red', anchor='start', weight=700)
     s.text(pl.X(172), pl.Y(0.0) - 8, 'v ∥ B (oposto): F = 0', 8.2, 'red', anchor='end', weight=700)
     s.text(pl.X(30) - 5, pl.Y(0.5) - 6, '0,5', 8.2, 'green', anchor='end', weight=700)
@@ -51,16 +50,15 @@ def charge_in_B(W=336, H=150):
     s.arrow(O, tip, 'cyan', 2.6, head=9)
     s.vtext(tip[0] + 10, tip[1] - 2, 'v', size=12.5, color='cyan', plate=True)
     s.text(O[0] + L * v[0] / 2, O[1] + 13, 'v cos θ  (∥ B)', 8.2, 'cyan', weight=700)
-    s.text(tip[0] + 8, O[1] - L * v[1] / 2 + 14, 'v sen θ (⟂ B)', 8.2, 'cyan', anchor='start', weight=700)
+    s.text(tip[0] + 8, O[1] - L * v[1] / 2 + 14, 'v sen θ (⊥ B)', 8.2, 'cyan', anchor='start', weight=700)
     s.path(f'M {O[0] + 36} {O[1]} A 36 36 0 0 0 {O[0] + 36 * math.cos(theta):.2f} {O[1] - 36 * math.sin(theta):.2f}', stroke='gray', w=1.1)
     s.text(O[0] + 48, O[1] - 7, 'θ', 10.5, 'gray', weight=700)
     s.charge((O[0], O[1]), '+', 7.5, 'red')
     # F: ⊗ (entrando) para q > 0
     s.sym_in((O[0] - 38, O[1] - 38), 8.5, 'green', 2.0)
     s.vtext(O[0] - 56, O[1] - 36, 'F', size=12.5, color='green')
-    s.text(O[0] - 38, O[1] - 54, 'F entrando na página (q > 0)', 8.2, 'green', anchor='start', weight=700) if False else None
     s.text(8, 15, 'F = |q| v B sen θ', 9.6, 'green', anchor='start', weight=700)
-    s.text(8, 27, 'F ⟂ v e F ⟂ B', 8.4, 'green', anchor='start')
+    s.text(8, 27, 'F ⊥ v e F ⊥ B', 8.4, 'green', anchor='start')
     s.save()
     return s
 
@@ -77,7 +75,7 @@ def electron_beam(W=336, H=120):
     s.text(x0 + w / 2, 11, 'B entrando', 8.6, 'blue', weight=700)
     # canhão e anteparo
     s.rect(6, y0 - 10, 26, 20, 3, fill='gray', stroke='gray', sw=1.0)
-    s.text(19, y0 + 4, 'e⁻', 9.5, 'white', weight=700)
+    s.text(19, y0 + 4, 'e^{−}', 9.5, 'white', weight=700)
     xs = 292
     s.line((xs, 18), (xs, H - 12), 'ink', 3.0)
     s.text(xs + 6, 14, 'tela', 8.2, 'gray', anchor='start')
@@ -187,10 +185,12 @@ def force_drill(W=680, H=104):
             for off in (-30, 0, 30):
                 if abs(B[1]) > 0.5:
                     xx = cx + off * 1.4
-                    s.arrow((xx, cy + 36 * (1 if B[1] < 0 else -1) * -1 if False else cy + 34), (xx, cy - 34), 'blue', 1.3, head=6, opacity=0.55) if B[1] > 0 else s.arrow((xx, cy - 34), (xx, cy + 34), 'blue', 1.3, head=6, opacity=0.55)
+                    ya, yb_ = (cy + 34, cy - 34) if B[1] > 0 else (cy - 34, cy + 34)          # B para cima (+y) ou para baixo
+                    s.arrow((xx, ya), (xx, yb_), 'blue', 1.3, head=6, opacity=0.55)
                 else:
                     yy = cy + off * 1.0
-                    s.arrow((cx - 44, yy), (cx + 44, yy), 'blue', 1.3, head=6, opacity=0.55) if B[0] > 0 else s.arrow((cx + 44, yy), (cx - 44, yy), 'blue', 1.3, head=6, opacity=0.55)
+                    xa, xb_ = (cx - 44, cx + 44) if B[0] > 0 else (cx + 44, cx - 44)          # B para a direita (+x) ou esquerda
+                    s.arrow((xa, yy), (xb_, yy), 'blue', 1.3, head=6, opacity=0.55)
         s.charge((cx, cy), '+' if q > 0 else '−', 7.5, 'red')
         s.arrow((cx, cy), (cx + v[0] * 34, cy - v[1] * 34), 'cyan', 2.4, head=8.5)
     s.save()
@@ -238,17 +238,16 @@ def spectrometer(W=336, H=170):
     s.arrow((x0, y0 + 26), (x0, y0 + 4), 'cyan', 2.4, head=8.5)
     s.vtext(x0 + 14, y0 + 20, 'v', size=12, color='cyan')
     B = -Z_
-    for r, lab, col in ((38, 'r₁', 'gray'), (62, 'r₂', 'gray')):
+    for r, lab, col in ((38, 'r1', 'gray'), (62, 'r2', 'gray')):
         # íons +: entram para cima, F = q v × B aponta para a esquerda (confere em v=+y)
         assert np.allclose(force(+1, Y_, B), -X_)
         pts = [(x0 - r + r * math.cos(t), y0 - r * math.sin(t)) for t in np.linspace(0, math.pi, 60)]
         s.polyline(pts, 'green', 2.2)
         s.arrow_at(pts, 0.5, 'green', 2.2, head=8)
         s.circle((x0 - 2 * r, y0), 3.4, fill=STROKE['red'], stroke='white', w=1.0)
-    s.text(x0 - 38, y0 - 44, 'r₁', 9.5, 'gray', weight=700) if False else None
     s.text(x0 - 38 - 2, y0 - 38 - 8, 'íon mais leve', 8.2, 'green', weight=700, plate=True)
     s.text(x0 - 62 - 2, y0 - 62 - 8, 'íon mais pesado', 8.2, 'green', weight=700, plate=True)
-    s.text(x0 - 76, y0 + 13, '2r₁', 8.4, 'ink', weight=700); s.text(x0 - 124, y0 + 13, '2r₂', 8.4, 'ink', weight=700)
+    s.text(x0 - 76, y0 + 13, '2*r*_{1}', 8.4, 'ink', weight=700); s.text(x0 - 124, y0 + 13, '2*r*_{2}', 8.4, 'ink', weight=700)
     s.text(6, 14, 'espectrômetro de massa', 9.2, 'navy', anchor='start', weight=700)
     s.text(6, 26, 'mesma carga e velocidade:', 8.2, 'ink', anchor='start')
     s.text(6, 36, 'r = mv/(|q|B) ∝ m', 8.2, 'ink', anchor='start')
@@ -263,11 +262,11 @@ def _helix_pts(r, vpar, omega, t0, t1, n=200):
     return np.array([[vpar * t, r * math.sin(omega * t), r * math.cos(omega * t)] for t in ts])
 
 
-def trajectories(W=680, H=172):
+def trajectories(W=680, H=184):
     from svglib import Obl
     s = Svg(W, H, 'trajectories')
     pw = W / 3
-    titles = ['θ = 0° ou 180°: v ∥ B', 'θ = 90°: v ⟂ B', '0° < θ < 90°: hélice']
+    titles = ['θ = 0° ou 180°: v ∥ B', 'θ = 90°: v ⊥ B', '0° < θ < 90°: hélice']
     for k in range(3):
         x0 = pw * k
         s.rect(x0 + 3, 3, pw - 6, H - 6, 4, fill='white', stroke='light', sw=1.0)
@@ -278,10 +277,10 @@ def trajectories(W=680, H=172):
         s.arrow(c.P((0, off, 0)), c.P((196, off, 0)), 'blue', 1.3, head=6.5, opacity=0.55)
     s.arrow(c.P((0, 0, 0)), c.P((160, 0, 0)), 'cyan', 2.6, head=9)
     s.charge(c.P((0, 0, 0)), '+', 7.0, 'red')
-    s.vtext(c.P((160, 0, 0))[0] - 6, c.P((160, 0, 0))[1] - 11, 'v', size=12, color='cyan', plate=True)
+    s.vtext(c.P((160, 0, 0))[0] - 8, c.P((160, 0, 0))[1] + 15, 'v', size=12, color='cyan')
     s.vtext(c.P((196, 22, 0))[0] - 4, c.P((196, 22, 0))[1] - 8, 'B', size=12, color='blue', plate=True)
-    s.text(pw / 2, 146, 'F = 0: movimento retilíneo uniforme', 8.6, 'green', weight=700)
-    # (b) v ⟂ B
+    s.text(pw / 2, 158, 'F = 0: movimento retilíneo uniforme', 8.6, 'green', weight=700)
+    # (b) v ⊥ B
     c2 = Obl(0.8, 24, 1.0, pw + 108, 92)
     r = 36.0
     ring = [c2.P((0, r * math.sin(t), r * math.cos(t))) for t in np.linspace(0, 2 * math.pi, 120)]
@@ -299,8 +298,12 @@ def trajectories(W=680, H=172):
     s.charge(P, '+', 6.6, 'red')
     pv, pf = c2.P(pos + 26 * v), c2.P(pos + 26 * F)
     s.vtext(pv[0] + 10, pv[1] - 2, 'v', size=12, color='cyan', plate=True)
-    s.vtext(pf[0] - 10, pf[1] + 12, 'F', size=12, color='green', plate=True)
-    s.text(pw + pw / 2, 146, 'F centrípeta: movimento circular uniforme', 8.6, 'green', weight=700)
+    pmid = c2.P(pos + 13 * F)
+    s.vtext(pmid[0] + 14, pmid[1] + 2, 'F', size=12, color='green', plate=True)
+    cb, bot = c2.P((0, 0, 0)), c2.P((0, -r, 0))
+    s.line(cb, bot, 'ink', 1.1, dash='3 2')
+    s.text(cb[0] - 6, (cb[1] + bot[1]) / 2 + 4, '*r*', 9.6, 'ink', anchor='end')
+    s.text(pw + pw / 2, 158, 'F centrípeta: movimento circular uniforme', 8.6, 'green', weight=700)
     # (c) hélice
     c3 = Obl(0.8, 24, 1.0, 2 * pw + 18, 96)
     rr, p_ = 24.0, 40.0                           # raio e passo (px)
@@ -314,7 +317,7 @@ def trajectories(W=680, H=172):
     pm = np.array([t_m, rr * math.sin(om * t_m), rr * math.cos(om * t_m)])
     vm = np.array([1.0, rr * om * math.cos(om * t_m), -rr * om * math.sin(om * t_m)])
     Fm = force(+1, vm, X_)
-    assert abs(np.dot(Fm, vm)) < 1e-9 and abs(Fm[0]) < 1e-12                # F ⟂ v e F ⟂ B
+    assert abs(np.dot(Fm, vm)) < 1e-9 and abs(Fm[0]) < 1e-12                # F ⊥ v e F ⊥ B
     vm_u = vm / np.linalg.norm(vm) * 30
     Fm_u = Fm / np.linalg.norm(Fm) * 24
     s.line(c3.P(pm), c3.P(pm + np.array([vm_u[0], 0, 0])), 'cyan', 1.1, dash='3 3')
@@ -323,7 +326,7 @@ def trajectories(W=680, H=172):
     s.charge(c3.P(pm), '+', 6.2, 'red')
     s.vtext(c3.P(pm + vm_u)[0] + 10, c3.P(pm + vm_u)[1] - 2, 'v', size=12, color='cyan', plate=True)
     s.vtext(c3.P(pm + Fm_u)[0] - 4, c3.P(pm + Fm_u)[1] + 15, 'F', size=12, color='green', plate=True)
-    # vista ao longo de B: F ⟂ v⟂ (ângulo reto visível)
+    # vista ao longo de B: F ⊥ v⊥ (ângulo reto visível)
     ix, iy, ir = 2 * pw + 40, 52, 17
     s.circle((ix, iy), ir, fill='white', stroke='gray', w=1.2, dash='3 3')
     a2 = math.radians(40)
@@ -335,9 +338,17 @@ def trajectories(W=680, H=172):
     s.line((pt[0] - 6 * math.cos(a2) + 6 * vperp[0] * 0, pt[1] + 6 * math.sin(a2)), (pt[0] - 6 * math.cos(a2) + 6 * vperp[0], pt[1] + 6 * math.sin(a2) - 6 * vperp[1]), 'gray', 0.9)
     s.circle((ix, iy), 1.8, fill='ink', stroke=None)
     s.text(ix + 26, iy - 4, 'vista ao longo de B:', 7.8, 'gray', anchor='start')
-    s.text(ix + 26, iy + 6, 'F ⟂ v⟂ (e F ⟂ B)', 7.8, 'gray', anchor='start')
-    s.text(2 * pw + pw / 2, 146, 'v∥ (MRU) + v⟂ (MCU): movimento helicoidal', 8.6, 'green', weight=700)
-    s.text(2 * pw + pw / 2, 160, 'F ⟂ v em todos os pontos da trajetória', 8.2, 'ink')
+    s.text(ix + 26, iy + 6, 'F ⊥ v⊥ (e F ⊥ B)', 7.8, 'gray', anchor='start')
+    a3 = math.radians(205)
+    q3 = (ix + ir * math.cos(a3), iy - ir * math.sin(a3))
+    s.line((ix, iy), q3, 'ink', 1.1)
+    s.text(ix + 0.5 * ir * math.cos(a3) + 2, iy - 0.5 * ir * math.sin(a3) + 9, '*r*', 9.2, 'ink', anchor='start')
+    yb = -(rr + 15)
+    pa, pb = c3.P((1.0 * p_, yb, 0)), c3.P((2.0 * p_, yb, 0))
+    s.line(pa, pb, 'ink', 1.1); s.line((pa[0], pa[1] - 3.5), (pa[0], pa[1] + 3.5), 'ink', 1.1); s.line((pb[0], pb[1] - 3.5), (pb[0], pb[1] + 3.5), 'ink', 1.1)
+    s.text(pb[0] + 8, pb[1] + 3.5, '*p* (passo)', 8.6, 'ink', anchor='start', weight=700)
+    s.text(2 * pw + pw / 2, 158, 'v∥ (MRU) + v⊥ (MCU): movimento helicoidal', 8.6, 'green', weight=700)
+    s.text(2 * pw + pw / 2, 172, 'F ⊥ v em todos os pontos da trajetória', 8.2, 'ink')
     s.save()
     return s
 
@@ -387,7 +398,6 @@ def wire_angle(W=336, H=140):
     M = (O[0] + ln * L_[0] / 2, O[1] - ln * L_[1] / 2)
     s.sym_in((M[0] - 18, M[1] - 30), 8.5, 'green', 2.0)
     s.vtext(M[0] - 2, M[1] - 27, 'F', size=12.5, color='green')
-    s.text(E[0] + 6, O[1] + 12, 'comprimento efetivo: L sen θ', 8.2, 'gray', anchor='end') if False else None
     s.text(W - 8, H - 22, 'F = B I L sen θ', 9.6, 'green', anchor='end', weight=700, plate=True)
     s.text(W - 8, H - 10, 'F entrando na página (I × B)', 8.4, 'green', anchor='end', plate=True)
     s.save()
@@ -455,7 +465,6 @@ def wire_arc(W=336, H=132):
     s.line((cx - R, cy + 12), (cx + R, cy + 12), 'gray', 1.0)
     s.line((cx - R, cy + 8), (cx - R, cy + 16), 'gray', 1.0); s.line((cx + R, cy + 8), (cx + R, cy + 16), 'gray', 1.0)
     s.text(cx, cy + 25, 'corda = 2R', 8.8, 'gray', weight=700)
-    s.text(cx - R - 8, cy - 14, 'I', size=11, color='orange') if False else None
     s.text(W - 8, 20, 'fio em arco, I = 3,0 A', 8.8, 'orange', anchor='end', weight=700)
     s.text(W - 8, 32, 'B = 0,20 T entrando', 8.6, 'blue', anchor='end', weight=700)
     s.text(W - 8, 44, 'F = B I (2R), para cima', 8.8, 'green', anchor='end', weight=700)

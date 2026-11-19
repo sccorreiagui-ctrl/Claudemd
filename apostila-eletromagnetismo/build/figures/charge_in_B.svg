@@ -15,7 +15,7 @@
 <text x="166.35" y="46.29" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12.5" font-style="italic" fill="#0A748A" text-anchor="start">v</text>
 <path d="M167.11 34.67 L172.41 34.67 M169.91 33.17 L172.41 34.67 L169.91 36.17" fill="none" stroke="#0A748A" stroke-width="0.88" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="122.77" y="123" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#0A748A" text-anchor="middle">v cos θ  (∥ B)</text>
-<text x="167.54" y="93.15" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#0A748A" text-anchor="start">v sen θ (⟂ B)</text>
+<text x="167.54" y="93.15" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#0A748A" text-anchor="start">v sen θ (⊥ B)</text>
 <path d="M 122.0 110.0 A 36 36 0 0 0 113.58 86.86" fill="none" stroke="#5C6573" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="134" y="103" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="10.5" font-weight="700" fill="#5C6573" text-anchor="middle">θ</text>
 <circle cx="86" cy="110" r="7.5" fill="#FFFFFF" stroke="#C8302F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -27,4 +27,4 @@
 <text x="26.43" y="74" font-family="'Source Serif 4','KaTeX_Main',Georgia,serif" font-size="12.5" font-style="italic" fill="#14703A" text-anchor="start">F</text>
 <path d="M27.28 62.38 L33.22 62.38 M30.72 60.88 L33.22 62.38 L30.72 63.88" fill="none" stroke="#14703A" stroke-width="0.88" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="8" y="15" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.6" font-weight="700" fill="#14703A" text-anchor="start">F = |q| v B sen θ</text>
-<text x="8" y="27" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#14703A" text-anchor="start">F ⟂ v e F ⟂ B</text></svg>
+<text x="8" y="27" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="400" fill="#14703A" text-anchor="start">F ⊥ v e F ⊥ B</text></svg>

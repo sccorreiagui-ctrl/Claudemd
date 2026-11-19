@@ -261,3 +261,7 @@ table.tbl{ border-collapse:collapse; width:100%; font:400 7.6pt/1.25 var(--sans)
 .tl3{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.6mm 2.2mm; }
 .tl3 > div{ border-top:.45mm solid #B9A870; padding-top:.7mm; font:400 6.9pt/1.22 var(--sans); }
 .tl3 b{ display:block; font:800 7.2pt/1.2 var(--sans); color:#6F5E2C; }
+
+/* matemática dentro de rótulos em caixa-alta: preserva maiúsculas/minúsculas (ε ≠ Ε, v ≠ V) */
+.katex, .katex *{ text-transform:none; letter-spacing:normal; }
+.box > .bt .katex, .fc-h .katex{ font-size:1.3em; }

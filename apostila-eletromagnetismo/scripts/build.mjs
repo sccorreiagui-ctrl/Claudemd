@@ -63,7 +63,7 @@ function warn(m) { warnings.push(m); console.warn('  ! ' + m); }
 
 // ---------------------------------------------------------------- transformação de uma página
 function buildBody(n, raw) {
-  const html = processMath(raw);
+  const html = processMath(raw.replace(/\{\{svg:([A-Za-z0-9_]+)\}\}/g, (_, nm) => readSvg(nm, '')).replace(/✓/g, OK_ICON));   // o glifo ✓ não existe nas fontes do livro: usa o ícone vetorial
   const $ = cheerio.load(html, { xmlMode: false, decodeEntities: false }, false);
   let figNo = 0;
   const figMap = {};

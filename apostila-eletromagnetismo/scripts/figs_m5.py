@@ -66,7 +66,7 @@ def generator_two(W=680, H=176):
     s = Svg(W, H, 'generator_two')
     pw = W / 2
     B = X_.copy()
-    for k, (deg, title, t2) in enumerate(((0, 'plano ⟂ B (θ = 0°)', 'Φ máximo · ε = 0'), (90, 'plano ∥ B (θ = 90°)', 'Φ = 0 · |ε| máxima'))):
+    for k, (deg, title, t2) in enumerate(((0, 'plano ⊥ B (θ = 0°)', 'Φ máximo · ε = 0'), (90, 'plano ∥ B (θ = 90°)', 'Φ = 0 · |ε| máxima'))):
         x0 = pw * k
         s.rect(x0 + 3, 3, pw - 6, H - 6, 4, fill='white', stroke='light', sw=1.0)
         s.text(x0 + pw / 2, 17, title, 9.4, 'navy', weight=700)
@@ -76,7 +76,7 @@ def generator_two(W=680, H=176):
         s.arrow((x0 + 28, 88), (x0 + pw - 28, 88), 'blue', 1.2, head=6, opacity=0.5) if deg == 0 else None
         s.vtext(x0 + pw - 40, 62, 'B', size=12, color='blue', plate=True)
         th = math.radians(deg)
-        # lados em ±R perpendicular ao plano da espira; plano a θ com a normal... posição inicial: plano ⟂ B (lados em (0, ±R)) para θ=0
+        # lados em ±R perpendicular ao plano da espira; plano a θ com a normal... posição inicial: plano ⊥ B (lados em (0, ±R)) para θ=0
         a = th + math.pi / 2                                          # ângulo do lado "superior" (anti-horário, ωt = θ)
         sides = [np.array([R * math.cos(a), R * math.sin(a), 0.0]), -np.array([R * math.cos(a), R * math.sin(a), 0.0])]
         omega = np.array([0, 0, 1.0])
@@ -102,7 +102,6 @@ def generator_two(W=680, H=176):
         s.carrow([(cx + 62 * math.cos(math.radians(a_)), cy - 62 * math.sin(math.radians(a_))) for a_ in range(-30, 31, 6)], 'gray', 1.6, head=7)
         s.text(cx - 76, cy - 4, 'ω', 11, 'gray', anchor='end', weight=700)
         s.text(x0 + pw / 2, 164, t2, 8.8, 'green', weight=700)
-        s.text(x0 + 10, 160, 'v (ciano)', 7.8, 'cyan', anchor='start') if False else None
     s.save()
     return s
 
@@ -182,7 +181,6 @@ def transformer(W=680, H=166):
         s.polyline([(Rr + 46, Bm - 20), (Rr + 12, Bm - 20)], 'ink', 1.5)
         s.text(x0 + 40, Bm + 16, 'U_{p}, I_{p}', 9, 'orange', weight=700)
         s.text(Rr + 46, Bm + 16, 'U_{s}, I_{s}', 9, 'orange', weight=700)
-        s.text(L, T + 12 + (Bm - T) / 2 + 40, f'N_{{p}} = {np_ * 100 // 3}'.replace('N_{p} = ', 'N_{p} = '), 9, 'orange', weight=700) if False else None
         s.text(L - 20, (T + Bm) / 2 + 4, 'N_{p}', 9.4, 'orange', anchor='end', weight=700)
         s.text(Rr + 20, (T + Bm) / 2 + 4, 'N_{s}', 9.4, 'orange', anchor='start', weight=700)
         s.text(x0 + pw / 2, H - 14, ineq, 9.6, 'green', weight=700)
@@ -336,7 +334,7 @@ def decision_flowchart(W=680, H=262):
             ('vários fios; simetria', 'soma VETORIAL; Ampère')]),
         ('FORÇA MAGNÉTICA', 'green', [
             ('força sobre carga', 'F = q v × B;  |q|vB sen θ'),
-            ('trajetória circular ou hélice', 'r = m v_{⟂}/(|q|B);  p = v_{∥}T'),
+            ('trajetória circular ou hélice', 'r = m v_{⊥}/(|q|B);  p = v_{∥}T'),
             ('força sobre fio / torque', 'F = BIL sen θ;  τ = NBIA sen φ'),
             ('força entre fios paralelos', 'B de um fio → força no outro'),
             ('(todas) sentido da força', 'v × B ou tapa; q < 0 inverte')]),

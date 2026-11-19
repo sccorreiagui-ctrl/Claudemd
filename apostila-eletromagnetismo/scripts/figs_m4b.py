@@ -56,7 +56,6 @@ def lenz_four(W=680, H=214):
         s.vtext(mx + 22, 68, 'v', size=10.5, color='cyan', anchor='middle', arrow=False)
         # B_ext e B_ind no centro do anel
         cc = c.P((0, 0, 0))
-        s.arrow((cc[0] - 18 * Bext[0] * -1 if False else cc[0], cc[1] + 52), (cc[0] + 28 * Bext[0], cc[1] + 52), 'blue', 2.2, head=8) if False else None
         yb = 150
         s.arrow((x0 + pw / 2 - 18 * Bext[0], yb), (x0 + pw / 2 + 18 * Bext[0], yb), 'blue', 2.4, head=8.5)
         s.text(x0 + 10, yb + 4, 'B_{ext}', 8.8, 'blue', anchor='start', weight=700)
@@ -67,7 +66,6 @@ def lenz_four(W=680, H=214):
         ix, iy = x0 + 14, 194
         s.circle((ix, iy), 7, fill='none', stroke='orange', w=1.6)
         aa = math.radians(60); sg2 = 1 if ccw else -1
-        s._head((ix + 7 * math.cos(aa) + sg2 * math.sin(aa) * 3, iy - 7 * math.sin(aa) + sg2 * math.cos(aa) * 3), (ix + 7 * math.cos(aa) - sg2 * math.sin(aa) * 3, iy - 7 * math.sin(aa) - sg2 * math.cos(aa) * 3), 'orange', 6, None, 1.6) if False else None
         s.text(x0 + pw / 2, 207, ('face do anel: ' + ring_face + ' → ' + ('repele' if repels else 'atrai') + ' o ímã'), 8.2, 'red', weight=700)
     s.save()
     return table
@@ -124,15 +122,11 @@ def moving_rod(W=336, H=186):
     s.arrow((xr_rod - 8, (yt + yb) / 2 + 24), (xr_rod - 46, (yt + yb) / 2 + 24), 'green', 3.0, head=10)
     s.vtext(xr_rod - 58, (yt + yb) / 2 + 28, 'F', sub='mag', size=11.5, color='green', plate=True)
     # corrente anti-horária: sobe na haste, vai para a esquerda em cima, desce em R, volta pela base
-    s.arrow((xr_rod - 4, yb - 14), (xr_rod - 4, yt + 18), 'orange', 2.6, head=8.5) if False else None
     s.arrow((xr_rod - 12, yt), (xr_rod - 60, yt), 'orange', 2.6, head=8.5)
     s.arrow((xl + 40, yb), (xl + 92, yb), 'orange', 2.6, head=8.5)
-    s.arrow((xl, yt + 14), (xl, yt + 34), 'orange', 2.6, head=8.5) if False else None
-    s.arrow((xr_rod - 3, yb - 20), (xr_rod - 3, yb - 44), 'orange', 2.6, head=8.5) if False else None
     s.vtext(xl + 66, yb + 15, 'I', size=11.5, color='orange', arrow=False)
     s.line((xr + 6, yt), (xr + 6, yb), 'gray', 1.0)
     s.line((xr + 2, yt), (xr + 10, yt), 'gray', 1.0); s.line((xr + 2, yb), (xr + 10, yb), 'gray', 1.0)
-    s.text(xr + 6, (yt + yb) / 2 + 3, 'L', 10, 'gray', weight=700) if False else None
     s.text(xr - 6, (yt + yb) / 2 + 3, 'L', 10, 'gray', anchor='start', weight=700)
     s.line((xl, yb + 22), (xr_rod, yb + 22), 'gray', 1.0)
     s.line((xl, yb + 18), (xl, yb + 26), 'gray', 1.0); s.line((xr_rod, yb + 18), (xr_rod, yb + 26), 'gray', 1.0)
@@ -212,7 +206,6 @@ def incline_side(W=336, H=186):
     s.vtext(ox + 30, oy - 30 * math.tan(alpha) - 70, 'B', size=12, color='blue', plate=True)
     # forças em c: P (baixo), N (normal), F (horizontal, para a direita = lado alto)
     s.arrow(cpos, (cpos[0], cpos[1] + P * sc), 'ink', 2.6, head=9)
-    s.vtext(cpos[0] + 8, cpos[1] + P * sc + 4, 'P', size=11.5, color='ink', arrow=True, anchor='start') if False else None
     s.arrow(cpos, (cpos[0] + nx * N * sc, cpos[1] + ny * N * sc), 'ink', 2.6, head=9)
     s.arrow(cpos, (cpos[0] + Fm * sc, cpos[1]), 'green', 3.0, head=10)
     # componentes: F cos α (ao longo), F sen α (perpendicular, para dentro da rampa) e P sen α (ao longo, para baixo)
@@ -255,7 +248,6 @@ def incline_top(W=336, H=150):
     s.text(8, 14, 'vista de cima: B vertical (saindo da página)', 8.8, 'navy', anchor='start', weight=700)
     s.text(8, H - 22, 'a haste desce a rampa, a área aumenta,', 8.4, 'ink', anchor='start')
     s.text(8, H - 11, 'corrente horária (vista de cima)', 8.4, 'orange', anchor='start', weight=700)
-    s.text(xr - 4, 14, 'resistor no alto da rampa', 8.2, 'gray', anchor='end') if False else None
     s.save()
     return s
 

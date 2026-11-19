@@ -59,7 +59,6 @@ def oersted(W=336, H=176):
             s.vtext(cx + 10, 44, 'I', size=12, color='orange', arrow=False)
         for lab, dx, dy in (('N', 0, -43), ('S', 0, 53), ('L', 49, 3.5), ('O', -49, 3.5)):
             s.text(cx + dx, cy + dy, lab, 9, 'gray', weight=700, plate=True)
-        s.text(cx + 52, 30, 'fio acima da agulha', 8, 'gray', anchor='middle') if False else None
     s.text(pw * 1.5, H - 6, 'a ponta N gira para o oeste (O)', 8.6, 'green', weight=700)
     s.text(pw * 0.5, H - 6, 'fio (sem corrente) acima da agulha', 8.6, 'gray')
     s.line((pw, 6), (pw, H - 6), 'faint', 1.0)
@@ -102,7 +101,6 @@ def rhr1(W=336, H=190):
             s.arc_arrow((cx0, cy), r, 40 - 16 * sgn, 40 + 16 * sgn, 'blue', 1.5, head=8.5)
         (s.sym_out if kind == 'out' else s.sym_in)((cx0, cy), 6.0, 'orange', 1.6)
         s.text(cx0, cy + 44, 'I saindo' if kind == 'out' else 'I entrando', 8.4, 'orange', weight=700)
-        s.text(cx0 + 52, cy + 3, 'B anti-horário' if kind == 'out' else 'B horário', 8, 'blue', anchor='middle') if False else None
     s.save()
     return s
 
@@ -184,7 +182,6 @@ def wire_xsec(W=336, H=160):
         (s.sym_out if kind == 'out' else s.sym_in)((cx, cy), 7.5, 'orange', 1.8)
         s.line((cx, cy), (cx + 30 * math.cos(math.radians(-40)), cy - 30 * math.sin(math.radians(-40))), 'gray', 1.0)
         s.text(cx + 7, cy + 24, 'r', 9.5, 'gray', weight=700)
-    s.vtext(W * 0.25 + 56 + 10, 66, 'B', size=12, color='blue') if False else None
     s.vtext(W * 0.25 + 56 + 8, 82 - 34, 'B', size=12, color='blue', plate=True)
     s.vtext(W * 0.75 - 56 - 10, 82 - 34, 'B', size=12, color='blue', plate=True)
     s.text(W * 0.25, H - 7, 'B em sentido anti-horário', 8.6, 'blue', weight=700)
@@ -320,7 +317,6 @@ def square_wires(W=232, H=118):
     s.circle((cx, cy), 2.6, fill='ink', stroke=None)
     s.text(cx - 9, cy + 15, 'O', 9.6, 'ink', weight=700)
     s.vtext(cx + 8.0e-5 * 1e6 * 0.55 + 8, cy - 5, 'B', size=12, color='blue', plate=True)
-    s.text(cx + a + 14, cy - a - 4, '⊙ saindo', 8.2, 'orange', anchor='start', weight=700) if False else None
     s.text(W - 4, 16, 'topo: saindo', 8.4, 'orange', anchor='end', weight=700)
     s.text(W - 4, 28, 'base: entrando', 8.4, 'orange', anchor='end', weight=700)
     s.text(W - 4, 44, 'cada fio: 10 A', 8.4, 'ink', anchor='end')
@@ -398,7 +394,6 @@ def solenoid_section(W=336, H=176):
             P = [to_img(p[0], p[1]) for p in pts]
             s.polyline(P, 'blue', 1.1, opacity=0.9)
             s.arrow_at(P, 0.5, 'blue', 1.1, head=6.0)
-            s.arrow_at(P, 0.0 + 0.0, 'blue', 1.1, head=0.1) if False else None
     for sg in (+1, -1):
         pts, _ = F.full_line(field, (sg * 0.94 * a, 0.0), ds=0.9, bounds=bnd)
         s.polyline([to_img(p[0], p[1]) for p in pts], 'blue', 1.1, opacity=0.9)
@@ -432,7 +427,6 @@ def solenoid_profile(W=336, H=150):
     B = 0.5 * ((xs + L / 2) / np.sqrt((xs + L / 2) ** 2 + a ** 2) - (xs - L / 2) / np.sqrt((xs - L / 2) ** 2 + a ** 2))
     pl.curve(xs, B, 'blue', 2.2)
     s.rect(pl.X(-L / 2), pl.Y(0) - 7, pl.X(L / 2) - pl.X(-L / 2), 7, 0, fill='#FFF0DF', stroke=STROKE['orange'], sw=1.2)
-    s.text(pl.X(0), pl.Y(0.5), 'solenoide', 8.2, 'orange', weight=700) if False else None
     s.text(pl.X(0), pl.Y(1.0) - 9, 'centro: B ≈ μ_{0}nI', 8.4, 'blue', weight=700, plate=True)
     for xe in (-L / 2, L / 2):
         pl.dot(xe, float(0.5 * (L / math.sqrt(L ** 2 + a ** 2))), 'blue')
@@ -494,7 +488,6 @@ def ampere_sym(W=336, H=124):
     s.arrow((xb, yi - 14), (xb, yi - 24), 'gray', 1.8, head=8)
     s.arrow((xa + 52, yo), (xa + 36, yo), 'gray', 1.8, head=8)
     s.arrow((xa, yo + 22), (xa, yo + 32), 'gray', 1.8, head=8)
-    s.arrow((xa + 6, yi + 12), (xb - 6, yi + 12), 'blue', 2.2, head=8) if False else None
     s.arrow((xa + 8, yi + 12), (xb - 8, yi + 12), 'blue', 2.2, head=8)
     s.text(x0 + 76, H - 5, 'B no interior, ao longo do trecho L', 8.2, 'blue', weight=700)
     s.text(x0 + 76, 11, 'solenoide: só o lado interno conta', 8.4, 'ink', weight=700)

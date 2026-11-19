@@ -39,7 +39,7 @@
 <line x1="242" y1="124" x2="252" y2="124" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="252" y="110" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="260" y="122" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">trajetória circular ou hélice</text>
-<text x="260" y="135" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">r = m v<tspan dy="2.29" font-size="6.34" >⟂</tspan><tspan dy="-2.29">/(|q|B);  p = v</tspan><tspan dy="2.29" font-size="6.34" >∥</tspan><tspan dy="-2.29">T</tspan></text>
+<text x="260" y="135" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.8" font-weight="700" fill="#1A2230" text-anchor="start">r = m v<tspan dy="2.29" font-size="6.34" >⊥</tspan><tspan dy="-2.29">/(|q|B);  p = v</tspan><tspan dy="2.29" font-size="6.34" >∥</tspan><tspan dy="-2.29">T</tspan></text>
 <line x1="242" y1="162" x2="252" y2="162" fill="none" stroke="#5C6573" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="252" y="148" width="192" height="32" rx="4" fill="#FFFFFF" stroke="#1B8F4B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="260" y="160" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">força sobre fio / torque</text>

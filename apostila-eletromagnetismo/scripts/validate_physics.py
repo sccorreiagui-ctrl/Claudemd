@@ -121,7 +121,7 @@ def solenoid_B(point):
 
 check('solenoide (N=500 espiras, L=25 cm, I=2 A): B(centro) ≈ μ0 n I = 5,03 mT', solenoid_B([0, 0, 0])[2], MU0 * ns * Is, 0.02)
 check('solenoide: B na extremidade ≈ ½ μ0 n I', solenoid_B([0, 0, Ls / 2])[2], 0.5 * MU0 * ns * Is, 0.04)
-check('exercício E9(c): 1000 esp/m, 3,0 A → B ≈ 3,8 mT', MU0 * 1000 * 3.0, 3.8e-3, 0.01)
+check('exercício E8(c): 1000 esp/m, 3,0 A → B ≈ 3,8 mT', MU0 * 1000 * 3.0, 3.8e-3, 0.01)
 
 # modelo do ímã/espira usado nos desenhos (integrais elípticas) × fórmula
 br, bz = F.loop_B(0.0, 0.0, 1.0)
@@ -144,20 +144,20 @@ check('Ex.2 (b): ponto de B = 0 em x = −10 cm', xs[np.argmin(np.abs(By))], -0.
 
 
 def W3(IC):
-    """E7: A (x = −10 cm) e D (x = +10 cm) com 24 A ENTRANDO (−z); C em x = 0 com corrente IC (>0 saindo, <0 entrando)."""
+    """E6: A (x = −10 cm) e D (x = +10 cm) com 24 A ENTRANDO (−z); C em x = 0 com corrente IC (>0 saindo, <0 entrando)."""
     return [(-0.10, 0.0, -1, 24.0), (0.0, 0.0, +1 if IC > 0 else -1, abs(IC)), (0.10, 0.0, -1, 24.0)]
 
 
-# E7 (geometria do texto, p. 6): P em x = +5 cm, entre C e D; procura-se I_C com B(P) = 0
+# E6 (geometria do texto, p. 6): P em x = +5 cm, entre C e D; procura-se I_C com B(P) = 0
 P = [0.05, 0, 0]
 Is_ = np.linspace(-30, 30, 1201)
 Bv = np.array([B_of_wires(W3(I_), P)[1] for I_ in Is_])
-check('E7: corrente no fio C com B(P)=0 → −16 A (16 A entrando)', Is_[np.argmin(np.abs(Bv))], -16.0, 0.0, 0.06)
+check('E6: corrente no fio C com B(P)=0 → −16 A (16 A entrando)', Is_[np.argmin(np.abs(Bv))], -16.0, 0.0, 0.06)
 # quadrado de fios (topo saindo, base entrando), I = 10 A, lado 10 cm
 Wq = [(-0.05, 0.05, +1, 10.0), (0.05, 0.05, +1, 10.0), (0.05, -0.05, -1, 10.0), (-0.05, -0.05, -1, 10.0)]
 Bq = B_of_wires(Wq, [0, 0, 0])
 check('quadrado de 4 fios: B no centro = 80 μT, horizontal (+x)', [Bq[0], Bq[1]], [8.0e-5, 0.0], 2e-3, 1e-9)
-check('E6: B(20 A, 10 cm) = 40 μT; r para 50 μT = 8,0 cm; fator (3I, 2r) = 1,5',
+check('E5: B(20 A, 10 cm) = 40 μT; r para 50 μT = 8,0 cm; fator (3I, 2r) = 1,5',
       [2e-7 * 20 / 0.10, 2e-7 * 20 / 50e-6, 3 / 2], [4.0e-5, 0.08, 1.5], 1e-9)
 check('Ex.1: B_P = 80 μT, B_Q = 40 μT (12 A; 3 cm e 6 cm)', [MU0 * 12 / (2 * math.pi * 0.03), MU0 * 12 / (2 * math.pi * 0.06)], [8.0e-5, 4.0e-5], 1e-9)
 
@@ -174,14 +174,14 @@ for (wx, wy, s, I) in Wa:
     Bm += MU0 * I * np.cross(np.array([0, 0, s]), d) / (2 * math.pi * np.sum(d ** 2, axis=1)[:, None])
 circ = float(np.sum(np.sum(Bm * (pb - pa), axis=1)))
 check('Ex.5: circulação anti-horária com 6 A (⊙) e 4 A (⊗) dentro e 5 A fora = 2 μ0 = 2,5×10⁻⁶ T·m', circ, 2 * MU0, 1e-3)
-check('E10: circulação = μ0 I = 3,1×10⁻⁵ (I=25 A); B(4 cm) = 1,25×10⁻⁴; B(8 cm) = 6,3×10⁻⁵',
+check('E9: circulação = μ0 I = 3,1×10⁻⁵ (I=25 A); B(4 cm) = 1,25×10⁻⁴; B(8 cm) = 6,3×10⁻⁵',
       [MU0 * 25, 2e-7 * 25 / 0.04, 2e-7 * 25 / 0.08], [3.14e-5, 1.25e-4, 6.25e-5], 5e-3)
 
 # =================================================================================== 3. FORÇA SOBRE CARGAS
 section('3. Força sobre cargas e trajetórias (RK4 da equação de Lorentz)')
 check('Ex.6: F = |q| v B sen30° = 8,0×10⁻¹⁴ N; F/P ≈ 5×10¹²',
       [E_ * 2e6 * 0.5 * 0.5, E_ * 2e6 * 0.5 * 0.5 / (MP * 10)], [8.0e-14, 4.8e12], 1e-2)
-check('E11: (a) 9,6e-16; (b) 4,8e-16; (e) B = 0,40 T', [E_ * 3e6 * 2e-3, E_ * 3e6 * 2e-3 * 0.5, 4.0e-3 / (2e-6 * 5e3)],
+check('E10: (a) 9,6e-16; (b) 4,8e-16; (e) B = 0,40 T', [E_ * 3e6 * 2e-3, E_ * 3e6 * 2e-3 * 0.5, 4.0e-3 / (2e-6 * 5e3)],
       [9.6e-16, 4.8e-16, 0.40], 1e-9)
 check('Ex.7: v×B para (+q, B⊗) = +y; (−q) = −y; (+q, B⊙) = −y',
       [np.cross(X, -Z)[1], -np.cross(X, -Z)[1], np.cross(X, Z)[1]], [1, -1, -1], 0, 1e-12)
@@ -189,7 +189,7 @@ check('Ex.7: |F| = 3,2×10⁻¹⁴ N', E_ * 1e6 * 0.20, 3.2e-14, 1e-9)
 cases = [(+1, X, Y), (-1, Y, X), (+1, -X, Z), (-1, X, -Z), (+1, -Y, -Z), (-1, Y, Z)]
 expect = [Z, Z, Y, -Y, X, -X]
 for k, ((q, v, B), e) in enumerate(zip(cases, expect)):
-    truth(f'E12 ({"abcdef"[k]}): F = q v × B tem o sentido impresso', np.allclose(q * np.cross(v, B), e))
+    truth(f'E11 ({"abcdef"[k]}): F = q v × B tem o sentido impresso', np.allclose(q * np.cross(v, B), e))
 # giro: próton em B = −z gira anti-horário (sai de +x, curva para +y)
 Rr, Vv = lorentz_rk4(+E_, MP, [1e6, 0, 0], [0, 0, -0.20], 3.28e-7, 4000)
 truth('Ex.8: próton em B entrando (−z) gira no sentido anti-horário', np.cross(Rr[1] - Rr[0], Rr[2] - Rr[1])[2] > 0)
@@ -197,9 +197,9 @@ check('Ex.8: raio da órbita (RK4) = 5,2 cm', (np.max(Rr[:, 1]) - np.min(Rr[:, 1
 check('Ex.8: r = mv/(qB), T = 2πm/(qB), f', [MP * 1e6 / (E_ * 0.2), 2 * math.pi * MP / (E_ * 0.2), E_ * 0.2 / (2 * math.pi * MP)],
       [5.2e-2, 3.3e-7, 3.05e6], 0.02)
 check('Ex.8: ω = qB/m = 1,9×10⁷ rad/s', E_ * 0.2 / MP, 1.9e7, 0.02)
-check('E13: r_e/r_p = m_e/m_p = 5,4×10⁻⁴; r14/r12 = 1,17', [ME / MP, 14 / 12], [5.4e-4, 1.17], 0.02)
+check('E12: r_e/r_p = m_e/m_p = 5,4×10⁻⁴; r14/r12 = 1,17', [ME / MP, 14 / 12], [5.4e-4, 1.17], 0.02)
 vE = math.sqrt(2 * E_ * 1e3 / MP)
-check('E13(e): v = 4,4×10⁵ m/s; r = 4,6 cm', [vE, MP * vE / (E_ * 0.10)], [4.4e5, 4.6e-2], 0.02)
+check('E12(e): v = 4,4×10⁵ m/s; r = 4,6 cm', [vE, MP * vE / (E_ * 0.10)], [4.4e5, 4.6e-2], 0.02)
 # Ex.9: hélice do elétron, B = 2,0e-3 T ao longo de x, v a 60° com B
 v0 = 3e6
 vv = [v0 * math.cos(math.radians(60)), v0 * math.sin(math.radians(60)), 0]
@@ -215,7 +215,7 @@ check('Ex.9: passo = v∥ T = 2,7 cm', 1.5e6 * T_num, 2.7e-2, 0.03)
 check('Ex.9: |v| constante (W = 0)', np.max(np.abs(np.linalg.norm(Vv, axis=1) - v0)) / v0, 0.0, 0.0, 1e-6)
 check('Ex.9: v⟂² + v∥² = v²', (2.6e6) ** 2 + (1.5e6) ** 2, 9.0e12, 0.01)
 Rr, Vv = lorentz_rk4(+E_, MP, [2e5 * math.cos(math.radians(30)), 2e5 * math.sin(math.radians(30)), 0], [0.1, 0, 0], 6.56e-7, 6000)
-check('E14(e): raio ≈ 1,0 cm; passo ≈ 11 cm', [(Rr[:, 1].max() - Rr[:, 1].min()) / 2, Rr[-1, 0]], [1.04e-2, 0.1136], 0.03)
+check('E13(e): raio ≈ 1,0 cm; passo ≈ 11 cm', [(Rr[:, 1].max() - Rr[:, 1].min()) / 2, Rr[-1, 0]], [1.04e-2, 0.1136], 0.03)
 r_K = lambda m, K_eV, B: math.sqrt(2 * m * K_eV * E_) / (E_ * B)
 check('p. 12 (ordens de grandeza): CRT (e⁻ 1 keV, 1 mT) ≈ 11 cm; aurora (e⁻ 10 keV, 50 μT) ≈ 7 m; ciclotron (p 1 MeV, 1 T) ≈ 14 cm; v(1 keV) = 1,9×10⁷ m/s',
       [r_K(ME, 1e3, 1e-3), r_K(ME, 1e4, 50e-6), r_K(MP, 1e6, 1.0), math.sqrt(2 * 1e3 * E_ / ME)], [0.11, 7.0, 0.14, 1.9e7], 0.04)
@@ -224,17 +224,17 @@ check('p. 12 (ordens de grandeza): CRT (e⁻ 1 keV, 1 mT) ≈ 11 cm; aurora (e�
 section('4. Força sobre fios (integração de I dℓ × B) e entre fios')
 check('Ex.10: F = B I L sen θ: 0,20 N (30°) e 0,40 N (90°)', [0.2 * 5 * 0.4 * 0.5, 0.2 * 5 * 0.4], [0.20, 0.40], 1e-9)
 truth('Ex.10 (c): I entrando, B → : F para baixo', np.allclose(np.cross(-Z, X), -Y))
-check('E15: I = mg/(BL) = 1,0 A', [0.010 * 10 / (0.5 * 0.2)], [1.0], 1e-9)
-truth('E15 (b): L × x̂ = +ŷ ⇒ L = +ẑ (saindo da página)', np.allclose(np.cross(Z, X), Y))
+check('E14: I = mg/(BL) = 1,0 A', [0.010 * 10 / (0.5 * 0.2)], [1.0], 1e-9)
+truth('E14 (b): L × x̂ = +ŷ ⇒ L = +ẑ (saindo da página)', np.allclose(np.cross(Z, X), Y))
 th = np.linspace(math.pi, 0, 4001)
 pts = np.stack([0.10 * np.cos(th), 0.10 * np.sin(th), np.zeros_like(th)], axis=1)
 Ftot = np.sum(3.0 * np.cross(pts[1:] - pts[:-1], np.array([0, 0, -0.20])[None, :]), axis=0)
-check('E15(c): fio em semicírculo R = 10 cm, 3,0 A, 0,20 T: |F| = BI(2R) = 0,12 N (para cima)', [np.linalg.norm(Ftot), Ftot[1]], [0.12, 0.12], 1e-3)
+check('E14(c): fio em semicírculo R = 10 cm, 3,0 A, 0,20 T: |F| = BI(2R) = 0,12 N (para cima)', [np.linalg.norm(Ftot), Ftot[1]], [0.12, 0.12], 1e-3)
 check('Ex.11: F/L = 4,0×10⁻⁴ N/m; F(0,80 m) = 3,2×10⁻⁴ N', [2e-7 * 10 * 20 / 0.10, 2e-7 * 10 * 20 / 0.10 * 0.8], [4.0e-4, 3.2e-4], 1e-9)
 B1 = biot_savart(wire([0, 0, 0.0], (0, 1, 0)), 10.0, [0.10, 0, 0])
 F2 = 20.0 * 0.80 * np.cross(np.array([0, 1, 0]), B1)
 check('Ex.11 (BS numérico): força em 0,80 m do fio 2 = 3,2×10⁻⁴ N, em direção ao fio 1 (−x)', [np.linalg.norm(F2), F2[0]], [3.2e-4, -3.2e-4], 1e-3)
-check('E16: λ g = μ0 I1 I2/(2π d) ⇒ λ = 2,5×10⁻⁵ kg/m', 2e-7 * 10 * 5 / 0.040 / 10, 2.5e-5, 1e-9)
+check('E15: λ g = μ0 I1 I2/(2π d) ⇒ λ = 2,5×10⁻⁵ kg/m', 2e-7 * 10 * 5 / 0.040 / 10, 2.5e-5, 1e-9)
 
 # espira retangular perto de fio longo (p. 15): F líquida = Σ I dℓ × B, com B do fio por Biot–Savart numérico
 I1_, I2_, L_, a_, b_ = 20.0, 5.0, 0.10, 0.02, 0.06
@@ -269,15 +269,15 @@ section('5. Fluxo, Faraday e Lenz')
 check('Ex.12: Φ = 10 mWb (θ=60°), 20 mWb, 0', [0.40 * 0.05 * math.cos(math.radians(60)), 0.40 * 0.05, 0.40 * 0.05 * math.cos(math.radians(90))],
       [1.0e-2, 2.0e-2, 0.0], 1e-9, 1e-12)
 A_ = math.pi * 0.1 ** 2
-check('E17: Φ = 1,6×10⁻² Wb e 1,4×10⁻² Wb', [0.5 * A_, 0.5 * A_ * math.cos(math.radians(30))], [1.6e-2, 1.4e-2], 0.03)
+check('E16: Φ = 1,6×10⁻² Wb e 1,4×10⁻² Wb', [0.5 * A_, 0.5 * A_ * math.cos(math.radians(30))], [1.6e-2, 1.4e-2], 0.03)
 check('Ex.13: |ε| = 20 V; I = 0,50 A', [200 * 5e-3 / 0.05, 200 * 5e-3 / 0.05 / 40], [20, 0.5], 1e-9)
-check('E18: ΔΦ = 1,0×10⁻² Wb; ε = 10 V; I = 2,0 A', [0.5 * 0.02, 100 * 0.5 * 0.02 / 0.10, 100 * 0.5 * 0.02 / 0.10 / 5], [1.0e-2, 10, 2.0], 1e-9)
+check('E17: ΔΦ = 1,0×10⁻² Wb; ε = 10 V; I = 2,0 A', [0.5 * 0.02, 100 * 0.5 * 0.02 / 0.10, 100 * 0.5 * 0.02 / 0.10 / 5], [1.0e-2, 10, 2.0], 1e-9)
 t_ = np.array([0, 2, 5, 7.0])
 ph_ = np.array([0, 8, 8, -4.0]) * 1e-3
 emf = -50 * np.diff(ph_) / np.diff(t_)
 check('Ex.14: ε = [−0,20; 0; +0,30] V; Q₁ = 4,0×10⁻² C', list(emf) + [50 * 8e-3 / 10], [-0.20, 0.0, 0.30, 4.0e-2], 1e-9, 1e-12)
 emf2 = -20 * np.array([(0.40 - 0.10) / 3.0, 0.0, (0 - 0.40) / 1.0])
-check('E19: ε = [−2,0; 0; +8,0] V', emf2, [-2.0, 0.0, 8.0], 1e-9, 1e-12)
+check('E18: ε = [−2,0; 0; +8,0] V', emf2, [-2.0, 0.0, 8.0], 1e-9, 1e-12)
 check('Ex.15: |ε| = 4,0 V; I = 0,50 A', [100 * 0.02 * 0.40 / 0.20, 100 * 0.02 * 0.40 / 0.20 / 8.0], [4.0, 0.5], 1e-9)
 
 
@@ -317,7 +317,7 @@ check('Ex.17: ε = 0,60 V; I = 0,30 A; F = 0,060 N; P = 0,18 W (= εI = I²R)', 
       [0.60, 0.30, 0.060, 0.18], 1e-9)
 emf_v = float(np.dot(np.cross(X * 3.0, -Z * 0.5), Y * 0.4))
 check('Ex.17 (vetorial): ε = (v × B)·L com v = +x, B = −z, L = +y', emf_v, 0.60, 1e-9)
-check('E21: ε = 0,40 V; I = 0,10 A; F = 0,020 N; P = 0,040 W', [0.25 * 0.8 * 2.0, 0.40 / 4.0, 0.25 * 0.1 * 0.8, 0.02 * 2.0],
+check('E20: ε = 0,40 V; I = 0,10 A; F = 0,020 N; P = 0,040 W', [0.25 * 0.8 * 2.0, 0.40 / 4.0, 0.25 * 0.1 * 0.8, 0.02 * 2.0],
       [0.40, 0.10, 0.020, 0.040], 1e-9)
 
 
@@ -349,9 +349,9 @@ check('Ex.18: |ε| = 0,60 V; |I| = 0,60 A; |F| = 0,75 N', [abs(emf_), abs(I_), n
 truth('Ex.18: força magnética horizontal (F_z ≈ 0) e para o lado alto da rampa (+x)', abs(Fm_[2]) < 1e-9 and Fm_[0] > 0)
 check('Ex.18: balanço de energia m g v sen α = I²R = 0,36 W', [0.10 * 10 * vt * 0.6, I_ ** 2 * 1.0], [0.36, 0.36], 3e-3)
 vt_p, emf_p, I_p, Fm_p = incline(lambda a: np.array([-math.sin(a), 0, math.cos(a)]) * 1.25, al)
-truth('E22: com B ⟂ rampa o vetor B é perpendicular a ŝ', abs(np.dot([-math.sin(al), 0, math.cos(al)], [-math.cos(al), 0, -math.sin(al)])) < 1e-12)
-check('E22: B ⟂ rampa: v_terminal = 0,38 m/s; |I| = 0,48 A', [vt_p, abs(I_p)], [0.384, 0.48], 3e-3)
-check('E22(c): razão v_term(B vertical)/v_term(B ⟂) = 1/cos²α = 1,5625', vt / vt_p, 1 / 0.8 ** 2, 3e-3)
+truth('E21: com B ⟂ rampa o vetor B é perpendicular a ŝ', abs(np.dot([-math.sin(al), 0, math.cos(al)], [-math.cos(al), 0, -math.sin(al)])) < 1e-12)
+check('E21: B ⟂ rampa: v_terminal = 0,38 m/s; |I| = 0,48 A', [vt_p, abs(I_p)], [0.384, 0.48], 3e-3)
+check('E21(c): razão v_term(B vertical)/v_term(B ⟂) = 1/cos²α = 1,5625', vt / vt_p, 1 / 0.8 ** 2, 3e-3)
 check('Ex.18: constante de tempo τ = m/(B²L²cos²α) = 0,10 s', 0.10 / (1.25 ** 2 * 1.0 * 0.8 ** 2), 0.10, 1e-9)
 check('Ex.18: N = mg cosα + F sinα = 1,25 N', 1.0 * 0.8 + 0.75 * 0.6, 1.25, 1e-9)
 
@@ -382,7 +382,7 @@ t60, _, _ = torque_loop(100, 2.0, 0.30, 0.20, 0.10, 60)
 t0, _, _ = torque_loop(100, 2.0, 0.30, 0.20, 0.10, 0)
 check('Ex.19: τ_máx = 1,2 N·m (φ=90°); τ(60°) = 1,04 N·m; τ(0°) = 0; ΣF = 0', [t90, t60, t0, F90], [1.2, 1.04, 0.0, 0.0], 5e-3, 1e-9)
 check('Ex.19(c): F por lado longo = N B I ℓ = 12 N', 100 * 0.30 * 2.0 * 0.20, 12.0, 1e-9)
-check('E23: τ_máx = 1,2; τ(30°) = 0,60 N·m; I_partida = 6,0 A; I = 1,0 A',
+check('E22: τ_máx = 1,2; τ(30°) = 0,60 N·m; I_partida = 6,0 A; I = 1,0 A',
       [200 * 0.5 * 3.0 * 4e-3, 200 * 0.5 * 3.0 * 4e-3 * 0.5, 12 / 2.0, (12 - 10) / 2.0], [1.2, 0.6, 6.0, 1.0], 1e-9)
 check('Ex.20: ω = 377 rad/s; ε_máx = 188 V; ε_ef = 133 V; T = 16,7 ms',
       [2 * math.pi * 60, 100 * 0.5 * 0.01 * 2 * math.pi * 60, 100 * 0.5 * 0.01 * 2 * math.pi * 60 / math.sqrt(2), 1000 / 60],
@@ -391,9 +391,9 @@ tt = np.linspace(0, 1 / 60, 200001)
 Phi = 100 * 0.5 * 0.01 * np.cos(2 * math.pi * 60 * tt)
 emf_t = -np.gradient(Phi, tt)
 check('Ex.20 (diferenças finitas): ε_máx = 188,5 V e ε nula quando Φ é máximo', [emf_t.max(), abs(emf_t[0])], [188.5, 0.0], 2e-3, 0.5)
-check('E24: ε_máx(1 espira) = 1,26 V; N = 79,6 ≈ 80', [0.20 * 0.020 * 2 * math.pi * 50, 100 / (0.20 * 0.020 * 2 * math.pi * 50)], [1.26, 79.6], 5e-3)
+check('E23: ε_máx(1 espira) = 1,26 V; N = 79,6 ≈ 80', [0.20 * 0.020 * 2 * math.pi * 50, 100 / (0.20 * 0.020 * 2 * math.pi * 50)], [1.26, 79.6], 5e-3)
 check('Ex.21: U_s = 44 V; I_s = 4,0 A; I_p = 0,80 A; P = 176 W', [220 * 200 / 1000, 44 / 11, 4.0 * 200 / 1000, 44 * 4.0], [44, 4.0, 0.8, 176], 1e-9)
-check('E25: N_s = 200; I_s = 2,0 A; I_p = 0,20 A', [2000 * 12 / 120, 12 / 6.0, 2.0 * 200 / 2000], [200, 2.0, 0.20], 1e-9)
+check('E24: N_s = 200; I_s = 2,0 A; I_p = 0,20 A', [2000 * 12 / 120, 12 / 6.0, 2.0 * 200 / 2000], [200, 2.0, 0.20], 1e-9)
 check('p. 26: perdas 50 kW e 0,5 kW (P = 2,0 MW, R = 5,0 Ω); 2,5 % e 0,025 % da potência',
       [5 * (2e6 / 2e4) ** 2, 5 * (2e6 / 2e5) ** 2, 5e4 / 2e6, 5e2 / 2e6], [5.0e4, 5.0e2, 0.025, 2.5e-4], 1e-9)
 check('Q9: U_s = 4,0 kV; I = 2,5 A; perda = 25 W (0,25%)', [200 * 2000 / 100, 1e4 / 4000, 4.0 * 2.5 ** 2, 25 / 1e4], [4000, 2.5, 25, 0.0025], 1e-9)

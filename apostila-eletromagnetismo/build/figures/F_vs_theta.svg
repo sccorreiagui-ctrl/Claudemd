@@ -38,7 +38,7 @@
 <circle cx="46" cy="116" r="3.4" fill="#C8302F" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="322" cy="116" r="3.4" fill="#C8302F" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="136.9" y="8.25" width="94.2" height="9.24" rx="1.6" fill="#fff" fill-opacity="0.88"/>
-<text x="184" y="15.14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="middle">θ = 90°: F máxima (v ⟂ B)</text>
+<text x="184" y="15.14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.4" font-weight="700" fill="#14703A" text-anchor="middle">θ = 90°: F máxima (v ⊥ B)</text>
 <text x="58.27" y="108" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#A82221" text-anchor="start">v ∥ B: F = 0</text>
 <text x="309.73" y="108" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#A82221" text-anchor="end">v ∥ B (oposto): F = 0</text>
 <text x="87" y="63.57" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="700" fill="#14703A" text-anchor="end">0,5</text></svg>

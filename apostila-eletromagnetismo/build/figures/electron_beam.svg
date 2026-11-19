@@ -51,7 +51,7 @@
 </g>
 <text x="133" y="11" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.6" font-weight="700" fill="#1B4DA6" text-anchor="middle">B entrando</text>
 <rect x="6" y="44" width="26" height="20" rx="3" fill="#EFF1F4" stroke="#5C6573" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="19" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">e⁻</text>
+<text x="19" y="58" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">e<tspan dy="-3.42" font-size="6.84" >−</tspan><tspan dy="3.42"> </tspan></text>
 <line x1="292" y1="18" x2="292" y2="108" fill="none" stroke="#1A2230" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="298" y="14" font-family="'Source Sans 3','KaTeX_Main',Arial,sans-serif" font-size="8.2" font-weight="400" fill="#5C6573" text-anchor="start">tela</text>
 <line x1="32" y1="54" x2="100" y2="54" fill="none" stroke="#0E9FBC" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>

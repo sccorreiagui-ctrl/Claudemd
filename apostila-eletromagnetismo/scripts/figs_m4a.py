@@ -30,7 +30,6 @@ def flux_geometry(W=336, H=206):
     s.arrow(cam.P(c0), cam.P(n * 1.35), 'ink', 2.4, head=8.5)
     pn = cam.P(n * 1.35)
     s.vtext(pn[0] - 12, pn[1] - 2, 'n', size=12.5, color='ink', arrow=False)
-    s.text(pn[0] - 5, pn[1] - 3, '̂', 12, 'ink') if False else None
     pb = cam.P(np.array([0.6, 0, 0.35]) + 1.1 * b)
     s.vtext(pb[0] + 14, pb[1] + 2, 'B', size=13, color='blue', plate=True)
     arc = [cam.P(0.62 * (math.cos(t) * n + math.sin(t) * np.array([1.0, 0, 0]))) for t in np.linspace(0, th, 18)]
@@ -64,9 +63,7 @@ def flux_cases(W=680, H=134):
             s.arrow(p0, p1, 'blue', 1.5, head=7, opacity=0.9)
         s.line((cx - 56, cy), (cx + 56, cy), 'gray', 4.0)
         s.arrow((cx - 56, cy), (cx - 56, cy - 30), 'ink', 2.2, head=8)
-        s.text(cx - 62, cy - 22, 'n', 10.5, 'ink', anchor='end', weight=700, family='sans') if False else None
         s.vtext(cx - 64, cy - 24, 'n', size=11.5, color='ink', arrow=False)
-        s.text(cx + pw / 2 - 12, cy - 38, 'B', 11, 'blue', anchor='end', weight=700) if False else None
         s.text(cx, H - 11, t2, 8.8, 'green', weight=700)
     s.save()
     return s
@@ -221,7 +218,6 @@ def sin_flux_emf(W=336, H=172):
     pl.curve(t, np.cos(2 * math.pi * t), 'blue', 2.3)
     pl.curve(t, np.sin(2 * math.pi * t), 'purple', 2.3, dash='6 3')
     pl.dot(0, 1, 'blue'); pl.dot(0.25, 1, 'purple'); pl.dot(0.5, -1, 'blue'); pl.dot(0.75, -1, 'purple')
-    s.line((50, 150), (74, 150), 'blue', 2.3) if False else None
     s.text(W / 2, 11, 'Φ = Φ_{máx} cos ωt (azul)  ·  ε = N Φ_{máx} ω sen ωt (roxo, tracejado)', 8.2, 'ink', weight=700)
     s.text(pl.X(0.25) + 4, pl.Y(0) + 14, 'Φ = 0: ε máxima', 8.2, 'purple', anchor='start', weight=700)
     s.text(pl.X(0.5) + 4, pl.Y(0) - 8, 'Φ máx: ε = 0', 8.2, 'blue', anchor='start', weight=700)
