@@ -31,7 +31,7 @@ CHECAGEM DO PDF FINAL — gerada por scripts/check_pdf.py
 [OK ] p.26: rodapé "CTG · FÍSICA · ELETROMAGNETISMO · ASSUNTO · 26/28" → CTG · FÍSICA · ELETROMAGNETISMO · APLICAÇÕES TECNOLÓGICAS · 26/28
 [OK ] p.27: rodapé "CTG · FÍSICA · ELETROMAGNETISMO · ASSUNTO · 27/28" → CTG · FÍSICA · ELETROMAGNETISMO · REVISÃO VISUAL · 27/28
 [OK ] p.28: rodapé "CTG · FÍSICA · ELETROMAGNETISMO · ASSUNTO · 28/28" → CTG · FÍSICA · ELETROMAGNETISMO · REVISÃO PAS 3 · 28/28
-[OK ] texto selecionável (≥ 250 palavras por página) (mínimo 673, média 809)
+[OK ] texto selecionável (≥ 250 palavras por página) (mínimo 673, média 812)
 [OK ] sem marcas de erro «undefined» no texto 
 [OK ] sem marcas de erro «NaN» no texto 
 [OK ] sem marcas de erro «[figura» no texto 

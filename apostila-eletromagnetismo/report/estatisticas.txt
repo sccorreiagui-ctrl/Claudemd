@@ -1,0 +1,12 @@
+ESTATÍSTICAS DO MATERIAL (geradas por scripts/stats.py)
+páginas: 28 (A4)
+exemplos resolvidos: 21  → fundamental 5, intermediário 14, avançado 2
+exercícios de página (E1–E24): 24  → fundamental 8, intermediário 12, avançado 4
+itens do mini-simulado (Q1–Q10, p. 28): 10  → fundamental 4, intermediário 5, avançado 1
+total de itens de prática (exemplos + exercícios + mini-simulado): 55
+distribuição por nível no total: fundamental 17 (31%), intermediário 31 (56%), avançado 7 (13%)
+figuras SVG vetoriais distintas usadas nas páginas: 68  (inserções: 68; com legenda numerada: 61)
+expressões matemáticas (KaTeX): 1756
+verificações geométricas (assert) nos geradores de figuras: 33
+
+exemplos resolvidos por página: p.5: Ex.1 (Campo de um fio longo), p.6: Ex.2 (Dois fios com correntes opostas), p.7: Ex.3 (Bobina chata), p.8: Ex.4 (Solenoide com e sem núcleo), p.9: Ex.5 (Circulação com três fios), p.10: Ex.6 (Próton em campo magnético), p.11: Ex.7 (Direção e sentido da força), p.12: Ex.8 (Raio e período de um próton), p.13: Ex.9 (Elétron em hélice), p.14: Ex.10 (Fio em campo uniforme), p.15: Ex.11 (Dois fios paralelos), p.16: Ex.12 (Fluxo em uma espira inclinada), p.17: Ex.13 (FEM e corrente numa bobina), p.18: Ex.14 (Do gráfico de fluxo à FEM), p.19: Ex.15 (Faraday e Lenz juntos: módulo e sentido), p.20: Ex.16 (Polo sul se afastando de um anel), p.21: Ex.17 (Haste em trilhos com resistor), p.22: Ex.18 (Haste em plano inclinado com B vertical), p.23: Ex.19 (Torque numa bobina), p.24: Ex.20 (FEM de um gerador), p.25: Ex.21 (Transformador abaixador)

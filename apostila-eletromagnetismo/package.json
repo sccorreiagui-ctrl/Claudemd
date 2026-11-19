@@ -1,18 +1,22 @@
 {
   "name": "apostila-eletromagnetismo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Apostila CTG de Eletromagnetismo — PAS 3 / UnB 2026 (28 páginas A4): fontes editáveis, figuras SVG e geração do PDF.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "bash scripts/rebuild_all.sh",
+    "html": "node scripts/build.mjs",
+    "pdf": "node scripts/make_pdf.mjs && python3 scripts/finalize_pdf.py && python3 scripts/check_pdf.py",
+    "figuras": "cd scripts && for f in figs_m1.py figs_m2.py figs_m3.py figs_m4a.py figs_m4b.py figs_m5.py; do python3 $f > /dev/null; done",
+    "fisica": "python3 scripts/validate_physics.py",
+    "fontes": "node scripts/fonts_audit.mjs",
+    "paginas": "bash scripts/render.sh 110 1 28"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "@fontsource/source-sans-3": "^5.3.1",
     "@fontsource/source-serif-4": "^5.3.1",
     "cheerio": "^1.2.0",
     "katex": "^0.16.11"
-  }
+  },
+  "private": true
 }
