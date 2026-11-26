@@ -1,0 +1,43 @@
+<section class="q">
+ <div class="qh"><span class="qn">R3</span><span class="qt">Reta por dois pontos (método cíclico) e perpendicular</span><span class="lv">Intermediário ●●○</span><span class="org">autoral personalizado</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine a equação da reta $AB$, com $A=(-2,1)$ e $B=(4,3)$, e depois a reta perpendicular a $AB$ que passa por $P=(1,4)$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> A perpendicular herda o coeficiente de $AB$: se $m_{AB}$ sair errado, tudo desmorona. <b class="k">Método.</b> Cíclico para $AB$ + <b>verificação antes de seguir</b>; ponto–inclinação para a perpendicular.</div>
+    <ol class="st">
+     <li><b>Cíclico.</b> Colunas $\ x\ y\ |\ {-2}\ 1\ |\ 4\ 3\ |\ x\ y$.<br>$\lj{\searrow}$: $x\cdot1+(-2)\cdot3+4y=x-6+4y$ &nbsp; $\az{\nearrow}$: $y(-2)+1\cdot4+3x=3x-2y+4$<br>$\lj{(x-6+4y)}-\az{(3x-2y+4)}=-2x+6y-10=0\ \Rightarrow\ \boxed{x-3y+5=0}$</li>
+     <li><b>CHECK imediato.</b> $A$: $-2-3+5=0$ ✓ · $B$: $4-9+5=0$ ✓.</li>
+     <li><b>Coeficiente.</b> $m_{AB}=-\dfrac ab=-\dfrac{1}{-3}=\dfrac13$ <span class="mut">(confere: $\Delta y/\Delta x=2/6$)</span>.</li>
+     <li><b>Perpendicular.</b> $m_\perp=-3$. Por $P$: $y-4=-3(x-1)\Rightarrow y=-3x+7$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $AB:\ \boxed{x-3y+5=0}$ · perpendicular: $\boxed{3x+y-7=0}$</div>
+    <div class="ver"><span class="k">Verificação</span> $a_1a_2+b_1b_2=1\cdot3+(-3)\cdot1=0$ ✓ · $P$: $3+4-7=0$ ✓ · as retas se cruzam em $(1{,}6;\,2{,}2)$ — não em um ponto médio: o ponto médio de $AB$ é $(1,2)$.</div>
+    <div class="arm"><span class="k">Armadilha</span> Um sinal trocado no cíclico dá $m=\tfrac12$ e perpendicular $-2$ (certa seria $-3$).</div>
+   </div>
+   <div class="fig">{{svg:r3}}<div class="cap">$P$ é só um ponto dado (não é ponto médio). Quadradinho vermelho: $90^\circ$.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="q">
+ <div class="qh"><span class="qn">R4</span><span class="qt">Altura não é mediana</span><span class="lv">Intermediário ●●○</span><span class="org">adaptado do diagnóstico (corrigido)</span></div>
+ <div class="qb">
+  <div class="enun"><p>No triângulo $A=(0,1)$, $B=(8,5)$, $C=(0,6)$, determine o pé $H$ da altura relativa ao lado $AB$ e o comprimento $CH$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Altura $\Rightarrow$ <b>perpendicular</b> a $AB$ saindo de $C$; $H$ é onde ela encontra $AB$ — <i>não</i> é o ponto médio. <b class="k">Método.</b> $m_{AB}$, perpendicular por $C$, sistema.</div>
+    <ol class="st">
+     <li>$m_{AB}=\dfrac{5-1}{8-0}=\dfrac12\ \Rightarrow\ AB:\ y=\tfrac12x+1$.</li>
+     <li>Altura: $m_h=-2$, por $C(0,6)$: $\ y=-2x+6$.</li>
+     <li><b>$H$ = interseção</b> (substituição): $\tfrac12x+1=-2x+6\Rightarrow\tfrac52x=5\Rightarrow x=2,\ y=2$. $\vd{H=(2,2)}$.</li>
+     <li>$CH=\sqrt{(2-0)^2+(2-6)^2}=\sqrt{4+16}=\sqrt{20}=2\sqrt5$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $H=(2,2)$ · $CH=\boxed{2\sqrt5}$</div>
+    <div class="ver"><span class="k">Verificação</span> $d(C,AB)$ com $AB:\,x-2y+2=0$: $\dfrac{|0-12+2|}{\sqrt{1+4}}=\dfrac{10}{\sqrt5}=2\sqrt5$ ✓ (outro caminho, mesma resposta) · $H\in AB$: $2-4+2=0$ ✓.</div>
+    <div class="arm"><span class="k">Armadilha</span> Tomar $M=(4,3)$, ponto médio de $AB$: dá a <i>mediana</i> $CM=5$, não a altura. Aqui $H\ne M$ porque $CA\ne CB$ ($CA=5$, $CB=\sqrt{89}$).</div>
+   </div>
+   <div class="fig">{{svg:r4}}<div class="cap">Enunciado corrigido: com $C=(2,7)$ do diagnóstico original, $H=M$ (triângulo isósceles) e a diferença sumia.</div></div>
+  </div>
+ </div>
+</section>

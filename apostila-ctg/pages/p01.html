@@ -1,0 +1,47 @@
+<div style="display:flex;justify-content:space-between;align-items:flex-end;gap:4mm;margin-bottom:1.6mm">
+  <div>
+    <h1 class="title">Geometria Analítica — revisão ativa</h1>
+    <div class="sub">Ponto, reta e circunferência · PAS 3/UnB 2026 · Matriz de Referência (dez/2022): MAT1, MAT2, MAT4 e, para áreas, MAT7</div>
+  </div>
+  <div class="leg" style="max-width:68mm;justify-content:flex-end">
+    <span style="color:var(--az)">dados</span><span style="color:var(--vd)">resultado</span><span style="color:var(--rx)">centro/raio</span>
+    <span style="color:var(--lj)">passos</span><span style="color:var(--vm)">⊥ e alertas</span><span style="color:var(--ou)">fórmula-chave</span>
+  </div>
+</div>
+<div class="box n sm" style="padding:1mm 2.4mm;margin-bottom:1.2mm"><span class="lb">Como usar</span>Não é curso do zero: cada bloco segue <b>ideia geométrica → fórmula → quando usar → erro típico → exercício</b>. Antes de escolher a fórmula, pergunte: <b>qual é a relação geométrica?</b> Exercícios são autorais ou adaptados — nenhum é questão oficial do PAS.</div>
+
+<h2 class="sec"><span class="n">1</span>Pontos, distância, ponto médio</h2>
+<div style="display:grid;grid-template-columns:76mm 1fr;gap:3.2mm;align-items:start">
+  <div class="fig">{{svg:t_plano}}<div class="cap">Triângulo retângulo de catetos $|\Delta x|$ e $|\Delta y|$; a distância é a hipotenusa.</div></div>
+  <div>
+    <div class="box a sm"><span class="lb">Ideia</span>Ponto = par ordenado $(x,y)$: <b>abscissa = $x$</b> (horizontal), <b>ordenada = $y$</b> (vertical). Se o enunciado dá <i>uma</i> coordenada de um ponto que está numa reta, a equação da reta devolve a outra:
+    “$A\in r$, abscissa $-2$” $\Rightarrow x_A=-2$, substitua em $r$, obtenha $y_A$.</div>
+    <div class="box f sm"><span class="lb">Fórmulas</span>
+      $d(A,B)=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$ &nbsp; <span class="mut">(ex.: $\sqrt{4^2+3^2}=5$)</span><br>
+      $M=\left(\dfrac{x_A+x_B}{2},\dfrac{y_A+y_B}{2}\right)$ &nbsp; <span class="mut">(ex.: $M=(3;\,2{,}5)$)</span><br>
+      $G=\left(\dfrac{x_A+x_B+x_C}{3},\dfrac{y_A+y_B+y_C}{3}\right)$ &nbsp; <span class="mut">baricentro</span></div>
+    <div class="box m sm"><span class="lb">Erro</span>Trocar abscissa e ordenada; entregar um ponto com uma só coordenada; usar a fórmula de distância quando o problema pede ponto médio (ou o contrário).</div>
+  </div>
+</div>
+
+<h2 class="sec"><span class="n">2</span>Coeficiente angular: o sinal conta a história da reta</h2>
+<div class="cols4">
+  <div class="fig">{{svg:t_inc_a}}</div><div class="fig">{{svg:t_inc_b}}</div><div class="fig">{{svg:t_inc_c}}</div><div class="fig">{{svg:t_inc_d}}</div>
+</div>
+<div class="cols2" style="margin-top:1.6mm">
+  <div class="box f sm"><span class="lb">Fórmulas</span>
+    $m=\tan\alpha=\dfrac{\Delta y}{\Delta x}=\dfrac{y_B-y_A}{x_B-x_A}$ &nbsp;($\Delta x\neq0$)<br>
+    <b>Ponto–inclinação:</b> $y-y_0=m(x-x_0)$<br>
+    <b>Reduzida:</b> $y=mx+n$ &nbsp;($n$ = ordenada em $x=0$)<br>
+    <b>Geral:</b> $ax+by+c=0$ &nbsp;(serve para qualquer reta)</div>
+  <div class="box l sm"><span class="lb">Geral → reduzida</span>
+    $ax+by+c=0\;\Rightarrow\;by=-ax-c\;\Rightarrow\;y=\lj{-\dfrac ab}\,x-\dfrac cb$<br>
+    <b>coeficientes:</b>&nbsp; $\boxed{m=-\dfrac ab}$ &nbsp; $n=-\dfrac cb$<br>
+    <span class="mut">ex.: $6x+3y-12=0\Rightarrow m=-\tfrac63=-2,\ n=-\tfrac{-12}{3}=4$</span></div>
+</div>
+<div class="cols3">
+  <div class="box a sm"><span class="lb">Regra de ouro</span>Sei <b>$m$</b> e <b>um ponto</b> $\Rightarrow$ determino a reta: $y-y_0=m(x-x_0)$. Evita procurar $n$ antes da hora.</div>
+  <div class="box v sm"><span class="lb">Reta por 2 pontos</span>$m=\Delta y/\Delta x$ e ponto–inclinação, <b>ou</b> o método cíclico (pág. 2). Alinhados: o determinante dos 3 pontos é $0$.</div>
+  <div class="box m sm"><span class="lb">Erros</span>$m=a/b$ <b>(errado)</b> — o certo é $-a/b$. Reta vertical $x=k$ <b>não tem</b> $m$ nem forma reduzida; horizontal $y=k$ tem $m=0$.</div>
+</div>
+<div class="box n sm"><span class="lb">Verificação de 10 s</span>(1) O sinal de $m$ combina com a reta do desenho (sobe → $m>0$; desce → $m<0$)? (2) Os dois pontos dados satisfazem a equação? (3) Uma distância ou um raio pode ser negativo? <b>Nunca.</b></div>

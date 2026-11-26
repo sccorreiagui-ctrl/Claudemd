@@ -1,0 +1,46 @@
+<section class="q">
+ <div class="qh"><span class="qn">R7</span><span class="qt">Três retas: interseções e área do triângulo</span><span class="lv">Avançado PAS ●●●</span><span class="org">adaptado de padrão trabalhado (URI-RS 2024)</span></div>
+ <div class="qb">
+  <div class="enun"><p>As retas $r:\ 3x-2y+12=0$, $\ s:\ x+3y+4=0$ e $\ t:\ 4x+y-6=0$ se interceptam duas a duas e formam um triângulo. Determine os três vértices e a área desse triângulo.</p></div>
+  <div class="qg" style="grid-template-columns:1fr 80mm">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Cada vértice é a interseção de duas retas, isto é, o ponto que satisfaz <b>as duas equações ao mesmo tempo</b>. Com os vértices, a área sai do determinante. <b class="k">Método.</b> Sistemas (substituição, pois há coeficientes $1$) + cíclico.</div>
+    <ol class="st">
+     <li><b>$A=r\cap s$.</b> De $s$: $x=-3y-4$. Em $r$: $3(-3y-4)-2y=-12\Rightarrow-11y-12=-12\Rightarrow y=0,\ x=-4$. $\ \vd{A=(-4,0)}$</li>
+     <li><b>$B=s\cap t$.</b> De $t$: $y=6-4x$. Em $s$: $x+3(6-4x)=-4\Rightarrow-11x+18=-4\Rightarrow x=2,\ y=-2$. $\ \vd{B=(2,-2)}$.</li>
+     <li><b>$C=t\cap r$.</b> Em $r$ com $y=6-4x$: $3x-2(6-4x)=-12\Rightarrow11x-12=-12\Rightarrow x=0,\ y=6$. $\ \vd{C=(0,6)}$.</li>
+     <li><b>Cíclico</b> ($A,B,C$ e repete $A$): $\lj{\searrow}$ $(-4)(-2)+2\cdot6+0\cdot0=\lj{20}$ &nbsp; $\az{\nearrow}$ $0\cdot2+(-2)\cdot0+6\cdot(-4)=\az{-24}$.<br>$\det=20-(-24)=44$.</li>
+     <li><b>Divida por 2.</b> $\text{Área}=\dfrac{|\det|}{2}=\dfrac{|44|}{2}=22$ — <b>módulo antes de dividir por 2</b>.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $A=(-4,0)$ · $B=(2,-2)$ · $C=(0,6)$ · área $=\boxed{22}$ u.a.</div>
+   </div>
+   <div class="fig">{{svg:r7}}<div class="cap">Cada lado do triângulo repousa sobre uma das retas: $AC\subset r$, $AB\subset s$, $BC\subset t$.</div></div>
+  </div>
+  <div class="cols2" style="margin-top:1.4mm">
+   <div class="ver" style="margin-top:0"><span class="k">Verificação 1 — vértices</span> $B$ em $s$: $2+3(-2)+4=0$ ✓; em $t$: $4\cdot2+(-2)-6=0$ ✓. $C$ em $t$: $0+6-6=0$ ✓; em $r$: $0-12+12=0$ ✓. $A$ em $r$: $-12-0+12=0$ ✓; em $s$: $-4+0+4=0$ ✓.</div>
+   <div class="ver" style="margin-top:0"><span class="k">Verificação 2 — outro caminho</span> Base $AB\subset s$: $|AB|=\sqrt{6^2+2^2}=2\sqrt{10}$.<br>Altura $=d(C,s)=\dfrac{22}{\sqrt{10}}$.<br>Área $=\tfrac12\cdot2\sqrt{10}\cdot\dfrac{22}{\sqrt{10}}=22$ ✓</div>
+  </div>
+  <div style="margin-top:1.4mm">
+   <div class="arm" style="margin-top:0"><span class="k">Armadilha</span> Igualar duas equações gerais ($3x-2y+12=x+3y+4$) produz só <i>outra reta</i>, não um ponto. Interseção $=$ sistema.</div>
+  </div>
+ </div>
+</section>
+
+<div class="box n" style="margin:0"><span class="lb">Mapa de erros → onde foi treinado</span>
+<table class="t" style="margin-top:1.2mm">
+<tr><th style="width:62mm">Erro registrado no diagnóstico</th><th>Exercício</th><th>Regra que fica</th></tr>
+<tr><td>trocar abscissa/ordenada; ponto incompleto</td><td>R1</td><td>abscissa $=x$, ordenada $=y$; a reta completa o ponto</td></tr>
+<tr><td>$m=a/b$ em vez de $-a/b$</td><td>R2, R3</td><td>$ax+by+c=0\Rightarrow m=-a/b$</td></tr>
+<tr><td>perpendicular a partir de $m$ errado; sinal no cíclico</td><td>R3</td><td>CHECK dos dois pontos <b>antes</b> de usar $-1/m$</td></tr>
+<tr><td>altura confundida com mediana</td><td>R4</td><td>altura ⇒ perpendicular; mediana ⇒ ponto médio</td></tr>
+<tr><td>fórmula de distância errada para a medida</td><td>R5, R6</td><td>pergunte: ponto–ponto ou ponto–reta?</td></tr>
+<tr><td>igualar equações em vez de resolver o sistema; área</td><td>R7</td><td>interseção $=$ sistema; $\tfrac12|\det|$, módulo antes de $\div2$</td></tr>
+</table></div>
+
+<div class="box v" style="margin:0"><span class="lb">Autoteste · 1 minuto</span>
+<div class="cols2 sm" style="margin-top:1mm">
+<div>1) Altura relativa a $BC$: qual é o <b>primeiro</b> passo?<br><span class="mut">Resp.: perpendicular — $m_h=-1/m_{BC}$.</span></div>
+<div>2) Ponto de abscissa $3$ na reta $y=2x-1$?<br><span class="mut">Resp.: $y=2\cdot3-1=5$, logo $(3,5)$.</span></div>
+<div>3) $m$ da reta $4x-2y+6=0$?<br><span class="mut">Resp.: $m=-\tfrac{4}{-2}=2$ (reduzida: $y=2x+3$).</span></div>
+<div>4) Distância da origem a $3x+4y-10=0$?<br><span class="mut">Resp.: $\tfrac{|-10|}{\sqrt{3^2+4^2}}=2$.</span></div>
+</div></div>

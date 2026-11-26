@@ -1,0 +1,50 @@
+<h2 class="sec" style="margin-top:0"><span class="n">1</span>Circunferência: a ideia geométrica vem antes da equação</h2>
+<div style="display:grid;grid-template-columns:82mm 1fr;gap:3.4mm;align-items:start">
+  <div class="fig">{{svg:t_circ}}<div class="cap">$P(x,y)$ está na circunferência quando $d(P,C)=R$. O triângulo retângulo de catetos $x-a$ e $y-b$ e hipotenusa $R$ <b>é</b> a equação.</div></div>
+  <div>
+    <div class="box r"><span class="lb">Ideia</span>Circunferência é o conjunto dos pontos do plano a uma <b>mesma distância positiva $R$</b> de um ponto fixo, o <b>centro</b> $C=(a,b)$. Usando a distância entre dois pontos e elevando ao quadrado:
+    $\sqrt{(x-a)^2+(y-b)^2}=R\ \Rightarrow\ (x-a)^2+(y-b)^2=R^2.$</div>
+    <div class="box f"><span class="lb">Forma reduzida</span>
+      $$\boxed{(x-a)^2+(y-b)^2=R^2}\qquad C=(a,b),\ \ R>0$$
+      <span class="sm">Centro e raio saem <b>direto</b> da equação. Se pedirem a equação, basta ter $C$ e $R$.</span></div>
+    <div class="box m"><span class="lb">Erros</span><b>Sinal do centro:</b> $(x+3)^2+(y-4)^2=16\Rightarrow C=(-3,\,4)$ (o sinal na equação é o <i>contrário</i> da coordenada). <b>$R$ × $R^2$:</b> o lado direito é $R^2$; aqui $R=4$, não $16$.</div>
+  </div>
+</div>
+
+<h2 class="sec"><span class="n">2</span>Forma geral e normalização</h2>
+<div class="cols2">
+  <div>
+    <div class="box f"><span class="lb">Forma geral normalizada</span>
+      $x^2+y^2+Ax+By+D=0$<br>
+      $C=\left(-\dfrac A2,\ -\dfrac B2\right)\qquad R^2=\dfrac{A^2}{4}+\dfrac{B^2}{4}-D$
+      <div class="sm mut" style="margin-top:.8mm">$D$ é o termo constante (algumas fontes o chamam de “C”; aqui $C$ fica reservado ao centro).</div></div>
+    <div class="box a sm"><span class="lb">Reduzida → geral</span>Desenvolva os quadrados e leve $R^2$ ao 1º membro: $(x-3)^2+(y+2)^2=16\ \Rightarrow\ x^2+y^2-6x+4y-3=0$.</div>
+  </div>
+  <div>
+    <div class="box l"><span class="lb">Normalize antes</span>A fórmula do centro exige coeficiente <b>1</b> em $x^2$ e em $y^2$. Se ambos vêm multiplicados por $k\ne0$, divida tudo por $k$:<br>
+      $2x^2+2y^2-8x+4y-10=0\ \xrightarrow{\ \div2\ }\ x^2+y^2-4x+2y-5=0$<br>
+      $C=(2,-1),\quad R^2=4+1+5=10.$</div>
+    <div class="box m sm"><span class="lb">Não é circunferência</span>Se os coeficientes de $x^2$ e $y^2$ são <b>diferentes</b> ($x^2+2y^2\dots$) ou há termo $xy$, não aplique o método automaticamente.</div>
+  </div>
+</div>
+
+<h2 class="sec"><span class="n">3</span>O que $R^2$ revela</h2>
+<table class="t">
+<tr><th style="width:36mm">Valor de $R^2$</th><th style="width:60mm">Lugar geométrico</th><th>Exemplo</th></tr>
+<tr><td>$R^2>0$</td><td>circunferência real, de raio $R=\sqrt{R^2}$</td><td>$x^2+y^2-6x+4y-3=0$: $R^2=9+4+3=16$, $R=4$</td></tr>
+<tr><td>$R^2=0$</td><td>um <b>único ponto</b> (o centro)</td><td>$x^2+y^2-2x+4y+5=0$: $C=(1,-2)$, $R^2=1+4-5=0$</td></tr>
+<tr><td>$R^2<0$</td><td><b>vazio</b>: nenhum ponto real</td><td>$x^2+y^2+1=0$: $R^2=0+0-1=-1$</td></tr>
+</table>
+<div class="cols3" style="margin-top:2.4mm">
+  <div class="box a sm"><span class="lb">Leitura rápida</span>$(x-2)^2+(y+3)^2=16$<br>$C=(2,-3)$, $R=4$.<br>$x^2+y^2=5$: $C=(0,0)$, $R=\sqrt5$.</div>
+  <div class="box v sm"><span class="lb">Pontos extremos</span>Com $C=(2,-3)$, $R=4$: $x$ varia de $-2$ a $6$ e $y$ de $-7$ a $1$. Extremos: $(6,-3),(-2,-3),(2,1),(2,-7)$ (exercício C1).</div>
+  <div class="box n sm"><span class="lb">Pergunta-guia</span>“O que a informação significa geometricamente?” — <i>passa pelo ponto</i> ⇒ $d(P,C)=R$; <i>tangente a uma reta</i> ⇒ $d(C,\text{reta})=R$.</div>
+</div>
+
+<div class="box n" style="margin-top:2.4mm"><span class="lb">Mini-teste de leitura · cubra a coluna da direita</span>
+<table class="t" style="margin-top:1.2mm">
+<tr><td style="width:62mm">$(x-5)^2+(y+1)^2=7$</td><td>$C=(5,-1)$, $R=\sqrt7$</td></tr>
+<tr><td>$x^2+(y-3)^2=9$</td><td>$C=(0,3)$, $R=3$</td></tr>
+<tr><td>$x^2+y^2-4x=0$</td><td>$C=(2,0)$, $R^2=4+0-0=4$, $R=2$</td></tr>
+<tr><td>$x^2+y^2+6y+10=0$</td><td>$C=(0,-3)$, $R^2=0+9-10=-1<0$ ⇒ <b>vazio</b></td></tr>
+</table></div>

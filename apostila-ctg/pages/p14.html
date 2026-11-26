@@ -1,0 +1,37 @@
+<section class="q" style="margin-bottom:0">
+ <div class="qh"><span class="qn">C8</span><span class="qt">Questão-síntese: tangência com parâmetro</span><span class="lv">Avançado PAS ●●●</span><span class="org">autoral personalizado</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine $p$ para que a circunferência $x^2+y^2-6x+2y+p=0$ seja tangente à reta $3x+4y-10=0$.</p></div>
+  <div class="qg" style="grid-template-columns:1fr 78mm">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Tangente ⇔ a distância do centro à reta é igual ao raio. Aqui o raio depende de $p$: $R^2=10-p$. <b class="k">Método 1 (curto).</b> Completar quadrados e igualar $R=d$.</div>
+    <div class="box a" style="margin-bottom:1.4mm"><span class="lb">Método 1 · distância centro–reta</span>
+     <ol class="st" style="margin-top:1mm">
+      <li>$x^2-6x+y^2+2y=-p\ \Rightarrow\ (x-3)^2-9+(y+1)^2-1=-p\ \Rightarrow\ \boxed{(x-3)^2+(y+1)^2=10-p}$.</li>
+      <li>$C=(3,-1)$ e $R^2=10-p$ (exige $p<10$).</li>
+      <li>$d(C,r)=\dfrac{|3(3)+4(-1)-10|}{\sqrt{3^2+4^2}}=\dfrac{|9-4-10|}{5}=\dfrac55=1$.</li>
+      <li>Tangência: $R=d=1\Rightarrow R^2=1\Rightarrow10-p=1\Rightarrow\ \vd{\boxed{p=9}}$.</li>
+     </ol></div>
+   </div>
+   <div class="fig">{{svg:c8}}<div class="cap">$p=9$: $R=d=1$, tangente em $T(3{,}6;-0{,}2)$. Tracejadas: $p=7$ (secante) e $p=9{,}5$ (externa) — quanto maior $p$, menor o raio.</div></div>
+  </div>
+  <div class="box l" style="margin:1.4mm 0 0"><span class="lb">Método 2 · verificação por discriminante</span>
+   <ol class="st" style="margin-top:1mm">
+    <li><b>Isole $y$</b> na reta: $y=\dfrac{10-3x}{4}$.</li>
+    <li><b>Substitua e multiplique por $16$:</b> $16x^2+(10-3x)^2-96x+8(10-3x)+16p=0$.<br>
+        Desenvolva: $16x^2+100-60x+9x^2-96x+80-24x+16p=0\ \Rightarrow\ \boxed{25x^2-180x+180+16p=0}$.</li>
+    <li><b>Tangência = uma só interseção = raiz dupla $\Rightarrow\Delta=0$:</b> $\Delta=(-180)^2-4\cdot25\,(180+16p)=32400-18000-1600p=14400-1600p$.</li>
+    <li>$14400-1600p=0\ \Rightarrow\ \vd{\boxed{p=9}}$ ✓ — o mesmo valor. Note que $p$ aparece só no termo constante $c=180+16p$.</li>
+   </ol></div>
+  <div class="res"><span class="k">Resposta</span> $\boxed{p=9}$ — circunferência $(x-3)^2+(y+1)^2=1$, tangente à reta em $T=\left(\tfrac{18}5,-\tfrac15\right)$.</div>
+ </div>
+</section>
+
+<div class="box n" style="margin:0"><span class="lb">A lição da página: por que um método é mais econômico</span>
+<table class="t" style="margin-top:1.2mm">
+<tr><th style="width:30mm"></th><th style="background:var(--az)">DISTÂNCIA CENTRO–RETA · caminho curto</th><th style="background:var(--lj)">DISCRIMINANTE · caminho longo, mas válido</th></tr>
+<tr><td><b>Passos</b></td><td>completar quadrados → $d$ → $R=d$ (3 passos)</td><td>isolar $y$ → substituir → multiplicar por 16 → $\Delta$ → resolver (5 passos)</td></tr>
+<tr><td><b>Álgebra</b></td><td>um módulo e uma igualdade simples</td><td>quadrado de binômio, fração, produto $4ac$ com números grandes</td></tr>
+<tr><td><b>Risco de erro</b></td><td>baixo (poucos sinais)</td><td>alto: sinais em $(10-3x)^2$, esquecer o $\times16$, errar $4ac$</td></tr>
+<tr><td><b>Quando usar</b></td><td>centro e raio obtidos com facilidade; só se pede tangência</td><td>como <b>conferência</b>, ou se a questão já entrega a substituição montada</td></tr>
+</table></div>

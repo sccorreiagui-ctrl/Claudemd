@@ -1,0 +1,45 @@
+<section class="q">
+ <div class="qh"><span class="qn">R1</span><span class="qt">Coordenadas incompletas e reta por dois pontos</span><span class="lv">Básico ●○○</span><span class="org">autoral</span></div>
+ <div class="qb">
+  <div class="enun"><p>O ponto $A$ pertence à reta $r:\ y=2x+5$ e tem <b>abscissa</b> $-1$. O ponto $B$ pertence à reta $s:\ y=-x+4$ e tem <b>ordenada</b> $1$. Determine $A$, $B$, o coeficiente angular e uma equação da reta $AB$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Um ponto tem <i>duas</i> coordenadas: o enunciado dá uma e a reta que contém o ponto fornece a outra. <b class="k">Método.</b> Completar os pontos por substituição; depois ponto–inclinação.</div>
+    <ol class="st">
+     <li><b>Ponto $A$.</b> Abscissa é $x$: $x_A=-1$. Em $r$: $y_A=2(-1)+5=3$. Logo $\vd{A=(-1,\,3)}$.</li>
+     <li><b>Ponto $B$.</b> Ordenada é $y$: $y_B=1$. Em $s$: $1=-x_B+4\Rightarrow x_B=3$. Logo $\vd{B=(3,\,1)}$.</li>
+     <li><b>Coeficiente angular.</b> $m=\dfrac{y_B-y_A}{x_B-x_A}=\dfrac{1-3}{3-(-1)}=\dfrac{-2}{4}=-\dfrac12$.</li>
+     <li><b>Equação.</b> Ponto–inclinação com $A$: $y-3=-\tfrac12(x+1)$. Multiplicando por 2: $2y-6=-x-1\ \Rightarrow\ x+2y-5=0$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $A=(-1,3)$ · $B=(3,1)$ · $m=-\tfrac12$ · $AB:\ \boxed{x+2y-5=0}$</div>
+    <div class="ver"><span class="k">Verificação</span> $A$: $-1+6-5=0$ ✓ · $B$: $3+2-5=0$ ✓ · de $A$ a $B$ o $x$ cresce $4$ e o $y$ cai $2$, então a reta desce: $m<0$ ✓.</div>
+    <div class="arm"><span class="k">Armadilha</span> Ler “abscissa $-1$” como $y=-1$: sairia $x=-3$, um ponto que nem está no desenho.</div>
+   </div>
+   <div class="fig">{{svg:r1}}<div class="cap">Tracejado cinza: $x=-1$ e $y=1$ (abscissa e ordenada dadas). Laranja: $\Delta x=4$, $\Delta y=-2$.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="q">
+ <div class="qh"><span class="qn">R2</span><span class="qt">Coeficiente angular, linear e perpendicular</span><span class="lv">Básico ●○○</span><span class="org">autoral</span></div>
+ <div class="qb">
+  <div class="enun"><p>Considere $r:\ 6x+3y-12=0$. (a) Determine o coeficiente angular e o coeficiente linear de $r$. (b) Determine a reta $s$ perpendicular a $r$ que passa por $P=(2,1)$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Isolar $y$ revela $m$ e $n$; perpendicular troca $m$ por $-1/m$. <b class="k">Método.</b> Forma geral → reduzida; depois ponto–inclinação por $P$.</div>
+    <ol class="st">
+     <li><b>Isolar $y$.</b> $3y=-6x+12\ \Rightarrow\ y=-2x+4$. Então $\vd{m_r=-2}$ e $\vd{n=4}$. <span class="mut">(Atalho: $m=-\frac ab=-\frac63$.)</span></li>
+     <li><b>Perpendicular.</b> $m_s\cdot m_r=-1\Rightarrow m_s=\dfrac{-1}{-2}=\dfrac12$ <span class="mut">(inverte e troca o sinal)</span>.</li>
+     <li><b>Por $P(2,1)$.</b> $y-1=\tfrac12(x-2)=\tfrac12x-1\ \Rightarrow\ y=\tfrac12x$, isto é, $x-2y=0$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $m_r=-2$ · $n=4$ · $s:\ \boxed{y=\tfrac12x}$</div>
+    <div class="ver"><span class="k">Verificação</span> $a_ra_s+b_rb_s=6\cdot1+3\cdot(-2)=0$ ✓ (perpendiculares) · $P\in s$: $2-2\cdot1=0$ ✓ · $r$ e $s$ se cruzam em $(\tfrac85,\tfrac45)$, onde o desenho mostra $90^\circ$.</div>
+    <div class="arm"><span class="k">Armadilha</span> $m=a/b=+2$: a “perpendicular” sairia $-\tfrac12$ e a reta final estaria errada. O sinal de $-a/b$ não é opcional.</div>
+   </div>
+   <div class="fig">{{svg:r2}}<div class="cap">$r$ corta o eixo $y$ em $n=4$; a cada $1$ à direita, $y$ cai $2$.</div></div>
+  </div>
+  <div class="box n sm" style="margin:1.6mm 0 0"><span class="lb">Treino-relâmpago · $m$ e $n$ sem papel</span>
+   $2x+4y-8=0\Rightarrow m=-\tfrac12,\ n=2$ &nbsp;·&nbsp; $x-3y+6=0\Rightarrow m=\tfrac13,\ n=2$ &nbsp;·&nbsp; $5x+y=0\Rightarrow m=-5,\ n=0$ &nbsp;·&nbsp; $y-4=0\Rightarrow$ horizontal, $m=0$ &nbsp;·&nbsp; $x+2=0\Rightarrow$ vertical, sem $m$.
+   <span class="mut">Cubra as respostas e confira o sinal de cada $-a/b$.</span></div>
+ </div>
+</section>

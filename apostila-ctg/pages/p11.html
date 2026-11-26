@@ -1,0 +1,42 @@
+<section class="q">
+ <div class="qh"><span class="qn">C3</span><span class="qt">Secante, tangente ou externa — sem resolver sistema</span><span class="lv">Intermediário ●●○</span><span class="org">autoral personalizado</span></div>
+ <div class="qb">
+  <div class="enun"><p>Classifique cada reta em relação à circunferência $(x-1)^2+(y+2)^2=25$: $\ s:\ 3x+4y+20=0$, $\ t:\ 3x+4y+30=0$, $\ u:\ 3x+4y+40=0$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Só <i>classificar</i>: compare a distância do centro à reta com o raio. <b class="k">Método.</b> $d(C,r)$ contra $R$ — nenhum sistema, nenhum $\Delta$.</div>
+    <ol class="st">
+     <li><b>Dados.</b> $C=(1,-2)$, $R=5$; as três retas são paralelas ($a=3,\ b=4$) e $\sqrt{3^2+4^2}=5$.</li>
+     <li>$d(C,s)=\dfrac{|3(1)+4(-2)+20|}{5}=\dfrac{15}{5}=3<5\ \Rightarrow$ <b>secante</b>.</li>
+     <li>$d(C,t)=\dfrac{|3-8+30|}{5}=\dfrac{25}{5}=5=R\ \Rightarrow$ <b>tangente</b>.</li>
+     <li>$d(C,u)=\dfrac{|3-8+40|}{5}=\dfrac{35}{5}=7>5\ \Rightarrow$ <b>externa</b>.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $s$ secante ($d=3$) · $t$ tangente ($d=5$) · $u$ externa ($d=7$)</div>
+    <div class="ver"><span class="k">Verificação</span> Ponto de tangência de $t$ (pé da perpendicular): $C-\tfrac{25}{25}(3,4)=(-2,-6)$. Está em $t$: $-6-24+30=0$ ✓ e na circunferência: $(-3)^2+(-4)^2=25$ ✓. Pelo $\Delta$ sairiam $2$, $1$ e $0$ interseções — mesma conclusão, mais álgebra.</div>
+    <div class="arm"><span class="k">Armadilha</span> Esquecer o <b>módulo</b> ou usar $R^2=25$ no lugar de $R=5$. Compare sempre $d$ com $R$ (ou $d^2$ com $R^2$), nunca um com o outro.</div>
+   </div>
+   <div class="fig">{{svg:c3}}<div class="cap">As três perpendiculares do centro estão sobre uma mesma direção: $d=3,\ 5,\ 7$.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="q">
+ <div class="qh"><span class="qn">C4</span><span class="qt">Pontos de interseção reta–circunferência</span><span class="lv">Intermediário ●●○</span><span class="org">autoral</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine os pontos de interseção da circunferência $(x-1)^2+(y-2)^2=25$ com a reta $y=6$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Um ponto de interseção pertence às <b>duas</b> curvas: satisfaz as duas equações. <b class="k">Método.</b> A reta já dá $y=6$: substituir na circunferência.</div>
+    <ol class="st">
+     <li><b>Substitua $y=6$:</b> $(x-1)^2+(6-2)^2=25$.</li>
+     <li><b>Resolva:</b> $(x-1)^2+16=25\Rightarrow(x-1)^2=9\Rightarrow x-1=\pm3$.</li>
+     <li><b>Duas soluções:</b> $x=4$ ou $x=-2$ (a coordenada $y=6$ já é conhecida).</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $\boxed{(4,6)}$ e $\boxed{(-2,6)}$ — duas soluções ⇒ a reta é <b>secante</b>.</div>
+    <div class="ver"><span class="k">Verificação</span> $(4-1)^2+(6-2)^2=9+16=25$ ✓ · $(-2-1)^2+16=25$ ✓. Pela distância: $d(C,y=6)=|6-2|=4<5$ ✓. A meia-corda é $3$ (terno $3$-$4$-$5$), então a corda mede $6$.</div>
+    <div class="arm"><span class="k">Armadilha</span> Esquecer o “$\pm$” ao tirar a raiz e ficar só com $x=4$: o ponto $(-2,6)$ some.</div>
+   </div>
+   <div class="fig">{{svg:c4}}<div class="cap">O triângulo $C$–$(1,6)$–$(4,6)$ é $3$-$4$-$5$: catetos $d=4$ e meia-corda $3$.</div></div>
+  </div>
+ </div>
+</section>

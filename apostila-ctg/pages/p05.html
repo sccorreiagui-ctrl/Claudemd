@@ -1,0 +1,43 @@
+<section class="q">
+ <div class="qh"><span class="qn">R5</span><span class="qt">Qual distância usar? Ponto–ponto × ponto–reta</span><span class="lv">Intermediário ●●○</span><span class="org">autoral</span></div>
+ <div class="qb">
+  <div class="enun"><p>Seja $P=(3,4)$ e $r:\ 3x-4y+12=0$. Calcule (a) a distância de $P$ à origem $O$; (b) a distância de $P$ à reta $r$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> “Distância” depende do que se mede: entre <b>dois pontos</b> é a hipotenusa de $\Delta x,\Delta y$; de um <b>ponto a uma reta</b> é o segmento <b>perpendicular</b> (o mais curto). <b class="k">Método.</b> Duas fórmulas diferentes.</div>
+    <ol class="st">
+     <li><b>(a) ponto–ponto.</b> $d(P,O)=\sqrt{(3-0)^2+(4-0)^2}=\sqrt{9+16}=\sqrt{25}=5$.</li>
+     <li><b>(b) ponto–reta.</b> Coeficientes: $a=3,\ b=-4,\ c=12$.<br>$d(P,r)=\dfrac{|3\cdot3-4\cdot4+12|}{\sqrt{3^2+(-4)^2}}=\dfrac{|9-16+12|}{\sqrt{25}}=\dfrac{|5|}{5}=1$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $d(P,O)=\boxed5$ · $d(P,r)=\boxed1$</div>
+    <div class="ver"><span class="k">Verificação</span> Pé da perpendicular $F=(2{,}4;\,4{,}8)$: $3(2{,}4)-4(4{,}8)+12=7{,}2-19{,}2+12=0$ ✓ e $|PF|=\sqrt{0{,}6^2+0{,}8^2}=1$ ✓. Faz sentido: o caminho perpendicular até $r$ ($1$) é bem menor que o de $P$ até $O$ ($5$).</div>
+    <div class="arm"><span class="k">Armadilha</span> O $5$ do denominador é $\sqrt{a^2+b^2}$ e só coincide com o $5$ de $d(P,O)$ por acaso (terno 3-4-5). Usar $\sqrt{\Delta x^2+\Delta y^2}$ para medir até a reta daria $5$ — errado.</div>
+   </div>
+   <div class="fig">{{svg:r5}}<div class="cap">Dois segmentos diferentes saindo de $P$: <b style="color:var(--lj)">laranja</b> (até $O$) e <b style="color:var(--vm)">vermelho</b> (perpendicular a $r$, em $F$).</div></div>
+  </div>
+  <div class="box n sm" style="margin:1.6mm 0 0"><span class="lb">Treino de escolha · sem calcular tudo</span>
+   Que fórmula? (i) $A(1,2)$ a $B(4,6)$ → <b>ponto–ponto</b>: $\sqrt{3^2+4^2}=5$. (ii) $A(1,2)$ à reta $x=4$ → <b>ponto–reta</b> (vertical): $|1-4|=3$. (iii) entre $2x+y-3=0$ e $2x+y+7=0$ → <b>reta∥reta</b>: $\dfrac{|-3-7|}{\sqrt5}=2\sqrt5$.</div>
+ </div>
+</section>
+
+<section class="q">
+ <div class="qh"><span class="qn">R6</span><span class="qt">Retas paralelas a distância fixa</span><span class="lv">Avançado PAS ●●●</span><span class="org">adaptado de padrão trabalhado (Uece 2024)</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine as duas retas paralelas a $r:\ 3x-4y+7=0$ cuja distância a $r$ é igual a $5$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Paralelas têm <b>os mesmos</b> $a$ e $b$; só $c$ muda. A distância entre elas é a distância ponto–reta, e o <b>módulo</b> dá duas soluções (uma de cada lado de $r$). <b class="k">Método.</b> $d=\dfrac{|c-7|}{\sqrt{a^2+b^2}}$.</div>
+    <ol class="st">
+     <li><b>Forma da paralela.</b> $s:\ 3x-4y+c=0$ (mesmos $a=3,\ b=-4$).</li>
+     <li><b>Distância.</b> $d(r,s)=\dfrac{|c-7|}{\sqrt{3^2+(-4)^2}}=\dfrac{|c-7|}{5}=5\ \Rightarrow\ |c-7|=25$.</li>
+     <li><b>Módulo → dois casos.</b> $c-7=25\Rightarrow c=32$ &nbsp;ou&nbsp; $c-7=-25\Rightarrow c=-18$.</li>
+     <li><b>Normalização</b> (mesma ideia): $\tfrac35x-\tfrac45y+\tfrac75=0$ está “a $\tfrac75$ da origem”; mover $5$ unidades dá $\tfrac c5=\tfrac75\pm5$, logo $c=7\pm25$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $\boxed{3x-4y+32=0}$ e $\boxed{3x-4y-18=0}$</div>
+    <div class="ver"><span class="k">Verificação</span> $(-1,1)\in r$ ($-3-4+7=0$). $d$ até $3x-4y+32=0$: $\frac{|-3-4+32|}{5}=5$ ✓; até $3x-4y-18=0$: $\frac{|-3-4-18|}{5}=5$ ✓.</div>
+    <div class="arm"><span class="k">Armadilha</span> Somar e subtrair $5$ de $c$ ($c=12$ e $c=2$): ignora o denominador $\sqrt{a^2+b^2}=5$. O certo é $|c-7|=5\cdot5=25$.</div>
+   </div>
+   <div class="fig">{{svg:r6}}<div class="cap">Segmento laranja: perpendicular comum, de comprimento $5+5$, cruzando $r$ em $(-1,1)$.</div></div>
+  </div>
+ </div>
+</section>

@@ -1,0 +1,43 @@
+<section class="q">
+ <div class="qh"><span class="qn">C5</span><span class="qt">Reta tangente em um ponto conhecido</span><span class="lv">Intermediário ●●○</span><span class="org">adaptado do padrão clássico de tangência</span></div>
+ <div class="qb">
+  <div class="enun"><p>A circunferência tem centro $C=(1,2)$ e raio $5$. Determine a equação da reta tangente no ponto $P=(4,6)$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> O ponto de tangência é o ponto da reta mais próximo do centro; o caminho mais curto de um ponto a uma reta é o <b>perpendicular</b>. Logo, <b>raio $\perp$ tangente</b>. <b class="k">Método.</b> $m_t=-1/m_{CP}$.</div>
+    <ol class="st">
+     <li><b>$P$ está na circunferência?</b> $d(C,P)=\sqrt{3^2+4^2}=5=R$ ✓.</li>
+     <li><b>Raio:</b> $m_{CP}=\dfrac{6-2}{4-1}=\dfrac43$.</li>
+     <li><b>Tangente:</b> $m_t=-\dfrac34$ (perpendicular ao raio).</li>
+     <li><b>Por $P$:</b> $y-6=-\tfrac34(x-4)\ \xrightarrow{\times4}\ 4y-24=-3x+12$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $\boxed{3x+4y-36=0}$</div>
+    <div class="ver"><span class="k">Verificação</span> $P\in t$: $12+24-36=0$ ✓ · $d(C,t)=\dfrac{|3+8-36|}{5}=5=R$ ✓ (tangente) · os coeficientes $(3,4)$ são paralelos ao raio $\overrightarrow{CP}=(3,4)$.</div>
+    <div class="arm"><span class="k">Armadilha</span> Usar $m_{CP}=\tfrac43$ como inclinação da tangente (esquecer o $\perp$); ou aplicar o método sem testar se $P$ está <i>mesmo</i> na circunferência.</div>
+   </div>
+   <div class="fig">{{svg:c5}}<div class="cap">Quadradinho vermelho em $P$: raio $\perp$ tangente.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="q">
+ <div class="qh"><span class="qn">C6</span><span class="qt">Comprimento de uma corda</span><span class="lv">Avançado PAS ●●●</span><span class="org">inventário NotebookLM (sem banca atribuída)</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine o comprimento da corda que a reta $x-2y+2=0$ determina na circunferência $(x-5)^2+y^2=16$.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> A perpendicular do centro à corda cai no <b>ponto médio</b> $M$ (triângulo $CAB$ é isósceles). Resta o triângulo retângulo $C$–$M$–$A$: $R^2=d^2+\left(\tfrac c2\right)^2$. <b class="k">Método.</b> $d(C,r)$ e Pitágoras — sem achar $A$ nem $B$.</div>
+    <ol class="st">
+     <li><b>Dados:</b> $C=(5,0)$, $R=4$.</li>
+     <li><b>Distância:</b> $d=\dfrac{|5-0+2|}{\sqrt{1+4}}=\dfrac{7}{\sqrt5}\approx3{,}13<4$ ⇒ é secante (a corda existe).</li>
+     <li><b>Pitágoras:</b> $\left(\tfrac c2\right)^2=R^2-d^2=16-\dfrac{49}{5}=\dfrac{31}{5}$.</li>
+     <li><b>Corda:</b> $c=2\sqrt{\tfrac{31}{5}}=\dfrac{2\sqrt{155}}{5}\approx4{,}98$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $c=\boxed{\dfrac{2\sqrt{155}}{5}}$ u.c.</div>
+    <div class="ver"><span class="k">Verificação (outro caminho)</span> Com $x=2y-2$ na circunferência: $5y^2-28y+33=0$, $y=\tfrac{14\pm\sqrt{31}}5$. Como $\Delta x=2\Delta y$: $c=\sqrt5\,|\Delta y|=\sqrt5\cdot\tfrac{2\sqrt{31}}5=\tfrac{2\sqrt{155}}5$ ✓.</div>
+    <div class="arm"><span class="k">Armadilha</span> Esquecer de dividir: $R^2=d^2+c^2$ (sem o “$/2$”), ou tomar $c/2=d$. O $\tfrac c2$ é um <i>cateto</i>.</div>
+   </div>
+   <div class="fig">{{svg:c6}}<div class="cap">Triângulo retângulo sombreado: hipotenusa $R=4$, catetos $d$ e $\tfrac c2$.</div></div>
+  </div>
+ </div>
+</section>

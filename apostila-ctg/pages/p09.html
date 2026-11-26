@@ -1,0 +1,27 @@
+<h2 class="sec" style="margin-top:0"><span class="n">1</span>Reta × circunferência: comparar $d(C,r)$ com $R$</h2>
+<div class="cols3">
+  <div class="fig">{{svg:t_rel_a}}</div><div class="fig">{{svg:t_rel_b}}</div><div class="fig">{{svg:t_rel_c}}</div>
+</div>
+<div class="cap" style="margin-bottom:1.6mm">$d$ = distância do centro à reta (segmento perpendicular, marcado com $90^\circ$). Verde: pontos de interseção. A coluna $\Delta$ refere-se à equação do 2º grau obtida ao substituir a reta na circunferência.</div>
+
+<h2 class="sec"><span class="n">2</span>Árvore de decisão: qual método?</h2>
+<table class="t tree">
+<tr><th style="width:49mm">Se o problema pede…</th><th>Use</th><th style="width:60mm">Atenção</th></tr>
+<tr><td>① só classificar a reta (secante, tangente, externa)</td><td><b>distância centro–reta</b>: $d<R$ secante · $d=R$ tangente · $d>R$ externa</td><td>caminho mais curto; precisa de $C$ e $R$</td></tr>
+<tr><td>② <b>pontos</b> de interseção</td><td>resolva o <b>sistema</b>: da reta isole uma variável, substitua na circunferência, resolva a quadrática</td><td>volte à reta para obter a outra coordenada</td></tr>
+<tr><td>③ classificar por $\Delta$</td><td>$\Delta>0$: 2 pontos · $\Delta=0$: 1 (tangente) · $\Delta<0$: nenhum</td><td>$\Delta$ da quadrática em $x$ (ou em $y$ se a reta for vertical)</td></tr>
+<tr><td>④ reta tangente num ponto $P$ dado</td><td><b>raio ⊥ tangente</b>: $m_t=-1/m_{CP}$</td><td>teste antes se $P$ está na circunferência ($d(P,C)=R$)</td></tr>
+<tr><td>⑤ circunferência tangente a uma reta, centro conhecido</td><td>$R=d(C,\text{reta})$</td><td>$R$ é uma distância: nunca negativo</td></tr>
+<tr><td>⑥ tangente com <b>parâmetro</b></td><td>$d(C,r)=R$ <i>ou</i> $\Delta=0$ — escolha a rota com menos álgebra</td><td>$\Delta=0$, não Bhaskara inteira</td></tr>
+<tr><td>⑦ corda de uma secante</td><td>$R^2=d^2+(c/2)^2$ (triângulo retângulo $C$–$M$–extremo)</td><td>$M$ = pé da perpendicular = ponto médio da corda</td></tr>
+</table>
+
+<div class="box v sm"><span class="lb">Exemplo curto · $\Delta$ e $d$ concordam</span>
+$x^2+y^2=25$ e $y=x+7$: $\ x^2+(x+7)^2=25\Rightarrow x^2+7x+12=0\Rightarrow\Delta=49-48=1>0$ ⇒ 2 pontos: $x=-3$ e $x=-4$, isto é, $(-3,4)$ e $(-4,3)$. Pela distância: $d=\tfrac{|7|}{\sqrt2}\approx4{,}95<5=R$ ⇒ secante ✓.</div>
+
+<h2 class="sec"><span class="n">3</span>Duas circunferências: $d(C_1,C_2)$ × raios</h2>
+<div style="display:flex;gap:1mm;justify-content:space-between">
+  <div class="fig" style="flex:1">{{svg:t_two_a}}</div><div class="fig" style="flex:1">{{svg:t_two_b}}</div><div class="fig" style="flex:1">{{svg:t_two_c}}</div>
+  <div class="fig" style="flex:1">{{svg:t_two_d}}</div><div class="fig" style="flex:1">{{svg:t_two_e}}</div><div class="fig" style="flex:1">{{svg:t_two_f}}</div>
+</div>
+<div class="cap">$d=d(C_1,C_2)$. “Internas” inclui as concêntricas ($d=0$) de raios diferentes. Mini-quadro de consulta; não é o foco da revisão.</div>

@@ -1,0 +1,50 @@
+<h2 class="sec" style="margin-top:0"><span class="n">1</span>O que o enunciado pede? — traduza antes de calcular</h2>
+<table class="t tree">
+<tr><th style="width:17mm">Se pede…</th><th style="width:52mm">Ideia geométrica</th><th>Ferramenta</th><th style="width:44mm">Cuidado</th></tr>
+<tr><td><span class="tg vm">Altura</span></td><td>reta que sai do vértice e é <b>perpendicular</b> ao lado oposto</td><td>$m_h=-1/m_{\text{lado}}$; pé $H$ = lado ∩ altura; ou $d(\text{vértice},\text{lado})$</td><td>altura ≠ mediana: $H$ <b>não</b> é ponto médio</td></tr>
+<tr><td><span class="tg az">Mediana</span></td><td>liga o vértice ao <b>ponto médio</b> do lado oposto</td><td>$M=\frac{A+B}{2}$ e reta por dois pontos</td><td>não é perpendicular em geral</td></tr>
+<tr><td><span class="tg vd">Mediatriz</span></td><td><b>ponto médio + perpendicular</b> ao segmento</td><td>$M$ e $m_\perp=-1/m_{AB}$</td><td>não precisa passar pelo vértice</td></tr>
+<tr><td><span class="tg ou">Interseção</span></td><td>ponto que pertence às <b>duas</b> retas</td><td>resolver o <b>sistema</b> das duas equações</td><td>nunca “igualar” duas equações gerais</td></tr>
+<tr><td><span class="tg lj">Área</span></td><td>triângulo de vértices conhecidos</td><td>$\frac12|\det|$ (cíclico) ou $\frac12\,b\,h$ — o mais curto</td><td>módulo <b>antes</b> de dividir por 2</td></tr>
+<tr><td><span class="tg rx">Distância</span></td><td>o que está sendo medido?</td><td>ponto↔ponto, ponto↔reta, reta∥reta (ver abaixo)</td><td>fórmula errada para a medida</td></tr>
+</table>
+
+<div style="margin-top:2mm" class="cols3">
+  <div class="fig">{{svg:t_tri_altura}}</div><div class="fig">{{svg:t_tri_mediana}}</div><div class="fig">{{svg:t_tri_mediatriz}}</div>
+</div>
+<div class="cap" style="margin-bottom:1.6mm">Mesmo triângulo $A(0,1)$, $B(8,5)$, $C(0,6)$ nos três painéis: $H=(2,2)$ e $M=(4,3)$ são pontos <b>diferentes</b>. Só coincidem quando $CA=CB$ (triângulo isósceles de base $AB$ e equilátero).</div>
+
+<div class="cols2">
+  <div>
+    <h2 class="sec" style="margin-top:.4mm"><span class="n">2</span>Paralelas, perpendiculares, distâncias</h2>
+    <div class="box f sm"><span class="lb">Fórmulas</span>
+      $r\parallel s\iff m_r=m_s$ &nbsp; (ou $(a,b)$ proporcionais)<br>
+      $r\perp s\iff m_r\,m_s=-1\iff \vm{a_ra_s+b_rb_s=0}$ <span class="mut">(vale até com vertical)</span><br>
+      $d(P,r)=\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$<br>
+      Paralelas com <b>mesmos</b> $a,b$: $d=\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$</div>
+    <div class="box a sm"><span class="lb">Qual distância?</span>
+      <b>ponto ↔ ponto</b> → $\sqrt{\Delta x^2+\Delta y^2}$ <br>
+      <b>ponto ↔ reta</b> → fórmula acima (o segmento é ⊥ à reta)<br>
+      <b>reta ∥ reta</b> → tome um ponto de uma e use ponto↔reta (ou $|c_1-c_2|$ sobre a raiz)</div>
+    <div class="box m sm"><span class="lb">Erro</span>Usar uma reta quando o problema só pede distância entre dois pontos; esquecer o módulo; estranhar o $\sqrt{10}$ — ele é o $\sqrt{3^2+(-1)^2}$ do denominador.</div>
+  </div>
+  <div>
+    <h2 class="sec" style="margin-top:.4mm"><span class="n">3</span>Interseção = solução simultânea</h2>
+    <div class="box v sm"><span class="lb">Regra</span>
+      $\begin{cases}A(x,y)=0\\ B(x,y)=0\end{cases}$ $\Rightarrow$ resolver o sistema. <b>Interseção de duas retas = solução simultânea de duas equações.</b><br>
+      <span class="tg lj">Substituição</span> se há coeficiente $1$ ou $-1$. <span class="tg lj">Eliminação</span> se os coeficientes se anulam fácil. Confira o ponto nas <b>duas</b> equações.</div>
+    <div class="box n sm" style="margin-bottom:0"><span class="lb">Método cíclico</span>
+      <div style="display:grid;grid-template-columns:37mm 1fr;gap:2mm;align-items:center">
+        <div class="fig">{{svg:t_ciclico}}</div>
+        <div class="xs">Reta por $A(-2,1)$ e $B(4,3)$: escreva as colunas $(x,y)$ de $A$ e $B$ e repita $(x,y)$ no fim.<br><span class="tg lj">↘ produtos</span> $-$ <span class="tg az">↗ produtos</span> $=0$.<br>O mesmo esquema, com 3 vértices, dá a área.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cols2" style="margin-top:2mm">
+  <div class="box l sm" style="margin-bottom:0"><span class="lb">Conta do exemplo</span>
+    $\lj{(x\cdot1-6+4y)}-\az{(-2y+4+3x)}=0$<br>
+    $-2x+6y-10=0\ \Rightarrow\ \boxed{x-3y+5=0}$ <span class="mut">(÷ $-2$)</span></div>
+  <div class="box v sm" style="margin-bottom:0"><span class="lb">CHECK</span>
+    (1) substitua <b>os dois pontos</b> na equação; (2) o sinal de $m$ combina com o desenho? <b>Área</b> com 3 vértices: mesmo esquema, $A=\tfrac12|\det|$ — <b>módulo antes de dividir por 2</b>.</div>
+</div>

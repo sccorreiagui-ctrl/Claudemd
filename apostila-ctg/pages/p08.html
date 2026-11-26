@@ -1,0 +1,48 @@
+<h2 class="sec" style="margin-top:0"><span class="n">1</span>Completar quadrados: geral → reduzida</h2>
+<div class="box n"><span class="lb">Exemplo</span> $x^2+y^2-6x+4y-3=0$. Objetivo: transformar $x^2-6x$ em $(x-\cdot)^2$ e $y^2+4y$ em $(y+\cdot)^2$.</div>
+<div class="cols2">
+  <div class="box a"><span class="lb">Bloco em $x$</span>
+    <div class="flow xs" style="margin-top:1mm"><div>coeficiente<br><b>$-6$</b></div><i>→</i><div>metade<br><b>$-3$</b></div><i>→</i><div>quadrado<br><b>$\lj{9}$</b></div><i>→</i><div>quadrado perfeito<br><b>$(x-3)^2$</b></div></div>
+    <div class="sm" style="margin-top:1mm">$x^2-6x+\lj{9}=(x-3)^2$</div></div>
+  <div class="box r"><span class="lb">Bloco em $y$</span>
+    <div class="flow xs" style="margin-top:1mm"><div>coeficiente<br><b>$+4$</b></div><i>→</i><div>metade<br><b>$+2$</b></div><i>→</i><div>quadrado<br><b>$\lj{4}$</b></div><i>→</i><div>quadrado perfeito<br><b>$(y+2)^2$</b></div></div>
+    <div class="sm" style="margin-top:1mm">$y^2+4y+\lj{4}=(y+2)^2$</div></div>
+</div>
+<ol class="st" style="margin:0 0 2mm">
+  <li><b>Agrupe</b> e isole a constante: $(x^2-6x)+(y^2+4y)=3$.</li>
+  <li><b>Some o mesmo aos dois membros</b> o que foi acrescentado: $(x^2-6x+\lj9)+(y^2+4y+\lj4)=3+\lj9+\lj4$.</li>
+  <li><b>Fatore:</b> $(x-3)^2+(y+2)^2=16\ \Rightarrow\ \vd{C=(3,-2)},\ \vd{R=4}$.</li>
+</ol>
+<div class="cols2">
+  <div class="box f sm"><span class="lb">Atalho + conferência</span>Centro: $x_0=-\frac A2=3$, $y_0=-\frac B2=-2$. Raio: $R^2=x_0^2+y_0^2-D=9+4+3=16$. Use o atalho para <b>conferir</b> o completar quadrados (ou vice-versa).</div>
+  <div class="box m sm"><span class="lb">Erro</span>Somar $9$ e $4$ só no 1º membro: a igualdade quebra. E esquecer que o termo $+4y$ gera $(y+2)^2$, de centro $-2$.</div>
+</div>
+
+<h2 class="sec"><span class="n">2</span>Posição de um ponto: interno, pertencente ou externo</h2>
+<div style="display:grid;grid-template-columns:78mm 1fr;gap:3.4mm;align-items:start">
+  <div class="fig">{{svg:t_pos}}<div class="cap">$(x-1)^2+(y-2)^2=25$, $C=(1,2)$, $R^2=25$.</div></div>
+  <div>
+    <div class="box f sm"><span class="lb">Regra</span>$E(x,y)=(x-a)^2+(y-b)^2-R^2=d^2-R^2$<br>
+      $E<0$ interno · $E=0$ pertence · $E>0$ externo<br>
+      Comparar $d^2$ com $R^2$ <b>evita raízes</b>.</div>
+    <table class="t sm"><tr><th>Ponto</th><th>$d^2$</th><th>vs $R^2=25$</th><th>Posição</th></tr>
+    <tr><td>$P(4,6)$</td><td>$3^2+4^2=25$</td><td>$=$</td><td><b>pertence</b></td></tr>
+    <tr><td>$Q(1,5)$</td><td>$0^2+3^2=9$</td><td>$<$</td><td><b>interno</b></td></tr>
+    <tr><td>$R(7,2)$</td><td>$6^2+0^2=36$</td><td>$>$</td><td><b>externo</b></td></tr></table>
+    <div class="box v sm" style="margin-top:2mm"><span class="lb">Sem completar quadrados</span>Na forma geral, substitua direto: $x^2+y^2-6x+4y-3$ em $(1,-1)$ vale $1+1-6-4-3=-11<0$ ⇒ <b>interno</b> ($d^2=5<16$ ✓).</div>
+  </div>
+</div>
+
+<h2 class="sec"><span class="n">3</span>Tangência aos eixos</h2>
+<div class="cols3">
+  <div class="box a sm"><span class="lb">Eixo $x$</span>Tangente ao eixo $x$ ⇔ $R=|b|$ (distância do centro ao eixo é $|y_0|$).</div>
+  <div class="box a sm"><span class="lb">Eixo $y$</span>Tangente ao eixo $y$ ⇔ $R=|a|$.</div>
+  <div class="box v sm"><span class="lb">Exemplo</span>$C=(3,-2)$: $R=3$ toca o eixo $y$ em $(0,-2)$; $R=2$ toca o eixo $x$ em $(3,0)$.</div>
+</div>
+
+<h2 class="sec"><span class="n">4</span>Montar a equação a partir de condições geométricas</h2>
+<div class="cols3">
+  <div class="box r sm"><span class="lb">Diâmetro $AB$</span>$C=M_{AB}$ e $R=\tfrac{AB}{2}$. Ex.: $A(-1,2)$, $B(5,6)$: $C=(2,4)$, $R^2=\tfrac{36+16}{4}=13$ ⇒ $(x-2)^2+(y-4)^2=13$.</div>
+  <div class="box r sm"><span class="lb">Passa por $P$, centro $C$</span>$R=d(C,P)$. Ex.: $C(1,-1)$, $P(4,3)$: $R^2=3^2+4^2=25$ ⇒ $(x-1)^2+(y+1)^2=25$.</div>
+  <div class="box r sm"><span class="lb">Tangente a uma reta</span>$R=d(C,\text{reta})$ (exercício C7 e C8). Ex.: $C(2,1)$ e $3x-4y+8=0$ ⇒ $R=2$.</div>
+</div>

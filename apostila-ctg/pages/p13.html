@@ -1,0 +1,35 @@
+<section class="q">
+ <div class="qh"><span class="qn">C7</span><span class="qt">As duas tangentes por um ponto externo</span><span class="lv">Avançado PAS ●●●</span><span class="org">inventário NotebookLM (sem banca atribuída)</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine as equações das retas tangentes à circunferência $(x-6)^2+(y-1)^2=9$ que passam pelo ponto $P=(0,4)$.</p></div>
+  <div class="qg" style="grid-template-columns:1fr 84mm">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> De um ponto externo saem <b>duas</b> tangentes, e cada uma está a distância $R$ do centro. <b class="k">Método.</b> Feixe de retas por $P$ + condição $d(C,r)=R$.</div>
+    <ol class="st">
+     <li><b>Centro e raio:</b> $C=(6,1)$, $R=3$.</li>
+     <li><b>$P$ é externo?</b> $CP^2=(6-0)^2+(1-4)^2=45>9=R^2$ ✓ — logo há duas tangentes.</li>
+     <li><b>Feixe por $P$:</b> $y-4=m(x-0)\ \Rightarrow\ mx-y+4=0$.</li>
+     <li><b>Tangência $d(C,r)=R$:</b> $\dfrac{|6m-1+4|}{\sqrt{m^2+1}}=3\ \Rightarrow\ |6m+3|=3\sqrt{m^2+1}$.</li>
+     <li><b>Eleve ao quadrado:</b> $36m^2+36m+9=9m^2+9\ \Rightarrow\ 27m^2+36m=0\ \Rightarrow\ 9m(3m+4)=0$. Logo $m=0$ ou $m=-\tfrac43$.</li>
+     <li><b>Retas:</b> $m=0\Rightarrow\ y=4$ · $\ m=-\tfrac43\Rightarrow\ y-4=-\tfrac43x\Rightarrow\ 4x+3y-12=0$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $\boxed{y=4}$ e $\boxed{4x+3y-12=0}$</div>
+   </div>
+   <div class="fig">{{svg:c7}}<div class="cap">Roxo: raios até os pontos de tangência $T_1(6,4)$ e $T_2(3{,}6;-0{,}8)$, perpendiculares às tangentes (verde).</div></div>
+  </div>
+  <div class="ver" style="margin-top:1.4mm"><span class="k">Verificação das duas</span> Passam por $P$ ✓ ($4=4$; $0+12-12=0$). $d(C,y=4)=|1-4|=3$ ✓; $d(C,4x+3y-12=0)=\tfrac{|24+3-12|}{5}=3$ ✓. Elevar ao quadrado pode criar raízes falsas — aqui as duas passaram no teste. <b>Conferência extra:</b> os dois segmentos de tangente têm o mesmo comprimento $\sqrt{CP^2-R^2}=\sqrt{36}=6$: $|PT_1|=6$ e $|PT_2|=\sqrt{3{,}6^2+4{,}8^2}=6$ ✓.</div>
+  <div class="arm"><span class="k">Cuidado</span> O feixe $y-y_P=m(x-x_P)$ <b>não contém retas verticais</b>. Antes de concluir, teste $x=x_P$: aqui $x=0$ está a distância $|6-0|=6>3$ do centro, então <b>não</b> é tangente — por isso as duas soluções $m=0$ e $m=-\tfrac43$ são todas. Em outro problema, a vertical pode ser a tangente que “falta”.</div>
+ </div>
+</section>
+
+<div class="box n" style="margin:0"><span class="lb">Roteiro para qualquer tangente por ponto externo</span>
+<div class="flow sm" style="margin-top:1.2mm"><div><b>1</b> centro, raio e $P$ externo?</div><i>→</i><div><b>2</b> feixe $mx-y+(y_P-mx_P)=0$</div><i>→</i><div><b>3</b> $d(C,r)=R$</div><i>→</i><div><b>4</b> resolver em $m$</div><i>→</i><div><b>5</b> testar $x=x_P$ e conferir</div></div></div>
+<div class="cols2" style="margin:0">
+ <div class="box a"><span class="lb">Quantas tangentes por $P$?</span>
+  <table class="t sm" style="margin-top:1mm"><tr><th>$d(P,C)$ × $R$</th><th>$P$ está…</th><th>Tangentes</th></tr>
+  <tr><td>$d>R$</td><td>fora</td><td><b>duas</b> (feixe + $d(C,r)=R$)</td></tr>
+  <tr><td>$d=R$</td><td>na circunferência</td><td><b>uma</b> (raio ⊥ tangente, C5)</td></tr>
+  <tr><td>$d<R$</td><td>dentro</td><td><b>nenhuma</b></td></tr></table></div>
+ <div class="box l"><span class="lb">Por que $27m^2+36m=0$ é “barato”</span>
+  O termo constante $9$ <b>cancelou</b> ($9=9$). Quando isso acontece, a equação fatora sem Bhaskara: $9m(3m+4)=0$. Se não fatorar fácil, use $\Delta$ <i>da equação em $m$</i> — mas só depois de simplificar.</div>
+</div>

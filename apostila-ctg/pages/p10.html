@@ -1,0 +1,43 @@
+<section class="q">
+ <div class="qh"><span class="qn">C1</span><span class="qt">Forma reduzida: centro, raio e pontos extremos</span><span class="lv">Básico ●○○</span><span class="org">autoral</span></div>
+ <div class="qb">
+  <div class="enun"><p>Considere a circunferência $(x-2)^2+(y+3)^2=16$. Determine o centro, o raio e os pontos de maior e menor abscissa e de maior e menor ordenada.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Na forma reduzida, centro e raio estão “escritos”. Os pontos extremos ficam a uma distância $R$ do centro, na horizontal ou na vertical. <b class="k">Método.</b> Comparar com $(x-a)^2+(y-b)^2=R^2$ e caminhar $R$ a partir de $C$.</div>
+    <ol class="st">
+     <li><b>Centro.</b> $x-2\Rightarrow a=2$; $\ y+3=y-(-3)\Rightarrow b=-3$. Logo $\rx{C=(2,-3)}$.</li>
+     <li><b>Raio.</b> $R^2=16\Rightarrow\rx{R=4}$ (e não $16$).</li>
+     <li><b>Abscissas extremas</b> ($y=-3$): $x=2\pm4$, isto é, $6$ e $-2$: $(6,-3)$ e $(-2,-3)$.</li>
+     <li><b>Ordenadas extremas</b> ($x=2$): $y=-3\pm4$, isto é, $1$ e $-7$: $(2,1)$ e $(2,-7)$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $C=(2,-3)$ · $R=4$ · extremos $(6,-3),\ (-2,-3),\ (2,1),\ (2,-7)$</div>
+    <div class="ver"><span class="k">Verificação</span> $(6-2)^2+(-3+3)^2=16$ ✓ · $(2-2)^2+(1+3)^2=16$ ✓ · $(2,-7)$: $0+(-4)^2=16$ ✓. Todo extremo está a distância $4$ do centro.</div>
+    <div class="arm"><span class="k">Armadilha</span> Ler $y_C=+3$ (o sinal da equação é o contrário do centro) ou $R=16$: todos os extremos sairiam errados.</div>
+   </div>
+   <div class="fig">{{svg:c1}}<div class="cap">Centro e raio em <b style="color:var(--rx)">roxo</b>; pontos extremos em verde.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="q">
+ <div class="qh"><span class="qn">C2</span><span class="qt">Forma geral → reduzida (completar quadrados)</span><span class="lv">Básico ●○○</span><span class="org">autoral</span></div>
+ <div class="qb">
+  <div class="enun"><p>Determine o centro e o raio da circunferência $x^2+y^2-6x+4y-3=0$ e escreva sua equação reduzida.</p></div>
+  <div class="qg">
+   <div>
+    <div class="antes"><b class="k">Ideia geométrica.</b> Transformar $x^2-6x$ e $y^2+4y$ em quadrados perfeitos revela $(x-a)^2+(y-b)^2=R^2$. <b class="k">Método.</b> Completar quadrados; o atalho do centro serve de conferência.</div>
+    <ol class="st">
+     <li><b>Agrupe:</b> $(x^2-6x)+(y^2+4y)=3$.</li>
+     <li><b>Metade do coeficiente, ao quadrado:</b> em $x$: $\tfrac{-6}2=-3\to\lj{9}$; em $y$: $\tfrac42=2\to\lj{4}$.</li>
+     <li><b>Some aos dois membros:</b> $(x^2-6x+\lj9)+(y^2+4y+\lj4)=3+\lj9+\lj4$.</li>
+     <li><b>Fatore:</b> $\boxed{(x-3)^2+(y+2)^2=16}$, logo $\rx{C=(3,-2)}$ e $\rx{R=4}$.</li>
+    </ol>
+    <div class="res"><span class="k">Resposta</span> $(x-3)^2+(y+2)^2=16$ · $C=(3,-2)$ · $R=4$</div>
+    <div class="ver"><span class="k">Verificação (atalho)</span> $x_0=-\tfrac A2=-\tfrac{-6}{2}=3$, $y_0=-\tfrac B2=-\tfrac42=-2$, $R^2=x_0^2+y_0^2-D=9+4+3=16$ ✓. E desenvolvendo: $(x-3)^2+(y+2)^2-16=x^2+y^2-6x+4y-3$ ✓.</div>
+    <div class="arm"><span class="k">Armadilha</span> Somar $9$ e $4$ só no 1º membro, ou concluir $C=(3,2)$: o termo $+4y$ gera $(y+2)^2$, centro em $y=-2$.</div>
+   </div>
+   <div class="fig">{{svg:c2}}<div class="cap">$C=(3,-2)$, $R=4$. Pontos em roxo: encontros com as horizontais/verticais pelo centro.</div></div>
+  </div>
+ </div>
+</section>
